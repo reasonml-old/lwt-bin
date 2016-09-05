@@ -1,0 +1,1406 @@
+"src/unix/lwt_chan.ml" 30 1133 1137 "src/unix/lwt_chan.ml" 30 1133 1156
+type(
+  Lwt_unix.file_descr -> Lwt_io.input Lwt_io.channel
+)
+ident(
+  def in_channel_of_descr "src/unix/lwt_chan.ml" 32 1198 1198 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 30 1133 1157 "src/unix/lwt_chan.ml" 30 1133 1159
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_chan.ml" 30 1133 1162 "src/unix/lwt_chan.ml" 30 1133 1196
+)
+"src/unix/lwt_chan.ml" 30 1133 1162 "src/unix/lwt_chan.ml" 30 1133 1174
+type(
+  ?buffer:Lwt_bytes.t ->
+  ?close:(unit -> unit Lwt.t) ->
+  mode:Lwt_io.input Lwt_io.mode ->
+  Lwt_unix.file_descr -> Lwt_io.input Lwt_io.channel
+)
+ident(
+  ext_ref Lwt_io.of_fd
+)
+"src/unix/lwt_chan.ml" 30 1133 1181 "src/unix/lwt_chan.ml" 30 1133 1193
+type(
+  Lwt_io.input Lwt_io.mode
+)
+ident(
+  ext_ref Lwt_io.input
+)
+"src/unix/lwt_chan.ml" 30 1133 1194 "src/unix/lwt_chan.ml" 30 1133 1196
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_chan.ml" 30 1133 1157 "src/unix/lwt_chan.ml" 30 1133 1159
+)
+"src/unix/lwt_chan.ml" 30 1133 1162 "src/unix/lwt_chan.ml" 30 1133 1196
+call(
+  tail
+)
+type(
+  Lwt_io.input Lwt_io.channel
+)
+"src/unix/lwt_chan.ml" 32 1198 1202 "src/unix/lwt_chan.ml" 32 1198 1217
+type(
+  ?close:(unit -> unit Lwt.t) ->
+  (bytes -> int -> int -> int Lwt.t) -> Lwt_io.input Lwt_io.channel
+)
+ident(
+  def make_in_channel "src/unix/lwt_chan.ml" 40 1458 1458 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 32 1198 1219 "src/unix/lwt_chan.ml" 32 1198 1224
+type(
+  (unit -> unit Lwt.t) option
+)
+ident(
+  def close "src/unix/lwt_chan.ml" 32 1198 1225 "src/unix/lwt_chan.ml" 38 1436 1456
+)
+"src/unix/lwt_chan.ml" 32 1198 1225 "src/unix/lwt_chan.ml" 32 1198 1229
+type(
+  bytes -> int -> int -> int Lwt.t
+)
+ident(
+  def read "src/unix/lwt_chan.ml" 33 1232 1234 "src/unix/lwt_chan.ml" 38 1436 1456
+)
+"src/unix/lwt_chan.ml" 33 1232 1234 "src/unix/lwt_chan.ml" 33 1232 1245
+type(
+  ?buffer:Lwt_bytes.t ->
+  ?close:(unit -> unit Lwt.t) ->
+  ?seek:(int64 -> Unix.seek_command -> int64 Lwt.t) ->
+  mode:Lwt_io.input Lwt_io.mode ->
+  (Lwt_bytes.t -> int -> int -> int Lwt.t) -> Lwt_io.input Lwt_io.channel
+)
+ident(
+  ext_ref Lwt_io.make
+)
+"src/unix/lwt_chan.ml" 33 1232 1252 "src/unix/lwt_chan.ml" 33 1232 1264
+type(
+  Lwt_io.input Lwt_io.mode
+)
+ident(
+  ext_ref Lwt_io.input
+)
+"src/unix/lwt_chan.ml" 33 1232 1266 "src/unix/lwt_chan.ml" 33 1232 1271
+type(
+  (unit -> unit Lwt.t) option
+)
+ident(
+  int_ref close "src/unix/lwt_chan.ml" 32 1198 1219 "src/unix/lwt_chan.ml" 32 1198 1224
+)
+"src/unix/lwt_chan.ml" 34 1272 1281 "src/unix/lwt_chan.ml" 34 1272 1284
+type(
+  Lwt_bytes.t
+)
+ident(
+  def buf "src/unix/lwt_chan.ml" 34 1272 1285 "src/unix/lwt_chan.ml" 38 1436 1455
+)
+"src/unix/lwt_chan.ml" 34 1272 1285 "src/unix/lwt_chan.ml" 34 1272 1288
+type(
+  int
+)
+ident(
+  def ofs "src/unix/lwt_chan.ml" 34 1272 1289 "src/unix/lwt_chan.ml" 38 1436 1455
+)
+"src/unix/lwt_chan.ml" 34 1272 1289 "src/unix/lwt_chan.ml" 34 1272 1292
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_chan.ml" 35 1296 1303 "src/unix/lwt_chan.ml" 38 1436 1455
+)
+"src/unix/lwt_chan.ml" 35 1296 1307 "src/unix/lwt_chan.ml" 35 1296 1310
+type(
+  bytes
+)
+ident(
+  def str "src/unix/lwt_chan.ml" 36 1333 1340 "src/unix/lwt_chan.ml" 38 1436 1455
+)
+"src/unix/lwt_chan.ml" 35 1296 1313 "src/unix/lwt_chan.ml" 35 1296 1325
+type(
+  int -> bytes
+)
+ident(
+  ext_ref Bytes.create
+)
+"src/unix/lwt_chan.ml" 35 1296 1326 "src/unix/lwt_chan.ml" 35 1296 1329
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_chan.ml" 34 1272 1289 "src/unix/lwt_chan.ml" 34 1272 1292
+)
+"src/unix/lwt_chan.ml" 35 1296 1313 "src/unix/lwt_chan.ml" 35 1296 1329
+type(
+  bytes
+)
+"src/unix/lwt_chan.ml" 36 1333 1340 "src/unix/lwt_chan.ml" 36 1333 1344
+type(
+  bytes -> int -> int -> int Lwt.t
+)
+ident(
+  int_ref read "src/unix/lwt_chan.ml" 32 1198 1225 "src/unix/lwt_chan.ml" 32 1198 1229
+)
+"src/unix/lwt_chan.ml" 36 1333 1345 "src/unix/lwt_chan.ml" 36 1333 1348
+type(
+  bytes
+)
+ident(
+  int_ref str "src/unix/lwt_chan.ml" 35 1296 1307 "src/unix/lwt_chan.ml" 35 1296 1310
+)
+"src/unix/lwt_chan.ml" 36 1333 1349 "src/unix/lwt_chan.ml" 36 1333 1350
+type(
+  int
+)
+"src/unix/lwt_chan.ml" 36 1333 1351 "src/unix/lwt_chan.ml" 36 1333 1354
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_chan.ml" 34 1272 1289 "src/unix/lwt_chan.ml" 34 1272 1292
+)
+"src/unix/lwt_chan.ml" 36 1333 1340 "src/unix/lwt_chan.ml" 36 1333 1354
+call(
+  stack
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_chan.ml" 36 1333 1355 "src/unix/lwt_chan.ml" 36 1333 1358
+type(
+  int Lwt.t -> (int -> int Lwt.t) -> int Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_chan.ml" 36 1333 1363 "src/unix/lwt_chan.ml" 36 1333 1364
+type(
+  int
+)
+ident(
+  def n "src/unix/lwt_chan.ml" 37 1368 1375 "src/unix/lwt_chan.ml" 38 1436 1455
+)
+"src/unix/lwt_chan.ml" 37 1368 1379 "src/unix/lwt_chan.ml" 37 1368 1380
+type(
+  int
+)
+ident(
+  int_ref n "src/unix/lwt_chan.ml" 36 1333 1363 "src/unix/lwt_chan.ml" 36 1333 1364
+)
+"src/unix/lwt_chan.ml" 37 1368 1381 "src/unix/lwt_chan.ml" 37 1368 1382
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_chan.ml" 37 1368 1383 "src/unix/lwt_chan.ml" 37 1368 1384
+type(
+  int
+)
+"src/unix/lwt_chan.ml" 37 1368 1378 "src/unix/lwt_chan.ml" 37 1368 1385
+type(
+  bool
+)
+"src/unix/lwt_chan.ml" 37 1368 1391 "src/unix/lwt_chan.ml" 37 1368 1416
+type(
+  Bytes.t -> int -> Lwt_bytes.t -> int -> int -> unit
+)
+ident(
+  ext_ref Lwt_bytes.blit_from_bytes
+)
+"src/unix/lwt_chan.ml" 37 1368 1417 "src/unix/lwt_chan.ml" 37 1368 1420
+type(
+  Bytes.t
+)
+ident(
+  int_ref str "src/unix/lwt_chan.ml" 35 1296 1307 "src/unix/lwt_chan.ml" 35 1296 1310
+)
+"src/unix/lwt_chan.ml" 37 1368 1421 "src/unix/lwt_chan.ml" 37 1368 1422
+type(
+  int
+)
+"src/unix/lwt_chan.ml" 37 1368 1423 "src/unix/lwt_chan.ml" 37 1368 1426
+type(
+  Lwt_bytes.t
+)
+ident(
+  int_ref buf "src/unix/lwt_chan.ml" 34 1272 1281 "src/unix/lwt_chan.ml" 34 1272 1284
+)
+"src/unix/lwt_chan.ml" 37 1368 1427 "src/unix/lwt_chan.ml" 37 1368 1430
+type(
+  int
+)
+ident(
+  int_ref ofs "src/unix/lwt_chan.ml" 34 1272 1285 "src/unix/lwt_chan.ml" 34 1272 1288
+)
+"src/unix/lwt_chan.ml" 37 1368 1431 "src/unix/lwt_chan.ml" 37 1368 1434
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_chan.ml" 34 1272 1289 "src/unix/lwt_chan.ml" 34 1272 1292
+)
+"src/unix/lwt_chan.ml" 37 1368 1391 "src/unix/lwt_chan.ml" 37 1368 1434
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_chan.ml" 37 1368 1375 "src/unix/lwt_chan.ml" 37 1368 1434
+type(
+  unit
+)
+"src/unix/lwt_chan.ml" 38 1436 1443 "src/unix/lwt_chan.ml" 38 1436 1453
+type(
+  int -> int Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/unix/lwt_chan.ml" 38 1436 1454 "src/unix/lwt_chan.ml" 38 1436 1455
+type(
+  int
+)
+ident(
+  int_ref n "src/unix/lwt_chan.ml" 36 1333 1363 "src/unix/lwt_chan.ml" 36 1333 1364
+)
+"src/unix/lwt_chan.ml" 38 1436 1443 "src/unix/lwt_chan.ml" 38 1436 1455
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_chan.ml" 37 1368 1375 "src/unix/lwt_chan.ml" 38 1436 1455
+type(
+  int Lwt.t
+)
+"src/unix/lwt_chan.ml" 36 1333 1359 "src/unix/lwt_chan.ml" 38 1436 1455
+type(
+  int -> int Lwt.t
+)
+"src/unix/lwt_chan.ml" 36 1333 1340 "src/unix/lwt_chan.ml" 38 1436 1455
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_chan.ml" 35 1296 1303 "src/unix/lwt_chan.ml" 38 1436 1455
+type(
+  int Lwt.t
+)
+"src/unix/lwt_chan.ml" 34 1272 1276 "src/unix/lwt_chan.ml" 38 1436 1456
+type(
+  Lwt_bytes.t -> int -> int -> int Lwt.t
+)
+"src/unix/lwt_chan.ml" 33 1232 1234 "src/unix/lwt_chan.ml" 38 1436 1456
+call(
+  tail
+)
+type(
+  Lwt_io.input Lwt_io.channel
+)
+"src/unix/lwt_chan.ml" 40 1458 1462 "src/unix/lwt_chan.ml" 40 1458 1472
+type(
+  Lwt_io.input_channel -> string Lwt.t
+)
+ident(
+  def input_line "src/unix/lwt_chan.ml" 59 1925 1925 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 40 1458 1473 "src/unix/lwt_chan.ml" 40 1458 1475
+type(
+  Lwt_io.input_channel
+)
+ident(
+  def ic "src/unix/lwt_chan.ml" 41 1478 1480 "src/unix/lwt_chan.ml" 57 1895 1923
+)
+"src/unix/lwt_chan.ml" 41 1478 1488 "src/unix/lwt_chan.ml" 41 1478 1492
+type(
+  Buffer.t -> string Lwt.t
+)
+ident(
+  def loop "src/unix/lwt_chan.ml" 41 1478 1480 "src/unix/lwt_chan.ml" 57 1895 1923
+)
+"src/unix/lwt_chan.ml" 41 1478 1493 "src/unix/lwt_chan.ml" 41 1478 1496
+type(
+  Buffer.t
+)
+ident(
+  def buf "src/unix/lwt_chan.ml" 42 1499 1503 "src/unix/lwt_chan.ml" 47 1668 1686
+)
+"src/unix/lwt_chan.ml" 42 1499 1503 "src/unix/lwt_chan.ml" 42 1499 1523
+type(
+  Lwt_io.input_channel -> char option Lwt.t
+)
+ident(
+  ext_ref Lwt_io.read_char_opt
+)
+"src/unix/lwt_chan.ml" 42 1499 1524 "src/unix/lwt_chan.ml" 42 1499 1526
+type(
+  Lwt_io.input_channel
+)
+ident(
+  int_ref ic "src/unix/lwt_chan.ml" 40 1458 1473 "src/unix/lwt_chan.ml" 40 1458 1475
+)
+"src/unix/lwt_chan.ml" 42 1499 1503 "src/unix/lwt_chan.ml" 42 1499 1526
+call(
+  stack
+)
+type(
+  char option Lwt.t
+)
+"src/unix/lwt_chan.ml" 42 1499 1527 "src/unix/lwt_chan.ml" 42 1499 1530
+type(
+  char option Lwt.t -> (char option -> string Lwt.t) -> string Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_chan.ml" 43 1540 1548 "src/unix/lwt_chan.ml" 43 1540 1552
+type(
+  char option
+)
+"src/unix/lwt_chan.ml" 43 1540 1560 "src/unix/lwt_chan.ml" 43 1540 1564
+type(
+  char
+)
+"src/unix/lwt_chan.ml" 43 1540 1555 "src/unix/lwt_chan.ml" 43 1540 1564
+type(
+  char option
+)
+"src/unix/lwt_chan.ml" 43 1540 1548 "src/unix/lwt_chan.ml" 43 1540 1564
+type(
+  char option
+)
+"src/unix/lwt_chan.ml" 44 1568 1578 "src/unix/lwt_chan.ml" 44 1568 1588
+type(
+  string -> string Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/unix/lwt_chan.ml" 44 1568 1590 "src/unix/lwt_chan.ml" 44 1568 1605
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/unix/lwt_chan.ml" 44 1568 1606 "src/unix/lwt_chan.ml" 44 1568 1609
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_chan.ml" 41 1478 1493 "src/unix/lwt_chan.ml" 41 1478 1496
+)
+"src/unix/lwt_chan.ml" 44 1568 1589 "src/unix/lwt_chan.ml" 44 1568 1610
+call(
+  stack
+)
+type(
+  string
+)
+"src/unix/lwt_chan.ml" 44 1568 1578 "src/unix/lwt_chan.ml" 44 1568 1610
+call(
+  tail
+)
+type(
+  string Lwt.t
+)
+"src/unix/lwt_chan.ml" 45 1611 1624 "src/unix/lwt_chan.ml" 45 1611 1628
+type(
+  char
+)
+ident(
+  def char "src/unix/lwt_chan.ml" 46 1632 1642 "src/unix/lwt_chan.ml" 47 1668 1686
+)
+"src/unix/lwt_chan.ml" 45 1611 1619 "src/unix/lwt_chan.ml" 45 1611 1628
+type(
+  char option
+)
+"src/unix/lwt_chan.ml" 46 1632 1642 "src/unix/lwt_chan.ml" 46 1632 1657
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/unix/lwt_chan.ml" 46 1632 1658 "src/unix/lwt_chan.ml" 46 1632 1661
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_chan.ml" 41 1478 1493 "src/unix/lwt_chan.ml" 41 1478 1496
+)
+"src/unix/lwt_chan.ml" 46 1632 1662 "src/unix/lwt_chan.ml" 46 1632 1666
+type(
+  char
+)
+ident(
+  int_ref char "src/unix/lwt_chan.ml" 45 1611 1624 "src/unix/lwt_chan.ml" 45 1611 1628
+)
+"src/unix/lwt_chan.ml" 46 1632 1642 "src/unix/lwt_chan.ml" 46 1632 1666
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_chan.ml" 47 1668 1678 "src/unix/lwt_chan.ml" 47 1668 1682
+type(
+  Buffer.t -> string Lwt.t
+)
+ident(
+  int_ref loop "src/unix/lwt_chan.ml" 41 1478 1488 "src/unix/lwt_chan.ml" 41 1478 1492
+)
+"src/unix/lwt_chan.ml" 47 1668 1683 "src/unix/lwt_chan.ml" 47 1668 1686
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_chan.ml" 41 1478 1493 "src/unix/lwt_chan.ml" 41 1478 1496
+)
+"src/unix/lwt_chan.ml" 47 1668 1678 "src/unix/lwt_chan.ml" 47 1668 1686
+call(
+  tail
+)
+type(
+  string Lwt.t
+)
+"src/unix/lwt_chan.ml" 46 1632 1642 "src/unix/lwt_chan.ml" 47 1668 1686
+type(
+  string Lwt.t
+)
+"src/unix/lwt_chan.ml" 42 1499 1531 "src/unix/lwt_chan.ml" 47 1668 1686
+type(
+  char option -> string Lwt.t
+)
+"src/unix/lwt_chan.ml" 42 1499 1503 "src/unix/lwt_chan.ml" 47 1668 1686
+call(
+  tail
+)
+type(
+  string Lwt.t
+)
+"src/unix/lwt_chan.ml" 49 1692 1694 "src/unix/lwt_chan.ml" 49 1692 1714
+type(
+  Lwt_io.input_channel -> char option Lwt.t
+)
+ident(
+  ext_ref Lwt_io.read_char_opt
+)
+"src/unix/lwt_chan.ml" 49 1692 1715 "src/unix/lwt_chan.ml" 49 1692 1717
+type(
+  Lwt_io.input_channel
+)
+ident(
+  int_ref ic "src/unix/lwt_chan.ml" 40 1458 1473 "src/unix/lwt_chan.ml" 40 1458 1475
+)
+"src/unix/lwt_chan.ml" 49 1692 1694 "src/unix/lwt_chan.ml" 49 1692 1717
+call(
+  stack
+)
+type(
+  char option Lwt.t
+)
+"src/unix/lwt_chan.ml" 49 1692 1718 "src/unix/lwt_chan.ml" 49 1692 1721
+type(
+  char option Lwt.t -> (char option -> string Lwt.t) -> string Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_chan.ml" 50 1731 1742 "src/unix/lwt_chan.ml" 50 1731 1746
+type(
+  char
+)
+"src/unix/lwt_chan.ml" 50 1731 1737 "src/unix/lwt_chan.ml" 50 1731 1746
+type(
+  char option
+)
+"src/unix/lwt_chan.ml" 51 1750 1758 "src/unix/lwt_chan.ml" 51 1750 1768
+type(
+  string -> string Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/unix/lwt_chan.ml" 51 1750 1769 "src/unix/lwt_chan.ml" 51 1750 1771
+type(
+  string
+)
+"src/unix/lwt_chan.ml" 51 1750 1758 "src/unix/lwt_chan.ml" 51 1750 1771
+call(
+  tail
+)
+type(
+  string Lwt.t
+)
+"src/unix/lwt_chan.ml" 52 1772 1783 "src/unix/lwt_chan.ml" 52 1772 1787
+type(
+  char
+)
+ident(
+  def char "src/unix/lwt_chan.ml" 53 1791 1799 "src/unix/lwt_chan.ml" 55 1864 1880
+)
+"src/unix/lwt_chan.ml" 52 1772 1778 "src/unix/lwt_chan.ml" 52 1772 1787
+type(
+  char option
+)
+"src/unix/lwt_chan.ml" 53 1791 1803 "src/unix/lwt_chan.ml" 53 1791 1806
+type(
+  Buffer.t
+)
+ident(
+  def buf "src/unix/lwt_chan.ml" 54 1830 1838 "src/unix/lwt_chan.ml" 55 1864 1880
+)
+"src/unix/lwt_chan.ml" 53 1791 1809 "src/unix/lwt_chan.ml" 53 1791 1822
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"src/unix/lwt_chan.ml" 53 1791 1823 "src/unix/lwt_chan.ml" 53 1791 1826
+type(
+  int
+)
+"src/unix/lwt_chan.ml" 53 1791 1809 "src/unix/lwt_chan.ml" 53 1791 1826
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"src/unix/lwt_chan.ml" 54 1830 1838 "src/unix/lwt_chan.ml" 54 1830 1853
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/unix/lwt_chan.ml" 54 1830 1854 "src/unix/lwt_chan.ml" 54 1830 1857
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_chan.ml" 53 1791 1803 "src/unix/lwt_chan.ml" 53 1791 1806
+)
+"src/unix/lwt_chan.ml" 54 1830 1858 "src/unix/lwt_chan.ml" 54 1830 1862
+type(
+  char
+)
+ident(
+  int_ref char "src/unix/lwt_chan.ml" 52 1772 1783 "src/unix/lwt_chan.ml" 52 1772 1787
+)
+"src/unix/lwt_chan.ml" 54 1830 1838 "src/unix/lwt_chan.ml" 54 1830 1862
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_chan.ml" 55 1864 1872 "src/unix/lwt_chan.ml" 55 1864 1876
+type(
+  Buffer.t -> string Lwt.t
+)
+ident(
+  int_ref loop "src/unix/lwt_chan.ml" 41 1478 1488 "src/unix/lwt_chan.ml" 41 1478 1492
+)
+"src/unix/lwt_chan.ml" 55 1864 1877 "src/unix/lwt_chan.ml" 55 1864 1880
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_chan.ml" 53 1791 1803 "src/unix/lwt_chan.ml" 53 1791 1806
+)
+"src/unix/lwt_chan.ml" 55 1864 1872 "src/unix/lwt_chan.ml" 55 1864 1880
+call(
+  tail
+)
+type(
+  string Lwt.t
+)
+"src/unix/lwt_chan.ml" 54 1830 1838 "src/unix/lwt_chan.ml" 55 1864 1880
+type(
+  string Lwt.t
+)
+"src/unix/lwt_chan.ml" 53 1791 1799 "src/unix/lwt_chan.ml" 55 1864 1880
+type(
+  string Lwt.t
+)
+"src/unix/lwt_chan.ml" 56 1881 1887 "src/unix/lwt_chan.ml" 56 1881 1891
+type(
+  char option
+)
+"src/unix/lwt_chan.ml" 57 1895 1903 "src/unix/lwt_chan.ml" 57 1895 1911
+type(
+  exn -> string Lwt.t
+)
+ident(
+  ext_ref Lwt.fail
+)
+"src/unix/lwt_chan.ml" 57 1895 1912 "src/unix/lwt_chan.ml" 57 1895 1923
+type(
+  exn
+)
+"src/unix/lwt_chan.ml" 57 1895 1903 "src/unix/lwt_chan.ml" 57 1895 1923
+call(
+  tail
+)
+type(
+  string Lwt.t
+)
+"src/unix/lwt_chan.ml" 49 1692 1722 "src/unix/lwt_chan.ml" 57 1895 1923
+type(
+  char option -> string Lwt.t
+)
+"src/unix/lwt_chan.ml" 49 1692 1694 "src/unix/lwt_chan.ml" 57 1895 1923
+call(
+  tail
+)
+type(
+  string Lwt.t
+)
+"src/unix/lwt_chan.ml" 41 1478 1480 "src/unix/lwt_chan.ml" 57 1895 1923
+type(
+  string Lwt.t
+)
+"src/unix/lwt_chan.ml" 59 1925 1929 "src/unix/lwt_chan.ml" 59 1925 1940
+type(
+  Lwt_io.input_channel -> 'a Lwt.t
+)
+ident(
+  def input_value "src/unix/lwt_chan.ml" 60 1961 1961 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 59 1925 1943 "src/unix/lwt_chan.ml" 59 1925 1960
+type(
+  Lwt_io.input_channel -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt_io.read_value
+)
+"src/unix/lwt_chan.ml" 60 1961 1965 "src/unix/lwt_chan.ml" 60 1961 1970
+type(
+  Lwt_io.input_channel -> Bytes.t -> int -> int -> int Lwt.t
+)
+ident(
+  def input "src/unix/lwt_chan.ml" 61 1990 1990 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 60 1961 1973 "src/unix/lwt_chan.ml" 60 1961 1989
+type(
+  Lwt_io.input_channel -> Bytes.t -> int -> int -> int Lwt.t
+)
+ident(
+  ext_ref Lwt_io.read_into
+)
+"src/unix/lwt_chan.ml" 61 1990 1994 "src/unix/lwt_chan.ml" 61 1990 2006
+type(
+  Lwt_io.input_channel -> Bytes.t -> int -> int -> unit Lwt.t
+)
+ident(
+  def really_input "src/unix/lwt_chan.ml" 62 2034 2034 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 61 1990 2009 "src/unix/lwt_chan.ml" 61 1990 2033
+type(
+  Lwt_io.input_channel -> Bytes.t -> int -> int -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_io.read_into_exactly
+)
+"src/unix/lwt_chan.ml" 62 2034 2038 "src/unix/lwt_chan.ml" 62 2034 2048
+type(
+  Lwt_io.input_channel -> char Lwt.t
+)
+ident(
+  def input_char "src/unix/lwt_chan.ml" 63 2068 2068 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 62 2034 2051 "src/unix/lwt_chan.ml" 62 2034 2067
+type(
+  Lwt_io.input_channel -> char Lwt.t
+)
+ident(
+  ext_ref Lwt_io.read_char
+)
+"src/unix/lwt_chan.ml" 63 2068 2072 "src/unix/lwt_chan.ml" 63 2068 2088
+type(
+  Lwt_io.input_channel -> int Lwt.t
+)
+ident(
+  def input_binary_int "src/unix/lwt_chan.ml" 64 2110 2110 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 63 2068 2091 "src/unix/lwt_chan.ml" 63 2068 2109
+type(
+  Lwt_io.input_channel -> int Lwt.t
+)
+ident(
+  ext_ref Lwt_io.BE.read_int
+)
+"src/unix/lwt_chan.ml" 64 2110 2114 "src/unix/lwt_chan.ml" 64 2110 2125
+type(
+  Unix.open_flag list ->
+  Unix.file_perm -> Lwt_io.file_name -> Lwt_io.input Lwt_io.channel Lwt.t
+)
+ident(
+  def open_in_gen "src/unix/lwt_chan.ml" 65 2200 2200 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 64 2110 2126 "src/unix/lwt_chan.ml" 64 2110 2131
+type(
+  Unix.open_flag list
+)
+ident(
+  def flags "src/unix/lwt_chan.ml" 64 2110 2132 "src/unix/lwt_chan.ml" 64 2110 2199
+)
+"src/unix/lwt_chan.ml" 64 2110 2132 "src/unix/lwt_chan.ml" 64 2110 2136
+type(
+  Unix.file_perm
+)
+ident(
+  def perm "src/unix/lwt_chan.ml" 64 2110 2137 "src/unix/lwt_chan.ml" 64 2110 2199
+)
+"src/unix/lwt_chan.ml" 64 2110 2137 "src/unix/lwt_chan.ml" 64 2110 2142
+type(
+  Lwt_io.file_name
+)
+ident(
+  def fname "src/unix/lwt_chan.ml" 64 2110 2145 "src/unix/lwt_chan.ml" 64 2110 2199
+)
+"src/unix/lwt_chan.ml" 64 2110 2145 "src/unix/lwt_chan.ml" 64 2110 2161
+type(
+  ?buffer:Lwt_bytes.t ->
+  ?flags:Unix.open_flag list ->
+  ?perm:Unix.file_perm ->
+  mode:Lwt_io.input Lwt_io.mode ->
+  Lwt_io.file_name -> Lwt_io.input Lwt_io.channel Lwt.t
+)
+ident(
+  ext_ref Lwt_io.open_file
+)
+"src/unix/lwt_chan.ml" 64 2110 2163 "src/unix/lwt_chan.ml" 64 2110 2168
+type(
+  Unix.open_flag list
+)
+ident(
+  int_ref flags "src/unix/lwt_chan.ml" 64 2110 2126 "src/unix/lwt_chan.ml" 64 2110 2131
+)
+"src/unix/lwt_chan.ml" 64 2110 2170 "src/unix/lwt_chan.ml" 64 2110 2174
+type(
+  Unix.file_perm
+)
+ident(
+  int_ref perm "src/unix/lwt_chan.ml" 64 2110 2132 "src/unix/lwt_chan.ml" 64 2110 2136
+)
+"src/unix/lwt_chan.ml" 64 2110 2181 "src/unix/lwt_chan.ml" 64 2110 2193
+type(
+  Lwt_io.input Lwt_io.mode
+)
+ident(
+  ext_ref Lwt_io.input
+)
+"src/unix/lwt_chan.ml" 64 2110 2194 "src/unix/lwt_chan.ml" 64 2110 2199
+type(
+  Lwt_io.file_name
+)
+ident(
+  int_ref fname "src/unix/lwt_chan.ml" 64 2110 2137 "src/unix/lwt_chan.ml" 64 2110 2142
+)
+"src/unix/lwt_chan.ml" 64 2110 2145 "src/unix/lwt_chan.ml" 64 2110 2199
+call(
+  tail
+)
+type(
+  Lwt_io.input Lwt_io.channel Lwt.t
+)
+"src/unix/lwt_chan.ml" 65 2200 2204 "src/unix/lwt_chan.ml" 65 2200 2211
+type(
+  Lwt_io.file_name -> Lwt_io.input Lwt_io.channel Lwt.t
+)
+ident(
+  def open_in "src/unix/lwt_chan.ml" 66 2262 2262 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 65 2200 2212 "src/unix/lwt_chan.ml" 65 2200 2217
+type(
+  Lwt_io.file_name
+)
+ident(
+  def fname "src/unix/lwt_chan.ml" 65 2200 2220 "src/unix/lwt_chan.ml" 65 2200 2261
+)
+"src/unix/lwt_chan.ml" 65 2200 2220 "src/unix/lwt_chan.ml" 65 2200 2236
+type(
+  ?buffer:Lwt_bytes.t ->
+  ?flags:Unix.open_flag list ->
+  ?perm:Unix.file_perm ->
+  mode:Lwt_io.input Lwt_io.mode ->
+  Lwt_io.file_name -> Lwt_io.input Lwt_io.channel Lwt.t
+)
+ident(
+  ext_ref Lwt_io.open_file
+)
+"src/unix/lwt_chan.ml" 65 2200 2243 "src/unix/lwt_chan.ml" 65 2200 2255
+type(
+  Lwt_io.input Lwt_io.mode
+)
+ident(
+  ext_ref Lwt_io.input
+)
+"src/unix/lwt_chan.ml" 65 2200 2256 "src/unix/lwt_chan.ml" 65 2200 2261
+type(
+  Lwt_io.file_name
+)
+ident(
+  int_ref fname "src/unix/lwt_chan.ml" 65 2200 2212 "src/unix/lwt_chan.ml" 65 2200 2217
+)
+"src/unix/lwt_chan.ml" 65 2200 2220 "src/unix/lwt_chan.ml" 65 2200 2261
+call(
+  tail
+)
+type(
+  Lwt_io.input Lwt_io.channel Lwt.t
+)
+"src/unix/lwt_chan.ml" 66 2262 2266 "src/unix/lwt_chan.ml" 66 2262 2274
+type(
+  'a Lwt_io.channel -> unit Lwt.t
+)
+ident(
+  def close_in "src/unix/lwt_chan.ml" 67 2290 2290 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 66 2262 2277 "src/unix/lwt_chan.ml" 66 2262 2289
+type(
+  'a Lwt_io.channel -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_io.close
+)
+"src/unix/lwt_chan.ml" 67 2290 2294 "src/unix/lwt_chan.ml" 67 2290 2314
+type(
+  Lwt_unix.file_descr -> Lwt_io.output Lwt_io.channel
+)
+ident(
+  def out_channel_of_descr "src/unix/lwt_chan.ml" 69 2357 2357 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 67 2290 2315 "src/unix/lwt_chan.ml" 67 2290 2317
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_chan.ml" 67 2290 2320 "src/unix/lwt_chan.ml" 67 2290 2355
+)
+"src/unix/lwt_chan.ml" 67 2290 2320 "src/unix/lwt_chan.ml" 67 2290 2332
+type(
+  ?buffer:Lwt_bytes.t ->
+  ?close:(unit -> unit Lwt.t) ->
+  mode:Lwt_io.output Lwt_io.mode ->
+  Lwt_unix.file_descr -> Lwt_io.output Lwt_io.channel
+)
+ident(
+  ext_ref Lwt_io.of_fd
+)
+"src/unix/lwt_chan.ml" 67 2290 2339 "src/unix/lwt_chan.ml" 67 2290 2352
+type(
+  Lwt_io.output Lwt_io.mode
+)
+ident(
+  ext_ref Lwt_io.output
+)
+"src/unix/lwt_chan.ml" 67 2290 2353 "src/unix/lwt_chan.ml" 67 2290 2355
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_chan.ml" 67 2290 2315 "src/unix/lwt_chan.ml" 67 2290 2317
+)
+"src/unix/lwt_chan.ml" 67 2290 2320 "src/unix/lwt_chan.ml" 67 2290 2355
+call(
+  tail
+)
+type(
+  Lwt_io.output Lwt_io.channel
+)
+"src/unix/lwt_chan.ml" 69 2357 2361 "src/unix/lwt_chan.ml" 69 2357 2377
+type(
+  ?close:(unit -> unit Lwt.t) ->
+  (bytes -> int -> int -> int Lwt.t) -> Lwt_io.output Lwt_io.channel
+)
+ident(
+  def make_out_channel "src/unix/lwt_chan.ml" 76 2570 2570 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 69 2357 2379 "src/unix/lwt_chan.ml" 69 2357 2384
+type(
+  (unit -> unit Lwt.t) option
+)
+ident(
+  def close "src/unix/lwt_chan.ml" 69 2357 2385 "src/unix/lwt_chan.ml" 74 2545 2568
+)
+"src/unix/lwt_chan.ml" 69 2357 2385 "src/unix/lwt_chan.ml" 69 2357 2390
+type(
+  bytes -> int -> int -> int Lwt.t
+)
+ident(
+  def write "src/unix/lwt_chan.ml" 70 2393 2395 "src/unix/lwt_chan.ml" 74 2545 2568
+)
+"src/unix/lwt_chan.ml" 70 2393 2395 "src/unix/lwt_chan.ml" 70 2393 2406
+type(
+  ?buffer:Lwt_bytes.t ->
+  ?close:(unit -> unit Lwt.t) ->
+  ?seek:(int64 -> Unix.seek_command -> int64 Lwt.t) ->
+  mode:Lwt_io.output Lwt_io.mode ->
+  (Lwt_bytes.t -> int -> int -> int Lwt.t) -> Lwt_io.output Lwt_io.channel
+)
+ident(
+  ext_ref Lwt_io.make
+)
+"src/unix/lwt_chan.ml" 70 2393 2413 "src/unix/lwt_chan.ml" 70 2393 2426
+type(
+  Lwt_io.output Lwt_io.mode
+)
+ident(
+  ext_ref Lwt_io.output
+)
+"src/unix/lwt_chan.ml" 70 2393 2428 "src/unix/lwt_chan.ml" 70 2393 2433
+type(
+  (unit -> unit Lwt.t) option
+)
+ident(
+  int_ref close "src/unix/lwt_chan.ml" 69 2357 2379 "src/unix/lwt_chan.ml" 69 2357 2384
+)
+"src/unix/lwt_chan.ml" 71 2434 2443 "src/unix/lwt_chan.ml" 71 2434 2446
+type(
+  Lwt_bytes.t
+)
+ident(
+  def buf "src/unix/lwt_chan.ml" 71 2434 2447 "src/unix/lwt_chan.ml" 74 2545 2567
+)
+"src/unix/lwt_chan.ml" 71 2434 2447 "src/unix/lwt_chan.ml" 71 2434 2450
+type(
+  int
+)
+ident(
+  def ofs "src/unix/lwt_chan.ml" 71 2434 2451 "src/unix/lwt_chan.ml" 74 2545 2567
+)
+"src/unix/lwt_chan.ml" 71 2434 2451 "src/unix/lwt_chan.ml" 71 2434 2454
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_chan.ml" 72 2458 2465 "src/unix/lwt_chan.ml" 74 2545 2567
+)
+"src/unix/lwt_chan.ml" 72 2458 2469 "src/unix/lwt_chan.ml" 72 2458 2472
+type(
+  bytes
+)
+ident(
+  def str "src/unix/lwt_chan.ml" 73 2495 2502 "src/unix/lwt_chan.ml" 74 2545 2567
+)
+"src/unix/lwt_chan.ml" 72 2458 2475 "src/unix/lwt_chan.ml" 72 2458 2487
+type(
+  int -> bytes
+)
+ident(
+  ext_ref Bytes.create
+)
+"src/unix/lwt_chan.ml" 72 2458 2488 "src/unix/lwt_chan.ml" 72 2458 2491
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_chan.ml" 71 2434 2451 "src/unix/lwt_chan.ml" 71 2434 2454
+)
+"src/unix/lwt_chan.ml" 72 2458 2475 "src/unix/lwt_chan.ml" 72 2458 2491
+type(
+  bytes
+)
+"src/unix/lwt_chan.ml" 73 2495 2502 "src/unix/lwt_chan.ml" 73 2495 2525
+type(
+  Lwt_bytes.t -> int -> Bytes.t -> int -> int -> unit
+)
+ident(
+  ext_ref Lwt_bytes.blit_to_bytes
+)
+"src/unix/lwt_chan.ml" 73 2495 2526 "src/unix/lwt_chan.ml" 73 2495 2529
+type(
+  Lwt_bytes.t
+)
+ident(
+  int_ref buf "src/unix/lwt_chan.ml" 71 2434 2443 "src/unix/lwt_chan.ml" 71 2434 2446
+)
+"src/unix/lwt_chan.ml" 73 2495 2530 "src/unix/lwt_chan.ml" 73 2495 2533
+type(
+  int
+)
+ident(
+  int_ref ofs "src/unix/lwt_chan.ml" 71 2434 2447 "src/unix/lwt_chan.ml" 71 2434 2450
+)
+"src/unix/lwt_chan.ml" 73 2495 2534 "src/unix/lwt_chan.ml" 73 2495 2537
+type(
+  Bytes.t
+)
+ident(
+  int_ref str "src/unix/lwt_chan.ml" 72 2458 2469 "src/unix/lwt_chan.ml" 72 2458 2472
+)
+"src/unix/lwt_chan.ml" 73 2495 2538 "src/unix/lwt_chan.ml" 73 2495 2539
+type(
+  int
+)
+"src/unix/lwt_chan.ml" 73 2495 2540 "src/unix/lwt_chan.ml" 73 2495 2543
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_chan.ml" 71 2434 2451 "src/unix/lwt_chan.ml" 71 2434 2454
+)
+"src/unix/lwt_chan.ml" 73 2495 2502 "src/unix/lwt_chan.ml" 73 2495 2543
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_chan.ml" 74 2545 2552 "src/unix/lwt_chan.ml" 74 2545 2557
+type(
+  bytes -> int -> int -> int Lwt.t
+)
+ident(
+  int_ref write "src/unix/lwt_chan.ml" 69 2357 2385 "src/unix/lwt_chan.ml" 69 2357 2390
+)
+"src/unix/lwt_chan.ml" 74 2545 2558 "src/unix/lwt_chan.ml" 74 2545 2561
+type(
+  bytes
+)
+ident(
+  int_ref str "src/unix/lwt_chan.ml" 72 2458 2469 "src/unix/lwt_chan.ml" 72 2458 2472
+)
+"src/unix/lwt_chan.ml" 74 2545 2562 "src/unix/lwt_chan.ml" 74 2545 2563
+type(
+  int
+)
+"src/unix/lwt_chan.ml" 74 2545 2564 "src/unix/lwt_chan.ml" 74 2545 2567
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_chan.ml" 71 2434 2451 "src/unix/lwt_chan.ml" 71 2434 2454
+)
+"src/unix/lwt_chan.ml" 74 2545 2552 "src/unix/lwt_chan.ml" 74 2545 2567
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_chan.ml" 73 2495 2502 "src/unix/lwt_chan.ml" 74 2545 2567
+type(
+  int Lwt.t
+)
+"src/unix/lwt_chan.ml" 72 2458 2465 "src/unix/lwt_chan.ml" 74 2545 2567
+type(
+  int Lwt.t
+)
+"src/unix/lwt_chan.ml" 71 2434 2438 "src/unix/lwt_chan.ml" 74 2545 2568
+type(
+  Lwt_bytes.t -> int -> int -> int Lwt.t
+)
+"src/unix/lwt_chan.ml" 70 2393 2395 "src/unix/lwt_chan.ml" 74 2545 2568
+call(
+  tail
+)
+type(
+  Lwt_io.output Lwt_io.channel
+)
+"src/unix/lwt_chan.ml" 76 2570 2574 "src/unix/lwt_chan.ml" 76 2570 2580
+type(
+  Lwt_io.output_channel -> Bytes.t -> int -> int -> unit Lwt.t
+)
+ident(
+  def output "src/unix/lwt_chan.ml" 77 2609 2609 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 76 2570 2583 "src/unix/lwt_chan.ml" 76 2570 2608
+type(
+  Lwt_io.output_channel -> Bytes.t -> int -> int -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_io.write_from_exactly
+)
+"src/unix/lwt_chan.ml" 77 2609 2613 "src/unix/lwt_chan.ml" 77 2609 2618
+type(
+  Lwt_io.output_channel -> unit Lwt.t
+)
+ident(
+  def flush "src/unix/lwt_chan.ml" 78 2634 2634 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 77 2609 2621 "src/unix/lwt_chan.ml" 77 2609 2633
+type(
+  Lwt_io.output_channel -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_io.flush
+)
+"src/unix/lwt_chan.ml" 78 2634 2638 "src/unix/lwt_chan.ml" 78 2634 2651
+type(
+  Lwt_io.output_channel -> string -> unit Lwt.t
+)
+ident(
+  def output_string "src/unix/lwt_chan.ml" 79 2667 2667 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 78 2634 2654 "src/unix/lwt_chan.ml" 78 2634 2666
+type(
+  Lwt_io.output_channel -> string -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_io.write
+)
+"src/unix/lwt_chan.ml" 79 2667 2671 "src/unix/lwt_chan.ml" 79 2667 2683
+type(
+  Lwt_io.output_channel -> 'a -> unit Lwt.t
+)
+ident(
+  def output_value "src/unix/lwt_chan.ml" 80 2715 2715 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 79 2667 2684 "src/unix/lwt_chan.ml" 79 2667 2686
+type(
+  Lwt_io.output_channel
+)
+ident(
+  def oc "src/unix/lwt_chan.ml" 79 2667 2687 "src/unix/lwt_chan.ml" 79 2667 2714
+)
+"src/unix/lwt_chan.ml" 79 2667 2687 "src/unix/lwt_chan.ml" 79 2667 2688
+type(
+  'a
+)
+ident(
+  def v "src/unix/lwt_chan.ml" 79 2667 2691 "src/unix/lwt_chan.ml" 79 2667 2714
+)
+"src/unix/lwt_chan.ml" 79 2667 2691 "src/unix/lwt_chan.ml" 79 2667 2709
+type(
+  Lwt_io.output_channel ->
+  ?flags:Marshal.extern_flags list -> 'a -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_io.write_value
+)
+"src/unix/lwt_chan.ml" 79 2667 2710 "src/unix/lwt_chan.ml" 79 2667 2712
+type(
+  Lwt_io.output_channel
+)
+ident(
+  int_ref oc "src/unix/lwt_chan.ml" 79 2667 2684 "src/unix/lwt_chan.ml" 79 2667 2686
+)
+"src/unix/lwt_chan.ml" 79 2667 2713 "src/unix/lwt_chan.ml" 79 2667 2714
+type(
+  'a
+)
+ident(
+  int_ref v "src/unix/lwt_chan.ml" 79 2667 2687 "src/unix/lwt_chan.ml" 79 2667 2688
+)
+"src/unix/lwt_chan.ml" 79 2667 2691 "src/unix/lwt_chan.ml" 79 2667 2714
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_chan.ml" 80 2715 2719 "src/unix/lwt_chan.ml" 80 2715 2730
+type(
+  Lwt_io.output_channel -> char -> unit Lwt.t
+)
+ident(
+  def output_char "src/unix/lwt_chan.ml" 81 2751 2751 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 80 2715 2733 "src/unix/lwt_chan.ml" 80 2715 2750
+type(
+  Lwt_io.output_channel -> char -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_io.write_char
+)
+"src/unix/lwt_chan.ml" 81 2751 2755 "src/unix/lwt_chan.ml" 81 2751 2772
+type(
+  Lwt_io.output_channel -> int -> unit Lwt.t
+)
+ident(
+  def output_binary_int "src/unix/lwt_chan.ml" 82 2795 2795 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 81 2751 2775 "src/unix/lwt_chan.ml" 81 2751 2794
+type(
+  Lwt_io.output_channel -> int -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_io.BE.write_int
+)
+"src/unix/lwt_chan.ml" 82 2795 2799 "src/unix/lwt_chan.ml" 82 2795 2811
+type(
+  Unix.open_flag list ->
+  Unix.file_perm -> Lwt_io.file_name -> Lwt_io.output Lwt_io.channel Lwt.t
+)
+ident(
+  def open_out_gen "src/unix/lwt_chan.ml" 83 2887 2887 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 82 2795 2812 "src/unix/lwt_chan.ml" 82 2795 2817
+type(
+  Unix.open_flag list
+)
+ident(
+  def flags "src/unix/lwt_chan.ml" 82 2795 2818 "src/unix/lwt_chan.ml" 82 2795 2886
+)
+"src/unix/lwt_chan.ml" 82 2795 2818 "src/unix/lwt_chan.ml" 82 2795 2822
+type(
+  Unix.file_perm
+)
+ident(
+  def perm "src/unix/lwt_chan.ml" 82 2795 2823 "src/unix/lwt_chan.ml" 82 2795 2886
+)
+"src/unix/lwt_chan.ml" 82 2795 2823 "src/unix/lwt_chan.ml" 82 2795 2828
+type(
+  Lwt_io.file_name
+)
+ident(
+  def fname "src/unix/lwt_chan.ml" 82 2795 2831 "src/unix/lwt_chan.ml" 82 2795 2886
+)
+"src/unix/lwt_chan.ml" 82 2795 2831 "src/unix/lwt_chan.ml" 82 2795 2847
+type(
+  ?buffer:Lwt_bytes.t ->
+  ?flags:Unix.open_flag list ->
+  ?perm:Unix.file_perm ->
+  mode:Lwt_io.output Lwt_io.mode ->
+  Lwt_io.file_name -> Lwt_io.output Lwt_io.channel Lwt.t
+)
+ident(
+  ext_ref Lwt_io.open_file
+)
+"src/unix/lwt_chan.ml" 82 2795 2849 "src/unix/lwt_chan.ml" 82 2795 2854
+type(
+  Unix.open_flag list
+)
+ident(
+  int_ref flags "src/unix/lwt_chan.ml" 82 2795 2812 "src/unix/lwt_chan.ml" 82 2795 2817
+)
+"src/unix/lwt_chan.ml" 82 2795 2856 "src/unix/lwt_chan.ml" 82 2795 2860
+type(
+  Unix.file_perm
+)
+ident(
+  int_ref perm "src/unix/lwt_chan.ml" 82 2795 2818 "src/unix/lwt_chan.ml" 82 2795 2822
+)
+"src/unix/lwt_chan.ml" 82 2795 2867 "src/unix/lwt_chan.ml" 82 2795 2880
+type(
+  Lwt_io.output Lwt_io.mode
+)
+ident(
+  ext_ref Lwt_io.output
+)
+"src/unix/lwt_chan.ml" 82 2795 2881 "src/unix/lwt_chan.ml" 82 2795 2886
+type(
+  Lwt_io.file_name
+)
+ident(
+  int_ref fname "src/unix/lwt_chan.ml" 82 2795 2823 "src/unix/lwt_chan.ml" 82 2795 2828
+)
+"src/unix/lwt_chan.ml" 82 2795 2831 "src/unix/lwt_chan.ml" 82 2795 2886
+call(
+  tail
+)
+type(
+  Lwt_io.output Lwt_io.channel Lwt.t
+)
+"src/unix/lwt_chan.ml" 83 2887 2891 "src/unix/lwt_chan.ml" 83 2887 2899
+type(
+  Lwt_io.file_name -> Lwt_io.output Lwt_io.channel Lwt.t
+)
+ident(
+  def open_out "src/unix/lwt_chan.ml" 84 2951 2951 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 83 2887 2900 "src/unix/lwt_chan.ml" 83 2887 2905
+type(
+  Lwt_io.file_name
+)
+ident(
+  def fname "src/unix/lwt_chan.ml" 83 2887 2908 "src/unix/lwt_chan.ml" 83 2887 2950
+)
+"src/unix/lwt_chan.ml" 83 2887 2908 "src/unix/lwt_chan.ml" 83 2887 2924
+type(
+  ?buffer:Lwt_bytes.t ->
+  ?flags:Unix.open_flag list ->
+  ?perm:Unix.file_perm ->
+  mode:Lwt_io.output Lwt_io.mode ->
+  Lwt_io.file_name -> Lwt_io.output Lwt_io.channel Lwt.t
+)
+ident(
+  ext_ref Lwt_io.open_file
+)
+"src/unix/lwt_chan.ml" 83 2887 2931 "src/unix/lwt_chan.ml" 83 2887 2944
+type(
+  Lwt_io.output Lwt_io.mode
+)
+ident(
+  ext_ref Lwt_io.output
+)
+"src/unix/lwt_chan.ml" 83 2887 2945 "src/unix/lwt_chan.ml" 83 2887 2950
+type(
+  Lwt_io.file_name
+)
+ident(
+  int_ref fname "src/unix/lwt_chan.ml" 83 2887 2900 "src/unix/lwt_chan.ml" 83 2887 2905
+)
+"src/unix/lwt_chan.ml" 83 2887 2908 "src/unix/lwt_chan.ml" 83 2887 2950
+call(
+  tail
+)
+type(
+  Lwt_io.output Lwt_io.channel Lwt.t
+)
+"src/unix/lwt_chan.ml" 84 2951 2955 "src/unix/lwt_chan.ml" 84 2951 2964
+type(
+  'a Lwt_io.channel -> unit Lwt.t
+)
+ident(
+  def close_out "src/unix/lwt_chan.ml" 85 2980 2980 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 84 2951 2967 "src/unix/lwt_chan.ml" 84 2951 2979
+type(
+  'a Lwt_io.channel -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_io.close
+)
+"src/unix/lwt_chan.ml" 85 2980 2984 "src/unix/lwt_chan.ml" 85 2980 2999
+type(
+  Unix.sockaddr -> (Lwt_io.input_channel * Lwt_io.output_channel) Lwt.t
+)
+ident(
+  def open_connection "src/unix/lwt_chan.ml" 85 2980 3042 "src/unix/lwt_chan.ml" 1 0 -1
+)
+"src/unix/lwt_chan.ml" 85 2980 3000 "src/unix/lwt_chan.ml" 85 2980 3008
+type(
+  Unix.sockaddr
+)
+ident(
+  def sockaddr "src/unix/lwt_chan.ml" 85 2980 3011 "src/unix/lwt_chan.ml" 85 2980 3042
+)
+"src/unix/lwt_chan.ml" 85 2980 3011 "src/unix/lwt_chan.ml" 85 2980 3033
+type(
+  ?fd:Lwt_unix.file_descr ->
+  ?in_buffer:Lwt_bytes.t ->
+  ?out_buffer:Lwt_bytes.t ->
+  Unix.sockaddr -> (Lwt_io.input_channel * Lwt_io.output_channel) Lwt.t
+)
+ident(
+  ext_ref Lwt_io.open_connection
+)
+"src/unix/lwt_chan.ml" 85 2980 3034 "src/unix/lwt_chan.ml" 85 2980 3042
+type(
+  Unix.sockaddr
+)
+ident(
+  int_ref sockaddr "src/unix/lwt_chan.ml" 85 2980 3000 "src/unix/lwt_chan.ml" 85 2980 3008
+)
+"src/unix/lwt_chan.ml" 85 2980 3011 "src/unix/lwt_chan.ml" 85 2980 3042
+call(
+  tail
+)
+type(
+  (Lwt_io.input_channel * Lwt_io.output_channel) Lwt.t
+)

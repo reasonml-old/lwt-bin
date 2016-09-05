@@ -1,0 +1,1657 @@
+"src/unix/lwt_throttle.ml" 34 1137 1141 "src/unix/lwt_throttle.ml" 34 1137 1148
+type(
+  Lwt_log_core.section
+)
+ident(
+  def section "src/unix/lwt_throttle.ml" 36 1188 1188 "src/unix/lwt_throttle.ml" 1 0 -1
+)
+"src/unix/lwt_throttle.ml" 34 1137 1151 "src/unix/lwt_throttle.ml" 34 1137 1171
+type(
+  string -> Lwt_log_core.section
+)
+ident(
+  ext_ref Lwt_log.Section.make
+)
+"src/unix/lwt_throttle.ml" 34 1137 1172 "src/unix/lwt_throttle.ml" 34 1137 1186
+type(
+  string
+)
+"src/unix/lwt_throttle.ml" 34 1137 1151 "src/unix/lwt_throttle.ml" 34 1137 1186
+call(
+  stack
+)
+type(
+  Lwt_log_core.section
+)
+"src/unix/lwt_throttle.ml" 37 1260 1274 "src/unix/lwt_throttle.ml" 37 1260 1289
+call(
+  stack
+)
+"src/unix/lwt_throttle.ml" 53 1568 1574 "src/unix/lwt_throttle.ml" 53 1568 1580
+type(
+  rate:int -> max:int -> n:int -> t
+)
+ident(
+  def create "src/unix/lwt_throttle.ml" 64 1803 1805 "src/unix/lwt_throttle.ml" 134 3752 3755
+)
+"src/unix/lwt_throttle.ml" 53 1568 1582 "src/unix/lwt_throttle.ml" 53 1568 1586
+type(
+  int
+)
+ident(
+  def rate "src/unix/lwt_throttle.ml" 53 1568 1587 "src/unix/lwt_throttle.ml" 62 1796 1801
+)
+"src/unix/lwt_throttle.ml" 53 1568 1588 "src/unix/lwt_throttle.ml" 53 1568 1591
+type(
+  int
+)
+ident(
+  def max "src/unix/lwt_throttle.ml" 53 1568 1592 "src/unix/lwt_throttle.ml" 62 1796 1801
+)
+"src/unix/lwt_throttle.ml" 53 1568 1593 "src/unix/lwt_throttle.ml" 53 1568 1594
+type(
+  int
+)
+ident(
+  def n "src/unix/lwt_throttle.ml" 54 1597 1601 "src/unix/lwt_throttle.ml" 62 1796 1801
+)
+"src/unix/lwt_throttle.ml" 54 1597 1604 "src/unix/lwt_throttle.ml" 54 1597 1608
+type(
+  int
+)
+ident(
+  int_ref rate "src/unix/lwt_throttle.ml" 53 1568 1582 "src/unix/lwt_throttle.ml" 53 1568 1586
+)
+"src/unix/lwt_throttle.ml" 54 1597 1609 "src/unix/lwt_throttle.ml" 54 1597 1610
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_throttle.ml" 54 1597 1611 "src/unix/lwt_throttle.ml" 54 1597 1612
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 54 1597 1604 "src/unix/lwt_throttle.ml" 54 1597 1612
+type(
+  bool
+)
+"src/unix/lwt_throttle.ml" 54 1597 1613 "src/unix/lwt_throttle.ml" 54 1597 1615
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_throttle.ml" 54 1597 1616 "src/unix/lwt_throttle.ml" 54 1597 1619
+type(
+  int
+)
+ident(
+  int_ref max "src/unix/lwt_throttle.ml" 53 1568 1588 "src/unix/lwt_throttle.ml" 53 1568 1591
+)
+"src/unix/lwt_throttle.ml" 54 1597 1620 "src/unix/lwt_throttle.ml" 54 1597 1621
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_throttle.ml" 54 1597 1622 "src/unix/lwt_throttle.ml" 54 1597 1623
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 54 1597 1616 "src/unix/lwt_throttle.ml" 54 1597 1623
+type(
+  bool
+)
+"src/unix/lwt_throttle.ml" 54 1597 1624 "src/unix/lwt_throttle.ml" 54 1597 1626
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_throttle.ml" 54 1597 1627 "src/unix/lwt_throttle.ml" 54 1597 1628
+type(
+  int
+)
+ident(
+  int_ref n "src/unix/lwt_throttle.ml" 53 1568 1593 "src/unix/lwt_throttle.ml" 53 1568 1594
+)
+"src/unix/lwt_throttle.ml" 54 1597 1629 "src/unix/lwt_throttle.ml" 54 1597 1630
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_throttle.ml" 54 1597 1631 "src/unix/lwt_throttle.ml" 54 1597 1632
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 54 1597 1627 "src/unix/lwt_throttle.ml" 54 1597 1632
+type(
+  bool
+)
+"src/unix/lwt_throttle.ml" 54 1597 1616 "src/unix/lwt_throttle.ml" 54 1597 1632
+type(
+  bool
+)
+"src/unix/lwt_throttle.ml" 54 1597 1604 "src/unix/lwt_throttle.ml" 54 1597 1632
+type(
+  bool
+)
+"src/unix/lwt_throttle.ml" 55 1638 1644 "src/unix/lwt_throttle.ml" 55 1638 1655
+type(
+  string -> t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_throttle.ml" 55 1638 1656 "src/unix/lwt_throttle.ml" 55 1638 1679
+type(
+  string
+)
+"src/unix/lwt_throttle.ml" 55 1638 1644 "src/unix/lwt_throttle.ml" 55 1638 1679
+call(
+  tail
+)
+type(
+  t
+)
+"src/unix/lwt_throttle.ml" 57 1691 1704 "src/unix/lwt_throttle.ml" 57 1691 1708
+type(
+  int
+)
+ident(
+  int_ref rate "src/unix/lwt_throttle.ml" 53 1568 1582 "src/unix/lwt_throttle.ml" 53 1568 1586
+)
+"src/unix/lwt_throttle.ml" 58 1710 1722 "src/unix/lwt_throttle.ml" 58 1710 1725
+type(
+  int
+)
+ident(
+  int_ref max "src/unix/lwt_throttle.ml" 53 1568 1588 "src/unix/lwt_throttle.ml" 53 1568 1591
+)
+"src/unix/lwt_throttle.ml" 59 1727 1743 "src/unix/lwt_throttle.ml" 59 1727 1744
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 60 1746 1760 "src/unix/lwt_throttle.ml" 60 1746 1769
+type(
+  int -> elt MH.t
+)
+ident(
+  ext_ref MH.create
+)
+"src/unix/lwt_throttle.ml" 60 1746 1770 "src/unix/lwt_throttle.ml" 60 1746 1771
+type(
+  int
+)
+ident(
+  int_ref n "src/unix/lwt_throttle.ml" 53 1568 1593 "src/unix/lwt_throttle.ml" 53 1568 1594
+)
+"src/unix/lwt_throttle.ml" 60 1746 1760 "src/unix/lwt_throttle.ml" 60 1746 1771
+call(
+  stack
+)
+type(
+  elt MH.t
+)
+"src/unix/lwt_throttle.ml" 61 1773 1790 "src/unix/lwt_throttle.ml" 61 1773 1794
+type(
+  unit Lwt.t option
+)
+"src/unix/lwt_throttle.ml" 56 1680 1689 "src/unix/lwt_throttle.ml" 62 1796 1801
+type(
+  t
+)
+"src/unix/lwt_throttle.ml" 54 1597 1601 "src/unix/lwt_throttle.ml" 62 1796 1801
+type(
+  t
+)
+"src/unix/lwt_throttle.ml" 64 1803 1809 "src/unix/lwt_throttle.ml" 64 1803 1819
+type(
+  t -> MH.key -> elt -> int * bool Lwt.u list -> int * bool Lwt.u list
+)
+ident(
+  def update_key "src/unix/lwt_throttle.ml" 83 2421 2423 "src/unix/lwt_throttle.ml" 134 3752 3755
+)
+"src/unix/lwt_throttle.ml" 64 1803 1820 "src/unix/lwt_throttle.ml" 64 1803 1821
+type(
+  t
+)
+ident(
+  def t "src/unix/lwt_throttle.ml" 64 1803 1822 "src/unix/lwt_throttle.ml" 81 2386 2419
+)
+"src/unix/lwt_throttle.ml" 64 1803 1822 "src/unix/lwt_throttle.ml" 64 1803 1825
+type(
+  MH.key
+)
+ident(
+  def key "src/unix/lwt_throttle.ml" 64 1803 1826 "src/unix/lwt_throttle.ml" 81 2386 2419
+)
+"src/unix/lwt_throttle.ml" 64 1803 1826 "src/unix/lwt_throttle.ml" 64 1803 1829
+type(
+  elt
+)
+ident(
+  def elt "src/unix/lwt_throttle.ml" 64 1803 1830 "src/unix/lwt_throttle.ml" 81 2386 2419
+)
+"src/unix/lwt_throttle.ml" 64 1803 1831 "src/unix/lwt_throttle.ml" 64 1803 1842
+type(
+  int
+)
+ident(
+  def old_waiting "src/unix/lwt_throttle.ml" 65 1853 1857 "src/unix/lwt_throttle.ml" 81 2386 2419
+)
+"src/unix/lwt_throttle.ml" 64 1803 1843 "src/unix/lwt_throttle.ml" 64 1803 1849
+type(
+  bool Lwt.u list
+)
+ident(
+  def to_run "src/unix/lwt_throttle.ml" 65 1853 1857 "src/unix/lwt_throttle.ml" 81 2386 2419
+)
+"src/unix/lwt_throttle.ml" 64 1803 1830 "src/unix/lwt_throttle.ml" 64 1803 1850
+type(
+  int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 65 1853 1865 "src/unix/lwt_throttle.ml" 65 1853 1871
+type(
+  bool Lwt.u list -> int -> int * int * bool Lwt.u list
+)
+ident(
+  def update "src/unix/lwt_throttle.ml" 65 1853 1857 "src/unix/lwt_throttle.ml" 81 2386 2419
+)
+"src/unix/lwt_throttle.ml" 65 1853 1872 "src/unix/lwt_throttle.ml" 65 1853 1878
+type(
+  bool Lwt.u list
+)
+ident(
+  def to_run "src/unix/lwt_throttle.ml" 65 1853 1881 "src/unix/lwt_throttle.ml" 72 2062 2101
+)
+"src/unix/lwt_throttle.ml" 66 1890 1898 "src/unix/lwt_throttle.ml" 66 1890 1899
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 66 1890 1903 "src/unix/lwt_throttle.ml" 66 1890 1904
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 66 1890 1906 "src/unix/lwt_throttle.ml" 66 1890 1918
+type(
+  bool Lwt.u Queue.t -> int
+)
+ident(
+  ext_ref Queue.length
+)
+"src/unix/lwt_throttle.ml" 66 1890 1919 "src/unix/lwt_throttle.ml" 66 1890 1922
+type(
+  elt
+)
+ident(
+  int_ref elt "src/unix/lwt_throttle.ml" 64 1803 1826 "src/unix/lwt_throttle.ml" 64 1803 1829
+)
+"src/unix/lwt_throttle.ml" 66 1890 1919 "src/unix/lwt_throttle.ml" 66 1890 1928
+type(
+  bool Lwt.u Queue.t
+)
+"src/unix/lwt_throttle.ml" 66 1890 1906 "src/unix/lwt_throttle.ml" 66 1890 1928
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 66 1890 1930 "src/unix/lwt_throttle.ml" 66 1890 1936
+type(
+  bool Lwt.u list
+)
+ident(
+  int_ref to_run "src/unix/lwt_throttle.ml" 65 1853 1872 "src/unix/lwt_throttle.ml" 65 1853 1878
+)
+"src/unix/lwt_throttle.ml" 66 1890 1903 "src/unix/lwt_throttle.ml" 66 1890 1936
+type(
+  int * int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 67 1937 1945 "src/unix/lwt_throttle.ml" 67 1937 1946
+type(
+  int
+)
+ident(
+  def i "src/unix/lwt_throttle.ml" 68 1950 1958 "src/unix/lwt_throttle.ml" 72 2062 2101
+)
+"src/unix/lwt_throttle.ml" 69 1962 1976 "src/unix/lwt_throttle.ml" 69 1962 1982
+type(
+  bool Lwt.u list
+)
+ident(
+  def to_run "src/unix/lwt_throttle.ml" 70 2019 2029 "src/unix/lwt_throttle.ml" 70 2019 2048
+)
+"src/unix/lwt_throttle.ml" 69 1962 1986 "src/unix/lwt_throttle.ml" 69 1962 1996
+type(
+  bool Lwt.u Queue.t -> bool Lwt.u
+)
+ident(
+  ext_ref Queue.take
+)
+"src/unix/lwt_throttle.ml" 69 1962 1997 "src/unix/lwt_throttle.ml" 69 1962 2000
+type(
+  elt
+)
+ident(
+  int_ref elt "src/unix/lwt_throttle.ml" 64 1803 1826 "src/unix/lwt_throttle.ml" 64 1803 1829
+)
+"src/unix/lwt_throttle.ml" 69 1962 1997 "src/unix/lwt_throttle.ml" 69 1962 2006
+type(
+  bool Lwt.u Queue.t
+)
+"src/unix/lwt_throttle.ml" 69 1962 1985 "src/unix/lwt_throttle.ml" 69 1962 2007
+call(
+  stack
+)
+type(
+  bool Lwt.u
+)
+"src/unix/lwt_throttle.ml" 69 1962 2009 "src/unix/lwt_throttle.ml" 69 1962 2015
+type(
+  bool Lwt.u list
+)
+ident(
+  int_ref to_run "src/unix/lwt_throttle.ml" 65 1853 1872 "src/unix/lwt_throttle.ml" 65 1853 1878
+)
+"src/unix/lwt_throttle.ml" 69 1962 1985 "src/unix/lwt_throttle.ml" 69 1962 2015
+type(
+  bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 70 2019 2029 "src/unix/lwt_throttle.ml" 70 2019 2035
+type(
+  bool Lwt.u list -> int -> int * int * bool Lwt.u list
+)
+ident(
+  int_ref update "src/unix/lwt_throttle.ml" 65 1853 1865 "src/unix/lwt_throttle.ml" 65 1853 1871
+)
+"src/unix/lwt_throttle.ml" 70 2019 2036 "src/unix/lwt_throttle.ml" 70 2019 2042
+type(
+  bool Lwt.u list
+)
+ident(
+  int_ref to_run "src/unix/lwt_throttle.ml" 69 1962 1976 "src/unix/lwt_throttle.ml" 69 1962 1982
+)
+"src/unix/lwt_throttle.ml" 70 2019 2044 "src/unix/lwt_throttle.ml" 70 2019 2045
+type(
+  int
+)
+ident(
+  int_ref i "src/unix/lwt_throttle.ml" 67 1937 1945 "src/unix/lwt_throttle.ml" 67 1937 1946
+)
+"src/unix/lwt_throttle.ml" 70 2019 2045 "src/unix/lwt_throttle.ml" 70 2019 2046
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_throttle.ml" 70 2019 2046 "src/unix/lwt_throttle.ml" 70 2019 2047
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 70 2019 2043 "src/unix/lwt_throttle.ml" 70 2019 2048
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 70 2019 2029 "src/unix/lwt_throttle.ml" 70 2019 2048
+call(
+  stack
+)
+type(
+  int * int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 69 1962 1972 "src/unix/lwt_throttle.ml" 70 2019 2048
+type(
+  int * int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 72 2062 2074 "src/unix/lwt_throttle.ml" 72 2062 2085
+type(
+  exn
+)
+"src/unix/lwt_throttle.ml" 72 2062 2089 "src/unix/lwt_throttle.ml" 72 2062 2090
+type(
+  int
+)
+ident(
+  int_ref i "src/unix/lwt_throttle.ml" 67 1937 1945 "src/unix/lwt_throttle.ml" 67 1937 1946
+)
+"src/unix/lwt_throttle.ml" 72 2062 2092 "src/unix/lwt_throttle.ml" 72 2062 2093
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 72 2062 2095 "src/unix/lwt_throttle.ml" 72 2062 2101
+type(
+  bool Lwt.u list
+)
+ident(
+  int_ref to_run "src/unix/lwt_throttle.ml" 65 1853 1872 "src/unix/lwt_throttle.ml" 65 1853 1878
+)
+"src/unix/lwt_throttle.ml" 72 2062 2089 "src/unix/lwt_throttle.ml" 72 2062 2101
+type(
+  int * int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 68 1950 1958 "src/unix/lwt_throttle.ml" 72 2062 2101
+type(
+  int * int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 65 1853 1881 "src/unix/lwt_throttle.ml" 72 2062 2101
+type(
+  int -> int * int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 74 2109 2117 "src/unix/lwt_throttle.ml" 74 2109 2129
+type(
+  int
+)
+ident(
+  def not_consumed "src/unix/lwt_throttle.ml" 75 2173 2177 "src/unix/lwt_throttle.ml" 81 2386 2419
+)
+"src/unix/lwt_throttle.ml" 74 2109 2131 "src/unix/lwt_throttle.ml" 74 2109 2138
+type(
+  int
+)
+ident(
+  def waiting "src/unix/lwt_throttle.ml" 75 2173 2177 "src/unix/lwt_throttle.ml" 81 2386 2419
+)
+"src/unix/lwt_throttle.ml" 74 2109 2140 "src/unix/lwt_throttle.ml" 74 2109 2146
+type(
+  bool Lwt.u list
+)
+ident(
+  def to_run "src/unix/lwt_throttle.ml" 75 2173 2177 "src/unix/lwt_throttle.ml" 81 2386 2419
+)
+"src/unix/lwt_throttle.ml" 74 2109 2117 "src/unix/lwt_throttle.ml" 74 2109 2146
+type(
+  int * int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 74 2109 2149 "src/unix/lwt_throttle.ml" 74 2109 2155
+type(
+  bool Lwt.u list -> int -> int * int * bool Lwt.u list
+)
+ident(
+  int_ref update "src/unix/lwt_throttle.ml" 65 1853 1865 "src/unix/lwt_throttle.ml" 65 1853 1871
+)
+"src/unix/lwt_throttle.ml" 74 2109 2156 "src/unix/lwt_throttle.ml" 74 2109 2162
+type(
+  bool Lwt.u list
+)
+ident(
+  int_ref to_run "src/unix/lwt_throttle.ml" 64 1803 1843 "src/unix/lwt_throttle.ml" 64 1803 1849
+)
+"src/unix/lwt_throttle.ml" 74 2109 2163 "src/unix/lwt_throttle.ml" 74 2109 2164
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 64 1803 1820 "src/unix/lwt_throttle.ml" 64 1803 1821
+)
+"src/unix/lwt_throttle.ml" 74 2109 2163 "src/unix/lwt_throttle.ml" 74 2109 2169
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 74 2109 2149 "src/unix/lwt_throttle.ml" 74 2109 2169
+call(
+  stack
+)
+type(
+  int * int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 75 2173 2181 "src/unix/lwt_throttle.ml" 75 2173 2189
+type(
+  int
+)
+ident(
+  def consumed "src/unix/lwt_throttle.ml" 76 2217 2221 "src/unix/lwt_throttle.ml" 81 2386 2419
+)
+"src/unix/lwt_throttle.ml" 75 2173 2192 "src/unix/lwt_throttle.ml" 75 2173 2193
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 64 1803 1820 "src/unix/lwt_throttle.ml" 64 1803 1821
+)
+"src/unix/lwt_throttle.ml" 75 2173 2192 "src/unix/lwt_throttle.ml" 75 2173 2198
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 75 2173 2199 "src/unix/lwt_throttle.ml" 75 2173 2200
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_throttle.ml" 75 2173 2201 "src/unix/lwt_throttle.ml" 75 2173 2213
+type(
+  int
+)
+ident(
+  int_ref not_consumed "src/unix/lwt_throttle.ml" 74 2109 2117 "src/unix/lwt_throttle.ml" 74 2109 2129
+)
+"src/unix/lwt_throttle.ml" 75 2173 2192 "src/unix/lwt_throttle.ml" 75 2173 2213
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 76 2217 2224 "src/unix/lwt_throttle.ml" 76 2217 2232
+type(
+  int
+)
+ident(
+  int_ref consumed "src/unix/lwt_throttle.ml" 75 2173 2181 "src/unix/lwt_throttle.ml" 75 2173 2189
+)
+"src/unix/lwt_throttle.ml" 76 2217 2233 "src/unix/lwt_throttle.ml" 76 2217 2234
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/unix/lwt_throttle.ml" 76 2217 2235 "src/unix/lwt_throttle.ml" 76 2217 2236
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 76 2217 2224 "src/unix/lwt_throttle.ml" 76 2217 2236
+type(
+  bool
+)
+"src/unix/lwt_throttle.ml" 79 2323 2329 "src/unix/lwt_throttle.ml" 79 2323 2338
+type(
+  elt MH.t -> MH.key -> unit
+)
+ident(
+  ext_ref MH.remove
+)
+"src/unix/lwt_throttle.ml" 79 2323 2339 "src/unix/lwt_throttle.ml" 79 2323 2340
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 64 1803 1820 "src/unix/lwt_throttle.ml" 64 1803 1821
+)
+"src/unix/lwt_throttle.ml" 79 2323 2339 "src/unix/lwt_throttle.ml" 79 2323 2346
+type(
+  elt MH.t
+)
+"src/unix/lwt_throttle.ml" 79 2323 2347 "src/unix/lwt_throttle.ml" 79 2323 2350
+type(
+  MH.key
+)
+ident(
+  int_ref key "src/unix/lwt_throttle.ml" 64 1803 1822 "src/unix/lwt_throttle.ml" 64 1803 1825
+)
+"src/unix/lwt_throttle.ml" 79 2323 2329 "src/unix/lwt_throttle.ml" 79 2323 2350
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 80 2351 2360 "src/unix/lwt_throttle.ml" 80 2351 2363
+type(
+  elt
+)
+ident(
+  int_ref elt "src/unix/lwt_throttle.ml" 64 1803 1826 "src/unix/lwt_throttle.ml" 64 1803 1829
+)
+"src/unix/lwt_throttle.ml" 80 2351 2376 "src/unix/lwt_throttle.ml" 80 2351 2384
+type(
+  int
+)
+ident(
+  int_ref consumed "src/unix/lwt_throttle.ml" 75 2173 2181 "src/unix/lwt_throttle.ml" 75 2173 2189
+)
+"src/unix/lwt_throttle.ml" 80 2351 2360 "src/unix/lwt_throttle.ml" 80 2351 2384
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 76 2217 2221 "src/unix/lwt_throttle.ml" 80 2351 2384
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 81 2386 2391 "src/unix/lwt_throttle.ml" 81 2386 2402
+type(
+  int
+)
+ident(
+  int_ref old_waiting "src/unix/lwt_throttle.ml" 64 1803 1831 "src/unix/lwt_throttle.ml" 64 1803 1842
+)
+"src/unix/lwt_throttle.ml" 81 2386 2402 "src/unix/lwt_throttle.ml" 81 2386 2403
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/unix/lwt_throttle.ml" 81 2386 2403 "src/unix/lwt_throttle.ml" 81 2386 2410
+type(
+  int
+)
+ident(
+  int_ref waiting "src/unix/lwt_throttle.ml" 74 2109 2131 "src/unix/lwt_throttle.ml" 74 2109 2138
+)
+"src/unix/lwt_throttle.ml" 81 2386 2391 "src/unix/lwt_throttle.ml" 81 2386 2410
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 81 2386 2412 "src/unix/lwt_throttle.ml" 81 2386 2418
+type(
+  bool Lwt.u list
+)
+ident(
+  int_ref to_run "src/unix/lwt_throttle.ml" 74 2109 2140 "src/unix/lwt_throttle.ml" 74 2109 2146
+)
+"src/unix/lwt_throttle.ml" 81 2386 2390 "src/unix/lwt_throttle.ml" 81 2386 2419
+type(
+  int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 76 2217 2221 "src/unix/lwt_throttle.ml" 81 2386 2419
+type(
+  int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 75 2173 2177 "src/unix/lwt_throttle.ml" 81 2386 2419
+type(
+  int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 74 2109 2113 "src/unix/lwt_throttle.ml" 81 2386 2419
+type(
+  int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 65 1853 1857 "src/unix/lwt_throttle.ml" 81 2386 2419
+type(
+  int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 83 2421 2431 "src/unix/lwt_throttle.ml" 83 2421 2442
+type(
+  t -> unit
+)
+ident(
+  def clean_table "src/unix/lwt_throttle.ml" 83 2421 2423 "src/unix/lwt_throttle.ml" 134 3752 3755
+)
+"src/unix/lwt_throttle.ml" 83 2421 2443 "src/unix/lwt_throttle.ml" 83 2421 2444
+type(
+  t
+)
+ident(
+  def t "src/unix/lwt_throttle.ml" 84 2447 2451 "src/unix/lwt_throttle.ml" 91 2703 2752
+)
+"src/unix/lwt_throttle.ml" 84 2447 2455 "src/unix/lwt_throttle.ml" 84 2447 2462
+type(
+  int
+)
+ident(
+  def waiting "src/unix/lwt_throttle.ml" 85 2513 2517 "src/unix/lwt_throttle.ml" 91 2703 2752
+)
+"src/unix/lwt_throttle.ml" 84 2447 2463 "src/unix/lwt_throttle.ml" 84 2447 2469
+type(
+  bool Lwt.u list
+)
+ident(
+  def to_run "src/unix/lwt_throttle.ml" 85 2513 2517 "src/unix/lwt_throttle.ml" 91 2703 2752
+)
+"src/unix/lwt_throttle.ml" 84 2447 2455 "src/unix/lwt_throttle.ml" 84 2447 2469
+type(
+  int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 84 2447 2472 "src/unix/lwt_throttle.ml" 84 2447 2479
+type(
+  (MH.key -> elt -> int * bool Lwt.u list -> int * bool Lwt.u list) ->
+  elt MH.t -> int * bool Lwt.u list -> int * bool Lwt.u list
+)
+ident(
+  ext_ref MH.fold
+)
+"src/unix/lwt_throttle.ml" 84 2447 2481 "src/unix/lwt_throttle.ml" 84 2447 2491
+type(
+  t -> MH.key -> elt -> int * bool Lwt.u list -> int * bool Lwt.u list
+)
+ident(
+  int_ref update_key "src/unix/lwt_throttle.ml" 64 1803 1809 "src/unix/lwt_throttle.ml" 64 1803 1819
+)
+"src/unix/lwt_throttle.ml" 84 2447 2492 "src/unix/lwt_throttle.ml" 84 2447 2493
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 83 2421 2443 "src/unix/lwt_throttle.ml" 83 2421 2444
+)
+"src/unix/lwt_throttle.ml" 84 2447 2480 "src/unix/lwt_throttle.ml" 84 2447 2494
+call(
+  stack
+)
+type(
+  MH.key -> elt -> int * bool Lwt.u list -> int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 84 2447 2495 "src/unix/lwt_throttle.ml" 84 2447 2496
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 83 2421 2443 "src/unix/lwt_throttle.ml" 83 2421 2444
+)
+"src/unix/lwt_throttle.ml" 84 2447 2495 "src/unix/lwt_throttle.ml" 84 2447 2502
+type(
+  elt MH.t
+)
+"src/unix/lwt_throttle.ml" 84 2447 2504 "src/unix/lwt_throttle.ml" 84 2447 2505
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 84 2447 2506 "src/unix/lwt_throttle.ml" 84 2447 2508
+type(
+  bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 84 2447 2503 "src/unix/lwt_throttle.ml" 84 2447 2509
+type(
+  int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 84 2447 2472 "src/unix/lwt_throttle.ml" 84 2447 2509
+call(
+  stack
+)
+type(
+  int * bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 85 2513 2517 "src/unix/lwt_throttle.ml" 85 2513 2518
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 83 2421 2443 "src/unix/lwt_throttle.ml" 83 2421 2444
+)
+"src/unix/lwt_throttle.ml" 85 2513 2530 "src/unix/lwt_throttle.ml" 85 2513 2537
+type(
+  int
+)
+ident(
+  int_ref waiting "src/unix/lwt_throttle.ml" 84 2447 2455 "src/unix/lwt_throttle.ml" 84 2447 2462
+)
+"src/unix/lwt_throttle.ml" 85 2513 2517 "src/unix/lwt_throttle.ml" 85 2513 2537
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 86 2539 2546 "src/unix/lwt_throttle.ml" 86 2539 2553
+type(
+  int
+)
+ident(
+  int_ref waiting "src/unix/lwt_throttle.ml" 84 2447 2455 "src/unix/lwt_throttle.ml" 84 2447 2462
+)
+"src/unix/lwt_throttle.ml" 86 2539 2554 "src/unix/lwt_throttle.ml" 86 2539 2555
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/unix/lwt_throttle.ml" 86 2539 2556 "src/unix/lwt_throttle.ml" 86 2539 2557
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 86 2539 2546 "src/unix/lwt_throttle.ml" 86 2539 2557
+type(
+  bool
+)
+"src/unix/lwt_throttle.ml" 86 2539 2558 "src/unix/lwt_throttle.ml" 86 2539 2560
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/unix/lwt_throttle.ml" 86 2539 2561 "src/unix/lwt_throttle.ml" 86 2539 2567
+type(
+  bool Lwt.u list
+)
+ident(
+  int_ref to_run "src/unix/lwt_throttle.ml" 84 2447 2463 "src/unix/lwt_throttle.ml" 84 2447 2469
+)
+"src/unix/lwt_throttle.ml" 86 2539 2568 "src/unix/lwt_throttle.ml" 86 2539 2569
+type(
+  bool Lwt.u list -> bool Lwt.u list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/unix/lwt_throttle.ml" 86 2539 2570 "src/unix/lwt_throttle.ml" 86 2539 2572
+type(
+  bool Lwt.u list
+)
+"src/unix/lwt_throttle.ml" 86 2539 2561 "src/unix/lwt_throttle.ml" 86 2539 2572
+type(
+  bool
+)
+"src/unix/lwt_throttle.ml" 86 2539 2546 "src/unix/lwt_throttle.ml" 86 2539 2572
+type(
+  bool
+)
+"src/unix/lwt_throttle.ml" 89 2650 2656 "src/unix/lwt_throttle.ml" 89 2650 2657
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 83 2421 2443 "src/unix/lwt_throttle.ml" 83 2421 2444
+)
+"src/unix/lwt_throttle.ml" 89 2650 2670 "src/unix/lwt_throttle.ml" 89 2650 2674
+type(
+  unit Lwt.t option
+)
+"src/unix/lwt_throttle.ml" 89 2650 2656 "src/unix/lwt_throttle.ml" 89 2650 2674
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 90 2675 2684 "src/unix/lwt_throttle.ml" 90 2675 2699
+type(
+  t -> unit
+)
+ident(
+  int_ref launch_cleaning "src/unix/lwt_throttle.ml" 93 2754 2760 "src/unix/lwt_throttle.ml" 93 2754 2775
+)
+"src/unix/lwt_throttle.ml" 90 2675 2700 "src/unix/lwt_throttle.ml" 90 2675 2701
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 83 2421 2443 "src/unix/lwt_throttle.ml" 83 2421 2444
+)
+"src/unix/lwt_throttle.ml" 90 2675 2684 "src/unix/lwt_throttle.ml" 90 2675 2701
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 86 2539 2543 "src/unix/lwt_throttle.ml" 90 2675 2701
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 91 2703 2707 "src/unix/lwt_throttle.ml" 91 2703 2716
+type(
+  (bool Lwt.u -> unit) -> bool Lwt.u list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/unix/lwt_throttle.ml" 91 2703 2722 "src/unix/lwt_throttle.ml" 91 2703 2723
+type(
+  bool Lwt.u
+)
+ident(
+  def u "src/unix/lwt_throttle.ml" 91 2703 2727 "src/unix/lwt_throttle.ml" 91 2703 2744
+)
+"src/unix/lwt_throttle.ml" 91 2703 2727 "src/unix/lwt_throttle.ml" 91 2703 2737
+type(
+  bool Lwt.u -> bool -> unit
+)
+ident(
+  ext_ref Lwt.wakeup
+)
+"src/unix/lwt_throttle.ml" 91 2703 2738 "src/unix/lwt_throttle.ml" 91 2703 2739
+type(
+  bool Lwt.u
+)
+ident(
+  int_ref u "src/unix/lwt_throttle.ml" 91 2703 2722 "src/unix/lwt_throttle.ml" 91 2703 2723
+)
+"src/unix/lwt_throttle.ml" 91 2703 2740 "src/unix/lwt_throttle.ml" 91 2703 2744
+type(
+  bool
+)
+"src/unix/lwt_throttle.ml" 91 2703 2727 "src/unix/lwt_throttle.ml" 91 2703 2744
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 91 2703 2717 "src/unix/lwt_throttle.ml" 91 2703 2745
+type(
+  bool Lwt.u -> unit
+)
+"src/unix/lwt_throttle.ml" 91 2703 2746 "src/unix/lwt_throttle.ml" 91 2703 2752
+type(
+  bool Lwt.u list
+)
+ident(
+  int_ref to_run "src/unix/lwt_throttle.ml" 84 2447 2463 "src/unix/lwt_throttle.ml" 84 2447 2469
+)
+"src/unix/lwt_throttle.ml" 91 2703 2707 "src/unix/lwt_throttle.ml" 91 2703 2752
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 86 2539 2543 "src/unix/lwt_throttle.ml" 91 2703 2752
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 85 2513 2517 "src/unix/lwt_throttle.ml" 91 2703 2752
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 84 2447 2451 "src/unix/lwt_throttle.ml" 91 2703 2752
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 93 2754 2760 "src/unix/lwt_throttle.ml" 93 2754 2775
+type(
+  t -> unit
+)
+ident(
+  def launch_cleaning "src/unix/lwt_throttle.ml" 83 2421 2423 "src/unix/lwt_throttle.ml" 134 3752 3755
+)
+"src/unix/lwt_throttle.ml" 93 2754 2776 "src/unix/lwt_throttle.ml" 93 2754 2777
+type(
+  t
+)
+ident(
+  def t "src/unix/lwt_throttle.ml" 94 2780 2784 "src/unix/lwt_throttle.ml" 104 3036 3048
+)
+"src/unix/lwt_throttle.ml" 94 2780 2784 "src/unix/lwt_throttle.ml" 94 2780 2785
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 93 2754 2776 "src/unix/lwt_throttle.ml" 93 2754 2777
+)
+"src/unix/lwt_throttle.ml" 95 2798 2808 "src/unix/lwt_throttle.ml" 95 2798 2809
+type(
+  unit Lwt.t
+)
+ident(
+  def t "src/unix/lwt_throttle.ml" 104 3036 3042 "src/unix/lwt_throttle.ml" 104 3036 3048
+)
+"src/unix/lwt_throttle.ml" 96 2812 2820 "src/unix/lwt_throttle.ml" 96 2812 2834
+type(
+  float -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.sleep
+)
+"src/unix/lwt_throttle.ml" 96 2812 2835 "src/unix/lwt_throttle.ml" 96 2812 2837
+type(
+  float
+)
+"src/unix/lwt_throttle.ml" 96 2812 2820 "src/unix/lwt_throttle.ml" 96 2812 2837
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_throttle.ml" 96 2812 2838 "src/unix/lwt_throttle.ml" 96 2812 2841
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_throttle.ml" 96 2812 2846 "src/unix/lwt_throttle.ml" 96 2812 2848
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 97 2852 2860 "src/unix/lwt_throttle.ml" 97 2852 2869
+type(
+  (unit -> unit Lwt.t) -> (exn -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.catch
+)
+"src/unix/lwt_throttle.ml" 98 2870 2885 "src/unix/lwt_throttle.ml" 98 2870 2887
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 99 2891 2903 "src/unix/lwt_throttle.ml" 99 2891 2914
+type(
+  t -> unit
+)
+ident(
+  int_ref clean_table "src/unix/lwt_throttle.ml" 83 2421 2431 "src/unix/lwt_throttle.ml" 83 2421 2442
+)
+"src/unix/lwt_throttle.ml" 99 2891 2915 "src/unix/lwt_throttle.ml" 99 2891 2916
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 93 2754 2776 "src/unix/lwt_throttle.ml" 93 2754 2777
+)
+"src/unix/lwt_throttle.ml" 99 2891 2903 "src/unix/lwt_throttle.ml" 99 2891 2916
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 100 2918 2930 "src/unix/lwt_throttle.ml" 100 2918 2945
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/unix/lwt_throttle.ml" 99 2891 2903 "src/unix/lwt_throttle.ml" 100 2918 2945
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_throttle.ml" 98 2870 2880 "src/unix/lwt_throttle.ml" 100 2918 2946
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_throttle.ml" 101 2947 2962 "src/unix/lwt_throttle.ml" 101 2947 2965
+type(
+  exn
+)
+ident(
+  def exn "src/unix/lwt_throttle.ml" 102 2969 2981 "src/unix/lwt_throttle.ml" 102 2969 3025
+)
+"src/unix/lwt_throttle.ml" 102 2969 2981 "src/unix/lwt_throttle.ml" 102 2969 2994
+type(
+  ?exn:exn ->
+  ?section:Lwt_log.section ->
+  ?location:string * int * int ->
+  ?logger:Lwt_log.logger -> string -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_log.fatal
+)
+"src/unix/lwt_throttle.ml" 102 2969 2996 "src/unix/lwt_throttle.ml" 102 2969 2999
+type(
+  exn
+)
+ident(
+  int_ref exn "src/unix/lwt_throttle.ml" 101 2947 2962 "src/unix/lwt_throttle.ml" 101 2947 2965
+)
+"src/unix/lwt_throttle.ml" 102 2969 3001 "src/unix/lwt_throttle.ml" 102 2969 3008
+type(
+  Lwt_log.section
+)
+ident(
+  int_ref section "src/unix/lwt_throttle.ml" 34 1137 1141 "src/unix/lwt_throttle.ml" 34 1137 1148
+)
+"src/unix/lwt_throttle.ml" 102 2969 3009 "src/unix/lwt_throttle.ml" 102 2969 3025
+type(
+  string
+)
+"src/unix/lwt_throttle.ml" 102 2969 2981 "src/unix/lwt_throttle.ml" 102 2969 3025
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_throttle.ml" 101 2947 2957 "src/unix/lwt_throttle.ml" 102 2969 3026
+type(
+  exn -> unit Lwt.t
+)
+"src/unix/lwt_throttle.ml" 97 2852 2860 "src/unix/lwt_throttle.ml" 102 2969 3026
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_throttle.ml" 96 2812 2842 "src/unix/lwt_throttle.ml" 102 2969 3026
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_throttle.ml" 96 2812 2820 "src/unix/lwt_throttle.ml" 102 2969 3026
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_throttle.ml" 104 3036 3047 "src/unix/lwt_throttle.ml" 104 3036 3048
+type(
+  unit Lwt.t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 95 2798 2808 "src/unix/lwt_throttle.ml" 95 2798 2809
+)
+"src/unix/lwt_throttle.ml" 104 3036 3042 "src/unix/lwt_throttle.ml" 104 3036 3048
+type(
+  unit Lwt.t option
+)
+"src/unix/lwt_throttle.ml" 95 2798 2804 "src/unix/lwt_throttle.ml" 104 3036 3048
+type(
+  unit Lwt.t option
+)
+"src/unix/lwt_throttle.ml" 94 2780 2784 "src/unix/lwt_throttle.ml" 104 3036 3048
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 106 3050 3056 "src/unix/lwt_throttle.ml" 106 3050 3067
+type(
+  t -> elt -> bool Lwt.t
+)
+ident(
+  def really_wait "src/unix/lwt_throttle.ml" 114 3242 3244 "src/unix/lwt_throttle.ml" 134 3752 3755
+)
+"src/unix/lwt_throttle.ml" 106 3050 3068 "src/unix/lwt_throttle.ml" 106 3050 3069
+type(
+  t
+)
+ident(
+  def t "src/unix/lwt_throttle.ml" 106 3050 3070 "src/unix/lwt_throttle.ml" 112 3215 3240
+)
+"src/unix/lwt_throttle.ml" 106 3050 3070 "src/unix/lwt_throttle.ml" 106 3050 3073
+type(
+  elt
+)
+ident(
+  def elt "src/unix/lwt_throttle.ml" 107 3076 3080 "src/unix/lwt_throttle.ml" 112 3215 3240
+)
+"src/unix/lwt_throttle.ml" 107 3076 3084 "src/unix/lwt_throttle.ml" 107 3076 3085
+type(
+  bool Lwt.t
+)
+ident(
+  def w "src/unix/lwt_throttle.ml" 108 3105 3109 "src/unix/lwt_throttle.ml" 112 3215 3240
+)
+"src/unix/lwt_throttle.ml" 107 3076 3086 "src/unix/lwt_throttle.ml" 107 3076 3087
+type(
+  bool Lwt.u
+)
+ident(
+  def u "src/unix/lwt_throttle.ml" 108 3105 3109 "src/unix/lwt_throttle.ml" 112 3215 3240
+)
+"src/unix/lwt_throttle.ml" 107 3076 3084 "src/unix/lwt_throttle.ml" 107 3076 3087
+type(
+  bool Lwt.t * bool Lwt.u
+)
+"src/unix/lwt_throttle.ml" 107 3076 3090 "src/unix/lwt_throttle.ml" 107 3076 3098
+type(
+  unit -> bool Lwt.t * bool Lwt.u
+)
+ident(
+  ext_ref Lwt.task
+)
+"src/unix/lwt_throttle.ml" 107 3076 3099 "src/unix/lwt_throttle.ml" 107 3076 3101
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 107 3076 3090 "src/unix/lwt_throttle.ml" 107 3076 3101
+call(
+  stack
+)
+type(
+  bool Lwt.t * bool Lwt.u
+)
+"src/unix/lwt_throttle.ml" 108 3105 3112 "src/unix/lwt_throttle.ml" 108 3105 3113
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 106 3050 3068 "src/unix/lwt_throttle.ml" 106 3050 3069
+)
+"src/unix/lwt_throttle.ml" 108 3105 3112 "src/unix/lwt_throttle.ml" 108 3105 3117
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 108 3105 3118 "src/unix/lwt_throttle.ml" 108 3105 3119
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_throttle.ml" 108 3105 3120 "src/unix/lwt_throttle.ml" 108 3105 3121
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 106 3050 3068 "src/unix/lwt_throttle.ml" 106 3050 3069
+)
+"src/unix/lwt_throttle.ml" 108 3105 3120 "src/unix/lwt_throttle.ml" 108 3105 3129
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 108 3105 3112 "src/unix/lwt_throttle.ml" 108 3105 3129
+type(
+  bool
+)
+"src/unix/lwt_throttle.ml" 109 3130 3140 "src/unix/lwt_throttle.ml" 109 3130 3149
+type(
+  bool Lwt.u -> bool Lwt.u Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"src/unix/lwt_throttle.ml" 109 3130 3150 "src/unix/lwt_throttle.ml" 109 3130 3151
+type(
+  bool Lwt.u
+)
+ident(
+  int_ref u "src/unix/lwt_throttle.ml" 107 3076 3086 "src/unix/lwt_throttle.ml" 107 3076 3087
+)
+"src/unix/lwt_throttle.ml" 109 3130 3152 "src/unix/lwt_throttle.ml" 109 3130 3155
+type(
+  elt
+)
+ident(
+  int_ref elt "src/unix/lwt_throttle.ml" 106 3050 3070 "src/unix/lwt_throttle.ml" 106 3050 3073
+)
+"src/unix/lwt_throttle.ml" 109 3130 3152 "src/unix/lwt_throttle.ml" 109 3130 3161
+type(
+  bool Lwt.u Queue.t
+)
+"src/unix/lwt_throttle.ml" 109 3130 3140 "src/unix/lwt_throttle.ml" 109 3130 3161
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 110 3163 3173 "src/unix/lwt_throttle.ml" 110 3163 3174
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 106 3050 3068 "src/unix/lwt_throttle.ml" 106 3050 3069
+)
+"src/unix/lwt_throttle.ml" 110 3163 3186 "src/unix/lwt_throttle.ml" 110 3163 3190
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"src/unix/lwt_throttle.ml" 110 3163 3191 "src/unix/lwt_throttle.ml" 110 3163 3192
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 106 3050 3068 "src/unix/lwt_throttle.ml" 106 3050 3069
+)
+"src/unix/lwt_throttle.ml" 110 3163 3191 "src/unix/lwt_throttle.ml" 110 3163 3200
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 110 3163 3186 "src/unix/lwt_throttle.ml" 110 3163 3200
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 110 3163 3173 "src/unix/lwt_throttle.ml" 110 3163 3200
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 111 3202 3212 "src/unix/lwt_throttle.ml" 111 3202 3213
+type(
+  bool Lwt.t
+)
+ident(
+  int_ref w "src/unix/lwt_throttle.ml" 107 3076 3084 "src/unix/lwt_throttle.ml" 107 3076 3085
+)
+"src/unix/lwt_throttle.ml" 110 3163 3173 "src/unix/lwt_throttle.ml" 111 3202 3213
+type(
+  bool Lwt.t
+)
+"src/unix/lwt_throttle.ml" 109 3130 3139 "src/unix/lwt_throttle.ml" 111 3202 3214
+type(
+  bool Lwt.t
+)
+"src/unix/lwt_throttle.ml" 112 3215 3224 "src/unix/lwt_throttle.ml" 112 3215 3240
+type(
+  bool Lwt.t
+)
+ident(
+  ext_ref Lwt.return_false
+)
+"src/unix/lwt_throttle.ml" 108 3105 3109 "src/unix/lwt_throttle.ml" 112 3215 3240
+type(
+  bool Lwt.t
+)
+"src/unix/lwt_throttle.ml" 107 3076 3080 "src/unix/lwt_throttle.ml" 112 3215 3240
+type(
+  bool Lwt.t
+)
+"src/unix/lwt_throttle.ml" 114 3242 3248 "src/unix/lwt_throttle.ml" 114 3242 3252
+type(
+  t -> MH.key -> bool Lwt.t
+)
+ident(
+  def wait "src/unix/lwt_throttle.ml" 132 3743 3750 "src/unix/lwt_throttle.ml" 134 3752 3755
+)
+"src/unix/lwt_throttle.ml" 114 3242 3253 "src/unix/lwt_throttle.ml" 114 3242 3254
+type(
+  t
+)
+ident(
+  def t "src/unix/lwt_throttle.ml" 114 3242 3255 "src/unix/lwt_throttle.ml" 132 3743 3750
+)
+"src/unix/lwt_throttle.ml" 114 3242 3255 "src/unix/lwt_throttle.ml" 114 3242 3258
+type(
+  MH.key
+)
+ident(
+  def key "src/unix/lwt_throttle.ml" 115 3261 3265 "src/unix/lwt_throttle.ml" 132 3743 3750
+)
+"src/unix/lwt_throttle.ml" 115 3261 3269 "src/unix/lwt_throttle.ml" 115 3261 3272
+type(
+  bool Lwt.t
+)
+ident(
+  def res "src/unix/lwt_throttle.ml" 129 3659 3663 "src/unix/lwt_throttle.ml" 132 3743 3750
+)
+"src/unix/lwt_throttle.ml" 117 3285 3297 "src/unix/lwt_throttle.ml" 117 3285 3300
+type(
+  elt
+)
+ident(
+  def elt "src/unix/lwt_throttle.ml" 118 3326 3334 "src/unix/lwt_throttle.ml" 121 3440 3470
+)
+"src/unix/lwt_throttle.ml" 117 3285 3303 "src/unix/lwt_throttle.ml" 117 3285 3310
+type(
+  elt MH.t -> MH.key -> elt
+)
+ident(
+  ext_ref MH.find
+)
+"src/unix/lwt_throttle.ml" 117 3285 3311 "src/unix/lwt_throttle.ml" 117 3285 3312
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 114 3242 3253 "src/unix/lwt_throttle.ml" 114 3242 3254
+)
+"src/unix/lwt_throttle.ml" 117 3285 3311 "src/unix/lwt_throttle.ml" 117 3285 3318
+type(
+  elt MH.t
+)
+"src/unix/lwt_throttle.ml" 117 3285 3319 "src/unix/lwt_throttle.ml" 117 3285 3322
+type(
+  MH.key
+)
+ident(
+  int_ref key "src/unix/lwt_throttle.ml" 114 3242 3255 "src/unix/lwt_throttle.ml" 114 3242 3258
+)
+"src/unix/lwt_throttle.ml" 117 3285 3303 "src/unix/lwt_throttle.ml" 117 3285 3322
+call(
+  stack
+)
+type(
+  elt
+)
+"src/unix/lwt_throttle.ml" 118 3326 3337 "src/unix/lwt_throttle.ml" 118 3326 3340
+type(
+  elt
+)
+ident(
+  int_ref elt "src/unix/lwt_throttle.ml" 117 3285 3297 "src/unix/lwt_throttle.ml" 117 3285 3300
+)
+"src/unix/lwt_throttle.ml" 118 3326 3337 "src/unix/lwt_throttle.ml" 118 3326 3349
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 118 3326 3350 "src/unix/lwt_throttle.ml" 118 3326 3352
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/unix/lwt_throttle.ml" 118 3326 3353 "src/unix/lwt_throttle.ml" 118 3326 3354
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 114 3242 3253 "src/unix/lwt_throttle.ml" 114 3242 3254
+)
+"src/unix/lwt_throttle.ml" 118 3326 3353 "src/unix/lwt_throttle.ml" 118 3326 3359
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 118 3326 3337 "src/unix/lwt_throttle.ml" 118 3326 3359
+type(
+  bool
+)
+"src/unix/lwt_throttle.ml" 119 3360 3373 "src/unix/lwt_throttle.ml" 119 3360 3384
+type(
+  t -> elt -> bool Lwt.t
+)
+ident(
+  int_ref really_wait "src/unix/lwt_throttle.ml" 106 3050 3056 "src/unix/lwt_throttle.ml" 106 3050 3067
+)
+"src/unix/lwt_throttle.ml" 119 3360 3385 "src/unix/lwt_throttle.ml" 119 3360 3386
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 114 3242 3253 "src/unix/lwt_throttle.ml" 114 3242 3254
+)
+"src/unix/lwt_throttle.ml" 119 3360 3387 "src/unix/lwt_throttle.ml" 119 3360 3390
+type(
+  elt
+)
+ident(
+  int_ref elt "src/unix/lwt_throttle.ml" 117 3285 3297 "src/unix/lwt_throttle.ml" 117 3285 3300
+)
+"src/unix/lwt_throttle.ml" 119 3360 3373 "src/unix/lwt_throttle.ml" 119 3360 3390
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"src/unix/lwt_throttle.ml" 120 3391 3405 "src/unix/lwt_throttle.ml" 120 3391 3408
+type(
+  elt
+)
+ident(
+  int_ref elt "src/unix/lwt_throttle.ml" 117 3285 3297 "src/unix/lwt_throttle.ml" 117 3285 3300
+)
+"src/unix/lwt_throttle.ml" 120 3391 3421 "src/unix/lwt_throttle.ml" 120 3391 3425
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"src/unix/lwt_throttle.ml" 120 3391 3426 "src/unix/lwt_throttle.ml" 120 3391 3429
+type(
+  elt
+)
+ident(
+  int_ref elt "src/unix/lwt_throttle.ml" 117 3285 3297 "src/unix/lwt_throttle.ml" 117 3285 3300
+)
+"src/unix/lwt_throttle.ml" 120 3391 3426 "src/unix/lwt_throttle.ml" 120 3391 3438
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 120 3391 3421 "src/unix/lwt_throttle.ml" 120 3391 3438
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 120 3391 3405 "src/unix/lwt_throttle.ml" 120 3391 3438
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 121 3440 3454 "src/unix/lwt_throttle.ml" 121 3440 3469
+type(
+  bool Lwt.t
+)
+ident(
+  ext_ref Lwt.return_true
+)
+"src/unix/lwt_throttle.ml" 120 3391 3404 "src/unix/lwt_throttle.ml" 121 3440 3470
+type(
+  bool Lwt.t
+)
+"src/unix/lwt_throttle.ml" 118 3326 3334 "src/unix/lwt_throttle.ml" 121 3440 3470
+type(
+  bool Lwt.t
+)
+"src/unix/lwt_throttle.ml" 117 3285 3293 "src/unix/lwt_throttle.ml" 121 3440 3470
+type(
+  bool Lwt.t
+)
+"src/unix/lwt_throttle.ml" 123 3482 3492 "src/unix/lwt_throttle.ml" 123 3482 3501
+type(
+  exn
+)
+"src/unix/lwt_throttle.ml" 124 3505 3519 "src/unix/lwt_throttle.ml" 124 3505 3522
+type(
+  elt
+)
+ident(
+  def elt "src/unix/lwt_throttle.ml" 126 3592 3602 "src/unix/lwt_throttle.ml" 127 3626 3651
+)
+"src/unix/lwt_throttle.ml" 124 3505 3538 "src/unix/lwt_throttle.ml" 124 3505 3539
+type(
+  int
+)
+"src/unix/lwt_throttle.ml" 125 3541 3571 "src/unix/lwt_throttle.ml" 125 3541 3583
+type(
+  unit -> bool Lwt.u Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"src/unix/lwt_throttle.ml" 125 3541 3584 "src/unix/lwt_throttle.ml" 125 3541 3586
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 125 3541 3571 "src/unix/lwt_throttle.ml" 125 3541 3586
+call(
+  stack
+)
+type(
+  bool Lwt.u Queue.t
+)
+"src/unix/lwt_throttle.ml" 124 3505 3525 "src/unix/lwt_throttle.ml" 125 3541 3588
+type(
+  elt
+)
+"src/unix/lwt_throttle.ml" 126 3592 3602 "src/unix/lwt_throttle.ml" 126 3592 3608
+type(
+  elt MH.t -> MH.key -> elt -> unit
+)
+ident(
+  ext_ref MH.add
+)
+"src/unix/lwt_throttle.ml" 126 3592 3609 "src/unix/lwt_throttle.ml" 126 3592 3610
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 114 3242 3253 "src/unix/lwt_throttle.ml" 114 3242 3254
+)
+"src/unix/lwt_throttle.ml" 126 3592 3609 "src/unix/lwt_throttle.ml" 126 3592 3616
+type(
+  elt MH.t
+)
+"src/unix/lwt_throttle.ml" 126 3592 3617 "src/unix/lwt_throttle.ml" 126 3592 3620
+type(
+  MH.key
+)
+ident(
+  int_ref key "src/unix/lwt_throttle.ml" 114 3242 3255 "src/unix/lwt_throttle.ml" 114 3242 3258
+)
+"src/unix/lwt_throttle.ml" 126 3592 3621 "src/unix/lwt_throttle.ml" 126 3592 3624
+type(
+  elt
+)
+ident(
+  int_ref elt "src/unix/lwt_throttle.ml" 124 3505 3519 "src/unix/lwt_throttle.ml" 124 3505 3522
+)
+"src/unix/lwt_throttle.ml" 126 3592 3602 "src/unix/lwt_throttle.ml" 126 3592 3624
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 127 3626 3636 "src/unix/lwt_throttle.ml" 127 3626 3651
+type(
+  bool Lwt.t
+)
+ident(
+  ext_ref Lwt.return_true
+)
+"src/unix/lwt_throttle.ml" 126 3592 3602 "src/unix/lwt_throttle.ml" 127 3626 3651
+type(
+  bool Lwt.t
+)
+"src/unix/lwt_throttle.ml" 124 3505 3515 "src/unix/lwt_throttle.ml" 127 3626 3651
+type(
+  bool Lwt.t
+)
+"src/unix/lwt_throttle.ml" 116 3275 3281 "src/unix/lwt_throttle.ml" 127 3626 3651
+type(
+  bool Lwt.t
+)
+"src/unix/lwt_throttle.ml" 129 3659 3670 "src/unix/lwt_throttle.ml" 129 3659 3671
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 114 3242 3253 "src/unix/lwt_throttle.ml" 114 3242 3254
+)
+"src/unix/lwt_throttle.ml" 129 3659 3670 "src/unix/lwt_throttle.ml" 129 3659 3680
+type(
+  unit Lwt.t option
+)
+"src/unix/lwt_throttle.ml" 130 3686 3694 "src/unix/lwt_throttle.ml" 130 3686 3698
+type(
+  unit Lwt.t option
+)
+"src/unix/lwt_throttle.ml" 130 3686 3702 "src/unix/lwt_throttle.ml" 130 3686 3717
+type(
+  t -> unit
+)
+ident(
+  int_ref launch_cleaning "src/unix/lwt_throttle.ml" 93 2754 2760 "src/unix/lwt_throttle.ml" 93 2754 2775
+)
+"src/unix/lwt_throttle.ml" 130 3686 3718 "src/unix/lwt_throttle.ml" 130 3686 3719
+type(
+  t
+)
+ident(
+  int_ref t "src/unix/lwt_throttle.ml" 114 3242 3253 "src/unix/lwt_throttle.ml" 114 3242 3254
+)
+"src/unix/lwt_throttle.ml" 130 3686 3702 "src/unix/lwt_throttle.ml" 130 3686 3719
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 131 3720 3733 "src/unix/lwt_throttle.ml" 131 3720 3734
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_throttle.ml" 131 3720 3728 "src/unix/lwt_throttle.ml" 131 3720 3734
+type(
+  unit Lwt.t option
+)
+"src/unix/lwt_throttle.ml" 131 3720 3738 "src/unix/lwt_throttle.ml" 131 3720 3740
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 129 3659 3663 "src/unix/lwt_throttle.ml" 131 3720 3741
+type(
+  unit
+)
+"src/unix/lwt_throttle.ml" 132 3743 3747 "src/unix/lwt_throttle.ml" 132 3743 3750
+type(
+  bool Lwt.t
+)
+ident(
+  int_ref res "src/unix/lwt_throttle.ml" 115 3261 3269 "src/unix/lwt_throttle.ml" 115 3261 3272
+)
+"src/unix/lwt_throttle.ml" 129 3659 3663 "src/unix/lwt_throttle.ml" 132 3743 3750
+type(
+  bool Lwt.t
+)
+"src/unix/lwt_throttle.ml" 115 3261 3265 "src/unix/lwt_throttle.ml" 132 3743 3750
+type(
+  bool Lwt.t
+)

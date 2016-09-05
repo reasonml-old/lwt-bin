@@ -1,0 +1,2402 @@
+"src/unix/lwt_timeout.ml" 24 995 999 "src/unix/lwt_timeout.ml" 24 995 1006
+type(
+  Lwt_log_core.section
+)
+ident(
+  def section "src/unix/lwt_timeout.ml" 26 1046 1046 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 24 995 1009 "src/unix/lwt_timeout.ml" 24 995 1029
+type(
+  string -> Lwt_log_core.section
+)
+ident(
+  ext_ref Lwt_log.Section.make
+)
+"src/unix/lwt_timeout.ml" 24 995 1030 "src/unix/lwt_timeout.ml" 24 995 1044
+type(
+  string
+)
+"src/unix/lwt_timeout.ml" 24 995 1009 "src/unix/lwt_timeout.ml" 24 995 1044
+call(
+  stack
+)
+type(
+  Lwt_log_core.section
+)
+"src/unix/lwt_timeout.ml" 30 1145 1149 "src/unix/lwt_timeout.ml" 30 1145 1153
+type(
+  int -> (unit -> unit) -> t
+)
+ident(
+  def make "src/unix/lwt_timeout.ml" 34 1246 1246 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 30 1145 1154 "src/unix/lwt_timeout.ml" 30 1145 1159
+type(
+  int
+)
+ident(
+  def delay "src/unix/lwt_timeout.ml" 30 1145 1160 "src/unix/lwt_timeout.ml" 32 1241 1244
+)
+"src/unix/lwt_timeout.ml" 30 1145 1160 "src/unix/lwt_timeout.ml" 30 1145 1166
+type(
+  unit -> unit
+)
+ident(
+  def action "src/unix/lwt_timeout.ml" 31 1169 1171 "src/unix/lwt_timeout.ml" 32 1241 1244
+)
+"src/unix/lwt_timeout.ml" 31 1169 1179 "src/unix/lwt_timeout.ml" 31 1169 1180
+type(
+  t
+)
+ident(
+  def x "src/unix/lwt_timeout.ml" 31 1169 1171 "src/unix/lwt_timeout.ml" 32 1241 1244
+)
+"src/unix/lwt_timeout.ml" 31 1169 1193 "src/unix/lwt_timeout.ml" 31 1169 1198
+type(
+  int
+)
+ident(
+  int_ref delay "src/unix/lwt_timeout.ml" 30 1145 1154 "src/unix/lwt_timeout.ml" 30 1145 1159
+)
+"src/unix/lwt_timeout.ml" 31 1169 1209 "src/unix/lwt_timeout.ml" 31 1169 1215
+type(
+  unit -> unit
+)
+ident(
+  int_ref action "src/unix/lwt_timeout.ml" 30 1145 1160 "src/unix/lwt_timeout.ml" 30 1145 1166
+)
+"src/unix/lwt_timeout.ml" 31 1169 1224 "src/unix/lwt_timeout.ml" 31 1169 1225
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 31 1169 1179 "src/unix/lwt_timeout.ml" 31 1169 1180
+)
+"src/unix/lwt_timeout.ml" 31 1169 1234 "src/unix/lwt_timeout.ml" 31 1169 1235
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 31 1169 1179 "src/unix/lwt_timeout.ml" 31 1169 1180
+)
+"src/unix/lwt_timeout.ml" 31 1169 1183 "src/unix/lwt_timeout.ml" 31 1169 1237
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 32 1241 1243 "src/unix/lwt_timeout.ml" 32 1241 1244
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 31 1169 1179 "src/unix/lwt_timeout.ml" 31 1169 1180
+)
+"src/unix/lwt_timeout.ml" 31 1169 1171 "src/unix/lwt_timeout.ml" 32 1241 1244
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 34 1246 1250 "src/unix/lwt_timeout.ml" 34 1246 1259
+type(
+  unit -> t
+)
+ident(
+  def lst_empty "src/unix/lwt_timeout.ml" 36 1291 1291 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 34 1246 1260 "src/unix/lwt_timeout.ml" 34 1246 1262
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 34 1246 1265 "src/unix/lwt_timeout.ml" 34 1246 1269
+type(
+  int -> (unit -> unit) -> t
+)
+ident(
+  int_ref make "src/unix/lwt_timeout.ml" 30 1145 1149 "src/unix/lwt_timeout.ml" 30 1145 1153
+)
+"src/unix/lwt_timeout.ml" 34 1246 1270 "src/unix/lwt_timeout.ml" 34 1246 1274
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 34 1246 1280 "src/unix/lwt_timeout.ml" 34 1246 1282
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 34 1246 1286 "src/unix/lwt_timeout.ml" 34 1246 1288
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 34 1246 1275 "src/unix/lwt_timeout.ml" 34 1246 1289
+type(
+  unit -> unit
+)
+"src/unix/lwt_timeout.ml" 34 1246 1265 "src/unix/lwt_timeout.ml" 34 1246 1289
+call(
+  tail
+)
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 36 1291 1295 "src/unix/lwt_timeout.ml" 36 1291 1305
+type(
+  t -> unit
+)
+ident(
+  def lst_remove "src/unix/lwt_timeout.ml" 44 1410 1410 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 36 1291 1306 "src/unix/lwt_timeout.ml" 36 1291 1307
+type(
+  t
+)
+ident(
+  def x "src/unix/lwt_timeout.ml" 37 1310 1312 "src/unix/lwt_timeout.ml" 42 1395 1408
+)
+"src/unix/lwt_timeout.ml" 37 1310 1316 "src/unix/lwt_timeout.ml" 37 1310 1317
+type(
+  t
+)
+ident(
+  def p "src/unix/lwt_timeout.ml" 38 1330 1332 "src/unix/lwt_timeout.ml" 42 1395 1408
+)
+"src/unix/lwt_timeout.ml" 37 1310 1320 "src/unix/lwt_timeout.ml" 37 1310 1321
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 36 1291 1306 "src/unix/lwt_timeout.ml" 36 1291 1307
+)
+"src/unix/lwt_timeout.ml" 37 1310 1320 "src/unix/lwt_timeout.ml" 37 1310 1326
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 38 1330 1336 "src/unix/lwt_timeout.ml" 38 1330 1337
+type(
+  t
+)
+ident(
+  def n "src/unix/lwt_timeout.ml" 39 1350 1352 "src/unix/lwt_timeout.ml" 42 1395 1408
+)
+"src/unix/lwt_timeout.ml" 38 1330 1340 "src/unix/lwt_timeout.ml" 38 1330 1341
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 36 1291 1306 "src/unix/lwt_timeout.ml" 36 1291 1307
+)
+"src/unix/lwt_timeout.ml" 38 1330 1340 "src/unix/lwt_timeout.ml" 38 1330 1346
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 39 1350 1352 "src/unix/lwt_timeout.ml" 39 1350 1353
+type(
+  t
+)
+ident(
+  int_ref p "src/unix/lwt_timeout.ml" 37 1310 1316 "src/unix/lwt_timeout.ml" 37 1310 1317
+)
+"src/unix/lwt_timeout.ml" 39 1350 1362 "src/unix/lwt_timeout.ml" 39 1350 1363
+type(
+  t
+)
+ident(
+  int_ref n "src/unix/lwt_timeout.ml" 38 1330 1336 "src/unix/lwt_timeout.ml" 38 1330 1337
+)
+"src/unix/lwt_timeout.ml" 39 1350 1352 "src/unix/lwt_timeout.ml" 39 1350 1363
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 40 1365 1367 "src/unix/lwt_timeout.ml" 40 1365 1368
+type(
+  t
+)
+ident(
+  int_ref n "src/unix/lwt_timeout.ml" 38 1330 1336 "src/unix/lwt_timeout.ml" 38 1330 1337
+)
+"src/unix/lwt_timeout.ml" 40 1365 1377 "src/unix/lwt_timeout.ml" 40 1365 1378
+type(
+  t
+)
+ident(
+  int_ref p "src/unix/lwt_timeout.ml" 37 1310 1316 "src/unix/lwt_timeout.ml" 37 1310 1317
+)
+"src/unix/lwt_timeout.ml" 40 1365 1367 "src/unix/lwt_timeout.ml" 40 1365 1378
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 41 1380 1382 "src/unix/lwt_timeout.ml" 41 1380 1383
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 36 1291 1306 "src/unix/lwt_timeout.ml" 36 1291 1307
+)
+"src/unix/lwt_timeout.ml" 41 1380 1392 "src/unix/lwt_timeout.ml" 41 1380 1393
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 36 1291 1306 "src/unix/lwt_timeout.ml" 36 1291 1307
+)
+"src/unix/lwt_timeout.ml" 41 1380 1382 "src/unix/lwt_timeout.ml" 41 1380 1393
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 42 1395 1397 "src/unix/lwt_timeout.ml" 42 1395 1398
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 36 1291 1306 "src/unix/lwt_timeout.ml" 36 1291 1307
+)
+"src/unix/lwt_timeout.ml" 42 1395 1407 "src/unix/lwt_timeout.ml" 42 1395 1408
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 36 1291 1306 "src/unix/lwt_timeout.ml" 36 1291 1307
+)
+"src/unix/lwt_timeout.ml" 42 1395 1397 "src/unix/lwt_timeout.ml" 42 1395 1408
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 41 1380 1382 "src/unix/lwt_timeout.ml" 42 1395 1408
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 40 1365 1367 "src/unix/lwt_timeout.ml" 42 1395 1408
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 39 1350 1352 "src/unix/lwt_timeout.ml" 42 1395 1408
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 38 1330 1332 "src/unix/lwt_timeout.ml" 42 1395 1408
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 37 1310 1312 "src/unix/lwt_timeout.ml" 42 1395 1408
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 44 1410 1414 "src/unix/lwt_timeout.ml" 44 1410 1424
+type(
+  t -> t -> unit
+)
+ident(
+  def lst_insert "src/unix/lwt_timeout.ml" 51 1511 1511 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 44 1410 1425 "src/unix/lwt_timeout.ml" 44 1410 1426
+type(
+  t
+)
+ident(
+  def p "src/unix/lwt_timeout.ml" 44 1410 1427 "src/unix/lwt_timeout.ml" 49 1496 1509
+)
+"src/unix/lwt_timeout.ml" 44 1410 1427 "src/unix/lwt_timeout.ml" 44 1410 1428
+type(
+  t
+)
+ident(
+  def x "src/unix/lwt_timeout.ml" 45 1431 1433 "src/unix/lwt_timeout.ml" 49 1496 1509
+)
+"src/unix/lwt_timeout.ml" 45 1431 1437 "src/unix/lwt_timeout.ml" 45 1431 1438
+type(
+  t
+)
+ident(
+  def n "src/unix/lwt_timeout.ml" 46 1451 1453 "src/unix/lwt_timeout.ml" 49 1496 1509
+)
+"src/unix/lwt_timeout.ml" 45 1431 1441 "src/unix/lwt_timeout.ml" 45 1431 1442
+type(
+  t
+)
+ident(
+  int_ref p "src/unix/lwt_timeout.ml" 44 1410 1425 "src/unix/lwt_timeout.ml" 44 1410 1426
+)
+"src/unix/lwt_timeout.ml" 45 1431 1441 "src/unix/lwt_timeout.ml" 45 1431 1447
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 46 1451 1453 "src/unix/lwt_timeout.ml" 46 1451 1454
+type(
+  t
+)
+ident(
+  int_ref p "src/unix/lwt_timeout.ml" 44 1410 1425 "src/unix/lwt_timeout.ml" 44 1410 1426
+)
+"src/unix/lwt_timeout.ml" 46 1451 1463 "src/unix/lwt_timeout.ml" 46 1451 1464
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 44 1410 1427 "src/unix/lwt_timeout.ml" 44 1410 1428
+)
+"src/unix/lwt_timeout.ml" 46 1451 1453 "src/unix/lwt_timeout.ml" 46 1451 1464
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 47 1466 1468 "src/unix/lwt_timeout.ml" 47 1466 1469
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 44 1410 1427 "src/unix/lwt_timeout.ml" 44 1410 1428
+)
+"src/unix/lwt_timeout.ml" 47 1466 1478 "src/unix/lwt_timeout.ml" 47 1466 1479
+type(
+  t
+)
+ident(
+  int_ref p "src/unix/lwt_timeout.ml" 44 1410 1425 "src/unix/lwt_timeout.ml" 44 1410 1426
+)
+"src/unix/lwt_timeout.ml" 47 1466 1468 "src/unix/lwt_timeout.ml" 47 1466 1479
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 48 1481 1483 "src/unix/lwt_timeout.ml" 48 1481 1484
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 44 1410 1427 "src/unix/lwt_timeout.ml" 44 1410 1428
+)
+"src/unix/lwt_timeout.ml" 48 1481 1493 "src/unix/lwt_timeout.ml" 48 1481 1494
+type(
+  t
+)
+ident(
+  int_ref n "src/unix/lwt_timeout.ml" 45 1431 1437 "src/unix/lwt_timeout.ml" 45 1431 1438
+)
+"src/unix/lwt_timeout.ml" 48 1481 1483 "src/unix/lwt_timeout.ml" 48 1481 1494
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 49 1496 1498 "src/unix/lwt_timeout.ml" 49 1496 1499
+type(
+  t
+)
+ident(
+  int_ref n "src/unix/lwt_timeout.ml" 45 1431 1437 "src/unix/lwt_timeout.ml" 45 1431 1438
+)
+"src/unix/lwt_timeout.ml" 49 1496 1508 "src/unix/lwt_timeout.ml" 49 1496 1509
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 44 1410 1427 "src/unix/lwt_timeout.ml" 44 1410 1428
+)
+"src/unix/lwt_timeout.ml" 49 1496 1498 "src/unix/lwt_timeout.ml" 49 1496 1509
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 48 1481 1483 "src/unix/lwt_timeout.ml" 49 1496 1509
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 47 1466 1468 "src/unix/lwt_timeout.ml" 49 1496 1509
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 46 1451 1453 "src/unix/lwt_timeout.ml" 49 1496 1509
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 45 1431 1433 "src/unix/lwt_timeout.ml" 49 1496 1509
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 51 1511 1515 "src/unix/lwt_timeout.ml" 51 1511 1526
+type(
+  t -> bool
+)
+ident(
+  def lst_in_list "src/unix/lwt_timeout.ml" 53 1544 1544 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 51 1511 1527 "src/unix/lwt_timeout.ml" 51 1511 1528
+type(
+  t
+)
+ident(
+  def x "src/unix/lwt_timeout.ml" 51 1511 1531 "src/unix/lwt_timeout.ml" 51 1511 1542
+)
+"src/unix/lwt_timeout.ml" 51 1511 1531 "src/unix/lwt_timeout.ml" 51 1511 1532
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 51 1511 1527 "src/unix/lwt_timeout.ml" 51 1511 1528
+)
+"src/unix/lwt_timeout.ml" 51 1511 1531 "src/unix/lwt_timeout.ml" 51 1511 1537
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 51 1511 1538 "src/unix/lwt_timeout.ml" 51 1511 1540
+type(
+  t -> t -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/unix/lwt_timeout.ml" 51 1511 1541 "src/unix/lwt_timeout.ml" 51 1511 1542
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 51 1511 1527 "src/unix/lwt_timeout.ml" 51 1511 1528
+)
+"src/unix/lwt_timeout.ml" 51 1511 1531 "src/unix/lwt_timeout.ml" 51 1511 1542
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 53 1544 1548 "src/unix/lwt_timeout.ml" 53 1544 1560
+type(
+  t -> bool
+)
+ident(
+  def lst_is_empty "src/unix/lwt_timeout.ml" 55 1584 1584 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 53 1544 1561 "src/unix/lwt_timeout.ml" 53 1544 1564
+type(
+  t
+)
+ident(
+  def set "src/unix/lwt_timeout.ml" 53 1544 1567 "src/unix/lwt_timeout.ml" 53 1544 1582
+)
+"src/unix/lwt_timeout.ml" 53 1544 1567 "src/unix/lwt_timeout.ml" 53 1544 1570
+type(
+  t
+)
+ident(
+  int_ref set "src/unix/lwt_timeout.ml" 53 1544 1561 "src/unix/lwt_timeout.ml" 53 1544 1564
+)
+"src/unix/lwt_timeout.ml" 53 1544 1567 "src/unix/lwt_timeout.ml" 53 1544 1575
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 53 1544 1576 "src/unix/lwt_timeout.ml" 53 1544 1578
+type(
+  t -> t -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/unix/lwt_timeout.ml" 53 1544 1579 "src/unix/lwt_timeout.ml" 53 1544 1582
+type(
+  t
+)
+ident(
+  int_ref set "src/unix/lwt_timeout.ml" 53 1544 1561 "src/unix/lwt_timeout.ml" 53 1544 1564
+)
+"src/unix/lwt_timeout.ml" 53 1544 1567 "src/unix/lwt_timeout.ml" 53 1544 1582
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 55 1584 1588 "src/unix/lwt_timeout.ml" 55 1584 1596
+type(
+  t -> t
+)
+ident(
+  def lst_peek "src/unix/lwt_timeout.ml" 59 1644 1644 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 55 1584 1597 "src/unix/lwt_timeout.ml" 55 1584 1598
+type(
+  t
+)
+ident(
+  def s "src/unix/lwt_timeout.ml" 55 1584 1601 "src/unix/lwt_timeout.ml" 55 1584 1634
+)
+"src/unix/lwt_timeout.ml" 55 1584 1605 "src/unix/lwt_timeout.ml" 55 1584 1606
+type(
+  t
+)
+ident(
+  def x "src/unix/lwt_timeout.ml" 55 1584 1619 "src/unix/lwt_timeout.ml" 55 1584 1634
+)
+"src/unix/lwt_timeout.ml" 55 1584 1609 "src/unix/lwt_timeout.ml" 55 1584 1610
+type(
+  t
+)
+ident(
+  int_ref s "src/unix/lwt_timeout.ml" 55 1584 1597 "src/unix/lwt_timeout.ml" 55 1584 1598
+)
+"src/unix/lwt_timeout.ml" 55 1584 1609 "src/unix/lwt_timeout.ml" 55 1584 1615
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 55 1584 1619 "src/unix/lwt_timeout.ml" 55 1584 1629
+type(
+  t -> unit
+)
+ident(
+  int_ref lst_remove "src/unix/lwt_timeout.ml" 36 1291 1295 "src/unix/lwt_timeout.ml" 36 1291 1305
+)
+"src/unix/lwt_timeout.ml" 55 1584 1630 "src/unix/lwt_timeout.ml" 55 1584 1631
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 55 1584 1605 "src/unix/lwt_timeout.ml" 55 1584 1606
+)
+"src/unix/lwt_timeout.ml" 55 1584 1619 "src/unix/lwt_timeout.ml" 55 1584 1631
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 55 1584 1633 "src/unix/lwt_timeout.ml" 55 1584 1634
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 55 1584 1605 "src/unix/lwt_timeout.ml" 55 1584 1606
+)
+"src/unix/lwt_timeout.ml" 55 1584 1619 "src/unix/lwt_timeout.ml" 55 1584 1634
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 55 1584 1601 "src/unix/lwt_timeout.ml" 55 1584 1634
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 59 1644 1648 "src/unix/lwt_timeout.ml" 59 1644 1653
+type(
+  int ref
+)
+ident(
+  def count "src/unix/lwt_timeout.ml" 61 1663 1663 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 59 1644 1656 "src/unix/lwt_timeout.ml" 59 1644 1659
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/unix/lwt_timeout.ml" 59 1644 1660 "src/unix/lwt_timeout.ml" 59 1644 1661
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 59 1644 1656 "src/unix/lwt_timeout.ml" 59 1644 1661
+type(
+  int ref
+)
+"src/unix/lwt_timeout.ml" 61 1663 1667 "src/unix/lwt_timeout.ml" 61 1663 1674
+type(
+  t array ref
+)
+ident(
+  def buckets "src/unix/lwt_timeout.ml" 63 1687 1687 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 61 1663 1677 "src/unix/lwt_timeout.ml" 61 1663 1680
+type(
+  t array -> t array ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/unix/lwt_timeout.ml" 61 1663 1681 "src/unix/lwt_timeout.ml" 61 1663 1685
+type(
+  t array
+)
+"src/unix/lwt_timeout.ml" 61 1663 1677 "src/unix/lwt_timeout.ml" 61 1663 1685
+type(
+  t array ref
+)
+"src/unix/lwt_timeout.ml" 63 1687 1691 "src/unix/lwt_timeout.ml" 63 1687 1695
+type(
+  int ref
+)
+ident(
+  def curr "src/unix/lwt_timeout.ml" 65 1705 1705 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 63 1687 1698 "src/unix/lwt_timeout.ml" 63 1687 1701
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/unix/lwt_timeout.ml" 63 1687 1702 "src/unix/lwt_timeout.ml" 63 1687 1703
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 63 1687 1698 "src/unix/lwt_timeout.ml" 63 1687 1703
+type(
+  int ref
+)
+"src/unix/lwt_timeout.ml" 65 1705 1709 "src/unix/lwt_timeout.ml" 65 1705 1716
+type(
+  bool ref
+)
+ident(
+  def stopped "src/unix/lwt_timeout.ml" 67 1729 1729 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 65 1705 1719 "src/unix/lwt_timeout.ml" 65 1705 1722
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/unix/lwt_timeout.ml" 65 1705 1723 "src/unix/lwt_timeout.ml" 65 1705 1727
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 65 1705 1719 "src/unix/lwt_timeout.ml" 65 1705 1727
+type(
+  bool ref
+)
+"src/unix/lwt_timeout.ml" 67 1729 1733 "src/unix/lwt_timeout.ml" 67 1729 1737
+type(
+  int -> unit
+)
+ident(
+  def size "src/unix/lwt_timeout.ml" 78 2004 2004 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 67 1729 1738 "src/unix/lwt_timeout.ml" 67 1729 1739
+type(
+  int
+)
+ident(
+  def l "src/unix/lwt_timeout.ml" 68 1742 1744 "src/unix/lwt_timeout.ml" 74 1989 1994
+)
+"src/unix/lwt_timeout.ml" 68 1742 1748 "src/unix/lwt_timeout.ml" 68 1742 1751
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_timeout.ml" 69 1779 1781 "src/unix/lwt_timeout.ml" 74 1989 1994
+)
+"src/unix/lwt_timeout.ml" 68 1742 1754 "src/unix/lwt_timeout.ml" 68 1742 1766
+type(
+  t array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/unix/lwt_timeout.ml" 68 1742 1767 "src/unix/lwt_timeout.ml" 68 1742 1768
+type(
+  t array ref -> t array
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 68 1742 1768 "src/unix/lwt_timeout.ml" 68 1742 1775
+type(
+  t array ref
+)
+ident(
+  int_ref buckets "src/unix/lwt_timeout.ml" 61 1663 1667 "src/unix/lwt_timeout.ml" 61 1663 1674
+)
+"src/unix/lwt_timeout.ml" 68 1742 1767 "src/unix/lwt_timeout.ml" 68 1742 1775
+type(
+  t array
+)
+"src/unix/lwt_timeout.ml" 68 1742 1754 "src/unix/lwt_timeout.ml" 68 1742 1775
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 69 1779 1784 "src/unix/lwt_timeout.ml" 69 1779 1785
+type(
+  int
+)
+ident(
+  int_ref l "src/unix/lwt_timeout.ml" 67 1729 1738 "src/unix/lwt_timeout.ml" 67 1729 1739
+)
+"src/unix/lwt_timeout.ml" 69 1779 1786 "src/unix/lwt_timeout.ml" 69 1779 1788
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/unix/lwt_timeout.ml" 69 1779 1789 "src/unix/lwt_timeout.ml" 69 1779 1792
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_timeout.ml" 68 1742 1748 "src/unix/lwt_timeout.ml" 68 1742 1751
+)
+"src/unix/lwt_timeout.ml" 69 1779 1784 "src/unix/lwt_timeout.ml" 69 1779 1792
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 70 1804 1812 "src/unix/lwt_timeout.ml" 70 1804 1813
+type(
+  t array
+)
+ident(
+  def b "src/unix/lwt_timeout.ml" 71 1862 1866 "src/unix/lwt_timeout.ml" 73 1960 1988
+)
+"src/unix/lwt_timeout.ml" 70 1804 1816 "src/unix/lwt_timeout.ml" 70 1804 1826
+type(
+  int -> (int -> t) -> t array
+)
+ident(
+  ext_ref Array.init
+)
+"src/unix/lwt_timeout.ml" 70 1804 1828 "src/unix/lwt_timeout.ml" 70 1804 1829
+type(
+  int
+)
+ident(
+  int_ref l "src/unix/lwt_timeout.ml" 67 1729 1738 "src/unix/lwt_timeout.ml" 67 1729 1739
+)
+"src/unix/lwt_timeout.ml" 70 1804 1830 "src/unix/lwt_timeout.ml" 70 1804 1831
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/unix/lwt_timeout.ml" 70 1804 1832 "src/unix/lwt_timeout.ml" 70 1804 1833
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 70 1804 1827 "src/unix/lwt_timeout.ml" 70 1804 1834
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 70 1804 1840 "src/unix/lwt_timeout.ml" 70 1804 1841
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 70 1804 1845 "src/unix/lwt_timeout.ml" 70 1804 1854
+type(
+  unit -> t
+)
+ident(
+  int_ref lst_empty "src/unix/lwt_timeout.ml" 34 1246 1250 "src/unix/lwt_timeout.ml" 34 1246 1259
+)
+"src/unix/lwt_timeout.ml" 70 1804 1855 "src/unix/lwt_timeout.ml" 70 1804 1857
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 70 1804 1845 "src/unix/lwt_timeout.ml" 70 1804 1857
+call(
+  tail
+)
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 70 1804 1835 "src/unix/lwt_timeout.ml" 70 1804 1858
+type(
+  int -> t
+)
+"src/unix/lwt_timeout.ml" 70 1804 1816 "src/unix/lwt_timeout.ml" 70 1804 1858
+call(
+  stack
+)
+type(
+  t array
+)
+"src/unix/lwt_timeout.ml" 71 1862 1866 "src/unix/lwt_timeout.ml" 71 1862 1876
+type(
+  t array -> int -> t array -> int -> int -> unit
+)
+ident(
+  ext_ref Array.blit
+)
+"src/unix/lwt_timeout.ml" 71 1862 1877 "src/unix/lwt_timeout.ml" 71 1862 1878
+type(
+  t array ref -> t array
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 71 1862 1878 "src/unix/lwt_timeout.ml" 71 1862 1885
+type(
+  t array ref
+)
+ident(
+  int_ref buckets "src/unix/lwt_timeout.ml" 61 1663 1667 "src/unix/lwt_timeout.ml" 61 1663 1674
+)
+"src/unix/lwt_timeout.ml" 71 1862 1877 "src/unix/lwt_timeout.ml" 71 1862 1885
+type(
+  t array
+)
+"src/unix/lwt_timeout.ml" 71 1862 1886 "src/unix/lwt_timeout.ml" 71 1862 1887
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 71 1862 1887 "src/unix/lwt_timeout.ml" 71 1862 1891
+type(
+  int ref
+)
+ident(
+  int_ref curr "src/unix/lwt_timeout.ml" 63 1687 1691 "src/unix/lwt_timeout.ml" 63 1687 1695
+)
+"src/unix/lwt_timeout.ml" 71 1862 1886 "src/unix/lwt_timeout.ml" 71 1862 1891
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 71 1862 1892 "src/unix/lwt_timeout.ml" 71 1862 1893
+type(
+  t array
+)
+ident(
+  int_ref b "src/unix/lwt_timeout.ml" 70 1804 1812 "src/unix/lwt_timeout.ml" 70 1804 1813
+)
+"src/unix/lwt_timeout.ml" 71 1862 1894 "src/unix/lwt_timeout.ml" 71 1862 1895
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 71 1862 1897 "src/unix/lwt_timeout.ml" 71 1862 1900
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_timeout.ml" 68 1742 1748 "src/unix/lwt_timeout.ml" 68 1742 1751
+)
+"src/unix/lwt_timeout.ml" 71 1862 1901 "src/unix/lwt_timeout.ml" 71 1862 1902
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_timeout.ml" 71 1862 1903 "src/unix/lwt_timeout.ml" 71 1862 1904
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 71 1862 1904 "src/unix/lwt_timeout.ml" 71 1862 1908
+type(
+  int ref
+)
+ident(
+  int_ref curr "src/unix/lwt_timeout.ml" 63 1687 1691 "src/unix/lwt_timeout.ml" 63 1687 1695
+)
+"src/unix/lwt_timeout.ml" 71 1862 1903 "src/unix/lwt_timeout.ml" 71 1862 1908
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 71 1862 1896 "src/unix/lwt_timeout.ml" 71 1862 1909
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 71 1862 1866 "src/unix/lwt_timeout.ml" 71 1862 1909
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 72 1911 1915 "src/unix/lwt_timeout.ml" 72 1911 1925
+type(
+  t array -> int -> t array -> int -> int -> unit
+)
+ident(
+  ext_ref Array.blit
+)
+"src/unix/lwt_timeout.ml" 72 1911 1926 "src/unix/lwt_timeout.ml" 72 1911 1927
+type(
+  t array ref -> t array
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 72 1911 1927 "src/unix/lwt_timeout.ml" 72 1911 1934
+type(
+  t array ref
+)
+ident(
+  int_ref buckets "src/unix/lwt_timeout.ml" 61 1663 1667 "src/unix/lwt_timeout.ml" 61 1663 1674
+)
+"src/unix/lwt_timeout.ml" 72 1911 1926 "src/unix/lwt_timeout.ml" 72 1911 1934
+type(
+  t array
+)
+"src/unix/lwt_timeout.ml" 72 1911 1935 "src/unix/lwt_timeout.ml" 72 1911 1936
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 72 1911 1937 "src/unix/lwt_timeout.ml" 72 1911 1938
+type(
+  t array
+)
+ident(
+  int_ref b "src/unix/lwt_timeout.ml" 70 1804 1812 "src/unix/lwt_timeout.ml" 70 1804 1813
+)
+"src/unix/lwt_timeout.ml" 72 1911 1940 "src/unix/lwt_timeout.ml" 72 1911 1943
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_timeout.ml" 68 1742 1748 "src/unix/lwt_timeout.ml" 68 1742 1751
+)
+"src/unix/lwt_timeout.ml" 72 1911 1944 "src/unix/lwt_timeout.ml" 72 1911 1945
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_timeout.ml" 72 1911 1946 "src/unix/lwt_timeout.ml" 72 1911 1947
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 72 1911 1947 "src/unix/lwt_timeout.ml" 72 1911 1951
+type(
+  int ref
+)
+ident(
+  int_ref curr "src/unix/lwt_timeout.ml" 63 1687 1691 "src/unix/lwt_timeout.ml" 63 1687 1695
+)
+"src/unix/lwt_timeout.ml" 72 1911 1946 "src/unix/lwt_timeout.ml" 72 1911 1951
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 72 1911 1939 "src/unix/lwt_timeout.ml" 72 1911 1952
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 72 1911 1953 "src/unix/lwt_timeout.ml" 72 1911 1954
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 72 1911 1954 "src/unix/lwt_timeout.ml" 72 1911 1958
+type(
+  int ref
+)
+ident(
+  int_ref curr "src/unix/lwt_timeout.ml" 63 1687 1691 "src/unix/lwt_timeout.ml" 63 1687 1695
+)
+"src/unix/lwt_timeout.ml" 72 1911 1953 "src/unix/lwt_timeout.ml" 72 1911 1958
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 72 1911 1915 "src/unix/lwt_timeout.ml" 72 1911 1958
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 73 1960 1964 "src/unix/lwt_timeout.ml" 73 1960 1971
+type(
+  t array ref
+)
+ident(
+  int_ref buckets "src/unix/lwt_timeout.ml" 61 1663 1667 "src/unix/lwt_timeout.ml" 61 1663 1674
+)
+"src/unix/lwt_timeout.ml" 73 1960 1972 "src/unix/lwt_timeout.ml" 73 1960 1974
+type(
+  t array ref -> t array -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_timeout.ml" 73 1960 1975 "src/unix/lwt_timeout.ml" 73 1960 1976
+type(
+  t array
+)
+ident(
+  int_ref b "src/unix/lwt_timeout.ml" 70 1804 1812 "src/unix/lwt_timeout.ml" 70 1804 1813
+)
+"src/unix/lwt_timeout.ml" 73 1960 1964 "src/unix/lwt_timeout.ml" 73 1960 1976
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 73 1960 1978 "src/unix/lwt_timeout.ml" 73 1960 1982
+type(
+  int ref
+)
+ident(
+  int_ref curr "src/unix/lwt_timeout.ml" 63 1687 1691 "src/unix/lwt_timeout.ml" 63 1687 1695
+)
+"src/unix/lwt_timeout.ml" 73 1960 1983 "src/unix/lwt_timeout.ml" 73 1960 1985
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_timeout.ml" 73 1960 1986 "src/unix/lwt_timeout.ml" 73 1960 1987
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 73 1960 1978 "src/unix/lwt_timeout.ml" 73 1960 1988
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 73 1960 1964 "src/unix/lwt_timeout.ml" 73 1960 1988
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 72 1911 1915 "src/unix/lwt_timeout.ml" 73 1960 1988
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 71 1862 1866 "src/unix/lwt_timeout.ml" 73 1960 1988
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 69 1779 1798 "src/unix/lwt_timeout.ml" 74 1989 1994
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 69 1779 1781 "src/unix/lwt_timeout.ml" 74 1989 1994
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 68 1742 1744 "src/unix/lwt_timeout.ml" 74 1989 1994
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 78 2004 2008 "src/unix/lwt_timeout.ml" 78 2004 2018
+type(
+  (exn -> unit) ref
+)
+ident(
+  def handle_exn "src/unix/lwt_timeout.ml" 84 2139 2139 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 79 2021 2023 "src/unix/lwt_timeout.ml" 79 2021 2026
+type(
+  (exn -> unit) -> (exn -> unit) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/unix/lwt_timeout.ml" 80 2027 2036 "src/unix/lwt_timeout.ml" 80 2027 2039
+type(
+  exn
+)
+ident(
+  def exn "src/unix/lwt_timeout.ml" 81 2043 2050 "src/unix/lwt_timeout.ml" 82 2123 2136
+)
+"src/unix/lwt_timeout.ml" 81 2043 2050 "src/unix/lwt_timeout.ml" 81 2043 2056
+type(
+  unit Lwt.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/unix/lwt_timeout.ml" 81 2043 2058 "src/unix/lwt_timeout.ml" 81 2043 2071
+type(
+  ?exn:exn ->
+  ?section:Lwt_log.section ->
+  ?location:string * int * int ->
+  ?logger:Lwt_log.logger -> string -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_log.error
+)
+"src/unix/lwt_timeout.ml" 81 2043 2073 "src/unix/lwt_timeout.ml" 81 2043 2080
+type(
+  Lwt_log.section
+)
+ident(
+  int_ref section "src/unix/lwt_timeout.ml" 24 995 999 "src/unix/lwt_timeout.ml" 24 995 1006
+)
+"src/unix/lwt_timeout.ml" 81 2043 2082 "src/unix/lwt_timeout.ml" 81 2043 2085
+type(
+  exn
+)
+ident(
+  int_ref exn "src/unix/lwt_timeout.ml" 80 2027 2036 "src/unix/lwt_timeout.ml" 80 2027 2039
+)
+"src/unix/lwt_timeout.ml" 81 2043 2086 "src/unix/lwt_timeout.ml" 81 2043 2120
+type(
+  string
+)
+"src/unix/lwt_timeout.ml" 81 2043 2057 "src/unix/lwt_timeout.ml" 81 2043 2121
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_timeout.ml" 81 2043 2050 "src/unix/lwt_timeout.ml" 81 2043 2121
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 82 2123 2130 "src/unix/lwt_timeout.ml" 82 2123 2134
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"src/unix/lwt_timeout.ml" 82 2123 2135 "src/unix/lwt_timeout.ml" 82 2123 2136
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 82 2123 2130 "src/unix/lwt_timeout.ml" 82 2123 2136
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 81 2043 2050 "src/unix/lwt_timeout.ml" 82 2123 2136
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 80 2027 2031 "src/unix/lwt_timeout.ml" 82 2123 2137
+type(
+  exn -> unit
+)
+"src/unix/lwt_timeout.ml" 79 2021 2023 "src/unix/lwt_timeout.ml" 82 2123 2137
+type(
+  (exn -> unit) ref
+)
+"src/unix/lwt_timeout.ml" 84 2139 2143 "src/unix/lwt_timeout.ml" 84 2139 2158
+type(
+  (exn -> unit) -> unit
+)
+ident(
+  def set_exn_handler "src/unix/lwt_timeout.ml" 86 2180 2180 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 84 2139 2159 "src/unix/lwt_timeout.ml" 84 2139 2160
+type(
+  exn -> unit
+)
+ident(
+  def f "src/unix/lwt_timeout.ml" 84 2139 2163 "src/unix/lwt_timeout.ml" 84 2139 2178
+)
+"src/unix/lwt_timeout.ml" 84 2139 2163 "src/unix/lwt_timeout.ml" 84 2139 2173
+type(
+  (exn -> unit) ref
+)
+ident(
+  int_ref handle_exn "src/unix/lwt_timeout.ml" 78 2004 2008 "src/unix/lwt_timeout.ml" 78 2004 2018
+)
+"src/unix/lwt_timeout.ml" 84 2139 2174 "src/unix/lwt_timeout.ml" 84 2139 2176
+type(
+  (exn -> unit) ref -> (exn -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_timeout.ml" 84 2139 2177 "src/unix/lwt_timeout.ml" 84 2139 2178
+type(
+  exn -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_timeout.ml" 84 2139 2159 "src/unix/lwt_timeout.ml" 84 2139 2160
+)
+"src/unix/lwt_timeout.ml" 84 2139 2163 "src/unix/lwt_timeout.ml" 84 2139 2178
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 86 2180 2188 "src/unix/lwt_timeout.ml" 86 2180 2192
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  def loop "src/unix/lwt_timeout.ml" 86 2180 2180 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 86 2180 2193 "src/unix/lwt_timeout.ml" 86 2180 2195
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 87 2198 2200 "src/unix/lwt_timeout.ml" 87 2198 2207
+type(
+  bool ref
+)
+ident(
+  int_ref stopped "src/unix/lwt_timeout.ml" 65 1705 1709 "src/unix/lwt_timeout.ml" 65 1705 1716
+)
+"src/unix/lwt_timeout.ml" 87 2198 2208 "src/unix/lwt_timeout.ml" 87 2198 2210
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_timeout.ml" 87 2198 2211 "src/unix/lwt_timeout.ml" 87 2198 2216
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 87 2198 2200 "src/unix/lwt_timeout.ml" 87 2198 2216
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 88 2218 2220 "src/unix/lwt_timeout.ml" 88 2218 2228
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.bind
+)
+"src/unix/lwt_timeout.ml" 88 2218 2230 "src/unix/lwt_timeout.ml" 88 2218 2244
+type(
+  float -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.sleep
+)
+"src/unix/lwt_timeout.ml" 88 2218 2245 "src/unix/lwt_timeout.ml" 88 2218 2247
+type(
+  float
+)
+"src/unix/lwt_timeout.ml" 88 2218 2229 "src/unix/lwt_timeout.ml" 88 2218 2248
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_timeout.ml" 88 2218 2254 "src/unix/lwt_timeout.ml" 88 2218 2256
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 89 2260 2266 "src/unix/lwt_timeout.ml" 89 2260 2267
+type(
+  t
+)
+ident(
+  def s "src/unix/lwt_timeout.ml" 90 2290 2292 "src/unix/lwt_timeout.ml" 99 2523 2599
+)
+"src/unix/lwt_timeout.ml" 89 2260 2270 "src/unix/lwt_timeout.ml" 89 2260 2271
+type(
+  t array ref -> t array
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 89 2260 2271 "src/unix/lwt_timeout.ml" 89 2260 2278
+type(
+  t array ref
+)
+ident(
+  int_ref buckets "src/unix/lwt_timeout.ml" 61 1663 1667 "src/unix/lwt_timeout.ml" 61 1663 1674
+)
+"src/unix/lwt_timeout.ml" 89 2260 2270 "src/unix/lwt_timeout.ml" 89 2260 2278
+type(
+  t array
+)
+"src/unix/lwt_timeout.ml" 89 2260 2280 "src/unix/lwt_timeout.ml" 89 2260 2281
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 89 2260 2281 "src/unix/lwt_timeout.ml" 89 2260 2285
+type(
+  int ref
+)
+ident(
+  int_ref curr "src/unix/lwt_timeout.ml" 63 1687 1691 "src/unix/lwt_timeout.ml" 63 1687 1695
+)
+"src/unix/lwt_timeout.ml" 89 2260 2280 "src/unix/lwt_timeout.ml" 89 2260 2285
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 89 2260 2270 "src/unix/lwt_timeout.ml" 89 2260 2286
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 90 2290 2298 "src/unix/lwt_timeout.ml" 90 2290 2301
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/unix/lwt_timeout.ml" 90 2290 2303 "src/unix/lwt_timeout.ml" 90 2290 2315
+type(
+  t -> bool
+)
+ident(
+  int_ref lst_is_empty "src/unix/lwt_timeout.ml" 53 1544 1548 "src/unix/lwt_timeout.ml" 53 1544 1560
+)
+"src/unix/lwt_timeout.ml" 90 2290 2316 "src/unix/lwt_timeout.ml" 90 2290 2317
+type(
+  t
+)
+ident(
+  int_ref s "src/unix/lwt_timeout.ml" 89 2260 2266 "src/unix/lwt_timeout.ml" 89 2260 2267
+)
+"src/unix/lwt_timeout.ml" 90 2290 2302 "src/unix/lwt_timeout.ml" 90 2290 2318
+call(
+  stack
+)
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 90 2290 2298 "src/unix/lwt_timeout.ml" 90 2290 2318
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 91 2322 2330 "src/unix/lwt_timeout.ml" 91 2322 2331
+type(
+  t
+)
+ident(
+  def x "src/unix/lwt_timeout.ml" 92 2348 2352 "src/unix/lwt_timeout.ml" 96 2436 2463
+)
+"src/unix/lwt_timeout.ml" 91 2322 2334 "src/unix/lwt_timeout.ml" 91 2322 2342
+type(
+  t -> t
+)
+ident(
+  int_ref lst_peek "src/unix/lwt_timeout.ml" 55 1584 1588 "src/unix/lwt_timeout.ml" 55 1584 1596
+)
+"src/unix/lwt_timeout.ml" 91 2322 2343 "src/unix/lwt_timeout.ml" 91 2322 2344
+type(
+  t
+)
+ident(
+  int_ref s "src/unix/lwt_timeout.ml" 89 2260 2266 "src/unix/lwt_timeout.ml" 89 2260 2267
+)
+"src/unix/lwt_timeout.ml" 91 2322 2334 "src/unix/lwt_timeout.ml" 91 2322 2344
+call(
+  stack
+)
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 92 2348 2352 "src/unix/lwt_timeout.ml" 92 2348 2356
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.decr
+)
+"src/unix/lwt_timeout.ml" 92 2348 2357 "src/unix/lwt_timeout.ml" 92 2348 2362
+type(
+  int ref
+)
+ident(
+  int_ref count "src/unix/lwt_timeout.ml" 59 1644 1648 "src/unix/lwt_timeout.ml" 59 1644 1653
+)
+"src/unix/lwt_timeout.ml" 92 2348 2352 "src/unix/lwt_timeout.ml" 92 2348 2362
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 95 2418 2424 "src/unix/lwt_timeout.ml" 95 2418 2425
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 91 2322 2330 "src/unix/lwt_timeout.ml" 91 2322 2331
+)
+"src/unix/lwt_timeout.ml" 95 2418 2424 "src/unix/lwt_timeout.ml" 95 2418 2432
+type(
+  unit -> unit
+)
+"src/unix/lwt_timeout.ml" 95 2418 2433 "src/unix/lwt_timeout.ml" 95 2418 2435
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 95 2418 2424 "src/unix/lwt_timeout.ml" 95 2418 2435
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 96 2436 2445 "src/unix/lwt_timeout.ml" 96 2436 2446
+type(
+  exn
+)
+ident(
+  def e "src/unix/lwt_timeout.ml" 96 2436 2450 "src/unix/lwt_timeout.ml" 96 2436 2463
+)
+"src/unix/lwt_timeout.ml" 96 2436 2450 "src/unix/lwt_timeout.ml" 96 2436 2451
+type(
+  (exn -> unit) ref -> exn -> unit
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 96 2436 2451 "src/unix/lwt_timeout.ml" 96 2436 2461
+type(
+  (exn -> unit) ref
+)
+ident(
+  int_ref handle_exn "src/unix/lwt_timeout.ml" 78 2004 2008 "src/unix/lwt_timeout.ml" 78 2004 2018
+)
+"src/unix/lwt_timeout.ml" 96 2436 2450 "src/unix/lwt_timeout.ml" 96 2436 2461
+type(
+  exn -> unit
+)
+"src/unix/lwt_timeout.ml" 96 2436 2462 "src/unix/lwt_timeout.ml" 96 2436 2463
+type(
+  exn
+)
+ident(
+  int_ref e "src/unix/lwt_timeout.ml" 96 2436 2445 "src/unix/lwt_timeout.ml" 96 2436 2446
+)
+"src/unix/lwt_timeout.ml" 96 2436 2450 "src/unix/lwt_timeout.ml" 96 2436 2463
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 94 2410 2414 "src/unix/lwt_timeout.ml" 96 2436 2463
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 92 2348 2352 "src/unix/lwt_timeout.ml" 96 2436 2463
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 91 2322 2326 "src/unix/lwt_timeout.ml" 96 2436 2463
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 90 2290 2292 "src/unix/lwt_timeout.ml" 97 2464 2470
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 98 2472 2474 "src/unix/lwt_timeout.ml" 98 2472 2478
+type(
+  int ref
+)
+ident(
+  int_ref curr "src/unix/lwt_timeout.ml" 63 1687 1691 "src/unix/lwt_timeout.ml" 63 1687 1695
+)
+"src/unix/lwt_timeout.ml" 98 2472 2479 "src/unix/lwt_timeout.ml" 98 2472 2481
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_timeout.ml" 98 2472 2483 "src/unix/lwt_timeout.ml" 98 2472 2484
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 98 2472 2484 "src/unix/lwt_timeout.ml" 98 2472 2488
+type(
+  int ref
+)
+ident(
+  int_ref curr "src/unix/lwt_timeout.ml" 63 1687 1691 "src/unix/lwt_timeout.ml" 63 1687 1695
+)
+"src/unix/lwt_timeout.ml" 98 2472 2483 "src/unix/lwt_timeout.ml" 98 2472 2488
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 98 2472 2489 "src/unix/lwt_timeout.ml" 98 2472 2490
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/unix/lwt_timeout.ml" 98 2472 2491 "src/unix/lwt_timeout.ml" 98 2472 2492
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 98 2472 2482 "src/unix/lwt_timeout.ml" 98 2472 2493
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 98 2472 2494 "src/unix/lwt_timeout.ml" 98 2472 2497
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/unix/lwt_timeout.ml" 98 2472 2499 "src/unix/lwt_timeout.ml" 98 2472 2511
+type(
+  t array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/unix/lwt_timeout.ml" 98 2472 2512 "src/unix/lwt_timeout.ml" 98 2472 2513
+type(
+  t array ref -> t array
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 98 2472 2513 "src/unix/lwt_timeout.ml" 98 2472 2520
+type(
+  t array ref
+)
+ident(
+  int_ref buckets "src/unix/lwt_timeout.ml" 61 1663 1667 "src/unix/lwt_timeout.ml" 61 1663 1674
+)
+"src/unix/lwt_timeout.ml" 98 2472 2512 "src/unix/lwt_timeout.ml" 98 2472 2520
+type(
+  t array
+)
+"src/unix/lwt_timeout.ml" 98 2472 2498 "src/unix/lwt_timeout.ml" 98 2472 2521
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 98 2472 2482 "src/unix/lwt_timeout.ml" 98 2472 2521
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 98 2472 2474 "src/unix/lwt_timeout.ml" 98 2472 2521
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 99 2523 2528 "src/unix/lwt_timeout.ml" 99 2523 2529
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 99 2523 2529 "src/unix/lwt_timeout.ml" 99 2523 2534
+type(
+  int ref
+)
+ident(
+  int_ref count "src/unix/lwt_timeout.ml" 59 1644 1648 "src/unix/lwt_timeout.ml" 59 1644 1653
+)
+"src/unix/lwt_timeout.ml" 99 2523 2528 "src/unix/lwt_timeout.ml" 99 2523 2534
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 99 2523 2535 "src/unix/lwt_timeout.ml" 99 2523 2536
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_timeout.ml" 99 2523 2537 "src/unix/lwt_timeout.ml" 99 2523 2538
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 99 2523 2528 "src/unix/lwt_timeout.ml" 99 2523 2538
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 99 2523 2544 "src/unix/lwt_timeout.ml" 99 2523 2548
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref loop "src/unix/lwt_timeout.ml" 86 2180 2188 "src/unix/lwt_timeout.ml" 86 2180 2192
+)
+"src/unix/lwt_timeout.ml" 99 2523 2549 "src/unix/lwt_timeout.ml" 99 2523 2551
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 99 2523 2544 "src/unix/lwt_timeout.ml" 99 2523 2551
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_timeout.ml" 99 2523 2563 "src/unix/lwt_timeout.ml" 99 2523 2570
+type(
+  bool ref
+)
+ident(
+  int_ref stopped "src/unix/lwt_timeout.ml" 65 1705 1709 "src/unix/lwt_timeout.ml" 65 1705 1716
+)
+"src/unix/lwt_timeout.ml" 99 2523 2571 "src/unix/lwt_timeout.ml" 99 2523 2573
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_timeout.ml" 99 2523 2574 "src/unix/lwt_timeout.ml" 99 2523 2578
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 99 2523 2563 "src/unix/lwt_timeout.ml" 99 2523 2578
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 99 2523 2580 "src/unix/lwt_timeout.ml" 99 2523 2595
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/unix/lwt_timeout.ml" 99 2523 2557 "src/unix/lwt_timeout.ml" 99 2523 2599
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_timeout.ml" 99 2523 2525 "src/unix/lwt_timeout.ml" 99 2523 2599
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_timeout.ml" 98 2472 2474 "src/unix/lwt_timeout.ml" 99 2523 2599
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_timeout.ml" 90 2290 2292 "src/unix/lwt_timeout.ml" 99 2523 2599
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_timeout.ml" 89 2260 2262 "src/unix/lwt_timeout.ml" 99 2523 2599
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_timeout.ml" 88 2218 2249 "src/unix/lwt_timeout.ml" 99 2523 2600
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_timeout.ml" 88 2218 2220 "src/unix/lwt_timeout.ml" 99 2523 2600
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_timeout.ml" 87 2198 2200 "src/unix/lwt_timeout.ml" 99 2523 2600
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_timeout.ml" 101 2602 2606 "src/unix/lwt_timeout.ml" 101 2602 2611
+type(
+  t -> unit
+)
+ident(
+  def start "src/unix/lwt_timeout.ml" 111 2862 2862 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 101 2602 2612 "src/unix/lwt_timeout.ml" 101 2602 2613
+type(
+  t
+)
+ident(
+  def x "src/unix/lwt_timeout.ml" 102 2616 2618 "src/unix/lwt_timeout.ml" 109 2855 2860
+)
+"src/unix/lwt_timeout.ml" 102 2616 2622 "src/unix/lwt_timeout.ml" 102 2616 2629
+type(
+  bool
+)
+ident(
+  def in_list "src/unix/lwt_timeout.ml" 103 2649 2651 "src/unix/lwt_timeout.ml" 109 2855 2860
+)
+"src/unix/lwt_timeout.ml" 102 2616 2632 "src/unix/lwt_timeout.ml" 102 2616 2643
+type(
+  t -> bool
+)
+ident(
+  int_ref lst_in_list "src/unix/lwt_timeout.ml" 51 1511 1515 "src/unix/lwt_timeout.ml" 51 1511 1526
+)
+"src/unix/lwt_timeout.ml" 102 2616 2644 "src/unix/lwt_timeout.ml" 102 2616 2645
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 101 2602 2612 "src/unix/lwt_timeout.ml" 101 2602 2613
+)
+"src/unix/lwt_timeout.ml" 102 2616 2632 "src/unix/lwt_timeout.ml" 102 2616 2645
+call(
+  stack
+)
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 103 2649 2655 "src/unix/lwt_timeout.ml" 103 2649 2659
+type(
+  int
+)
+ident(
+  def slot "src/unix/lwt_timeout.ml" 104 2711 2713 "src/unix/lwt_timeout.ml" 109 2855 2860
+)
+"src/unix/lwt_timeout.ml" 103 2649 2663 "src/unix/lwt_timeout.ml" 103 2649 2664
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 103 2649 2664 "src/unix/lwt_timeout.ml" 103 2649 2668
+type(
+  int ref
+)
+ident(
+  int_ref curr "src/unix/lwt_timeout.ml" 63 1687 1691 "src/unix/lwt_timeout.ml" 63 1687 1695
+)
+"src/unix/lwt_timeout.ml" 103 2649 2663 "src/unix/lwt_timeout.ml" 103 2649 2668
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 103 2649 2669 "src/unix/lwt_timeout.ml" 103 2649 2670
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/unix/lwt_timeout.ml" 103 2649 2671 "src/unix/lwt_timeout.ml" 103 2649 2672
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 101 2602 2612 "src/unix/lwt_timeout.ml" 101 2602 2613
+)
+"src/unix/lwt_timeout.ml" 103 2649 2671 "src/unix/lwt_timeout.ml" 103 2649 2678
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 103 2649 2662 "src/unix/lwt_timeout.ml" 103 2649 2679
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 103 2649 2680 "src/unix/lwt_timeout.ml" 103 2649 2683
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/unix/lwt_timeout.ml" 103 2649 2685 "src/unix/lwt_timeout.ml" 103 2649 2697
+type(
+  t array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/unix/lwt_timeout.ml" 103 2649 2698 "src/unix/lwt_timeout.ml" 103 2649 2699
+type(
+  t array ref -> t array
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 103 2649 2699 "src/unix/lwt_timeout.ml" 103 2649 2706
+type(
+  t array ref
+)
+ident(
+  int_ref buckets "src/unix/lwt_timeout.ml" 61 1663 1667 "src/unix/lwt_timeout.ml" 61 1663 1674
+)
+"src/unix/lwt_timeout.ml" 103 2649 2698 "src/unix/lwt_timeout.ml" 103 2649 2706
+type(
+  t array
+)
+"src/unix/lwt_timeout.ml" 103 2649 2684 "src/unix/lwt_timeout.ml" 103 2649 2707
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 103 2649 2662 "src/unix/lwt_timeout.ml" 103 2649 2707
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 104 2711 2713 "src/unix/lwt_timeout.ml" 104 2711 2723
+type(
+  t -> unit
+)
+ident(
+  int_ref lst_remove "src/unix/lwt_timeout.ml" 36 1291 1295 "src/unix/lwt_timeout.ml" 36 1291 1305
+)
+"src/unix/lwt_timeout.ml" 104 2711 2724 "src/unix/lwt_timeout.ml" 104 2711 2725
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 101 2602 2612 "src/unix/lwt_timeout.ml" 101 2602 2613
+)
+"src/unix/lwt_timeout.ml" 104 2711 2713 "src/unix/lwt_timeout.ml" 104 2711 2725
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 105 2727 2729 "src/unix/lwt_timeout.ml" 105 2727 2739
+type(
+  t -> t -> unit
+)
+ident(
+  int_ref lst_insert "src/unix/lwt_timeout.ml" 44 1410 1414 "src/unix/lwt_timeout.ml" 44 1410 1424
+)
+"src/unix/lwt_timeout.ml" 105 2727 2740 "src/unix/lwt_timeout.ml" 105 2727 2741
+type(
+  t array ref -> t array
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 105 2727 2741 "src/unix/lwt_timeout.ml" 105 2727 2748
+type(
+  t array ref
+)
+ident(
+  int_ref buckets "src/unix/lwt_timeout.ml" 61 1663 1667 "src/unix/lwt_timeout.ml" 61 1663 1674
+)
+"src/unix/lwt_timeout.ml" 105 2727 2740 "src/unix/lwt_timeout.ml" 105 2727 2748
+type(
+  t array
+)
+"src/unix/lwt_timeout.ml" 105 2727 2750 "src/unix/lwt_timeout.ml" 105 2727 2754
+type(
+  int
+)
+ident(
+  int_ref slot "src/unix/lwt_timeout.ml" 103 2649 2655 "src/unix/lwt_timeout.ml" 103 2649 2659
+)
+"src/unix/lwt_timeout.ml" 105 2727 2740 "src/unix/lwt_timeout.ml" 105 2727 2755
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 105 2727 2756 "src/unix/lwt_timeout.ml" 105 2727 2757
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 101 2602 2612 "src/unix/lwt_timeout.ml" 101 2602 2613
+)
+"src/unix/lwt_timeout.ml" 105 2727 2729 "src/unix/lwt_timeout.ml" 105 2727 2757
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 106 2759 2764 "src/unix/lwt_timeout.ml" 106 2759 2767
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/unix/lwt_timeout.ml" 106 2759 2768 "src/unix/lwt_timeout.ml" 106 2759 2775
+type(
+  bool
+)
+ident(
+  int_ref in_list "src/unix/lwt_timeout.ml" 102 2616 2622 "src/unix/lwt_timeout.ml" 102 2616 2629
+)
+"src/unix/lwt_timeout.ml" 106 2759 2764 "src/unix/lwt_timeout.ml" 106 2759 2775
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 107 2787 2791 "src/unix/lwt_timeout.ml" 107 2787 2795
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/unix/lwt_timeout.ml" 107 2787 2796 "src/unix/lwt_timeout.ml" 107 2787 2801
+type(
+  int ref
+)
+ident(
+  int_ref count "src/unix/lwt_timeout.ml" 59 1644 1648 "src/unix/lwt_timeout.ml" 59 1644 1653
+)
+"src/unix/lwt_timeout.ml" 107 2787 2791 "src/unix/lwt_timeout.ml" 107 2787 2801
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 108 2803 2810 "src/unix/lwt_timeout.ml" 108 2803 2811
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 108 2803 2811 "src/unix/lwt_timeout.ml" 108 2803 2816
+type(
+  int ref
+)
+ident(
+  int_ref count "src/unix/lwt_timeout.ml" 59 1644 1648 "src/unix/lwt_timeout.ml" 59 1644 1653
+)
+"src/unix/lwt_timeout.ml" 108 2803 2810 "src/unix/lwt_timeout.ml" 108 2803 2816
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 108 2803 2817 "src/unix/lwt_timeout.ml" 108 2803 2818
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/unix/lwt_timeout.ml" 108 2803 2819 "src/unix/lwt_timeout.ml" 108 2803 2820
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 108 2803 2810 "src/unix/lwt_timeout.ml" 108 2803 2820
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 108 2803 2821 "src/unix/lwt_timeout.ml" 108 2803 2823
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/unix/lwt_timeout.ml" 108 2803 2824 "src/unix/lwt_timeout.ml" 108 2803 2825
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_timeout.ml" 108 2803 2825 "src/unix/lwt_timeout.ml" 108 2803 2832
+type(
+  bool ref
+)
+ident(
+  int_ref stopped "src/unix/lwt_timeout.ml" 65 1705 1709 "src/unix/lwt_timeout.ml" 65 1705 1716
+)
+"src/unix/lwt_timeout.ml" 108 2803 2824 "src/unix/lwt_timeout.ml" 108 2803 2832
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 108 2803 2810 "src/unix/lwt_timeout.ml" 108 2803 2832
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 108 2803 2838 "src/unix/lwt_timeout.ml" 108 2803 2844
+type(
+  unit Lwt.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/unix/lwt_timeout.ml" 108 2803 2846 "src/unix/lwt_timeout.ml" 108 2803 2850
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref loop "src/unix/lwt_timeout.ml" 86 2180 2188 "src/unix/lwt_timeout.ml" 86 2180 2192
+)
+"src/unix/lwt_timeout.ml" 108 2803 2851 "src/unix/lwt_timeout.ml" 108 2803 2853
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 108 2803 2845 "src/unix/lwt_timeout.ml" 108 2803 2854
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_timeout.ml" 108 2803 2838 "src/unix/lwt_timeout.ml" 108 2803 2854
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 108 2803 2807 "src/unix/lwt_timeout.ml" 108 2803 2854
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 106 2759 2781 "src/unix/lwt_timeout.ml" 109 2855 2860
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 106 2759 2761 "src/unix/lwt_timeout.ml" 109 2855 2860
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 105 2727 2729 "src/unix/lwt_timeout.ml" 109 2855 2860
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 104 2711 2713 "src/unix/lwt_timeout.ml" 109 2855 2860
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 103 2649 2651 "src/unix/lwt_timeout.ml" 109 2855 2860
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 102 2616 2618 "src/unix/lwt_timeout.ml" 109 2855 2860
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 111 2862 2866 "src/unix/lwt_timeout.ml" 111 2862 2872
+type(
+  int -> (unit -> unit) -> t
+)
+ident(
+  def create "src/unix/lwt_timeout.ml" 117 2992 2992 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 111 2862 2873 "src/unix/lwt_timeout.ml" 111 2862 2878
+type(
+  int
+)
+ident(
+  def delay "src/unix/lwt_timeout.ml" 111 2862 2879 "src/unix/lwt_timeout.ml" 115 2987 2990
+)
+"src/unix/lwt_timeout.ml" 111 2862 2879 "src/unix/lwt_timeout.ml" 111 2862 2885
+type(
+  unit -> unit
+)
+ident(
+  def action "src/unix/lwt_timeout.ml" 112 2888 2890 "src/unix/lwt_timeout.ml" 115 2987 2990
+)
+"src/unix/lwt_timeout.ml" 112 2888 2893 "src/unix/lwt_timeout.ml" 112 2888 2898
+type(
+  int
+)
+ident(
+  int_ref delay "src/unix/lwt_timeout.ml" 111 2862 2873 "src/unix/lwt_timeout.ml" 111 2862 2878
+)
+"src/unix/lwt_timeout.ml" 112 2888 2899 "src/unix/lwt_timeout.ml" 112 2888 2900
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_timeout.ml" 112 2888 2901 "src/unix/lwt_timeout.ml" 112 2888 2902
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 112 2888 2893 "src/unix/lwt_timeout.ml" 112 2888 2902
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 112 2888 2908 "src/unix/lwt_timeout.ml" 112 2888 2919
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_timeout.ml" 112 2888 2920 "src/unix/lwt_timeout.ml" 112 2888 2940
+type(
+  string
+)
+"src/unix/lwt_timeout.ml" 112 2888 2908 "src/unix/lwt_timeout.ml" 112 2888 2940
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 112 2888 2890 "src/unix/lwt_timeout.ml" 112 2888 2940
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 113 2942 2948 "src/unix/lwt_timeout.ml" 113 2942 2949
+type(
+  t
+)
+ident(
+  def x "src/unix/lwt_timeout.ml" 114 2973 2975 "src/unix/lwt_timeout.ml" 115 2987 2990
+)
+"src/unix/lwt_timeout.ml" 113 2942 2952 "src/unix/lwt_timeout.ml" 113 2942 2956
+type(
+  int -> (unit -> unit) -> t
+)
+ident(
+  int_ref make "src/unix/lwt_timeout.ml" 30 1145 1149 "src/unix/lwt_timeout.ml" 30 1145 1153
+)
+"src/unix/lwt_timeout.ml" 113 2942 2957 "src/unix/lwt_timeout.ml" 113 2942 2962
+type(
+  int
+)
+ident(
+  int_ref delay "src/unix/lwt_timeout.ml" 111 2862 2873 "src/unix/lwt_timeout.ml" 111 2862 2878
+)
+"src/unix/lwt_timeout.ml" 113 2942 2963 "src/unix/lwt_timeout.ml" 113 2942 2969
+type(
+  unit -> unit
+)
+ident(
+  int_ref action "src/unix/lwt_timeout.ml" 111 2862 2879 "src/unix/lwt_timeout.ml" 111 2862 2885
+)
+"src/unix/lwt_timeout.ml" 113 2942 2952 "src/unix/lwt_timeout.ml" 113 2942 2969
+call(
+  stack
+)
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 114 2973 2975 "src/unix/lwt_timeout.ml" 114 2973 2979
+type(
+  int -> unit
+)
+ident(
+  int_ref size "src/unix/lwt_timeout.ml" 67 1729 1733 "src/unix/lwt_timeout.ml" 67 1729 1737
+)
+"src/unix/lwt_timeout.ml" 114 2973 2980 "src/unix/lwt_timeout.ml" 114 2973 2985
+type(
+  int
+)
+ident(
+  int_ref delay "src/unix/lwt_timeout.ml" 111 2862 2873 "src/unix/lwt_timeout.ml" 111 2862 2878
+)
+"src/unix/lwt_timeout.ml" 114 2973 2975 "src/unix/lwt_timeout.ml" 114 2973 2985
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 115 2987 2989 "src/unix/lwt_timeout.ml" 115 2987 2990
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 113 2942 2948 "src/unix/lwt_timeout.ml" 113 2942 2949
+)
+"src/unix/lwt_timeout.ml" 114 2973 2975 "src/unix/lwt_timeout.ml" 115 2987 2990
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 113 2942 2944 "src/unix/lwt_timeout.ml" 115 2987 2990
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 112 2888 2890 "src/unix/lwt_timeout.ml" 115 2987 2990
+type(
+  t
+)
+"src/unix/lwt_timeout.ml" 117 2992 2996 "src/unix/lwt_timeout.ml" 117 2992 3000
+type(
+  t -> unit
+)
+ident(
+  def stop "src/unix/lwt_timeout.ml" 123 3075 3075 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 117 2992 3001 "src/unix/lwt_timeout.ml" 117 2992 3002
+type(
+  t
+)
+ident(
+  def x "src/unix/lwt_timeout.ml" 118 3005 3007 "src/unix/lwt_timeout.ml" 121 3068 3073
+)
+"src/unix/lwt_timeout.ml" 118 3005 3010 "src/unix/lwt_timeout.ml" 118 3005 3021
+type(
+  t -> bool
+)
+ident(
+  int_ref lst_in_list "src/unix/lwt_timeout.ml" 51 1511 1515 "src/unix/lwt_timeout.ml" 51 1511 1526
+)
+"src/unix/lwt_timeout.ml" 118 3005 3022 "src/unix/lwt_timeout.ml" 118 3005 3023
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 117 2992 3001 "src/unix/lwt_timeout.ml" 117 2992 3002
+)
+"src/unix/lwt_timeout.ml" 118 3005 3010 "src/unix/lwt_timeout.ml" 118 3005 3023
+call(
+  stack
+)
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 119 3035 3039 "src/unix/lwt_timeout.ml" 119 3035 3049
+type(
+  t -> unit
+)
+ident(
+  int_ref lst_remove "src/unix/lwt_timeout.ml" 36 1291 1295 "src/unix/lwt_timeout.ml" 36 1291 1305
+)
+"src/unix/lwt_timeout.ml" 119 3035 3050 "src/unix/lwt_timeout.ml" 119 3035 3051
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 117 2992 3001 "src/unix/lwt_timeout.ml" 117 2992 3002
+)
+"src/unix/lwt_timeout.ml" 119 3035 3039 "src/unix/lwt_timeout.ml" 119 3035 3051
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 120 3053 3057 "src/unix/lwt_timeout.ml" 120 3053 3061
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.decr
+)
+"src/unix/lwt_timeout.ml" 120 3053 3062 "src/unix/lwt_timeout.ml" 120 3053 3067
+type(
+  int ref
+)
+ident(
+  int_ref count "src/unix/lwt_timeout.ml" 59 1644 1648 "src/unix/lwt_timeout.ml" 59 1644 1653
+)
+"src/unix/lwt_timeout.ml" 120 3053 3057 "src/unix/lwt_timeout.ml" 120 3053 3067
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 118 3005 3029 "src/unix/lwt_timeout.ml" 121 3068 3073
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 118 3005 3007 "src/unix/lwt_timeout.ml" 121 3068 3073
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 123 3075 3079 "src/unix/lwt_timeout.ml" 123 3075 3085
+type(
+  t -> int -> unit
+)
+ident(
+  def change "src/unix/lwt_timeout.ml" 127 3184 3215 "src/unix/lwt_timeout.ml" 1 0 -1
+)
+"src/unix/lwt_timeout.ml" 123 3075 3086 "src/unix/lwt_timeout.ml" 123 3075 3087
+type(
+  t
+)
+ident(
+  def x "src/unix/lwt_timeout.ml" 123 3075 3088 "src/unix/lwt_timeout.ml" 127 3184 3215
+)
+"src/unix/lwt_timeout.ml" 123 3075 3088 "src/unix/lwt_timeout.ml" 123 3075 3093
+type(
+  int
+)
+ident(
+  def delay "src/unix/lwt_timeout.ml" 124 3096 3098 "src/unix/lwt_timeout.ml" 127 3184 3215
+)
+"src/unix/lwt_timeout.ml" 124 3096 3101 "src/unix/lwt_timeout.ml" 124 3096 3106
+type(
+  int
+)
+ident(
+  int_ref delay "src/unix/lwt_timeout.ml" 123 3075 3088 "src/unix/lwt_timeout.ml" 123 3075 3093
+)
+"src/unix/lwt_timeout.ml" 124 3096 3107 "src/unix/lwt_timeout.ml" 124 3096 3108
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_timeout.ml" 124 3096 3109 "src/unix/lwt_timeout.ml" 124 3096 3110
+type(
+  int
+)
+"src/unix/lwt_timeout.ml" 124 3096 3101 "src/unix/lwt_timeout.ml" 124 3096 3110
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 124 3096 3116 "src/unix/lwt_timeout.ml" 124 3096 3127
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_timeout.ml" 124 3096 3128 "src/unix/lwt_timeout.ml" 124 3096 3148
+type(
+  string
+)
+"src/unix/lwt_timeout.ml" 124 3096 3116 "src/unix/lwt_timeout.ml" 124 3096 3148
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 124 3096 3098 "src/unix/lwt_timeout.ml" 124 3096 3148
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 125 3150 3152 "src/unix/lwt_timeout.ml" 125 3150 3153
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 123 3075 3086 "src/unix/lwt_timeout.ml" 123 3075 3087
+)
+"src/unix/lwt_timeout.ml" 125 3150 3163 "src/unix/lwt_timeout.ml" 125 3150 3168
+type(
+  int
+)
+ident(
+  int_ref delay "src/unix/lwt_timeout.ml" 123 3075 3088 "src/unix/lwt_timeout.ml" 123 3075 3093
+)
+"src/unix/lwt_timeout.ml" 125 3150 3152 "src/unix/lwt_timeout.ml" 125 3150 3168
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 126 3170 3172 "src/unix/lwt_timeout.ml" 126 3170 3176
+type(
+  int -> unit
+)
+ident(
+  int_ref size "src/unix/lwt_timeout.ml" 67 1729 1733 "src/unix/lwt_timeout.ml" 67 1729 1737
+)
+"src/unix/lwt_timeout.ml" 126 3170 3177 "src/unix/lwt_timeout.ml" 126 3170 3182
+type(
+  int
+)
+ident(
+  int_ref delay "src/unix/lwt_timeout.ml" 123 3075 3088 "src/unix/lwt_timeout.ml" 123 3075 3093
+)
+"src/unix/lwt_timeout.ml" 126 3170 3172 "src/unix/lwt_timeout.ml" 126 3170 3182
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 127 3184 3189 "src/unix/lwt_timeout.ml" 127 3184 3200
+type(
+  t -> bool
+)
+ident(
+  int_ref lst_in_list "src/unix/lwt_timeout.ml" 51 1511 1515 "src/unix/lwt_timeout.ml" 51 1511 1526
+)
+"src/unix/lwt_timeout.ml" 127 3184 3201 "src/unix/lwt_timeout.ml" 127 3184 3202
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 123 3075 3086 "src/unix/lwt_timeout.ml" 123 3075 3087
+)
+"src/unix/lwt_timeout.ml" 127 3184 3189 "src/unix/lwt_timeout.ml" 127 3184 3202
+call(
+  stack
+)
+type(
+  bool
+)
+"src/unix/lwt_timeout.ml" 127 3184 3208 "src/unix/lwt_timeout.ml" 127 3184 3213
+type(
+  t -> unit
+)
+ident(
+  int_ref start "src/unix/lwt_timeout.ml" 101 2602 2606 "src/unix/lwt_timeout.ml" 101 2602 2611
+)
+"src/unix/lwt_timeout.ml" 127 3184 3214 "src/unix/lwt_timeout.ml" 127 3184 3215
+type(
+  t
+)
+ident(
+  int_ref x "src/unix/lwt_timeout.ml" 123 3075 3086 "src/unix/lwt_timeout.ml" 123 3075 3087
+)
+"src/unix/lwt_timeout.ml" 127 3184 3208 "src/unix/lwt_timeout.ml" 127 3184 3215
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 127 3184 3186 "src/unix/lwt_timeout.ml" 127 3184 3215
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 126 3170 3172 "src/unix/lwt_timeout.ml" 127 3184 3215
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 125 3150 3152 "src/unix/lwt_timeout.ml" 127 3184 3215
+type(
+  unit
+)
+"src/unix/lwt_timeout.ml" 124 3096 3098 "src/unix/lwt_timeout.ml" 127 3184 3215
+type(
+  unit
+)

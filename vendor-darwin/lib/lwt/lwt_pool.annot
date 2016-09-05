@@ -1,0 +1,1466 @@
+"src/core/lwt_pool.ml" 47 1483 1487 "src/core/lwt_pool.ml" 47 1483 1493
+type(
+  int ->
+  ?check:('a -> (bool -> unit) -> unit) ->
+  ?validate:('a -> bool Lwt.t) -> (unit -> 'a Lwt.t) -> 'a t
+)
+ident(
+  def create "src/core/lwt_pool.ml" 56 1734 1734 "src/core/lwt_pool.ml" 1 0 -1
+)
+"src/core/lwt_pool.ml" 47 1483 1494 "src/core/lwt_pool.ml" 47 1483 1495
+type(
+  int
+)
+ident(
+  def m "src/core/lwt_pool.ml" 47 1483 1496 "src/core/lwt_pool.ml" 54 1694 1732
+)
+"src/core/lwt_pool.ml" 47 1483 1498 "src/core/lwt_pool.ml" 47 1483 1503
+type(
+  'a -> (bool -> unit) -> unit
+)
+"src/core/lwt_pool.ml" 47 1483 1510 "src/core/lwt_pool.ml" 47 1483 1511
+type(
+  'a
+)
+"src/core/lwt_pool.ml" 47 1483 1512 "src/core/lwt_pool.ml" 47 1483 1513
+type(
+  bool -> unit
+)
+ident(
+  def f "src/core/lwt_pool.ml" 47 1483 1517 "src/core/lwt_pool.ml" 47 1483 1523
+)
+"src/core/lwt_pool.ml" 47 1483 1517 "src/core/lwt_pool.ml" 47 1483 1518
+type(
+  bool -> unit
+)
+ident(
+  int_ref f "src/core/lwt_pool.ml" 47 1483 1512 "src/core/lwt_pool.ml" 47 1483 1513
+)
+"src/core/lwt_pool.ml" 47 1483 1519 "src/core/lwt_pool.ml" 47 1483 1523
+type(
+  bool
+)
+"src/core/lwt_pool.ml" 47 1483 1517 "src/core/lwt_pool.ml" 47 1483 1523
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 47 1483 1506 "src/core/lwt_pool.ml" 47 1483 1523
+type(
+  'a -> (bool -> unit) -> unit
+)
+type(
+  'a -> (bool -> unit) -> unit
+)
+ident(
+  int_ref *sth* "src/core/lwt_pool.ml" 47 1483 1506 "src/core/lwt_pool.ml" 47 1483 1523
+)
+type(
+  ('a -> (bool -> unit) -> unit) option
+)
+type(
+  ('a -> (bool -> unit) -> unit) option
+)
+type(
+  'a -> (bool -> unit) -> unit
+)
+"src/core/lwt_pool.ml" 47 1483 1527 "src/core/lwt_pool.ml" 47 1483 1535
+type(
+  'a -> bool Lwt.t
+)
+"src/core/lwt_pool.ml" 47 1483 1542 "src/core/lwt_pool.ml" 47 1483 1543
+type(
+  'a
+)
+"src/core/lwt_pool.ml" 47 1483 1547 "src/core/lwt_pool.ml" 47 1483 1562
+type(
+  bool Lwt.t
+)
+ident(
+  ext_ref Lwt.return_true
+)
+"src/core/lwt_pool.ml" 47 1483 1538 "src/core/lwt_pool.ml" 47 1483 1562
+type(
+  'a -> bool Lwt.t
+)
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref *sth* "src/core/lwt_pool.ml" 47 1483 1538 "src/core/lwt_pool.ml" 47 1483 1562
+)
+type(
+  ('a -> bool Lwt.t) option
+)
+type(
+  ('a -> bool Lwt.t) option
+)
+type(
+  'a -> bool Lwt.t
+)
+"src/core/lwt_pool.ml" 47 1483 1564 "src/core/lwt_pool.ml" 47 1483 1570
+type(
+  unit -> 'a Lwt.t
+)
+ident(
+  def create "src/core/lwt_pool.ml" 48 1573 1575 "src/core/lwt_pool.ml" 54 1694 1732
+)
+"src/core/lwt_pool.ml" 48 1573 1583 "src/core/lwt_pool.ml" 48 1573 1584
+type(
+  int
+)
+ident(
+  int_ref m "src/core/lwt_pool.ml" 47 1483 1494 "src/core/lwt_pool.ml" 47 1483 1495
+)
+"src/core/lwt_pool.ml" 49 1586 1599 "src/core/lwt_pool.ml" 49 1586 1605
+type(
+  unit -> 'a Lwt.t
+)
+ident(
+  int_ref create "src/core/lwt_pool.ml" 47 1483 1564 "src/core/lwt_pool.ml" 47 1483 1570
+)
+"src/core/lwt_pool.ml" 50 1607 1622 "src/core/lwt_pool.ml" 50 1607 1630
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref validate "src/core/lwt_pool.ml" 47 1483 1527 "src/core/lwt_pool.ml" 47 1483 1535
+)
+"src/core/lwt_pool.ml" 51 1632 1644 "src/core/lwt_pool.ml" 51 1632 1649
+type(
+  'a -> (bool -> unit) -> unit
+)
+ident(
+  int_ref check "src/core/lwt_pool.ml" 47 1483 1498 "src/core/lwt_pool.ml" 47 1483 1503
+)
+"src/core/lwt_pool.ml" 52 1651 1663 "src/core/lwt_pool.ml" 52 1651 1664
+type(
+  int
+)
+"src/core/lwt_pool.ml" 53 1666 1677 "src/core/lwt_pool.ml" 53 1666 1689
+type(
+  unit -> 'a Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"src/core/lwt_pool.ml" 53 1666 1690 "src/core/lwt_pool.ml" 53 1666 1692
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 53 1666 1677 "src/core/lwt_pool.ml" 53 1666 1692
+call(
+  stack
+)
+type(
+  'a Queue.t
+)
+"src/core/lwt_pool.ml" 54 1694 1708 "src/core/lwt_pool.ml" 54 1694 1727
+type(
+  unit -> 'a Lwt.u Lwt_sequence.t
+)
+ident(
+  ext_ref Lwt_sequence.create
+)
+"src/core/lwt_pool.ml" 54 1694 1728 "src/core/lwt_pool.ml" 54 1694 1730
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 54 1694 1708 "src/core/lwt_pool.ml" 54 1694 1730
+call(
+  stack
+)
+type(
+  'a Lwt.u Lwt_sequence.t
+)
+"src/core/lwt_pool.ml" 48 1573 1575 "src/core/lwt_pool.ml" 54 1694 1732
+type(
+  'a t
+)
+"src/core/lwt_pool.ml" 56 1734 1738 "src/core/lwt_pool.ml" 56 1734 1751
+type(
+  'a t -> 'a Lwt.t
+)
+ident(
+  def create_member "src/core/lwt_pool.ml" 69 2116 2116 "src/core/lwt_pool.ml" 1 0 -1
+)
+"src/core/lwt_pool.ml" 56 1734 1752 "src/core/lwt_pool.ml" 56 1734 1753
+type(
+  'a t
+)
+ident(
+  def p "src/core/lwt_pool.ml" 57 1756 1758 "src/core/lwt_pool.ml" 66 2065 2085
+)
+"src/core/lwt_pool.ml" 57 1756 1758 "src/core/lwt_pool.ml" 57 1756 1767
+type(
+  (unit -> 'a Lwt.t) -> (exn -> 'a Lwt.t) -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.catch
+)
+"src/core/lwt_pool.ml" 58 1768 1777 "src/core/lwt_pool.ml" 58 1768 1779
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 61 1911 1918 "src/core/lwt_pool.ml" 61 1911 1919
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 56 1734 1752 "src/core/lwt_pool.ml" 56 1734 1753
+)
+"src/core/lwt_pool.ml" 61 1911 1929 "src/core/lwt_pool.ml" 61 1911 1930
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 56 1734 1752 "src/core/lwt_pool.ml" 56 1734 1753
+)
+"src/core/lwt_pool.ml" 61 1911 1929 "src/core/lwt_pool.ml" 61 1911 1936
+type(
+  int
+)
+"src/core/lwt_pool.ml" 61 1911 1937 "src/core/lwt_pool.ml" 61 1911 1938
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/core/lwt_pool.ml" 61 1911 1939 "src/core/lwt_pool.ml" 61 1911 1940
+type(
+  int
+)
+"src/core/lwt_pool.ml" 61 1911 1929 "src/core/lwt_pool.ml" 61 1911 1940
+type(
+  int
+)
+"src/core/lwt_pool.ml" 61 1911 1918 "src/core/lwt_pool.ml" 61 1911 1940
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 62 1942 1949 "src/core/lwt_pool.ml" 62 1942 1950
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 56 1734 1752 "src/core/lwt_pool.ml" 56 1734 1753
+)
+"src/core/lwt_pool.ml" 62 1942 1949 "src/core/lwt_pool.ml" 62 1942 1957
+type(
+  unit -> 'a Lwt.t
+)
+"src/core/lwt_pool.ml" 62 1942 1958 "src/core/lwt_pool.ml" 62 1942 1960
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 62 1942 1949 "src/core/lwt_pool.ml" 62 1942 1960
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 61 1911 1918 "src/core/lwt_pool.ml" 62 1942 1960
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 58 1768 1772 "src/core/lwt_pool.ml" 62 1942 1961
+type(
+  unit -> 'a Lwt.t
+)
+"src/core/lwt_pool.ml" 63 1962 1971 "src/core/lwt_pool.ml" 63 1962 1974
+type(
+  exn
+)
+ident(
+  def exn "src/core/lwt_pool.ml" 65 2034 2041 "src/core/lwt_pool.ml" 66 2065 2084
+)
+"src/core/lwt_pool.ml" 65 2034 2041 "src/core/lwt_pool.ml" 65 2034 2042
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 56 1734 1752 "src/core/lwt_pool.ml" 56 1734 1753
+)
+"src/core/lwt_pool.ml" 65 2034 2052 "src/core/lwt_pool.ml" 65 2034 2053
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 56 1734 1752 "src/core/lwt_pool.ml" 56 1734 1753
+)
+"src/core/lwt_pool.ml" 65 2034 2052 "src/core/lwt_pool.ml" 65 2034 2059
+type(
+  int
+)
+"src/core/lwt_pool.ml" 65 2034 2060 "src/core/lwt_pool.ml" 65 2034 2061
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/core/lwt_pool.ml" 65 2034 2062 "src/core/lwt_pool.ml" 65 2034 2063
+type(
+  int
+)
+"src/core/lwt_pool.ml" 65 2034 2052 "src/core/lwt_pool.ml" 65 2034 2063
+type(
+  int
+)
+"src/core/lwt_pool.ml" 65 2034 2041 "src/core/lwt_pool.ml" 65 2034 2063
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 66 2065 2072 "src/core/lwt_pool.ml" 66 2065 2080
+type(
+  exn -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.fail
+)
+"src/core/lwt_pool.ml" 66 2065 2081 "src/core/lwt_pool.ml" 66 2065 2084
+type(
+  exn
+)
+ident(
+  int_ref exn "src/core/lwt_pool.ml" 63 1962 1971 "src/core/lwt_pool.ml" 63 1962 1974
+)
+"src/core/lwt_pool.ml" 66 2065 2072 "src/core/lwt_pool.ml" 66 2065 2084
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 65 2034 2041 "src/core/lwt_pool.ml" 66 2065 2084
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 63 1962 1966 "src/core/lwt_pool.ml" 66 2065 2085
+type(
+  exn -> 'a Lwt.t
+)
+"src/core/lwt_pool.ml" 57 1756 1758 "src/core/lwt_pool.ml" 66 2065 2085
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 69 2116 2120 "src/core/lwt_pool.ml" 69 2116 2127
+type(
+  'a t -> 'a -> unit
+)
+ident(
+  def release "src/core/lwt_pool.ml" 79 2435 2435 "src/core/lwt_pool.ml" 1 0 -1
+)
+"src/core/lwt_pool.ml" 69 2116 2128 "src/core/lwt_pool.ml" 69 2116 2129
+type(
+  'a t
+)
+ident(
+  def p "src/core/lwt_pool.ml" 69 2116 2130 "src/core/lwt_pool.ml" 76 2355 2382
+)
+"src/core/lwt_pool.ml" 69 2116 2130 "src/core/lwt_pool.ml" 69 2116 2131
+type(
+  'a
+)
+ident(
+  def c "src/core/lwt_pool.ml" 70 2134 2136 "src/core/lwt_pool.ml" 76 2355 2382
+)
+"src/core/lwt_pool.ml" 70 2134 2142 "src/core/lwt_pool.ml" 70 2134 2165
+type(
+  'a Lwt.u Lwt_sequence.t -> 'a Lwt.u option
+)
+ident(
+  ext_ref Lwt_sequence.take_opt_l
+)
+"src/core/lwt_pool.ml" 70 2134 2166 "src/core/lwt_pool.ml" 70 2134 2167
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 69 2116 2128 "src/core/lwt_pool.ml" 69 2116 2129
+)
+"src/core/lwt_pool.ml" 70 2134 2166 "src/core/lwt_pool.ml" 70 2134 2175
+type(
+  'a Lwt.u Lwt_sequence.t
+)
+"src/core/lwt_pool.ml" 70 2134 2142 "src/core/lwt_pool.ml" 70 2134 2175
+call(
+  stack
+)
+type(
+  'a Lwt.u option
+)
+"src/core/lwt_pool.ml" 71 2181 2192 "src/core/lwt_pool.ml" 71 2181 2199
+type(
+  'a Lwt.u
+)
+ident(
+  def wakener "src/core/lwt_pool.ml" 73 2263 2271 "src/core/lwt_pool.ml" 73 2263 2297
+)
+"src/core/lwt_pool.ml" 71 2181 2187 "src/core/lwt_pool.ml" 71 2181 2199
+type(
+  'a Lwt.u option
+)
+"src/core/lwt_pool.ml" 73 2263 2271 "src/core/lwt_pool.ml" 73 2263 2287
+type(
+  'a Lwt.u -> 'a -> unit
+)
+ident(
+  ext_ref Lwt.wakeup_later
+)
+"src/core/lwt_pool.ml" 73 2263 2288 "src/core/lwt_pool.ml" 73 2263 2295
+type(
+  'a Lwt.u
+)
+ident(
+  int_ref wakener "src/core/lwt_pool.ml" 71 2181 2192 "src/core/lwt_pool.ml" 71 2181 2199
+)
+"src/core/lwt_pool.ml" 73 2263 2296 "src/core/lwt_pool.ml" 73 2263 2297
+type(
+  'a
+)
+ident(
+  int_ref c "src/core/lwt_pool.ml" 69 2116 2130 "src/core/lwt_pool.ml" 69 2116 2131
+)
+"src/core/lwt_pool.ml" 73 2263 2271 "src/core/lwt_pool.ml" 73 2263 2297
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 74 2298 2304 "src/core/lwt_pool.ml" 74 2298 2308
+type(
+  'a Lwt.u option
+)
+"src/core/lwt_pool.ml" 76 2355 2363 "src/core/lwt_pool.ml" 76 2355 2373
+type(
+  'a -> 'a Queue.t -> unit
+)
+ident(
+  ext_ref Queue.push
+)
+"src/core/lwt_pool.ml" 76 2355 2374 "src/core/lwt_pool.ml" 76 2355 2375
+type(
+  'a
+)
+ident(
+  int_ref c "src/core/lwt_pool.ml" 69 2116 2130 "src/core/lwt_pool.ml" 69 2116 2131
+)
+"src/core/lwt_pool.ml" 76 2355 2376 "src/core/lwt_pool.ml" 76 2355 2377
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 69 2116 2128 "src/core/lwt_pool.ml" 69 2116 2129
+)
+"src/core/lwt_pool.ml" 76 2355 2376 "src/core/lwt_pool.ml" 76 2355 2382
+type(
+  'a Queue.t
+)
+"src/core/lwt_pool.ml" 76 2355 2363 "src/core/lwt_pool.ml" 76 2355 2382
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 70 2134 2136 "src/core/lwt_pool.ml" 76 2355 2382
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 79 2435 2439 "src/core/lwt_pool.ml" 79 2435 2455
+type(
+  'a t -> unit
+)
+ident(
+  def replace_acquired "src/core/lwt_pool.ml" 95 2981 2981 "src/core/lwt_pool.ml" 1 0 -1
+)
+"src/core/lwt_pool.ml" 79 2435 2456 "src/core/lwt_pool.ml" 79 2435 2457
+type(
+  'a t
+)
+ident(
+  def p "src/core/lwt_pool.ml" 80 2460 2462 "src/core/lwt_pool.ml" 93 2933 2979
+)
+"src/core/lwt_pool.ml" 80 2460 2468 "src/core/lwt_pool.ml" 80 2460 2491
+type(
+  'a Lwt.u Lwt_sequence.t -> 'a Lwt.u option
+)
+ident(
+  ext_ref Lwt_sequence.take_opt_l
+)
+"src/core/lwt_pool.ml" 80 2460 2492 "src/core/lwt_pool.ml" 80 2460 2493
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 79 2435 2456 "src/core/lwt_pool.ml" 79 2435 2457
+)
+"src/core/lwt_pool.ml" 80 2460 2492 "src/core/lwt_pool.ml" 80 2460 2501
+type(
+  'a Lwt.u Lwt_sequence.t
+)
+"src/core/lwt_pool.ml" 80 2460 2468 "src/core/lwt_pool.ml" 80 2460 2501
+call(
+  stack
+)
+type(
+  'a Lwt.u option
+)
+"src/core/lwt_pool.ml" 81 2507 2513 "src/core/lwt_pool.ml" 81 2507 2517
+type(
+  'a Lwt.u option
+)
+"src/core/lwt_pool.ml" 84 2637 2645 "src/core/lwt_pool.ml" 84 2637 2646
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 79 2435 2456 "src/core/lwt_pool.ml" 79 2435 2457
+)
+"src/core/lwt_pool.ml" 84 2637 2656 "src/core/lwt_pool.ml" 84 2637 2657
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 79 2435 2456 "src/core/lwt_pool.ml" 79 2435 2457
+)
+"src/core/lwt_pool.ml" 84 2637 2656 "src/core/lwt_pool.ml" 84 2637 2663
+type(
+  int
+)
+"src/core/lwt_pool.ml" 84 2637 2664 "src/core/lwt_pool.ml" 84 2637 2665
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/core/lwt_pool.ml" 84 2637 2666 "src/core/lwt_pool.ml" 84 2637 2667
+type(
+  int
+)
+"src/core/lwt_pool.ml" 84 2637 2656 "src/core/lwt_pool.ml" 84 2637 2667
+type(
+  int
+)
+"src/core/lwt_pool.ml" 84 2637 2645 "src/core/lwt_pool.ml" 84 2637 2667
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 85 2668 2679 "src/core/lwt_pool.ml" 85 2668 2686
+type(
+  'a Lwt.u
+)
+ident(
+  def wakener "src/core/lwt_pool.ml" 86 2690 2698 "src/core/lwt_pool.ml" 93 2933 2979
+)
+"src/core/lwt_pool.ml" 85 2668 2674 "src/core/lwt_pool.ml" 85 2668 2686
+type(
+  'a Lwt.u option
+)
+"src/core/lwt_pool.ml" 86 2690 2698 "src/core/lwt_pool.ml" 86 2690 2708
+type(
+  'a Lwt.t -> ('a -> unit) -> (exn -> unit) -> unit
+)
+ident(
+  ext_ref Lwt.on_any
+)
+"src/core/lwt_pool.ml" 87 2709 2720 "src/core/lwt_pool.ml" 87 2709 2729
+type(
+  (unit -> 'a Lwt.t) -> unit -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.apply
+)
+"src/core/lwt_pool.ml" 87 2709 2730 "src/core/lwt_pool.ml" 87 2709 2731
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 79 2435 2456 "src/core/lwt_pool.ml" 79 2435 2457
+)
+"src/core/lwt_pool.ml" 87 2709 2730 "src/core/lwt_pool.ml" 87 2709 2738
+type(
+  unit -> 'a Lwt.t
+)
+"src/core/lwt_pool.ml" 87 2709 2739 "src/core/lwt_pool.ml" 87 2709 2741
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 87 2709 2719 "src/core/lwt_pool.ml" 87 2709 2742
+call(
+  stack
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 88 2743 2758 "src/core/lwt_pool.ml" 88 2743 2759
+type(
+  'a
+)
+ident(
+  def c "src/core/lwt_pool.ml" 89 2763 2776 "src/core/lwt_pool.ml" 89 2763 2802
+)
+"src/core/lwt_pool.ml" 89 2763 2776 "src/core/lwt_pool.ml" 89 2763 2792
+type(
+  'a Lwt.u -> 'a -> unit
+)
+ident(
+  ext_ref Lwt.wakeup_later
+)
+"src/core/lwt_pool.ml" 89 2763 2793 "src/core/lwt_pool.ml" 89 2763 2800
+type(
+  'a Lwt.u
+)
+ident(
+  int_ref wakener "src/core/lwt_pool.ml" 85 2668 2679 "src/core/lwt_pool.ml" 85 2668 2686
+)
+"src/core/lwt_pool.ml" 89 2763 2801 "src/core/lwt_pool.ml" 89 2763 2802
+type(
+  'a
+)
+ident(
+  int_ref c "src/core/lwt_pool.ml" 88 2743 2758 "src/core/lwt_pool.ml" 88 2743 2759
+)
+"src/core/lwt_pool.ml" 89 2763 2776 "src/core/lwt_pool.ml" 89 2763 2802
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 88 2743 2753 "src/core/lwt_pool.ml" 89 2763 2803
+type(
+  'a -> unit
+)
+"src/core/lwt_pool.ml" 90 2804 2819 "src/core/lwt_pool.ml" 90 2804 2822
+type(
+  exn
+)
+ident(
+  def exn "src/core/lwt_pool.ml" 92 2896 2909 "src/core/lwt_pool.ml" 93 2933 2978
+)
+"src/core/lwt_pool.ml" 92 2896 2909 "src/core/lwt_pool.ml" 92 2896 2910
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 79 2435 2456 "src/core/lwt_pool.ml" 79 2435 2457
+)
+"src/core/lwt_pool.ml" 92 2896 2920 "src/core/lwt_pool.ml" 92 2896 2921
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 79 2435 2456 "src/core/lwt_pool.ml" 79 2435 2457
+)
+"src/core/lwt_pool.ml" 92 2896 2920 "src/core/lwt_pool.ml" 92 2896 2927
+type(
+  int
+)
+"src/core/lwt_pool.ml" 92 2896 2928 "src/core/lwt_pool.ml" 92 2896 2929
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/core/lwt_pool.ml" 92 2896 2930 "src/core/lwt_pool.ml" 92 2896 2931
+type(
+  int
+)
+"src/core/lwt_pool.ml" 92 2896 2920 "src/core/lwt_pool.ml" 92 2896 2931
+type(
+  int
+)
+"src/core/lwt_pool.ml" 92 2896 2909 "src/core/lwt_pool.ml" 92 2896 2931
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 93 2933 2946 "src/core/lwt_pool.ml" 93 2933 2966
+type(
+  'a Lwt.u -> exn -> unit
+)
+ident(
+  ext_ref Lwt.wakeup_later_exn
+)
+"src/core/lwt_pool.ml" 93 2933 2967 "src/core/lwt_pool.ml" 93 2933 2974
+type(
+  'a Lwt.u
+)
+ident(
+  int_ref wakener "src/core/lwt_pool.ml" 85 2668 2679 "src/core/lwt_pool.ml" 85 2668 2686
+)
+"src/core/lwt_pool.ml" 93 2933 2975 "src/core/lwt_pool.ml" 93 2933 2978
+type(
+  exn
+)
+ident(
+  int_ref exn "src/core/lwt_pool.ml" 90 2804 2819 "src/core/lwt_pool.ml" 90 2804 2822
+)
+"src/core/lwt_pool.ml" 93 2933 2946 "src/core/lwt_pool.ml" 93 2933 2978
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 92 2896 2909 "src/core/lwt_pool.ml" 93 2933 2978
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 90 2804 2814 "src/core/lwt_pool.ml" 93 2933 2979
+type(
+  exn -> unit
+)
+"src/core/lwt_pool.ml" 86 2690 2698 "src/core/lwt_pool.ml" 93 2933 2979
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 80 2460 2462 "src/core/lwt_pool.ml" 93 2933 2979
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 95 2981 2985 "src/core/lwt_pool.ml" 95 2981 2992
+type(
+  'a t -> 'a Lwt.t
+)
+ident(
+  def acquire "src/core/lwt_pool.ml" 124 3823 3823 "src/core/lwt_pool.ml" 1 0 -1
+)
+"src/core/lwt_pool.ml" 95 2981 2993 "src/core/lwt_pool.ml" 95 2981 2994
+type(
+  'a t
+)
+ident(
+  def p "src/core/lwt_pool.ml" 96 2997 2999 "src/core/lwt_pool.ml" 121 3757 3777
+)
+"src/core/lwt_pool.ml" 96 2997 3002 "src/core/lwt_pool.ml" 96 2997 3016
+type(
+  'a Queue.t -> bool
+)
+ident(
+  ext_ref Queue.is_empty
+)
+"src/core/lwt_pool.ml" 96 2997 3017 "src/core/lwt_pool.ml" 96 2997 3018
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 95 2981 2993 "src/core/lwt_pool.ml" 95 2981 2994
+)
+"src/core/lwt_pool.ml" 96 2997 3017 "src/core/lwt_pool.ml" 96 2997 3023
+type(
+  'a Queue.t
+)
+"src/core/lwt_pool.ml" 96 2997 3002 "src/core/lwt_pool.ml" 96 2997 3023
+call(
+  stack
+)
+type(
+  bool
+)
+"src/core/lwt_pool.ml" 98 3065 3072 "src/core/lwt_pool.ml" 98 3065 3073
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 95 2981 2993 "src/core/lwt_pool.ml" 95 2981 2994
+)
+"src/core/lwt_pool.ml" 98 3065 3072 "src/core/lwt_pool.ml" 98 3065 3079
+type(
+  int
+)
+"src/core/lwt_pool.ml" 98 3065 3080 "src/core/lwt_pool.ml" 98 3065 3081
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/core/lwt_pool.ml" 98 3065 3082 "src/core/lwt_pool.ml" 98 3065 3083
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 95 2981 2993 "src/core/lwt_pool.ml" 95 2981 2994
+)
+"src/core/lwt_pool.ml" 98 3065 3082 "src/core/lwt_pool.ml" 98 3065 3087
+type(
+  int
+)
+"src/core/lwt_pool.ml" 98 3065 3072 "src/core/lwt_pool.ml" 98 3065 3087
+type(
+  bool
+)
+"src/core/lwt_pool.ml" 100 3142 3148 "src/core/lwt_pool.ml" 100 3142 3161
+type(
+  'a t -> 'a Lwt.t
+)
+ident(
+  int_ref create_member "src/core/lwt_pool.ml" 56 1734 1738 "src/core/lwt_pool.ml" 56 1734 1751
+)
+"src/core/lwt_pool.ml" 100 3142 3162 "src/core/lwt_pool.ml" 100 3142 3163
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 95 2981 2993 "src/core/lwt_pool.ml" 95 2981 2994
+)
+"src/core/lwt_pool.ml" 100 3142 3148 "src/core/lwt_pool.ml" 100 3142 3163
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 103 3221 3227 "src/core/lwt_pool.ml" 103 3221 3241
+type(
+  'a Lwt.u Lwt_sequence.t -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.add_task_r
+)
+"src/core/lwt_pool.ml" 103 3221 3242 "src/core/lwt_pool.ml" 103 3221 3243
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 95 2981 2993 "src/core/lwt_pool.ml" 95 2981 2994
+)
+"src/core/lwt_pool.ml" 103 3221 3242 "src/core/lwt_pool.ml" 103 3221 3251
+type(
+  'a Lwt.u Lwt_sequence.t
+)
+"src/core/lwt_pool.ml" 103 3221 3227 "src/core/lwt_pool.ml" 103 3221 3251
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 98 3065 3069 "src/core/lwt_pool.ml" 103 3221 3251
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 106 3313 3321 "src/core/lwt_pool.ml" 106 3313 3322
+type(
+  'a
+)
+ident(
+  def c "src/core/lwt_pool.ml" 107 3346 3350 "src/core/lwt_pool.ml" 121 3757 3777
+)
+"src/core/lwt_pool.ml" 106 3313 3325 "src/core/lwt_pool.ml" 106 3313 3335
+type(
+  'a Queue.t -> 'a
+)
+ident(
+  ext_ref Queue.take
+)
+"src/core/lwt_pool.ml" 106 3313 3336 "src/core/lwt_pool.ml" 106 3313 3337
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 95 2981 2993 "src/core/lwt_pool.ml" 95 2981 2994
+)
+"src/core/lwt_pool.ml" 106 3313 3336 "src/core/lwt_pool.ml" 106 3313 3342
+type(
+  'a Queue.t
+)
+"src/core/lwt_pool.ml" 106 3313 3325 "src/core/lwt_pool.ml" 106 3313 3342
+call(
+  stack
+)
+type(
+  'a
+)
+"src/core/lwt_pool.ml" 107 3346 3350 "src/core/lwt_pool.ml" 107 3346 3362
+type(
+  (unit -> bool Lwt.t) -> (bool -> 'a Lwt.t) -> (exn -> 'a Lwt.t) -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.try_bind
+)
+"src/core/lwt_pool.ml" 108 3363 3374 "src/core/lwt_pool.ml" 108 3363 3376
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 109 3380 3389 "src/core/lwt_pool.ml" 109 3380 3390
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 95 2981 2993 "src/core/lwt_pool.ml" 95 2981 2994
+)
+"src/core/lwt_pool.ml" 109 3380 3389 "src/core/lwt_pool.ml" 109 3380 3399
+type(
+  'a -> bool Lwt.t
+)
+"src/core/lwt_pool.ml" 109 3380 3400 "src/core/lwt_pool.ml" 109 3380 3401
+type(
+  'a
+)
+ident(
+  int_ref c "src/core/lwt_pool.ml" 106 3313 3321 "src/core/lwt_pool.ml" 106 3313 3322
+)
+"src/core/lwt_pool.ml" 109 3380 3389 "src/core/lwt_pool.ml" 109 3380 3401
+call(
+  tail
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_pool.ml" 108 3363 3369 "src/core/lwt_pool.ml" 109 3380 3402
+type(
+  unit -> bool Lwt.t
+)
+"src/core/lwt_pool.ml" 111 3419 3430 "src/core/lwt_pool.ml" 111 3419 3434
+type(
+  bool
+)
+"src/core/lwt_pool.ml" 112 3438 3451 "src/core/lwt_pool.ml" 112 3438 3461
+type(
+  'a -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/core/lwt_pool.ml" 112 3438 3462 "src/core/lwt_pool.ml" 112 3438 3463
+type(
+  'a
+)
+ident(
+  int_ref c "src/core/lwt_pool.ml" 106 3313 3321 "src/core/lwt_pool.ml" 106 3313 3322
+)
+"src/core/lwt_pool.ml" 112 3438 3451 "src/core/lwt_pool.ml" 112 3438 3463
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 113 3464 3475 "src/core/lwt_pool.ml" 113 3464 3480
+type(
+  bool
+)
+"src/core/lwt_pool.ml" 115 3544 3557 "src/core/lwt_pool.ml" 115 3544 3558
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 95 2981 2993 "src/core/lwt_pool.ml" 95 2981 2994
+)
+"src/core/lwt_pool.ml" 115 3544 3568 "src/core/lwt_pool.ml" 115 3544 3569
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 95 2981 2993 "src/core/lwt_pool.ml" 95 2981 2994
+)
+"src/core/lwt_pool.ml" 115 3544 3568 "src/core/lwt_pool.ml" 115 3544 3575
+type(
+  int
+)
+"src/core/lwt_pool.ml" 115 3544 3576 "src/core/lwt_pool.ml" 115 3544 3577
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/core/lwt_pool.ml" 115 3544 3578 "src/core/lwt_pool.ml" 115 3544 3579
+type(
+  int
+)
+"src/core/lwt_pool.ml" 115 3544 3568 "src/core/lwt_pool.ml" 115 3544 3579
+type(
+  int
+)
+"src/core/lwt_pool.ml" 115 3544 3557 "src/core/lwt_pool.ml" 115 3544 3579
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 116 3581 3594 "src/core/lwt_pool.ml" 116 3581 3607
+type(
+  'a t -> 'a Lwt.t
+)
+ident(
+  int_ref create_member "src/core/lwt_pool.ml" 56 1734 1738 "src/core/lwt_pool.ml" 56 1734 1751
+)
+"src/core/lwt_pool.ml" 116 3581 3608 "src/core/lwt_pool.ml" 116 3581 3609
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 95 2981 2993 "src/core/lwt_pool.ml" 95 2981 2994
+)
+"src/core/lwt_pool.ml" 116 3581 3594 "src/core/lwt_pool.ml" 116 3581 3609
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 115 3544 3557 "src/core/lwt_pool.ml" 116 3581 3609
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 110 3403 3409 "src/core/lwt_pool.ml" 116 3581 3610
+type(
+  bool -> 'a Lwt.t
+)
+"src/core/lwt_pool.ml" 117 3611 3622 "src/core/lwt_pool.ml" 117 3611 3623
+type(
+  exn
+)
+ident(
+  def e "src/core/lwt_pool.ml" 120 3728 3737 "src/core/lwt_pool.ml" 121 3757 3776
+)
+"src/core/lwt_pool.ml" 120 3728 3737 "src/core/lwt_pool.ml" 120 3728 3753
+type(
+  'a t -> unit
+)
+ident(
+  int_ref replace_acquired "src/core/lwt_pool.ml" 79 2435 2439 "src/core/lwt_pool.ml" 79 2435 2455
+)
+"src/core/lwt_pool.ml" 120 3728 3754 "src/core/lwt_pool.ml" 120 3728 3755
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 95 2981 2993 "src/core/lwt_pool.ml" 95 2981 2994
+)
+"src/core/lwt_pool.ml" 120 3728 3737 "src/core/lwt_pool.ml" 120 3728 3755
+call(
+  stack
+)
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 121 3757 3766 "src/core/lwt_pool.ml" 121 3757 3774
+type(
+  exn -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.fail
+)
+"src/core/lwt_pool.ml" 121 3757 3775 "src/core/lwt_pool.ml" 121 3757 3776
+type(
+  exn
+)
+ident(
+  int_ref e "src/core/lwt_pool.ml" 117 3611 3622 "src/core/lwt_pool.ml" 117 3611 3623
+)
+"src/core/lwt_pool.ml" 121 3757 3766 "src/core/lwt_pool.ml" 121 3757 3776
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 120 3728 3737 "src/core/lwt_pool.ml" 121 3757 3776
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 117 3611 3617 "src/core/lwt_pool.ml" 121 3757 3777
+type(
+  exn -> 'a Lwt.t
+)
+"src/core/lwt_pool.ml" 107 3346 3350 "src/core/lwt_pool.ml" 121 3757 3777
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 106 3313 3317 "src/core/lwt_pool.ml" 121 3757 3777
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 96 2997 2999 "src/core/lwt_pool.ml" 121 3757 3777
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 124 3823 3827 "src/core/lwt_pool.ml" 124 3823 3842
+type(
+  'a t -> 'a -> unit
+)
+ident(
+  def checked_release "src/core/lwt_pool.ml" 132 3951 3951 "src/core/lwt_pool.ml" 1 0 -1
+)
+"src/core/lwt_pool.ml" 124 3823 3843 "src/core/lwt_pool.ml" 124 3823 3844
+type(
+  'a t
+)
+ident(
+  def p "src/core/lwt_pool.ml" 124 3823 3845 "src/core/lwt_pool.ml" 130 3944 3949
+)
+"src/core/lwt_pool.ml" 124 3823 3845 "src/core/lwt_pool.ml" 124 3823 3846
+type(
+  'a
+)
+ident(
+  def c "src/core/lwt_pool.ml" 125 3849 3851 "src/core/lwt_pool.ml" 130 3944 3949
+)
+"src/core/lwt_pool.ml" 125 3849 3851 "src/core/lwt_pool.ml" 125 3849 3852
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 124 3823 3843 "src/core/lwt_pool.ml" 124 3823 3844
+)
+"src/core/lwt_pool.ml" 125 3849 3851 "src/core/lwt_pool.ml" 125 3849 3858
+type(
+  'a -> (bool -> unit) -> unit
+)
+"src/core/lwt_pool.ml" 125 3849 3859 "src/core/lwt_pool.ml" 125 3849 3860
+type(
+  'a
+)
+ident(
+  int_ref c "src/core/lwt_pool.ml" 124 3823 3845 "src/core/lwt_pool.ml" 124 3823 3846
+)
+"src/core/lwt_pool.ml" 125 3849 3871 "src/core/lwt_pool.ml" 125 3849 3873
+type(
+  bool
+)
+ident(
+  def ok "src/core/lwt_pool.ml" 126 3877 3881 "src/core/lwt_pool.ml" 129 3919 3943
+)
+"src/core/lwt_pool.ml" 126 3877 3884 "src/core/lwt_pool.ml" 126 3877 3886
+type(
+  bool
+)
+ident(
+  int_ref ok "src/core/lwt_pool.ml" 125 3849 3871 "src/core/lwt_pool.ml" 125 3849 3873
+)
+"src/core/lwt_pool.ml" 127 3892 3898 "src/core/lwt_pool.ml" 127 3892 3905
+type(
+  'a t -> 'a -> unit
+)
+ident(
+  int_ref release "src/core/lwt_pool.ml" 69 2116 2120 "src/core/lwt_pool.ml" 69 2116 2127
+)
+"src/core/lwt_pool.ml" 127 3892 3906 "src/core/lwt_pool.ml" 127 3892 3907
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 124 3823 3843 "src/core/lwt_pool.ml" 124 3823 3844
+)
+"src/core/lwt_pool.ml" 127 3892 3908 "src/core/lwt_pool.ml" 127 3892 3909
+type(
+  'a
+)
+ident(
+  int_ref c "src/core/lwt_pool.ml" 124 3823 3845 "src/core/lwt_pool.ml" 124 3823 3846
+)
+"src/core/lwt_pool.ml" 127 3892 3898 "src/core/lwt_pool.ml" 127 3892 3909
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 129 3919 3925 "src/core/lwt_pool.ml" 129 3919 3941
+type(
+  'a t -> unit
+)
+ident(
+  int_ref replace_acquired "src/core/lwt_pool.ml" 79 2435 2439 "src/core/lwt_pool.ml" 79 2435 2455
+)
+"src/core/lwt_pool.ml" 129 3919 3942 "src/core/lwt_pool.ml" 129 3919 3943
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 124 3823 3843 "src/core/lwt_pool.ml" 124 3823 3844
+)
+"src/core/lwt_pool.ml" 129 3919 3925 "src/core/lwt_pool.ml" 129 3919 3943
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 126 3877 3881 "src/core/lwt_pool.ml" 129 3919 3943
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 125 3849 3861 "src/core/lwt_pool.ml" 130 3944 3949
+type(
+  bool -> unit
+)
+"src/core/lwt_pool.ml" 125 3849 3851 "src/core/lwt_pool.ml" 130 3944 3949
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 132 3951 3955 "src/core/lwt_pool.ml" 132 3951 3958
+type(
+  'a t -> ('a -> 'b Lwt.t) -> 'b Lwt.t
+)
+ident(
+  def use "src/core/lwt_pool.ml" 142 4133 4151 "src/core/lwt_pool.ml" 1 0 -1
+)
+"src/core/lwt_pool.ml" 132 3951 3959 "src/core/lwt_pool.ml" 132 3951 3960
+type(
+  'a t
+)
+ident(
+  def p "src/core/lwt_pool.ml" 132 3951 3961 "src/core/lwt_pool.ml" 142 4133 4151
+)
+"src/core/lwt_pool.ml" 132 3951 3961 "src/core/lwt_pool.ml" 132 3951 3962
+type(
+  'a -> 'b Lwt.t
+)
+ident(
+  def f "src/core/lwt_pool.ml" 133 3965 3967 "src/core/lwt_pool.ml" 142 4133 4151
+)
+"src/core/lwt_pool.ml" 133 3965 3967 "src/core/lwt_pool.ml" 133 3965 3974
+type(
+  'a t -> 'a Lwt.t
+)
+ident(
+  int_ref acquire "src/core/lwt_pool.ml" 95 2981 2985 "src/core/lwt_pool.ml" 95 2981 2992
+)
+"src/core/lwt_pool.ml" 133 3965 3975 "src/core/lwt_pool.ml" 133 3965 3976
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 132 3951 3959 "src/core/lwt_pool.ml" 132 3951 3960
+)
+"src/core/lwt_pool.ml" 133 3965 3967 "src/core/lwt_pool.ml" 133 3965 3976
+call(
+  stack
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_pool.ml" 133 3965 3977 "src/core/lwt_pool.ml" 133 3965 3980
+type(
+  'a Lwt.t -> ('a -> 'b Lwt.t) -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_pool.ml" 133 3965 3985 "src/core/lwt_pool.ml" 133 3965 3986
+type(
+  'a
+)
+ident(
+  def c "src/core/lwt_pool.ml" 134 3990 3992 "src/core/lwt_pool.ml" 142 4133 4151
+)
+"src/core/lwt_pool.ml" 134 3990 3992 "src/core/lwt_pool.ml" 134 3990 4001
+type(
+  (unit -> 'b Lwt.t) -> (exn -> 'b Lwt.t) -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.catch
+)
+"src/core/lwt_pool.ml" 135 4002 4011 "src/core/lwt_pool.ml" 135 4002 4013
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 136 4017 4028 "src/core/lwt_pool.ml" 136 4017 4029
+type(
+  'b Lwt.t
+)
+ident(
+  def t "src/core/lwt_pool.ml" 137 4039 4046 "src/core/lwt_pool.ml" 139 4081 4089
+)
+"src/core/lwt_pool.ml" 136 4017 4032 "src/core/lwt_pool.ml" 136 4017 4033
+type(
+  'a -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_pool.ml" 132 3951 3961 "src/core/lwt_pool.ml" 132 3951 3962
+)
+"src/core/lwt_pool.ml" 136 4017 4034 "src/core/lwt_pool.ml" 136 4017 4035
+type(
+  'a
+)
+ident(
+  int_ref c "src/core/lwt_pool.ml" 133 3965 3985 "src/core/lwt_pool.ml" 133 3965 3986
+)
+"src/core/lwt_pool.ml" 136 4017 4032 "src/core/lwt_pool.ml" 136 4017 4035
+call(
+  stack
+)
+type(
+  'b Lwt.t
+)
+"src/core/lwt_pool.ml" 137 4039 4046 "src/core/lwt_pool.ml" 137 4039 4047
+type(
+  'b Lwt.t
+)
+ident(
+  int_ref t "src/core/lwt_pool.ml" 136 4017 4028 "src/core/lwt_pool.ml" 136 4017 4029
+)
+"src/core/lwt_pool.ml" 137 4039 4048 "src/core/lwt_pool.ml" 137 4039 4051
+type(
+  'b Lwt.t -> ('b -> 'b Lwt.t) -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_pool.ml" 137 4039 4056 "src/core/lwt_pool.ml" 137 4039 4057
+type(
+  'b
+)
+"src/core/lwt_pool.ml" 138 4061 4068 "src/core/lwt_pool.ml" 138 4061 4075
+type(
+  'a t -> 'a -> unit
+)
+ident(
+  int_ref release "src/core/lwt_pool.ml" 69 2116 2120 "src/core/lwt_pool.ml" 69 2116 2127
+)
+"src/core/lwt_pool.ml" 138 4061 4076 "src/core/lwt_pool.ml" 138 4061 4077
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 132 3951 3959 "src/core/lwt_pool.ml" 132 3951 3960
+)
+"src/core/lwt_pool.ml" 138 4061 4078 "src/core/lwt_pool.ml" 138 4061 4079
+type(
+  'a
+)
+ident(
+  int_ref c "src/core/lwt_pool.ml" 133 3965 3985 "src/core/lwt_pool.ml" 133 3965 3986
+)
+"src/core/lwt_pool.ml" 138 4061 4068 "src/core/lwt_pool.ml" 138 4061 4079
+call(
+  stack
+)
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 139 4081 4088 "src/core/lwt_pool.ml" 139 4081 4089
+type(
+  'b Lwt.t
+)
+ident(
+  int_ref t "src/core/lwt_pool.ml" 136 4017 4028 "src/core/lwt_pool.ml" 136 4017 4029
+)
+"src/core/lwt_pool.ml" 138 4061 4068 "src/core/lwt_pool.ml" 139 4081 4089
+type(
+  'b Lwt.t
+)
+"src/core/lwt_pool.ml" 137 4039 4052 "src/core/lwt_pool.ml" 139 4081 4089
+type(
+  'b -> 'b Lwt.t
+)
+"src/core/lwt_pool.ml" 137 4039 4046 "src/core/lwt_pool.ml" 139 4081 4089
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"src/core/lwt_pool.ml" 136 4017 4024 "src/core/lwt_pool.ml" 139 4081 4089
+type(
+  'b Lwt.t
+)
+"src/core/lwt_pool.ml" 135 4002 4006 "src/core/lwt_pool.ml" 139 4081 4090
+type(
+  unit -> 'b Lwt.t
+)
+"src/core/lwt_pool.ml" 140 4091 4100 "src/core/lwt_pool.ml" 140 4091 4101
+type(
+  exn
+)
+ident(
+  def e "src/core/lwt_pool.ml" 141 4105 4112 "src/core/lwt_pool.ml" 142 4133 4150
+)
+"src/core/lwt_pool.ml" 141 4105 4112 "src/core/lwt_pool.ml" 141 4105 4127
+type(
+  'a t -> 'a -> unit
+)
+ident(
+  int_ref checked_release "src/core/lwt_pool.ml" 124 3823 3827 "src/core/lwt_pool.ml" 124 3823 3842
+)
+"src/core/lwt_pool.ml" 141 4105 4128 "src/core/lwt_pool.ml" 141 4105 4129
+type(
+  'a t
+)
+ident(
+  int_ref p "src/core/lwt_pool.ml" 132 3951 3959 "src/core/lwt_pool.ml" 132 3951 3960
+)
+"src/core/lwt_pool.ml" 141 4105 4130 "src/core/lwt_pool.ml" 141 4105 4131
+type(
+  'a
+)
+ident(
+  int_ref c "src/core/lwt_pool.ml" 133 3965 3985 "src/core/lwt_pool.ml" 133 3965 3986
+)
+"src/core/lwt_pool.ml" 141 4105 4112 "src/core/lwt_pool.ml" 141 4105 4131
+call(
+  stack
+)
+type(
+  unit
+)
+"src/core/lwt_pool.ml" 142 4133 4140 "src/core/lwt_pool.ml" 142 4133 4148
+type(
+  exn -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.fail
+)
+"src/core/lwt_pool.ml" 142 4133 4149 "src/core/lwt_pool.ml" 142 4133 4150
+type(
+  exn
+)
+ident(
+  int_ref e "src/core/lwt_pool.ml" 140 4091 4100 "src/core/lwt_pool.ml" 140 4091 4101
+)
+"src/core/lwt_pool.ml" 142 4133 4140 "src/core/lwt_pool.ml" 142 4133 4150
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"src/core/lwt_pool.ml" 141 4105 4112 "src/core/lwt_pool.ml" 142 4133 4150
+type(
+  'b Lwt.t
+)
+"src/core/lwt_pool.ml" 140 4091 4095 "src/core/lwt_pool.ml" 142 4133 4151
+type(
+  exn -> 'b Lwt.t
+)
+"src/core/lwt_pool.ml" 134 3990 3992 "src/core/lwt_pool.ml" 142 4133 4151
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"src/core/lwt_pool.ml" 133 3965 3981 "src/core/lwt_pool.ml" 142 4133 4151
+type(
+  'a -> 'b Lwt.t
+)
+"src/core/lwt_pool.ml" 133 3965 3967 "src/core/lwt_pool.ml" 142 4133 4151
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)

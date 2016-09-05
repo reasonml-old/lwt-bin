@@ -1,0 +1,261 @@
+"src/unix/lwt_sys.ml" 25 968 972 "src/unix/lwt_sys.ml" 25 968 974
+type(
+  unit
+)
+"src/unix/lwt_sys.ml" 25 968 977 "src/unix/lwt_sys.ml" 25 968 1004
+type(
+  string -> exn -> unit
+)
+ident(
+  ext_ref Callback.register_exception
+)
+"src/unix/lwt_sys.ml" 25 968 1005 "src/unix/lwt_sys.ml" 25 968 1024
+type(
+  string
+)
+"src/unix/lwt_sys.ml" 25 968 1040 "src/unix/lwt_sys.ml" 25 968 1042
+type(
+  string
+)
+"src/unix/lwt_sys.ml" 25 968 1025 "src/unix/lwt_sys.ml" 25 968 1043
+type(
+  exn
+)
+"src/unix/lwt_sys.ml" 25 968 977 "src/unix/lwt_sys.ml" 25 968 1043
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_sys.ml" 27 1045 1049 "src/unix/lwt_sys.ml" 27 1045 1056
+type(
+  bool
+)
+ident(
+  def windows "src/unix/lwt_sys.ml" 29 1070 1070 "src/unix/lwt_sys.ml" 1 0 -1
+)
+"src/unix/lwt_sys.ml" 27 1045 1059 "src/unix/lwt_sys.ml" 27 1045 1068
+type(
+  bool
+)
+ident(
+  ext_ref Sys.win32
+)
+"src/unix/lwt_sys.ml" 43 1289 1293 "src/unix/lwt_sys.ml" 43 1289 1297
+type(
+  [< `fd_passing
+   | `fdatasync
+   | `get_affinity
+   | `get_cpu
+   | `get_credentials
+   | `libev
+   | `madvise
+   | `mincore
+   | `recv_msg
+   | `send_msg
+   | `set_affinity
+   | `wait4 ] ->
+  bool
+)
+ident(
+  def have "src/unix/lwt_sys.ml" 57 1716 1716 "src/unix/lwt_sys.ml" 1 0 -1
+)
+"src/unix/lwt_sys.ml" 44 1309 1313 "src/unix/lwt_sys.ml" 44 1309 1319
+type(
+  [< `fd_passing
+   | `fdatasync
+   | `get_affinity
+   | `get_cpu
+   | `get_credentials
+   | `libev
+   | `madvise
+   | `mincore
+   | `recv_msg
+   | `send_msg
+   | `set_affinity
+   | `wait4 ]
+  as 'a
+)
+"src/unix/lwt_sys.ml" 45 1320 1324 "src/unix/lwt_sys.ml" 45 1320 1333
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 44 1309 1313 "src/unix/lwt_sys.ml" 45 1320 1333
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 46 1334 1338 "src/unix/lwt_sys.ml" 46 1334 1347
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 44 1309 1313 "src/unix/lwt_sys.ml" 46 1334 1347
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 47 1348 1352 "src/unix/lwt_sys.ml" 47 1348 1360
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 44 1309 1313 "src/unix/lwt_sys.ml" 47 1348 1360
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 47 1348 1364 "src/unix/lwt_sys.ml" 47 1348 1367
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/unix/lwt_sys.ml" 47 1348 1368 "src/unix/lwt_sys.ml" 47 1348 1377
+type(
+  bool
+)
+ident(
+  ext_ref Sys.win32
+)
+"src/unix/lwt_sys.ml" 47 1348 1364 "src/unix/lwt_sys.ml" 47 1348 1377
+type(
+  bool
+)
+"src/unix/lwt_sys.ml" 48 1378 1382 "src/unix/lwt_sys.ml" 48 1378 1390
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 48 1378 1394 "src/unix/lwt_sys.ml" 48 1378 1397
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/unix/lwt_sys.ml" 48 1378 1399 "src/unix/lwt_sys.ml" 48 1378 1408
+type(
+  bool
+)
+ident(
+  ext_ref Sys.win32
+)
+"src/unix/lwt_sys.ml" 48 1378 1409 "src/unix/lwt_sys.ml" 48 1378 1411
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_sys.ml" 48 1378 1412 "src/unix/lwt_sys.ml" 48 1378 1422
+type(
+  bool
+)
+ident(
+  ext_ref Sys.cygwin
+)
+"src/unix/lwt_sys.ml" 48 1378 1398 "src/unix/lwt_sys.ml" 48 1378 1423
+type(
+  bool
+)
+"src/unix/lwt_sys.ml" 48 1378 1394 "src/unix/lwt_sys.ml" 48 1378 1423
+type(
+  bool
+)
+"src/unix/lwt_sys.ml" 49 1424 1428 "src/unix/lwt_sys.ml" 49 1424 1436
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 49 1424 1440 "src/unix/lwt_sys.ml" 49 1424 1463
+type(
+  bool
+)
+ident(
+  ext_ref Lwt_config._HAVE_GETCPU
+)
+"src/unix/lwt_sys.ml" 50 1464 1468 "src/unix/lwt_sys.ml" 50 1464 1481
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 51 1482 1486 "src/unix/lwt_sys.ml" 51 1482 1499
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 50 1464 1468 "src/unix/lwt_sys.ml" 51 1482 1499
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 51 1482 1503 "src/unix/lwt_sys.ml" 51 1482 1528
+type(
+  bool
+)
+ident(
+  ext_ref Lwt_config._HAVE_AFFINITY
+)
+"src/unix/lwt_sys.ml" 52 1529 1533 "src/unix/lwt_sys.ml" 52 1529 1544
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 52 1529 1548 "src/unix/lwt_sys.ml" 52 1529 1575
+type(
+  bool
+)
+ident(
+  ext_ref Lwt_config._HAVE_FD_PASSING
+)
+"src/unix/lwt_sys.ml" 53 1576 1580 "src/unix/lwt_sys.ml" 53 1576 1596
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 53 1576 1600 "src/unix/lwt_sys.ml" 53 1576 1632
+type(
+  bool
+)
+ident(
+  ext_ref Lwt_config._HAVE_GET_CREDENTIALS
+)
+"src/unix/lwt_sys.ml" 54 1633 1637 "src/unix/lwt_sys.ml" 54 1633 1647
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 54 1633 1651 "src/unix/lwt_sys.ml" 54 1633 1677
+type(
+  bool
+)
+ident(
+  ext_ref Lwt_config._HAVE_FDATASYNC
+)
+"src/unix/lwt_sys.ml" 55 1678 1682 "src/unix/lwt_sys.ml" 55 1678 1688
+type(
+  'a
+)
+"src/unix/lwt_sys.ml" 55 1678 1692 "src/unix/lwt_sys.ml" 55 1678 1714
+type(
+  bool
+)
+ident(
+  ext_ref Lwt_config._HAVE_LIBEV
+)
+"src/unix/lwt_sys.ml" 43 1289 1300 "src/unix/lwt_sys.ml" 55 1678 1714
+type(
+  'a -> bool
+)
+"src/unix/lwt_sys.ml" 61 1839 1843 "src/unix/lwt_sys.ml" 61 1839 1853
+type(
+  byte_order
+)
+ident(
+  def byte_order "src/unix/lwt_sys.ml" 61 1839 1873 "src/unix/lwt_sys.ml" 1 0 -1
+)
+"src/unix/lwt_sys.ml" 61 1839 1856 "src/unix/lwt_sys.ml" 61 1839 1870
+type(
+  unit -> byte_order
+)
+ident(
+  int_ref get_byte_order "src/unix/lwt_sys.ml" 59 1762 1762 "src/unix/lwt_sys.ml" 59 1762 1837
+)
+"src/unix/lwt_sys.ml" 61 1839 1871 "src/unix/lwt_sys.ml" 61 1839 1873
+type(
+  unit
+)
+"src/unix/lwt_sys.ml" 61 1839 1856 "src/unix/lwt_sys.ml" 61 1839 1873
+type(
+  byte_order
+)

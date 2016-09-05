@@ -1,0 +1,478 @@
+"src/core/lwt_condition.ml" 36 1761 1765 "src/core/lwt_condition.ml" 36 1761 1771
+type(
+  unit -> 'a Lwt_sequence.t
+)
+ident(
+  def create "src/core/lwt_condition.ml" 38 1795 1795 "src/core/lwt_condition.ml" 1 0 -1
+)
+"src/core/lwt_condition.ml" 36 1761 1774 "src/core/lwt_condition.ml" 36 1761 1793
+type(
+  unit -> 'a Lwt_sequence.t
+)
+ident(
+  ext_ref Lwt_sequence.create
+)
+"src/core/lwt_condition.ml" 38 1795 1799 "src/core/lwt_condition.ml" 38 1795 1803
+type(
+  ?mutex:Lwt_mutex.t -> 'a Lwt.u Lwt_sequence.t -> 'a Lwt.t
+)
+ident(
+  def wait "src/core/lwt_condition.ml" 52 2101 2101 "src/core/lwt_condition.ml" 1 0 -1
+)
+"src/core/lwt_condition.ml" 38 1795 1805 "src/core/lwt_condition.ml" 38 1795 1810
+type(
+  Lwt_mutex.t option
+)
+ident(
+  def mutex "src/core/lwt_condition.ml" 38 1795 1811 "src/core/lwt_condition.ml" 50 2064 2099
+)
+"src/core/lwt_condition.ml" 38 1795 1811 "src/core/lwt_condition.ml" 38 1795 1815
+type(
+  'a Lwt.u Lwt_sequence.t
+)
+ident(
+  def cvar "src/core/lwt_condition.ml" 39 1818 1820 "src/core/lwt_condition.ml" 50 2064 2099
+)
+"src/core/lwt_condition.ml" 39 1818 1824 "src/core/lwt_condition.ml" 39 1818 1830
+type(
+  'a Lwt.t
+)
+ident(
+  def waiter "src/core/lwt_condition.ml" 40 1856 1858 "src/core/lwt_condition.ml" 50 2064 2099
+)
+"src/core/lwt_condition.ml" 39 1818 1833 "src/core/lwt_condition.ml" 39 1818 1847
+type(
+  'a Lwt.u Lwt_sequence.t -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.add_task_r
+)
+"src/core/lwt_condition.ml" 39 1818 1848 "src/core/lwt_condition.ml" 39 1818 1852
+type(
+  'a Lwt.u Lwt_sequence.t
+)
+ident(
+  int_ref cvar "src/core/lwt_condition.ml" 38 1795 1811 "src/core/lwt_condition.ml" 38 1795 1815
+)
+"src/core/lwt_condition.ml" 39 1818 1833 "src/core/lwt_condition.ml" 39 1818 1852
+call(
+  stack
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_condition.ml" 40 1856 1862 "src/core/lwt_condition.ml" 40 1856 1864
+type(
+  unit
+)
+"src/core/lwt_condition.ml" 41 1867 1877 "src/core/lwt_condition.ml" 41 1867 1882
+type(
+  Lwt_mutex.t option
+)
+ident(
+  int_ref mutex "src/core/lwt_condition.ml" 38 1795 1805 "src/core/lwt_condition.ml" 38 1795 1810
+)
+"src/core/lwt_condition.ml" 42 1888 1901 "src/core/lwt_condition.ml" 42 1888 1902
+type(
+  Lwt_mutex.t
+)
+ident(
+  def m "src/core/lwt_condition.ml" 42 1888 1906 "src/core/lwt_condition.ml" 42 1888 1924
+)
+"src/core/lwt_condition.ml" 42 1888 1896 "src/core/lwt_condition.ml" 42 1888 1902
+type(
+  Lwt_mutex.t option
+)
+"src/core/lwt_condition.ml" 42 1888 1906 "src/core/lwt_condition.ml" 42 1888 1922
+type(
+  Lwt_mutex.t -> unit
+)
+ident(
+  ext_ref Lwt_mutex.unlock
+)
+"src/core/lwt_condition.ml" 42 1888 1923 "src/core/lwt_condition.ml" 42 1888 1924
+type(
+  Lwt_mutex.t
+)
+ident(
+  int_ref m "src/core/lwt_condition.ml" 42 1888 1901 "src/core/lwt_condition.ml" 42 1888 1902
+)
+"src/core/lwt_condition.ml" 42 1888 1906 "src/core/lwt_condition.ml" 42 1888 1924
+call(
+  stack
+)
+type(
+  unit
+)
+"src/core/lwt_condition.ml" 43 1925 1933 "src/core/lwt_condition.ml" 43 1925 1937
+type(
+  Lwt_mutex.t option
+)
+"src/core/lwt_condition.ml" 43 1925 1941 "src/core/lwt_condition.ml" 43 1925 1943
+type(
+  unit
+)
+"src/core/lwt_condition.ml" 41 1867 1871 "src/core/lwt_condition.ml" 43 1925 1943
+type(
+  unit
+)
+"src/core/lwt_condition.ml" 45 1949 1951 "src/core/lwt_condition.ml" 45 1949 1963
+type(
+  (unit -> 'a Lwt.t) -> (unit -> unit Lwt.t) -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.finalize
+)
+"src/core/lwt_condition.ml" 46 1964 1973 "src/core/lwt_condition.ml" 46 1964 1975
+type(
+  unit
+)
+"src/core/lwt_condition.ml" 46 1964 1979 "src/core/lwt_condition.ml" 46 1964 1985
+type(
+  'a Lwt.t
+)
+ident(
+  int_ref waiter "src/core/lwt_condition.ml" 39 1818 1824 "src/core/lwt_condition.ml" 39 1818 1830
+)
+"src/core/lwt_condition.ml" 46 1964 1968 "src/core/lwt_condition.ml" 46 1964 1986
+type(
+  unit -> 'a Lwt.t
+)
+"src/core/lwt_condition.ml" 47 1987 1996 "src/core/lwt_condition.ml" 47 1987 1998
+type(
+  unit
+)
+"src/core/lwt_condition.ml" 48 2002 2015 "src/core/lwt_condition.ml" 48 2002 2020
+type(
+  Lwt_mutex.t option
+)
+ident(
+  int_ref mutex "src/core/lwt_condition.ml" 38 1795 1805 "src/core/lwt_condition.ml" 38 1795 1810
+)
+"src/core/lwt_condition.ml" 49 2026 2042 "src/core/lwt_condition.ml" 49 2026 2043
+type(
+  Lwt_mutex.t
+)
+ident(
+  def m "src/core/lwt_condition.ml" 49 2026 2047 "src/core/lwt_condition.ml" 49 2026 2063
+)
+"src/core/lwt_condition.ml" 49 2026 2037 "src/core/lwt_condition.ml" 49 2026 2043
+type(
+  Lwt_mutex.t option
+)
+"src/core/lwt_condition.ml" 49 2026 2047 "src/core/lwt_condition.ml" 49 2026 2061
+type(
+  Lwt_mutex.t -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_mutex.lock
+)
+"src/core/lwt_condition.ml" 49 2026 2062 "src/core/lwt_condition.ml" 49 2026 2063
+type(
+  Lwt_mutex.t
+)
+ident(
+  int_ref m "src/core/lwt_condition.ml" 49 2026 2042 "src/core/lwt_condition.ml" 49 2026 2043
+)
+"src/core/lwt_condition.ml" 49 2026 2047 "src/core/lwt_condition.ml" 49 2026 2063
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_condition.ml" 50 2064 2075 "src/core/lwt_condition.ml" 50 2064 2079
+type(
+  Lwt_mutex.t option
+)
+"src/core/lwt_condition.ml" 50 2064 2083 "src/core/lwt_condition.ml" 50 2064 2098
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/core/lwt_condition.ml" 48 2002 2009 "src/core/lwt_condition.ml" 50 2064 2098
+type(
+  unit Lwt.t
+)
+"src/core/lwt_condition.ml" 47 1987 1991 "src/core/lwt_condition.ml" 50 2064 2099
+type(
+  unit -> unit Lwt.t
+)
+"src/core/lwt_condition.ml" 45 1949 1951 "src/core/lwt_condition.ml" 50 2064 2099
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_condition.ml" 40 1856 1858 "src/core/lwt_condition.ml" 50 2064 2099
+type(
+  'a Lwt.t
+)
+"src/core/lwt_condition.ml" 39 1818 1820 "src/core/lwt_condition.ml" 50 2064 2099
+type(
+  'a Lwt.t
+)
+"src/core/lwt_condition.ml" 52 2101 2105 "src/core/lwt_condition.ml" 52 2101 2111
+type(
+  'a Lwt.u Lwt_sequence.t -> 'a -> unit
+)
+ident(
+  def signal "src/core/lwt_condition.ml" 58 2218 2218 "src/core/lwt_condition.ml" 1 0 -1
+)
+"src/core/lwt_condition.ml" 52 2101 2112 "src/core/lwt_condition.ml" 52 2101 2116
+type(
+  'a Lwt.u Lwt_sequence.t
+)
+ident(
+  def cvar "src/core/lwt_condition.ml" 52 2101 2117 "src/core/lwt_condition.ml" 56 2210 2216
+)
+"src/core/lwt_condition.ml" 52 2101 2117 "src/core/lwt_condition.ml" 52 2101 2120
+type(
+  'a
+)
+ident(
+  def arg "src/core/lwt_condition.ml" 53 2123 2125 "src/core/lwt_condition.ml" 56 2210 2216
+)
+"src/core/lwt_condition.ml" 54 2129 2133 "src/core/lwt_condition.ml" 54 2129 2149
+type(
+  'a Lwt.u -> 'a -> unit
+)
+ident(
+  ext_ref Lwt.wakeup_later
+)
+"src/core/lwt_condition.ml" 54 2129 2151 "src/core/lwt_condition.ml" 54 2129 2170
+type(
+  'a Lwt.u Lwt_sequence.t -> 'a Lwt.u
+)
+ident(
+  ext_ref Lwt_sequence.take_l
+)
+"src/core/lwt_condition.ml" 54 2129 2171 "src/core/lwt_condition.ml" 54 2129 2175
+type(
+  'a Lwt.u Lwt_sequence.t
+)
+ident(
+  int_ref cvar "src/core/lwt_condition.ml" 52 2101 2112 "src/core/lwt_condition.ml" 52 2101 2116
+)
+"src/core/lwt_condition.ml" 54 2129 2150 "src/core/lwt_condition.ml" 54 2129 2176
+call(
+  stack
+)
+type(
+  'a Lwt.u
+)
+"src/core/lwt_condition.ml" 54 2129 2177 "src/core/lwt_condition.ml" 54 2129 2180
+type(
+  'a
+)
+ident(
+  int_ref arg "src/core/lwt_condition.ml" 52 2101 2117 "src/core/lwt_condition.ml" 52 2101 2120
+)
+"src/core/lwt_condition.ml" 54 2129 2133 "src/core/lwt_condition.ml" 54 2129 2180
+call(
+  stack
+)
+type(
+  unit
+)
+"src/core/lwt_condition.ml" 55 2181 2188 "src/core/lwt_condition.ml" 55 2181 2206
+type(
+  exn
+)
+"src/core/lwt_condition.ml" 56 2210 2214 "src/core/lwt_condition.ml" 56 2210 2216
+type(
+  unit
+)
+"src/core/lwt_condition.ml" 53 2123 2125 "src/core/lwt_condition.ml" 56 2210 2216
+type(
+  unit
+)
+"src/core/lwt_condition.ml" 58 2218 2222 "src/core/lwt_condition.ml" 58 2218 2231
+type(
+  'a Lwt.u Lwt_sequence.t -> 'a -> unit
+)
+ident(
+  def broadcast "src/core/lwt_condition.ml" 61 2364 2430 "src/core/lwt_condition.ml" 1 0 -1
+)
+"src/core/lwt_condition.ml" 58 2218 2232 "src/core/lwt_condition.ml" 58 2218 2236
+type(
+  'a Lwt.u Lwt_sequence.t
+)
+ident(
+  def cvar "src/core/lwt_condition.ml" 58 2218 2237 "src/core/lwt_condition.ml" 61 2364 2430
+)
+"src/core/lwt_condition.ml" 58 2218 2237 "src/core/lwt_condition.ml" 58 2218 2240
+type(
+  'a
+)
+ident(
+  def arg "src/core/lwt_condition.ml" 59 2243 2245 "src/core/lwt_condition.ml" 61 2364 2430
+)
+"src/core/lwt_condition.ml" 59 2243 2249 "src/core/lwt_condition.ml" 59 2243 2257
+type(
+  'a Lwt.u list
+)
+ident(
+  def wakeners "src/core/lwt_condition.ml" 60 2311 2313 "src/core/lwt_condition.ml" 61 2364 2430
+)
+"src/core/lwt_condition.ml" 59 2243 2260 "src/core/lwt_condition.ml" 59 2243 2279
+type(
+  ('a Lwt.u -> 'a Lwt.u list -> 'a Lwt.u list) ->
+  'a Lwt.u Lwt_sequence.t -> 'a Lwt.u list -> 'a Lwt.u list
+)
+ident(
+  ext_ref Lwt_sequence.fold_r
+)
+"src/core/lwt_condition.ml" 59 2243 2285 "src/core/lwt_condition.ml" 59 2243 2286
+type(
+  'a Lwt.u
+)
+ident(
+  def x "src/core/lwt_condition.ml" 59 2243 2287 "src/core/lwt_condition.ml" 59 2243 2298
+)
+"src/core/lwt_condition.ml" 59 2243 2287 "src/core/lwt_condition.ml" 59 2243 2288
+type(
+  'a Lwt.u list
+)
+ident(
+  def l "src/core/lwt_condition.ml" 59 2243 2292 "src/core/lwt_condition.ml" 59 2243 2298
+)
+"src/core/lwt_condition.ml" 59 2243 2292 "src/core/lwt_condition.ml" 59 2243 2293
+type(
+  'a Lwt.u
+)
+ident(
+  int_ref x "src/core/lwt_condition.ml" 59 2243 2285 "src/core/lwt_condition.ml" 59 2243 2286
+)
+"src/core/lwt_condition.ml" 59 2243 2297 "src/core/lwt_condition.ml" 59 2243 2298
+type(
+  'a Lwt.u list
+)
+ident(
+  int_ref l "src/core/lwt_condition.ml" 59 2243 2287 "src/core/lwt_condition.ml" 59 2243 2288
+)
+"src/core/lwt_condition.ml" 59 2243 2292 "src/core/lwt_condition.ml" 59 2243 2298
+type(
+  'a Lwt.u list
+)
+"src/core/lwt_condition.ml" 59 2243 2280 "src/core/lwt_condition.ml" 59 2243 2299
+type(
+  'a Lwt.u -> 'a Lwt.u list -> 'a Lwt.u list
+)
+"src/core/lwt_condition.ml" 59 2243 2300 "src/core/lwt_condition.ml" 59 2243 2304
+type(
+  'a Lwt.u Lwt_sequence.t
+)
+ident(
+  int_ref cvar "src/core/lwt_condition.ml" 58 2218 2232 "src/core/lwt_condition.ml" 58 2218 2236
+)
+"src/core/lwt_condition.ml" 59 2243 2305 "src/core/lwt_condition.ml" 59 2243 2307
+type(
+  'a Lwt.u list
+)
+"src/core/lwt_condition.ml" 59 2243 2260 "src/core/lwt_condition.ml" 59 2243 2307
+call(
+  stack
+)
+type(
+  'a Lwt.u list
+)
+"src/core/lwt_condition.ml" 60 2311 2313 "src/core/lwt_condition.ml" 60 2311 2337
+type(
+  ('a Lwt.u Lwt_sequence.node -> unit) -> 'a Lwt.u Lwt_sequence.t -> unit
+)
+ident(
+  ext_ref Lwt_sequence.iter_node_l
+)
+"src/core/lwt_condition.ml" 60 2311 2338 "src/core/lwt_condition.ml" 60 2311 2357
+type(
+  'a Lwt.u Lwt_sequence.node -> unit
+)
+ident(
+  ext_ref Lwt_sequence.remove
+)
+"src/core/lwt_condition.ml" 60 2311 2358 "src/core/lwt_condition.ml" 60 2311 2362
+type(
+  'a Lwt.u Lwt_sequence.t
+)
+ident(
+  int_ref cvar "src/core/lwt_condition.ml" 58 2218 2232 "src/core/lwt_condition.ml" 58 2218 2236
+)
+"src/core/lwt_condition.ml" 60 2311 2313 "src/core/lwt_condition.ml" 60 2311 2362
+call(
+  stack
+)
+type(
+  unit
+)
+"src/core/lwt_condition.ml" 61 2364 2366 "src/core/lwt_condition.ml" 61 2364 2375
+type(
+  ('a Lwt.u -> unit) -> 'a Lwt.u list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/core/lwt_condition.ml" 61 2364 2381 "src/core/lwt_condition.ml" 61 2364 2388
+type(
+  'a Lwt.u
+)
+ident(
+  def wakener "src/core/lwt_condition.ml" 61 2364 2392 "src/core/lwt_condition.ml" 61 2364 2420
+)
+"src/core/lwt_condition.ml" 61 2364 2392 "src/core/lwt_condition.ml" 61 2364 2408
+type(
+  'a Lwt.u -> 'a -> unit
+)
+ident(
+  ext_ref Lwt.wakeup_later
+)
+"src/core/lwt_condition.ml" 61 2364 2409 "src/core/lwt_condition.ml" 61 2364 2416
+type(
+  'a Lwt.u
+)
+ident(
+  int_ref wakener "src/core/lwt_condition.ml" 61 2364 2381 "src/core/lwt_condition.ml" 61 2364 2388
+)
+"src/core/lwt_condition.ml" 61 2364 2417 "src/core/lwt_condition.ml" 61 2364 2420
+type(
+  'a
+)
+ident(
+  int_ref arg "src/core/lwt_condition.ml" 58 2218 2237 "src/core/lwt_condition.ml" 58 2218 2240
+)
+"src/core/lwt_condition.ml" 61 2364 2392 "src/core/lwt_condition.ml" 61 2364 2420
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_condition.ml" 61 2364 2376 "src/core/lwt_condition.ml" 61 2364 2421
+type(
+  'a Lwt.u -> unit
+)
+"src/core/lwt_condition.ml" 61 2364 2422 "src/core/lwt_condition.ml" 61 2364 2430
+type(
+  'a Lwt.u list
+)
+ident(
+  int_ref wakeners "src/core/lwt_condition.ml" 59 2243 2249 "src/core/lwt_condition.ml" 59 2243 2257
+)
+"src/core/lwt_condition.ml" 61 2364 2366 "src/core/lwt_condition.ml" 61 2364 2430
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_condition.ml" 60 2311 2313 "src/core/lwt_condition.ml" 61 2364 2430
+type(
+  unit
+)
+"src/core/lwt_condition.ml" 59 2243 2245 "src/core/lwt_condition.ml" 61 2364 2430
+type(
+  unit
+)
