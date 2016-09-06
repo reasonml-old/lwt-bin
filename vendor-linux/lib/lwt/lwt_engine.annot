@@ -1,0 +1,6245 @@
+"src/unix/lwt_engine.ml" 38 1430 1434 "src/unix/lwt_engine.ml" 38 1430 1444
+type(
+  _event ref -> unit
+)
+ident(
+  def stop_event "src/unix/lwt_engine.ml" 43 1521 1521 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 38 1430 1445 "src/unix/lwt_engine.ml" 38 1430 1447
+type(
+  _event ref
+)
+ident(
+  def ev "src/unix/lwt_engine.ml" 39 1450 1452 "src/unix/lwt_engine.ml" 41 1499 1519
+)
+"src/unix/lwt_engine.ml" 39 1450 1456 "src/unix/lwt_engine.ml" 39 1450 1458
+type(
+  _event
+)
+ident(
+  def ev "src/unix/lwt_engine.ml" 40 1468 1470 "src/unix/lwt_engine.ml" 41 1499 1519
+)
+"src/unix/lwt_engine.ml" 39 1450 1461 "src/unix/lwt_engine.ml" 39 1450 1462
+type(
+  _event ref -> _event
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 39 1450 1462 "src/unix/lwt_engine.ml" 39 1450 1464
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 38 1430 1445 "src/unix/lwt_engine.ml" 38 1430 1447
+)
+"src/unix/lwt_engine.ml" 39 1450 1461 "src/unix/lwt_engine.ml" 39 1450 1464
+type(
+  _event
+)
+"src/unix/lwt_engine.ml" 40 1468 1470 "src/unix/lwt_engine.ml" 40 1468 1489
+type(
+  Obj.t Lwt_sequence.node -> unit
+)
+ident(
+  ext_ref Lwt_sequence.remove
+)
+"src/unix/lwt_engine.ml" 40 1468 1490 "src/unix/lwt_engine.ml" 40 1468 1492
+type(
+  _event
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 39 1450 1456 "src/unix/lwt_engine.ml" 39 1450 1458
+)
+"src/unix/lwt_engine.ml" 40 1468 1490 "src/unix/lwt_engine.ml" 40 1468 1497
+type(
+  Obj.t Lwt_sequence.node
+)
+"src/unix/lwt_engine.ml" 40 1468 1470 "src/unix/lwt_engine.ml" 40 1468 1497
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 41 1499 1501 "src/unix/lwt_engine.ml" 41 1499 1511
+type(
+  unit Lazy.t -> unit
+)
+ident(
+  ext_ref Lazy.force
+)
+"src/unix/lwt_engine.ml" 41 1499 1512 "src/unix/lwt_engine.ml" 41 1499 1514
+type(
+  _event
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 39 1450 1456 "src/unix/lwt_engine.ml" 39 1450 1458
+)
+"src/unix/lwt_engine.ml" 41 1499 1512 "src/unix/lwt_engine.ml" 41 1499 1519
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 41 1499 1501 "src/unix/lwt_engine.ml" 41 1499 1519
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 40 1468 1470 "src/unix/lwt_engine.ml" 41 1499 1519
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 39 1450 1452 "src/unix/lwt_engine.ml" 41 1499 1519
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 43 1521 1525 "src/unix/lwt_engine.ml" 43 1521 1536
+type(
+  _event
+)
+ident(
+  def _fake_event "src/unix/lwt_engine.ml" 48 1630 1630 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 44 1541 1555 "src/unix/lwt_engine.ml" 44 1541 1557
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 44 1541 1550 "src/unix/lwt_engine.ml" 44 1541 1557
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 45 1559 1568 "src/unix/lwt_engine.ml" 45 1559 1586
+type(
+  Obj.t -> Obj.t Lwt_sequence.t -> Obj.t Lwt_sequence.node
+)
+ident(
+  ext_ref Lwt_sequence.add_l
+)
+"src/unix/lwt_engine.ml" 45 1559 1588 "src/unix/lwt_engine.ml" 45 1559 1596
+type(
+  unit -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"src/unix/lwt_engine.ml" 45 1559 1597 "src/unix/lwt_engine.ml" 45 1559 1599
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 45 1559 1587 "src/unix/lwt_engine.ml" 45 1559 1600
+type(
+  Obj.t
+)
+"src/unix/lwt_engine.ml" 45 1559 1602 "src/unix/lwt_engine.ml" 45 1559 1621
+type(
+  unit -> Obj.t Lwt_sequence.t
+)
+ident(
+  ext_ref Lwt_sequence.create
+)
+"src/unix/lwt_engine.ml" 45 1559 1622 "src/unix/lwt_engine.ml" 45 1559 1624
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 45 1559 1601 "src/unix/lwt_engine.ml" 45 1559 1625
+call(
+  stack
+)
+type(
+  Obj.t Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 45 1559 1568 "src/unix/lwt_engine.ml" 45 1559 1625
+call(
+  stack
+)
+type(
+  Obj.t Lwt_sequence.node
+)
+"src/unix/lwt_engine.ml" 43 1521 1539 "src/unix/lwt_engine.ml" 46 1627 1628
+type(
+  _event
+)
+"src/unix/lwt_engine.ml" 48 1630 1634 "src/unix/lwt_engine.ml" 48 1630 1644
+type(
+  _event ref
+)
+ident(
+  def fake_event "src/unix/lwt_engine.ml" 54 1881 1881 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 48 1630 1647 "src/unix/lwt_engine.ml" 48 1630 1650
+type(
+  _event -> _event ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/unix/lwt_engine.ml" 48 1630 1651 "src/unix/lwt_engine.ml" 48 1630 1662
+type(
+  _event
+)
+ident(
+  int_ref _fake_event "src/unix/lwt_engine.ml" 43 1521 1525 "src/unix/lwt_engine.ml" 43 1521 1536
+)
+"src/unix/lwt_engine.ml" 48 1630 1647 "src/unix/lwt_engine.ml" 48 1630 1662
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 54 1881 1912 "src/unix/lwt_engine.ml" 54 1881 1918
+type(
+  < destroy : unit; fake_io : Unix.file_descr -> unit; iter : bool -> unit;
+    on_readable : Unix.file_descr -> (_event ref -> unit) -> _event ref;
+    on_timer : float -> bool -> (_event ref -> unit) -> _event ref;
+    on_writable : Unix.file_descr -> (_event ref -> unit) -> _event ref;
+    readable_count : int; timer_count : int; transfer : abstract -> unit;
+    writable_count : int; .. >
+)
+"src/unix/lwt_engine.ml" 61 2274 2292 "src/unix/lwt_engine.ml" 61 2274 2311
+type(
+  unit ->
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref Lwt_sequence.create
+)
+"src/unix/lwt_engine.ml" 61 2274 2312 "src/unix/lwt_engine.ml" 61 2274 2314
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 61 2274 2292 "src/unix/lwt_engine.ml" 61 2274 2314
+call(
+  stack
+)
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 65 2405 2423 "src/unix/lwt_engine.ml" 65 2405 2442
+type(
+  unit ->
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref Lwt_sequence.create
+)
+"src/unix/lwt_engine.ml" 65 2405 2443 "src/unix/lwt_engine.ml" 65 2405 2445
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 65 2405 2423 "src/unix/lwt_engine.ml" 65 2405 2445
+call(
+  stack
+)
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 69 2536 2551 "src/unix/lwt_engine.ml" 69 2536 2570
+type(
+  unit ->
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref Lwt_sequence.create
+)
+"src/unix/lwt_engine.ml" 69 2536 2571 "src/unix/lwt_engine.ml" 69 2536 2573
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 69 2536 2551 "src/unix/lwt_engine.ml" 69 2536 2573
+call(
+  stack
+)
+type(
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 73 2624 2628 "src/unix/lwt_engine.ml" 73 2624 2647
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref ->
+   unit) ->
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t -> unit
+)
+ident(
+  ext_ref Lwt_sequence.iter_l
+)
+"src/unix/lwt_engine.ml" 73 2624 2654 "src/unix/lwt_engine.ml" 73 2624 2656
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 73 2624 2671 "src/unix/lwt_engine.ml" 73 2624 2684
+)
+"src/unix/lwt_engine.ml" 73 2624 2658 "src/unix/lwt_engine.ml" 73 2624 2659
+type(
+  _event ref -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 73 2624 2671 "src/unix/lwt_engine.ml" 73 2624 2684
+)
+"src/unix/lwt_engine.ml" 73 2624 2661 "src/unix/lwt_engine.ml" 73 2624 2662
+type(
+  unit -> unit
+)
+ident(
+  def g "src/unix/lwt_engine.ml" 73 2624 2671 "src/unix/lwt_engine.ml" 73 2624 2684
+)
+"src/unix/lwt_engine.ml" 73 2624 2664 "src/unix/lwt_engine.ml" 73 2624 2666
+type(
+  _event ref
+)
+ident(
+  def ev "src/unix/lwt_engine.ml" 73 2624 2671 "src/unix/lwt_engine.ml" 73 2624 2684
+)
+"src/unix/lwt_engine.ml" 73 2624 2653 "src/unix/lwt_engine.ml" 73 2624 2667
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref
+)
+"src/unix/lwt_engine.ml" 73 2624 2671 "src/unix/lwt_engine.ml" 73 2624 2681
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref stop_event "src/unix/lwt_engine.ml" 38 1430 1434 "src/unix/lwt_engine.ml" 38 1430 1444
+)
+"src/unix/lwt_engine.ml" 73 2624 2682 "src/unix/lwt_engine.ml" 73 2624 2684
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 73 2624 2664 "src/unix/lwt_engine.ml" 73 2624 2666
+)
+"src/unix/lwt_engine.ml" 73 2624 2671 "src/unix/lwt_engine.ml" 73 2624 2684
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 73 2624 2648 "src/unix/lwt_engine.ml" 73 2624 2685
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref ->
+  unit
+)
+"src/unix/lwt_engine.ml" 73 2624 2686 "src/unix/lwt_engine.ml" 73 2624 2695
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref readables
+)
+"src/unix/lwt_engine.ml" 73 2624 2628 "src/unix/lwt_engine.ml" 73 2624 2695
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 74 2697 2701 "src/unix/lwt_engine.ml" 74 2697 2720
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref ->
+   unit) ->
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t -> unit
+)
+ident(
+  ext_ref Lwt_sequence.iter_l
+)
+"src/unix/lwt_engine.ml" 74 2697 2727 "src/unix/lwt_engine.ml" 74 2697 2729
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 74 2697 2744 "src/unix/lwt_engine.ml" 74 2697 2757
+)
+"src/unix/lwt_engine.ml" 74 2697 2731 "src/unix/lwt_engine.ml" 74 2697 2732
+type(
+  _event ref -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 74 2697 2744 "src/unix/lwt_engine.ml" 74 2697 2757
+)
+"src/unix/lwt_engine.ml" 74 2697 2734 "src/unix/lwt_engine.ml" 74 2697 2735
+type(
+  unit -> unit
+)
+ident(
+  def g "src/unix/lwt_engine.ml" 74 2697 2744 "src/unix/lwt_engine.ml" 74 2697 2757
+)
+"src/unix/lwt_engine.ml" 74 2697 2737 "src/unix/lwt_engine.ml" 74 2697 2739
+type(
+  _event ref
+)
+ident(
+  def ev "src/unix/lwt_engine.ml" 74 2697 2744 "src/unix/lwt_engine.ml" 74 2697 2757
+)
+"src/unix/lwt_engine.ml" 74 2697 2726 "src/unix/lwt_engine.ml" 74 2697 2740
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref
+)
+"src/unix/lwt_engine.ml" 74 2697 2744 "src/unix/lwt_engine.ml" 74 2697 2754
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref stop_event "src/unix/lwt_engine.ml" 38 1430 1434 "src/unix/lwt_engine.ml" 38 1430 1444
+)
+"src/unix/lwt_engine.ml" 74 2697 2755 "src/unix/lwt_engine.ml" 74 2697 2757
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 74 2697 2737 "src/unix/lwt_engine.ml" 74 2697 2739
+)
+"src/unix/lwt_engine.ml" 74 2697 2744 "src/unix/lwt_engine.ml" 74 2697 2757
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 74 2697 2721 "src/unix/lwt_engine.ml" 74 2697 2758
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref ->
+  unit
+)
+"src/unix/lwt_engine.ml" 74 2697 2759 "src/unix/lwt_engine.ml" 74 2697 2768
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref writables
+)
+"src/unix/lwt_engine.ml" 74 2697 2701 "src/unix/lwt_engine.ml" 74 2697 2768
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 75 2770 2774 "src/unix/lwt_engine.ml" 75 2770 2793
+type(
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref -> unit) ->
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t -> unit
+)
+ident(
+  ext_ref Lwt_sequence.iter_l
+)
+"src/unix/lwt_engine.ml" 75 2770 2800 "src/unix/lwt_engine.ml" 75 2770 2805
+type(
+  float
+)
+ident(
+  def delay "src/unix/lwt_engine.ml" 75 2770 2828 "src/unix/lwt_engine.ml" 75 2770 2841
+)
+"src/unix/lwt_engine.ml" 75 2770 2807 "src/unix/lwt_engine.ml" 75 2770 2813
+type(
+  bool
+)
+ident(
+  def repeat "src/unix/lwt_engine.ml" 75 2770 2828 "src/unix/lwt_engine.ml" 75 2770 2841
+)
+"src/unix/lwt_engine.ml" 75 2770 2815 "src/unix/lwt_engine.ml" 75 2770 2816
+type(
+  _event ref -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 75 2770 2828 "src/unix/lwt_engine.ml" 75 2770 2841
+)
+"src/unix/lwt_engine.ml" 75 2770 2818 "src/unix/lwt_engine.ml" 75 2770 2819
+type(
+  unit -> unit
+)
+ident(
+  def g "src/unix/lwt_engine.ml" 75 2770 2828 "src/unix/lwt_engine.ml" 75 2770 2841
+)
+"src/unix/lwt_engine.ml" 75 2770 2821 "src/unix/lwt_engine.ml" 75 2770 2823
+type(
+  _event ref
+)
+ident(
+  def ev "src/unix/lwt_engine.ml" 75 2770 2828 "src/unix/lwt_engine.ml" 75 2770 2841
+)
+"src/unix/lwt_engine.ml" 75 2770 2799 "src/unix/lwt_engine.ml" 75 2770 2824
+type(
+  float * bool * (_event ref -> unit) * (unit -> unit) * _event ref
+)
+"src/unix/lwt_engine.ml" 75 2770 2828 "src/unix/lwt_engine.ml" 75 2770 2838
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref stop_event "src/unix/lwt_engine.ml" 38 1430 1434 "src/unix/lwt_engine.ml" 38 1430 1444
+)
+"src/unix/lwt_engine.ml" 75 2770 2839 "src/unix/lwt_engine.ml" 75 2770 2841
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 75 2770 2821 "src/unix/lwt_engine.ml" 75 2770 2823
+)
+"src/unix/lwt_engine.ml" 75 2770 2828 "src/unix/lwt_engine.ml" 75 2770 2841
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 75 2770 2794 "src/unix/lwt_engine.ml" 75 2770 2842
+type(
+  float * bool * (_event ref -> unit) * (unit -> unit) * _event ref -> unit
+)
+"src/unix/lwt_engine.ml" 75 2770 2843 "src/unix/lwt_engine.ml" 75 2770 2849
+type(
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref timers
+)
+"src/unix/lwt_engine.ml" 75 2770 2774 "src/unix/lwt_engine.ml" 75 2770 2849
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 76 2851 2855 "src/unix/lwt_engine.ml" 76 2851 2859
+type(
+  < destroy : unit; fake_io : Unix.file_descr -> unit; iter : bool -> unit;
+    on_readable : Unix.file_descr -> (_event ref -> unit) -> _event ref;
+    on_timer : float -> bool -> (_event ref -> unit) -> _event ref;
+    on_writable : Unix.file_descr -> (_event ref -> unit) -> _event ref;
+    readable_count : int; timer_count : int; transfer : abstract -> unit;
+    writable_count : int; .. >
+  as 'a
+)
+ident(
+  int_ref self "src/unix/lwt_engine.ml" 54 1881 1912 "src/unix/lwt_engine.ml" 54 1881 1918
+)
+"src/unix/lwt_engine.ml" 76 2851 2855 "src/unix/lwt_engine.ml" 76 2851 2867
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 75 2770 2774 "src/unix/lwt_engine.ml" 76 2851 2867
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 74 2697 2701 "src/unix/lwt_engine.ml" 76 2851 2867
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 73 2624 2628 "src/unix/lwt_engine.ml" 76 2851 2867
+type(
+  unit
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 78 2869 2888 "src/unix/lwt_engine.ml" 78 2869 2894
+type(
+  abstract
+)
+ident(
+  def engine "src/unix/lwt_engine.ml" 79 2909 2913 "src/unix/lwt_engine.ml" 81 3123 3243
+)
+"src/unix/lwt_engine.ml" 79 2909 2913 "src/unix/lwt_engine.ml" 79 2909 2932
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref ->
+   unit) ->
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t -> unit
+)
+ident(
+  ext_ref Lwt_sequence.iter_l
+)
+"src/unix/lwt_engine.ml" 79 2909 2939 "src/unix/lwt_engine.ml" 79 2909 2941
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 79 2909 2956 "src/unix/lwt_engine.ml" 79 2909 3003
+)
+"src/unix/lwt_engine.ml" 79 2909 2943 "src/unix/lwt_engine.ml" 79 2909 2944
+type(
+  _event ref -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 79 2909 2956 "src/unix/lwt_engine.ml" 79 2909 3003
+)
+"src/unix/lwt_engine.ml" 79 2909 2946 "src/unix/lwt_engine.ml" 79 2909 2947
+type(
+  unit -> unit
+)
+ident(
+  def g "src/unix/lwt_engine.ml" 79 2909 2956 "src/unix/lwt_engine.ml" 79 2909 3003
+)
+"src/unix/lwt_engine.ml" 79 2909 2949 "src/unix/lwt_engine.ml" 79 2909 2951
+type(
+  _event ref
+)
+ident(
+  def ev "src/unix/lwt_engine.ml" 79 2909 2956 "src/unix/lwt_engine.ml" 79 2909 3003
+)
+"src/unix/lwt_engine.ml" 79 2909 2938 "src/unix/lwt_engine.ml" 79 2909 2952
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref
+)
+"src/unix/lwt_engine.ml" 79 2909 2956 "src/unix/lwt_engine.ml" 79 2909 2966
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref stop_event "src/unix/lwt_engine.ml" 38 1430 1434 "src/unix/lwt_engine.ml" 38 1430 1444
+)
+"src/unix/lwt_engine.ml" 79 2909 2967 "src/unix/lwt_engine.ml" 79 2909 2969
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 79 2909 2949 "src/unix/lwt_engine.ml" 79 2909 2951
+)
+"src/unix/lwt_engine.ml" 79 2909 2956 "src/unix/lwt_engine.ml" 79 2909 2969
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 79 2909 2971 "src/unix/lwt_engine.ml" 79 2909 2973
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 79 2909 2949 "src/unix/lwt_engine.ml" 79 2909 2951
+)
+"src/unix/lwt_engine.ml" 79 2909 2974 "src/unix/lwt_engine.ml" 79 2909 2976
+type(
+  _event ref -> _event -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_engine.ml" 79 2909 2977 "src/unix/lwt_engine.ml" 79 2909 2978
+type(
+  _event ref -> _event
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 79 2909 2979 "src/unix/lwt_engine.ml" 79 2909 2985
+type(
+  abstract
+)
+ident(
+  int_ref engine "src/unix/lwt_engine.ml" 78 2869 2888 "src/unix/lwt_engine.ml" 78 2869 2894
+)
+"src/unix/lwt_engine.ml" 79 2909 2979 "src/unix/lwt_engine.ml" 79 2909 2997
+call(
+  stack
+)
+type(
+  Unix.file_descr -> (_event ref -> unit) -> _event ref
+)
+"src/unix/lwt_engine.ml" 79 2909 2998 "src/unix/lwt_engine.ml" 79 2909 3000
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 79 2909 2939 "src/unix/lwt_engine.ml" 79 2909 2941
+)
+"src/unix/lwt_engine.ml" 79 2909 3001 "src/unix/lwt_engine.ml" 79 2909 3002
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 79 2909 2943 "src/unix/lwt_engine.ml" 79 2909 2944
+)
+"src/unix/lwt_engine.ml" 79 2909 2978 "src/unix/lwt_engine.ml" 79 2909 3003
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 79 2909 2977 "src/unix/lwt_engine.ml" 79 2909 3003
+type(
+  _event
+)
+"src/unix/lwt_engine.ml" 79 2909 2971 "src/unix/lwt_engine.ml" 79 2909 3003
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 79 2909 2956 "src/unix/lwt_engine.ml" 79 2909 3003
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 79 2909 2933 "src/unix/lwt_engine.ml" 79 2909 3004
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref ->
+  unit
+)
+"src/unix/lwt_engine.ml" 79 2909 3005 "src/unix/lwt_engine.ml" 79 2909 3014
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref readables
+)
+"src/unix/lwt_engine.ml" 79 2909 2913 "src/unix/lwt_engine.ml" 79 2909 3014
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 80 3016 3020 "src/unix/lwt_engine.ml" 80 3016 3039
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref ->
+   unit) ->
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t -> unit
+)
+ident(
+  ext_ref Lwt_sequence.iter_l
+)
+"src/unix/lwt_engine.ml" 80 3016 3046 "src/unix/lwt_engine.ml" 80 3016 3048
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 80 3016 3063 "src/unix/lwt_engine.ml" 80 3016 3110
+)
+"src/unix/lwt_engine.ml" 80 3016 3050 "src/unix/lwt_engine.ml" 80 3016 3051
+type(
+  _event ref -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 80 3016 3063 "src/unix/lwt_engine.ml" 80 3016 3110
+)
+"src/unix/lwt_engine.ml" 80 3016 3053 "src/unix/lwt_engine.ml" 80 3016 3054
+type(
+  unit -> unit
+)
+ident(
+  def g "src/unix/lwt_engine.ml" 80 3016 3063 "src/unix/lwt_engine.ml" 80 3016 3110
+)
+"src/unix/lwt_engine.ml" 80 3016 3056 "src/unix/lwt_engine.ml" 80 3016 3058
+type(
+  _event ref
+)
+ident(
+  def ev "src/unix/lwt_engine.ml" 80 3016 3063 "src/unix/lwt_engine.ml" 80 3016 3110
+)
+"src/unix/lwt_engine.ml" 80 3016 3045 "src/unix/lwt_engine.ml" 80 3016 3059
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref
+)
+"src/unix/lwt_engine.ml" 80 3016 3063 "src/unix/lwt_engine.ml" 80 3016 3073
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref stop_event "src/unix/lwt_engine.ml" 38 1430 1434 "src/unix/lwt_engine.ml" 38 1430 1444
+)
+"src/unix/lwt_engine.ml" 80 3016 3074 "src/unix/lwt_engine.ml" 80 3016 3076
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 80 3016 3056 "src/unix/lwt_engine.ml" 80 3016 3058
+)
+"src/unix/lwt_engine.ml" 80 3016 3063 "src/unix/lwt_engine.ml" 80 3016 3076
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 80 3016 3078 "src/unix/lwt_engine.ml" 80 3016 3080
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 80 3016 3056 "src/unix/lwt_engine.ml" 80 3016 3058
+)
+"src/unix/lwt_engine.ml" 80 3016 3081 "src/unix/lwt_engine.ml" 80 3016 3083
+type(
+  _event ref -> _event -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_engine.ml" 80 3016 3084 "src/unix/lwt_engine.ml" 80 3016 3085
+type(
+  _event ref -> _event
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 80 3016 3086 "src/unix/lwt_engine.ml" 80 3016 3092
+type(
+  abstract
+)
+ident(
+  int_ref engine "src/unix/lwt_engine.ml" 78 2869 2888 "src/unix/lwt_engine.ml" 78 2869 2894
+)
+"src/unix/lwt_engine.ml" 80 3016 3086 "src/unix/lwt_engine.ml" 80 3016 3104
+call(
+  stack
+)
+type(
+  Unix.file_descr -> (_event ref -> unit) -> _event ref
+)
+"src/unix/lwt_engine.ml" 80 3016 3105 "src/unix/lwt_engine.ml" 80 3016 3107
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 80 3016 3046 "src/unix/lwt_engine.ml" 80 3016 3048
+)
+"src/unix/lwt_engine.ml" 80 3016 3108 "src/unix/lwt_engine.ml" 80 3016 3109
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 80 3016 3050 "src/unix/lwt_engine.ml" 80 3016 3051
+)
+"src/unix/lwt_engine.ml" 80 3016 3085 "src/unix/lwt_engine.ml" 80 3016 3110
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 80 3016 3084 "src/unix/lwt_engine.ml" 80 3016 3110
+type(
+  _event
+)
+"src/unix/lwt_engine.ml" 80 3016 3078 "src/unix/lwt_engine.ml" 80 3016 3110
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 80 3016 3063 "src/unix/lwt_engine.ml" 80 3016 3110
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 80 3016 3040 "src/unix/lwt_engine.ml" 80 3016 3111
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref ->
+  unit
+)
+"src/unix/lwt_engine.ml" 80 3016 3112 "src/unix/lwt_engine.ml" 80 3016 3121
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref writables
+)
+"src/unix/lwt_engine.ml" 80 3016 3020 "src/unix/lwt_engine.ml" 80 3016 3121
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 81 3123 3127 "src/unix/lwt_engine.ml" 81 3123 3146
+type(
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref -> unit) ->
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t -> unit
+)
+ident(
+  ext_ref Lwt_sequence.iter_l
+)
+"src/unix/lwt_engine.ml" 81 3123 3153 "src/unix/lwt_engine.ml" 81 3123 3158
+type(
+  float
+)
+ident(
+  def delay "src/unix/lwt_engine.ml" 81 3123 3181 "src/unix/lwt_engine.ml" 81 3123 3235
+)
+"src/unix/lwt_engine.ml" 81 3123 3160 "src/unix/lwt_engine.ml" 81 3123 3166
+type(
+  bool
+)
+ident(
+  def repeat "src/unix/lwt_engine.ml" 81 3123 3181 "src/unix/lwt_engine.ml" 81 3123 3235
+)
+"src/unix/lwt_engine.ml" 81 3123 3168 "src/unix/lwt_engine.ml" 81 3123 3169
+type(
+  _event ref -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 81 3123 3181 "src/unix/lwt_engine.ml" 81 3123 3235
+)
+"src/unix/lwt_engine.ml" 81 3123 3171 "src/unix/lwt_engine.ml" 81 3123 3172
+type(
+  unit -> unit
+)
+ident(
+  def g "src/unix/lwt_engine.ml" 81 3123 3181 "src/unix/lwt_engine.ml" 81 3123 3235
+)
+"src/unix/lwt_engine.ml" 81 3123 3174 "src/unix/lwt_engine.ml" 81 3123 3176
+type(
+  _event ref
+)
+ident(
+  def ev "src/unix/lwt_engine.ml" 81 3123 3181 "src/unix/lwt_engine.ml" 81 3123 3235
+)
+"src/unix/lwt_engine.ml" 81 3123 3152 "src/unix/lwt_engine.ml" 81 3123 3177
+type(
+  float * bool * (_event ref -> unit) * (unit -> unit) * _event ref
+)
+"src/unix/lwt_engine.ml" 81 3123 3181 "src/unix/lwt_engine.ml" 81 3123 3191
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref stop_event "src/unix/lwt_engine.ml" 38 1430 1434 "src/unix/lwt_engine.ml" 38 1430 1444
+)
+"src/unix/lwt_engine.ml" 81 3123 3192 "src/unix/lwt_engine.ml" 81 3123 3194
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 81 3123 3174 "src/unix/lwt_engine.ml" 81 3123 3176
+)
+"src/unix/lwt_engine.ml" 81 3123 3181 "src/unix/lwt_engine.ml" 81 3123 3194
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 81 3123 3196 "src/unix/lwt_engine.ml" 81 3123 3198
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 81 3123 3174 "src/unix/lwt_engine.ml" 81 3123 3176
+)
+"src/unix/lwt_engine.ml" 81 3123 3199 "src/unix/lwt_engine.ml" 81 3123 3201
+type(
+  _event ref -> _event -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_engine.ml" 81 3123 3202 "src/unix/lwt_engine.ml" 81 3123 3203
+type(
+  _event ref -> _event
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 81 3123 3204 "src/unix/lwt_engine.ml" 81 3123 3210
+type(
+  abstract
+)
+ident(
+  int_ref engine "src/unix/lwt_engine.ml" 78 2869 2888 "src/unix/lwt_engine.ml" 78 2869 2894
+)
+"src/unix/lwt_engine.ml" 81 3123 3204 "src/unix/lwt_engine.ml" 81 3123 3219
+call(
+  stack
+)
+type(
+  float -> bool -> (_event ref -> unit) -> _event ref
+)
+"src/unix/lwt_engine.ml" 81 3123 3220 "src/unix/lwt_engine.ml" 81 3123 3225
+type(
+  float
+)
+ident(
+  int_ref delay "src/unix/lwt_engine.ml" 81 3123 3153 "src/unix/lwt_engine.ml" 81 3123 3158
+)
+"src/unix/lwt_engine.ml" 81 3123 3226 "src/unix/lwt_engine.ml" 81 3123 3232
+type(
+  bool
+)
+ident(
+  int_ref repeat "src/unix/lwt_engine.ml" 81 3123 3160 "src/unix/lwt_engine.ml" 81 3123 3166
+)
+"src/unix/lwt_engine.ml" 81 3123 3233 "src/unix/lwt_engine.ml" 81 3123 3234
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 81 3123 3168 "src/unix/lwt_engine.ml" 81 3123 3169
+)
+"src/unix/lwt_engine.ml" 81 3123 3203 "src/unix/lwt_engine.ml" 81 3123 3235
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 81 3123 3202 "src/unix/lwt_engine.ml" 81 3123 3235
+type(
+  _event
+)
+"src/unix/lwt_engine.ml" 81 3123 3196 "src/unix/lwt_engine.ml" 81 3123 3235
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 81 3123 3181 "src/unix/lwt_engine.ml" 81 3123 3235
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 81 3123 3147 "src/unix/lwt_engine.ml" 81 3123 3236
+type(
+  float * bool * (_event ref -> unit) * (unit -> unit) * _event ref -> unit
+)
+"src/unix/lwt_engine.ml" 81 3123 3237 "src/unix/lwt_engine.ml" 81 3123 3243
+type(
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref timers
+)
+"src/unix/lwt_engine.ml" 81 3123 3127 "src/unix/lwt_engine.ml" 81 3123 3243
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 80 3016 3020 "src/unix/lwt_engine.ml" 81 3123 3243
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 79 2909 2913 "src/unix/lwt_engine.ml" 81 3123 3243
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 83 3245 3262 "src/unix/lwt_engine.ml" 83 3245 3264
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 84 3267 3271 "src/unix/lwt_engine.ml" 85 3351 3433
+)
+"src/unix/lwt_engine.ml" 84 3267 3271 "src/unix/lwt_engine.ml" 84 3267 3290
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref ->
+   unit) ->
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t -> unit
+)
+ident(
+  ext_ref Lwt_sequence.iter_l
+)
+"src/unix/lwt_engine.ml" 84 3267 3297 "src/unix/lwt_engine.ml" 84 3267 3300
+type(
+  Unix.file_descr
+)
+ident(
+  def fd' "src/unix/lwt_engine.ml" 84 3267 3317 "src/unix/lwt_engine.ml" 84 3267 3338
+)
+"src/unix/lwt_engine.ml" 84 3267 3302 "src/unix/lwt_engine.ml" 84 3267 3303
+type(
+  _event ref -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 84 3267 3317 "src/unix/lwt_engine.ml" 84 3267 3338
+)
+"src/unix/lwt_engine.ml" 84 3267 3305 "src/unix/lwt_engine.ml" 84 3267 3306
+type(
+  unit -> unit
+)
+ident(
+  def g "src/unix/lwt_engine.ml" 84 3267 3317 "src/unix/lwt_engine.ml" 84 3267 3338
+)
+"src/unix/lwt_engine.ml" 84 3267 3308 "src/unix/lwt_engine.ml" 84 3267 3312
+type(
+  _event ref
+)
+ident(
+  def stop "src/unix/lwt_engine.ml" 84 3267 3317 "src/unix/lwt_engine.ml" 84 3267 3338
+)
+"src/unix/lwt_engine.ml" 84 3267 3296 "src/unix/lwt_engine.ml" 84 3267 3313
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref
+)
+"src/unix/lwt_engine.ml" 84 3267 3320 "src/unix/lwt_engine.ml" 84 3267 3322
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 83 3245 3262 "src/unix/lwt_engine.ml" 83 3245 3264
+)
+"src/unix/lwt_engine.ml" 84 3267 3323 "src/unix/lwt_engine.ml" 84 3267 3324
+type(
+  Unix.file_descr -> Unix.file_descr -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/unix/lwt_engine.ml" 84 3267 3325 "src/unix/lwt_engine.ml" 84 3267 3328
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd' "src/unix/lwt_engine.ml" 84 3267 3297 "src/unix/lwt_engine.ml" 84 3267 3300
+)
+"src/unix/lwt_engine.ml" 84 3267 3320 "src/unix/lwt_engine.ml" 84 3267 3328
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 84 3267 3334 "src/unix/lwt_engine.ml" 84 3267 3335
+type(
+  unit -> unit
+)
+ident(
+  int_ref g "src/unix/lwt_engine.ml" 84 3267 3305 "src/unix/lwt_engine.ml" 84 3267 3306
+)
+"src/unix/lwt_engine.ml" 84 3267 3336 "src/unix/lwt_engine.ml" 84 3267 3338
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 84 3267 3334 "src/unix/lwt_engine.ml" 84 3267 3338
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 84 3267 3317 "src/unix/lwt_engine.ml" 84 3267 3338
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 84 3267 3291 "src/unix/lwt_engine.ml" 84 3267 3339
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref ->
+  unit
+)
+"src/unix/lwt_engine.ml" 84 3267 3340 "src/unix/lwt_engine.ml" 84 3267 3349
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref readables
+)
+"src/unix/lwt_engine.ml" 84 3267 3271 "src/unix/lwt_engine.ml" 84 3267 3349
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 85 3351 3355 "src/unix/lwt_engine.ml" 85 3351 3374
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref ->
+   unit) ->
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t -> unit
+)
+ident(
+  ext_ref Lwt_sequence.iter_l
+)
+"src/unix/lwt_engine.ml" 85 3351 3381 "src/unix/lwt_engine.ml" 85 3351 3384
+type(
+  Unix.file_descr
+)
+ident(
+  def fd' "src/unix/lwt_engine.ml" 85 3351 3401 "src/unix/lwt_engine.ml" 85 3351 3422
+)
+"src/unix/lwt_engine.ml" 85 3351 3386 "src/unix/lwt_engine.ml" 85 3351 3387
+type(
+  _event ref -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 85 3351 3401 "src/unix/lwt_engine.ml" 85 3351 3422
+)
+"src/unix/lwt_engine.ml" 85 3351 3389 "src/unix/lwt_engine.ml" 85 3351 3390
+type(
+  unit -> unit
+)
+ident(
+  def g "src/unix/lwt_engine.ml" 85 3351 3401 "src/unix/lwt_engine.ml" 85 3351 3422
+)
+"src/unix/lwt_engine.ml" 85 3351 3392 "src/unix/lwt_engine.ml" 85 3351 3396
+type(
+  _event ref
+)
+ident(
+  def stop "src/unix/lwt_engine.ml" 85 3351 3401 "src/unix/lwt_engine.ml" 85 3351 3422
+)
+"src/unix/lwt_engine.ml" 85 3351 3380 "src/unix/lwt_engine.ml" 85 3351 3397
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref
+)
+"src/unix/lwt_engine.ml" 85 3351 3404 "src/unix/lwt_engine.ml" 85 3351 3406
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 83 3245 3262 "src/unix/lwt_engine.ml" 83 3245 3264
+)
+"src/unix/lwt_engine.ml" 85 3351 3407 "src/unix/lwt_engine.ml" 85 3351 3408
+type(
+  Unix.file_descr -> Unix.file_descr -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/unix/lwt_engine.ml" 85 3351 3409 "src/unix/lwt_engine.ml" 85 3351 3412
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd' "src/unix/lwt_engine.ml" 85 3351 3381 "src/unix/lwt_engine.ml" 85 3351 3384
+)
+"src/unix/lwt_engine.ml" 85 3351 3404 "src/unix/lwt_engine.ml" 85 3351 3412
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 85 3351 3418 "src/unix/lwt_engine.ml" 85 3351 3419
+type(
+  unit -> unit
+)
+ident(
+  int_ref g "src/unix/lwt_engine.ml" 85 3351 3389 "src/unix/lwt_engine.ml" 85 3351 3390
+)
+"src/unix/lwt_engine.ml" 85 3351 3420 "src/unix/lwt_engine.ml" 85 3351 3422
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 85 3351 3418 "src/unix/lwt_engine.ml" 85 3351 3422
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 85 3351 3401 "src/unix/lwt_engine.ml" 85 3351 3422
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 85 3351 3375 "src/unix/lwt_engine.ml" 85 3351 3423
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref ->
+  unit
+)
+"src/unix/lwt_engine.ml" 85 3351 3424 "src/unix/lwt_engine.ml" 85 3351 3433
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref writables
+)
+"src/unix/lwt_engine.ml" 85 3351 3355 "src/unix/lwt_engine.ml" 85 3351 3433
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 84 3267 3271 "src/unix/lwt_engine.ml" 85 3351 3433
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 87 3435 3456 "src/unix/lwt_engine.ml" 87 3435 3458
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 87 3435 3459 "src/unix/lwt_engine.ml" 92 3655 3661
+)
+"src/unix/lwt_engine.ml" 87 3435 3459 "src/unix/lwt_engine.ml" 87 3435 3460
+type(
+  _event ref -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 88 3463 3467 "src/unix/lwt_engine.ml" 92 3655 3661
+)
+"src/unix/lwt_engine.ml" 88 3463 3471 "src/unix/lwt_engine.ml" 88 3463 3473
+type(
+  _event ref
+)
+ident(
+  def ev "src/unix/lwt_engine.ml" 89 3495 3499 "src/unix/lwt_engine.ml" 92 3655 3661
+)
+"src/unix/lwt_engine.ml" 88 3463 3476 "src/unix/lwt_engine.ml" 88 3463 3479
+type(
+  _event -> _event ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/unix/lwt_engine.ml" 88 3463 3480 "src/unix/lwt_engine.ml" 88 3463 3491
+type(
+  _event
+)
+ident(
+  int_ref _fake_event "src/unix/lwt_engine.ml" 43 1521 1525 "src/unix/lwt_engine.ml" 43 1521 1536
+)
+"src/unix/lwt_engine.ml" 88 3463 3476 "src/unix/lwt_engine.ml" 88 3463 3491
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 89 3495 3503 "src/unix/lwt_engine.ml" 89 3495 3504
+type(
+  unit -> unit
+)
+ident(
+  def g "src/unix/lwt_engine.ml" 90 3518 3522 "src/unix/lwt_engine.ml" 92 3655 3661
+)
+"src/unix/lwt_engine.ml" 89 3495 3505 "src/unix/lwt_engine.ml" 89 3495 3507
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 89 3495 3510 "src/unix/lwt_engine.ml" 89 3495 3511
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 87 3435 3459 "src/unix/lwt_engine.ml" 87 3435 3460
+)
+"src/unix/lwt_engine.ml" 89 3495 3512 "src/unix/lwt_engine.ml" 89 3495 3514
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 88 3463 3471 "src/unix/lwt_engine.ml" 88 3463 3473
+)
+"src/unix/lwt_engine.ml" 89 3495 3510 "src/unix/lwt_engine.ml" 89 3495 3514
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 90 3518 3526 "src/unix/lwt_engine.ml" 90 3518 3530
+type(
+  unit Lazy.t
+)
+ident(
+  def stop "src/unix/lwt_engine.ml" 91 3564 3568 "src/unix/lwt_engine.ml" 92 3655 3661
+)
+"src/unix/lwt_engine.ml" 90 3518 3533 "src/unix/lwt_engine.ml" 90 3518 3537
+type(
+  'a
+)
+ident(
+  int_ref self "src/unix/lwt_engine.ml" 54 1881 1912 "src/unix/lwt_engine.ml" 54 1881 1918
+)
+"src/unix/lwt_engine.ml" 90 3518 3533 "src/unix/lwt_engine.ml" 90 3518 3555
+call(
+  stack
+)
+type(
+  Unix.file_descr -> (unit -> unit) -> unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 90 3518 3556 "src/unix/lwt_engine.ml" 90 3518 3558
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 87 3435 3456 "src/unix/lwt_engine.ml" 87 3435 3458
+)
+"src/unix/lwt_engine.ml" 90 3518 3559 "src/unix/lwt_engine.ml" 90 3518 3560
+type(
+  unit -> unit
+)
+ident(
+  int_ref g "src/unix/lwt_engine.ml" 89 3495 3503 "src/unix/lwt_engine.ml" 89 3495 3504
+)
+"src/unix/lwt_engine.ml" 90 3518 3533 "src/unix/lwt_engine.ml" 90 3518 3560
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 91 3564 3568 "src/unix/lwt_engine.ml" 91 3564 3570
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 88 3463 3471 "src/unix/lwt_engine.ml" 88 3463 3473
+)
+"src/unix/lwt_engine.ml" 91 3564 3571 "src/unix/lwt_engine.ml" 91 3564 3573
+type(
+  _event ref -> _event -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_engine.ml" 91 3564 3583 "src/unix/lwt_engine.ml" 91 3564 3587
+type(
+  unit Lazy.t
+)
+ident(
+  int_ref stop "src/unix/lwt_engine.ml" 90 3518 3526 "src/unix/lwt_engine.ml" 90 3518 3530
+)
+"src/unix/lwt_engine.ml" 91 3564 3596 "src/unix/lwt_engine.ml" 91 3564 3605
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.node -> Obj.t Lwt_sequence.node
+)
+ident(
+  int_ref cast_node "src/unix/lwt_engine.ml" 36 1346 1346 "src/unix/lwt_engine.ml" 36 1346 1428
+)
+"src/unix/lwt_engine.ml" 91 3564 3607 "src/unix/lwt_engine.ml" 91 3564 3625
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref ->
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t ->
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.node
+)
+ident(
+  ext_ref Lwt_sequence.add_r
+)
+"src/unix/lwt_engine.ml" 91 3564 3627 "src/unix/lwt_engine.ml" 91 3564 3629
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 87 3435 3456 "src/unix/lwt_engine.ml" 87 3435 3458
+)
+"src/unix/lwt_engine.ml" 91 3564 3631 "src/unix/lwt_engine.ml" 91 3564 3632
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 87 3435 3459 "src/unix/lwt_engine.ml" 87 3435 3460
+)
+"src/unix/lwt_engine.ml" 91 3564 3634 "src/unix/lwt_engine.ml" 91 3564 3635
+type(
+  unit -> unit
+)
+ident(
+  int_ref g "src/unix/lwt_engine.ml" 89 3495 3503 "src/unix/lwt_engine.ml" 89 3495 3504
+)
+"src/unix/lwt_engine.ml" 91 3564 3637 "src/unix/lwt_engine.ml" 91 3564 3639
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 88 3463 3471 "src/unix/lwt_engine.ml" 88 3463 3473
+)
+"src/unix/lwt_engine.ml" 91 3564 3626 "src/unix/lwt_engine.ml" 91 3564 3640
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref
+)
+"src/unix/lwt_engine.ml" 91 3564 3641 "src/unix/lwt_engine.ml" 91 3564 3650
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref readables
+)
+"src/unix/lwt_engine.ml" 91 3564 3606 "src/unix/lwt_engine.ml" 91 3564 3651
+call(
+  stack
+)
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.node
+)
+"src/unix/lwt_engine.ml" 91 3564 3596 "src/unix/lwt_engine.ml" 91 3564 3651
+type(
+  Obj.t Lwt_sequence.node
+)
+"src/unix/lwt_engine.ml" 91 3564 3574 "src/unix/lwt_engine.ml" 91 3564 3653
+type(
+  _event
+)
+"src/unix/lwt_engine.ml" 91 3564 3568 "src/unix/lwt_engine.ml" 91 3564 3653
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 92 3655 3659 "src/unix/lwt_engine.ml" 92 3655 3661
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 88 3463 3471 "src/unix/lwt_engine.ml" 88 3463 3473
+)
+"src/unix/lwt_engine.ml" 91 3564 3568 "src/unix/lwt_engine.ml" 92 3655 3661
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 90 3518 3522 "src/unix/lwt_engine.ml" 92 3655 3661
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 89 3495 3499 "src/unix/lwt_engine.ml" 92 3655 3661
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 88 3463 3467 "src/unix/lwt_engine.ml" 92 3655 3661
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 94 3663 3684 "src/unix/lwt_engine.ml" 94 3663 3686
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 94 3663 3687 "src/unix/lwt_engine.ml" 99 3884 3890
+)
+"src/unix/lwt_engine.ml" 94 3663 3687 "src/unix/lwt_engine.ml" 94 3663 3688
+type(
+  _event ref -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 95 3691 3695 "src/unix/lwt_engine.ml" 99 3884 3890
+)
+"src/unix/lwt_engine.ml" 95 3691 3699 "src/unix/lwt_engine.ml" 95 3691 3701
+type(
+  _event ref
+)
+ident(
+  def ev "src/unix/lwt_engine.ml" 96 3723 3727 "src/unix/lwt_engine.ml" 99 3884 3890
+)
+"src/unix/lwt_engine.ml" 95 3691 3704 "src/unix/lwt_engine.ml" 95 3691 3707
+type(
+  _event -> _event ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/unix/lwt_engine.ml" 95 3691 3708 "src/unix/lwt_engine.ml" 95 3691 3719
+type(
+  _event
+)
+ident(
+  int_ref _fake_event "src/unix/lwt_engine.ml" 43 1521 1525 "src/unix/lwt_engine.ml" 43 1521 1536
+)
+"src/unix/lwt_engine.ml" 95 3691 3704 "src/unix/lwt_engine.ml" 95 3691 3719
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 96 3723 3731 "src/unix/lwt_engine.ml" 96 3723 3732
+type(
+  unit -> unit
+)
+ident(
+  def g "src/unix/lwt_engine.ml" 97 3746 3750 "src/unix/lwt_engine.ml" 99 3884 3890
+)
+"src/unix/lwt_engine.ml" 96 3723 3733 "src/unix/lwt_engine.ml" 96 3723 3735
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 96 3723 3738 "src/unix/lwt_engine.ml" 96 3723 3739
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 94 3663 3687 "src/unix/lwt_engine.ml" 94 3663 3688
+)
+"src/unix/lwt_engine.ml" 96 3723 3740 "src/unix/lwt_engine.ml" 96 3723 3742
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 95 3691 3699 "src/unix/lwt_engine.ml" 95 3691 3701
+)
+"src/unix/lwt_engine.ml" 96 3723 3738 "src/unix/lwt_engine.ml" 96 3723 3742
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 97 3746 3754 "src/unix/lwt_engine.ml" 97 3746 3758
+type(
+  unit Lazy.t
+)
+ident(
+  def stop "src/unix/lwt_engine.ml" 98 3792 3796 "src/unix/lwt_engine.ml" 99 3884 3890
+)
+"src/unix/lwt_engine.ml" 97 3746 3761 "src/unix/lwt_engine.ml" 97 3746 3765
+type(
+  'a
+)
+ident(
+  int_ref self "src/unix/lwt_engine.ml" 54 1881 1912 "src/unix/lwt_engine.ml" 54 1881 1918
+)
+"src/unix/lwt_engine.ml" 97 3746 3761 "src/unix/lwt_engine.ml" 97 3746 3783
+call(
+  stack
+)
+type(
+  Unix.file_descr -> (unit -> unit) -> unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 97 3746 3784 "src/unix/lwt_engine.ml" 97 3746 3786
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 94 3663 3684 "src/unix/lwt_engine.ml" 94 3663 3686
+)
+"src/unix/lwt_engine.ml" 97 3746 3787 "src/unix/lwt_engine.ml" 97 3746 3788
+type(
+  unit -> unit
+)
+ident(
+  int_ref g "src/unix/lwt_engine.ml" 96 3723 3731 "src/unix/lwt_engine.ml" 96 3723 3732
+)
+"src/unix/lwt_engine.ml" 97 3746 3761 "src/unix/lwt_engine.ml" 97 3746 3788
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 98 3792 3796 "src/unix/lwt_engine.ml" 98 3792 3798
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 95 3691 3699 "src/unix/lwt_engine.ml" 95 3691 3701
+)
+"src/unix/lwt_engine.ml" 98 3792 3799 "src/unix/lwt_engine.ml" 98 3792 3801
+type(
+  _event ref -> _event -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_engine.ml" 98 3792 3811 "src/unix/lwt_engine.ml" 98 3792 3815
+type(
+  unit Lazy.t
+)
+ident(
+  int_ref stop "src/unix/lwt_engine.ml" 97 3746 3754 "src/unix/lwt_engine.ml" 97 3746 3758
+)
+"src/unix/lwt_engine.ml" 98 3792 3824 "src/unix/lwt_engine.ml" 98 3792 3833
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.node -> Obj.t Lwt_sequence.node
+)
+ident(
+  int_ref cast_node "src/unix/lwt_engine.ml" 36 1346 1346 "src/unix/lwt_engine.ml" 36 1346 1428
+)
+"src/unix/lwt_engine.ml" 98 3792 3835 "src/unix/lwt_engine.ml" 98 3792 3853
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref ->
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t ->
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.node
+)
+ident(
+  ext_ref Lwt_sequence.add_r
+)
+"src/unix/lwt_engine.ml" 98 3792 3855 "src/unix/lwt_engine.ml" 98 3792 3857
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 94 3663 3684 "src/unix/lwt_engine.ml" 94 3663 3686
+)
+"src/unix/lwt_engine.ml" 98 3792 3859 "src/unix/lwt_engine.ml" 98 3792 3860
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 94 3663 3687 "src/unix/lwt_engine.ml" 94 3663 3688
+)
+"src/unix/lwt_engine.ml" 98 3792 3862 "src/unix/lwt_engine.ml" 98 3792 3863
+type(
+  unit -> unit
+)
+ident(
+  int_ref g "src/unix/lwt_engine.ml" 96 3723 3731 "src/unix/lwt_engine.ml" 96 3723 3732
+)
+"src/unix/lwt_engine.ml" 98 3792 3865 "src/unix/lwt_engine.ml" 98 3792 3867
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 95 3691 3699 "src/unix/lwt_engine.ml" 95 3691 3701
+)
+"src/unix/lwt_engine.ml" 98 3792 3854 "src/unix/lwt_engine.ml" 98 3792 3868
+type(
+  Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref
+)
+"src/unix/lwt_engine.ml" 98 3792 3869 "src/unix/lwt_engine.ml" 98 3792 3878
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref writables
+)
+"src/unix/lwt_engine.ml" 98 3792 3834 "src/unix/lwt_engine.ml" 98 3792 3879
+call(
+  stack
+)
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.node
+)
+"src/unix/lwt_engine.ml" 98 3792 3824 "src/unix/lwt_engine.ml" 98 3792 3879
+type(
+  Obj.t Lwt_sequence.node
+)
+"src/unix/lwt_engine.ml" 98 3792 3802 "src/unix/lwt_engine.ml" 98 3792 3881
+type(
+  _event
+)
+"src/unix/lwt_engine.ml" 98 3792 3796 "src/unix/lwt_engine.ml" 98 3792 3881
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 99 3884 3888 "src/unix/lwt_engine.ml" 99 3884 3890
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 95 3691 3699 "src/unix/lwt_engine.ml" 95 3691 3701
+)
+"src/unix/lwt_engine.ml" 98 3792 3796 "src/unix/lwt_engine.ml" 99 3884 3890
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 97 3746 3750 "src/unix/lwt_engine.ml" 99 3884 3890
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 96 3723 3727 "src/unix/lwt_engine.ml" 99 3884 3890
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 95 3691 3695 "src/unix/lwt_engine.ml" 99 3884 3890
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 101 3892 3910 "src/unix/lwt_engine.ml" 101 3892 3915
+type(
+  float
+)
+ident(
+  def delay "src/unix/lwt_engine.ml" 101 3892 3916 "src/unix/lwt_engine.ml" 106 4134 4140
+)
+"src/unix/lwt_engine.ml" 101 3892 3916 "src/unix/lwt_engine.ml" 101 3892 3922
+type(
+  bool
+)
+ident(
+  def repeat "src/unix/lwt_engine.ml" 101 3892 3923 "src/unix/lwt_engine.ml" 106 4134 4140
+)
+"src/unix/lwt_engine.ml" 101 3892 3923 "src/unix/lwt_engine.ml" 101 3892 3924
+type(
+  _event ref -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 102 3927 3931 "src/unix/lwt_engine.ml" 106 4134 4140
+)
+"src/unix/lwt_engine.ml" 102 3927 3935 "src/unix/lwt_engine.ml" 102 3927 3937
+type(
+  _event ref
+)
+ident(
+  def ev "src/unix/lwt_engine.ml" 103 3959 3963 "src/unix/lwt_engine.ml" 106 4134 4140
+)
+"src/unix/lwt_engine.ml" 102 3927 3940 "src/unix/lwt_engine.ml" 102 3927 3943
+type(
+  _event -> _event ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/unix/lwt_engine.ml" 102 3927 3944 "src/unix/lwt_engine.ml" 102 3927 3955
+type(
+  _event
+)
+ident(
+  int_ref _fake_event "src/unix/lwt_engine.ml" 43 1521 1525 "src/unix/lwt_engine.ml" 43 1521 1536
+)
+"src/unix/lwt_engine.ml" 102 3927 3940 "src/unix/lwt_engine.ml" 102 3927 3955
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 103 3959 3967 "src/unix/lwt_engine.ml" 103 3959 3968
+type(
+  unit -> unit
+)
+ident(
+  def g "src/unix/lwt_engine.ml" 104 3982 3986 "src/unix/lwt_engine.ml" 106 4134 4140
+)
+"src/unix/lwt_engine.ml" 103 3959 3969 "src/unix/lwt_engine.ml" 103 3959 3971
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 103 3959 3974 "src/unix/lwt_engine.ml" 103 3959 3975
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 101 3892 3923 "src/unix/lwt_engine.ml" 101 3892 3924
+)
+"src/unix/lwt_engine.ml" 103 3959 3976 "src/unix/lwt_engine.ml" 103 3959 3978
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 102 3927 3935 "src/unix/lwt_engine.ml" 102 3927 3937
+)
+"src/unix/lwt_engine.ml" 103 3959 3974 "src/unix/lwt_engine.ml" 103 3959 3978
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 104 3982 3990 "src/unix/lwt_engine.ml" 104 3982 3994
+type(
+  unit Lazy.t
+)
+ident(
+  def stop "src/unix/lwt_engine.ml" 105 4035 4039 "src/unix/lwt_engine.ml" 106 4134 4140
+)
+"src/unix/lwt_engine.ml" 104 3982 3997 "src/unix/lwt_engine.ml" 104 3982 4001
+type(
+  'a
+)
+ident(
+  int_ref self "src/unix/lwt_engine.ml" 54 1881 1912 "src/unix/lwt_engine.ml" 54 1881 1918
+)
+"src/unix/lwt_engine.ml" 104 3982 3997 "src/unix/lwt_engine.ml" 104 3982 4016
+call(
+  stack
+)
+type(
+  float -> bool -> (unit -> unit) -> unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 104 3982 4017 "src/unix/lwt_engine.ml" 104 3982 4022
+type(
+  float
+)
+ident(
+  int_ref delay "src/unix/lwt_engine.ml" 101 3892 3910 "src/unix/lwt_engine.ml" 101 3892 3915
+)
+"src/unix/lwt_engine.ml" 104 3982 4023 "src/unix/lwt_engine.ml" 104 3982 4029
+type(
+  bool
+)
+ident(
+  int_ref repeat "src/unix/lwt_engine.ml" 101 3892 3916 "src/unix/lwt_engine.ml" 101 3892 3922
+)
+"src/unix/lwt_engine.ml" 104 3982 4030 "src/unix/lwt_engine.ml" 104 3982 4031
+type(
+  unit -> unit
+)
+ident(
+  int_ref g "src/unix/lwt_engine.ml" 103 3959 3967 "src/unix/lwt_engine.ml" 103 3959 3968
+)
+"src/unix/lwt_engine.ml" 104 3982 3997 "src/unix/lwt_engine.ml" 104 3982 4031
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 105 4035 4039 "src/unix/lwt_engine.ml" 105 4035 4041
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 102 3927 3935 "src/unix/lwt_engine.ml" 102 3927 3937
+)
+"src/unix/lwt_engine.ml" 105 4035 4042 "src/unix/lwt_engine.ml" 105 4035 4044
+type(
+  _event ref -> _event -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_engine.ml" 105 4035 4054 "src/unix/lwt_engine.ml" 105 4035 4058
+type(
+  unit Lazy.t
+)
+ident(
+  int_ref stop "src/unix/lwt_engine.ml" 104 3982 3990 "src/unix/lwt_engine.ml" 104 3982 3994
+)
+"src/unix/lwt_engine.ml" 105 4035 4067 "src/unix/lwt_engine.ml" 105 4035 4076
+type(
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.node -> Obj.t Lwt_sequence.node
+)
+ident(
+  int_ref cast_node "src/unix/lwt_engine.ml" 36 1346 1346 "src/unix/lwt_engine.ml" 36 1346 1428
+)
+"src/unix/lwt_engine.ml" 105 4035 4078 "src/unix/lwt_engine.ml" 105 4035 4096
+type(
+  float * bool * (_event ref -> unit) * (unit -> unit) * _event ref ->
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t ->
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.node
+)
+ident(
+  ext_ref Lwt_sequence.add_r
+)
+"src/unix/lwt_engine.ml" 105 4035 4098 "src/unix/lwt_engine.ml" 105 4035 4103
+type(
+  float
+)
+ident(
+  int_ref delay "src/unix/lwt_engine.ml" 101 3892 3910 "src/unix/lwt_engine.ml" 101 3892 3915
+)
+"src/unix/lwt_engine.ml" 105 4035 4105 "src/unix/lwt_engine.ml" 105 4035 4111
+type(
+  bool
+)
+ident(
+  int_ref repeat "src/unix/lwt_engine.ml" 101 3892 3916 "src/unix/lwt_engine.ml" 101 3892 3922
+)
+"src/unix/lwt_engine.ml" 105 4035 4113 "src/unix/lwt_engine.ml" 105 4035 4114
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 101 3892 3923 "src/unix/lwt_engine.ml" 101 3892 3924
+)
+"src/unix/lwt_engine.ml" 105 4035 4116 "src/unix/lwt_engine.ml" 105 4035 4117
+type(
+  unit -> unit
+)
+ident(
+  int_ref g "src/unix/lwt_engine.ml" 103 3959 3967 "src/unix/lwt_engine.ml" 103 3959 3968
+)
+"src/unix/lwt_engine.ml" 105 4035 4119 "src/unix/lwt_engine.ml" 105 4035 4121
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 102 3927 3935 "src/unix/lwt_engine.ml" 102 3927 3937
+)
+"src/unix/lwt_engine.ml" 105 4035 4097 "src/unix/lwt_engine.ml" 105 4035 4122
+type(
+  float * bool * (_event ref -> unit) * (unit -> unit) * _event ref
+)
+"src/unix/lwt_engine.ml" 105 4035 4123 "src/unix/lwt_engine.ml" 105 4035 4129
+type(
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref timers
+)
+"src/unix/lwt_engine.ml" 105 4035 4077 "src/unix/lwt_engine.ml" 105 4035 4130
+call(
+  stack
+)
+type(
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.node
+)
+"src/unix/lwt_engine.ml" 105 4035 4067 "src/unix/lwt_engine.ml" 105 4035 4130
+type(
+  Obj.t Lwt_sequence.node
+)
+"src/unix/lwt_engine.ml" 105 4035 4045 "src/unix/lwt_engine.ml" 105 4035 4132
+type(
+  _event
+)
+"src/unix/lwt_engine.ml" 105 4035 4039 "src/unix/lwt_engine.ml" 105 4035 4132
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 106 4134 4138 "src/unix/lwt_engine.ml" 106 4134 4140
+type(
+  _event ref
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 102 3927 3935 "src/unix/lwt_engine.ml" 102 3927 3937
+)
+"src/unix/lwt_engine.ml" 105 4035 4039 "src/unix/lwt_engine.ml" 106 4134 4140
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 104 3982 3986 "src/unix/lwt_engine.ml" 106 4134 4140
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 103 3959 3963 "src/unix/lwt_engine.ml" 106 4134 4140
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 102 3927 3931 "src/unix/lwt_engine.ml" 106 4134 4140
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 108 4142 4168 "src/unix/lwt_engine.ml" 108 4142 4187
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t -> int
+)
+ident(
+  ext_ref Lwt_sequence.length
+)
+"src/unix/lwt_engine.ml" 108 4142 4188 "src/unix/lwt_engine.ml" 108 4142 4197
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref readables
+)
+"src/unix/lwt_engine.ml" 108 4142 4168 "src/unix/lwt_engine.ml" 108 4142 4197
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"src/unix/lwt_engine.ml" 109 4198 4224 "src/unix/lwt_engine.ml" 109 4198 4243
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t -> int
+)
+ident(
+  ext_ref Lwt_sequence.length
+)
+"src/unix/lwt_engine.ml" 109 4198 4244 "src/unix/lwt_engine.ml" 109 4198 4253
+type(
+  (Unix.file_descr * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref writables
+)
+"src/unix/lwt_engine.ml" 109 4198 4224 "src/unix/lwt_engine.ml" 109 4198 4253
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"src/unix/lwt_engine.ml" 110 4254 4277 "src/unix/lwt_engine.ml" 110 4254 4296
+type(
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t -> int
+)
+ident(
+  ext_ref Lwt_sequence.length
+)
+"src/unix/lwt_engine.ml" 110 4254 4297 "src/unix/lwt_engine.ml" 110 4254 4303
+type(
+  (float * bool * (_event ref -> unit) * (unit -> unit) * _event ref)
+  Lwt_sequence.t
+)
+ident(
+  ext_ref timers
+)
+"src/unix/lwt_engine.ml" 110 4254 4277 "src/unix/lwt_engine.ml" 110 4254 4303
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"src/unix/lwt_engine.ml" 144 5669 5682 "src/unix/lwt_engine.ml" 144 5669 5689
+type(
+  unit -> ev_loop
+)
+ident(
+  int_ref ev_init "src/unix/lwt_engine.ml" 131 4926 4926 "src/unix/lwt_engine.ml" 131 4926 4979
+)
+"src/unix/lwt_engine.ml" 144 5669 5690 "src/unix/lwt_engine.ml" 144 5669 5692
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 144 5669 5682 "src/unix/lwt_engine.ml" 144 5669 5692
+type(
+  ev_loop
+)
+"src/unix/lwt_engine.ml" 145 5693 5709 "src/unix/lwt_engine.ml" 145 5693 5713
+type(
+  ev_loop
+)
+type(
+  ev_loop
+)
+ident(
+  ext_ref loop
+)
+"src/unix/lwt_engine.ml" 147 5715 5742 "src/unix/lwt_engine.ml" 147 5715 5749
+type(
+  ev_loop -> unit
+)
+ident(
+  int_ref ev_stop "src/unix/lwt_engine.ml" 132 4980 4980 "src/unix/lwt_engine.ml" 132 4980 5033
+)
+"src/unix/lwt_engine.ml" 147 5715 5750 "src/unix/lwt_engine.ml" 147 5715 5754
+type(
+  ev_loop
+)
+ident(
+  ext_ref loop
+)
+"src/unix/lwt_engine.ml" 147 5715 5742 "src/unix/lwt_engine.ml" 147 5715 5754
+type(
+  unit
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 149 5756 5770 "src/unix/lwt_engine.ml" 149 5756 5775
+type(
+  bool
+)
+ident(
+  def block "src/unix/lwt_engine.ml" 150 5778 5782 "src/unix/lwt_engine.ml" 154 5849 5864
+)
+"src/unix/lwt_engine.ml" 151 5786 5792 "src/unix/lwt_engine.ml" 151 5786 5799
+type(
+  ev_loop -> bool -> unit
+)
+ident(
+  int_ref ev_loop "src/unix/lwt_engine.ml" 133 5034 5034 "src/unix/lwt_engine.ml" 133 5034 5095
+)
+"src/unix/lwt_engine.ml" 151 5786 5800 "src/unix/lwt_engine.ml" 151 5786 5804
+type(
+  ev_loop
+)
+ident(
+  ext_ref loop
+)
+"src/unix/lwt_engine.ml" 151 5786 5805 "src/unix/lwt_engine.ml" 151 5786 5810
+type(
+  bool
+)
+ident(
+  int_ref block "src/unix/lwt_engine.ml" 149 5756 5770 "src/unix/lwt_engine.ml" 149 5756 5775
+)
+"src/unix/lwt_engine.ml" 151 5786 5792 "src/unix/lwt_engine.ml" 151 5786 5810
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 152 5811 5820 "src/unix/lwt_engine.ml" 152 5811 5823
+type(
+  exn
+)
+ident(
+  def exn "src/unix/lwt_engine.ml" 153 5827 5833 "src/unix/lwt_engine.ml" 154 5849 5864
+)
+"src/unix/lwt_engine.ml" 153 5827 5833 "src/unix/lwt_engine.ml" 153 5827 5842
+type(
+  ev_loop -> unit
+)
+ident(
+  int_ref ev_unloop "src/unix/lwt_engine.ml" 134 5096 5096 "src/unix/lwt_engine.ml" 134 5096 5153
+)
+"src/unix/lwt_engine.ml" 153 5827 5843 "src/unix/lwt_engine.ml" 153 5827 5847
+type(
+  ev_loop
+)
+ident(
+  ext_ref loop
+)
+"src/unix/lwt_engine.ml" 153 5827 5833 "src/unix/lwt_engine.ml" 153 5827 5847
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 154 5849 5855 "src/unix/lwt_engine.ml" 154 5849 5860
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/unix/lwt_engine.ml" 154 5849 5861 "src/unix/lwt_engine.ml" 154 5849 5864
+type(
+  exn
+)
+ident(
+  int_ref exn "src/unix/lwt_engine.ml" 152 5811 5820 "src/unix/lwt_engine.ml" 152 5811 5823
+)
+"src/unix/lwt_engine.ml" 154 5849 5855 "src/unix/lwt_engine.ml" 154 5849 5864
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 153 5827 5833 "src/unix/lwt_engine.ml" 154 5849 5864
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 150 5778 5782 "src/unix/lwt_engine.ml" 154 5849 5864
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 156 5866 5901 "src/unix/lwt_engine.ml" 156 5866 5903
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 156 5866 5904 "src/unix/lwt_engine.ml" 158 5951 5979
+)
+"src/unix/lwt_engine.ml" 156 5866 5904 "src/unix/lwt_engine.ml" 156 5866 5905
+type(
+  unit -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 157 5908 5912 "src/unix/lwt_engine.ml" 158 5951 5979
+)
+"src/unix/lwt_engine.ml" 157 5908 5916 "src/unix/lwt_engine.ml" 157 5908 5918
+type(
+  ev_io
+)
+ident(
+  def ev "src/unix/lwt_engine.ml" 158 5951 5955 "src/unix/lwt_engine.ml" 158 5951 5979
+)
+"src/unix/lwt_engine.ml" 157 5908 5921 "src/unix/lwt_engine.ml" 157 5908 5937
+type(
+  ev_loop -> Unix.file_descr -> (unit -> unit) -> ev_io
+)
+ident(
+  int_ref ev_readable_init "src/unix/lwt_engine.ml" 135 5154 5154 "src/unix/lwt_engine.ml" 135 5154 5263
+)
+"src/unix/lwt_engine.ml" 157 5908 5938 "src/unix/lwt_engine.ml" 157 5908 5942
+type(
+  ev_loop
+)
+ident(
+  ext_ref loop
+)
+"src/unix/lwt_engine.ml" 157 5908 5943 "src/unix/lwt_engine.ml" 157 5908 5945
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 156 5866 5901 "src/unix/lwt_engine.ml" 156 5866 5903
+)
+"src/unix/lwt_engine.ml" 157 5908 5946 "src/unix/lwt_engine.ml" 157 5908 5947
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 156 5866 5904 "src/unix/lwt_engine.ml" 156 5866 5905
+)
+"src/unix/lwt_engine.ml" 157 5908 5921 "src/unix/lwt_engine.ml" 157 5908 5947
+type(
+  ev_io
+)
+"src/unix/lwt_engine.ml" 158 5951 5960 "src/unix/lwt_engine.ml" 158 5951 5970
+type(
+  ev_loop -> ev_io -> unit
+)
+ident(
+  int_ref ev_io_stop "src/unix/lwt_engine.ml" 137 5374 5374 "src/unix/lwt_engine.ml" 137 5374 5442
+)
+"src/unix/lwt_engine.ml" 158 5951 5971 "src/unix/lwt_engine.ml" 158 5951 5975
+type(
+  ev_loop
+)
+ident(
+  ext_ref loop
+)
+"src/unix/lwt_engine.ml" 158 5951 5976 "src/unix/lwt_engine.ml" 158 5951 5978
+type(
+  ev_io
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 157 5908 5916 "src/unix/lwt_engine.ml" 157 5908 5918
+)
+"src/unix/lwt_engine.ml" 158 5951 5959 "src/unix/lwt_engine.ml" 158 5951 5979
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 158 5951 5955 "src/unix/lwt_engine.ml" 158 5951 5979
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 157 5908 5912 "src/unix/lwt_engine.ml" 158 5951 5979
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 160 5981 6016 "src/unix/lwt_engine.ml" 160 5981 6018
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 160 5981 6019 "src/unix/lwt_engine.ml" 162 6066 6094
+)
+"src/unix/lwt_engine.ml" 160 5981 6019 "src/unix/lwt_engine.ml" 160 5981 6020
+type(
+  unit -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 161 6023 6027 "src/unix/lwt_engine.ml" 162 6066 6094
+)
+"src/unix/lwt_engine.ml" 161 6023 6031 "src/unix/lwt_engine.ml" 161 6023 6033
+type(
+  ev_io
+)
+ident(
+  def ev "src/unix/lwt_engine.ml" 162 6066 6070 "src/unix/lwt_engine.ml" 162 6066 6094
+)
+"src/unix/lwt_engine.ml" 161 6023 6036 "src/unix/lwt_engine.ml" 161 6023 6052
+type(
+  ev_loop -> Unix.file_descr -> (unit -> unit) -> ev_io
+)
+ident(
+  int_ref ev_writable_init "src/unix/lwt_engine.ml" 136 5264 5264 "src/unix/lwt_engine.ml" 136 5264 5373
+)
+"src/unix/lwt_engine.ml" 161 6023 6053 "src/unix/lwt_engine.ml" 161 6023 6057
+type(
+  ev_loop
+)
+ident(
+  ext_ref loop
+)
+"src/unix/lwt_engine.ml" 161 6023 6058 "src/unix/lwt_engine.ml" 161 6023 6060
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 160 5981 6016 "src/unix/lwt_engine.ml" 160 5981 6018
+)
+"src/unix/lwt_engine.ml" 161 6023 6061 "src/unix/lwt_engine.ml" 161 6023 6062
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 160 5981 6019 "src/unix/lwt_engine.ml" 160 5981 6020
+)
+"src/unix/lwt_engine.ml" 161 6023 6036 "src/unix/lwt_engine.ml" 161 6023 6062
+type(
+  ev_io
+)
+"src/unix/lwt_engine.ml" 162 6066 6075 "src/unix/lwt_engine.ml" 162 6066 6085
+type(
+  ev_loop -> ev_io -> unit
+)
+ident(
+  int_ref ev_io_stop "src/unix/lwt_engine.ml" 137 5374 5374 "src/unix/lwt_engine.ml" 137 5374 5442
+)
+"src/unix/lwt_engine.ml" 162 6066 6086 "src/unix/lwt_engine.ml" 162 6066 6090
+type(
+  ev_loop
+)
+ident(
+  ext_ref loop
+)
+"src/unix/lwt_engine.ml" 162 6066 6091 "src/unix/lwt_engine.ml" 162 6066 6093
+type(
+  ev_io
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 161 6023 6031 "src/unix/lwt_engine.ml" 161 6023 6033
+)
+"src/unix/lwt_engine.ml" 162 6066 6074 "src/unix/lwt_engine.ml" 162 6066 6094
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 162 6066 6070 "src/unix/lwt_engine.ml" 162 6066 6094
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 161 6023 6027 "src/unix/lwt_engine.ml" 162 6066 6094
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 164 6096 6128 "src/unix/lwt_engine.ml" 164 6096 6133
+type(
+  float
+)
+ident(
+  def delay "src/unix/lwt_engine.ml" 164 6096 6134 "src/unix/lwt_engine.ml" 166 6195 6226
+)
+"src/unix/lwt_engine.ml" 164 6096 6134 "src/unix/lwt_engine.ml" 164 6096 6140
+type(
+  bool
+)
+ident(
+  def repeat "src/unix/lwt_engine.ml" 164 6096 6141 "src/unix/lwt_engine.ml" 166 6195 6226
+)
+"src/unix/lwt_engine.ml" 164 6096 6141 "src/unix/lwt_engine.ml" 164 6096 6142
+type(
+  unit -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 165 6145 6149 "src/unix/lwt_engine.ml" 166 6195 6226
+)
+"src/unix/lwt_engine.ml" 165 6145 6153 "src/unix/lwt_engine.ml" 165 6145 6155
+type(
+  ev_timer
+)
+ident(
+  def ev "src/unix/lwt_engine.ml" 166 6195 6199 "src/unix/lwt_engine.ml" 166 6195 6226
+)
+"src/unix/lwt_engine.ml" 165 6145 6158 "src/unix/lwt_engine.ml" 165 6145 6171
+type(
+  ev_loop -> float -> bool -> (unit -> unit) -> ev_timer
+)
+ident(
+  int_ref ev_timer_init "src/unix/lwt_engine.ml" 138 5443 5443 "src/unix/lwt_engine.ml" 138 5443 5547
+)
+"src/unix/lwt_engine.ml" 165 6145 6172 "src/unix/lwt_engine.ml" 165 6145 6176
+type(
+  ev_loop
+)
+ident(
+  ext_ref loop
+)
+"src/unix/lwt_engine.ml" 165 6145 6177 "src/unix/lwt_engine.ml" 165 6145 6182
+type(
+  float
+)
+ident(
+  int_ref delay "src/unix/lwt_engine.ml" 164 6096 6128 "src/unix/lwt_engine.ml" 164 6096 6133
+)
+"src/unix/lwt_engine.ml" 165 6145 6183 "src/unix/lwt_engine.ml" 165 6145 6189
+type(
+  bool
+)
+ident(
+  int_ref repeat "src/unix/lwt_engine.ml" 164 6096 6134 "src/unix/lwt_engine.ml" 164 6096 6140
+)
+"src/unix/lwt_engine.ml" 165 6145 6190 "src/unix/lwt_engine.ml" 165 6145 6191
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 164 6096 6141 "src/unix/lwt_engine.ml" 164 6096 6142
+)
+"src/unix/lwt_engine.ml" 165 6145 6158 "src/unix/lwt_engine.ml" 165 6145 6191
+type(
+  ev_timer
+)
+"src/unix/lwt_engine.ml" 166 6195 6204 "src/unix/lwt_engine.ml" 166 6195 6217
+type(
+  ev_loop -> ev_timer -> unit
+)
+ident(
+  int_ref ev_timer_stop "src/unix/lwt_engine.ml" 139 5548 5548 "src/unix/lwt_engine.ml" 139 5548 5626
+)
+"src/unix/lwt_engine.ml" 166 6195 6218 "src/unix/lwt_engine.ml" 166 6195 6222
+type(
+  ev_loop
+)
+ident(
+  ext_ref loop
+)
+"src/unix/lwt_engine.ml" 166 6195 6223 "src/unix/lwt_engine.ml" 166 6195 6225
+type(
+  ev_timer
+)
+ident(
+  int_ref ev "src/unix/lwt_engine.ml" 165 6145 6153 "src/unix/lwt_engine.ml" 165 6145 6155
+)
+"src/unix/lwt_engine.ml" 166 6195 6203 "src/unix/lwt_engine.ml" 166 6195 6226
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 166 6195 6199 "src/unix/lwt_engine.ml" 166 6195 6226
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 165 6145 6149 "src/unix/lwt_engine.ml" 166 6195 6226
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 188 6815 6839 "src/unix/lwt_engine.ml" 188 6815 6846
+type(
+  sleeper -> sleeper -> int
+)
+ident(
+  def compare "src/unix/lwt_engine.ml" 188 6815 6890 "src/unix/lwt_engine.ml" 189 6891 6912
+)
+"src/unix/lwt_engine.ml" 188 6815 6856 "src/unix/lwt_engine.ml" 188 6815 6858
+type(
+  float
+)
+ident(
+  def t1 "src/unix/lwt_engine.ml" 188 6815 6861 "src/unix/lwt_engine.ml" 188 6815 6890
+)
+"src/unix/lwt_engine.ml" 188 6815 6847 "src/unix/lwt_engine.ml" 188 6815 6860
+type(
+  sleeper
+)
+"src/unix/lwt_engine.ml" 188 6815 6870 "src/unix/lwt_engine.ml" 188 6815 6872
+type(
+  float
+)
+ident(
+  def t2 "src/unix/lwt_engine.ml" 188 6815 6877 "src/unix/lwt_engine.ml" 188 6815 6890
+)
+"src/unix/lwt_engine.ml" 188 6815 6861 "src/unix/lwt_engine.ml" 188 6815 6874
+type(
+  sleeper
+)
+"src/unix/lwt_engine.ml" 188 6815 6877 "src/unix/lwt_engine.ml" 188 6815 6884
+type(
+  float -> float -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/unix/lwt_engine.ml" 188 6815 6885 "src/unix/lwt_engine.ml" 188 6815 6887
+type(
+  float
+)
+ident(
+  int_ref t1 "src/unix/lwt_engine.ml" 188 6815 6856 "src/unix/lwt_engine.ml" 188 6815 6858
+)
+"src/unix/lwt_engine.ml" 188 6815 6888 "src/unix/lwt_engine.ml" 188 6815 6890
+type(
+  float
+)
+ident(
+  int_ref t2 "src/unix/lwt_engine.ml" 188 6815 6870 "src/unix/lwt_engine.ml" 188 6815 6872
+)
+"src/unix/lwt_engine.ml" 188 6815 6877 "src/unix/lwt_engine.ml" 188 6815 6890
+type(
+  int
+)
+"src/unix/lwt_engine.ml" 186 6753 6755 "src/unix/lwt_engine.ml" 189 6891 6913
+call(
+  stack
+)
+"src/unix/lwt_engine.ml" 191 6915 6976 "src/unix/lwt_engine.ml" 191 6915 6983
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "src/unix/lwt_engine.ml" 191 6915 6993 "src/unix/lwt_engine.ml" 191 6915 6997
+)
+"src/unix/lwt_engine.ml" 191 6915 6986 "src/unix/lwt_engine.ml" 191 6915 6993
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/unix/lwt_engine.ml" 191 6915 6931 "src/unix/lwt_engine.ml" 191 6915 6998
+call(
+  stack
+)
+"src/unix/lwt_engine.ml" 193 7000 7008 "src/unix/lwt_engine.ml" 193 7000 7023
+type(
+  Sleep_queue.t -> float -> Sleep_queue.t
+)
+ident(
+  def restart_actions "src/unix/lwt_engine.ml" 193 7000 7000 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 193 7000 7024 "src/unix/lwt_engine.ml" 193 7000 7035
+type(
+  Sleep_queue.t
+)
+ident(
+  def sleep_queue "src/unix/lwt_engine.ml" 193 7000 7036 "src/unix/lwt_engine.ml" 206 7614 7633
+)
+"src/unix/lwt_engine.ml" 193 7000 7036 "src/unix/lwt_engine.ml" 193 7000 7039
+type(
+  float
+)
+ident(
+  def now "src/unix/lwt_engine.ml" 194 7042 7044 "src/unix/lwt_engine.ml" 206 7614 7633
+)
+"src/unix/lwt_engine.ml" 194 7042 7050 "src/unix/lwt_engine.ml" 194 7042 7072
+type(
+  Sleep_queue.t -> Sleep_queue.elt option
+)
+ident(
+  ext_ref Sleep_queue.lookup_min
+)
+"src/unix/lwt_engine.ml" 194 7042 7073 "src/unix/lwt_engine.ml" 194 7042 7084
+type(
+  Sleep_queue.t
+)
+ident(
+  int_ref sleep_queue "src/unix/lwt_engine.ml" 193 7000 7024 "src/unix/lwt_engine.ml" 193 7000 7035
+)
+"src/unix/lwt_engine.ml" 194 7042 7050 "src/unix/lwt_engine.ml" 194 7042 7084
+call(
+  stack
+)
+type(
+  Sleep_queue.elt option
+)
+"src/unix/lwt_engine.ml" 195 7090 7112 "src/unix/lwt_engine.ml" 195 7090 7116
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 195 7090 7100 "src/unix/lwt_engine.ml" 195 7090 7118
+type(
+  Sleep_queue.elt
+)
+"src/unix/lwt_engine.ml" 195 7090 7096 "src/unix/lwt_engine.ml" 195 7090 7118
+type(
+  Sleep_queue.elt option
+)
+"src/unix/lwt_engine.ml" 196 7122 7130 "src/unix/lwt_engine.ml" 196 7122 7145
+type(
+  Sleep_queue.t -> float -> Sleep_queue.t
+)
+ident(
+  int_ref restart_actions "src/unix/lwt_engine.ml" 193 7000 7008 "src/unix/lwt_engine.ml" 193 7000 7023
+)
+"src/unix/lwt_engine.ml" 196 7122 7147 "src/unix/lwt_engine.ml" 196 7122 7169
+type(
+  Sleep_queue.t -> Sleep_queue.t
+)
+ident(
+  ext_ref Sleep_queue.remove_min
+)
+"src/unix/lwt_engine.ml" 196 7122 7170 "src/unix/lwt_engine.ml" 196 7122 7181
+type(
+  Sleep_queue.t
+)
+ident(
+  int_ref sleep_queue "src/unix/lwt_engine.ml" 193 7000 7024 "src/unix/lwt_engine.ml" 193 7000 7035
+)
+"src/unix/lwt_engine.ml" 196 7122 7146 "src/unix/lwt_engine.ml" 196 7122 7182
+call(
+  stack
+)
+type(
+  Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 196 7122 7183 "src/unix/lwt_engine.ml" 196 7122 7186
+type(
+  float
+)
+ident(
+  int_ref now "src/unix/lwt_engine.ml" 193 7000 7036 "src/unix/lwt_engine.ml" 193 7000 7039
+)
+"src/unix/lwt_engine.ml" 196 7122 7130 "src/unix/lwt_engine.ml" 196 7122 7186
+call(
+  tail
+)
+type(
+  Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 197 7187 7206 "src/unix/lwt_engine.ml" 197 7187 7210
+type(
+  float
+)
+ident(
+  def time "src/unix/lwt_engine.ml" 197 7187 7235 "src/unix/lwt_engine.ml" 204 7573 7602
+)
+"src/unix/lwt_engine.ml" 197 7187 7221 "src/unix/lwt_engine.ml" 197 7187 7227
+type(
+  unit -> unit
+)
+ident(
+  def action "src/unix/lwt_engine.ml" 197 7187 7235 "src/unix/lwt_engine.ml" 204 7573 7602
+)
+"src/unix/lwt_engine.ml" 197 7187 7197 "src/unix/lwt_engine.ml" 197 7187 7229
+type(
+  Sleep_queue.elt
+)
+"src/unix/lwt_engine.ml" 197 7187 7193 "src/unix/lwt_engine.ml" 197 7187 7229
+type(
+  Sleep_queue.elt option
+)
+"src/unix/lwt_engine.ml" 197 7187 7235 "src/unix/lwt_engine.ml" 197 7187 7239
+type(
+  float
+)
+ident(
+  int_ref time "src/unix/lwt_engine.ml" 197 7187 7206 "src/unix/lwt_engine.ml" 197 7187 7210
+)
+"src/unix/lwt_engine.ml" 197 7187 7240 "src/unix/lwt_engine.ml" 197 7187 7242
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/unix/lwt_engine.ml" 197 7187 7243 "src/unix/lwt_engine.ml" 197 7187 7246
+type(
+  float
+)
+ident(
+  int_ref now "src/unix/lwt_engine.ml" 193 7000 7036 "src/unix/lwt_engine.ml" 193 7000 7039
+)
+"src/unix/lwt_engine.ml" 197 7187 7235 "src/unix/lwt_engine.ml" 197 7187 7246
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 202 7500 7512 "src/unix/lwt_engine.ml" 202 7500 7513
+type(
+  Sleep_queue.t
+)
+ident(
+  def q "src/unix/lwt_engine.ml" 203 7554 7562 "src/unix/lwt_engine.ml" 204 7573 7602
+)
+"src/unix/lwt_engine.ml" 202 7500 7516 "src/unix/lwt_engine.ml" 202 7500 7538
+type(
+  Sleep_queue.t -> Sleep_queue.t
+)
+ident(
+  ext_ref Sleep_queue.remove_min
+)
+"src/unix/lwt_engine.ml" 202 7500 7539 "src/unix/lwt_engine.ml" 202 7500 7550
+type(
+  Sleep_queue.t
+)
+ident(
+  int_ref sleep_queue "src/unix/lwt_engine.ml" 193 7000 7024 "src/unix/lwt_engine.ml" 193 7000 7035
+)
+"src/unix/lwt_engine.ml" 202 7500 7516 "src/unix/lwt_engine.ml" 202 7500 7550
+call(
+  stack
+)
+type(
+  Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 203 7554 7562 "src/unix/lwt_engine.ml" 203 7554 7568
+type(
+  unit -> unit
+)
+ident(
+  int_ref action "src/unix/lwt_engine.ml" 197 7187 7221 "src/unix/lwt_engine.ml" 197 7187 7227
+)
+"src/unix/lwt_engine.ml" 203 7554 7569 "src/unix/lwt_engine.ml" 203 7554 7571
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 203 7554 7562 "src/unix/lwt_engine.ml" 203 7554 7571
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 204 7573 7581 "src/unix/lwt_engine.ml" 204 7573 7596
+type(
+  Sleep_queue.t -> float -> Sleep_queue.t
+)
+ident(
+  int_ref restart_actions "src/unix/lwt_engine.ml" 193 7000 7008 "src/unix/lwt_engine.ml" 193 7000 7023
+)
+"src/unix/lwt_engine.ml" 204 7573 7597 "src/unix/lwt_engine.ml" 204 7573 7598
+type(
+  Sleep_queue.t
+)
+ident(
+  int_ref q "src/unix/lwt_engine.ml" 202 7500 7512 "src/unix/lwt_engine.ml" 202 7500 7513
+)
+"src/unix/lwt_engine.ml" 204 7573 7599 "src/unix/lwt_engine.ml" 204 7573 7602
+type(
+  float
+)
+ident(
+  int_ref now "src/unix/lwt_engine.ml" 193 7000 7036 "src/unix/lwt_engine.ml" 193 7000 7039
+)
+"src/unix/lwt_engine.ml" 204 7573 7581 "src/unix/lwt_engine.ml" 204 7573 7602
+call(
+  tail
+)
+type(
+  Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 203 7554 7562 "src/unix/lwt_engine.ml" 204 7573 7602
+type(
+  Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 202 7500 7508 "src/unix/lwt_engine.ml" 204 7573 7602
+type(
+  Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 205 7603 7609 "src/unix/lwt_engine.ml" 205 7603 7610
+type(
+  Sleep_queue.elt option
+)
+"src/unix/lwt_engine.ml" 206 7614 7622 "src/unix/lwt_engine.ml" 206 7614 7633
+type(
+  Sleep_queue.t
+)
+ident(
+  int_ref sleep_queue "src/unix/lwt_engine.ml" 193 7000 7024 "src/unix/lwt_engine.ml" 193 7000 7035
+)
+"src/unix/lwt_engine.ml" 194 7042 7044 "src/unix/lwt_engine.ml" 206 7614 7633
+type(
+  Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 208 7635 7643 "src/unix/lwt_engine.ml" 208 7635 7659
+type(
+  Sleep_queue.t -> float
+)
+ident(
+  def get_next_timeout "src/unix/lwt_engine.ml" 208 7635 7635 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 208 7635 7660 "src/unix/lwt_engine.ml" 208 7635 7671
+type(
+  Sleep_queue.t
+)
+ident(
+  def sleep_queue "src/unix/lwt_engine.ml" 209 7674 7676 "src/unix/lwt_engine.ml" 215 7905 7916
+)
+"src/unix/lwt_engine.ml" 209 7674 7682 "src/unix/lwt_engine.ml" 209 7674 7704
+type(
+  Sleep_queue.t -> Sleep_queue.elt option
+)
+ident(
+  ext_ref Sleep_queue.lookup_min
+)
+"src/unix/lwt_engine.ml" 209 7674 7705 "src/unix/lwt_engine.ml" 209 7674 7716
+type(
+  Sleep_queue.t
+)
+ident(
+  int_ref sleep_queue "src/unix/lwt_engine.ml" 208 7635 7660 "src/unix/lwt_engine.ml" 208 7635 7671
+)
+"src/unix/lwt_engine.ml" 209 7674 7682 "src/unix/lwt_engine.ml" 209 7674 7716
+call(
+  stack
+)
+type(
+  Sleep_queue.elt option
+)
+"src/unix/lwt_engine.ml" 210 7722 7744 "src/unix/lwt_engine.ml" 210 7722 7748
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 210 7722 7732 "src/unix/lwt_engine.ml" 210 7722 7750
+type(
+  Sleep_queue.elt
+)
+"src/unix/lwt_engine.ml" 210 7722 7728 "src/unix/lwt_engine.ml" 210 7722 7750
+type(
+  Sleep_queue.elt option
+)
+"src/unix/lwt_engine.ml" 211 7754 7762 "src/unix/lwt_engine.ml" 211 7754 7778
+type(
+  Sleep_queue.t -> float
+)
+ident(
+  int_ref get_next_timeout "src/unix/lwt_engine.ml" 208 7635 7643 "src/unix/lwt_engine.ml" 208 7635 7659
+)
+"src/unix/lwt_engine.ml" 211 7754 7780 "src/unix/lwt_engine.ml" 211 7754 7802
+type(
+  Sleep_queue.t -> Sleep_queue.t
+)
+ident(
+  ext_ref Sleep_queue.remove_min
+)
+"src/unix/lwt_engine.ml" 211 7754 7803 "src/unix/lwt_engine.ml" 211 7754 7814
+type(
+  Sleep_queue.t
+)
+ident(
+  int_ref sleep_queue "src/unix/lwt_engine.ml" 208 7635 7660 "src/unix/lwt_engine.ml" 208 7635 7671
+)
+"src/unix/lwt_engine.ml" 211 7754 7779 "src/unix/lwt_engine.ml" 211 7754 7815
+call(
+  stack
+)
+type(
+  Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 211 7754 7762 "src/unix/lwt_engine.ml" 211 7754 7815
+call(
+  tail
+)
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 212 7816 7835 "src/unix/lwt_engine.ml" 212 7816 7839
+type(
+  float
+)
+ident(
+  def time "src/unix/lwt_engine.ml" 213 7845 7853 "src/unix/lwt_engine.ml" 213 7845 7890
+)
+"src/unix/lwt_engine.ml" 212 7816 7826 "src/unix/lwt_engine.ml" 212 7816 7841
+type(
+  Sleep_queue.elt
+)
+"src/unix/lwt_engine.ml" 212 7816 7822 "src/unix/lwt_engine.ml" 212 7816 7841
+type(
+  Sleep_queue.elt option
+)
+"src/unix/lwt_engine.ml" 213 7845 7853 "src/unix/lwt_engine.ml" 213 7845 7856
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/unix/lwt_engine.ml" 213 7845 7857 "src/unix/lwt_engine.ml" 213 7845 7859
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 213 7845 7861 "src/unix/lwt_engine.ml" 213 7845 7865
+type(
+  float
+)
+ident(
+  int_ref time "src/unix/lwt_engine.ml" 212 7816 7835 "src/unix/lwt_engine.ml" 212 7816 7839
+)
+"src/unix/lwt_engine.ml" 213 7845 7866 "src/unix/lwt_engine.ml" 213 7845 7868
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"src/unix/lwt_engine.ml" 213 7845 7869 "src/unix/lwt_engine.ml" 213 7845 7886
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"src/unix/lwt_engine.ml" 213 7845 7887 "src/unix/lwt_engine.ml" 213 7845 7889
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 213 7845 7869 "src/unix/lwt_engine.ml" 213 7845 7889
+call(
+  stack
+)
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 213 7845 7860 "src/unix/lwt_engine.ml" 213 7845 7890
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 213 7845 7853 "src/unix/lwt_engine.ml" 213 7845 7890
+call(
+  tail
+)
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 214 7891 7897 "src/unix/lwt_engine.ml" 214 7891 7901
+type(
+  Sleep_queue.elt option
+)
+"src/unix/lwt_engine.ml" 215 7905 7913 "src/unix/lwt_engine.ml" 215 7905 7916
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 209 7674 7676 "src/unix/lwt_engine.ml" 215 7905 7916
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 217 7918 7922 "src/unix/lwt_engine.ml" 217 7918 7928
+type(
+  Unix.file_descr -> bool
+)
+ident(
+  def bad_fd "src/unix/lwt_engine.ml" 224 8025 8025 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 217 7918 7929 "src/unix/lwt_engine.ml" 217 7918 7931
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 218 7934 7936 "src/unix/lwt_engine.ml" 222 8015 8023
+)
+"src/unix/lwt_engine.ml" 219 7940 7948 "src/unix/lwt_engine.ml" 219 7940 7949
+type(
+  Unix.stats
+)
+"src/unix/lwt_engine.ml" 219 7940 7952 "src/unix/lwt_engine.ml" 219 7940 7962
+type(
+  Unix.file_descr -> Unix.stats
+)
+ident(
+  ext_ref Unix.fstat
+)
+"src/unix/lwt_engine.ml" 219 7940 7963 "src/unix/lwt_engine.ml" 219 7940 7965
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 217 7918 7929 "src/unix/lwt_engine.ml" 217 7918 7931
+)
+"src/unix/lwt_engine.ml" 219 7940 7952 "src/unix/lwt_engine.ml" 219 7940 7965
+call(
+  stack
+)
+type(
+  Unix.stats
+)
+"src/unix/lwt_engine.ml" 220 7969 7973 "src/unix/lwt_engine.ml" 220 7969 7978
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 219 7940 7944 "src/unix/lwt_engine.ml" 220 7969 7978
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 221 7979 8003 "src/unix/lwt_engine.ml" 221 7979 8004
+type(
+  Unix.error
+)
+"src/unix/lwt_engine.ml" 221 7979 8006 "src/unix/lwt_engine.ml" 221 7979 8007
+type(
+  string
+)
+"src/unix/lwt_engine.ml" 221 7979 8009 "src/unix/lwt_engine.ml" 221 7979 8010
+type(
+  string
+)
+"src/unix/lwt_engine.ml" 221 7979 7986 "src/unix/lwt_engine.ml" 221 7979 8011
+type(
+  exn
+)
+"src/unix/lwt_engine.ml" 222 8015 8019 "src/unix/lwt_engine.ml" 222 8015 8023
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 218 7934 7936 "src/unix/lwt_engine.ml" 222 8015 8023
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 224 8025 8029 "src/unix/lwt_engine.ml" 224 8025 8043
+type(
+  Fd_map.key -> (unit -> unit) Lwt_sequence.t Fd_map.t -> unit
+)
+ident(
+  def invoke_actions "src/unix/lwt_engine.ml" 229 8202 8202 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 224 8025 8044 "src/unix/lwt_engine.ml" 224 8025 8046
+type(
+  Fd_map.key
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 224 8025 8047 "src/unix/lwt_engine.ml" 227 8184 8200
+)
+"src/unix/lwt_engine.ml" 224 8025 8047 "src/unix/lwt_engine.ml" 224 8025 8050
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  def map "src/unix/lwt_engine.ml" 225 8053 8055 "src/unix/lwt_engine.ml" 227 8184 8200
+)
+"src/unix/lwt_engine.ml" 225 8053 8070 "src/unix/lwt_engine.ml" 225 8053 8081
+type(
+  Fd_map.key ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t -> (unit -> unit) Lwt_sequence.t
+)
+ident(
+  ext_ref Fd_map.find
+)
+"src/unix/lwt_engine.ml" 225 8053 8082 "src/unix/lwt_engine.ml" 225 8053 8084
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 224 8025 8044 "src/unix/lwt_engine.ml" 224 8025 8046
+)
+"src/unix/lwt_engine.ml" 225 8053 8085 "src/unix/lwt_engine.ml" 225 8053 8088
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  int_ref map "src/unix/lwt_engine.ml" 224 8025 8047 "src/unix/lwt_engine.ml" 224 8025 8050
+)
+"src/unix/lwt_engine.ml" 225 8053 8069 "src/unix/lwt_engine.ml" 225 8053 8089
+call(
+  stack
+)
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 225 8053 8065 "src/unix/lwt_engine.ml" 225 8053 8089
+type(
+  (unit -> unit) Lwt_sequence.t option
+)
+"src/unix/lwt_engine.ml" 225 8053 8095 "src/unix/lwt_engine.ml" 225 8053 8104
+type(
+  exn
+)
+"src/unix/lwt_engine.ml" 225 8053 8108 "src/unix/lwt_engine.ml" 225 8053 8112
+type(
+  (unit -> unit) Lwt_sequence.t option
+)
+"src/unix/lwt_engine.ml" 225 8053 8061 "src/unix/lwt_engine.ml" 225 8053 8112
+type(
+  (unit -> unit) Lwt_sequence.t option
+)
+"src/unix/lwt_engine.ml" 226 8118 8129 "src/unix/lwt_engine.ml" 226 8118 8136
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+ident(
+  def actions "src/unix/lwt_engine.ml" 226 8118 8140 "src/unix/lwt_engine.ml" 226 8118 8183
+)
+"src/unix/lwt_engine.ml" 226 8118 8124 "src/unix/lwt_engine.ml" 226 8118 8136
+type(
+  (unit -> unit) Lwt_sequence.t option
+)
+"src/unix/lwt_engine.ml" 226 8118 8140 "src/unix/lwt_engine.ml" 226 8118 8159
+type(
+  ((unit -> unit) -> unit) -> (unit -> unit) Lwt_sequence.t -> unit
+)
+ident(
+  ext_ref Lwt_sequence.iter_l
+)
+"src/unix/lwt_engine.ml" 226 8118 8165 "src/unix/lwt_engine.ml" 226 8118 8166
+type(
+  unit -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 226 8118 8170 "src/unix/lwt_engine.ml" 226 8118 8174
+)
+"src/unix/lwt_engine.ml" 226 8118 8170 "src/unix/lwt_engine.ml" 226 8118 8171
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 226 8118 8165 "src/unix/lwt_engine.ml" 226 8118 8166
+)
+"src/unix/lwt_engine.ml" 226 8118 8172 "src/unix/lwt_engine.ml" 226 8118 8174
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 226 8118 8170 "src/unix/lwt_engine.ml" 226 8118 8174
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 226 8118 8160 "src/unix/lwt_engine.ml" 226 8118 8175
+type(
+  (unit -> unit) -> unit
+)
+"src/unix/lwt_engine.ml" 226 8118 8176 "src/unix/lwt_engine.ml" 226 8118 8183
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+ident(
+  int_ref actions "src/unix/lwt_engine.ml" 226 8118 8129 "src/unix/lwt_engine.ml" 226 8118 8136
+)
+"src/unix/lwt_engine.ml" 226 8118 8140 "src/unix/lwt_engine.ml" 226 8118 8183
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 227 8184 8190 "src/unix/lwt_engine.ml" 227 8184 8194
+type(
+  (unit -> unit) Lwt_sequence.t option
+)
+"src/unix/lwt_engine.ml" 227 8184 8198 "src/unix/lwt_engine.ml" 227 8184 8200
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 225 8053 8055 "src/unix/lwt_engine.ml" 227 8184 8200
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 229 8202 8245 "src/unix/lwt_engine.ml" 229 8202 8251
+type(
+  < destroy : unit; fake_io : Fd_map.key -> unit; iter : bool -> unit;
+    on_readable : Fd_map.key -> (_event ref -> unit) -> _event ref;
+    on_timer : float -> bool -> (_event ref -> unit) -> _event ref;
+    on_writable : Fd_map.key -> (_event ref -> unit) -> _event ref;
+    readable_count : int; timer_count : int; transfer : abstract -> unit;
+    writable_count : int; .. >
+)
+"src/unix/lwt_engine.ml" 232 8272 8300 "src/unix/lwt_engine.ml" 232 8272 8317
+type(
+  Sleep_queue.t
+)
+ident(
+  ext_ref Sleep_queue.empty
+)
+"src/unix/lwt_engine.ml" 235 8370 8397 "src/unix/lwt_engine.ml" 235 8370 8399
+type(
+  sleeper list
+)
+"src/unix/lwt_engine.ml" 241 8596 8626 "src/unix/lwt_engine.ml" 241 8596 8638
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref Fd_map.empty
+)
+"src/unix/lwt_engine.ml" 245 8727 8757 "src/unix/lwt_engine.ml" 245 8727 8769
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref Fd_map.empty
+)
+"src/unix/lwt_engine.ml" 249 8858 8885 "src/unix/lwt_engine.ml" 249 8858 8887
+type(
+  unit
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 251 8889 8921 "src/unix/lwt_engine.ml" 251 8889 8926
+type(
+  float
+)
+ident(
+  def delay "src/unix/lwt_engine.ml" 251 8889 8927 "src/unix/lwt_engine.ml" 265 9466 9473
+)
+"src/unix/lwt_engine.ml" 251 8889 8927 "src/unix/lwt_engine.ml" 251 8889 8933
+type(
+  bool
+)
+ident(
+  def repeat "src/unix/lwt_engine.ml" 251 8889 8934 "src/unix/lwt_engine.ml" 265 9466 9473
+)
+"src/unix/lwt_engine.ml" 251 8889 8934 "src/unix/lwt_engine.ml" 251 8889 8935
+type(
+  unit -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 252 8938 8942 "src/unix/lwt_engine.ml" 265 9466 9473
+)
+"src/unix/lwt_engine.ml" 252 8938 8945 "src/unix/lwt_engine.ml" 252 8938 8951
+type(
+  bool
+)
+ident(
+  int_ref repeat "src/unix/lwt_engine.ml" 251 8889 8927 "src/unix/lwt_engine.ml" 251 8889 8933
+)
+"src/unix/lwt_engine.ml" 253 8963 8977 "src/unix/lwt_engine.ml" 253 8963 8984
+type(
+  sleeper
+)
+ident(
+  def sleeper "src/unix/lwt_engine.ml" 252 8938 8957 "src/unix/lwt_engine.ml" 261 9275 9282
+)
+"src/unix/lwt_engine.ml" 253 8963 8996 "src/unix/lwt_engine.ml" 253 8963 9013
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"src/unix/lwt_engine.ml" 253 8963 9014 "src/unix/lwt_engine.ml" 253 8963 9016
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 253 8963 8996 "src/unix/lwt_engine.ml" 253 8963 9016
+call(
+  stack
+)
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 253 8963 9017 "src/unix/lwt_engine.ml" 253 8963 9019
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/unix/lwt_engine.ml" 253 8963 9020 "src/unix/lwt_engine.ml" 253 8963 9025
+type(
+  float
+)
+ident(
+  int_ref delay "src/unix/lwt_engine.ml" 251 8889 8921 "src/unix/lwt_engine.ml" 251 8889 8926
+)
+"src/unix/lwt_engine.ml" 253 8963 8996 "src/unix/lwt_engine.ml" 253 8963 9025
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 253 8963 9037 "src/unix/lwt_engine.ml" 253 8963 9042
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 253 8963 9053 "src/unix/lwt_engine.ml" 253 8963 9054
+type(
+  unit -> unit
+)
+ident(
+  int_ref g "src/unix/lwt_engine.ml" 254 9057 9067 "src/unix/lwt_engine.ml" 254 9057 9068
+)
+"src/unix/lwt_engine.ml" 253 8963 8987 "src/unix/lwt_engine.ml" 253 8963 9056
+type(
+  sleeper
+)
+"src/unix/lwt_engine.ml" 254 9057 9067 "src/unix/lwt_engine.ml" 254 9057 9068
+type(
+  unit -> unit
+)
+ident(
+  def g "src/unix/lwt_engine.ml" 252 8938 8957 "src/unix/lwt_engine.ml" 261 9275 9282
+)
+"src/unix/lwt_engine.ml" 254 9057 9069 "src/unix/lwt_engine.ml" 254 9057 9071
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 255 9074 9082 "src/unix/lwt_engine.ml" 255 9074 9089
+type(
+  sleeper
+)
+ident(
+  int_ref sleeper "src/unix/lwt_engine.ml" 253 8963 8977 "src/unix/lwt_engine.ml" 253 8963 8984
+)
+"src/unix/lwt_engine.ml" 255 9074 9098 "src/unix/lwt_engine.ml" 255 9074 9115
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"src/unix/lwt_engine.ml" 255 9074 9116 "src/unix/lwt_engine.ml" 255 9074 9118
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 255 9074 9098 "src/unix/lwt_engine.ml" 255 9074 9118
+call(
+  stack
+)
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 255 9074 9119 "src/unix/lwt_engine.ml" 255 9074 9121
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/unix/lwt_engine.ml" 255 9074 9122 "src/unix/lwt_engine.ml" 255 9074 9127
+type(
+  float
+)
+ident(
+  int_ref delay "src/unix/lwt_engine.ml" 251 8889 8921 "src/unix/lwt_engine.ml" 251 8889 8926
+)
+"src/unix/lwt_engine.ml" 255 9074 9098 "src/unix/lwt_engine.ml" 255 9074 9127
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 255 9074 9082 "src/unix/lwt_engine.ml" 255 9074 9127
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 256 9129 9151 "src/unix/lwt_engine.ml" 256 9129 9158
+type(
+  sleeper
+)
+ident(
+  int_ref sleeper "src/unix/lwt_engine.ml" 253 8963 8977 "src/unix/lwt_engine.ml" 253 8963 8984
+)
+"src/unix/lwt_engine.ml" 256 9129 9162 "src/unix/lwt_engine.ml" 256 9129 9172
+type(
+  sleeper list
+)
+ident(
+  ext_ref new_sleeps
+)
+"src/unix/lwt_engine.ml" 256 9129 9151 "src/unix/lwt_engine.ml" 256 9129 9172
+type(
+  sleeper list
+)
+"src/unix/lwt_engine.ml" 256 9129 9137 "src/unix/lwt_engine.ml" 256 9129 9172
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 257 9174 9182 "src/unix/lwt_engine.ml" 257 9174 9183
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 251 8889 8934 "src/unix/lwt_engine.ml" 251 8889 8935
+)
+"src/unix/lwt_engine.ml" 257 9174 9184 "src/unix/lwt_engine.ml" 257 9174 9186
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 257 9174 9182 "src/unix/lwt_engine.ml" 257 9174 9186
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 256 9129 9137 "src/unix/lwt_engine.ml" 257 9174 9186
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 255 9074 9082 "src/unix/lwt_engine.ml" 257 9174 9186
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 259 9196 9216 "src/unix/lwt_engine.ml" 259 9196 9223
+type(
+  sleeper
+)
+ident(
+  int_ref sleeper "src/unix/lwt_engine.ml" 253 8963 8977 "src/unix/lwt_engine.ml" 253 8963 8984
+)
+"src/unix/lwt_engine.ml" 259 9196 9227 "src/unix/lwt_engine.ml" 259 9196 9237
+type(
+  sleeper list
+)
+ident(
+  ext_ref new_sleeps
+)
+"src/unix/lwt_engine.ml" 259 9196 9216 "src/unix/lwt_engine.ml" 259 9196 9237
+type(
+  sleeper list
+)
+"src/unix/lwt_engine.ml" 259 9196 9202 "src/unix/lwt_engine.ml" 259 9196 9237
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 260 9239 9250 "src/unix/lwt_engine.ml" 260 9239 9257
+type(
+  sleeper
+)
+ident(
+  int_ref sleeper "src/unix/lwt_engine.ml" 253 8963 8977 "src/unix/lwt_engine.ml" 253 8963 8984
+)
+"src/unix/lwt_engine.ml" 260 9239 9269 "src/unix/lwt_engine.ml" 260 9239 9273
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 260 9239 9249 "src/unix/lwt_engine.ml" 260 9239 9274
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 260 9239 9245 "src/unix/lwt_engine.ml" 260 9239 9274
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 259 9196 9202 "src/unix/lwt_engine.ml" 260 9239 9274
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 252 8938 8957 "src/unix/lwt_engine.ml" 261 9275 9282
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 262 9294 9304 "src/unix/lwt_engine.ml" 262 9294 9311
+type(
+  sleeper
+)
+ident(
+  def sleeper "src/unix/lwt_engine.ml" 263 9387 9393 "src/unix/lwt_engine.ml" 264 9430 9465
+)
+"src/unix/lwt_engine.ml" 262 9294 9323 "src/unix/lwt_engine.ml" 262 9294 9340
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"src/unix/lwt_engine.ml" 262 9294 9341 "src/unix/lwt_engine.ml" 262 9294 9343
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 262 9294 9323 "src/unix/lwt_engine.ml" 262 9294 9343
+call(
+  stack
+)
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 262 9294 9344 "src/unix/lwt_engine.ml" 262 9294 9346
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"src/unix/lwt_engine.ml" 262 9294 9347 "src/unix/lwt_engine.ml" 262 9294 9352
+type(
+  float
+)
+ident(
+  int_ref delay "src/unix/lwt_engine.ml" 251 8889 8921 "src/unix/lwt_engine.ml" 251 8889 8926
+)
+"src/unix/lwt_engine.ml" 262 9294 9323 "src/unix/lwt_engine.ml" 262 9294 9352
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 262 9294 9364 "src/unix/lwt_engine.ml" 262 9294 9369
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 262 9294 9380 "src/unix/lwt_engine.ml" 262 9294 9381
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 251 8889 8934 "src/unix/lwt_engine.ml" 251 8889 8935
+)
+"src/unix/lwt_engine.ml" 262 9294 9314 "src/unix/lwt_engine.ml" 262 9294 9383
+type(
+  sleeper
+)
+"src/unix/lwt_engine.ml" 263 9387 9407 "src/unix/lwt_engine.ml" 263 9387 9414
+type(
+  sleeper
+)
+ident(
+  int_ref sleeper "src/unix/lwt_engine.ml" 262 9294 9304 "src/unix/lwt_engine.ml" 262 9294 9311
+)
+"src/unix/lwt_engine.ml" 263 9387 9418 "src/unix/lwt_engine.ml" 263 9387 9428
+type(
+  sleeper list
+)
+ident(
+  ext_ref new_sleeps
+)
+"src/unix/lwt_engine.ml" 263 9387 9407 "src/unix/lwt_engine.ml" 263 9387 9428
+type(
+  sleeper list
+)
+"src/unix/lwt_engine.ml" 263 9387 9393 "src/unix/lwt_engine.ml" 263 9387 9428
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 264 9430 9441 "src/unix/lwt_engine.ml" 264 9430 9448
+type(
+  sleeper
+)
+ident(
+  int_ref sleeper "src/unix/lwt_engine.ml" 262 9294 9304 "src/unix/lwt_engine.ml" 262 9294 9311
+)
+"src/unix/lwt_engine.ml" 264 9430 9460 "src/unix/lwt_engine.ml" 264 9430 9464
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 264 9430 9440 "src/unix/lwt_engine.ml" 264 9430 9465
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 264 9430 9436 "src/unix/lwt_engine.ml" 264 9430 9465
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 263 9387 9393 "src/unix/lwt_engine.ml" 264 9430 9465
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 261 9275 9288 "src/unix/lwt_engine.ml" 265 9466 9473
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 252 8938 8942 "src/unix/lwt_engine.ml" 265 9466 9473
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 267 9475 9510 "src/unix/lwt_engine.ml" 267 9475 9512
+type(
+  Fd_map.key
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 267 9475 9513 "src/unix/lwt_engine.ml" 278 9821 9916
+)
+"src/unix/lwt_engine.ml" 267 9475 9513 "src/unix/lwt_engine.ml" 267 9475 9514
+type(
+  unit -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 268 9517 9521 "src/unix/lwt_engine.ml" 278 9821 9916
+)
+"src/unix/lwt_engine.ml" 268 9517 9525 "src/unix/lwt_engine.ml" 268 9517 9532
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+ident(
+  def actions "src/unix/lwt_engine.ml" 276 9739 9743 "src/unix/lwt_engine.ml" 278 9821 9916
+)
+"src/unix/lwt_engine.ml" 270 9545 9553 "src/unix/lwt_engine.ml" 270 9545 9564
+type(
+  Fd_map.key ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t -> (unit -> unit) Lwt_sequence.t
+)
+ident(
+  ext_ref Fd_map.find
+)
+"src/unix/lwt_engine.ml" 270 9545 9565 "src/unix/lwt_engine.ml" 270 9545 9567
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 267 9475 9510 "src/unix/lwt_engine.ml" 267 9475 9512
+)
+"src/unix/lwt_engine.ml" 270 9545 9568 "src/unix/lwt_engine.ml" 270 9545 9581
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref wait_readable
+)
+"src/unix/lwt_engine.ml" 270 9545 9553 "src/unix/lwt_engine.ml" 270 9545 9581
+call(
+  stack
+)
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 271 9582 9593 "src/unix/lwt_engine.ml" 271 9582 9602
+type(
+  exn
+)
+"src/unix/lwt_engine.ml" 272 9606 9618 "src/unix/lwt_engine.ml" 272 9606 9625
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+ident(
+  def actions "src/unix/lwt_engine.ml" 273 9654 9662 "src/unix/lwt_engine.ml" 274 9716 9731
+)
+"src/unix/lwt_engine.ml" 272 9606 9628 "src/unix/lwt_engine.ml" 272 9606 9647
+type(
+  unit -> (unit -> unit) Lwt_sequence.t
+)
+ident(
+  ext_ref Lwt_sequence.create
+)
+"src/unix/lwt_engine.ml" 272 9606 9648 "src/unix/lwt_engine.ml" 272 9606 9650
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 272 9606 9628 "src/unix/lwt_engine.ml" 272 9606 9650
+call(
+  stack
+)
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 273 9654 9679 "src/unix/lwt_engine.ml" 273 9654 9689
+type(
+  Fd_map.key ->
+  (unit -> unit) Lwt_sequence.t ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref Fd_map.add
+)
+"src/unix/lwt_engine.ml" 273 9654 9690 "src/unix/lwt_engine.ml" 273 9654 9692
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 267 9475 9510 "src/unix/lwt_engine.ml" 267 9475 9512
+)
+"src/unix/lwt_engine.ml" 273 9654 9693 "src/unix/lwt_engine.ml" 273 9654 9700
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+ident(
+  int_ref actions "src/unix/lwt_engine.ml" 272 9606 9618 "src/unix/lwt_engine.ml" 272 9606 9625
+)
+"src/unix/lwt_engine.ml" 273 9654 9701 "src/unix/lwt_engine.ml" 273 9654 9714
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref wait_readable
+)
+"src/unix/lwt_engine.ml" 273 9654 9679 "src/unix/lwt_engine.ml" 273 9654 9714
+call(
+  stack
+)
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+"src/unix/lwt_engine.ml" 273 9654 9662 "src/unix/lwt_engine.ml" 273 9654 9714
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 274 9716 9724 "src/unix/lwt_engine.ml" 274 9716 9731
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+ident(
+  int_ref actions "src/unix/lwt_engine.ml" 272 9606 9618 "src/unix/lwt_engine.ml" 272 9606 9625
+)
+"src/unix/lwt_engine.ml" 273 9654 9662 "src/unix/lwt_engine.ml" 274 9716 9731
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 272 9606 9614 "src/unix/lwt_engine.ml" 274 9716 9731
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 269 9535 9541 "src/unix/lwt_engine.ml" 274 9716 9731
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 276 9739 9747 "src/unix/lwt_engine.ml" 276 9739 9751
+type(
+  (unit -> unit) Lwt_sequence.node
+)
+ident(
+  def node "src/unix/lwt_engine.ml" 277 9786 9790 "src/unix/lwt_engine.ml" 278 9821 9916
+)
+"src/unix/lwt_engine.ml" 276 9739 9754 "src/unix/lwt_engine.ml" 276 9739 9772
+type(
+  (unit -> unit) ->
+  (unit -> unit) Lwt_sequence.t -> (unit -> unit) Lwt_sequence.node
+)
+ident(
+  ext_ref Lwt_sequence.add_l
+)
+"src/unix/lwt_engine.ml" 276 9739 9773 "src/unix/lwt_engine.ml" 276 9739 9774
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 267 9475 9513 "src/unix/lwt_engine.ml" 267 9475 9514
+)
+"src/unix/lwt_engine.ml" 276 9739 9775 "src/unix/lwt_engine.ml" 276 9739 9782
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+ident(
+  int_ref actions "src/unix/lwt_engine.ml" 268 9517 9525 "src/unix/lwt_engine.ml" 268 9517 9532
+)
+"src/unix/lwt_engine.ml" 276 9739 9754 "src/unix/lwt_engine.ml" 276 9739 9782
+call(
+  stack
+)
+type(
+  (unit -> unit) Lwt_sequence.node
+)
+"src/unix/lwt_engine.ml" 277 9786 9795 "src/unix/lwt_engine.ml" 277 9786 9814
+type(
+  (unit -> unit) Lwt_sequence.node -> unit
+)
+ident(
+  ext_ref Lwt_sequence.remove
+)
+"src/unix/lwt_engine.ml" 277 9786 9815 "src/unix/lwt_engine.ml" 277 9786 9819
+type(
+  (unit -> unit) Lwt_sequence.node
+)
+ident(
+  int_ref node "src/unix/lwt_engine.ml" 276 9739 9747 "src/unix/lwt_engine.ml" 276 9739 9751
+)
+"src/unix/lwt_engine.ml" 277 9786 9795 "src/unix/lwt_engine.ml" 277 9786 9819
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 278 9821 9833 "src/unix/lwt_engine.ml" 278 9821 9854
+type(
+  (unit -> unit) Lwt_sequence.t -> bool
+)
+ident(
+  ext_ref Lwt_sequence.is_empty
+)
+"src/unix/lwt_engine.ml" 278 9821 9855 "src/unix/lwt_engine.ml" 278 9821 9862
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+ident(
+  int_ref actions "src/unix/lwt_engine.ml" 268 9517 9525 "src/unix/lwt_engine.ml" 268 9517 9532
+)
+"src/unix/lwt_engine.ml" 278 9821 9833 "src/unix/lwt_engine.ml" 278 9821 9862
+call(
+  stack
+)
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 278 9821 9885 "src/unix/lwt_engine.ml" 278 9821 9898
+type(
+  Fd_map.key ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref Fd_map.remove
+)
+"src/unix/lwt_engine.ml" 278 9821 9899 "src/unix/lwt_engine.ml" 278 9821 9901
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 267 9475 9510 "src/unix/lwt_engine.ml" 267 9475 9512
+)
+"src/unix/lwt_engine.ml" 278 9821 9902 "src/unix/lwt_engine.ml" 278 9821 9915
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref wait_readable
+)
+"src/unix/lwt_engine.ml" 278 9821 9885 "src/unix/lwt_engine.ml" 278 9821 9915
+call(
+  stack
+)
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+"src/unix/lwt_engine.ml" 278 9821 9868 "src/unix/lwt_engine.ml" 278 9821 9915
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 278 9821 9830 "src/unix/lwt_engine.ml" 278 9821 9915
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 277 9786 9794 "src/unix/lwt_engine.ml" 278 9821 9916
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 277 9786 9790 "src/unix/lwt_engine.ml" 278 9821 9916
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 276 9739 9743 "src/unix/lwt_engine.ml" 278 9821 9916
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 268 9517 9521 "src/unix/lwt_engine.ml" 278 9821 9916
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 280 9918 9953 "src/unix/lwt_engine.ml" 280 9918 9955
+type(
+  Fd_map.key
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 280 9918 9956 "src/unix/lwt_engine.ml" 291 10264 10359
+)
+"src/unix/lwt_engine.ml" 280 9918 9956 "src/unix/lwt_engine.ml" 280 9918 9957
+type(
+  unit -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 281 9960 9964 "src/unix/lwt_engine.ml" 291 10264 10359
+)
+"src/unix/lwt_engine.ml" 281 9960 9968 "src/unix/lwt_engine.ml" 281 9960 9975
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+ident(
+  def actions "src/unix/lwt_engine.ml" 289 10182 10186 "src/unix/lwt_engine.ml" 291 10264 10359
+)
+"src/unix/lwt_engine.ml" 283 9988 9996 "src/unix/lwt_engine.ml" 283 9988 10007
+type(
+  Fd_map.key ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t -> (unit -> unit) Lwt_sequence.t
+)
+ident(
+  ext_ref Fd_map.find
+)
+"src/unix/lwt_engine.ml" 283 9988 10008 "src/unix/lwt_engine.ml" 283 9988 10010
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 280 9918 9953 "src/unix/lwt_engine.ml" 280 9918 9955
+)
+"src/unix/lwt_engine.ml" 283 9988 10011 "src/unix/lwt_engine.ml" 283 9988 10024
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref wait_writable
+)
+"src/unix/lwt_engine.ml" 283 9988 9996 "src/unix/lwt_engine.ml" 283 9988 10024
+call(
+  stack
+)
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 284 10025 10036 "src/unix/lwt_engine.ml" 284 10025 10045
+type(
+  exn
+)
+"src/unix/lwt_engine.ml" 285 10049 10061 "src/unix/lwt_engine.ml" 285 10049 10068
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+ident(
+  def actions "src/unix/lwt_engine.ml" 286 10097 10105 "src/unix/lwt_engine.ml" 287 10159 10174
+)
+"src/unix/lwt_engine.ml" 285 10049 10071 "src/unix/lwt_engine.ml" 285 10049 10090
+type(
+  unit -> (unit -> unit) Lwt_sequence.t
+)
+ident(
+  ext_ref Lwt_sequence.create
+)
+"src/unix/lwt_engine.ml" 285 10049 10091 "src/unix/lwt_engine.ml" 285 10049 10093
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 285 10049 10071 "src/unix/lwt_engine.ml" 285 10049 10093
+call(
+  stack
+)
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 286 10097 10122 "src/unix/lwt_engine.ml" 286 10097 10132
+type(
+  Fd_map.key ->
+  (unit -> unit) Lwt_sequence.t ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref Fd_map.add
+)
+"src/unix/lwt_engine.ml" 286 10097 10133 "src/unix/lwt_engine.ml" 286 10097 10135
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 280 9918 9953 "src/unix/lwt_engine.ml" 280 9918 9955
+)
+"src/unix/lwt_engine.ml" 286 10097 10136 "src/unix/lwt_engine.ml" 286 10097 10143
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+ident(
+  int_ref actions "src/unix/lwt_engine.ml" 285 10049 10061 "src/unix/lwt_engine.ml" 285 10049 10068
+)
+"src/unix/lwt_engine.ml" 286 10097 10144 "src/unix/lwt_engine.ml" 286 10097 10157
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref wait_writable
+)
+"src/unix/lwt_engine.ml" 286 10097 10122 "src/unix/lwt_engine.ml" 286 10097 10157
+call(
+  stack
+)
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+"src/unix/lwt_engine.ml" 286 10097 10105 "src/unix/lwt_engine.ml" 286 10097 10157
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 287 10159 10167 "src/unix/lwt_engine.ml" 287 10159 10174
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+ident(
+  int_ref actions "src/unix/lwt_engine.ml" 285 10049 10061 "src/unix/lwt_engine.ml" 285 10049 10068
+)
+"src/unix/lwt_engine.ml" 286 10097 10105 "src/unix/lwt_engine.ml" 287 10159 10174
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 285 10049 10057 "src/unix/lwt_engine.ml" 287 10159 10174
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 282 9978 9984 "src/unix/lwt_engine.ml" 287 10159 10174
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 289 10182 10190 "src/unix/lwt_engine.ml" 289 10182 10194
+type(
+  (unit -> unit) Lwt_sequence.node
+)
+ident(
+  def node "src/unix/lwt_engine.ml" 290 10229 10233 "src/unix/lwt_engine.ml" 291 10264 10359
+)
+"src/unix/lwt_engine.ml" 289 10182 10197 "src/unix/lwt_engine.ml" 289 10182 10215
+type(
+  (unit -> unit) ->
+  (unit -> unit) Lwt_sequence.t -> (unit -> unit) Lwt_sequence.node
+)
+ident(
+  ext_ref Lwt_sequence.add_l
+)
+"src/unix/lwt_engine.ml" 289 10182 10216 "src/unix/lwt_engine.ml" 289 10182 10217
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 280 9918 9956 "src/unix/lwt_engine.ml" 280 9918 9957
+)
+"src/unix/lwt_engine.ml" 289 10182 10218 "src/unix/lwt_engine.ml" 289 10182 10225
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+ident(
+  int_ref actions "src/unix/lwt_engine.ml" 281 9960 9968 "src/unix/lwt_engine.ml" 281 9960 9975
+)
+"src/unix/lwt_engine.ml" 289 10182 10197 "src/unix/lwt_engine.ml" 289 10182 10225
+call(
+  stack
+)
+type(
+  (unit -> unit) Lwt_sequence.node
+)
+"src/unix/lwt_engine.ml" 290 10229 10238 "src/unix/lwt_engine.ml" 290 10229 10257
+type(
+  (unit -> unit) Lwt_sequence.node -> unit
+)
+ident(
+  ext_ref Lwt_sequence.remove
+)
+"src/unix/lwt_engine.ml" 290 10229 10258 "src/unix/lwt_engine.ml" 290 10229 10262
+type(
+  (unit -> unit) Lwt_sequence.node
+)
+ident(
+  int_ref node "src/unix/lwt_engine.ml" 289 10182 10190 "src/unix/lwt_engine.ml" 289 10182 10194
+)
+"src/unix/lwt_engine.ml" 290 10229 10238 "src/unix/lwt_engine.ml" 290 10229 10262
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 291 10264 10276 "src/unix/lwt_engine.ml" 291 10264 10297
+type(
+  (unit -> unit) Lwt_sequence.t -> bool
+)
+ident(
+  ext_ref Lwt_sequence.is_empty
+)
+"src/unix/lwt_engine.ml" 291 10264 10298 "src/unix/lwt_engine.ml" 291 10264 10305
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+ident(
+  int_ref actions "src/unix/lwt_engine.ml" 281 9960 9968 "src/unix/lwt_engine.ml" 281 9960 9975
+)
+"src/unix/lwt_engine.ml" 291 10264 10276 "src/unix/lwt_engine.ml" 291 10264 10305
+call(
+  stack
+)
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 291 10264 10328 "src/unix/lwt_engine.ml" 291 10264 10341
+type(
+  Fd_map.key ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref Fd_map.remove
+)
+"src/unix/lwt_engine.ml" 291 10264 10342 "src/unix/lwt_engine.ml" 291 10264 10344
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 280 9918 9953 "src/unix/lwt_engine.ml" 280 9918 9955
+)
+"src/unix/lwt_engine.ml" 291 10264 10345 "src/unix/lwt_engine.ml" 291 10264 10358
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref wait_writable
+)
+"src/unix/lwt_engine.ml" 291 10264 10328 "src/unix/lwt_engine.ml" 291 10264 10358
+call(
+  stack
+)
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+"src/unix/lwt_engine.ml" 291 10264 10311 "src/unix/lwt_engine.ml" 291 10264 10358
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 291 10264 10273 "src/unix/lwt_engine.ml" 291 10264 10358
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 290 10229 10237 "src/unix/lwt_engine.ml" 291 10264 10359
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 290 10229 10233 "src/unix/lwt_engine.ml" 291 10264 10359
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 289 10182 10186 "src/unix/lwt_engine.ml" 291 10264 10359
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 281 9960 9964 "src/unix/lwt_engine.ml" 291 10264 10359
+type(
+  unit Lazy.t
+)
+"src/unix/lwt_engine.ml" 294 10365 10400 "src/unix/lwt_engine.ml" 294 10365 10406
+type(
+  < destroy : unit; fake_io : Fd_map.key -> unit; iter : bool -> unit;
+    on_readable : Fd_map.key -> (_event ref -> unit) -> _event ref;
+    on_timer : float -> bool -> (_event ref -> unit) -> _event ref;
+    on_writable : Fd_map.key -> (_event ref -> unit) -> _event ref;
+    readable_count : int; timer_count : int; transfer : abstract -> unit;
+    writable_count : int; .. >
+)
+"src/unix/lwt_engine.ml" 299 10575 10589 "src/unix/lwt_engine.ml" 299 10575 10594
+type(
+  bool
+)
+ident(
+  def block "src/unix/lwt_engine.ml" 302 10692 10696 "src/unix/lwt_engine.ml" 326 11766 11829
+)
+"src/unix/lwt_engine.ml" 302 10692 10711 "src/unix/lwt_engine.ml" 302 10692 10725
+type(
+  (Sleep_queue.t -> Sleep_queue.elt -> Sleep_queue.t) ->
+  Sleep_queue.t -> Sleep_queue.elt list -> Sleep_queue.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/unix/lwt_engine.ml" 302 10692 10731 "src/unix/lwt_engine.ml" 302 10692 10732
+type(
+  Sleep_queue.t
+)
+ident(
+  def q "src/unix/lwt_engine.ml" 302 10692 10733 "src/unix/lwt_engine.ml" 302 10692 10757
+)
+"src/unix/lwt_engine.ml" 302 10692 10733 "src/unix/lwt_engine.ml" 302 10692 10734
+type(
+  Sleep_queue.elt
+)
+ident(
+  def e "src/unix/lwt_engine.ml" 302 10692 10738 "src/unix/lwt_engine.ml" 302 10692 10757
+)
+"src/unix/lwt_engine.ml" 302 10692 10738 "src/unix/lwt_engine.ml" 302 10692 10753
+type(
+  Sleep_queue.elt -> Sleep_queue.t -> Sleep_queue.t
+)
+ident(
+  ext_ref Sleep_queue.add
+)
+"src/unix/lwt_engine.ml" 302 10692 10754 "src/unix/lwt_engine.ml" 302 10692 10755
+type(
+  Sleep_queue.elt
+)
+ident(
+  int_ref e "src/unix/lwt_engine.ml" 302 10692 10733 "src/unix/lwt_engine.ml" 302 10692 10734
+)
+"src/unix/lwt_engine.ml" 302 10692 10756 "src/unix/lwt_engine.ml" 302 10692 10757
+type(
+  Sleep_queue.t
+)
+ident(
+  int_ref q "src/unix/lwt_engine.ml" 302 10692 10731 "src/unix/lwt_engine.ml" 302 10692 10732
+)
+"src/unix/lwt_engine.ml" 302 10692 10738 "src/unix/lwt_engine.ml" 302 10692 10757
+call(
+  tail
+)
+type(
+  Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 302 10692 10726 "src/unix/lwt_engine.ml" 302 10692 10758
+type(
+  Sleep_queue.t -> Sleep_queue.elt -> Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 302 10692 10759 "src/unix/lwt_engine.ml" 302 10692 10770
+type(
+  Sleep_queue.t
+)
+ident(
+  ext_ref sleep_queue
+)
+"src/unix/lwt_engine.ml" 302 10692 10771 "src/unix/lwt_engine.ml" 302 10692 10781
+type(
+  Sleep_queue.elt list
+)
+ident(
+  ext_ref new_sleeps
+)
+"src/unix/lwt_engine.ml" 302 10692 10711 "src/unix/lwt_engine.ml" 302 10692 10781
+call(
+  stack
+)
+type(
+  Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 302 10692 10696 "src/unix/lwt_engine.ml" 302 10692 10781
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 303 10783 10801 "src/unix/lwt_engine.ml" 303 10783 10803
+type(
+  Sleep_queue.elt list
+)
+"src/unix/lwt_engine.ml" 303 10783 10787 "src/unix/lwt_engine.ml" 303 10783 10803
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 305 10841 10849 "src/unix/lwt_engine.ml" 305 10841 10854
+type(
+  Fd_map.key list
+)
+ident(
+  def fds_r "src/unix/lwt_engine.ml" 306 10913 10917 "src/unix/lwt_engine.ml" 326 11766 11829
+)
+"src/unix/lwt_engine.ml" 305 10841 10857 "src/unix/lwt_engine.ml" 305 10841 10868
+type(
+  (Fd_map.key ->
+   (unit -> unit) Lwt_sequence.t -> Fd_map.key list -> Fd_map.key list) ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t ->
+  Fd_map.key list -> Fd_map.key list
+)
+ident(
+  ext_ref Fd_map.fold
+)
+"src/unix/lwt_engine.ml" 305 10841 10874 "src/unix/lwt_engine.ml" 305 10841 10876
+type(
+  Fd_map.key
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 305 10841 10877 "src/unix/lwt_engine.ml" 305 10841 10891
+)
+"src/unix/lwt_engine.ml" 305 10841 10877 "src/unix/lwt_engine.ml" 305 10841 10878
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 305 10841 10879 "src/unix/lwt_engine.ml" 305 10841 10880
+type(
+  Fd_map.key list
+)
+ident(
+  def l "src/unix/lwt_engine.ml" 305 10841 10884 "src/unix/lwt_engine.ml" 305 10841 10891
+)
+"src/unix/lwt_engine.ml" 305 10841 10884 "src/unix/lwt_engine.ml" 305 10841 10886
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 305 10841 10874 "src/unix/lwt_engine.ml" 305 10841 10876
+)
+"src/unix/lwt_engine.ml" 305 10841 10890 "src/unix/lwt_engine.ml" 305 10841 10891
+type(
+  Fd_map.key list
+)
+ident(
+  int_ref l "src/unix/lwt_engine.ml" 305 10841 10879 "src/unix/lwt_engine.ml" 305 10841 10880
+)
+"src/unix/lwt_engine.ml" 305 10841 10884 "src/unix/lwt_engine.ml" 305 10841 10891
+type(
+  Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 305 10841 10869 "src/unix/lwt_engine.ml" 305 10841 10892
+type(
+  Fd_map.key ->
+  (unit -> unit) Lwt_sequence.t -> Fd_map.key list -> Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 305 10841 10893 "src/unix/lwt_engine.ml" 305 10841 10906
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref wait_readable
+)
+"src/unix/lwt_engine.ml" 305 10841 10907 "src/unix/lwt_engine.ml" 305 10841 10909
+type(
+  Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 305 10841 10857 "src/unix/lwt_engine.ml" 305 10841 10909
+call(
+  stack
+)
+type(
+  Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 306 10913 10921 "src/unix/lwt_engine.ml" 306 10913 10926
+type(
+  Fd_map.key list
+)
+ident(
+  def fds_w "src/unix/lwt_engine.ml" 308 11016 11020 "src/unix/lwt_engine.ml" 326 11766 11829
+)
+"src/unix/lwt_engine.ml" 306 10913 10929 "src/unix/lwt_engine.ml" 306 10913 10940
+type(
+  (Fd_map.key ->
+   (unit -> unit) Lwt_sequence.t -> Fd_map.key list -> Fd_map.key list) ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t ->
+  Fd_map.key list -> Fd_map.key list
+)
+ident(
+  ext_ref Fd_map.fold
+)
+"src/unix/lwt_engine.ml" 306 10913 10946 "src/unix/lwt_engine.ml" 306 10913 10948
+type(
+  Fd_map.key
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 306 10913 10949 "src/unix/lwt_engine.ml" 306 10913 10963
+)
+"src/unix/lwt_engine.ml" 306 10913 10949 "src/unix/lwt_engine.ml" 306 10913 10950
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 306 10913 10951 "src/unix/lwt_engine.ml" 306 10913 10952
+type(
+  Fd_map.key list
+)
+ident(
+  def l "src/unix/lwt_engine.ml" 306 10913 10956 "src/unix/lwt_engine.ml" 306 10913 10963
+)
+"src/unix/lwt_engine.ml" 306 10913 10956 "src/unix/lwt_engine.ml" 306 10913 10958
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 306 10913 10946 "src/unix/lwt_engine.ml" 306 10913 10948
+)
+"src/unix/lwt_engine.ml" 306 10913 10962 "src/unix/lwt_engine.ml" 306 10913 10963
+type(
+  Fd_map.key list
+)
+ident(
+  int_ref l "src/unix/lwt_engine.ml" 306 10913 10951 "src/unix/lwt_engine.ml" 306 10913 10952
+)
+"src/unix/lwt_engine.ml" 306 10913 10956 "src/unix/lwt_engine.ml" 306 10913 10963
+type(
+  Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 306 10913 10941 "src/unix/lwt_engine.ml" 306 10913 10964
+type(
+  Fd_map.key ->
+  (unit -> unit) Lwt_sequence.t -> Fd_map.key list -> Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 306 10913 10965 "src/unix/lwt_engine.ml" 306 10913 10978
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref wait_writable
+)
+"src/unix/lwt_engine.ml" 306 10913 10979 "src/unix/lwt_engine.ml" 306 10913 10981
+type(
+  Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 306 10913 10929 "src/unix/lwt_engine.ml" 306 10913 10981
+call(
+  stack
+)
+type(
+  Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 308 11016 11024 "src/unix/lwt_engine.ml" 308 11016 11031
+type(
+  float
+)
+ident(
+  def timeout "src/unix/lwt_engine.ml" 310 11119 11123 "src/unix/lwt_engine.ml" 326 11766 11829
+)
+"src/unix/lwt_engine.ml" 308 11016 11037 "src/unix/lwt_engine.ml" 308 11016 11042
+type(
+  bool
+)
+ident(
+  int_ref block "src/unix/lwt_engine.ml" 299 10575 10589 "src/unix/lwt_engine.ml" 299 10575 10594
+)
+"src/unix/lwt_engine.ml" 308 11016 11048 "src/unix/lwt_engine.ml" 308 11016 11064
+type(
+  Sleep_queue.t -> float
+)
+ident(
+  int_ref get_next_timeout "src/unix/lwt_engine.ml" 208 7635 7643 "src/unix/lwt_engine.ml" 208 7635 7659
+)
+"src/unix/lwt_engine.ml" 308 11016 11065 "src/unix/lwt_engine.ml" 308 11016 11076
+type(
+  Sleep_queue.t
+)
+ident(
+  ext_ref sleep_queue
+)
+"src/unix/lwt_engine.ml" 308 11016 11048 "src/unix/lwt_engine.ml" 308 11016 11076
+call(
+  stack
+)
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 308 11016 11082 "src/unix/lwt_engine.ml" 308 11016 11084
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 308 11016 11034 "src/unix/lwt_engine.ml" 308 11016 11084
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 310 11119 11127 "src/unix/lwt_engine.ml" 310 11119 11132
+type(
+  Fd_map.key list
+)
+ident(
+  def fds_r "src/unix/lwt_engine.ml" 323 11573 11577 "src/unix/lwt_engine.ml" 326 11766 11829
+)
+"src/unix/lwt_engine.ml" 310 11119 11134 "src/unix/lwt_engine.ml" 310 11119 11139
+type(
+  Fd_map.key list
+)
+ident(
+  def fds_w "src/unix/lwt_engine.ml" 323 11573 11577 "src/unix/lwt_engine.ml" 326 11766 11829
+)
+"src/unix/lwt_engine.ml" 310 11119 11127 "src/unix/lwt_engine.ml" 310 11119 11139
+type(
+  Fd_map.key list * Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 312 11152 11160 "src/unix/lwt_engine.ml" 312 11152 11164
+type(
+  < destroy : unit; fake_io : Fd_map.key -> unit; iter : bool -> unit;
+    on_readable : Fd_map.key -> (_event ref -> unit) -> _event ref;
+    on_timer : float -> bool -> (_event ref -> unit) -> _event ref;
+    on_writable : Fd_map.key -> (_event ref -> unit) -> _event ref;
+    readable_count : int; timer_count : int; transfer : abstract -> unit;
+    writable_count : int; .. >
+  as 'a
+)
+ident(
+  int_ref self "src/unix/lwt_engine.ml" 294 10365 10400 "src/unix/lwt_engine.ml" 294 10365 10406
+)
+"src/unix/lwt_engine.ml" 312 11152 11160 "src/unix/lwt_engine.ml" 312 11152 11171
+call(
+  stack
+)
+type(
+  Fd_map.key list ->
+  Fd_map.key list -> float -> Fd_map.key list * Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 312 11152 11172 "src/unix/lwt_engine.ml" 312 11152 11177
+type(
+  Fd_map.key list
+)
+ident(
+  int_ref fds_r "src/unix/lwt_engine.ml" 305 10841 10849 "src/unix/lwt_engine.ml" 305 10841 10854
+)
+"src/unix/lwt_engine.ml" 312 11152 11178 "src/unix/lwt_engine.ml" 312 11152 11183
+type(
+  Fd_map.key list
+)
+ident(
+  int_ref fds_w "src/unix/lwt_engine.ml" 306 10913 10921 "src/unix/lwt_engine.ml" 306 10913 10926
+)
+"src/unix/lwt_engine.ml" 312 11152 11184 "src/unix/lwt_engine.ml" 312 11152 11191
+type(
+  float
+)
+ident(
+  int_ref timeout "src/unix/lwt_engine.ml" 308 11016 11024 "src/unix/lwt_engine.ml" 308 11016 11031
+)
+"src/unix/lwt_engine.ml" 312 11152 11160 "src/unix/lwt_engine.ml" 312 11152 11191
+type(
+  Fd_map.key list * Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 314 11203 11230 "src/unix/lwt_engine.ml" 314 11203 11240
+type(
+  Unix.error
+)
+"src/unix/lwt_engine.ml" 314 11203 11242 "src/unix/lwt_engine.ml" 314 11203 11243
+type(
+  string
+)
+"src/unix/lwt_engine.ml" 314 11203 11245 "src/unix/lwt_engine.ml" 314 11203 11246
+type(
+  string
+)
+"src/unix/lwt_engine.ml" 314 11203 11213 "src/unix/lwt_engine.ml" 314 11203 11247
+type(
+  exn
+)
+"src/unix/lwt_engine.ml" 315 11251 11264 "src/unix/lwt_engine.ml" 315 11251 11266
+type(
+  Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 315 11251 11268 "src/unix/lwt_engine.ml" 315 11251 11270
+type(
+  Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 315 11251 11263 "src/unix/lwt_engine.ml" 315 11251 11271
+type(
+  Fd_map.key list * Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 316 11272 11299 "src/unix/lwt_engine.ml" 316 11272 11309
+type(
+  Unix.error
+)
+"src/unix/lwt_engine.ml" 316 11272 11311 "src/unix/lwt_engine.ml" 316 11272 11312
+type(
+  string
+)
+"src/unix/lwt_engine.ml" 316 11272 11314 "src/unix/lwt_engine.ml" 316 11272 11315
+type(
+  string
+)
+"src/unix/lwt_engine.ml" 316 11272 11282 "src/unix/lwt_engine.ml" 316 11272 11316
+type(
+  exn
+)
+"src/unix/lwt_engine.ml" 319 11439 11452 "src/unix/lwt_engine.ml" 319 11439 11463
+type(
+  (Fd_map.key -> bool) -> Fd_map.key list -> Fd_map.key list
+)
+ident(
+  ext_ref List.filter
+)
+"src/unix/lwt_engine.ml" 319 11439 11464 "src/unix/lwt_engine.ml" 319 11439 11470
+type(
+  Fd_map.key -> bool
+)
+ident(
+  int_ref bad_fd "src/unix/lwt_engine.ml" 217 7918 7922 "src/unix/lwt_engine.ml" 217 7918 7928
+)
+"src/unix/lwt_engine.ml" 319 11439 11471 "src/unix/lwt_engine.ml" 319 11439 11476
+type(
+  Fd_map.key list
+)
+ident(
+  int_ref fds_r "src/unix/lwt_engine.ml" 305 10841 10849 "src/unix/lwt_engine.ml" 305 10841 10854
+)
+"src/unix/lwt_engine.ml" 319 11439 11452 "src/unix/lwt_engine.ml" 319 11439 11476
+call(
+  stack
+)
+type(
+  Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 320 11478 11491 "src/unix/lwt_engine.ml" 320 11478 11502
+type(
+  (Fd_map.key -> bool) -> Fd_map.key list -> Fd_map.key list
+)
+ident(
+  ext_ref List.filter
+)
+"src/unix/lwt_engine.ml" 320 11478 11503 "src/unix/lwt_engine.ml" 320 11478 11509
+type(
+  Fd_map.key -> bool
+)
+ident(
+  int_ref bad_fd "src/unix/lwt_engine.ml" 217 7918 7922 "src/unix/lwt_engine.ml" 217 7918 7928
+)
+"src/unix/lwt_engine.ml" 320 11478 11510 "src/unix/lwt_engine.ml" 320 11478 11515
+type(
+  Fd_map.key list
+)
+ident(
+  int_ref fds_w "src/unix/lwt_engine.ml" 306 10913 10921 "src/unix/lwt_engine.ml" 306 10913 10926
+)
+"src/unix/lwt_engine.ml" 320 11478 11491 "src/unix/lwt_engine.ml" 320 11478 11515
+call(
+  stack
+)
+type(
+  Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 319 11439 11451 "src/unix/lwt_engine.ml" 320 11478 11516
+type(
+  Fd_map.key list * Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 311 11142 11148 "src/unix/lwt_engine.ml" 320 11478 11516
+type(
+  Fd_map.key list * Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 323 11573 11592 "src/unix/lwt_engine.ml" 323 11573 11607
+type(
+  Sleep_queue.t -> float -> Sleep_queue.t
+)
+ident(
+  int_ref restart_actions "src/unix/lwt_engine.ml" 193 7000 7008 "src/unix/lwt_engine.ml" 193 7000 7023
+)
+"src/unix/lwt_engine.ml" 323 11573 11608 "src/unix/lwt_engine.ml" 323 11573 11619
+type(
+  Sleep_queue.t
+)
+ident(
+  ext_ref sleep_queue
+)
+"src/unix/lwt_engine.ml" 323 11573 11621 "src/unix/lwt_engine.ml" 323 11573 11638
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"src/unix/lwt_engine.ml" 323 11573 11639 "src/unix/lwt_engine.ml" 323 11573 11641
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 323 11573 11620 "src/unix/lwt_engine.ml" 323 11573 11642
+call(
+  stack
+)
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 323 11573 11592 "src/unix/lwt_engine.ml" 323 11573 11642
+call(
+  stack
+)
+type(
+  Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 323 11573 11577 "src/unix/lwt_engine.ml" 323 11573 11642
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 325 11701 11705 "src/unix/lwt_engine.ml" 325 11701 11714
+type(
+  (Fd_map.key -> unit) -> Fd_map.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/unix/lwt_engine.ml" 325 11701 11720 "src/unix/lwt_engine.ml" 325 11701 11722
+type(
+  Fd_map.key
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 325 11701 11726 "src/unix/lwt_engine.ml" 325 11701 11757
+)
+"src/unix/lwt_engine.ml" 325 11701 11726 "src/unix/lwt_engine.ml" 325 11701 11740
+type(
+  Fd_map.key -> (unit -> unit) Lwt_sequence.t Fd_map.t -> unit
+)
+ident(
+  int_ref invoke_actions "src/unix/lwt_engine.ml" 224 8025 8029 "src/unix/lwt_engine.ml" 224 8025 8043
+)
+"src/unix/lwt_engine.ml" 325 11701 11741 "src/unix/lwt_engine.ml" 325 11701 11743
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 325 11701 11720 "src/unix/lwt_engine.ml" 325 11701 11722
+)
+"src/unix/lwt_engine.ml" 325 11701 11744 "src/unix/lwt_engine.ml" 325 11701 11757
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref wait_readable
+)
+"src/unix/lwt_engine.ml" 325 11701 11726 "src/unix/lwt_engine.ml" 325 11701 11757
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 325 11701 11715 "src/unix/lwt_engine.ml" 325 11701 11758
+type(
+  Fd_map.key -> unit
+)
+"src/unix/lwt_engine.ml" 325 11701 11759 "src/unix/lwt_engine.ml" 325 11701 11764
+type(
+  Fd_map.key list
+)
+ident(
+  int_ref fds_r "src/unix/lwt_engine.ml" 310 11119 11127 "src/unix/lwt_engine.ml" 310 11119 11132
+)
+"src/unix/lwt_engine.ml" 325 11701 11705 "src/unix/lwt_engine.ml" 325 11701 11764
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 326 11766 11770 "src/unix/lwt_engine.ml" 326 11766 11779
+type(
+  (Fd_map.key -> unit) -> Fd_map.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/unix/lwt_engine.ml" 326 11766 11785 "src/unix/lwt_engine.ml" 326 11766 11787
+type(
+  Fd_map.key
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 326 11766 11791 "src/unix/lwt_engine.ml" 326 11766 11822
+)
+"src/unix/lwt_engine.ml" 326 11766 11791 "src/unix/lwt_engine.ml" 326 11766 11805
+type(
+  Fd_map.key -> (unit -> unit) Lwt_sequence.t Fd_map.t -> unit
+)
+ident(
+  int_ref invoke_actions "src/unix/lwt_engine.ml" 224 8025 8029 "src/unix/lwt_engine.ml" 224 8025 8043
+)
+"src/unix/lwt_engine.ml" 326 11766 11806 "src/unix/lwt_engine.ml" 326 11766 11808
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 326 11766 11785 "src/unix/lwt_engine.ml" 326 11766 11787
+)
+"src/unix/lwt_engine.ml" 326 11766 11809 "src/unix/lwt_engine.ml" 326 11766 11822
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref wait_writable
+)
+"src/unix/lwt_engine.ml" 326 11766 11791 "src/unix/lwt_engine.ml" 326 11766 11822
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 326 11766 11780 "src/unix/lwt_engine.ml" 326 11766 11823
+type(
+  Fd_map.key -> unit
+)
+"src/unix/lwt_engine.ml" 326 11766 11824 "src/unix/lwt_engine.ml" 326 11766 11829
+type(
+  Fd_map.key list
+)
+ident(
+  int_ref fds_w "src/unix/lwt_engine.ml" 310 11119 11134 "src/unix/lwt_engine.ml" 310 11119 11139
+)
+"src/unix/lwt_engine.ml" 326 11766 11770 "src/unix/lwt_engine.ml" 326 11766 11829
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 325 11701 11705 "src/unix/lwt_engine.ml" 326 11766 11829
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 323 11573 11577 "src/unix/lwt_engine.ml" 326 11766 11829
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 310 11119 11123 "src/unix/lwt_engine.ml" 326 11766 11829
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 308 11016 11020 "src/unix/lwt_engine.ml" 326 11766 11829
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 306 10913 10917 "src/unix/lwt_engine.ml" 326 11766 11829
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 305 10841 10845 "src/unix/lwt_engine.ml" 326 11766 11829
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 303 10783 10787 "src/unix/lwt_engine.ml" 326 11766 11829
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 302 10692 10696 "src/unix/lwt_engine.ml" 326 11766 11829
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 329 11835 11868 "src/unix/lwt_engine.ml" 329 11835 11874
+type(
+  < destroy : unit; fake_io : Fd_map.key -> unit; iter : bool -> unit;
+    on_readable : Fd_map.key -> (_event ref -> unit) -> _event ref;
+    on_timer : float -> bool -> (_event ref -> unit) -> _event ref;
+    on_writable : Fd_map.key -> (_event ref -> unit) -> _event ref;
+    readable_count : int; timer_count : int; transfer : abstract -> unit;
+    writable_count : int; .. >
+)
+"src/unix/lwt_engine.ml" 334 12026 12040 "src/unix/lwt_engine.ml" 334 12026 12045
+type(
+  bool
+)
+ident(
+  def block "src/unix/lwt_engine.ml" 337 12143 12147 "src/unix/lwt_engine.ml" 364 13326 13335
+)
+"src/unix/lwt_engine.ml" 337 12143 12162 "src/unix/lwt_engine.ml" 337 12143 12176
+type(
+  (Sleep_queue.t -> Sleep_queue.elt -> Sleep_queue.t) ->
+  Sleep_queue.t -> Sleep_queue.elt list -> Sleep_queue.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/unix/lwt_engine.ml" 337 12143 12182 "src/unix/lwt_engine.ml" 337 12143 12183
+type(
+  Sleep_queue.t
+)
+ident(
+  def q "src/unix/lwt_engine.ml" 337 12143 12184 "src/unix/lwt_engine.ml" 337 12143 12208
+)
+"src/unix/lwt_engine.ml" 337 12143 12184 "src/unix/lwt_engine.ml" 337 12143 12185
+type(
+  Sleep_queue.elt
+)
+ident(
+  def e "src/unix/lwt_engine.ml" 337 12143 12189 "src/unix/lwt_engine.ml" 337 12143 12208
+)
+"src/unix/lwt_engine.ml" 337 12143 12189 "src/unix/lwt_engine.ml" 337 12143 12204
+type(
+  Sleep_queue.elt -> Sleep_queue.t -> Sleep_queue.t
+)
+ident(
+  ext_ref Sleep_queue.add
+)
+"src/unix/lwt_engine.ml" 337 12143 12205 "src/unix/lwt_engine.ml" 337 12143 12206
+type(
+  Sleep_queue.elt
+)
+ident(
+  int_ref e "src/unix/lwt_engine.ml" 337 12143 12184 "src/unix/lwt_engine.ml" 337 12143 12185
+)
+"src/unix/lwt_engine.ml" 337 12143 12207 "src/unix/lwt_engine.ml" 337 12143 12208
+type(
+  Sleep_queue.t
+)
+ident(
+  int_ref q "src/unix/lwt_engine.ml" 337 12143 12182 "src/unix/lwt_engine.ml" 337 12143 12183
+)
+"src/unix/lwt_engine.ml" 337 12143 12189 "src/unix/lwt_engine.ml" 337 12143 12208
+call(
+  tail
+)
+type(
+  Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 337 12143 12177 "src/unix/lwt_engine.ml" 337 12143 12209
+type(
+  Sleep_queue.t -> Sleep_queue.elt -> Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 337 12143 12210 "src/unix/lwt_engine.ml" 337 12143 12221
+type(
+  Sleep_queue.t
+)
+ident(
+  ext_ref sleep_queue
+)
+"src/unix/lwt_engine.ml" 337 12143 12222 "src/unix/lwt_engine.ml" 337 12143 12232
+type(
+  Sleep_queue.elt list
+)
+ident(
+  ext_ref new_sleeps
+)
+"src/unix/lwt_engine.ml" 337 12143 12162 "src/unix/lwt_engine.ml" 337 12143 12232
+call(
+  stack
+)
+type(
+  Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 337 12143 12147 "src/unix/lwt_engine.ml" 337 12143 12232
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 338 12234 12252 "src/unix/lwt_engine.ml" 338 12234 12254
+type(
+  Sleep_queue.elt list
+)
+"src/unix/lwt_engine.ml" 338 12234 12238 "src/unix/lwt_engine.ml" 338 12234 12254
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 340 12292 12300 "src/unix/lwt_engine.ml" 340 12292 12303
+type(
+  'a list
+)
+ident(
+  def fds "src/unix/lwt_engine.ml" 341 12312 12316 "src/unix/lwt_engine.ml" 364 13326 13335
+)
+"src/unix/lwt_engine.ml" 340 12292 12306 "src/unix/lwt_engine.ml" 340 12292 12308
+type(
+  'a list
+)
+"src/unix/lwt_engine.ml" 341 12312 12320 "src/unix/lwt_engine.ml" 341 12312 12323
+type(
+  (Fd_map.key * bool * bool) list
+)
+ident(
+  def fds "src/unix/lwt_engine.ml" 342 12398 12402 "src/unix/lwt_engine.ml" 364 13326 13335
+)
+"src/unix/lwt_engine.ml" 341 12312 12326 "src/unix/lwt_engine.ml" 341 12312 12337
+type(
+  (Fd_map.key ->
+   (unit -> unit) Lwt_sequence.t ->
+   (Fd_map.key * bool * bool) list -> (Fd_map.key * bool * bool) list) ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t ->
+  (Fd_map.key * bool * bool) list -> (Fd_map.key * bool * bool) list
+)
+ident(
+  ext_ref Fd_map.fold
+)
+"src/unix/lwt_engine.ml" 341 12312 12343 "src/unix/lwt_engine.ml" 341 12312 12345
+type(
+  Fd_map.key
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 341 12312 12346 "src/unix/lwt_engine.ml" 341 12312 12375
+)
+"src/unix/lwt_engine.ml" 341 12312 12346 "src/unix/lwt_engine.ml" 341 12312 12347
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 341 12312 12348 "src/unix/lwt_engine.ml" 341 12312 12349
+type(
+  (Fd_map.key * bool * bool) list
+)
+ident(
+  def l "src/unix/lwt_engine.ml" 341 12312 12353 "src/unix/lwt_engine.ml" 341 12312 12375
+)
+"src/unix/lwt_engine.ml" 341 12312 12354 "src/unix/lwt_engine.ml" 341 12312 12356
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 341 12312 12343 "src/unix/lwt_engine.ml" 341 12312 12345
+)
+"src/unix/lwt_engine.ml" 341 12312 12358 "src/unix/lwt_engine.ml" 341 12312 12362
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 341 12312 12364 "src/unix/lwt_engine.ml" 341 12312 12369
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 341 12312 12353 "src/unix/lwt_engine.ml" 341 12312 12370
+type(
+  Fd_map.key * bool * bool
+)
+"src/unix/lwt_engine.ml" 341 12312 12374 "src/unix/lwt_engine.ml" 341 12312 12375
+type(
+  (Fd_map.key * bool * bool) list
+)
+ident(
+  int_ref l "src/unix/lwt_engine.ml" 341 12312 12348 "src/unix/lwt_engine.ml" 341 12312 12349
+)
+"src/unix/lwt_engine.ml" 341 12312 12353 "src/unix/lwt_engine.ml" 341 12312 12375
+type(
+  (Fd_map.key * bool * bool) list
+)
+"src/unix/lwt_engine.ml" 341 12312 12338 "src/unix/lwt_engine.ml" 341 12312 12376
+type(
+  Fd_map.key ->
+  (unit -> unit) Lwt_sequence.t ->
+  (Fd_map.key * bool * bool) list -> (Fd_map.key * bool * bool) list
+)
+"src/unix/lwt_engine.ml" 341 12312 12377 "src/unix/lwt_engine.ml" 341 12312 12390
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref wait_readable
+)
+"src/unix/lwt_engine.ml" 341 12312 12391 "src/unix/lwt_engine.ml" 341 12312 12394
+type(
+  (Fd_map.key * bool * bool) list
+)
+ident(
+  int_ref fds "src/unix/lwt_engine.ml" 340 12292 12300 "src/unix/lwt_engine.ml" 340 12292 12303
+)
+"src/unix/lwt_engine.ml" 341 12312 12326 "src/unix/lwt_engine.ml" 341 12312 12394
+call(
+  stack
+)
+type(
+  (Fd_map.key * bool * bool) list
+)
+"src/unix/lwt_engine.ml" 342 12398 12406 "src/unix/lwt_engine.ml" 342 12398 12409
+type(
+  (Fd_map.key * bool * bool) list
+)
+ident(
+  def fds "src/unix/lwt_engine.ml" 344 12515 12519 "src/unix/lwt_engine.ml" 364 13326 13335
+)
+"src/unix/lwt_engine.ml" 342 12398 12412 "src/unix/lwt_engine.ml" 342 12398 12423
+type(
+  (Fd_map.key ->
+   (unit -> unit) Lwt_sequence.t ->
+   (Fd_map.key * bool * bool) list -> (Fd_map.key * bool * bool) list) ->
+  (unit -> unit) Lwt_sequence.t Fd_map.t ->
+  (Fd_map.key * bool * bool) list -> (Fd_map.key * bool * bool) list
+)
+ident(
+  ext_ref Fd_map.fold
+)
+"src/unix/lwt_engine.ml" 342 12398 12429 "src/unix/lwt_engine.ml" 342 12398 12431
+type(
+  Fd_map.key
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 342 12398 12432 "src/unix/lwt_engine.ml" 342 12398 12461
+)
+"src/unix/lwt_engine.ml" 342 12398 12432 "src/unix/lwt_engine.ml" 342 12398 12433
+type(
+  (unit -> unit) Lwt_sequence.t
+)
+"src/unix/lwt_engine.ml" 342 12398 12434 "src/unix/lwt_engine.ml" 342 12398 12435
+type(
+  (Fd_map.key * bool * bool) list
+)
+ident(
+  def l "src/unix/lwt_engine.ml" 342 12398 12439 "src/unix/lwt_engine.ml" 342 12398 12461
+)
+"src/unix/lwt_engine.ml" 342 12398 12440 "src/unix/lwt_engine.ml" 342 12398 12442
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 342 12398 12429 "src/unix/lwt_engine.ml" 342 12398 12431
+)
+"src/unix/lwt_engine.ml" 342 12398 12444 "src/unix/lwt_engine.ml" 342 12398 12449
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 342 12398 12451 "src/unix/lwt_engine.ml" 342 12398 12455
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 342 12398 12439 "src/unix/lwt_engine.ml" 342 12398 12456
+type(
+  Fd_map.key * bool * bool
+)
+"src/unix/lwt_engine.ml" 342 12398 12460 "src/unix/lwt_engine.ml" 342 12398 12461
+type(
+  (Fd_map.key * bool * bool) list
+)
+ident(
+  int_ref l "src/unix/lwt_engine.ml" 342 12398 12434 "src/unix/lwt_engine.ml" 342 12398 12435
+)
+"src/unix/lwt_engine.ml" 342 12398 12439 "src/unix/lwt_engine.ml" 342 12398 12461
+type(
+  (Fd_map.key * bool * bool) list
+)
+"src/unix/lwt_engine.ml" 342 12398 12424 "src/unix/lwt_engine.ml" 342 12398 12462
+type(
+  Fd_map.key ->
+  (unit -> unit) Lwt_sequence.t ->
+  (Fd_map.key * bool * bool) list -> (Fd_map.key * bool * bool) list
+)
+"src/unix/lwt_engine.ml" 342 12398 12463 "src/unix/lwt_engine.ml" 342 12398 12476
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref wait_writable
+)
+"src/unix/lwt_engine.ml" 342 12398 12477 "src/unix/lwt_engine.ml" 342 12398 12480
+type(
+  (Fd_map.key * bool * bool) list
+)
+ident(
+  int_ref fds "src/unix/lwt_engine.ml" 341 12312 12320 "src/unix/lwt_engine.ml" 341 12312 12323
+)
+"src/unix/lwt_engine.ml" 342 12398 12412 "src/unix/lwt_engine.ml" 342 12398 12480
+call(
+  stack
+)
+type(
+  (Fd_map.key * bool * bool) list
+)
+"src/unix/lwt_engine.ml" 344 12515 12523 "src/unix/lwt_engine.ml" 344 12515 12530
+type(
+  float
+)
+ident(
+  def timeout "src/unix/lwt_engine.ml" 346 12618 12622 "src/unix/lwt_engine.ml" 364 13326 13335
+)
+"src/unix/lwt_engine.ml" 344 12515 12536 "src/unix/lwt_engine.ml" 344 12515 12541
+type(
+  bool
+)
+ident(
+  int_ref block "src/unix/lwt_engine.ml" 334 12026 12040 "src/unix/lwt_engine.ml" 334 12026 12045
+)
+"src/unix/lwt_engine.ml" 344 12515 12547 "src/unix/lwt_engine.ml" 344 12515 12563
+type(
+  Sleep_queue.t -> float
+)
+ident(
+  int_ref get_next_timeout "src/unix/lwt_engine.ml" 208 7635 7643 "src/unix/lwt_engine.ml" 208 7635 7659
+)
+"src/unix/lwt_engine.ml" 344 12515 12564 "src/unix/lwt_engine.ml" 344 12515 12575
+type(
+  Sleep_queue.t
+)
+ident(
+  ext_ref sleep_queue
+)
+"src/unix/lwt_engine.ml" 344 12515 12547 "src/unix/lwt_engine.ml" 344 12515 12575
+call(
+  stack
+)
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 344 12515 12581 "src/unix/lwt_engine.ml" 344 12515 12583
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 344 12515 12533 "src/unix/lwt_engine.ml" 344 12515 12583
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 346 12618 12626 "src/unix/lwt_engine.ml" 346 12618 12629
+type(
+  (Fd_map.key * bool * bool) list
+)
+ident(
+  def fds "src/unix/lwt_engine.ml" 358 13027 13031 "src/unix/lwt_engine.ml" 364 13326 13335
+)
+"src/unix/lwt_engine.ml" 348 12642 12650 "src/unix/lwt_engine.ml" 348 12642 12654
+type(
+  < destroy : unit; fake_io : Fd_map.key -> unit; iter : bool -> unit;
+    on_readable : Fd_map.key -> (_event ref -> unit) -> _event ref;
+    on_timer : float -> bool -> (_event ref -> unit) -> _event ref;
+    on_writable : Fd_map.key -> (_event ref -> unit) -> _event ref;
+    readable_count : int; timer_count : int; transfer : abstract -> unit;
+    writable_count : int; .. >
+  as 'b
+)
+ident(
+  int_ref self "src/unix/lwt_engine.ml" 329 11835 11868 "src/unix/lwt_engine.ml" 329 11835 11874
+)
+"src/unix/lwt_engine.ml" 348 12642 12650 "src/unix/lwt_engine.ml" 348 12642 12659
+call(
+  stack
+)
+type(
+  (Fd_map.key * bool * bool) list -> float -> (Fd_map.key * bool * bool) list
+)
+"src/unix/lwt_engine.ml" 348 12642 12660 "src/unix/lwt_engine.ml" 348 12642 12663
+type(
+  (Fd_map.key * bool * bool) list
+)
+ident(
+  int_ref fds "src/unix/lwt_engine.ml" 342 12398 12406 "src/unix/lwt_engine.ml" 342 12398 12409
+)
+"src/unix/lwt_engine.ml" 348 12642 12664 "src/unix/lwt_engine.ml" 348 12642 12671
+type(
+  float
+)
+ident(
+  int_ref timeout "src/unix/lwt_engine.ml" 344 12515 12523 "src/unix/lwt_engine.ml" 344 12515 12530
+)
+"src/unix/lwt_engine.ml" 348 12642 12650 "src/unix/lwt_engine.ml" 348 12642 12671
+type(
+  (Fd_map.key * bool * bool) list
+)
+"src/unix/lwt_engine.ml" 350 12683 12710 "src/unix/lwt_engine.ml" 350 12683 12720
+type(
+  Unix.error
+)
+"src/unix/lwt_engine.ml" 350 12683 12722 "src/unix/lwt_engine.ml" 350 12683 12723
+type(
+  string
+)
+"src/unix/lwt_engine.ml" 350 12683 12725 "src/unix/lwt_engine.ml" 350 12683 12726
+type(
+  string
+)
+"src/unix/lwt_engine.ml" 350 12683 12693 "src/unix/lwt_engine.ml" 350 12683 12727
+type(
+  exn
+)
+"src/unix/lwt_engine.ml" 351 12731 12743 "src/unix/lwt_engine.ml" 351 12731 12745
+type(
+  (Fd_map.key * bool * bool) list
+)
+"src/unix/lwt_engine.ml" 352 12746 12773 "src/unix/lwt_engine.ml" 352 12746 12783
+type(
+  Unix.error
+)
+"src/unix/lwt_engine.ml" 352 12746 12785 "src/unix/lwt_engine.ml" 352 12746 12786
+type(
+  string
+)
+"src/unix/lwt_engine.ml" 352 12746 12788 "src/unix/lwt_engine.ml" 352 12746 12789
+type(
+  string
+)
+"src/unix/lwt_engine.ml" 352 12746 12756 "src/unix/lwt_engine.ml" 352 12746 12790
+type(
+  exn
+)
+"src/unix/lwt_engine.ml" 355 12913 12925 "src/unix/lwt_engine.ml" 355 12913 12936
+type(
+  (Fd_map.key * bool * bool -> bool) ->
+  (Fd_map.key * bool * bool) list -> (Fd_map.key * bool * bool) list
+)
+ident(
+  ext_ref List.filter
+)
+"src/unix/lwt_engine.ml" 355 12913 12943 "src/unix/lwt_engine.ml" 355 12913 12945
+type(
+  Fd_map.key
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 355 12913 12956 "src/unix/lwt_engine.ml" 355 12913 12965
+)
+"src/unix/lwt_engine.ml" 355 12913 12947 "src/unix/lwt_engine.ml" 355 12913 12948
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 355 12913 12950 "src/unix/lwt_engine.ml" 355 12913 12951
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 355 12913 12942 "src/unix/lwt_engine.ml" 355 12913 12952
+type(
+  Fd_map.key * bool * bool
+)
+"src/unix/lwt_engine.ml" 355 12913 12956 "src/unix/lwt_engine.ml" 355 12913 12962
+type(
+  Fd_map.key -> bool
+)
+ident(
+  int_ref bad_fd "src/unix/lwt_engine.ml" 217 7918 7922 "src/unix/lwt_engine.ml" 217 7918 7928
+)
+"src/unix/lwt_engine.ml" 355 12913 12963 "src/unix/lwt_engine.ml" 355 12913 12965
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 355 12913 12943 "src/unix/lwt_engine.ml" 355 12913 12945
+)
+"src/unix/lwt_engine.ml" 355 12913 12956 "src/unix/lwt_engine.ml" 355 12913 12965
+call(
+  tail
+)
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 355 12913 12937 "src/unix/lwt_engine.ml" 355 12913 12966
+type(
+  Fd_map.key * bool * bool -> bool
+)
+"src/unix/lwt_engine.ml" 355 12913 12967 "src/unix/lwt_engine.ml" 355 12913 12970
+type(
+  (Fd_map.key * bool * bool) list
+)
+ident(
+  int_ref fds "src/unix/lwt_engine.ml" 342 12398 12406 "src/unix/lwt_engine.ml" 342 12398 12409
+)
+"src/unix/lwt_engine.ml" 355 12913 12925 "src/unix/lwt_engine.ml" 355 12913 12970
+call(
+  stack
+)
+type(
+  (Fd_map.key * bool * bool) list
+)
+"src/unix/lwt_engine.ml" 347 12632 12638 "src/unix/lwt_engine.ml" 355 12913 12970
+type(
+  (Fd_map.key * bool * bool) list
+)
+"src/unix/lwt_engine.ml" 358 13027 13046 "src/unix/lwt_engine.ml" 358 13027 13061
+type(
+  Sleep_queue.t -> float -> Sleep_queue.t
+)
+ident(
+  int_ref restart_actions "src/unix/lwt_engine.ml" 193 7000 7008 "src/unix/lwt_engine.ml" 193 7000 7023
+)
+"src/unix/lwt_engine.ml" 358 13027 13062 "src/unix/lwt_engine.ml" 358 13027 13073
+type(
+  Sleep_queue.t
+)
+ident(
+  ext_ref sleep_queue
+)
+"src/unix/lwt_engine.ml" 358 13027 13075 "src/unix/lwt_engine.ml" 358 13027 13092
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"src/unix/lwt_engine.ml" 358 13027 13093 "src/unix/lwt_engine.ml" 358 13027 13095
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 358 13027 13074 "src/unix/lwt_engine.ml" 358 13027 13096
+call(
+  stack
+)
+type(
+  float
+)
+"src/unix/lwt_engine.ml" 358 13027 13046 "src/unix/lwt_engine.ml" 358 13027 13096
+call(
+  stack
+)
+type(
+  Sleep_queue.t
+)
+"src/unix/lwt_engine.ml" 358 13027 13031 "src/unix/lwt_engine.ml" 358 13027 13096
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 360 13155 13159 "src/unix/lwt_engine.ml" 360 13155 13168
+type(
+  (Fd_map.key * bool * bool -> unit) ->
+  (Fd_map.key * bool * bool) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/unix/lwt_engine.ml" 361 13169 13181 "src/unix/lwt_engine.ml" 361 13169 13183
+type(
+  Fd_map.key
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 362 13208 13217 "src/unix/lwt_engine.ml" 363 13267 13324
+)
+"src/unix/lwt_engine.ml" 361 13169 13185 "src/unix/lwt_engine.ml" 361 13169 13193
+type(
+  bool
+)
+ident(
+  def readable "src/unix/lwt_engine.ml" 362 13208 13217 "src/unix/lwt_engine.ml" 363 13267 13324
+)
+"src/unix/lwt_engine.ml" 361 13169 13195 "src/unix/lwt_engine.ml" 361 13169 13203
+type(
+  bool
+)
+ident(
+  def writable "src/unix/lwt_engine.ml" 362 13208 13217 "src/unix/lwt_engine.ml" 363 13267 13324
+)
+"src/unix/lwt_engine.ml" 361 13169 13180 "src/unix/lwt_engine.ml" 361 13169 13204
+type(
+  Fd_map.key * bool * bool
+)
+"src/unix/lwt_engine.ml" 362 13208 13220 "src/unix/lwt_engine.ml" 362 13208 13228
+type(
+  bool
+)
+ident(
+  int_ref readable "src/unix/lwt_engine.ml" 361 13169 13185 "src/unix/lwt_engine.ml" 361 13169 13193
+)
+"src/unix/lwt_engine.ml" 362 13208 13234 "src/unix/lwt_engine.ml" 362 13208 13248
+type(
+  Fd_map.key -> (unit -> unit) Lwt_sequence.t Fd_map.t -> unit
+)
+ident(
+  int_ref invoke_actions "src/unix/lwt_engine.ml" 224 8025 8029 "src/unix/lwt_engine.ml" 224 8025 8043
+)
+"src/unix/lwt_engine.ml" 362 13208 13249 "src/unix/lwt_engine.ml" 362 13208 13251
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 361 13169 13181 "src/unix/lwt_engine.ml" 361 13169 13183
+)
+"src/unix/lwt_engine.ml" 362 13208 13252 "src/unix/lwt_engine.ml" 362 13208 13265
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref wait_readable
+)
+"src/unix/lwt_engine.ml" 362 13208 13234 "src/unix/lwt_engine.ml" 362 13208 13265
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 362 13208 13217 "src/unix/lwt_engine.ml" 362 13208 13265
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 363 13267 13279 "src/unix/lwt_engine.ml" 363 13267 13287
+type(
+  bool
+)
+ident(
+  int_ref writable "src/unix/lwt_engine.ml" 361 13169 13195 "src/unix/lwt_engine.ml" 361 13169 13203
+)
+"src/unix/lwt_engine.ml" 363 13267 13293 "src/unix/lwt_engine.ml" 363 13267 13307
+type(
+  Fd_map.key -> (unit -> unit) Lwt_sequence.t Fd_map.t -> unit
+)
+ident(
+  int_ref invoke_actions "src/unix/lwt_engine.ml" 224 8025 8029 "src/unix/lwt_engine.ml" 224 8025 8043
+)
+"src/unix/lwt_engine.ml" 363 13267 13308 "src/unix/lwt_engine.ml" 363 13267 13310
+type(
+  Fd_map.key
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 361 13169 13181 "src/unix/lwt_engine.ml" 361 13169 13183
+)
+"src/unix/lwt_engine.ml" 363 13267 13311 "src/unix/lwt_engine.ml" 363 13267 13324
+type(
+  (unit -> unit) Lwt_sequence.t Fd_map.t
+)
+ident(
+  ext_ref wait_writable
+)
+"src/unix/lwt_engine.ml" 363 13267 13293 "src/unix/lwt_engine.ml" 363 13267 13324
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 363 13267 13276 "src/unix/lwt_engine.ml" 363 13267 13324
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 362 13208 13217 "src/unix/lwt_engine.ml" 363 13267 13324
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 361 13169 13175 "src/unix/lwt_engine.ml" 363 13267 13325
+type(
+  Fd_map.key * bool * bool -> unit
+)
+"src/unix/lwt_engine.ml" 364 13326 13332 "src/unix/lwt_engine.ml" 364 13326 13335
+type(
+  (Fd_map.key * bool * bool) list
+)
+ident(
+  int_ref fds "src/unix/lwt_engine.ml" 346 12618 12626 "src/unix/lwt_engine.ml" 346 12618 12629
+)
+"src/unix/lwt_engine.ml" 360 13155 13159 "src/unix/lwt_engine.ml" 364 13326 13335
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 358 13027 13031 "src/unix/lwt_engine.ml" 364 13326 13335
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 346 12618 12622 "src/unix/lwt_engine.ml" 364 13326 13335
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 344 12515 12519 "src/unix/lwt_engine.ml" 364 13326 13335
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 342 12398 12402 "src/unix/lwt_engine.ml" 364 13326 13335
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 341 12312 12316 "src/unix/lwt_engine.ml" 364 13326 13335
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 340 12292 12296 "src/unix/lwt_engine.ml" 364 13326 13335
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 338 12234 12238 "src/unix/lwt_engine.ml" 364 13326 13335
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 337 12143 12147 "src/unix/lwt_engine.ml" 364 13326 13335
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 370 13387 13411 "src/unix/lwt_engine.ml" 370 13387 13416
+type(
+  Fd_map.key list
+)
+ident(
+  def fds_r "src/unix/lwt_engine.ml" 370 13387 13417 "src/unix/lwt_engine.ml" 372 13497 13515
+)
+"src/unix/lwt_engine.ml" 370 13387 13417 "src/unix/lwt_engine.ml" 370 13387 13422
+type(
+  Fd_map.key list
+)
+ident(
+  def fds_w "src/unix/lwt_engine.ml" 370 13387 13423 "src/unix/lwt_engine.ml" 372 13497 13515
+)
+"src/unix/lwt_engine.ml" 370 13387 13423 "src/unix/lwt_engine.ml" 370 13387 13430
+type(
+  float
+)
+ident(
+  def timeout "src/unix/lwt_engine.ml" 371 13433 13437 "src/unix/lwt_engine.ml" 372 13497 13515
+)
+"src/unix/lwt_engine.ml" 371 13433 13441 "src/unix/lwt_engine.ml" 371 13433 13446
+type(
+  Unix.file_descr list
+)
+ident(
+  def fds_r "src/unix/lwt_engine.ml" 372 13497 13501 "src/unix/lwt_engine.ml" 372 13497 13515
+)
+"src/unix/lwt_engine.ml" 371 13433 13448 "src/unix/lwt_engine.ml" 371 13433 13453
+type(
+  Unix.file_descr list
+)
+ident(
+  def fds_w "src/unix/lwt_engine.ml" 372 13497 13501 "src/unix/lwt_engine.ml" 372 13497 13515
+)
+"src/unix/lwt_engine.ml" 371 13433 13455 "src/unix/lwt_engine.ml" 371 13433 13456
+type(
+  Unix.file_descr list
+)
+"src/unix/lwt_engine.ml" 371 13433 13441 "src/unix/lwt_engine.ml" 371 13433 13456
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"src/unix/lwt_engine.ml" 371 13433 13459 "src/unix/lwt_engine.ml" 371 13433 13470
+type(
+  Fd_map.key list ->
+  Fd_map.key list ->
+  Unix.file_descr list ->
+  float -> Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+ident(
+  ext_ref Unix.select
+)
+"src/unix/lwt_engine.ml" 371 13433 13471 "src/unix/lwt_engine.ml" 371 13433 13476
+type(
+  Fd_map.key list
+)
+ident(
+  int_ref fds_r "src/unix/lwt_engine.ml" 370 13387 13411 "src/unix/lwt_engine.ml" 370 13387 13416
+)
+"src/unix/lwt_engine.ml" 371 13433 13477 "src/unix/lwt_engine.ml" 371 13433 13482
+type(
+  Fd_map.key list
+)
+ident(
+  int_ref fds_w "src/unix/lwt_engine.ml" 370 13387 13417 "src/unix/lwt_engine.ml" 370 13387 13422
+)
+"src/unix/lwt_engine.ml" 371 13433 13483 "src/unix/lwt_engine.ml" 371 13433 13485
+type(
+  Unix.file_descr list
+)
+"src/unix/lwt_engine.ml" 371 13433 13486 "src/unix/lwt_engine.ml" 371 13433 13493
+type(
+  float
+)
+ident(
+  int_ref timeout "src/unix/lwt_engine.ml" 370 13387 13423 "src/unix/lwt_engine.ml" 370 13387 13430
+)
+"src/unix/lwt_engine.ml" 371 13433 13459 "src/unix/lwt_engine.ml" 371 13433 13493
+call(
+  stack
+)
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"src/unix/lwt_engine.ml" 372 13497 13502 "src/unix/lwt_engine.ml" 372 13497 13507
+type(
+  Fd_map.key list
+)
+ident(
+  int_ref fds_r "src/unix/lwt_engine.ml" 371 13433 13441 "src/unix/lwt_engine.ml" 371 13433 13446
+)
+"src/unix/lwt_engine.ml" 372 13497 13509 "src/unix/lwt_engine.ml" 372 13497 13514
+type(
+  Fd_map.key list
+)
+ident(
+  int_ref fds_w "src/unix/lwt_engine.ml" 371 13433 13448 "src/unix/lwt_engine.ml" 371 13433 13453
+)
+"src/unix/lwt_engine.ml" 372 13497 13501 "src/unix/lwt_engine.ml" 372 13497 13515
+type(
+  Fd_map.key list * Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 371 13433 13437 "src/unix/lwt_engine.ml" 372 13497 13515
+type(
+  Fd_map.key list * Fd_map.key list
+)
+"src/unix/lwt_engine.ml" 379 13738 13742 "src/unix/lwt_engine.ml" 379 13738 13749
+type(
+  t ref
+)
+ident(
+  def current "src/unix/lwt_engine.ml" 385 13872 13872 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 380 13752 13757 "src/unix/lwt_engine.ml" 380 13752 13779
+type(
+  bool
+)
+ident(
+  ext_ref Lwt_config._HAVE_LIBEV
+)
+"src/unix/lwt_engine.ml" 380 13752 13780 "src/unix/lwt_engine.ml" 380 13752 13782
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/unix/lwt_engine.ml" 380 13752 13783 "src/unix/lwt_engine.ml" 380 13752 13807
+type(
+  bool
+)
+ident(
+  ext_ref Lwt_config.libev_default
+)
+"src/unix/lwt_engine.ml" 380 13752 13757 "src/unix/lwt_engine.ml" 380 13752 13807
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 381 13813 13817 "src/unix/lwt_engine.ml" 381 13813 13820
+type(
+  t -> t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/unix/lwt_engine.ml" 381 13813 13822 "src/unix/lwt_engine.ml" 381 13813 13831
+type(
+  t
+)
+type(
+  libev
+)
+"src/unix/lwt_engine.ml" 381 13813 13817 "src/unix/lwt_engine.ml" 381 13813 13837
+type(
+  t ref
+)
+"src/unix/lwt_engine.ml" 383 13845 13849 "src/unix/lwt_engine.ml" 383 13845 13852
+type(
+  t -> t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/unix/lwt_engine.ml" 383 13845 13854 "src/unix/lwt_engine.ml" 383 13845 13864
+type(
+  t
+)
+type(
+  select
+)
+"src/unix/lwt_engine.ml" 383 13845 13849 "src/unix/lwt_engine.ml" 383 13845 13870
+type(
+  t ref
+)
+"src/unix/lwt_engine.ml" 380 13752 13754 "src/unix/lwt_engine.ml" 383 13845 13870
+type(
+  t ref
+)
+"src/unix/lwt_engine.ml" 385 13872 13876 "src/unix/lwt_engine.ml" 385 13872 13879
+type(
+  unit -> t
+)
+ident(
+  def get "src/unix/lwt_engine.ml" 388 13897 13897 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 385 13872 13880 "src/unix/lwt_engine.ml" 385 13872 13882
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 386 13885 13887 "src/unix/lwt_engine.ml" 386 13885 13888
+type(
+  t ref -> t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 386 13885 13888 "src/unix/lwt_engine.ml" 386 13885 13895
+type(
+  t ref
+)
+ident(
+  int_ref current "src/unix/lwt_engine.ml" 379 13738 13742 "src/unix/lwt_engine.ml" 379 13738 13749
+)
+"src/unix/lwt_engine.ml" 386 13885 13887 "src/unix/lwt_engine.ml" 386 13885 13895
+type(
+  t
+)
+"src/unix/lwt_engine.ml" 388 13897 13901 "src/unix/lwt_engine.ml" 388 13897 13904
+type(
+  ?transfer:bool -> ?destroy:bool -> #t -> unit
+)
+ident(
+  def set "src/unix/lwt_engine.ml" 393 14080 14080 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 388 13897 13907 "src/unix/lwt_engine.ml" 388 13897 13915
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 388 13897 13916 "src/unix/lwt_engine.ml" 388 13897 13920
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/unix/lwt_engine.ml" 388 13897 13916 "src/unix/lwt_engine.ml" 388 13897 13920
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 388 13897 13924 "src/unix/lwt_engine.ml" 388 13897 13931
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 388 13897 13932 "src/unix/lwt_engine.ml" 388 13897 13936
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/unix/lwt_engine.ml" 388 13897 13932 "src/unix/lwt_engine.ml" 388 13897 13936
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/unix/lwt_engine.ml" 388 13897 13938 "src/unix/lwt_engine.ml" 388 13897 13944
+type(
+  #t as 'a
+)
+ident(
+  def engine "src/unix/lwt_engine.ml" 389 13947 13949 "src/unix/lwt_engine.ml" 391 14047 14078
+)
+"src/unix/lwt_engine.ml" 389 13947 13952 "src/unix/lwt_engine.ml" 389 13947 13960
+type(
+  bool
+)
+ident(
+  int_ref transfer "src/unix/lwt_engine.ml" 388 13897 13907 "src/unix/lwt_engine.ml" 388 13897 13915
+)
+"src/unix/lwt_engine.ml" 389 13947 13966 "src/unix/lwt_engine.ml" 389 13947 13967
+type(
+  t ref -> t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 389 13947 13967 "src/unix/lwt_engine.ml" 389 13947 13974
+type(
+  t ref
+)
+ident(
+  int_ref current "src/unix/lwt_engine.ml" 379 13738 13742 "src/unix/lwt_engine.ml" 379 13738 13749
+)
+"src/unix/lwt_engine.ml" 389 13947 13966 "src/unix/lwt_engine.ml" 389 13947 13974
+type(
+  t
+)
+"src/unix/lwt_engine.ml" 389 13947 13966 "src/unix/lwt_engine.ml" 389 13947 13983
+call(
+  stack
+)
+type(
+  abstract -> unit
+)
+"src/unix/lwt_engine.ml" 389 13947 13985 "src/unix/lwt_engine.ml" 389 13947 13991
+type(
+  abstract
+)
+type(
+  'a
+)
+ident(
+  int_ref engine "src/unix/lwt_engine.ml" 388 13897 13938 "src/unix/lwt_engine.ml" 388 13897 13944
+)
+"src/unix/lwt_engine.ml" 389 13947 13966 "src/unix/lwt_engine.ml" 389 13947 14009
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 389 13947 13949 "src/unix/lwt_engine.ml" 389 13947 14009
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 390 14011 14016 "src/unix/lwt_engine.ml" 390 14011 14023
+type(
+  bool
+)
+ident(
+  int_ref destroy "src/unix/lwt_engine.ml" 388 13897 13924 "src/unix/lwt_engine.ml" 388 13897 13931
+)
+"src/unix/lwt_engine.ml" 390 14011 14029 "src/unix/lwt_engine.ml" 390 14011 14030
+type(
+  t ref -> t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 390 14011 14030 "src/unix/lwt_engine.ml" 390 14011 14037
+type(
+  t ref
+)
+ident(
+  int_ref current "src/unix/lwt_engine.ml" 379 13738 13742 "src/unix/lwt_engine.ml" 379 13738 13749
+)
+"src/unix/lwt_engine.ml" 390 14011 14029 "src/unix/lwt_engine.ml" 390 14011 14037
+type(
+  t
+)
+"src/unix/lwt_engine.ml" 390 14011 14029 "src/unix/lwt_engine.ml" 390 14011 14045
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 390 14011 14013 "src/unix/lwt_engine.ml" 390 14011 14045
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 391 14047 14049 "src/unix/lwt_engine.ml" 391 14047 14056
+type(
+  t ref
+)
+ident(
+  int_ref current "src/unix/lwt_engine.ml" 379 13738 13742 "src/unix/lwt_engine.ml" 379 13738 13749
+)
+"src/unix/lwt_engine.ml" 391 14047 14057 "src/unix/lwt_engine.ml" 391 14047 14059
+type(
+  t ref -> t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_engine.ml" 391 14047 14061 "src/unix/lwt_engine.ml" 391 14047 14067
+type(
+  t
+)
+type(
+  'a
+)
+ident(
+  int_ref engine "src/unix/lwt_engine.ml" 388 13897 13938 "src/unix/lwt_engine.ml" 388 13897 13944
+)
+"src/unix/lwt_engine.ml" 391 14047 14049 "src/unix/lwt_engine.ml" 391 14047 14078
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 390 14011 14013 "src/unix/lwt_engine.ml" 391 14047 14078
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 389 13947 13949 "src/unix/lwt_engine.ml" 391 14047 14078
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 393 14080 14084 "src/unix/lwt_engine.ml" 393 14080 14088
+type(
+  bool -> unit
+)
+ident(
+  def iter "src/unix/lwt_engine.ml" 394 14117 14117 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 393 14080 14089 "src/unix/lwt_engine.ml" 393 14080 14094
+type(
+  bool
+)
+ident(
+  def block "src/unix/lwt_engine.ml" 393 14080 14097 "src/unix/lwt_engine.ml" 393 14080 14116
+)
+"src/unix/lwt_engine.ml" 393 14080 14097 "src/unix/lwt_engine.ml" 393 14080 14098
+type(
+  t ref -> t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 393 14080 14098 "src/unix/lwt_engine.ml" 393 14080 14105
+type(
+  t ref
+)
+ident(
+  int_ref current "src/unix/lwt_engine.ml" 379 13738 13742 "src/unix/lwt_engine.ml" 379 13738 13749
+)
+"src/unix/lwt_engine.ml" 393 14080 14097 "src/unix/lwt_engine.ml" 393 14080 14105
+type(
+  t
+)
+"src/unix/lwt_engine.ml" 393 14080 14097 "src/unix/lwt_engine.ml" 393 14080 14110
+call(
+  tail
+)
+type(
+  bool -> unit
+)
+"src/unix/lwt_engine.ml" 393 14080 14111 "src/unix/lwt_engine.ml" 393 14080 14116
+type(
+  bool
+)
+ident(
+  int_ref block "src/unix/lwt_engine.ml" 393 14080 14089 "src/unix/lwt_engine.ml" 393 14080 14094
+)
+"src/unix/lwt_engine.ml" 393 14080 14097 "src/unix/lwt_engine.ml" 393 14080 14116
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 394 14117 14121 "src/unix/lwt_engine.ml" 394 14117 14132
+type(
+  Unix.file_descr -> (_event ref -> unit) -> _event ref
+)
+ident(
+  def on_readable "src/unix/lwt_engine.ml" 395 14166 14166 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 394 14117 14133 "src/unix/lwt_engine.ml" 394 14117 14135
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 394 14117 14136 "src/unix/lwt_engine.ml" 394 14117 14165
+)
+"src/unix/lwt_engine.ml" 394 14117 14136 "src/unix/lwt_engine.ml" 394 14117 14137
+type(
+  _event ref -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 394 14117 14140 "src/unix/lwt_engine.ml" 394 14117 14165
+)
+"src/unix/lwt_engine.ml" 394 14117 14140 "src/unix/lwt_engine.ml" 394 14117 14141
+type(
+  t ref -> t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 394 14117 14141 "src/unix/lwt_engine.ml" 394 14117 14148
+type(
+  t ref
+)
+ident(
+  int_ref current "src/unix/lwt_engine.ml" 379 13738 13742 "src/unix/lwt_engine.ml" 379 13738 13749
+)
+"src/unix/lwt_engine.ml" 394 14117 14140 "src/unix/lwt_engine.ml" 394 14117 14148
+type(
+  t
+)
+"src/unix/lwt_engine.ml" 394 14117 14140 "src/unix/lwt_engine.ml" 394 14117 14160
+call(
+  tail
+)
+type(
+  Unix.file_descr -> (_event ref -> unit) -> _event ref
+)
+"src/unix/lwt_engine.ml" 394 14117 14161 "src/unix/lwt_engine.ml" 394 14117 14163
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 394 14117 14133 "src/unix/lwt_engine.ml" 394 14117 14135
+)
+"src/unix/lwt_engine.ml" 394 14117 14164 "src/unix/lwt_engine.ml" 394 14117 14165
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 394 14117 14136 "src/unix/lwt_engine.ml" 394 14117 14137
+)
+"src/unix/lwt_engine.ml" 394 14117 14140 "src/unix/lwt_engine.ml" 394 14117 14165
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 395 14166 14170 "src/unix/lwt_engine.ml" 395 14166 14181
+type(
+  Unix.file_descr -> (_event ref -> unit) -> _event ref
+)
+ident(
+  def on_writable "src/unix/lwt_engine.ml" 396 14215 14215 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 395 14166 14182 "src/unix/lwt_engine.ml" 395 14166 14184
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 395 14166 14185 "src/unix/lwt_engine.ml" 395 14166 14214
+)
+"src/unix/lwt_engine.ml" 395 14166 14185 "src/unix/lwt_engine.ml" 395 14166 14186
+type(
+  _event ref -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 395 14166 14189 "src/unix/lwt_engine.ml" 395 14166 14214
+)
+"src/unix/lwt_engine.ml" 395 14166 14189 "src/unix/lwt_engine.ml" 395 14166 14190
+type(
+  t ref -> t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 395 14166 14190 "src/unix/lwt_engine.ml" 395 14166 14197
+type(
+  t ref
+)
+ident(
+  int_ref current "src/unix/lwt_engine.ml" 379 13738 13742 "src/unix/lwt_engine.ml" 379 13738 13749
+)
+"src/unix/lwt_engine.ml" 395 14166 14189 "src/unix/lwt_engine.ml" 395 14166 14197
+type(
+  t
+)
+"src/unix/lwt_engine.ml" 395 14166 14189 "src/unix/lwt_engine.ml" 395 14166 14209
+call(
+  tail
+)
+type(
+  Unix.file_descr -> (_event ref -> unit) -> _event ref
+)
+"src/unix/lwt_engine.ml" 395 14166 14210 "src/unix/lwt_engine.ml" 395 14166 14212
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 395 14166 14182 "src/unix/lwt_engine.ml" 395 14166 14184
+)
+"src/unix/lwt_engine.ml" 395 14166 14213 "src/unix/lwt_engine.ml" 395 14166 14214
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 395 14166 14185 "src/unix/lwt_engine.ml" 395 14166 14186
+)
+"src/unix/lwt_engine.ml" 395 14166 14189 "src/unix/lwt_engine.ml" 395 14166 14214
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 396 14215 14219 "src/unix/lwt_engine.ml" 396 14215 14227
+type(
+  float -> bool -> (_event ref -> unit) -> _event ref
+)
+ident(
+  def on_timer "src/unix/lwt_engine.ml" 397 14278 14278 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 396 14215 14228 "src/unix/lwt_engine.ml" 396 14215 14233
+type(
+  float
+)
+ident(
+  def delay "src/unix/lwt_engine.ml" 396 14215 14234 "src/unix/lwt_engine.ml" 396 14215 14277
+)
+"src/unix/lwt_engine.ml" 396 14215 14234 "src/unix/lwt_engine.ml" 396 14215 14240
+type(
+  bool
+)
+ident(
+  def repeat "src/unix/lwt_engine.ml" 396 14215 14241 "src/unix/lwt_engine.ml" 396 14215 14277
+)
+"src/unix/lwt_engine.ml" 396 14215 14241 "src/unix/lwt_engine.ml" 396 14215 14242
+type(
+  _event ref -> unit
+)
+ident(
+  def f "src/unix/lwt_engine.ml" 396 14215 14245 "src/unix/lwt_engine.ml" 396 14215 14277
+)
+"src/unix/lwt_engine.ml" 396 14215 14245 "src/unix/lwt_engine.ml" 396 14215 14246
+type(
+  t ref -> t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 396 14215 14246 "src/unix/lwt_engine.ml" 396 14215 14253
+type(
+  t ref
+)
+ident(
+  int_ref current "src/unix/lwt_engine.ml" 379 13738 13742 "src/unix/lwt_engine.ml" 379 13738 13749
+)
+"src/unix/lwt_engine.ml" 396 14215 14245 "src/unix/lwt_engine.ml" 396 14215 14253
+type(
+  t
+)
+"src/unix/lwt_engine.ml" 396 14215 14245 "src/unix/lwt_engine.ml" 396 14215 14262
+call(
+  tail
+)
+type(
+  float -> bool -> (_event ref -> unit) -> _event ref
+)
+"src/unix/lwt_engine.ml" 396 14215 14263 "src/unix/lwt_engine.ml" 396 14215 14268
+type(
+  float
+)
+ident(
+  int_ref delay "src/unix/lwt_engine.ml" 396 14215 14228 "src/unix/lwt_engine.ml" 396 14215 14233
+)
+"src/unix/lwt_engine.ml" 396 14215 14269 "src/unix/lwt_engine.ml" 396 14215 14275
+type(
+  bool
+)
+ident(
+  int_ref repeat "src/unix/lwt_engine.ml" 396 14215 14234 "src/unix/lwt_engine.ml" 396 14215 14240
+)
+"src/unix/lwt_engine.ml" 396 14215 14276 "src/unix/lwt_engine.ml" 396 14215 14277
+type(
+  _event ref -> unit
+)
+ident(
+  int_ref f "src/unix/lwt_engine.ml" 396 14215 14241 "src/unix/lwt_engine.ml" 396 14215 14242
+)
+"src/unix/lwt_engine.ml" 396 14215 14245 "src/unix/lwt_engine.ml" 396 14215 14277
+type(
+  _event ref
+)
+"src/unix/lwt_engine.ml" 397 14278 14282 "src/unix/lwt_engine.ml" 397 14278 14289
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  def fake_io "src/unix/lwt_engine.ml" 398 14315 14315 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 397 14278 14290 "src/unix/lwt_engine.ml" 397 14278 14292
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_engine.ml" 397 14278 14295 "src/unix/lwt_engine.ml" 397 14278 14314
+)
+"src/unix/lwt_engine.ml" 397 14278 14295 "src/unix/lwt_engine.ml" 397 14278 14296
+type(
+  t ref -> t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 397 14278 14296 "src/unix/lwt_engine.ml" 397 14278 14303
+type(
+  t ref
+)
+ident(
+  int_ref current "src/unix/lwt_engine.ml" 379 13738 13742 "src/unix/lwt_engine.ml" 379 13738 13749
+)
+"src/unix/lwt_engine.ml" 397 14278 14295 "src/unix/lwt_engine.ml" 397 14278 14303
+type(
+  t
+)
+"src/unix/lwt_engine.ml" 397 14278 14295 "src/unix/lwt_engine.ml" 397 14278 14311
+call(
+  tail
+)
+type(
+  Unix.file_descr -> unit
+)
+"src/unix/lwt_engine.ml" 397 14278 14312 "src/unix/lwt_engine.ml" 397 14278 14314
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_engine.ml" 397 14278 14290 "src/unix/lwt_engine.ml" 397 14278 14292
+)
+"src/unix/lwt_engine.ml" 397 14278 14295 "src/unix/lwt_engine.ml" 397 14278 14314
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 398 14315 14319 "src/unix/lwt_engine.ml" 398 14315 14333
+type(
+  unit -> int
+)
+ident(
+  def readable_count "src/unix/lwt_engine.ml" 399 14363 14363 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 398 14315 14334 "src/unix/lwt_engine.ml" 398 14315 14336
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 398 14315 14339 "src/unix/lwt_engine.ml" 398 14315 14340
+type(
+  t ref -> t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 398 14315 14340 "src/unix/lwt_engine.ml" 398 14315 14347
+type(
+  t ref
+)
+ident(
+  int_ref current "src/unix/lwt_engine.ml" 379 13738 13742 "src/unix/lwt_engine.ml" 379 13738 13749
+)
+"src/unix/lwt_engine.ml" 398 14315 14339 "src/unix/lwt_engine.ml" 398 14315 14347
+type(
+  t
+)
+"src/unix/lwt_engine.ml" 398 14315 14339 "src/unix/lwt_engine.ml" 398 14315 14362
+call(
+  tail
+)
+type(
+  int
+)
+"src/unix/lwt_engine.ml" 399 14363 14367 "src/unix/lwt_engine.ml" 399 14363 14381
+type(
+  unit -> int
+)
+ident(
+  def writable_count "src/unix/lwt_engine.ml" 400 14411 14411 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 399 14363 14382 "src/unix/lwt_engine.ml" 399 14363 14384
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 399 14363 14387 "src/unix/lwt_engine.ml" 399 14363 14388
+type(
+  t ref -> t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 399 14363 14388 "src/unix/lwt_engine.ml" 399 14363 14395
+type(
+  t ref
+)
+ident(
+  int_ref current "src/unix/lwt_engine.ml" 379 13738 13742 "src/unix/lwt_engine.ml" 379 13738 13749
+)
+"src/unix/lwt_engine.ml" 399 14363 14387 "src/unix/lwt_engine.ml" 399 14363 14395
+type(
+  t
+)
+"src/unix/lwt_engine.ml" 399 14363 14387 "src/unix/lwt_engine.ml" 399 14363 14410
+call(
+  tail
+)
+type(
+  int
+)
+"src/unix/lwt_engine.ml" 400 14411 14415 "src/unix/lwt_engine.ml" 400 14411 14426
+type(
+  unit -> int
+)
+ident(
+  def timer_count "src/unix/lwt_engine.ml" 400 14411 14452 "src/unix/lwt_engine.ml" 1 0 -1
+)
+"src/unix/lwt_engine.ml" 400 14411 14427 "src/unix/lwt_engine.ml" 400 14411 14429
+type(
+  unit
+)
+"src/unix/lwt_engine.ml" 400 14411 14432 "src/unix/lwt_engine.ml" 400 14411 14433
+type(
+  t ref -> t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_engine.ml" 400 14411 14433 "src/unix/lwt_engine.ml" 400 14411 14440
+type(
+  t ref
+)
+ident(
+  int_ref current "src/unix/lwt_engine.ml" 379 13738 13742 "src/unix/lwt_engine.ml" 379 13738 13749
+)
+"src/unix/lwt_engine.ml" 400 14411 14432 "src/unix/lwt_engine.ml" 400 14411 14440
+type(
+  t
+)
+"src/unix/lwt_engine.ml" 400 14411 14432 "src/unix/lwt_engine.ml" 400 14411 14452
+call(
+  tail
+)
+type(
+  int
+)

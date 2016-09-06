@@ -1,0 +1,509 @@
+"src/core/lwt_switch.ml" 35 1102 1106 "src/core/lwt_switch.ml" 35 1102 1112
+type(
+  unit -> t
+)
+ident(
+  def create "src/core/lwt_switch.ml" 37 1152 1152 "src/core/lwt_switch.ml" 1 0 -1
+)
+"src/core/lwt_switch.ml" 35 1102 1113 "src/core/lwt_switch.ml" 35 1102 1115
+type(
+  unit
+)
+"src/core/lwt_switch.ml" 35 1102 1144 "src/core/lwt_switch.ml" 35 1102 1146
+type(
+  (unit -> unit Lwt.t) list
+)
+"src/core/lwt_switch.ml" 35 1102 1134 "src/core/lwt_switch.ml" 35 1102 1148
+type(
+  on_switch
+)
+"src/core/lwt_switch.ml" 35 1102 1128 "src/core/lwt_switch.ml" 35 1102 1148
+type(
+  state
+)
+"src/core/lwt_switch.ml" 35 1102 1118 "src/core/lwt_switch.ml" 35 1102 1150
+type(
+  t
+)
+"src/core/lwt_switch.ml" 37 1152 1156 "src/core/lwt_switch.ml" 37 1152 1161
+type(
+  t -> bool
+)
+ident(
+  def is_on "src/core/lwt_switch.ml" 42 1242 1242 "src/core/lwt_switch.ml" 1 0 -1
+)
+"src/core/lwt_switch.ml" 37 1152 1162 "src/core/lwt_switch.ml" 37 1152 1168
+type(
+  t
+)
+ident(
+  def switch "src/core/lwt_switch.ml" 38 1171 1173 "src/core/lwt_switch.ml" 40 1219 1240
+)
+"src/core/lwt_switch.ml" 38 1171 1179 "src/core/lwt_switch.ml" 38 1171 1185
+type(
+  t
+)
+ident(
+  int_ref switch "src/core/lwt_switch.ml" 37 1152 1162 "src/core/lwt_switch.ml" 37 1152 1168
+)
+"src/core/lwt_switch.ml" 38 1171 1179 "src/core/lwt_switch.ml" 38 1171 1191
+type(
+  state
+)
+"src/core/lwt_switch.ml" 39 1197 1209 "src/core/lwt_switch.ml" 39 1197 1210
+type(
+  on_switch
+)
+"src/core/lwt_switch.ml" 39 1197 1203 "src/core/lwt_switch.ml" 39 1197 1210
+type(
+  state
+)
+"src/core/lwt_switch.ml" 39 1197 1214 "src/core/lwt_switch.ml" 39 1197 1218
+type(
+  bool
+)
+"src/core/lwt_switch.ml" 40 1219 1225 "src/core/lwt_switch.ml" 40 1219 1231
+type(
+  state
+)
+"src/core/lwt_switch.ml" 40 1219 1235 "src/core/lwt_switch.ml" 40 1219 1240
+type(
+  bool
+)
+"src/core/lwt_switch.ml" 38 1171 1173 "src/core/lwt_switch.ml" 40 1219 1240
+type(
+  bool
+)
+"src/core/lwt_switch.ml" 42 1242 1246 "src/core/lwt_switch.ml" 42 1242 1251
+type(
+  t option -> unit
+)
+ident(
+  def check "src/core/lwt_switch.ml" 46 1316 1316 "src/core/lwt_switch.ml" 1 0 -1
+)
+"src/core/lwt_switch.ml" 43 1263 1281 "src/core/lwt_switch.ml" 43 1263 1287
+type(
+  state
+)
+"src/core/lwt_switch.ml" 43 1263 1271 "src/core/lwt_switch.ml" 43 1263 1289
+type(
+  t
+)
+"src/core/lwt_switch.ml" 43 1263 1267 "src/core/lwt_switch.ml" 43 1263 1289
+type(
+  t option
+)
+"src/core/lwt_switch.ml" 43 1263 1293 "src/core/lwt_switch.ml" 43 1263 1298
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/core/lwt_switch.ml" 43 1263 1299 "src/core/lwt_switch.ml" 43 1263 1302
+type(
+  exn
+)
+"src/core/lwt_switch.ml" 43 1263 1293 "src/core/lwt_switch.ml" 43 1263 1302
+type(
+  unit
+)
+"src/core/lwt_switch.ml" 44 1303 1307 "src/core/lwt_switch.ml" 44 1303 1308
+type(
+  t option
+)
+"src/core/lwt_switch.ml" 44 1303 1312 "src/core/lwt_switch.ml" 44 1303 1314
+type(
+  unit
+)
+"src/core/lwt_switch.ml" 42 1242 1254 "src/core/lwt_switch.ml" 44 1303 1314
+type(
+  t option -> unit
+)
+"src/core/lwt_switch.ml" 46 1316 1320 "src/core/lwt_switch.ml" 46 1316 1328
+type(
+  t option -> (unit -> unit Lwt.t) -> unit
+)
+ident(
+  def add_hook "src/core/lwt_switch.ml" 55 1512 1512 "src/core/lwt_switch.ml" 1 0 -1
+)
+"src/core/lwt_switch.ml" 46 1316 1329 "src/core/lwt_switch.ml" 46 1316 1335
+type(
+  t option
+)
+ident(
+  def switch "src/core/lwt_switch.ml" 46 1316 1336 "src/core/lwt_switch.ml" 53 1500 1510
+)
+"src/core/lwt_switch.ml" 46 1316 1336 "src/core/lwt_switch.ml" 46 1316 1340
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  def hook "src/core/lwt_switch.ml" 47 1343 1345 "src/core/lwt_switch.ml" 53 1500 1510
+)
+"src/core/lwt_switch.ml" 47 1343 1351 "src/core/lwt_switch.ml" 47 1343 1357
+type(
+  t option
+)
+ident(
+  int_ref switch "src/core/lwt_switch.ml" 46 1316 1329 "src/core/lwt_switch.ml" 46 1316 1335
+)
+"src/core/lwt_switch.ml" 48 1363 1390 "src/core/lwt_switch.ml" 48 1363 1392
+type(
+  on_switch
+)
+ident(
+  def os "src/core/lwt_switch.ml" 49 1398 1406 "src/core/lwt_switch.ml" 49 1398 1434
+)
+"src/core/lwt_switch.ml" 48 1363 1384 "src/core/lwt_switch.ml" 48 1363 1392
+type(
+  state
+)
+"src/core/lwt_switch.ml" 48 1363 1374 "src/core/lwt_switch.ml" 48 1363 1394
+type(
+  t
+)
+"src/core/lwt_switch.ml" 48 1363 1369 "src/core/lwt_switch.ml" 48 1363 1394
+type(
+  t option
+)
+"src/core/lwt_switch.ml" 49 1398 1406 "src/core/lwt_switch.ml" 49 1398 1408
+type(
+  on_switch
+)
+ident(
+  int_ref os "src/core/lwt_switch.ml" 48 1363 1390 "src/core/lwt_switch.ml" 48 1363 1392
+)
+"src/core/lwt_switch.ml" 49 1398 1418 "src/core/lwt_switch.ml" 49 1398 1422
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref hook "src/core/lwt_switch.ml" 46 1316 1336 "src/core/lwt_switch.ml" 46 1316 1340
+)
+"src/core/lwt_switch.ml" 49 1398 1426 "src/core/lwt_switch.ml" 49 1398 1428
+type(
+  on_switch
+)
+ident(
+  int_ref os "src/core/lwt_switch.ml" 48 1363 1390 "src/core/lwt_switch.ml" 48 1363 1392
+)
+"src/core/lwt_switch.ml" 49 1398 1426 "src/core/lwt_switch.ml" 49 1398 1434
+type(
+  (unit -> unit Lwt.t) list
+)
+"src/core/lwt_switch.ml" 49 1398 1418 "src/core/lwt_switch.ml" 49 1398 1434
+type(
+  (unit -> unit Lwt.t) list
+)
+"src/core/lwt_switch.ml" 49 1398 1406 "src/core/lwt_switch.ml" 49 1398 1434
+type(
+  unit
+)
+"src/core/lwt_switch.ml" 50 1435 1456 "src/core/lwt_switch.ml" 50 1435 1462
+type(
+  state
+)
+"src/core/lwt_switch.ml" 50 1435 1446 "src/core/lwt_switch.ml" 50 1435 1464
+type(
+  t
+)
+"src/core/lwt_switch.ml" 50 1435 1441 "src/core/lwt_switch.ml" 50 1435 1464
+type(
+  t option
+)
+"src/core/lwt_switch.ml" 51 1468 1476 "src/core/lwt_switch.ml" 51 1468 1481
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/core/lwt_switch.ml" 51 1468 1482 "src/core/lwt_switch.ml" 51 1468 1485
+type(
+  exn
+)
+"src/core/lwt_switch.ml" 51 1468 1476 "src/core/lwt_switch.ml" 51 1468 1485
+type(
+  unit
+)
+"src/core/lwt_switch.ml" 52 1486 1492 "src/core/lwt_switch.ml" 52 1486 1496
+type(
+  t option
+)
+"src/core/lwt_switch.ml" 53 1500 1508 "src/core/lwt_switch.ml" 53 1500 1510
+type(
+  unit
+)
+"src/core/lwt_switch.ml" 47 1343 1345 "src/core/lwt_switch.ml" 53 1500 1510
+type(
+  unit
+)
+"src/core/lwt_switch.ml" 55 1512 1516 "src/core/lwt_switch.ml" 55 1512 1532
+type(
+  t option -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  def add_hook_or_exec "src/core/lwt_switch.ml" 65 1752 1752 "src/core/lwt_switch.ml" 1 0 -1
+)
+"src/core/lwt_switch.ml" 55 1512 1533 "src/core/lwt_switch.ml" 55 1512 1539
+type(
+  t option
+)
+ident(
+  def switch "src/core/lwt_switch.ml" 55 1512 1540 "src/core/lwt_switch.ml" 63 1727 1750
+)
+"src/core/lwt_switch.ml" 55 1512 1540 "src/core/lwt_switch.ml" 55 1512 1544
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  def hook "src/core/lwt_switch.ml" 56 1547 1549 "src/core/lwt_switch.ml" 63 1727 1750
+)
+"src/core/lwt_switch.ml" 56 1547 1555 "src/core/lwt_switch.ml" 56 1547 1561
+type(
+  t option
+)
+ident(
+  int_ref switch "src/core/lwt_switch.ml" 55 1512 1533 "src/core/lwt_switch.ml" 55 1512 1539
+)
+"src/core/lwt_switch.ml" 57 1567 1594 "src/core/lwt_switch.ml" 57 1567 1596
+type(
+  on_switch
+)
+ident(
+  def os "src/core/lwt_switch.ml" 58 1602 1610 "src/core/lwt_switch.ml" 59 1640 1663
+)
+"src/core/lwt_switch.ml" 57 1567 1588 "src/core/lwt_switch.ml" 57 1567 1596
+type(
+  state
+)
+"src/core/lwt_switch.ml" 57 1567 1578 "src/core/lwt_switch.ml" 57 1567 1598
+type(
+  t
+)
+"src/core/lwt_switch.ml" 57 1567 1573 "src/core/lwt_switch.ml" 57 1567 1598
+type(
+  t option
+)
+"src/core/lwt_switch.ml" 58 1602 1610 "src/core/lwt_switch.ml" 58 1602 1612
+type(
+  on_switch
+)
+ident(
+  int_ref os "src/core/lwt_switch.ml" 57 1567 1594 "src/core/lwt_switch.ml" 57 1567 1596
+)
+"src/core/lwt_switch.ml" 58 1602 1622 "src/core/lwt_switch.ml" 58 1602 1626
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref hook "src/core/lwt_switch.ml" 55 1512 1540 "src/core/lwt_switch.ml" 55 1512 1544
+)
+"src/core/lwt_switch.ml" 58 1602 1630 "src/core/lwt_switch.ml" 58 1602 1632
+type(
+  on_switch
+)
+ident(
+  int_ref os "src/core/lwt_switch.ml" 57 1567 1594 "src/core/lwt_switch.ml" 57 1567 1596
+)
+"src/core/lwt_switch.ml" 58 1602 1630 "src/core/lwt_switch.ml" 58 1602 1638
+type(
+  (unit -> unit Lwt.t) list
+)
+"src/core/lwt_switch.ml" 58 1602 1622 "src/core/lwt_switch.ml" 58 1602 1638
+type(
+  (unit -> unit Lwt.t) list
+)
+"src/core/lwt_switch.ml" 58 1602 1610 "src/core/lwt_switch.ml" 58 1602 1638
+type(
+  unit
+)
+"src/core/lwt_switch.ml" 59 1640 1648 "src/core/lwt_switch.ml" 59 1640 1663
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/core/lwt_switch.ml" 58 1602 1610 "src/core/lwt_switch.ml" 59 1640 1663
+type(
+  unit Lwt.t
+)
+"src/core/lwt_switch.ml" 60 1664 1685 "src/core/lwt_switch.ml" 60 1664 1691
+type(
+  state
+)
+"src/core/lwt_switch.ml" 60 1664 1675 "src/core/lwt_switch.ml" 60 1664 1693
+type(
+  t
+)
+"src/core/lwt_switch.ml" 60 1664 1670 "src/core/lwt_switch.ml" 60 1664 1693
+type(
+  t option
+)
+"src/core/lwt_switch.ml" 61 1697 1705 "src/core/lwt_switch.ml" 61 1697 1709
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref hook "src/core/lwt_switch.ml" 55 1512 1540 "src/core/lwt_switch.ml" 55 1512 1544
+)
+"src/core/lwt_switch.ml" 61 1697 1710 "src/core/lwt_switch.ml" 61 1697 1712
+type(
+  unit
+)
+"src/core/lwt_switch.ml" 61 1697 1705 "src/core/lwt_switch.ml" 61 1697 1712
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_switch.ml" 62 1713 1719 "src/core/lwt_switch.ml" 62 1713 1723
+type(
+  t option
+)
+"src/core/lwt_switch.ml" 63 1727 1735 "src/core/lwt_switch.ml" 63 1727 1750
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/core/lwt_switch.ml" 56 1547 1549 "src/core/lwt_switch.ml" 63 1727 1750
+type(
+  unit Lwt.t
+)
+"src/core/lwt_switch.ml" 65 1752 1756 "src/core/lwt_switch.ml" 65 1752 1764
+type(
+  t -> unit Lwt.t
+)
+ident(
+  def turn_off "src/core/lwt_switch.ml" 71 1943 1966 "src/core/lwt_switch.ml" 1 0 -1
+)
+"src/core/lwt_switch.ml" 65 1752 1765 "src/core/lwt_switch.ml" 65 1752 1771
+type(
+  t
+)
+ident(
+  def switch "src/core/lwt_switch.ml" 66 1774 1776 "src/core/lwt_switch.ml" 71 1943 1966
+)
+"src/core/lwt_switch.ml" 66 1774 1782 "src/core/lwt_switch.ml" 66 1774 1788
+type(
+  t
+)
+ident(
+  int_ref switch "src/core/lwt_switch.ml" 65 1752 1765 "src/core/lwt_switch.ml" 65 1752 1771
+)
+"src/core/lwt_switch.ml" 66 1774 1782 "src/core/lwt_switch.ml" 66 1774 1794
+type(
+  state
+)
+"src/core/lwt_switch.ml" 67 1800 1822 "src/core/lwt_switch.ml" 67 1800 1827
+type(
+  (unit -> unit Lwt.t) list
+)
+ident(
+  def hooks "src/core/lwt_switch.ml" 68 1833 1841 "src/core/lwt_switch.ml" 69 1865 1926
+)
+"src/core/lwt_switch.ml" 67 1800 1812 "src/core/lwt_switch.ml" 67 1800 1829
+type(
+  on_switch
+)
+"src/core/lwt_switch.ml" 67 1800 1806 "src/core/lwt_switch.ml" 67 1800 1829
+type(
+  state
+)
+"src/core/lwt_switch.ml" 68 1833 1841 "src/core/lwt_switch.ml" 68 1833 1847
+type(
+  t
+)
+ident(
+  int_ref switch "src/core/lwt_switch.ml" 65 1752 1765 "src/core/lwt_switch.ml" 65 1752 1771
+)
+"src/core/lwt_switch.ml" 68 1833 1857 "src/core/lwt_switch.ml" 68 1833 1863
+type(
+  state
+)
+"src/core/lwt_switch.ml" 68 1833 1841 "src/core/lwt_switch.ml" 68 1833 1863
+type(
+  unit
+)
+"src/core/lwt_switch.ml" 69 1865 1873 "src/core/lwt_switch.ml" 69 1865 1888
+type(
+  ((unit -> unit Lwt.t) -> unit Lwt.t) ->
+  (unit -> unit Lwt.t) list -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_list.iter_p
+)
+"src/core/lwt_switch.ml" 69 1865 1894 "src/core/lwt_switch.ml" 69 1865 1898
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  def hook "src/core/lwt_switch.ml" 69 1865 1902 "src/core/lwt_switch.ml" 69 1865 1919
+)
+"src/core/lwt_switch.ml" 69 1865 1902 "src/core/lwt_switch.ml" 69 1865 1911
+type(
+  (unit -> unit Lwt.t) -> unit -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.apply
+)
+"src/core/lwt_switch.ml" 69 1865 1912 "src/core/lwt_switch.ml" 69 1865 1916
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref hook "src/core/lwt_switch.ml" 69 1865 1894 "src/core/lwt_switch.ml" 69 1865 1898
+)
+"src/core/lwt_switch.ml" 69 1865 1917 "src/core/lwt_switch.ml" 69 1865 1919
+type(
+  unit
+)
+"src/core/lwt_switch.ml" 69 1865 1902 "src/core/lwt_switch.ml" 69 1865 1919
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_switch.ml" 69 1865 1889 "src/core/lwt_switch.ml" 69 1865 1920
+type(
+  (unit -> unit Lwt.t) -> unit Lwt.t
+)
+"src/core/lwt_switch.ml" 69 1865 1921 "src/core/lwt_switch.ml" 69 1865 1926
+type(
+  (unit -> unit Lwt.t) list
+)
+ident(
+  int_ref hooks "src/core/lwt_switch.ml" 67 1800 1822 "src/core/lwt_switch.ml" 67 1800 1827
+)
+"src/core/lwt_switch.ml" 69 1865 1873 "src/core/lwt_switch.ml" 69 1865 1926
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_switch.ml" 68 1833 1841 "src/core/lwt_switch.ml" 69 1865 1926
+type(
+  unit Lwt.t
+)
+"src/core/lwt_switch.ml" 70 1927 1933 "src/core/lwt_switch.ml" 70 1927 1939
+type(
+  state
+)
+"src/core/lwt_switch.ml" 71 1943 1951 "src/core/lwt_switch.ml" 71 1943 1966
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/core/lwt_switch.ml" 66 1774 1776 "src/core/lwt_switch.ml" 71 1943 1966
+type(
+  unit Lwt.t
+)

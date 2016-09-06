@@ -1,0 +1,1082 @@
+"src/unix/lwt_gc.ml" 23 932 936 "src/unix/lwt_gc.ml" 23 932 954
+type(
+  unit Lwt.t -> unit
+)
+ident(
+  def ensure_termination "src/unix/lwt_gc.ml" 33 1241 1241 "src/unix/lwt_gc.ml" 1 0 -1
+)
+"src/unix/lwt_gc.ml" 23 932 955 "src/unix/lwt_gc.ml" 23 932 956
+type(
+  unit Lwt.t
+)
+ident(
+  def t "src/unix/lwt_gc.ml" 24 959 961 "src/unix/lwt_gc.ml" 31 1234 1239
+)
+"src/unix/lwt_gc.ml" 24 959 964 "src/unix/lwt_gc.ml" 24 959 973
+type(
+  unit Lwt.t -> unit Lwt.state
+)
+ident(
+  ext_ref Lwt.state
+)
+"src/unix/lwt_gc.ml" 24 959 974 "src/unix/lwt_gc.ml" 24 959 975
+type(
+  unit Lwt.t
+)
+ident(
+  int_ref t "src/unix/lwt_gc.ml" 23 932 955 "src/unix/lwt_gc.ml" 23 932 956
+)
+"src/unix/lwt_gc.ml" 24 959 964 "src/unix/lwt_gc.ml" 24 959 975
+call(
+  stack
+)
+type(
+  unit Lwt.state
+)
+"src/unix/lwt_gc.ml" 24 959 976 "src/unix/lwt_gc.ml" 24 959 977
+type(
+  unit Lwt.state -> unit Lwt.state -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/unix/lwt_gc.ml" 24 959 978 "src/unix/lwt_gc.ml" 24 959 987
+type(
+  unit Lwt.state
+)
+"src/unix/lwt_gc.ml" 24 959 964 "src/unix/lwt_gc.ml" 24 959 987
+type(
+  bool
+)
+"src/unix/lwt_gc.ml" 25 999 1007 "src/unix/lwt_gc.ml" 25 999 1011
+type(
+  (unit -> unit Lwt.t) Lwt_sequence.node
+)
+ident(
+  def hook "src/unix/lwt_gc.ml" 27 1117 1121 "src/unix/lwt_gc.ml" 30 1171 1233
+)
+"src/unix/lwt_gc.ml" 25 999 1014 "src/unix/lwt_gc.ml" 25 999 1032
+type(
+  (unit -> unit Lwt.t) ->
+  (unit -> unit Lwt.t) Lwt_sequence.t ->
+  (unit -> unit Lwt.t) Lwt_sequence.node
+)
+ident(
+  ext_ref Lwt_sequence.add_l
+)
+"src/unix/lwt_gc.ml" 25 999 1038 "src/unix/lwt_gc.ml" 25 999 1039
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 25 999 1043 "src/unix/lwt_gc.ml" 25 999 1044
+type(
+  unit Lwt.t
+)
+ident(
+  int_ref t "src/unix/lwt_gc.ml" 23 932 955 "src/unix/lwt_gc.ml" 23 932 956
+)
+"src/unix/lwt_gc.ml" 25 999 1033 "src/unix/lwt_gc.ml" 25 999 1045
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 25 999 1046 "src/unix/lwt_gc.ml" 25 999 1065
+type(
+  (unit -> unit Lwt.t) Lwt_sequence.t
+)
+ident(
+  ext_ref Lwt_main.exit_hooks
+)
+"src/unix/lwt_gc.ml" 25 999 1014 "src/unix/lwt_gc.ml" 25 999 1065
+call(
+  stack
+)
+type(
+  (unit -> unit Lwt.t) Lwt_sequence.node
+)
+"src/unix/lwt_gc.ml" 27 1117 1121 "src/unix/lwt_gc.ml" 27 1117 1127
+type(
+  unit Lwt.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/unix/lwt_gc.ml" 28 1130 1136 "src/unix/lwt_gc.ml" 28 1130 1148
+type(
+  (unit -> unit Lwt.t) -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.finalize
+)
+"src/unix/lwt_gc.ml" 29 1149 1162 "src/unix/lwt_gc.ml" 29 1149 1164
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 29 1149 1168 "src/unix/lwt_gc.ml" 29 1149 1169
+type(
+  unit Lwt.t
+)
+ident(
+  int_ref t "src/unix/lwt_gc.ml" 23 932 955 "src/unix/lwt_gc.ml" 23 932 956
+)
+"src/unix/lwt_gc.ml" 29 1149 1157 "src/unix/lwt_gc.ml" 29 1149 1170
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 30 1171 1184 "src/unix/lwt_gc.ml" 30 1171 1186
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 30 1171 1190 "src/unix/lwt_gc.ml" 30 1171 1209
+type(
+  (unit -> unit Lwt.t) Lwt_sequence.node -> unit
+)
+ident(
+  ext_ref Lwt_sequence.remove
+)
+"src/unix/lwt_gc.ml" 30 1171 1210 "src/unix/lwt_gc.ml" 30 1171 1214
+type(
+  (unit -> unit Lwt.t) Lwt_sequence.node
+)
+ident(
+  int_ref hook "src/unix/lwt_gc.ml" 25 999 1007 "src/unix/lwt_gc.ml" 25 999 1011
+)
+"src/unix/lwt_gc.ml" 30 1171 1190 "src/unix/lwt_gc.ml" 30 1171 1214
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 30 1171 1216 "src/unix/lwt_gc.ml" 30 1171 1231
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/unix/lwt_gc.ml" 30 1171 1190 "src/unix/lwt_gc.ml" 30 1171 1231
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 30 1171 1179 "src/unix/lwt_gc.ml" 30 1171 1232
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 27 1117 1128 "src/unix/lwt_gc.ml" 30 1171 1233
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 27 1117 1121 "src/unix/lwt_gc.ml" 30 1171 1233
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 24 959 993 "src/unix/lwt_gc.ml" 31 1234 1239
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 24 959 961 "src/unix/lwt_gc.ml" 31 1234 1239
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 33 1241 1245 "src/unix/lwt_gc.ml" 33 1241 1254
+type(
+  ('a -> unit Lwt.t) -> 'a -> unit
+)
+ident(
+  def finaliser "src/unix/lwt_gc.ml" 54 1851 1851 "src/unix/lwt_gc.ml" 1 0 -1
+)
+"src/unix/lwt_gc.ml" 33 1241 1255 "src/unix/lwt_gc.ml" 33 1241 1256
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  def f "src/unix/lwt_gc.ml" 37 1444 1446 "src/unix/lwt_gc.ml" 52 1814 1849
+)
+"src/unix/lwt_gc.ml" 37 1444 1450 "src/unix/lwt_gc.ml" 37 1444 1453
+type(
+  'a option ref
+)
+ident(
+  def opt "src/unix/lwt_gc.ml" 38 1468 1470 "src/unix/lwt_gc.ml" 52 1814 1849
+)
+"src/unix/lwt_gc.ml" 37 1444 1456 "src/unix/lwt_gc.ml" 37 1444 1459
+type(
+  'a option -> 'a option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/unix/lwt_gc.ml" 37 1444 1460 "src/unix/lwt_gc.ml" 37 1444 1464
+type(
+  'a option
+)
+"src/unix/lwt_gc.ml" 37 1444 1456 "src/unix/lwt_gc.ml" 37 1444 1464
+type(
+  'a option ref
+)
+"src/unix/lwt_gc.ml" 38 1468 1474 "src/unix/lwt_gc.ml" 38 1468 1476
+type(
+  int
+)
+ident(
+  def id "src/unix/lwt_gc.ml" 50 1782 1784 "src/unix/lwt_gc.ml" 52 1814 1849
+)
+"src/unix/lwt_gc.ml" 39 1479 1483 "src/unix/lwt_gc.ml" 39 1479 1509
+type(
+  ?once:bool -> (unit -> unit) -> int
+)
+ident(
+  ext_ref Lwt_unix.make_notification
+)
+"src/unix/lwt_gc.ml" 40 1510 1522 "src/unix/lwt_gc.ml" 40 1510 1526
+type(
+  bool
+)
+"src/unix/lwt_gc.ml" 41 1527 1538 "src/unix/lwt_gc.ml" 41 1527 1540
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 42 1544 1559 "src/unix/lwt_gc.ml" 42 1544 1560
+type(
+  'a option ref -> 'a option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_gc.ml" 42 1544 1560 "src/unix/lwt_gc.ml" 42 1544 1563
+type(
+  'a option ref
+)
+ident(
+  int_ref opt "src/unix/lwt_gc.ml" 37 1444 1450 "src/unix/lwt_gc.ml" 37 1444 1453
+)
+"src/unix/lwt_gc.ml" 42 1544 1559 "src/unix/lwt_gc.ml" 42 1544 1563
+type(
+  'a option
+)
+"src/unix/lwt_gc.ml" 43 1569 1582 "src/unix/lwt_gc.ml" 43 1569 1586
+type(
+  'a option
+)
+"src/unix/lwt_gc.ml" 44 1590 1612 "src/unix/lwt_gc.ml" 44 1590 1617
+type(
+  bool
+)
+"src/unix/lwt_gc.ml" 44 1590 1605 "src/unix/lwt_gc.ml" 44 1590 1617
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 45 1618 1636 "src/unix/lwt_gc.ml" 45 1618 1637
+type(
+  'a
+)
+ident(
+  def x "src/unix/lwt_gc.ml" 46 1641 1656 "src/unix/lwt_gc.ml" 47 1669 1708
+)
+"src/unix/lwt_gc.ml" 45 1618 1631 "src/unix/lwt_gc.ml" 45 1618 1637
+type(
+  'a option
+)
+"src/unix/lwt_gc.ml" 46 1641 1656 "src/unix/lwt_gc.ml" 46 1641 1659
+type(
+  'a option ref
+)
+ident(
+  int_ref opt "src/unix/lwt_gc.ml" 37 1444 1450 "src/unix/lwt_gc.ml" 37 1444 1453
+)
+"src/unix/lwt_gc.ml" 46 1641 1660 "src/unix/lwt_gc.ml" 46 1641 1662
+type(
+  'a option ref -> 'a option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_gc.ml" 46 1641 1663 "src/unix/lwt_gc.ml" 46 1641 1667
+type(
+  'a option
+)
+"src/unix/lwt_gc.ml" 46 1641 1656 "src/unix/lwt_gc.ml" 46 1641 1667
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 47 1669 1684 "src/unix/lwt_gc.ml" 47 1669 1702
+type(
+  unit Lwt.t -> unit
+)
+ident(
+  int_ref ensure_termination "src/unix/lwt_gc.ml" 23 932 936 "src/unix/lwt_gc.ml" 23 932 954
+)
+"src/unix/lwt_gc.ml" 47 1669 1704 "src/unix/lwt_gc.ml" 47 1669 1705
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/unix/lwt_gc.ml" 33 1241 1255 "src/unix/lwt_gc.ml" 33 1241 1256
+)
+"src/unix/lwt_gc.ml" 47 1669 1706 "src/unix/lwt_gc.ml" 47 1669 1707
+type(
+  'a
+)
+ident(
+  int_ref x "src/unix/lwt_gc.ml" 45 1618 1636 "src/unix/lwt_gc.ml" 45 1618 1637
+)
+"src/unix/lwt_gc.ml" 47 1669 1703 "src/unix/lwt_gc.ml" 47 1669 1708
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 47 1669 1684 "src/unix/lwt_gc.ml" 47 1669 1708
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 46 1641 1656 "src/unix/lwt_gc.ml" 47 1669 1708
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 42 1544 1553 "src/unix/lwt_gc.ml" 47 1669 1708
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 41 1527 1533 "src/unix/lwt_gc.ml" 47 1669 1709
+type(
+  unit -> unit
+)
+"src/unix/lwt_gc.ml" 39 1479 1483 "src/unix/lwt_gc.ml" 47 1669 1709
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_gc.ml" 50 1782 1789 "src/unix/lwt_gc.ml" 50 1782 1790
+type(
+  'a
+)
+ident(
+  def x "src/unix/lwt_gc.ml" 51 1794 1799 "src/unix/lwt_gc.ml" 52 1814 1848
+)
+"src/unix/lwt_gc.ml" 51 1794 1799 "src/unix/lwt_gc.ml" 51 1794 1802
+type(
+  'a option ref
+)
+ident(
+  int_ref opt "src/unix/lwt_gc.ml" 37 1444 1450 "src/unix/lwt_gc.ml" 37 1444 1453
+)
+"src/unix/lwt_gc.ml" 51 1794 1803 "src/unix/lwt_gc.ml" 51 1794 1805
+type(
+  'a option ref -> 'a option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_gc.ml" 51 1794 1811 "src/unix/lwt_gc.ml" 51 1794 1812
+type(
+  'a
+)
+ident(
+  int_ref x "src/unix/lwt_gc.ml" 50 1782 1789 "src/unix/lwt_gc.ml" 50 1782 1790
+)
+"src/unix/lwt_gc.ml" 51 1794 1806 "src/unix/lwt_gc.ml" 51 1794 1812
+type(
+  'a option
+)
+"src/unix/lwt_gc.ml" 51 1794 1799 "src/unix/lwt_gc.ml" 51 1794 1812
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 52 1814 1819 "src/unix/lwt_gc.ml" 52 1814 1845
+type(
+  int -> unit
+)
+ident(
+  ext_ref Lwt_unix.send_notification
+)
+"src/unix/lwt_gc.ml" 52 1814 1846 "src/unix/lwt_gc.ml" 52 1814 1848
+type(
+  int
+)
+ident(
+  int_ref id "src/unix/lwt_gc.ml" 38 1468 1474 "src/unix/lwt_gc.ml" 38 1468 1476
+)
+"src/unix/lwt_gc.ml" 52 1814 1819 "src/unix/lwt_gc.ml" 52 1814 1848
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 51 1794 1799 "src/unix/lwt_gc.ml" 52 1814 1848
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 50 1782 1784 "src/unix/lwt_gc.ml" 52 1814 1849
+type(
+  'a -> unit
+)
+"src/unix/lwt_gc.ml" 38 1468 1470 "src/unix/lwt_gc.ml" 52 1814 1849
+type(
+  'a -> unit
+)
+"src/unix/lwt_gc.ml" 37 1444 1446 "src/unix/lwt_gc.ml" 52 1814 1849
+type(
+  'a -> unit
+)
+"src/unix/lwt_gc.ml" 54 1851 1855 "src/unix/lwt_gc.ml" 54 1851 1863
+type(
+  ('a -> unit Lwt.t) -> 'a -> unit
+)
+ident(
+  def finalise "src/unix/lwt_gc.ml" 58 1940 1940 "src/unix/lwt_gc.ml" 1 0 -1
+)
+"src/unix/lwt_gc.ml" 54 1851 1864 "src/unix/lwt_gc.ml" 54 1851 1865
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  def f "src/unix/lwt_gc.ml" 54 1851 1866 "src/unix/lwt_gc.ml" 55 1870 1899
+)
+"src/unix/lwt_gc.ml" 54 1851 1866 "src/unix/lwt_gc.ml" 54 1851 1867
+type(
+  'a
+)
+ident(
+  def x "src/unix/lwt_gc.ml" 55 1870 1872 "src/unix/lwt_gc.ml" 55 1870 1899
+)
+"src/unix/lwt_gc.ml" 55 1870 1872 "src/unix/lwt_gc.ml" 55 1870 1883
+type(
+  ('a -> unit) -> 'a -> unit
+)
+ident(
+  ext_ref Gc.finalise
+)
+"src/unix/lwt_gc.ml" 55 1870 1885 "src/unix/lwt_gc.ml" 55 1870 1894
+type(
+  ('a -> unit Lwt.t) -> 'a -> unit
+)
+ident(
+  int_ref finaliser "src/unix/lwt_gc.ml" 33 1241 1245 "src/unix/lwt_gc.ml" 33 1241 1254
+)
+"src/unix/lwt_gc.ml" 55 1870 1895 "src/unix/lwt_gc.ml" 55 1870 1896
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/unix/lwt_gc.ml" 54 1851 1864 "src/unix/lwt_gc.ml" 54 1851 1865
+)
+"src/unix/lwt_gc.ml" 55 1870 1884 "src/unix/lwt_gc.ml" 55 1870 1897
+call(
+  stack
+)
+type(
+  'a -> unit
+)
+"src/unix/lwt_gc.ml" 55 1870 1898 "src/unix/lwt_gc.ml" 55 1870 1899
+type(
+  'a
+)
+ident(
+  int_ref x "src/unix/lwt_gc.ml" 54 1851 1866 "src/unix/lwt_gc.ml" 54 1851 1867
+)
+"src/unix/lwt_gc.ml" 55 1870 1872 "src/unix/lwt_gc.ml" 55 1870 1899
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 58 1940 1944 "src/unix/lwt_gc.ml" 58 1940 1952
+type(
+  ('a -> unit Lwt.t) -> bool ref -> 'a Weak.t -> unit -> unit Lwt.t
+)
+ident(
+  def foe_exit "src/unix/lwt_gc.ml" 75 2394 2394 "src/unix/lwt_gc.ml" 1 0 -1
+)
+"src/unix/lwt_gc.ml" 58 1940 1953 "src/unix/lwt_gc.ml" 58 1940 1954
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  def f "src/unix/lwt_gc.ml" 58 1940 1955 "src/unix/lwt_gc.ml" 72 2342 2353
+)
+"src/unix/lwt_gc.ml" 58 1940 1955 "src/unix/lwt_gc.ml" 58 1940 1961
+type(
+  bool ref
+)
+ident(
+  def called "src/unix/lwt_gc.ml" 58 1940 1962 "src/unix/lwt_gc.ml" 72 2342 2353
+)
+"src/unix/lwt_gc.ml" 58 1940 1962 "src/unix/lwt_gc.ml" 58 1940 1966
+type(
+  'a Weak.t
+)
+ident(
+  def weak "src/unix/lwt_gc.ml" 58 1940 1967 "src/unix/lwt_gc.ml" 72 2342 2353
+)
+"src/unix/lwt_gc.ml" 58 1940 1967 "src/unix/lwt_gc.ml" 58 1940 1969
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 59 1972 1980 "src/unix/lwt_gc.ml" 59 1972 1988
+type(
+  'a Weak.t -> int -> 'a option
+)
+ident(
+  ext_ref Weak.get
+)
+"src/unix/lwt_gc.ml" 59 1972 1989 "src/unix/lwt_gc.ml" 59 1972 1993
+type(
+  'a Weak.t
+)
+ident(
+  int_ref weak "src/unix/lwt_gc.ml" 58 1940 1962 "src/unix/lwt_gc.ml" 58 1940 1966
+)
+"src/unix/lwt_gc.ml" 59 1972 1994 "src/unix/lwt_gc.ml" 59 1972 1995
+type(
+  int
+)
+"src/unix/lwt_gc.ml" 59 1972 1980 "src/unix/lwt_gc.ml" 59 1972 1995
+call(
+  stack
+)
+type(
+  'a option
+)
+"src/unix/lwt_gc.ml" 60 2001 2007 "src/unix/lwt_gc.ml" 60 2001 2011
+type(
+  'a option
+)
+"src/unix/lwt_gc.ml" 63 2115 2123 "src/unix/lwt_gc.ml" 63 2115 2138
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/unix/lwt_gc.ml" 64 2139 2150 "src/unix/lwt_gc.ml" 64 2139 2151
+type(
+  'a
+)
+ident(
+  def x "src/unix/lwt_gc.ml" 66 2203 2211 "src/unix/lwt_gc.ml" 72 2342 2353
+)
+"src/unix/lwt_gc.ml" 64 2139 2145 "src/unix/lwt_gc.ml" 64 2139 2151
+type(
+  'a option
+)
+"src/unix/lwt_gc.ml" 66 2203 2211 "src/unix/lwt_gc.ml" 66 2203 2219
+type(
+  'a Weak.t -> int -> 'a option -> unit
+)
+ident(
+  ext_ref Weak.set
+)
+"src/unix/lwt_gc.ml" 66 2203 2220 "src/unix/lwt_gc.ml" 66 2203 2224
+type(
+  'a Weak.t
+)
+ident(
+  int_ref weak "src/unix/lwt_gc.ml" 58 1940 1962 "src/unix/lwt_gc.ml" 58 1940 1966
+)
+"src/unix/lwt_gc.ml" 66 2203 2225 "src/unix/lwt_gc.ml" 66 2203 2226
+type(
+  int
+)
+"src/unix/lwt_gc.ml" 66 2203 2227 "src/unix/lwt_gc.ml" 66 2203 2231
+type(
+  'a option
+)
+"src/unix/lwt_gc.ml" 66 2203 2211 "src/unix/lwt_gc.ml" 66 2203 2231
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 67 2233 2244 "src/unix/lwt_gc.ml" 67 2233 2245
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_gc.ml" 67 2233 2245 "src/unix/lwt_gc.ml" 67 2233 2251
+type(
+  bool ref
+)
+ident(
+  int_ref called "src/unix/lwt_gc.ml" 58 1940 1955 "src/unix/lwt_gc.ml" 58 1940 1961
+)
+"src/unix/lwt_gc.ml" 67 2233 2244 "src/unix/lwt_gc.ml" 67 2233 2251
+type(
+  bool
+)
+"src/unix/lwt_gc.ml" 68 2257 2267 "src/unix/lwt_gc.ml" 68 2257 2282
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/unix/lwt_gc.ml" 70 2302 2312 "src/unix/lwt_gc.ml" 70 2302 2318
+type(
+  bool ref
+)
+ident(
+  int_ref called "src/unix/lwt_gc.ml" 58 1940 1955 "src/unix/lwt_gc.ml" 58 1940 1961
+)
+"src/unix/lwt_gc.ml" 70 2302 2319 "src/unix/lwt_gc.ml" 70 2302 2321
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_gc.ml" 70 2302 2322 "src/unix/lwt_gc.ml" 70 2302 2326
+type(
+  bool
+)
+"src/unix/lwt_gc.ml" 70 2302 2312 "src/unix/lwt_gc.ml" 70 2302 2326
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 71 2328 2338 "src/unix/lwt_gc.ml" 71 2328 2339
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/unix/lwt_gc.ml" 58 1940 1953 "src/unix/lwt_gc.ml" 58 1940 1954
+)
+"src/unix/lwt_gc.ml" 71 2328 2340 "src/unix/lwt_gc.ml" 71 2328 2341
+type(
+  'a
+)
+ident(
+  int_ref x "src/unix/lwt_gc.ml" 64 2139 2150 "src/unix/lwt_gc.ml" 64 2139 2151
+)
+"src/unix/lwt_gc.ml" 71 2328 2338 "src/unix/lwt_gc.ml" 71 2328 2341
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 69 2283 2296 "src/unix/lwt_gc.ml" 72 2342 2353
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 67 2233 2241 "src/unix/lwt_gc.ml" 72 2342 2353
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 66 2203 2211 "src/unix/lwt_gc.ml" 72 2342 2353
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 59 1972 1974 "src/unix/lwt_gc.ml" 72 2342 2353
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 75 2394 2398 "src/unix/lwt_gc.ml" 75 2394 2411
+type(
+  ('a -> unit Lwt.t) -> bool ref -> 'b Lwt_sequence.node -> 'a -> unit
+)
+ident(
+  def foe_finaliser "src/unix/lwt_gc.ml" 88 2703 2703 "src/unix/lwt_gc.ml" 1 0 -1
+)
+"src/unix/lwt_gc.ml" 75 2394 2412 "src/unix/lwt_gc.ml" 75 2394 2413
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  def f "src/unix/lwt_gc.ml" 75 2394 2414 "src/unix/lwt_gc.ml" 86 2690 2701
+)
+"src/unix/lwt_gc.ml" 75 2394 2414 "src/unix/lwt_gc.ml" 75 2394 2420
+type(
+  bool ref
+)
+ident(
+  def called "src/unix/lwt_gc.ml" 75 2394 2421 "src/unix/lwt_gc.ml" 86 2690 2701
+)
+"src/unix/lwt_gc.ml" 75 2394 2421 "src/unix/lwt_gc.ml" 75 2394 2425
+type(
+  'b Lwt_sequence.node
+)
+ident(
+  def hook "src/unix/lwt_gc.ml" 76 2428 2430 "src/unix/lwt_gc.ml" 86 2690 2701
+)
+"src/unix/lwt_gc.ml" 76 2428 2430 "src/unix/lwt_gc.ml" 76 2428 2439
+type(
+  ('a -> unit Lwt.t) -> 'a -> unit
+)
+ident(
+  int_ref finaliser "src/unix/lwt_gc.ml" 33 1241 1245 "src/unix/lwt_gc.ml" 33 1241 1254
+)
+"src/unix/lwt_gc.ml" 77 2440 2449 "src/unix/lwt_gc.ml" 77 2440 2450
+type(
+  'a
+)
+ident(
+  def x "src/unix/lwt_gc.ml" 79 2515 2522 "src/unix/lwt_gc.ml" 86 2690 2700
+)
+"src/unix/lwt_gc.ml" 79 2515 2522 "src/unix/lwt_gc.ml" 79 2515 2541
+type(
+  'b Lwt_sequence.node -> unit
+)
+ident(
+  ext_ref Lwt_sequence.remove
+)
+"src/unix/lwt_gc.ml" 79 2515 2542 "src/unix/lwt_gc.ml" 79 2515 2546
+type(
+  'b Lwt_sequence.node
+)
+ident(
+  int_ref hook "src/unix/lwt_gc.ml" 75 2394 2421 "src/unix/lwt_gc.ml" 75 2394 2425
+)
+"src/unix/lwt_gc.ml" 79 2515 2522 "src/unix/lwt_gc.ml" 79 2515 2546
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 81 2586 2596 "src/unix/lwt_gc.ml" 81 2586 2597
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_gc.ml" 81 2586 2597 "src/unix/lwt_gc.ml" 81 2586 2603
+type(
+  bool ref
+)
+ident(
+  int_ref called "src/unix/lwt_gc.ml" 75 2394 2414 "src/unix/lwt_gc.ml" 75 2394 2420
+)
+"src/unix/lwt_gc.ml" 81 2586 2596 "src/unix/lwt_gc.ml" 81 2586 2603
+type(
+  bool
+)
+"src/unix/lwt_gc.ml" 82 2609 2618 "src/unix/lwt_gc.ml" 82 2609 2633
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/unix/lwt_gc.ml" 84 2652 2661 "src/unix/lwt_gc.ml" 84 2652 2667
+type(
+  bool ref
+)
+ident(
+  int_ref called "src/unix/lwt_gc.ml" 75 2394 2414 "src/unix/lwt_gc.ml" 75 2394 2420
+)
+"src/unix/lwt_gc.ml" 84 2652 2668 "src/unix/lwt_gc.ml" 84 2652 2670
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_gc.ml" 84 2652 2671 "src/unix/lwt_gc.ml" 84 2652 2675
+type(
+  bool
+)
+"src/unix/lwt_gc.ml" 84 2652 2661 "src/unix/lwt_gc.ml" 84 2652 2675
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 85 2677 2686 "src/unix/lwt_gc.ml" 85 2677 2687
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/unix/lwt_gc.ml" 75 2394 2412 "src/unix/lwt_gc.ml" 75 2394 2413
+)
+"src/unix/lwt_gc.ml" 85 2677 2688 "src/unix/lwt_gc.ml" 85 2677 2689
+type(
+  'a
+)
+ident(
+  int_ref x "src/unix/lwt_gc.ml" 77 2440 2449 "src/unix/lwt_gc.ml" 77 2440 2450
+)
+"src/unix/lwt_gc.ml" 85 2677 2686 "src/unix/lwt_gc.ml" 85 2677 2689
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 83 2634 2646 "src/unix/lwt_gc.ml" 86 2690 2700
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 81 2586 2593 "src/unix/lwt_gc.ml" 86 2690 2700
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 79 2515 2522 "src/unix/lwt_gc.ml" 86 2690 2700
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 77 2440 2444 "src/unix/lwt_gc.ml" 86 2690 2701
+type(
+  'a -> unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 76 2428 2430 "src/unix/lwt_gc.ml" 86 2690 2701
+call(
+  tail
+)
+type(
+  'a -> unit
+)
+"src/unix/lwt_gc.ml" 88 2703 2707 "src/unix/lwt_gc.ml" 88 2703 2723
+type(
+  ('a -> unit Lwt.t) -> 'a -> unit
+)
+ident(
+  def finalise_or_exit "src/unix/lwt_gc.ml" 95 2983 3028 "src/unix/lwt_gc.ml" 1 0 -1
+)
+"src/unix/lwt_gc.ml" 88 2703 2724 "src/unix/lwt_gc.ml" 88 2703 2725
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  def f "src/unix/lwt_gc.ml" 88 2703 2726 "src/unix/lwt_gc.ml" 95 2983 3028
+)
+"src/unix/lwt_gc.ml" 88 2703 2726 "src/unix/lwt_gc.ml" 88 2703 2727
+type(
+  'a
+)
+ident(
+  def x "src/unix/lwt_gc.ml" 91 2817 2819 "src/unix/lwt_gc.ml" 95 2983 3028
+)
+"src/unix/lwt_gc.ml" 91 2817 2823 "src/unix/lwt_gc.ml" 91 2817 2827
+type(
+  'a Weak.t
+)
+ident(
+  def weak "src/unix/lwt_gc.ml" 92 2847 2849 "src/unix/lwt_gc.ml" 95 2983 3028
+)
+"src/unix/lwt_gc.ml" 91 2817 2830 "src/unix/lwt_gc.ml" 91 2817 2841
+type(
+  int -> 'a Weak.t
+)
+ident(
+  ext_ref Weak.create
+)
+"src/unix/lwt_gc.ml" 91 2817 2842 "src/unix/lwt_gc.ml" 91 2817 2843
+type(
+  int
+)
+"src/unix/lwt_gc.ml" 91 2817 2830 "src/unix/lwt_gc.ml" 91 2817 2843
+call(
+  stack
+)
+type(
+  'a Weak.t
+)
+"src/unix/lwt_gc.ml" 92 2847 2849 "src/unix/lwt_gc.ml" 92 2847 2857
+type(
+  'a Weak.t -> int -> 'a option -> unit
+)
+ident(
+  ext_ref Weak.set
+)
+"src/unix/lwt_gc.ml" 92 2847 2858 "src/unix/lwt_gc.ml" 92 2847 2862
+type(
+  'a Weak.t
+)
+ident(
+  int_ref weak "src/unix/lwt_gc.ml" 91 2817 2823 "src/unix/lwt_gc.ml" 91 2817 2827
+)
+"src/unix/lwt_gc.ml" 92 2847 2863 "src/unix/lwt_gc.ml" 92 2847 2864
+type(
+  int
+)
+"src/unix/lwt_gc.ml" 92 2847 2871 "src/unix/lwt_gc.ml" 92 2847 2872
+type(
+  'a
+)
+ident(
+  int_ref x "src/unix/lwt_gc.ml" 88 2703 2726 "src/unix/lwt_gc.ml" 88 2703 2727
+)
+"src/unix/lwt_gc.ml" 92 2847 2865 "src/unix/lwt_gc.ml" 92 2847 2873
+type(
+  'a option
+)
+"src/unix/lwt_gc.ml" 92 2847 2849 "src/unix/lwt_gc.ml" 92 2847 2873
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 93 2875 2881 "src/unix/lwt_gc.ml" 93 2875 2887
+type(
+  bool ref
+)
+ident(
+  def called "src/unix/lwt_gc.ml" 94 2903 2905 "src/unix/lwt_gc.ml" 95 2983 3028
+)
+"src/unix/lwt_gc.ml" 93 2875 2890 "src/unix/lwt_gc.ml" 93 2875 2893
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/unix/lwt_gc.ml" 93 2875 2894 "src/unix/lwt_gc.ml" 93 2875 2899
+type(
+  bool
+)
+"src/unix/lwt_gc.ml" 93 2875 2890 "src/unix/lwt_gc.ml" 93 2875 2899
+type(
+  bool ref
+)
+"src/unix/lwt_gc.ml" 94 2903 2909 "src/unix/lwt_gc.ml" 94 2903 2913
+type(
+  (unit -> unit Lwt.t) Lwt_sequence.node
+)
+ident(
+  def hook "src/unix/lwt_gc.ml" 95 2983 2985 "src/unix/lwt_gc.ml" 95 2983 3028
+)
+"src/unix/lwt_gc.ml" 94 2903 2916 "src/unix/lwt_gc.ml" 94 2903 2934
+type(
+  (unit -> unit Lwt.t) ->
+  (unit -> unit Lwt.t) Lwt_sequence.t ->
+  (unit -> unit Lwt.t) Lwt_sequence.node
+)
+ident(
+  ext_ref Lwt_sequence.add_l
+)
+"src/unix/lwt_gc.ml" 94 2903 2936 "src/unix/lwt_gc.ml" 94 2903 2944
+type(
+  ('a -> unit Lwt.t) -> bool ref -> 'a Weak.t -> unit -> unit Lwt.t
+)
+ident(
+  int_ref foe_exit "src/unix/lwt_gc.ml" 58 1940 1944 "src/unix/lwt_gc.ml" 58 1940 1952
+)
+"src/unix/lwt_gc.ml" 94 2903 2945 "src/unix/lwt_gc.ml" 94 2903 2946
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/unix/lwt_gc.ml" 88 2703 2724 "src/unix/lwt_gc.ml" 88 2703 2725
+)
+"src/unix/lwt_gc.ml" 94 2903 2947 "src/unix/lwt_gc.ml" 94 2903 2953
+type(
+  bool ref
+)
+ident(
+  int_ref called "src/unix/lwt_gc.ml" 93 2875 2881 "src/unix/lwt_gc.ml" 93 2875 2887
+)
+"src/unix/lwt_gc.ml" 94 2903 2954 "src/unix/lwt_gc.ml" 94 2903 2958
+type(
+  'a Weak.t
+)
+ident(
+  int_ref weak "src/unix/lwt_gc.ml" 91 2817 2823 "src/unix/lwt_gc.ml" 91 2817 2827
+)
+"src/unix/lwt_gc.ml" 94 2903 2935 "src/unix/lwt_gc.ml" 94 2903 2959
+call(
+  stack
+)
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_gc.ml" 94 2903 2960 "src/unix/lwt_gc.ml" 94 2903 2979
+type(
+  (unit -> unit Lwt.t) Lwt_sequence.t
+)
+ident(
+  ext_ref Lwt_main.exit_hooks
+)
+"src/unix/lwt_gc.ml" 94 2903 2916 "src/unix/lwt_gc.ml" 94 2903 2979
+call(
+  stack
+)
+type(
+  (unit -> unit Lwt.t) Lwt_sequence.node
+)
+"src/unix/lwt_gc.ml" 95 2983 2985 "src/unix/lwt_gc.ml" 95 2983 2996
+type(
+  ('a -> unit) -> 'a -> unit
+)
+ident(
+  ext_ref Gc.finalise
+)
+"src/unix/lwt_gc.ml" 95 2983 2998 "src/unix/lwt_gc.ml" 95 2983 3011
+type(
+  ('a -> unit Lwt.t) ->
+  bool ref -> (unit -> unit Lwt.t) Lwt_sequence.node -> 'a -> unit
+)
+ident(
+  int_ref foe_finaliser "src/unix/lwt_gc.ml" 75 2394 2398 "src/unix/lwt_gc.ml" 75 2394 2411
+)
+"src/unix/lwt_gc.ml" 95 2983 3012 "src/unix/lwt_gc.ml" 95 2983 3013
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/unix/lwt_gc.ml" 88 2703 2724 "src/unix/lwt_gc.ml" 88 2703 2725
+)
+"src/unix/lwt_gc.ml" 95 2983 3014 "src/unix/lwt_gc.ml" 95 2983 3020
+type(
+  bool ref
+)
+ident(
+  int_ref called "src/unix/lwt_gc.ml" 93 2875 2881 "src/unix/lwt_gc.ml" 93 2875 2887
+)
+"src/unix/lwt_gc.ml" 95 2983 3021 "src/unix/lwt_gc.ml" 95 2983 3025
+type(
+  (unit -> unit Lwt.t) Lwt_sequence.node
+)
+ident(
+  int_ref hook "src/unix/lwt_gc.ml" 94 2903 2909 "src/unix/lwt_gc.ml" 94 2903 2913
+)
+"src/unix/lwt_gc.ml" 95 2983 2997 "src/unix/lwt_gc.ml" 95 2983 3026
+call(
+  stack
+)
+type(
+  'a -> unit
+)
+"src/unix/lwt_gc.ml" 95 2983 3027 "src/unix/lwt_gc.ml" 95 2983 3028
+type(
+  'a
+)
+ident(
+  int_ref x "src/unix/lwt_gc.ml" 88 2703 2726 "src/unix/lwt_gc.ml" 88 2703 2727
+)
+"src/unix/lwt_gc.ml" 95 2983 2985 "src/unix/lwt_gc.ml" 95 2983 3028
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 94 2903 2905 "src/unix/lwt_gc.ml" 95 2983 3028
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 93 2875 2877 "src/unix/lwt_gc.ml" 95 2983 3028
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 92 2847 2849 "src/unix/lwt_gc.ml" 95 2983 3028
+type(
+  unit
+)
+"src/unix/lwt_gc.ml" 91 2817 2819 "src/unix/lwt_gc.ml" 95 2983 3028
+type(
+  unit
+)

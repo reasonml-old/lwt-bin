@@ -1,0 +1,5158 @@
+"src/unix/lwt_log.ml" 30 1102 1106 "src/unix/lwt_log.ml" 30 1102 1118
+type(
+  string
+)
+ident(
+  def program_name "src/unix/lwt_log.ml" 33 1229 1229 "src/unix/lwt_log.ml" 1 0 -1
+)
+"src/unix/lwt_log.ml" 30 1102 1121 "src/unix/lwt_log.ml" 30 1102 1138
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.basename
+)
+"src/unix/lwt_log.ml" 30 1102 1139 "src/unix/lwt_log.ml" 30 1102 1158
+type(
+  string
+)
+ident(
+  ext_ref Sys.executable_name
+)
+"src/unix/lwt_log.ml" 30 1102 1121 "src/unix/lwt_log.ml" 30 1102 1158
+call(
+  stack
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 33 1229 1233 "src/unix/lwt_log.ml" 33 1229 1243
+type(
+  ('a, out_channel, unit, unit, unit, unit) format6 -> 'a
+)
+ident(
+  def log_intern "src/unix/lwt_log.ml" 40 1533 1533 "src/unix/lwt_log.ml" 1 0 -1
+)
+"src/unix/lwt_log.ml" 33 1229 1244 "src/unix/lwt_log.ml" 33 1229 1247
+type(
+  ('a, out_channel, unit, unit, unit, unit) format6
+)
+ident(
+  def fmt "src/unix/lwt_log.ml" 34 1250 1252 "src/unix/lwt_log.ml" 34 1250 1314
+)
+"src/unix/lwt_log.ml" 34 1250 1252 "src/unix/lwt_log.ml" 34 1250 1266
+type(
+  (string -> 'a, out_channel, unit) format -> string -> 'a
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"src/unix/lwt_log.ml" 34 1250 1268 "src/unix/lwt_log.ml" 34 1250 1283
+type(
+  (string -> 'a, out_channel, unit, unit, unit, 'a) format6
+)
+"src/unix/lwt_log.ml" 34 1250 1284 "src/unix/lwt_log.ml" 34 1250 1286
+type(
+  (string -> 'a, out_channel, unit, unit, unit, 'a) format6 ->
+  ('a, out_channel, unit, unit, unit, unit) format6 ->
+  (string -> 'a, out_channel, unit, unit, unit, unit) format6
+)
+ident(
+  ext_ref Pervasives.( ^^ )
+)
+"src/unix/lwt_log.ml" 34 1250 1287 "src/unix/lwt_log.ml" 34 1250 1290
+type(
+  ('a, out_channel, unit, unit, unit, unit) format6
+)
+ident(
+  int_ref fmt "src/unix/lwt_log.ml" 33 1229 1244 "src/unix/lwt_log.ml" 33 1229 1247
+)
+"src/unix/lwt_log.ml" 34 1250 1291 "src/unix/lwt_log.ml" 34 1250 1293
+type(
+  ('a, out_channel, unit, unit, unit, unit) format6 ->
+  (unit, out_channel, unit, unit, unit, unit) format6 ->
+  ('a, out_channel, unit, unit, unit, unit) format6
+)
+ident(
+  ext_ref Pervasives.( ^^ )
+)
+"src/unix/lwt_log.ml" 34 1250 1294 "src/unix/lwt_log.ml" 34 1250 1300
+type(
+  (unit, out_channel, unit, unit, unit, unit) format6
+)
+"src/unix/lwt_log.ml" 34 1250 1287 "src/unix/lwt_log.ml" 34 1250 1300
+call(
+  stack
+)
+type(
+  ('a, out_channel, unit, unit, unit, unit) format6
+)
+"src/unix/lwt_log.ml" 34 1250 1267 "src/unix/lwt_log.ml" 34 1250 1301
+call(
+  stack
+)
+type(
+  (string -> 'a, out_channel, unit, unit, unit, unit) format6
+)
+"src/unix/lwt_log.ml" 34 1250 1302 "src/unix/lwt_log.ml" 34 1250 1314
+type(
+  string
+)
+ident(
+  int_ref program_name "src/unix/lwt_log.ml" 30 1102 1106 "src/unix/lwt_log.ml" 30 1102 1118
+)
+"src/unix/lwt_log.ml" 34 1250 1252 "src/unix/lwt_log.ml" 34 1250 1314
+call(
+  tail
+)
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 40 1533 1537 "src/unix/lwt_log.ml" 40 1533 1548
+type(
+  float -> string
+)
+ident(
+  def date_string "src/unix/lwt_log.ml" 60 2083 2083 "src/unix/lwt_log.ml" 1 0 -1
+)
+"src/unix/lwt_log.ml" 40 1533 1549 "src/unix/lwt_log.ml" 40 1533 1553
+type(
+  float
+)
+ident(
+  def time "src/unix/lwt_log.ml" 41 1556 1558 "src/unix/lwt_log.ml" 58 1966 2081
+)
+"src/unix/lwt_log.ml" 41 1556 1562 "src/unix/lwt_log.ml" 41 1556 1564
+type(
+  Unix.tm
+)
+ident(
+  def tm "src/unix/lwt_log.ml" 42 1590 1592 "src/unix/lwt_log.ml" 58 1966 2081
+)
+"src/unix/lwt_log.ml" 41 1556 1567 "src/unix/lwt_log.ml" 41 1556 1581
+type(
+  float -> Unix.tm
+)
+ident(
+  ext_ref Unix.localtime
+)
+"src/unix/lwt_log.ml" 41 1556 1582 "src/unix/lwt_log.ml" 41 1556 1586
+type(
+  float
+)
+ident(
+  int_ref time "src/unix/lwt_log.ml" 40 1533 1549 "src/unix/lwt_log.ml" 40 1533 1553
+)
+"src/unix/lwt_log.ml" 41 1556 1567 "src/unix/lwt_log.ml" 41 1556 1586
+call(
+  stack
+)
+type(
+  Unix.tm
+)
+"src/unix/lwt_log.ml" 42 1590 1596 "src/unix/lwt_log.ml" 42 1590 1608
+type(
+  string
+)
+ident(
+  def month_string "src/unix/lwt_log.ml" 58 1966 1968 "src/unix/lwt_log.ml" 58 1966 2081
+)
+"src/unix/lwt_log.ml" 43 1611 1621 "src/unix/lwt_log.ml" 43 1611 1623
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "src/unix/lwt_log.ml" 41 1556 1562 "src/unix/lwt_log.ml" 41 1556 1564
+)
+"src/unix/lwt_log.ml" 43 1611 1621 "src/unix/lwt_log.ml" 43 1611 1635
+type(
+  int
+)
+"src/unix/lwt_log.ml" 44 1641 1649 "src/unix/lwt_log.ml" 44 1641 1650
+type(
+  int
+)
+"src/unix/lwt_log.ml" 44 1641 1654 "src/unix/lwt_log.ml" 44 1641 1659
+type(
+  string
+)
+"src/unix/lwt_log.ml" 45 1660 1668 "src/unix/lwt_log.ml" 45 1660 1669
+type(
+  int
+)
+"src/unix/lwt_log.ml" 45 1660 1673 "src/unix/lwt_log.ml" 45 1660 1678
+type(
+  string
+)
+"src/unix/lwt_log.ml" 46 1679 1687 "src/unix/lwt_log.ml" 46 1679 1688
+type(
+  int
+)
+"src/unix/lwt_log.ml" 46 1679 1692 "src/unix/lwt_log.ml" 46 1679 1697
+type(
+  string
+)
+"src/unix/lwt_log.ml" 47 1698 1706 "src/unix/lwt_log.ml" 47 1698 1707
+type(
+  int
+)
+"src/unix/lwt_log.ml" 47 1698 1711 "src/unix/lwt_log.ml" 47 1698 1716
+type(
+  string
+)
+"src/unix/lwt_log.ml" 48 1717 1725 "src/unix/lwt_log.ml" 48 1717 1726
+type(
+  int
+)
+"src/unix/lwt_log.ml" 48 1717 1730 "src/unix/lwt_log.ml" 48 1717 1735
+type(
+  string
+)
+"src/unix/lwt_log.ml" 49 1736 1744 "src/unix/lwt_log.ml" 49 1736 1745
+type(
+  int
+)
+"src/unix/lwt_log.ml" 49 1736 1749 "src/unix/lwt_log.ml" 49 1736 1754
+type(
+  string
+)
+"src/unix/lwt_log.ml" 50 1755 1763 "src/unix/lwt_log.ml" 50 1755 1764
+type(
+  int
+)
+"src/unix/lwt_log.ml" 50 1755 1768 "src/unix/lwt_log.ml" 50 1755 1773
+type(
+  string
+)
+"src/unix/lwt_log.ml" 51 1774 1782 "src/unix/lwt_log.ml" 51 1774 1783
+type(
+  int
+)
+"src/unix/lwt_log.ml" 51 1774 1787 "src/unix/lwt_log.ml" 51 1774 1792
+type(
+  string
+)
+"src/unix/lwt_log.ml" 52 1793 1801 "src/unix/lwt_log.ml" 52 1793 1802
+type(
+  int
+)
+"src/unix/lwt_log.ml" 52 1793 1806 "src/unix/lwt_log.ml" 52 1793 1811
+type(
+  string
+)
+"src/unix/lwt_log.ml" 53 1812 1820 "src/unix/lwt_log.ml" 53 1812 1821
+type(
+  int
+)
+"src/unix/lwt_log.ml" 53 1812 1825 "src/unix/lwt_log.ml" 53 1812 1830
+type(
+  string
+)
+"src/unix/lwt_log.ml" 54 1831 1839 "src/unix/lwt_log.ml" 54 1831 1841
+type(
+  int
+)
+"src/unix/lwt_log.ml" 54 1831 1845 "src/unix/lwt_log.ml" 54 1831 1850
+type(
+  string
+)
+"src/unix/lwt_log.ml" 55 1851 1859 "src/unix/lwt_log.ml" 55 1851 1861
+type(
+  int
+)
+"src/unix/lwt_log.ml" 55 1851 1865 "src/unix/lwt_log.ml" 55 1851 1870
+type(
+  string
+)
+"src/unix/lwt_log.ml" 56 1871 1879 "src/unix/lwt_log.ml" 56 1871 1880
+type(
+  int
+)
+"src/unix/lwt_log.ml" 56 1871 1884 "src/unix/lwt_log.ml" 56 1871 1899
+type(
+  (string -> string) ->
+  (int -> string, unit, string, string) format4 -> int -> string
+)
+ident(
+  ext_ref Printf.ksprintf
+)
+"src/unix/lwt_log.ml" 56 1871 1900 "src/unix/lwt_log.ml" 56 1871 1908
+type(
+  string -> string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/unix/lwt_log.ml" 56 1871 1909 "src/unix/lwt_log.ml" 56 1871 1945
+type(
+  (int -> string, unit, string, string) format4
+)
+"src/unix/lwt_log.ml" 56 1871 1946 "src/unix/lwt_log.ml" 56 1871 1948
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "src/unix/lwt_log.ml" 41 1556 1562 "src/unix/lwt_log.ml" 41 1556 1564
+)
+"src/unix/lwt_log.ml" 56 1871 1946 "src/unix/lwt_log.ml" 56 1871 1960
+type(
+  int
+)
+"src/unix/lwt_log.ml" 56 1871 1884 "src/unix/lwt_log.ml" 56 1871 1960
+call(
+  stack
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 43 1611 1615 "src/unix/lwt_log.ml" 56 1871 1960
+type(
+  string
+)
+"src/unix/lwt_log.ml" 58 1966 1968 "src/unix/lwt_log.ml" 58 1966 1982
+type(
+  (string -> int -> int -> int -> int -> string, unit, string) format ->
+  string -> int -> int -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/unix/lwt_log.ml" 58 1966 1983 "src/unix/lwt_log.ml" 58 1966 2006
+type(
+  (string -> int -> int -> int -> int -> string, unit, string) format
+)
+"src/unix/lwt_log.ml" 58 1966 2007 "src/unix/lwt_log.ml" 58 1966 2019
+type(
+  string
+)
+ident(
+  int_ref month_string "src/unix/lwt_log.ml" 42 1590 1596 "src/unix/lwt_log.ml" 42 1590 1608
+)
+"src/unix/lwt_log.ml" 58 1966 2020 "src/unix/lwt_log.ml" 58 1966 2022
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "src/unix/lwt_log.ml" 41 1556 1562 "src/unix/lwt_log.ml" 41 1556 1564
+)
+"src/unix/lwt_log.ml" 58 1966 2020 "src/unix/lwt_log.ml" 58 1966 2035
+type(
+  int
+)
+"src/unix/lwt_log.ml" 58 1966 2036 "src/unix/lwt_log.ml" 58 1966 2038
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "src/unix/lwt_log.ml" 41 1556 1562 "src/unix/lwt_log.ml" 41 1556 1564
+)
+"src/unix/lwt_log.ml" 58 1966 2036 "src/unix/lwt_log.ml" 58 1966 2051
+type(
+  int
+)
+"src/unix/lwt_log.ml" 58 1966 2052 "src/unix/lwt_log.ml" 58 1966 2054
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "src/unix/lwt_log.ml" 41 1556 1562 "src/unix/lwt_log.ml" 41 1556 1564
+)
+"src/unix/lwt_log.ml" 58 1966 2052 "src/unix/lwt_log.ml" 58 1966 2066
+type(
+  int
+)
+"src/unix/lwt_log.ml" 58 1966 2067 "src/unix/lwt_log.ml" 58 1966 2069
+type(
+  Unix.tm
+)
+ident(
+  int_ref tm "src/unix/lwt_log.ml" 41 1556 1562 "src/unix/lwt_log.ml" 41 1556 1564
+)
+"src/unix/lwt_log.ml" 58 1966 2067 "src/unix/lwt_log.ml" 58 1966 2081
+type(
+  int
+)
+"src/unix/lwt_log.ml" 58 1966 1968 "src/unix/lwt_log.ml" 58 1966 2081
+call(
+  tail
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 42 1590 1592 "src/unix/lwt_log.ml" 58 1966 2081
+type(
+  string
+)
+"src/unix/lwt_log.ml" 41 1556 1558 "src/unix/lwt_log.ml" 58 1966 2081
+type(
+  string
+)
+"src/unix/lwt_log.ml" 60 2083 2087 "src/unix/lwt_log.ml" 60 2083 2093
+type(
+  buffer:Buffer.t ->
+  template:string ->
+  section:Lwt_log_core.section ->
+  level:Lwt_log_core.level -> message:string -> unit
+)
+ident(
+  def render "src/unix/lwt_log.ml" 86 3153 3153 "src/unix/lwt_log.ml" 1 0 -1
+)
+"src/unix/lwt_log.ml" 60 2083 2095 "src/unix/lwt_log.ml" 60 2083 2101
+type(
+  Buffer.t
+)
+ident(
+  def buffer "src/unix/lwt_log.ml" 60 2083 2102 "src/unix/lwt_log.ml" 80 2922 2934
+)
+"src/unix/lwt_log.ml" 60 2083 2103 "src/unix/lwt_log.ml" 60 2083 2111
+type(
+  string
+)
+ident(
+  def template "src/unix/lwt_log.ml" 60 2083 2112 "src/unix/lwt_log.ml" 80 2922 2934
+)
+"src/unix/lwt_log.ml" 60 2083 2113 "src/unix/lwt_log.ml" 60 2083 2120
+type(
+  Lwt_log_core.section
+)
+ident(
+  def section "src/unix/lwt_log.ml" 60 2083 2121 "src/unix/lwt_log.ml" 80 2922 2934
+)
+"src/unix/lwt_log.ml" 60 2083 2122 "src/unix/lwt_log.ml" 60 2083 2127
+type(
+  Lwt_log_core.level
+)
+ident(
+  def level "src/unix/lwt_log.ml" 60 2083 2128 "src/unix/lwt_log.ml" 80 2922 2934
+)
+"src/unix/lwt_log.ml" 60 2083 2129 "src/unix/lwt_log.ml" 60 2083 2136
+type(
+  string
+)
+ident(
+  def message "src/unix/lwt_log.ml" 61 2139 2141 "src/unix/lwt_log.ml" 80 2922 2934
+)
+"src/unix/lwt_log.ml" 61 2139 2145 "src/unix/lwt_log.ml" 61 2139 2149
+type(
+  float lazy_t
+)
+ident(
+  def time "src/unix/lwt_log.ml" 62 2182 2184 "src/unix/lwt_log.ml" 80 2922 2934
+)
+"src/unix/lwt_log.ml" 61 2139 2157 "src/unix/lwt_log.ml" 61 2139 2174
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"src/unix/lwt_log.ml" 61 2139 2175 "src/unix/lwt_log.ml" 61 2139 2177
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 61 2139 2156 "src/unix/lwt_log.ml" 61 2139 2178
+call(
+  tail
+)
+type(
+  float
+)
+"src/unix/lwt_log.ml" 61 2139 2152 "src/unix/lwt_log.ml" 61 2139 2178
+type(
+  float lazy_t
+)
+"src/unix/lwt_log.ml" 62 2182 2188 "src/unix/lwt_log.ml" 62 2182 2192
+type(
+  string
+)
+ident(
+  def file "src/unix/lwt_log.ml" 67 2312 2314 "src/unix/lwt_log.ml" 80 2922 2934
+)
+"src/unix/lwt_log.ml" 62 2182 2194 "src/unix/lwt_log.ml" 62 2182 2198
+type(
+  int
+)
+ident(
+  def line "src/unix/lwt_log.ml" 67 2312 2314 "src/unix/lwt_log.ml" 80 2922 2934
+)
+"src/unix/lwt_log.ml" 62 2182 2200 "src/unix/lwt_log.ml" 62 2182 2206
+type(
+  int
+)
+ident(
+  def column "src/unix/lwt_log.ml" 67 2312 2314 "src/unix/lwt_log.ml" 80 2922 2934
+)
+"src/unix/lwt_log.ml" 62 2182 2188 "src/unix/lwt_log.ml" 62 2182 2206
+type(
+  string * int * int
+)
+"src/unix/lwt_log.ml" 63 2209 2219 "src/unix/lwt_log.ml" 63 2209 2226
+type(
+  (string * int * int) Lwt.key -> (string * int * int) option
+)
+ident(
+  ext_ref Lwt.get
+)
+"src/unix/lwt_log.ml" 63 2209 2227 "src/unix/lwt_log.ml" 63 2209 2239
+type(
+  (string * int * int) Lwt.key
+)
+ident(
+  ext_ref location_key
+)
+"src/unix/lwt_log.ml" 63 2209 2219 "src/unix/lwt_log.ml" 63 2209 2239
+call(
+  stack
+)
+type(
+  (string * int * int) option
+)
+"src/unix/lwt_log.ml" 64 2245 2258 "src/unix/lwt_log.ml" 64 2245 2261
+type(
+  string * int * int
+)
+ident(
+  def loc "src/unix/lwt_log.ml" 64 2245 2265 "src/unix/lwt_log.ml" 64 2245 2268
+)
+"src/unix/lwt_log.ml" 64 2245 2253 "src/unix/lwt_log.ml" 64 2245 2261
+type(
+  (string * int * int) option
+)
+"src/unix/lwt_log.ml" 64 2245 2265 "src/unix/lwt_log.ml" 64 2245 2268
+type(
+  string * int * int
+)
+ident(
+  int_ref loc "src/unix/lwt_log.ml" 64 2245 2258 "src/unix/lwt_log.ml" 64 2245 2261
+)
+"src/unix/lwt_log.ml" 65 2269 2277 "src/unix/lwt_log.ml" 65 2269 2281
+type(
+  (string * int * int) option
+)
+"src/unix/lwt_log.ml" 65 2269 2286 "src/unix/lwt_log.ml" 65 2269 2297
+type(
+  string
+)
+"src/unix/lwt_log.ml" 65 2269 2299 "src/unix/lwt_log.ml" 65 2269 2301
+type(
+  int
+)
+"src/unix/lwt_log.ml" 65 2269 2303 "src/unix/lwt_log.ml" 65 2269 2305
+type(
+  int
+)
+"src/unix/lwt_log.ml" 65 2269 2285 "src/unix/lwt_log.ml" 65 2269 2306
+type(
+  string * int * int
+)
+"src/unix/lwt_log.ml" 63 2209 2213 "src/unix/lwt_log.ml" 65 2269 2306
+type(
+  string * int * int
+)
+"src/unix/lwt_log.ml" 67 2312 2314 "src/unix/lwt_log.ml" 67 2312 2335
+type(
+  Buffer.t -> (string -> string) -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_substitute
+)
+"src/unix/lwt_log.ml" 67 2312 2336 "src/unix/lwt_log.ml" 67 2312 2342
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "src/unix/lwt_log.ml" 60 2083 2095 "src/unix/lwt_log.ml" 60 2083 2101
+)
+"src/unix/lwt_log.ml" 69 2357 2366 "src/unix/lwt_log.ml" 69 2357 2372
+type(
+  string
+)
+"src/unix/lwt_log.ml" 69 2357 2376 "src/unix/lwt_log.ml" 69 2357 2387
+type(
+  float -> string
+)
+ident(
+  int_ref date_string "src/unix/lwt_log.ml" 40 1533 1537 "src/unix/lwt_log.ml" 40 1533 1548
+)
+"src/unix/lwt_log.ml" 69 2357 2389 "src/unix/lwt_log.ml" 69 2357 2399
+type(
+  float Lazy.t -> float
+)
+ident(
+  ext_ref Lazy.force
+)
+"src/unix/lwt_log.ml" 69 2357 2400 "src/unix/lwt_log.ml" 69 2357 2404
+type(
+  float Lazy.t
+)
+ident(
+  int_ref time "src/unix/lwt_log.ml" 61 2139 2145 "src/unix/lwt_log.ml" 61 2139 2149
+)
+"src/unix/lwt_log.ml" 69 2357 2388 "src/unix/lwt_log.ml" 69 2357 2405
+call(
+  stack
+)
+type(
+  float
+)
+"src/unix/lwt_log.ml" 69 2357 2376 "src/unix/lwt_log.ml" 69 2357 2405
+call(
+  tail
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 70 2406 2415 "src/unix/lwt_log.ml" 70 2406 2429
+type(
+  string
+)
+"src/unix/lwt_log.ml" 70 2406 2433 "src/unix/lwt_log.ml" 70 2406 2443
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/unix/lwt_log.ml" 70 2406 2445 "src/unix/lwt_log.ml" 70 2406 2459
+type(
+  (float -> string, unit, string) format -> float -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/unix/lwt_log.ml" 70 2406 2460 "src/unix/lwt_log.ml" 70 2406 2466
+type(
+  (float -> string, unit, string) format
+)
+"src/unix/lwt_log.ml" 70 2406 2468 "src/unix/lwt_log.ml" 70 2406 2471
+type(
+  float * float -> float
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"src/unix/lwt_log.ml" 70 2406 2473 "src/unix/lwt_log.ml" 70 2406 2477
+type(
+  float -> float * float
+)
+ident(
+  ext_ref Pervasives.modf
+)
+"src/unix/lwt_log.ml" 70 2406 2479 "src/unix/lwt_log.ml" 70 2406 2489
+type(
+  float Lazy.t -> float
+)
+ident(
+  ext_ref Lazy.force
+)
+"src/unix/lwt_log.ml" 70 2406 2490 "src/unix/lwt_log.ml" 70 2406 2494
+type(
+  float Lazy.t
+)
+ident(
+  int_ref time "src/unix/lwt_log.ml" 61 2139 2145 "src/unix/lwt_log.ml" 61 2139 2149
+)
+"src/unix/lwt_log.ml" 70 2406 2478 "src/unix/lwt_log.ml" 70 2406 2495
+call(
+  stack
+)
+type(
+  float
+)
+"src/unix/lwt_log.ml" 70 2406 2472 "src/unix/lwt_log.ml" 70 2406 2496
+type(
+  float * float
+)
+"src/unix/lwt_log.ml" 70 2406 2467 "src/unix/lwt_log.ml" 70 2406 2497
+type(
+  float
+)
+"src/unix/lwt_log.ml" 70 2406 2444 "src/unix/lwt_log.ml" 70 2406 2498
+call(
+  stack
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 70 2406 2499 "src/unix/lwt_log.ml" 70 2406 2500
+type(
+  int
+)
+"src/unix/lwt_log.ml" 70 2406 2501 "src/unix/lwt_log.ml" 70 2406 2502
+type(
+  int
+)
+"src/unix/lwt_log.ml" 70 2406 2433 "src/unix/lwt_log.ml" 70 2406 2502
+call(
+  tail
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 71 2503 2512 "src/unix/lwt_log.ml" 71 2503 2518
+type(
+  string
+)
+"src/unix/lwt_log.ml" 71 2503 2522 "src/unix/lwt_log.ml" 71 2503 2534
+type(
+  string
+)
+ident(
+  int_ref program_name "src/unix/lwt_log.ml" 30 1102 1106 "src/unix/lwt_log.ml" 30 1102 1118
+)
+"src/unix/lwt_log.ml" 72 2535 2544 "src/unix/lwt_log.ml" 72 2535 2549
+type(
+  string
+)
+"src/unix/lwt_log.ml" 72 2535 2553 "src/unix/lwt_log.ml" 72 2535 2566
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/unix/lwt_log.ml" 72 2535 2568 "src/unix/lwt_log.ml" 72 2535 2579
+type(
+  unit -> int
+)
+ident(
+  ext_ref Unix.getpid
+)
+"src/unix/lwt_log.ml" 72 2535 2580 "src/unix/lwt_log.ml" 72 2535 2582
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 72 2535 2567 "src/unix/lwt_log.ml" 72 2535 2583
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_log.ml" 72 2535 2553 "src/unix/lwt_log.ml" 72 2535 2583
+call(
+  tail
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 73 2584 2593 "src/unix/lwt_log.ml" 73 2584 2602
+type(
+  string
+)
+"src/unix/lwt_log.ml" 73 2584 2606 "src/unix/lwt_log.ml" 73 2584 2613
+type(
+  string
+)
+ident(
+  int_ref message "src/unix/lwt_log.ml" 60 2083 2129 "src/unix/lwt_log.ml" 60 2083 2136
+)
+"src/unix/lwt_log.ml" 74 2614 2623 "src/unix/lwt_log.ml" 74 2614 2630
+type(
+  string
+)
+"src/unix/lwt_log.ml" 74 2614 2634 "src/unix/lwt_log.ml" 74 2614 2662
+type(
+  Lwt_log_core.level -> string
+)
+ident(
+  ext_ref Lwt_log_core.string_of_level
+)
+"src/unix/lwt_log.ml" 74 2614 2663 "src/unix/lwt_log.ml" 74 2614 2668
+type(
+  Lwt_log_core.level
+)
+ident(
+  int_ref level "src/unix/lwt_log.ml" 60 2083 2122 "src/unix/lwt_log.ml" 60 2083 2127
+)
+"src/unix/lwt_log.ml" 74 2614 2634 "src/unix/lwt_log.ml" 74 2614 2668
+call(
+  tail
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 75 2669 2678 "src/unix/lwt_log.ml" 75 2669 2687
+type(
+  string
+)
+"src/unix/lwt_log.ml" 75 2669 2691 "src/unix/lwt_log.ml" 75 2669 2703
+type(
+  Lwt_log_core.section -> string
+)
+ident(
+  ext_ref Section.name
+)
+"src/unix/lwt_log.ml" 75 2669 2704 "src/unix/lwt_log.ml" 75 2669 2711
+type(
+  Lwt_log_core.section
+)
+ident(
+  int_ref section "src/unix/lwt_log.ml" 60 2083 2113 "src/unix/lwt_log.ml" 60 2083 2120
+)
+"src/unix/lwt_log.ml" 75 2669 2691 "src/unix/lwt_log.ml" 75 2669 2711
+call(
+  tail
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 76 2712 2721 "src/unix/lwt_log.ml" 76 2712 2731
+type(
+  string
+)
+"src/unix/lwt_log.ml" 76 2712 2735 "src/unix/lwt_log.ml" 76 2712 2739
+type(
+  string
+)
+ident(
+  int_ref file "src/unix/lwt_log.ml" 62 2182 2188 "src/unix/lwt_log.ml" 62 2182 2192
+)
+"src/unix/lwt_log.ml" 77 2740 2749 "src/unix/lwt_log.ml" 77 2740 2759
+type(
+  string
+)
+"src/unix/lwt_log.ml" 77 2740 2763 "src/unix/lwt_log.ml" 77 2740 2776
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/unix/lwt_log.ml" 77 2740 2777 "src/unix/lwt_log.ml" 77 2740 2781
+type(
+  int
+)
+ident(
+  int_ref line "src/unix/lwt_log.ml" 62 2182 2194 "src/unix/lwt_log.ml" 62 2182 2198
+)
+"src/unix/lwt_log.ml" 77 2740 2763 "src/unix/lwt_log.ml" 77 2740 2781
+call(
+  tail
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 78 2782 2791 "src/unix/lwt_log.ml" 78 2782 2803
+type(
+  string
+)
+"src/unix/lwt_log.ml" 78 2782 2807 "src/unix/lwt_log.ml" 78 2782 2820
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/unix/lwt_log.ml" 78 2782 2821 "src/unix/lwt_log.ml" 78 2782 2827
+type(
+  int
+)
+ident(
+  int_ref column "src/unix/lwt_log.ml" 62 2182 2200 "src/unix/lwt_log.ml" 62 2182 2206
+)
+"src/unix/lwt_log.ml" 78 2782 2807 "src/unix/lwt_log.ml" 78 2782 2827
+call(
+  tail
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 79 2828 2837 "src/unix/lwt_log.ml" 79 2828 2840
+type(
+  string
+)
+ident(
+  def var "src/unix/lwt_log.ml" 79 2828 2844 "src/unix/lwt_log.ml" 79 2828 2920
+)
+"src/unix/lwt_log.ml" 79 2828 2844 "src/unix/lwt_log.ml" 79 2828 2859
+type(
+  (string -> string) ->
+  (string -> string, unit, string, string) format4 -> string -> string
+)
+ident(
+  ext_ref Printf.ksprintf
+)
+"src/unix/lwt_log.ml" 79 2828 2860 "src/unix/lwt_log.ml" 79 2828 2871
+type(
+  string -> string
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_log.ml" 79 2828 2872 "src/unix/lwt_log.ml" 79 2828 2916
+type(
+  (string -> string, unit, string, string) format4
+)
+"src/unix/lwt_log.ml" 79 2828 2917 "src/unix/lwt_log.ml" 79 2828 2920
+type(
+  string
+)
+ident(
+  int_ref var "src/unix/lwt_log.ml" 79 2828 2837 "src/unix/lwt_log.ml" 79 2828 2840
+)
+"src/unix/lwt_log.ml" 79 2828 2844 "src/unix/lwt_log.ml" 79 2828 2920
+call(
+  tail
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 68 2343 2347 "src/unix/lwt_log.ml" 79 2828 2921
+type(
+  string -> string
+)
+"src/unix/lwt_log.ml" 80 2922 2926 "src/unix/lwt_log.ml" 80 2922 2934
+type(
+  string
+)
+ident(
+  int_ref template "src/unix/lwt_log.ml" 60 2083 2103 "src/unix/lwt_log.ml" 60 2083 2111
+)
+"src/unix/lwt_log.ml" 67 2312 2314 "src/unix/lwt_log.ml" 80 2922 2934
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 62 2182 2184 "src/unix/lwt_log.ml" 80 2922 2934
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 61 2139 2141 "src/unix/lwt_log.ml" 80 2922 2934
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 86 3153 3157 "src/unix/lwt_log.ml" 86 3153 3164
+type(
+  ?template:string ->
+  close_mode:[< `Close | `Keep ] ->
+  channel:Lwt_io.output Lwt_io.channel -> unit -> logger
+)
+ident(
+  def channel "src/unix/lwt_log.ml" 104 3903 3903 "src/unix/lwt_log.ml" 1 0 -1
+)
+"src/unix/lwt_log.ml" 86 3153 3167 "src/unix/lwt_log.ml" 86 3153 3175
+type(
+  string
+)
+"src/unix/lwt_log.ml" 86 3153 3176 "src/unix/lwt_log.ml" 86 3153 3209
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "src/unix/lwt_log.ml" 86 3153 3176 "src/unix/lwt_log.ml" 86 3153 3209
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 86 3153 3212 "src/unix/lwt_log.ml" 86 3153 3222
+type(
+  [< `Close | `Keep ] as 'a
+)
+ident(
+  def close_mode "src/unix/lwt_log.ml" 86 3153 3223 "src/unix/lwt_log.ml" 102 3842 3901
+)
+"src/unix/lwt_log.ml" 86 3153 3224 "src/unix/lwt_log.ml" 86 3153 3231
+type(
+  Lwt_io.output Lwt_io.channel
+)
+ident(
+  def channel "src/unix/lwt_log.ml" 86 3153 3232 "src/unix/lwt_log.ml" 102 3842 3901
+)
+"src/unix/lwt_log.ml" 86 3153 3232 "src/unix/lwt_log.ml" 86 3153 3234
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 87 3237 3239 "src/unix/lwt_log.ml" 87 3237 3243
+type(
+  output:(section -> level -> string list -> unit Lwt.t) ->
+  close:(unit -> unit Lwt.t) -> logger
+)
+ident(
+  ext_ref make
+)
+"src/unix/lwt_log.ml" 88 3244 3261 "src/unix/lwt_log.ml" 88 3244 3268
+type(
+  section
+)
+ident(
+  def section "src/unix/lwt_log.ml" 88 3244 3269 "src/unix/lwt_log.ml" 99 3744 3770
+)
+"src/unix/lwt_log.ml" 88 3244 3269 "src/unix/lwt_log.ml" 88 3244 3274
+type(
+  level
+)
+ident(
+  def level "src/unix/lwt_log.ml" 88 3244 3275 "src/unix/lwt_log.ml" 99 3744 3770
+)
+"src/unix/lwt_log.ml" 88 3244 3275 "src/unix/lwt_log.ml" 88 3244 3280
+type(
+  string list
+)
+ident(
+  def lines "src/unix/lwt_log.ml" 89 3284 3299 "src/unix/lwt_log.ml" 99 3744 3770
+)
+"src/unix/lwt_log.ml" 89 3284 3299 "src/unix/lwt_log.ml" 89 3284 3312
+type(
+  (Lwt_io.output_channel -> unit Lwt.t) ->
+  Lwt_io.output Lwt_io.channel -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_io.atomic
+)
+"src/unix/lwt_log.ml" 89 3284 3323 "src/unix/lwt_log.ml" 89 3284 3325
+type(
+  Lwt_io.output_channel
+)
+ident(
+  def oc "src/unix/lwt_log.ml" 90 3329 3346 "src/unix/lwt_log.ml" 98 3711 3743
+)
+"src/unix/lwt_log.ml" 90 3329 3350 "src/unix/lwt_log.ml" 90 3329 3353
+type(
+  Buffer.t
+)
+ident(
+  def buf "src/unix/lwt_log.ml" 91 3376 3393 "src/unix/lwt_log.ml" 98 3711 3743
+)
+"src/unix/lwt_log.ml" 90 3329 3356 "src/unix/lwt_log.ml" 90 3329 3369
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"src/unix/lwt_log.ml" 90 3329 3370 "src/unix/lwt_log.ml" 90 3329 3372
+type(
+  int
+)
+"src/unix/lwt_log.ml" 90 3329 3356 "src/unix/lwt_log.ml" 90 3329 3372
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"src/unix/lwt_log.ml" 91 3376 3393 "src/unix/lwt_log.ml" 91 3376 3408
+type(
+  (string -> unit Lwt.t) -> string list -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_list.iter_s
+)
+"src/unix/lwt_log.ml" 92 3409 3433 "src/unix/lwt_log.ml" 92 3409 3437
+type(
+  string
+)
+ident(
+  def line "src/unix/lwt_log.ml" 93 3441 3463 "src/unix/lwt_log.ml" 96 3611 3670
+)
+"src/unix/lwt_log.ml" 93 3441 3463 "src/unix/lwt_log.ml" 93 3441 3475
+type(
+  Buffer.t -> unit
+)
+ident(
+  ext_ref Buffer.clear
+)
+"src/unix/lwt_log.ml" 93 3441 3476 "src/unix/lwt_log.ml" 93 3441 3479
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_log.ml" 90 3329 3350 "src/unix/lwt_log.ml" 90 3329 3353
+)
+"src/unix/lwt_log.ml" 93 3441 3463 "src/unix/lwt_log.ml" 93 3441 3479
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 94 3481 3503 "src/unix/lwt_log.ml" 94 3481 3509
+type(
+  buffer:Buffer.t ->
+  template:string -> section:section -> level:level -> message:string -> unit
+)
+ident(
+  int_ref render "src/unix/lwt_log.ml" 60 2083 2087 "src/unix/lwt_log.ml" 60 2083 2093
+)
+"src/unix/lwt_log.ml" 94 3481 3518 "src/unix/lwt_log.ml" 94 3481 3521
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_log.ml" 90 3329 3350 "src/unix/lwt_log.ml" 90 3329 3353
+)
+"src/unix/lwt_log.ml" 94 3481 3523 "src/unix/lwt_log.ml" 94 3481 3531
+type(
+  string
+)
+ident(
+  int_ref template "src/unix/lwt_log.ml" 86 3153 3167 "src/unix/lwt_log.ml" 86 3153 3175
+)
+"src/unix/lwt_log.ml" 94 3481 3533 "src/unix/lwt_log.ml" 94 3481 3540
+type(
+  section
+)
+ident(
+  int_ref section "src/unix/lwt_log.ml" 88 3244 3261 "src/unix/lwt_log.ml" 88 3244 3268
+)
+"src/unix/lwt_log.ml" 94 3481 3542 "src/unix/lwt_log.ml" 94 3481 3547
+type(
+  level
+)
+ident(
+  int_ref level "src/unix/lwt_log.ml" 88 3244 3269 "src/unix/lwt_log.ml" 88 3244 3274
+)
+"src/unix/lwt_log.ml" 94 3481 3557 "src/unix/lwt_log.ml" 94 3481 3561
+type(
+  string
+)
+ident(
+  int_ref line "src/unix/lwt_log.ml" 92 3409 3433 "src/unix/lwt_log.ml" 92 3409 3437
+)
+"src/unix/lwt_log.ml" 94 3481 3503 "src/unix/lwt_log.ml" 94 3481 3561
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 95 3563 3585 "src/unix/lwt_log.ml" 95 3563 3600
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/unix/lwt_log.ml" 95 3563 3601 "src/unix/lwt_log.ml" 95 3563 3604
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_log.ml" 90 3329 3350 "src/unix/lwt_log.ml" 90 3329 3353
+)
+"src/unix/lwt_log.ml" 95 3563 3605 "src/unix/lwt_log.ml" 95 3563 3609
+type(
+  char
+)
+"src/unix/lwt_log.ml" 95 3563 3585 "src/unix/lwt_log.ml" 95 3563 3609
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 96 3611 3633 "src/unix/lwt_log.ml" 96 3611 3645
+type(
+  Lwt_io.output_channel -> string -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_io.write
+)
+"src/unix/lwt_log.ml" 96 3611 3646 "src/unix/lwt_log.ml" 96 3611 3648
+type(
+  Lwt_io.output_channel
+)
+ident(
+  int_ref oc "src/unix/lwt_log.ml" 89 3284 3323 "src/unix/lwt_log.ml" 89 3284 3325
+)
+"src/unix/lwt_log.ml" 96 3611 3650 "src/unix/lwt_log.ml" 96 3611 3665
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/unix/lwt_log.ml" 96 3611 3666 "src/unix/lwt_log.ml" 96 3611 3669
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_log.ml" 90 3329 3350 "src/unix/lwt_log.ml" 90 3329 3353
+)
+"src/unix/lwt_log.ml" 96 3611 3649 "src/unix/lwt_log.ml" 96 3611 3670
+call(
+  stack
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 96 3611 3633 "src/unix/lwt_log.ml" 96 3611 3670
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 95 3563 3585 "src/unix/lwt_log.ml" 96 3611 3670
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 94 3481 3503 "src/unix/lwt_log.ml" 96 3611 3670
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 93 3441 3463 "src/unix/lwt_log.ml" 96 3611 3670
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 92 3409 3428 "src/unix/lwt_log.ml" 96 3611 3671
+type(
+  string -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 97 3672 3691 "src/unix/lwt_log.ml" 97 3672 3696
+type(
+  string list
+)
+ident(
+  int_ref lines "src/unix/lwt_log.ml" 88 3244 3275 "src/unix/lwt_log.ml" 88 3244 3280
+)
+"src/unix/lwt_log.ml" 91 3376 3393 "src/unix/lwt_log.ml" 97 3672 3696
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 97 3672 3697 "src/unix/lwt_log.ml" 97 3672 3700
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 97 3672 3705 "src/unix/lwt_log.ml" 97 3672 3707
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 98 3711 3728 "src/unix/lwt_log.ml" 98 3711 3740
+type(
+  Lwt_io.output_channel -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_io.flush
+)
+"src/unix/lwt_log.ml" 98 3711 3741 "src/unix/lwt_log.ml" 98 3711 3743
+type(
+  Lwt_io.output_channel
+)
+ident(
+  int_ref oc "src/unix/lwt_log.ml" 89 3284 3323 "src/unix/lwt_log.ml" 89 3284 3325
+)
+"src/unix/lwt_log.ml" 98 3711 3728 "src/unix/lwt_log.ml" 98 3711 3743
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 97 3672 3701 "src/unix/lwt_log.ml" 98 3711 3743
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 91 3376 3393 "src/unix/lwt_log.ml" 98 3711 3743
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 90 3329 3346 "src/unix/lwt_log.ml" 98 3711 3743
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 89 3284 3313 "src/unix/lwt_log.ml" 99 3744 3762
+type(
+  Lwt_io.output_channel -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 99 3744 3763 "src/unix/lwt_log.ml" 99 3744 3770
+type(
+  Lwt_io.output Lwt_io.channel
+)
+ident(
+  int_ref channel "src/unix/lwt_log.ml" 86 3153 3224 "src/unix/lwt_log.ml" 86 3153 3231
+)
+"src/unix/lwt_log.ml" 89 3284 3299 "src/unix/lwt_log.ml" 99 3744 3770
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 88 3244 3256 "src/unix/lwt_log.ml" 99 3744 3771
+type(
+  section -> level -> string list -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 100 3772 3790 "src/unix/lwt_log.ml" 100 3772 3800
+type(
+  'a
+)
+ident(
+  int_ref close_mode "src/unix/lwt_log.ml" 86 3153 3212 "src/unix/lwt_log.ml" 86 3153 3222
+)
+"src/unix/lwt_log.ml" 101 3806 3822 "src/unix/lwt_log.ml" 101 3806 3827
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 101 3806 3831 "src/unix/lwt_log.ml" 101 3806 3841
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/unix/lwt_log.ml" 102 3842 3858 "src/unix/lwt_log.ml" 102 3842 3864
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 102 3842 3873 "src/unix/lwt_log.ml" 102 3842 3875
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 102 3842 3879 "src/unix/lwt_log.ml" 102 3842 3891
+type(
+  Lwt_io.output Lwt_io.channel -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_io.close
+)
+"src/unix/lwt_log.ml" 102 3842 3892 "src/unix/lwt_log.ml" 102 3842 3899
+type(
+  Lwt_io.output Lwt_io.channel
+)
+ident(
+  int_ref channel "src/unix/lwt_log.ml" 86 3153 3224 "src/unix/lwt_log.ml" 86 3153 3231
+)
+"src/unix/lwt_log.ml" 102 3842 3879 "src/unix/lwt_log.ml" 102 3842 3899
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 102 3842 3868 "src/unix/lwt_log.ml" 102 3842 3900
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 100 3772 3783 "src/unix/lwt_log.ml" 102 3842 3901
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 87 3237 3239 "src/unix/lwt_log.ml" 102 3842 3901
+call(
+  tail
+)
+type(
+  logger
+)
+"src/unix/lwt_log.ml" 104 3903 3911 "src/unix/lwt_log.ml" 104 3903 3931
+type(
+  logger ref
+)
+ident(
+  ext_ref Lwt_log_core.default
+)
+"src/unix/lwt_log.ml" 104 3903 3932 "src/unix/lwt_log.ml" 104 3903 3934
+type(
+  logger ref -> logger -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_log.ml" 104 3903 3935 "src/unix/lwt_log.ml" 104 3903 3942
+type(
+  ?template:string ->
+  close_mode:_[< `Close | `Keep > `Keep ] ->
+  channel:Lwt_io.output_channel -> unit -> logger
+)
+ident(
+  int_ref channel "src/unix/lwt_log.ml" 86 3153 3157 "src/unix/lwt_log.ml" 86 3153 3164
+)
+"src/unix/lwt_log.ml" 104 3903 3955 "src/unix/lwt_log.ml" 104 3903 3960
+type(
+  _[< `Close | `Keep > `Keep ] as 'a
+)
+"src/unix/lwt_log.ml" 104 3903 3970 "src/unix/lwt_log.ml" 104 3903 3983
+type(
+  Lwt_io.output_channel
+)
+ident(
+  ext_ref Lwt_io.stderr
+)
+"src/unix/lwt_log.ml" 104 3903 3984 "src/unix/lwt_log.ml" 104 3903 3986
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 104 3903 3935 "src/unix/lwt_log.ml" 104 3903 3986
+call(
+  stack
+)
+type(
+  logger
+)
+"src/unix/lwt_log.ml" 104 3903 3911 "src/unix/lwt_log.ml" 104 3903 3986
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 106 3988 3992 "src/unix/lwt_log.ml" 106 3988 3996
+type(
+  ?template:string ->
+  ?mode:[< `Append | `Truncate > `Append ] ->
+  ?perm:Lwt_unix.file_perm -> file_name:string -> unit -> logger Lwt.t
+)
+ident(
+  def file "src/unix/lwt_log.ml" 117 4503 4503 "src/unix/lwt_log.ml" 1 0 -1
+)
+"src/unix/lwt_log.ml" 106 3988 3999 "src/unix/lwt_log.ml" 106 3988 4007
+type(
+  string
+)
+"src/unix/lwt_log.ml" 106 3988 4008 "src/unix/lwt_log.ml" 106 3988 4041
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "src/unix/lwt_log.ml" 106 3988 4008 "src/unix/lwt_log.ml" 106 3988 4041
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 106 3988 4045 "src/unix/lwt_log.ml" 106 3988 4049
+type(
+  [< `Append | `Truncate > `Append ] as 'a
+)
+"src/unix/lwt_log.ml" 106 3988 4050 "src/unix/lwt_log.ml" 106 3988 4057
+type(
+  'a
+)
+type(
+  'a
+)
+ident(
+  int_ref *sth* "src/unix/lwt_log.ml" 106 3988 4050 "src/unix/lwt_log.ml" 106 3988 4057
+)
+type(
+  'a option
+)
+type(
+  'a option
+)
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 106 3988 4061 "src/unix/lwt_log.ml" 106 3988 4065
+type(
+  Lwt_unix.file_perm
+)
+"src/unix/lwt_log.ml" 106 3988 4066 "src/unix/lwt_log.ml" 106 3988 4071
+type(
+  Lwt_unix.file_perm
+)
+type(
+  Lwt_unix.file_perm
+)
+ident(
+  int_ref *sth* "src/unix/lwt_log.ml" 106 3988 4066 "src/unix/lwt_log.ml" 106 3988 4071
+)
+type(
+  Lwt_unix.file_perm option
+)
+type(
+  Lwt_unix.file_perm option
+)
+type(
+  Lwt_unix.file_perm
+)
+"src/unix/lwt_log.ml" 106 3988 4074 "src/unix/lwt_log.ml" 106 3988 4083
+type(
+  string
+)
+ident(
+  def file_name "src/unix/lwt_log.ml" 106 3988 4084 "src/unix/lwt_log.ml" 115 4435 4501
+)
+"src/unix/lwt_log.ml" 106 3988 4084 "src/unix/lwt_log.ml" 106 3988 4086
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 107 4089 4095 "src/unix/lwt_log.ml" 107 4089 4100
+type(
+  Unix.open_flag list
+)
+ident(
+  def flags "src/unix/lwt_log.ml" 112 4297 4299 "src/unix/lwt_log.ml" 115 4435 4501
+)
+"src/unix/lwt_log.ml" 107 4089 4109 "src/unix/lwt_log.ml" 107 4089 4113
+type(
+  'a
+)
+ident(
+  int_ref mode "src/unix/lwt_log.ml" 106 3988 4045 "src/unix/lwt_log.ml" 106 3988 4049
+)
+"src/unix/lwt_log.ml" 108 4119 4125 "src/unix/lwt_log.ml" 108 4119 4132
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 109 4136 4145 "src/unix/lwt_log.ml" 109 4136 4158
+type(
+  Unix.open_flag
+)
+"src/unix/lwt_log.ml" 109 4136 4160 "src/unix/lwt_log.ml" 109 4136 4172
+type(
+  Unix.open_flag
+)
+"src/unix/lwt_log.ml" 109 4136 4174 "src/unix/lwt_log.ml" 109 4136 4187
+type(
+  Unix.open_flag
+)
+"src/unix/lwt_log.ml" 109 4136 4189 "src/unix/lwt_log.ml" 109 4136 4204
+type(
+  Unix.open_flag
+)
+"src/unix/lwt_log.ml" 109 4136 4144 "src/unix/lwt_log.ml" 109 4136 4205
+type(
+  Unix.open_flag list
+)
+"src/unix/lwt_log.ml" 110 4206 4212 "src/unix/lwt_log.ml" 110 4206 4221
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 111 4225 4234 "src/unix/lwt_log.ml" 111 4225 4247
+type(
+  Unix.open_flag
+)
+"src/unix/lwt_log.ml" 111 4225 4249 "src/unix/lwt_log.ml" 111 4225 4261
+type(
+  Unix.open_flag
+)
+"src/unix/lwt_log.ml" 111 4225 4263 "src/unix/lwt_log.ml" 111 4225 4275
+type(
+  Unix.open_flag
+)
+"src/unix/lwt_log.ml" 111 4225 4277 "src/unix/lwt_log.ml" 111 4225 4292
+type(
+  Unix.open_flag
+)
+"src/unix/lwt_log.ml" 111 4225 4233 "src/unix/lwt_log.ml" 111 4225 4293
+type(
+  Unix.open_flag list
+)
+"src/unix/lwt_log.ml" 107 4089 4103 "src/unix/lwt_log.ml" 111 4225 4293
+type(
+  Unix.open_flag list
+)
+"src/unix/lwt_log.ml" 112 4297 4299 "src/unix/lwt_log.ml" 112 4297 4316
+type(
+  string ->
+  Lwt_unix.open_flag list -> Lwt_unix.file_perm -> Lwt_unix.file_descr Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.openfile
+)
+"src/unix/lwt_log.ml" 112 4297 4317 "src/unix/lwt_log.ml" 112 4297 4326
+type(
+  string
+)
+ident(
+  int_ref file_name "src/unix/lwt_log.ml" 106 3988 4074 "src/unix/lwt_log.ml" 106 3988 4083
+)
+"src/unix/lwt_log.ml" 112 4297 4327 "src/unix/lwt_log.ml" 112 4297 4332
+type(
+  Lwt_unix.open_flag list
+)
+ident(
+  int_ref flags "src/unix/lwt_log.ml" 107 4089 4095 "src/unix/lwt_log.ml" 107 4089 4100
+)
+"src/unix/lwt_log.ml" 112 4297 4333 "src/unix/lwt_log.ml" 112 4297 4337
+type(
+  Lwt_unix.file_perm
+)
+ident(
+  int_ref perm "src/unix/lwt_log.ml" 106 3988 4061 "src/unix/lwt_log.ml" 106 3988 4065
+)
+"src/unix/lwt_log.ml" 112 4297 4299 "src/unix/lwt_log.ml" 112 4297 4337
+call(
+  stack
+)
+type(
+  Lwt_unix.file_descr Lwt.t
+)
+"src/unix/lwt_log.ml" 112 4297 4338 "src/unix/lwt_log.ml" 112 4297 4341
+type(
+  Lwt_unix.file_descr Lwt.t ->
+  (Lwt_unix.file_descr -> logger Lwt.t) -> logger Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 112 4297 4346 "src/unix/lwt_log.ml" 112 4297 4348
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_log.ml" 113 4352 4354 "src/unix/lwt_log.ml" 115 4435 4501
+)
+"src/unix/lwt_log.ml" 113 4352 4354 "src/unix/lwt_log.ml" 113 4352 4380
+type(
+  Lwt_unix.file_descr -> unit
+)
+ident(
+  ext_ref Lwt_unix.set_close_on_exec
+)
+"src/unix/lwt_log.ml" 113 4352 4381 "src/unix/lwt_log.ml" 113 4352 4383
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 112 4297 4346 "src/unix/lwt_log.ml" 112 4297 4348
+)
+"src/unix/lwt_log.ml" 113 4352 4354 "src/unix/lwt_log.ml" 113 4352 4383
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 114 4385 4391 "src/unix/lwt_log.ml" 114 4385 4393
+type(
+  Lwt_io.output Lwt_io.channel
+)
+ident(
+  def oc "src/unix/lwt_log.ml" 115 4435 4437 "src/unix/lwt_log.ml" 115 4435 4501
+)
+"src/unix/lwt_log.ml" 114 4385 4396 "src/unix/lwt_log.ml" 114 4385 4408
+type(
+  ?buffer:Lwt_bytes.t ->
+  ?close:(unit -> unit Lwt.t) ->
+  mode:Lwt_io.output Lwt_io.mode ->
+  Lwt_unix.file_descr -> Lwt_io.output Lwt_io.channel
+)
+ident(
+  ext_ref Lwt_io.of_fd
+)
+"src/unix/lwt_log.ml" 114 4385 4415 "src/unix/lwt_log.ml" 114 4385 4428
+type(
+  Lwt_io.output Lwt_io.mode
+)
+ident(
+  ext_ref Lwt_io.output
+)
+"src/unix/lwt_log.ml" 114 4385 4429 "src/unix/lwt_log.ml" 114 4385 4431
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 112 4297 4346 "src/unix/lwt_log.ml" 112 4297 4348
+)
+"src/unix/lwt_log.ml" 114 4385 4396 "src/unix/lwt_log.ml" 114 4385 4431
+call(
+  stack
+)
+type(
+  Lwt_io.output Lwt_io.channel
+)
+"src/unix/lwt_log.ml" 115 4435 4437 "src/unix/lwt_log.ml" 115 4435 4447
+type(
+  logger -> logger Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/unix/lwt_log.ml" 115 4435 4449 "src/unix/lwt_log.ml" 115 4435 4456
+type(
+  ?template:string ->
+  close_mode:_[< `Close | `Keep > `Close ] ->
+  channel:Lwt_io.output Lwt_io.channel -> unit -> logger
+)
+ident(
+  int_ref channel "src/unix/lwt_log.ml" 86 3153 3157 "src/unix/lwt_log.ml" 86 3153 3164
+)
+"src/unix/lwt_log.ml" 115 4435 4458 "src/unix/lwt_log.ml" 115 4435 4466
+type(
+  string
+)
+ident(
+  int_ref template "src/unix/lwt_log.ml" 106 3988 3999 "src/unix/lwt_log.ml" 106 3988 4007
+)
+"src/unix/lwt_log.ml" 115 4435 4479 "src/unix/lwt_log.ml" 115 4435 4485
+type(
+  _[< `Close | `Keep > `Close ] as 'b
+)
+"src/unix/lwt_log.ml" 115 4435 4495 "src/unix/lwt_log.ml" 115 4435 4497
+type(
+  Lwt_io.output Lwt_io.channel
+)
+ident(
+  int_ref oc "src/unix/lwt_log.ml" 114 4385 4391 "src/unix/lwt_log.ml" 114 4385 4393
+)
+"src/unix/lwt_log.ml" 115 4435 4498 "src/unix/lwt_log.ml" 115 4435 4500
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 115 4435 4448 "src/unix/lwt_log.ml" 115 4435 4501
+call(
+  stack
+)
+type(
+  logger
+)
+"src/unix/lwt_log.ml" 115 4435 4437 "src/unix/lwt_log.ml" 115 4435 4501
+call(
+  tail
+)
+type(
+  logger Lwt.t
+)
+"src/unix/lwt_log.ml" 114 4385 4387 "src/unix/lwt_log.ml" 115 4435 4501
+type(
+  logger Lwt.t
+)
+"src/unix/lwt_log.ml" 113 4352 4354 "src/unix/lwt_log.ml" 115 4435 4501
+type(
+  logger Lwt.t
+)
+"src/unix/lwt_log.ml" 112 4297 4342 "src/unix/lwt_log.ml" 115 4435 4501
+type(
+  Lwt_unix.file_descr -> logger Lwt.t
+)
+"src/unix/lwt_log.ml" 112 4297 4299 "src/unix/lwt_log.ml" 115 4435 4501
+call(
+  tail
+)
+type(
+  logger Lwt.t
+)
+"src/unix/lwt_log.ml" 107 4089 4091 "src/unix/lwt_log.ml" 115 4435 4501
+type(
+  logger Lwt.t
+)
+"src/unix/lwt_log.ml" 117 4503 4507 "src/unix/lwt_log.ml" 117 4503 4517
+type(
+  level -> int
+)
+ident(
+  def level_code "src/unix/lwt_log.ml" 125 4622 4622 "src/unix/lwt_log.ml" 1 0 -1
+)
+"src/unix/lwt_log.ml" 118 4529 4533 "src/unix/lwt_log.ml" 118 4529 4538
+type(
+  level
+)
+"src/unix/lwt_log.ml" 118 4529 4542 "src/unix/lwt_log.ml" 118 4529 4543
+type(
+  int
+)
+"src/unix/lwt_log.ml" 119 4544 4548 "src/unix/lwt_log.ml" 119 4544 4553
+type(
+  level
+)
+"src/unix/lwt_log.ml" 119 4544 4557 "src/unix/lwt_log.ml" 119 4544 4558
+type(
+  int
+)
+"src/unix/lwt_log.ml" 120 4559 4563 "src/unix/lwt_log.ml" 120 4559 4570
+type(
+  level
+)
+"src/unix/lwt_log.ml" 120 4559 4574 "src/unix/lwt_log.ml" 120 4559 4575
+type(
+  int
+)
+"src/unix/lwt_log.ml" 121 4576 4580 "src/unix/lwt_log.ml" 121 4576 4586
+type(
+  level
+)
+"src/unix/lwt_log.ml" 121 4576 4590 "src/unix/lwt_log.ml" 121 4576 4591
+type(
+  int
+)
+"src/unix/lwt_log.ml" 122 4592 4596 "src/unix/lwt_log.ml" 122 4592 4600
+type(
+  level
+)
+"src/unix/lwt_log.ml" 122 4592 4604 "src/unix/lwt_log.ml" 122 4592 4605
+type(
+  int
+)
+"src/unix/lwt_log.ml" 123 4606 4610 "src/unix/lwt_log.ml" 123 4606 4615
+type(
+  level
+)
+"src/unix/lwt_log.ml" 123 4606 4619 "src/unix/lwt_log.ml" 123 4606 4620
+type(
+  int
+)
+"src/unix/lwt_log.ml" 117 4503 4520 "src/unix/lwt_log.ml" 123 4606 4620
+type(
+  level -> int
+)
+"src/unix/lwt_log.ml" 130 4874 4878 "src/unix/lwt_log.ml" 130 4874 4891
+type(
+  [< `Auth
+   | `Authpriv
+   | `Console
+   | `Cron
+   | `Daemon
+   | `FTP
+   | `Kernel
+   | `LPR
+   | `Local0
+   | `Local1
+   | `Local2
+   | `Local3
+   | `Local4
+   | `Local5
+   | `Local6
+   | `Local7
+   | `Mail
+   | `NTP
+   | `News
+   | `Security
+   | `Syslog
+   | `UUCP
+   | `User ] ->
+  int
+)
+ident(
+  def facility_code "src/unix/lwt_log.ml" 155 5292 5292 "src/unix/lwt_log.ml" 1 0 -1
+)
+"src/unix/lwt_log.ml" 131 4903 4907 "src/unix/lwt_log.ml" 131 4903 4914
+type(
+  [< `Auth
+   | `Authpriv
+   | `Console
+   | `Cron
+   | `Daemon
+   | `FTP
+   | `Kernel
+   | `LPR
+   | `Local0
+   | `Local1
+   | `Local2
+   | `Local3
+   | `Local4
+   | `Local5
+   | `Local6
+   | `Local7
+   | `Mail
+   | `NTP
+   | `News
+   | `Security
+   | `Syslog
+   | `UUCP
+   | `User ]
+  as 'a
+)
+"src/unix/lwt_log.ml" 131 4903 4918 "src/unix/lwt_log.ml" 131 4903 4919
+type(
+  int
+)
+"src/unix/lwt_log.ml" 132 4920 4924 "src/unix/lwt_log.ml" 132 4920 4929
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 132 4920 4933 "src/unix/lwt_log.ml" 132 4920 4934
+type(
+  int
+)
+"src/unix/lwt_log.ml" 133 4935 4939 "src/unix/lwt_log.ml" 133 4935 4944
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 133 4935 4948 "src/unix/lwt_log.ml" 133 4935 4949
+type(
+  int
+)
+"src/unix/lwt_log.ml" 134 4950 4954 "src/unix/lwt_log.ml" 134 4950 4961
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 134 4950 4965 "src/unix/lwt_log.ml" 134 4950 4966
+type(
+  int
+)
+"src/unix/lwt_log.ml" 135 4967 4971 "src/unix/lwt_log.ml" 135 4967 4976
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 135 4967 4980 "src/unix/lwt_log.ml" 135 4967 4981
+type(
+  int
+)
+"src/unix/lwt_log.ml" 136 4982 4986 "src/unix/lwt_log.ml" 136 4982 4993
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 136 4982 4997 "src/unix/lwt_log.ml" 136 4982 4998
+type(
+  int
+)
+"src/unix/lwt_log.ml" 137 4999 5003 "src/unix/lwt_log.ml" 137 4999 5007
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 137 4999 5011 "src/unix/lwt_log.ml" 137 4999 5012
+type(
+  int
+)
+"src/unix/lwt_log.ml" 138 5013 5017 "src/unix/lwt_log.ml" 138 5013 5022
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 138 5013 5026 "src/unix/lwt_log.ml" 138 5013 5027
+type(
+  int
+)
+"src/unix/lwt_log.ml" 139 5028 5032 "src/unix/lwt_log.ml" 139 5028 5037
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 139 5028 5041 "src/unix/lwt_log.ml" 139 5028 5042
+type(
+  int
+)
+"src/unix/lwt_log.ml" 140 5043 5047 "src/unix/lwt_log.ml" 140 5043 5052
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 140 5043 5056 "src/unix/lwt_log.ml" 140 5043 5057
+type(
+  int
+)
+"src/unix/lwt_log.ml" 141 5058 5062 "src/unix/lwt_log.ml" 141 5058 5071
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 141 5058 5075 "src/unix/lwt_log.ml" 141 5058 5077
+type(
+  int
+)
+"src/unix/lwt_log.ml" 142 5078 5082 "src/unix/lwt_log.ml" 142 5078 5086
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 142 5078 5090 "src/unix/lwt_log.ml" 142 5078 5092
+type(
+  int
+)
+"src/unix/lwt_log.ml" 143 5093 5097 "src/unix/lwt_log.ml" 143 5093 5101
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 143 5093 5105 "src/unix/lwt_log.ml" 143 5093 5107
+type(
+  int
+)
+"src/unix/lwt_log.ml" 144 5108 5112 "src/unix/lwt_log.ml" 144 5108 5121
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 144 5108 5125 "src/unix/lwt_log.ml" 144 5108 5127
+type(
+  int
+)
+"src/unix/lwt_log.ml" 145 5128 5132 "src/unix/lwt_log.ml" 145 5128 5140
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 145 5128 5144 "src/unix/lwt_log.ml" 145 5128 5146
+type(
+  int
+)
+"src/unix/lwt_log.ml" 146 5147 5151 "src/unix/lwt_log.ml" 146 5147 5158
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 146 5147 5162 "src/unix/lwt_log.ml" 146 5147 5164
+type(
+  int
+)
+"src/unix/lwt_log.ml" 147 5165 5169 "src/unix/lwt_log.ml" 147 5165 5176
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 147 5165 5180 "src/unix/lwt_log.ml" 147 5165 5182
+type(
+  int
+)
+"src/unix/lwt_log.ml" 148 5183 5187 "src/unix/lwt_log.ml" 148 5183 5194
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 148 5183 5198 "src/unix/lwt_log.ml" 148 5183 5200
+type(
+  int
+)
+"src/unix/lwt_log.ml" 149 5201 5205 "src/unix/lwt_log.ml" 149 5201 5212
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 149 5201 5216 "src/unix/lwt_log.ml" 149 5201 5218
+type(
+  int
+)
+"src/unix/lwt_log.ml" 150 5219 5223 "src/unix/lwt_log.ml" 150 5219 5230
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 150 5219 5234 "src/unix/lwt_log.ml" 150 5219 5236
+type(
+  int
+)
+"src/unix/lwt_log.ml" 151 5237 5241 "src/unix/lwt_log.ml" 151 5237 5248
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 151 5237 5252 "src/unix/lwt_log.ml" 151 5237 5254
+type(
+  int
+)
+"src/unix/lwt_log.ml" 152 5255 5259 "src/unix/lwt_log.ml" 152 5255 5266
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 152 5255 5270 "src/unix/lwt_log.ml" 152 5255 5272
+type(
+  int
+)
+"src/unix/lwt_log.ml" 153 5273 5277 "src/unix/lwt_log.ml" 153 5273 5284
+type(
+  'a
+)
+"src/unix/lwt_log.ml" 153 5273 5288 "src/unix/lwt_log.ml" 153 5273 5290
+type(
+  int
+)
+"src/unix/lwt_log.ml" 130 4874 4894 "src/unix/lwt_log.ml" 153 5273 5290
+type(
+  'a -> int
+)
+"src/unix/lwt_log.ml" 157 5338 5342 "src/unix/lwt_log.ml" 157 5338 5350
+type(
+  Lwt_unix.file_descr -> unit Lwt.t
+)
+ident(
+  def shutdown "src/unix/lwt_log.ml" 164 5580 5580 "src/unix/lwt_log.ml" 1 0 -1
+)
+"src/unix/lwt_log.ml" 157 5338 5351 "src/unix/lwt_log.ml" 157 5338 5353
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_log.ml" 158 5356 5358 "src/unix/lwt_log.ml" 159 5398 5417
+)
+"src/unix/lwt_log.ml" 158 5356 5358 "src/unix/lwt_log.ml" 158 5356 5375
+type(
+  Lwt_unix.file_descr -> Lwt_unix.shutdown_command -> unit
+)
+ident(
+  ext_ref Lwt_unix.shutdown
+)
+"src/unix/lwt_log.ml" 158 5356 5376 "src/unix/lwt_log.ml" 158 5356 5378
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 157 5338 5351 "src/unix/lwt_log.ml" 157 5338 5353
+)
+"src/unix/lwt_log.ml" 158 5356 5379 "src/unix/lwt_log.ml" 158 5356 5396
+type(
+  Lwt_unix.shutdown_command
+)
+"src/unix/lwt_log.ml" 158 5356 5358 "src/unix/lwt_log.ml" 158 5356 5396
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 159 5398 5400 "src/unix/lwt_log.ml" 159 5398 5414
+type(
+  Lwt_unix.file_descr -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.close
+)
+"src/unix/lwt_log.ml" 159 5398 5415 "src/unix/lwt_log.ml" 159 5398 5417
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 157 5338 5351 "src/unix/lwt_log.ml" 157 5338 5353
+)
+"src/unix/lwt_log.ml" 159 5398 5400 "src/unix/lwt_log.ml" 159 5398 5417
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 158 5356 5358 "src/unix/lwt_log.ml" 159 5398 5417
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 164 5580 5584 "src/unix/lwt_log.ml" 164 5580 5598
+type(
+  string list -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  def syslog_connect "src/unix/lwt_log.ml" 222 8055 8055 "src/unix/lwt_log.ml" 1 0 -1
+)
+"src/unix/lwt_log.ml" 164 5580 5599 "src/unix/lwt_log.ml" 164 5580 5604
+type(
+  string list
+)
+ident(
+  def paths "src/unix/lwt_log.ml" 165 5607 5609 "src/unix/lwt_log.ml" 218 7965 7977
+)
+"src/unix/lwt_log.ml" 165 5607 5617 "src/unix/lwt_log.ml" 165 5607 5621
+type(
+  string list -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  def loop "src/unix/lwt_log.ml" 165 5607 5609 "src/unix/lwt_log.ml" 218 7965 7977
+)
+"src/unix/lwt_log.ml" 166 5633 5639 "src/unix/lwt_log.ml" 166 5633 5641
+type(
+  string list
+)
+"src/unix/lwt_log.ml" 168 5683 5691 "src/unix/lwt_log.ml" 168 5683 5701
+type(
+  (string -> unit, out_channel, unit, unit, unit, unit) format6 ->
+  string -> unit
+)
+ident(
+  int_ref log_intern "src/unix/lwt_log.ml" 33 1229 1233 "src/unix/lwt_log.ml" 33 1229 1243
+)
+"src/unix/lwt_log.ml" 168 5683 5702 "src/unix/lwt_log.ml" 168 5683 5756
+type(
+  (string -> unit, out_channel, unit, unit, unit, unit) format6
+)
+"src/unix/lwt_log.ml" 169 5757 5768 "src/unix/lwt_log.ml" 169 5757 5781
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/unix/lwt_log.ml" 169 5757 5782 "src/unix/lwt_log.ml" 169 5757 5786
+type(
+  string
+)
+"src/unix/lwt_log.ml" 169 5757 5788 "src/unix/lwt_log.ml" 169 5757 5796
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/unix/lwt_log.ml" 169 5757 5798 "src/unix/lwt_log.ml" 169 5757 5812
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/unix/lwt_log.ml" 169 5757 5813 "src/unix/lwt_log.ml" 169 5757 5821
+type(
+  (string -> string, unit, string) format
+)
+"src/unix/lwt_log.ml" 169 5757 5797 "src/unix/lwt_log.ml" 169 5757 5822
+call(
+  stack
+)
+type(
+  string -> string
+)
+"src/unix/lwt_log.ml" 169 5757 5823 "src/unix/lwt_log.ml" 169 5757 5828
+type(
+  string list
+)
+ident(
+  int_ref paths "src/unix/lwt_log.ml" 164 5580 5599 "src/unix/lwt_log.ml" 164 5580 5604
+)
+"src/unix/lwt_log.ml" 169 5757 5787 "src/unix/lwt_log.ml" 169 5757 5829
+call(
+  stack
+)
+type(
+  string list
+)
+"src/unix/lwt_log.ml" 169 5757 5767 "src/unix/lwt_log.ml" 169 5757 5830
+call(
+  stack
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 168 5683 5691 "src/unix/lwt_log.ml" 169 5757 5830
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 170 5832 5840 "src/unix/lwt_log.ml" 170 5832 5848
+type(
+  exn -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.fail
+)
+"src/unix/lwt_log.ml" 170 5832 5860 "src/unix/lwt_log.ml" 170 5832 5878
+type(
+  Unix.error -> string
+)
+ident(
+  ext_ref Unix.error_message
+)
+"src/unix/lwt_log.ml" 170 5832 5879 "src/unix/lwt_log.ml" 170 5832 5890
+type(
+  Unix.error
+)
+"src/unix/lwt_log.ml" 170 5832 5859 "src/unix/lwt_log.ml" 170 5832 5891
+call(
+  stack
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 170 5832 5849 "src/unix/lwt_log.ml" 170 5832 5892
+type(
+  exn
+)
+"src/unix/lwt_log.ml" 170 5832 5840 "src/unix/lwt_log.ml" 170 5832 5892
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 168 5683 5691 "src/unix/lwt_log.ml" 170 5832 5892
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 171 5893 5899 "src/unix/lwt_log.ml" 171 5893 5903
+type(
+  string
+)
+ident(
+  def path "src/unix/lwt_log.ml" 172 5916 5924 "src/unix/lwt_log.ml" 216 7935 7959
+)
+"src/unix/lwt_log.ml" 171 5893 5907 "src/unix/lwt_log.ml" 171 5893 5912
+type(
+  string list
+)
+ident(
+  def paths "src/unix/lwt_log.ml" 172 5916 5924 "src/unix/lwt_log.ml" 216 7935 7959
+)
+"src/unix/lwt_log.ml" 171 5893 5899 "src/unix/lwt_log.ml" 171 5893 5912
+type(
+  string list
+)
+"src/unix/lwt_log.ml" 173 5934 5944 "src/unix/lwt_log.ml" 173 5934 5954
+type(
+  Unix.file_kind option -> Unix.file_kind option Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/unix/lwt_log.ml" 173 5934 5962 "src/unix/lwt_log.ml" 173 5934 5971
+type(
+  string -> Unix.stats
+)
+ident(
+  ext_ref Unix.stat
+)
+"src/unix/lwt_log.ml" 173 5934 5972 "src/unix/lwt_log.ml" 173 5934 5976
+type(
+  string
+)
+ident(
+  int_ref path "src/unix/lwt_log.ml" 171 5893 5899 "src/unix/lwt_log.ml" 171 5893 5903
+)
+"src/unix/lwt_log.ml" 173 5934 5961 "src/unix/lwt_log.ml" 173 5934 5977
+call(
+  stack
+)
+type(
+  Unix.stats
+)
+"src/unix/lwt_log.ml" 173 5934 5961 "src/unix/lwt_log.ml" 173 5934 5990
+type(
+  Unix.file_kind
+)
+"src/unix/lwt_log.ml" 173 5934 5955 "src/unix/lwt_log.ml" 173 5934 5991
+type(
+  Unix.file_kind option
+)
+"src/unix/lwt_log.ml" 173 5934 5944 "src/unix/lwt_log.ml" 173 5934 5991
+call(
+  stack
+)
+type(
+  Unix.file_kind option Lwt.t
+)
+"src/unix/lwt_log.ml" 175 6005 6033 "src/unix/lwt_log.ml" 175 6005 6044
+type(
+  Unix.error
+)
+"src/unix/lwt_log.ml" 175 6005 6046 "src/unix/lwt_log.ml" 175 6005 6047
+type(
+  string
+)
+"src/unix/lwt_log.ml" 175 6005 6049 "src/unix/lwt_log.ml" 175 6005 6050
+type(
+  string
+)
+"src/unix/lwt_log.ml" 175 6005 6017 "src/unix/lwt_log.ml" 175 6005 6051
+type(
+  exn
+)
+"src/unix/lwt_log.ml" 176 6055 6069 "src/unix/lwt_log.ml" 176 6055 6084
+type(
+  Unix.file_kind option Lwt.t
+)
+ident(
+  ext_ref Lwt.return_none
+)
+"src/unix/lwt_log.ml" 177 6085 6113 "src/unix/lwt_log.ml" 177 6085 6118
+type(
+  Unix.error
+)
+ident(
+  def error "src/unix/lwt_log.ml" 178 6129 6143 "src/unix/lwt_log.ml" 179 6213 6242
+)
+"src/unix/lwt_log.ml" 177 6085 6120 "src/unix/lwt_log.ml" 177 6085 6121
+type(
+  string
+)
+"src/unix/lwt_log.ml" 177 6085 6123 "src/unix/lwt_log.ml" 177 6085 6124
+type(
+  string
+)
+"src/unix/lwt_log.ml" 177 6085 6097 "src/unix/lwt_log.ml" 177 6085 6125
+type(
+  exn
+)
+"src/unix/lwt_log.ml" 178 6129 6143 "src/unix/lwt_log.ml" 178 6129 6153
+type(
+  (string -> string -> unit, out_channel, unit, unit, unit, unit) format6 ->
+  string -> string -> unit
+)
+ident(
+  int_ref log_intern "src/unix/lwt_log.ml" 33 1229 1233 "src/unix/lwt_log.ml" 33 1229 1243
+)
+"src/unix/lwt_log.ml" 178 6129 6154 "src/unix/lwt_log.ml" 178 6129 6179
+type(
+  (string -> string -> unit, out_channel, unit, unit, unit, unit) format6
+)
+"src/unix/lwt_log.ml" 178 6129 6180 "src/unix/lwt_log.ml" 178 6129 6184
+type(
+  string
+)
+ident(
+  int_ref path "src/unix/lwt_log.ml" 171 5893 5899 "src/unix/lwt_log.ml" 171 5893 5903
+)
+"src/unix/lwt_log.ml" 178 6129 6186 "src/unix/lwt_log.ml" 178 6129 6204
+type(
+  Unix.error -> string
+)
+ident(
+  ext_ref Unix.error_message
+)
+"src/unix/lwt_log.ml" 178 6129 6205 "src/unix/lwt_log.ml" 178 6129 6210
+type(
+  Unix.error
+)
+ident(
+  int_ref error "src/unix/lwt_log.ml" 177 6085 6113 "src/unix/lwt_log.ml" 177 6085 6118
+)
+"src/unix/lwt_log.ml" 178 6129 6185 "src/unix/lwt_log.ml" 178 6129 6211
+call(
+  stack
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 178 6129 6143 "src/unix/lwt_log.ml" 178 6129 6211
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 179 6213 6227 "src/unix/lwt_log.ml" 179 6213 6242
+type(
+  Unix.file_kind option Lwt.t
+)
+ident(
+  ext_ref Lwt.return_none
+)
+"src/unix/lwt_log.ml" 178 6129 6143 "src/unix/lwt_log.ml" 179 6213 6242
+type(
+  Unix.file_kind option Lwt.t
+)
+"src/unix/lwt_log.ml" 172 5916 5924 "src/unix/lwt_log.ml" 180 6243 6254
+type(
+  Unix.file_kind option Lwt.t
+)
+"src/unix/lwt_log.ml" 180 6243 6255 "src/unix/lwt_log.ml" 180 6243 6258
+type(
+  Unix.file_kind option Lwt.t ->
+  (Unix.file_kind option ->
+   (syslog_connection_type * Lwt_unix.file_descr) Lwt.t) ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 181 6268 6280 "src/unix/lwt_log.ml" 181 6268 6284
+type(
+  Unix.file_kind option
+)
+"src/unix/lwt_log.ml" 182 6288 6302 "src/unix/lwt_log.ml" 182 6288 6306
+type(
+  string list -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  int_ref loop "src/unix/lwt_log.ml" 165 5607 5617 "src/unix/lwt_log.ml" 165 5607 5621
+)
+"src/unix/lwt_log.ml" 182 6288 6307 "src/unix/lwt_log.ml" 182 6288 6312
+type(
+  string list
+)
+ident(
+  int_ref paths "src/unix/lwt_log.ml" 171 5893 5907 "src/unix/lwt_log.ml" 171 5893 5912
+)
+"src/unix/lwt_log.ml" 182 6288 6302 "src/unix/lwt_log.ml" 182 6288 6312
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 183 6313 6330 "src/unix/lwt_log.ml" 183 6313 6341
+type(
+  Unix.file_kind
+)
+"src/unix/lwt_log.ml" 183 6313 6325 "src/unix/lwt_log.ml" 183 6313 6341
+type(
+  Unix.file_kind option
+)
+"src/unix/lwt_log.ml" 185 6407 6425 "src/unix/lwt_log.ml" 185 6407 6427
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_log.ml" 186 6480 6494 "src/unix/lwt_log.ml" 212 7802 7840
+)
+"src/unix/lwt_log.ml" 185 6407 6430 "src/unix/lwt_log.ml" 185 6407 6445
+type(
+  Lwt_unix.socket_domain ->
+  Lwt_unix.socket_type -> int -> Lwt_unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.socket
+)
+"src/unix/lwt_log.ml" 185 6407 6446 "src/unix/lwt_log.ml" 185 6407 6458
+type(
+  Lwt_unix.socket_domain
+)
+"src/unix/lwt_log.ml" 185 6407 6459 "src/unix/lwt_log.ml" 185 6407 6474
+type(
+  Lwt_unix.socket_type
+)
+"src/unix/lwt_log.ml" 185 6407 6475 "src/unix/lwt_log.ml" 185 6407 6476
+type(
+  int
+)
+"src/unix/lwt_log.ml" 185 6407 6430 "src/unix/lwt_log.ml" 185 6407 6476
+call(
+  stack
+)
+type(
+  Lwt_unix.file_descr
+)
+"src/unix/lwt_log.ml" 186 6480 6494 "src/unix/lwt_log.ml" 186 6480 6503
+type(
+  (unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t) ->
+  (exn -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t) ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.catch
+)
+"src/unix/lwt_log.ml" 187 6504 6525 "src/unix/lwt_log.ml" 187 6504 6527
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 188 6531 6549 "src/unix/lwt_log.ml" 188 6531 6565
+type(
+  Lwt_unix.file_descr -> Lwt_unix.sockaddr -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.connect
+)
+"src/unix/lwt_log.ml" 188 6531 6566 "src/unix/lwt_log.ml" 188 6531 6568
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 185 6407 6425 "src/unix/lwt_log.ml" 185 6407 6427
+)
+"src/unix/lwt_log.ml" 188 6531 6585 "src/unix/lwt_log.ml" 188 6531 6589
+type(
+  string
+)
+ident(
+  int_ref path "src/unix/lwt_log.ml" 171 5893 5899 "src/unix/lwt_log.ml" 171 5893 5903
+)
+"src/unix/lwt_log.ml" 188 6531 6569 "src/unix/lwt_log.ml" 188 6531 6590
+type(
+  Lwt_unix.sockaddr
+)
+"src/unix/lwt_log.ml" 188 6531 6549 "src/unix/lwt_log.ml" 188 6531 6590
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 188 6531 6591 "src/unix/lwt_log.ml" 188 6531 6594
+type(
+  unit Lwt.t ->
+  (unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t) ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 188 6531 6599 "src/unix/lwt_log.ml" 188 6531 6601
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 189 6605 6623 "src/unix/lwt_log.ml" 189 6605 6649
+type(
+  Lwt_unix.file_descr -> unit
+)
+ident(
+  ext_ref Lwt_unix.set_close_on_exec
+)
+"src/unix/lwt_log.ml" 189 6605 6650 "src/unix/lwt_log.ml" 189 6605 6652
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 185 6407 6425 "src/unix/lwt_log.ml" 185 6407 6427
+)
+"src/unix/lwt_log.ml" 189 6605 6623 "src/unix/lwt_log.ml" 189 6605 6652
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 190 6654 6672 "src/unix/lwt_log.ml" 190 6654 6682
+type(
+  syslog_connection_type * Lwt_unix.file_descr ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/unix/lwt_log.ml" 190 6654 6684 "src/unix/lwt_log.ml" 190 6654 6689
+type(
+  syslog_connection_type
+)
+"src/unix/lwt_log.ml" 190 6654 6691 "src/unix/lwt_log.ml" 190 6654 6693
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 185 6407 6425 "src/unix/lwt_log.ml" 185 6407 6427
+)
+"src/unix/lwt_log.ml" 190 6654 6683 "src/unix/lwt_log.ml" 190 6654 6694
+type(
+  syslog_connection_type * Lwt_unix.file_descr
+)
+"src/unix/lwt_log.ml" 190 6654 6672 "src/unix/lwt_log.ml" 190 6654 6694
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 189 6605 6623 "src/unix/lwt_log.ml" 190 6654 6694
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 188 6531 6595 "src/unix/lwt_log.ml" 190 6654 6694
+type(
+  unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 188 6531 6549 "src/unix/lwt_log.ml" 190 6654 6694
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 187 6504 6520 "src/unix/lwt_log.ml" 190 6654 6695
+type(
+  unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 192 6722 6756 "src/unix/lwt_log.ml" 192 6722 6771
+type(
+  Unix.error
+)
+"src/unix/lwt_log.ml" 192 6722 6773 "src/unix/lwt_log.ml" 192 6722 6774
+type(
+  string
+)
+"src/unix/lwt_log.ml" 192 6722 6776 "src/unix/lwt_log.ml" 192 6722 6777
+type(
+  string
+)
+"src/unix/lwt_log.ml" 192 6722 6740 "src/unix/lwt_log.ml" 192 6722 6778
+type(
+  exn
+)
+"src/unix/lwt_log.ml" 193 6788 6808 "src/unix/lwt_log.ml" 193 6788 6822
+type(
+  Lwt_unix.file_descr -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.close
+)
+"src/unix/lwt_log.ml" 193 6788 6823 "src/unix/lwt_log.ml" 193 6788 6825
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 185 6407 6425 "src/unix/lwt_log.ml" 185 6407 6427
+)
+"src/unix/lwt_log.ml" 193 6788 6808 "src/unix/lwt_log.ml" 193 6788 6825
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 193 6788 6826 "src/unix/lwt_log.ml" 193 6788 6829
+type(
+  unit Lwt.t ->
+  (unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t) ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 193 6788 6834 "src/unix/lwt_log.ml" 193 6788 6836
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 195 6897 6921 "src/unix/lwt_log.ml" 195 6897 6923
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_log.ml" 196 6977 6997 "src/unix/lwt_log.ml" 206 7506 7550
+)
+"src/unix/lwt_log.ml" 195 6897 6926 "src/unix/lwt_log.ml" 195 6897 6941
+type(
+  Lwt_unix.socket_domain ->
+  Lwt_unix.socket_type -> int -> Lwt_unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.socket
+)
+"src/unix/lwt_log.ml" 195 6897 6942 "src/unix/lwt_log.ml" 195 6897 6954
+type(
+  Lwt_unix.socket_domain
+)
+"src/unix/lwt_log.ml" 195 6897 6955 "src/unix/lwt_log.ml" 195 6897 6971
+type(
+  Lwt_unix.socket_type
+)
+"src/unix/lwt_log.ml" 195 6897 6972 "src/unix/lwt_log.ml" 195 6897 6973
+type(
+  int
+)
+"src/unix/lwt_log.ml" 195 6897 6926 "src/unix/lwt_log.ml" 195 6897 6973
+call(
+  stack
+)
+type(
+  Lwt_unix.file_descr
+)
+"src/unix/lwt_log.ml" 196 6977 6997 "src/unix/lwt_log.ml" 196 6977 7006
+type(
+  (unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t) ->
+  (exn -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t) ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.catch
+)
+"src/unix/lwt_log.ml" 197 7007 7034 "src/unix/lwt_log.ml" 197 7007 7036
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 198 7040 7061 "src/unix/lwt_log.ml" 198 7040 7077
+type(
+  Lwt_unix.file_descr -> Lwt_unix.sockaddr -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.connect
+)
+"src/unix/lwt_log.ml" 198 7040 7078 "src/unix/lwt_log.ml" 198 7040 7080
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 195 6897 6921 "src/unix/lwt_log.ml" 195 6897 6923
+)
+"src/unix/lwt_log.ml" 198 7040 7097 "src/unix/lwt_log.ml" 198 7040 7101
+type(
+  string
+)
+ident(
+  int_ref path "src/unix/lwt_log.ml" 171 5893 5899 "src/unix/lwt_log.ml" 171 5893 5903
+)
+"src/unix/lwt_log.ml" 198 7040 7081 "src/unix/lwt_log.ml" 198 7040 7102
+type(
+  Lwt_unix.sockaddr
+)
+"src/unix/lwt_log.ml" 198 7040 7061 "src/unix/lwt_log.ml" 198 7040 7102
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 198 7040 7103 "src/unix/lwt_log.ml" 198 7040 7106
+type(
+  unit Lwt.t ->
+  (unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t) ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 198 7040 7111 "src/unix/lwt_log.ml" 198 7040 7113
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 199 7117 7141 "src/unix/lwt_log.ml" 199 7117 7167
+type(
+  Lwt_unix.file_descr -> unit
+)
+ident(
+  ext_ref Lwt_unix.set_close_on_exec
+)
+"src/unix/lwt_log.ml" 199 7117 7168 "src/unix/lwt_log.ml" 199 7117 7170
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 195 6897 6921 "src/unix/lwt_log.ml" 195 6897 6923
+)
+"src/unix/lwt_log.ml" 199 7117 7141 "src/unix/lwt_log.ml" 199 7117 7170
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 200 7172 7196 "src/unix/lwt_log.ml" 200 7172 7206
+type(
+  syslog_connection_type * Lwt_unix.file_descr ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/unix/lwt_log.ml" 200 7172 7208 "src/unix/lwt_log.ml" 200 7172 7214
+type(
+  syslog_connection_type
+)
+"src/unix/lwt_log.ml" 200 7172 7216 "src/unix/lwt_log.ml" 200 7172 7218
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 195 6897 6921 "src/unix/lwt_log.ml" 195 6897 6923
+)
+"src/unix/lwt_log.ml" 200 7172 7207 "src/unix/lwt_log.ml" 200 7172 7219
+type(
+  syslog_connection_type * Lwt_unix.file_descr
+)
+"src/unix/lwt_log.ml" 200 7172 7196 "src/unix/lwt_log.ml" 200 7172 7219
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 199 7117 7141 "src/unix/lwt_log.ml" 200 7172 7219
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 198 7040 7107 "src/unix/lwt_log.ml" 200 7172 7219
+type(
+  unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 198 7040 7061 "src/unix/lwt_log.ml" 200 7172 7219
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 197 7007 7029 "src/unix/lwt_log.ml" 200 7172 7220
+type(
+  unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 202 7253 7293 "src/unix/lwt_log.ml" 202 7253 7298
+type(
+  Unix.error
+)
+ident(
+  def error "src/unix/lwt_log.ml" 203 7309 7335 "src/unix/lwt_log.ml" 205 7469 7505
+)
+"src/unix/lwt_log.ml" 202 7253 7300 "src/unix/lwt_log.ml" 202 7253 7301
+type(
+  string
+)
+"src/unix/lwt_log.ml" 202 7253 7303 "src/unix/lwt_log.ml" 202 7253 7304
+type(
+  string
+)
+"src/unix/lwt_log.ml" 202 7253 7277 "src/unix/lwt_log.ml" 202 7253 7305
+type(
+  exn
+)
+"src/unix/lwt_log.ml" 203 7309 7335 "src/unix/lwt_log.ml" 203 7309 7349
+type(
+  Lwt_unix.file_descr -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.close
+)
+"src/unix/lwt_log.ml" 203 7309 7350 "src/unix/lwt_log.ml" 203 7309 7352
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 195 6897 6921 "src/unix/lwt_log.ml" 195 6897 6923
+)
+"src/unix/lwt_log.ml" 203 7309 7335 "src/unix/lwt_log.ml" 203 7309 7352
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 203 7309 7353 "src/unix/lwt_log.ml" 203 7309 7356
+type(
+  unit Lwt.t ->
+  (unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t) ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 203 7309 7361 "src/unix/lwt_log.ml" 203 7309 7363
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 204 7367 7393 "src/unix/lwt_log.ml" 204 7367 7403
+type(
+  (string -> string -> unit, out_channel, unit, unit, unit, unit) format6 ->
+  string -> string -> unit
+)
+ident(
+  int_ref log_intern "src/unix/lwt_log.ml" 33 1229 1233 "src/unix/lwt_log.ml" 33 1229 1243
+)
+"src/unix/lwt_log.ml" 204 7367 7404 "src/unix/lwt_log.ml" 204 7367 7435
+type(
+  (string -> string -> unit, out_channel, unit, unit, unit, unit) format6
+)
+"src/unix/lwt_log.ml" 204 7367 7436 "src/unix/lwt_log.ml" 204 7367 7440
+type(
+  string
+)
+ident(
+  int_ref path "src/unix/lwt_log.ml" 171 5893 5899 "src/unix/lwt_log.ml" 171 5893 5903
+)
+"src/unix/lwt_log.ml" 204 7367 7442 "src/unix/lwt_log.ml" 204 7367 7460
+type(
+  Unix.error -> string
+)
+ident(
+  ext_ref Unix.error_message
+)
+"src/unix/lwt_log.ml" 204 7367 7461 "src/unix/lwt_log.ml" 204 7367 7466
+type(
+  Unix.error
+)
+ident(
+  int_ref error "src/unix/lwt_log.ml" 202 7253 7293 "src/unix/lwt_log.ml" 202 7253 7298
+)
+"src/unix/lwt_log.ml" 204 7367 7441 "src/unix/lwt_log.ml" 204 7367 7467
+call(
+  stack
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 204 7367 7393 "src/unix/lwt_log.ml" 204 7367 7467
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 205 7469 7495 "src/unix/lwt_log.ml" 205 7469 7499
+type(
+  string list -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  int_ref loop "src/unix/lwt_log.ml" 165 5607 5617 "src/unix/lwt_log.ml" 165 5607 5621
+)
+"src/unix/lwt_log.ml" 205 7469 7500 "src/unix/lwt_log.ml" 205 7469 7505
+type(
+  string list
+)
+ident(
+  int_ref paths "src/unix/lwt_log.ml" 171 5893 5907 "src/unix/lwt_log.ml" 171 5893 5912
+)
+"src/unix/lwt_log.ml" 205 7469 7495 "src/unix/lwt_log.ml" 205 7469 7505
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 204 7367 7393 "src/unix/lwt_log.ml" 205 7469 7505
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 203 7309 7357 "src/unix/lwt_log.ml" 205 7469 7505
+type(
+  unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 203 7309 7335 "src/unix/lwt_log.ml" 205 7469 7505
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 206 7506 7530 "src/unix/lwt_log.ml" 206 7506 7533
+type(
+  exn
+)
+ident(
+  def exn "src/unix/lwt_log.ml" 206 7506 7537 "src/unix/lwt_log.ml" 206 7506 7549
+)
+"src/unix/lwt_log.ml" 206 7506 7537 "src/unix/lwt_log.ml" 206 7506 7545
+type(
+  exn -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.fail
+)
+"src/unix/lwt_log.ml" 206 7506 7546 "src/unix/lwt_log.ml" 206 7506 7549
+type(
+  exn
+)
+ident(
+  int_ref exn "src/unix/lwt_log.ml" 206 7506 7530 "src/unix/lwt_log.ml" 206 7506 7533
+)
+"src/unix/lwt_log.ml" 206 7506 7537 "src/unix/lwt_log.ml" 206 7506 7549
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 201 7221 7243 "src/unix/lwt_log.ml" 206 7506 7550
+type(
+  exn -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 196 6977 6997 "src/unix/lwt_log.ml" 206 7506 7550
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 195 6897 6917 "src/unix/lwt_log.ml" 206 7506 7550
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 193 6788 6830 "src/unix/lwt_log.ml" 206 7506 7550
+type(
+  unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 192 6722 6782 "src/unix/lwt_log.ml" 207 7551 7572
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 208 7573 7607 "src/unix/lwt_log.ml" 208 7573 7612
+type(
+  Unix.error
+)
+ident(
+  def error "src/unix/lwt_log.ml" 209 7623 7643 "src/unix/lwt_log.ml" 211 7771 7801
+)
+"src/unix/lwt_log.ml" 208 7573 7614 "src/unix/lwt_log.ml" 208 7573 7615
+type(
+  string
+)
+"src/unix/lwt_log.ml" 208 7573 7617 "src/unix/lwt_log.ml" 208 7573 7618
+type(
+  string
+)
+"src/unix/lwt_log.ml" 208 7573 7591 "src/unix/lwt_log.ml" 208 7573 7619
+type(
+  exn
+)
+"src/unix/lwt_log.ml" 209 7623 7643 "src/unix/lwt_log.ml" 209 7623 7657
+type(
+  Lwt_unix.file_descr -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.close
+)
+"src/unix/lwt_log.ml" 209 7623 7658 "src/unix/lwt_log.ml" 209 7623 7660
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 185 6407 6425 "src/unix/lwt_log.ml" 185 6407 6427
+)
+"src/unix/lwt_log.ml" 209 7623 7643 "src/unix/lwt_log.ml" 209 7623 7660
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 209 7623 7661 "src/unix/lwt_log.ml" 209 7623 7664
+type(
+  unit Lwt.t ->
+  (unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t) ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 209 7623 7669 "src/unix/lwt_log.ml" 209 7623 7671
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 210 7675 7695 "src/unix/lwt_log.ml" 210 7675 7705
+type(
+  (string -> string -> unit, out_channel, unit, unit, unit, unit) format6 ->
+  string -> string -> unit
+)
+ident(
+  int_ref log_intern "src/unix/lwt_log.ml" 33 1229 1233 "src/unix/lwt_log.ml" 33 1229 1243
+)
+"src/unix/lwt_log.ml" 210 7675 7706 "src/unix/lwt_log.ml" 210 7675 7737
+type(
+  (string -> string -> unit, out_channel, unit, unit, unit, unit) format6
+)
+"src/unix/lwt_log.ml" 210 7675 7738 "src/unix/lwt_log.ml" 210 7675 7742
+type(
+  string
+)
+ident(
+  int_ref path "src/unix/lwt_log.ml" 171 5893 5899 "src/unix/lwt_log.ml" 171 5893 5903
+)
+"src/unix/lwt_log.ml" 210 7675 7744 "src/unix/lwt_log.ml" 210 7675 7762
+type(
+  Unix.error -> string
+)
+ident(
+  ext_ref Unix.error_message
+)
+"src/unix/lwt_log.ml" 210 7675 7763 "src/unix/lwt_log.ml" 210 7675 7768
+type(
+  Unix.error
+)
+ident(
+  int_ref error "src/unix/lwt_log.ml" 208 7573 7607 "src/unix/lwt_log.ml" 208 7573 7612
+)
+"src/unix/lwt_log.ml" 210 7675 7743 "src/unix/lwt_log.ml" 210 7675 7769
+call(
+  stack
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 210 7675 7695 "src/unix/lwt_log.ml" 210 7675 7769
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 211 7771 7791 "src/unix/lwt_log.ml" 211 7771 7795
+type(
+  string list -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  int_ref loop "src/unix/lwt_log.ml" 165 5607 5617 "src/unix/lwt_log.ml" 165 5607 5621
+)
+"src/unix/lwt_log.ml" 211 7771 7796 "src/unix/lwt_log.ml" 211 7771 7801
+type(
+  string list
+)
+ident(
+  int_ref paths "src/unix/lwt_log.ml" 171 5893 5907 "src/unix/lwt_log.ml" 171 5893 5912
+)
+"src/unix/lwt_log.ml" 211 7771 7791 "src/unix/lwt_log.ml" 211 7771 7801
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 210 7675 7695 "src/unix/lwt_log.ml" 211 7771 7801
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 209 7623 7665 "src/unix/lwt_log.ml" 211 7771 7801
+type(
+  unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 209 7623 7643 "src/unix/lwt_log.ml" 211 7771 7801
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 212 7802 7820 "src/unix/lwt_log.ml" 212 7802 7823
+type(
+  exn
+)
+ident(
+  def exn "src/unix/lwt_log.ml" 212 7802 7827 "src/unix/lwt_log.ml" 212 7802 7839
+)
+"src/unix/lwt_log.ml" 212 7802 7827 "src/unix/lwt_log.ml" 212 7802 7835
+type(
+  exn -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.fail
+)
+"src/unix/lwt_log.ml" 212 7802 7836 "src/unix/lwt_log.ml" 212 7802 7839
+type(
+  exn
+)
+ident(
+  int_ref exn "src/unix/lwt_log.ml" 212 7802 7820 "src/unix/lwt_log.ml" 212 7802 7823
+)
+"src/unix/lwt_log.ml" 212 7802 7827 "src/unix/lwt_log.ml" 212 7802 7839
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 191 6696 6712 "src/unix/lwt_log.ml" 212 7802 7840
+type(
+  exn -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 186 6480 6494 "src/unix/lwt_log.ml" 212 7802 7840
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 183 6313 6345 "src/unix/lwt_log.ml" 213 7841 7856
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 214 7857 7874 "src/unix/lwt_log.ml" 214 7857 7875
+type(
+  Unix.file_kind
+)
+"src/unix/lwt_log.ml" 214 7857 7869 "src/unix/lwt_log.ml" 214 7857 7875
+type(
+  Unix.file_kind option
+)
+"src/unix/lwt_log.ml" 215 7879 7893 "src/unix/lwt_log.ml" 215 7879 7903
+type(
+  (string -> unit, out_channel, unit, unit, unit, unit) format6 ->
+  string -> unit
+)
+ident(
+  int_ref log_intern "src/unix/lwt_log.ml" 33 1229 1233 "src/unix/lwt_log.ml" 33 1229 1243
+)
+"src/unix/lwt_log.ml" 215 7879 7904 "src/unix/lwt_log.ml" 215 7879 7928
+type(
+  (string -> unit, out_channel, unit, unit, unit, unit) format6
+)
+"src/unix/lwt_log.ml" 215 7879 7929 "src/unix/lwt_log.ml" 215 7879 7933
+type(
+  string
+)
+ident(
+  int_ref path "src/unix/lwt_log.ml" 171 5893 5899 "src/unix/lwt_log.ml" 171 5893 5903
+)
+"src/unix/lwt_log.ml" 215 7879 7893 "src/unix/lwt_log.ml" 215 7879 7933
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 216 7935 7949 "src/unix/lwt_log.ml" 216 7935 7953
+type(
+  string list -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  int_ref loop "src/unix/lwt_log.ml" 165 5607 5617 "src/unix/lwt_log.ml" 165 5607 5621
+)
+"src/unix/lwt_log.ml" 216 7935 7954 "src/unix/lwt_log.ml" 216 7935 7959
+type(
+  string list
+)
+ident(
+  int_ref paths "src/unix/lwt_log.ml" 171 5893 5907 "src/unix/lwt_log.ml" 171 5893 5912
+)
+"src/unix/lwt_log.ml" 216 7935 7949 "src/unix/lwt_log.ml" 216 7935 7959
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 215 7879 7893 "src/unix/lwt_log.ml" 216 7935 7959
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 180 6243 6259 "src/unix/lwt_log.ml" 216 7935 7959
+type(
+  Unix.file_kind option ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 172 5916 5924 "src/unix/lwt_log.ml" 216 7935 7959
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 165 5607 5624 "src/unix/lwt_log.ml" 216 7935 7959
+type(
+  string list -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 218 7965 7967 "src/unix/lwt_log.ml" 218 7965 7971
+type(
+  string list -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  int_ref loop "src/unix/lwt_log.ml" 165 5607 5617 "src/unix/lwt_log.ml" 165 5607 5621
+)
+"src/unix/lwt_log.ml" 218 7965 7972 "src/unix/lwt_log.ml" 218 7965 7977
+type(
+  string list
+)
+ident(
+  int_ref paths "src/unix/lwt_log.ml" 164 5580 5599 "src/unix/lwt_log.ml" 164 5580 5604
+)
+"src/unix/lwt_log.ml" 218 7965 7967 "src/unix/lwt_log.ml" 218 7965 7977
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 165 5607 5609 "src/unix/lwt_log.ml" 218 7965 7977
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 222 8055 8059 "src/unix/lwt_log.ml" 222 8055 8071
+type(
+  Lwt_unix.file_descr -> string -> unit Lwt.t
+)
+ident(
+  def write_string "src/unix/lwt_log.ml" 236 8373 8373 "src/unix/lwt_log.ml" 1 0 -1
+)
+"src/unix/lwt_log.ml" 222 8055 8072 "src/unix/lwt_log.ml" 222 8055 8074
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_log.ml" 222 8055 8075 "src/unix/lwt_log.ml" 234 8364 8371
+)
+"src/unix/lwt_log.ml" 222 8055 8075 "src/unix/lwt_log.ml" 222 8055 8078
+type(
+  string
+)
+ident(
+  def str "src/unix/lwt_log.ml" 223 8081 8083 "src/unix/lwt_log.ml" 234 8364 8371
+)
+"src/unix/lwt_log.ml" 223 8081 8087 "src/unix/lwt_log.ml" 223 8081 8090
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_log.ml" 224 8114 8116 "src/unix/lwt_log.ml" 234 8364 8371
+)
+"src/unix/lwt_log.ml" 223 8081 8093 "src/unix/lwt_log.ml" 223 8081 8106
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/unix/lwt_log.ml" 223 8081 8107 "src/unix/lwt_log.ml" 223 8081 8110
+type(
+  string
+)
+ident(
+  int_ref str "src/unix/lwt_log.ml" 222 8055 8075 "src/unix/lwt_log.ml" 222 8055 8078
+)
+"src/unix/lwt_log.ml" 223 8081 8093 "src/unix/lwt_log.ml" 223 8081 8110
+type(
+  int
+)
+"src/unix/lwt_log.ml" 224 8114 8124 "src/unix/lwt_log.ml" 224 8114 8127
+type(
+  int -> unit Lwt.t
+)
+ident(
+  def aux "src/unix/lwt_log.ml" 224 8114 8116 "src/unix/lwt_log.ml" 234 8364 8371
+)
+"src/unix/lwt_log.ml" 224 8114 8128 "src/unix/lwt_log.ml" 224 8114 8137
+type(
+  int
+)
+ident(
+  def start_ofs "src/unix/lwt_log.ml" 225 8140 8144 "src/unix/lwt_log.ml" 232 8335 8358
+)
+"src/unix/lwt_log.ml" 225 8140 8147 "src/unix/lwt_log.ml" 225 8140 8156
+type(
+  int
+)
+ident(
+  int_ref start_ofs "src/unix/lwt_log.ml" 224 8114 8128 "src/unix/lwt_log.ml" 224 8114 8137
+)
+"src/unix/lwt_log.ml" 225 8140 8157 "src/unix/lwt_log.ml" 225 8140 8158
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/unix/lwt_log.ml" 225 8140 8159 "src/unix/lwt_log.ml" 225 8140 8162
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_log.ml" 223 8081 8087 "src/unix/lwt_log.ml" 223 8081 8090
+)
+"src/unix/lwt_log.ml" 225 8140 8147 "src/unix/lwt_log.ml" 225 8140 8162
+type(
+  bool
+)
+"src/unix/lwt_log.ml" 226 8168 8174 "src/unix/lwt_log.ml" 226 8168 8189
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/unix/lwt_log.ml" 228 8199 8205 "src/unix/lwt_log.ml" 228 8199 8226
+type(
+  Lwt_unix.file_descr -> string -> int -> int -> int Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.write_string
+)
+"src/unix/lwt_log.ml" 228 8199 8227 "src/unix/lwt_log.ml" 228 8199 8229
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 222 8055 8072 "src/unix/lwt_log.ml" 222 8055 8074
+)
+"src/unix/lwt_log.ml" 228 8199 8230 "src/unix/lwt_log.ml" 228 8199 8233
+type(
+  string
+)
+ident(
+  int_ref str "src/unix/lwt_log.ml" 222 8055 8075 "src/unix/lwt_log.ml" 222 8055 8078
+)
+"src/unix/lwt_log.ml" 228 8199 8234 "src/unix/lwt_log.ml" 228 8199 8243
+type(
+  int
+)
+ident(
+  int_ref start_ofs "src/unix/lwt_log.ml" 224 8114 8128 "src/unix/lwt_log.ml" 224 8114 8137
+)
+"src/unix/lwt_log.ml" 228 8199 8245 "src/unix/lwt_log.ml" 228 8199 8248
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_log.ml" 223 8081 8087 "src/unix/lwt_log.ml" 223 8081 8090
+)
+"src/unix/lwt_log.ml" 228 8199 8249 "src/unix/lwt_log.ml" 228 8199 8250
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_log.ml" 228 8199 8251 "src/unix/lwt_log.ml" 228 8199 8260
+type(
+  int
+)
+ident(
+  int_ref start_ofs "src/unix/lwt_log.ml" 224 8114 8128 "src/unix/lwt_log.ml" 224 8114 8137
+)
+"src/unix/lwt_log.ml" 228 8199 8244 "src/unix/lwt_log.ml" 228 8199 8261
+type(
+  int
+)
+"src/unix/lwt_log.ml" 228 8199 8205 "src/unix/lwt_log.ml" 228 8199 8261
+call(
+  stack
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_log.ml" 228 8199 8262 "src/unix/lwt_log.ml" 228 8199 8265
+type(
+  int Lwt.t -> (int -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 228 8199 8270 "src/unix/lwt_log.ml" 228 8199 8271
+type(
+  int
+)
+ident(
+  def n "src/unix/lwt_log.ml" 229 8275 8281 "src/unix/lwt_log.ml" 232 8335 8358
+)
+"src/unix/lwt_log.ml" 229 8275 8284 "src/unix/lwt_log.ml" 229 8275 8285
+type(
+  int
+)
+ident(
+  int_ref n "src/unix/lwt_log.ml" 228 8199 8270 "src/unix/lwt_log.ml" 228 8199 8271
+)
+"src/unix/lwt_log.ml" 229 8275 8286 "src/unix/lwt_log.ml" 229 8275 8288
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/unix/lwt_log.ml" 229 8275 8289 "src/unix/lwt_log.ml" 229 8275 8290
+type(
+  int
+)
+"src/unix/lwt_log.ml" 229 8275 8284 "src/unix/lwt_log.ml" 229 8275 8290
+type(
+  bool
+)
+"src/unix/lwt_log.ml" 230 8296 8304 "src/unix/lwt_log.ml" 230 8296 8307
+type(
+  int -> unit Lwt.t
+)
+ident(
+  int_ref aux "src/unix/lwt_log.ml" 224 8114 8124 "src/unix/lwt_log.ml" 224 8114 8127
+)
+"src/unix/lwt_log.ml" 230 8296 8309 "src/unix/lwt_log.ml" 230 8296 8318
+type(
+  int
+)
+ident(
+  int_ref start_ofs "src/unix/lwt_log.ml" 224 8114 8128 "src/unix/lwt_log.ml" 224 8114 8137
+)
+"src/unix/lwt_log.ml" 230 8296 8319 "src/unix/lwt_log.ml" 230 8296 8320
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/unix/lwt_log.ml" 230 8296 8321 "src/unix/lwt_log.ml" 230 8296 8322
+type(
+  int
+)
+ident(
+  int_ref n "src/unix/lwt_log.ml" 228 8199 8270 "src/unix/lwt_log.ml" 228 8199 8271
+)
+"src/unix/lwt_log.ml" 230 8296 8308 "src/unix/lwt_log.ml" 230 8296 8323
+type(
+  int
+)
+"src/unix/lwt_log.ml" 230 8296 8304 "src/unix/lwt_log.ml" 230 8296 8323
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 232 8335 8343 "src/unix/lwt_log.ml" 232 8335 8358
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/unix/lwt_log.ml" 229 8275 8281 "src/unix/lwt_log.ml" 232 8335 8358
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 228 8199 8266 "src/unix/lwt_log.ml" 232 8335 8358
+type(
+  int -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 228 8199 8205 "src/unix/lwt_log.ml" 232 8335 8358
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 225 8140 8144 "src/unix/lwt_log.ml" 232 8335 8358
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 234 8364 8366 "src/unix/lwt_log.ml" 234 8364 8369
+type(
+  int -> unit Lwt.t
+)
+ident(
+  int_ref aux "src/unix/lwt_log.ml" 224 8114 8124 "src/unix/lwt_log.ml" 224 8114 8127
+)
+"src/unix/lwt_log.ml" 234 8364 8370 "src/unix/lwt_log.ml" 234 8364 8371
+type(
+  int
+)
+"src/unix/lwt_log.ml" 234 8364 8366 "src/unix/lwt_log.ml" 234 8364 8371
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 224 8114 8116 "src/unix/lwt_log.ml" 234 8364 8371
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 223 8081 8083 "src/unix/lwt_log.ml" 234 8364 8371
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 236 8373 8377 "src/unix/lwt_log.ml" 236 8373 8385
+type(
+  Buffer.t -> int -> string
+)
+ident(
+  def truncate "src/unix/lwt_log.ml" 244 8600 8600 "src/unix/lwt_log.ml" 1 0 -1
+)
+"src/unix/lwt_log.ml" 236 8373 8386 "src/unix/lwt_log.ml" 236 8373 8389
+type(
+  Buffer.t
+)
+ident(
+  def buf "src/unix/lwt_log.ml" 236 8373 8390 "src/unix/lwt_log.ml" 242 8575 8598
+)
+"src/unix/lwt_log.ml" 236 8373 8390 "src/unix/lwt_log.ml" 236 8373 8393
+type(
+  int
+)
+ident(
+  def max "src/unix/lwt_log.ml" 237 8396 8398 "src/unix/lwt_log.ml" 242 8575 8598
+)
+"src/unix/lwt_log.ml" 237 8396 8401 "src/unix/lwt_log.ml" 237 8396 8414
+type(
+  Buffer.t -> int
+)
+ident(
+  ext_ref Buffer.length
+)
+"src/unix/lwt_log.ml" 237 8396 8415 "src/unix/lwt_log.ml" 237 8396 8418
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_log.ml" 236 8373 8386 "src/unix/lwt_log.ml" 236 8373 8389
+)
+"src/unix/lwt_log.ml" 237 8396 8401 "src/unix/lwt_log.ml" 237 8396 8418
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_log.ml" 237 8396 8419 "src/unix/lwt_log.ml" 237 8396 8420
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_log.ml" 237 8396 8421 "src/unix/lwt_log.ml" 237 8396 8424
+type(
+  int
+)
+ident(
+  int_ref max "src/unix/lwt_log.ml" 236 8373 8390 "src/unix/lwt_log.ml" 236 8373 8393
+)
+"src/unix/lwt_log.ml" 237 8396 8401 "src/unix/lwt_log.ml" 237 8396 8424
+type(
+  bool
+)
+"src/unix/lwt_log.ml" 238 8436 8444 "src/unix/lwt_log.ml" 238 8436 8450
+type(
+  string
+)
+ident(
+  def suffix "src/unix/lwt_log.ml" 239 8470 8474 "src/unix/lwt_log.ml" 240 8515 8563
+)
+"src/unix/lwt_log.ml" 238 8436 8453 "src/unix/lwt_log.ml" 238 8436 8466
+type(
+  string
+)
+"src/unix/lwt_log.ml" 239 8470 8478 "src/unix/lwt_log.ml" 239 8470 8488
+type(
+  int
+)
+ident(
+  def len_suffix "src/unix/lwt_log.ml" 240 8515 8519 "src/unix/lwt_log.ml" 240 8515 8563
+)
+"src/unix/lwt_log.ml" 239 8470 8491 "src/unix/lwt_log.ml" 239 8470 8504
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/unix/lwt_log.ml" 239 8470 8505 "src/unix/lwt_log.ml" 239 8470 8511
+type(
+  string
+)
+ident(
+  int_ref suffix "src/unix/lwt_log.ml" 238 8436 8444 "src/unix/lwt_log.ml" 238 8436 8450
+)
+"src/unix/lwt_log.ml" 239 8470 8491 "src/unix/lwt_log.ml" 239 8470 8511
+type(
+  int
+)
+"src/unix/lwt_log.ml" 240 8515 8519 "src/unix/lwt_log.ml" 240 8515 8529
+type(
+  Buffer.t -> int -> int -> string
+)
+ident(
+  ext_ref Buffer.sub
+)
+"src/unix/lwt_log.ml" 240 8515 8530 "src/unix/lwt_log.ml" 240 8515 8533
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_log.ml" 236 8373 8386 "src/unix/lwt_log.ml" 236 8373 8389
+)
+"src/unix/lwt_log.ml" 240 8515 8534 "src/unix/lwt_log.ml" 240 8515 8535
+type(
+  int
+)
+"src/unix/lwt_log.ml" 240 8515 8537 "src/unix/lwt_log.ml" 240 8515 8540
+type(
+  int
+)
+ident(
+  int_ref max "src/unix/lwt_log.ml" 236 8373 8390 "src/unix/lwt_log.ml" 236 8373 8393
+)
+"src/unix/lwt_log.ml" 240 8515 8541 "src/unix/lwt_log.ml" 240 8515 8542
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_log.ml" 240 8515 8543 "src/unix/lwt_log.ml" 240 8515 8553
+type(
+  int
+)
+ident(
+  int_ref len_suffix "src/unix/lwt_log.ml" 239 8470 8478 "src/unix/lwt_log.ml" 239 8470 8488
+)
+"src/unix/lwt_log.ml" 240 8515 8536 "src/unix/lwt_log.ml" 240 8515 8554
+type(
+  int
+)
+"src/unix/lwt_log.ml" 240 8515 8519 "src/unix/lwt_log.ml" 240 8515 8554
+call(
+  stack
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 240 8515 8555 "src/unix/lwt_log.ml" 240 8515 8556
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/unix/lwt_log.ml" 240 8515 8557 "src/unix/lwt_log.ml" 240 8515 8563
+type(
+  string
+)
+ident(
+  int_ref suffix "src/unix/lwt_log.ml" 238 8436 8444 "src/unix/lwt_log.ml" 238 8436 8450
+)
+"src/unix/lwt_log.ml" 240 8515 8519 "src/unix/lwt_log.ml" 240 8515 8563
+call(
+  tail
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 239 8470 8474 "src/unix/lwt_log.ml" 240 8515 8563
+type(
+  string
+)
+"src/unix/lwt_log.ml" 237 8396 8430 "src/unix/lwt_log.ml" 241 8564 8569
+type(
+  string
+)
+"src/unix/lwt_log.ml" 242 8575 8579 "src/unix/lwt_log.ml" 242 8575 8594
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"src/unix/lwt_log.ml" 242 8575 8595 "src/unix/lwt_log.ml" 242 8575 8598
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_log.ml" 236 8373 8386 "src/unix/lwt_log.ml" 236 8373 8389
+)
+"src/unix/lwt_log.ml" 242 8575 8579 "src/unix/lwt_log.ml" 242 8575 8598
+call(
+  tail
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 237 8396 8398 "src/unix/lwt_log.ml" 242 8575 8598
+type(
+  string
+)
+"src/unix/lwt_log.ml" 244 8600 8604 "src/unix/lwt_log.ml" 244 8600 8610
+type(
+  ?template:string ->
+  ?paths:string list ->
+  facility:[< `Auth
+            | `Authpriv
+            | `Console
+            | `Cron
+            | `Daemon
+            | `FTP
+            | `Kernel
+            | `LPR
+            | `Local0
+            | `Local1
+            | `Local2
+            | `Local3
+            | `Local4
+            | `Local5
+            | `Local6
+            | `Local7
+            | `Mail
+            | `NTP
+            | `News
+            | `Security
+            | `Syslog
+            | `UUCP
+            | `User ] ->
+  unit -> logger
+)
+ident(
+  def syslog "src/unix/lwt_log.ml" 291 10832 10864 "src/unix/lwt_log.ml" 1 0 -1
+)
+"src/unix/lwt_log.ml" 244 8600 8613 "src/unix/lwt_log.ml" 244 8600 8621
+type(
+  string
+)
+"src/unix/lwt_log.ml" 244 8600 8622 "src/unix/lwt_log.ml" 244 8600 8671
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "src/unix/lwt_log.ml" 244 8600 8622 "src/unix/lwt_log.ml" 244 8600 8671
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 244 8600 8675 "src/unix/lwt_log.ml" 244 8600 8680
+type(
+  string list
+)
+"src/unix/lwt_log.ml" 244 8600 8682 "src/unix/lwt_log.ml" 244 8600 8692
+type(
+  string
+)
+"src/unix/lwt_log.ml" 244 8600 8694 "src/unix/lwt_log.ml" 244 8600 8708
+type(
+  string
+)
+"src/unix/lwt_log.ml" 244 8600 8710 "src/unix/lwt_log.ml" 244 8600 8727
+type(
+  string
+)
+"src/unix/lwt_log.ml" 244 8600 8681 "src/unix/lwt_log.ml" 244 8600 8728
+type(
+  string list
+)
+type(
+  string list
+)
+ident(
+  int_ref *sth* "src/unix/lwt_log.ml" 244 8600 8681 "src/unix/lwt_log.ml" 244 8600 8728
+)
+type(
+  string list option
+)
+type(
+  string list option
+)
+type(
+  string list
+)
+"src/unix/lwt_log.ml" 244 8600 8731 "src/unix/lwt_log.ml" 244 8600 8739
+type(
+  [< `Auth
+   | `Authpriv
+   | `Console
+   | `Cron
+   | `Daemon
+   | `FTP
+   | `Kernel
+   | `LPR
+   | `Local0
+   | `Local1
+   | `Local2
+   | `Local3
+   | `Local4
+   | `Local5
+   | `Local6
+   | `Local7
+   | `Mail
+   | `NTP
+   | `News
+   | `Security
+   | `Syslog
+   | `UUCP
+   | `User ]
+  as 'a
+)
+ident(
+  def facility "src/unix/lwt_log.ml" 244 8600 8740 "src/unix/lwt_log.ml" 291 10832 10864
+)
+"src/unix/lwt_log.ml" 244 8600 8740 "src/unix/lwt_log.ml" 244 8600 8742
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 245 8745 8751 "src/unix/lwt_log.ml" 245 8745 8764
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option ref
+)
+ident(
+  def syslog_socket "src/unix/lwt_log.ml" 246 8811 8813 "src/unix/lwt_log.ml" 291 10832 10864
+)
+"src/unix/lwt_log.ml" 245 8745 8767 "src/unix/lwt_log.ml" 245 8745 8770
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option ->
+  (syslog_connection_type * Lwt_unix.file_descr) option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/unix/lwt_log.ml" 245 8745 8771 "src/unix/lwt_log.ml" 245 8745 8775
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option
+)
+"src/unix/lwt_log.ml" 245 8745 8767 "src/unix/lwt_log.ml" 245 8745 8775
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option ref
+)
+"src/unix/lwt_log.ml" 245 8745 8780 "src/unix/lwt_log.ml" 245 8745 8785
+type(
+  Lwt_mutex.t
+)
+ident(
+  def mutex "src/unix/lwt_log.ml" 246 8811 8813 "src/unix/lwt_log.ml" 291 10832 10864
+)
+"src/unix/lwt_log.ml" 245 8745 8788 "src/unix/lwt_log.ml" 245 8745 8804
+type(
+  unit -> Lwt_mutex.t
+)
+ident(
+  ext_ref Lwt_mutex.create
+)
+"src/unix/lwt_log.ml" 245 8745 8805 "src/unix/lwt_log.ml" 245 8745 8807
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 245 8745 8788 "src/unix/lwt_log.ml" 245 8745 8807
+call(
+  stack
+)
+type(
+  Lwt_mutex.t
+)
+"src/unix/lwt_log.ml" 246 8811 8817 "src/unix/lwt_log.ml" 246 8811 8827
+type(
+  unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  def get_syslog "src/unix/lwt_log.ml" 254 9011 9013 "src/unix/lwt_log.ml" 291 10832 10864
+)
+"src/unix/lwt_log.ml" 246 8811 8828 "src/unix/lwt_log.ml" 246 8811 8830
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 246 8811 8839 "src/unix/lwt_log.ml" 246 8811 8840
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option ref ->
+  (syslog_connection_type * Lwt_unix.file_descr) option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_log.ml" 246 8811 8840 "src/unix/lwt_log.ml" 246 8811 8853
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option ref
+)
+ident(
+  int_ref syslog_socket "src/unix/lwt_log.ml" 245 8745 8751 "src/unix/lwt_log.ml" 245 8745 8764
+)
+"src/unix/lwt_log.ml" 246 8811 8839 "src/unix/lwt_log.ml" 246 8811 8853
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option
+)
+"src/unix/lwt_log.ml" 247 8859 8870 "src/unix/lwt_log.ml" 247 8859 8871
+type(
+  syslog_connection_type * Lwt_unix.file_descr
+)
+ident(
+  def x "src/unix/lwt_log.ml" 248 8875 8883 "src/unix/lwt_log.ml" 248 8875 8895
+)
+"src/unix/lwt_log.ml" 247 8859 8865 "src/unix/lwt_log.ml" 247 8859 8871
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option
+)
+"src/unix/lwt_log.ml" 248 8875 8883 "src/unix/lwt_log.ml" 248 8875 8893
+type(
+  syslog_connection_type * Lwt_unix.file_descr ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/unix/lwt_log.ml" 248 8875 8894 "src/unix/lwt_log.ml" 248 8875 8895
+type(
+  syslog_connection_type * Lwt_unix.file_descr
+)
+ident(
+  int_ref x "src/unix/lwt_log.ml" 247 8859 8870 "src/unix/lwt_log.ml" 247 8859 8871
+)
+"src/unix/lwt_log.ml" 248 8875 8883 "src/unix/lwt_log.ml" 248 8875 8895
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 249 8896 8902 "src/unix/lwt_log.ml" 249 8896 8906
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option
+)
+"src/unix/lwt_log.ml" 250 8910 8918 "src/unix/lwt_log.ml" 250 8910 8932
+type(
+  string list -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  int_ref syslog_connect "src/unix/lwt_log.ml" 164 5580 5584 "src/unix/lwt_log.ml" 164 5580 5598
+)
+"src/unix/lwt_log.ml" 250 8910 8933 "src/unix/lwt_log.ml" 250 8910 8938
+type(
+  string list
+)
+ident(
+  int_ref paths "src/unix/lwt_log.ml" 244 8600 8675 "src/unix/lwt_log.ml" 244 8600 8680
+)
+"src/unix/lwt_log.ml" 250 8910 8918 "src/unix/lwt_log.ml" 250 8910 8938
+call(
+  stack
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 250 8910 8939 "src/unix/lwt_log.ml" 250 8910 8942
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t ->
+  (syslog_connection_type * Lwt_unix.file_descr ->
+   (syslog_connection_type * Lwt_unix.file_descr) Lwt.t) ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 250 8910 8947 "src/unix/lwt_log.ml" 250 8910 8948
+type(
+  syslog_connection_type * Lwt_unix.file_descr
+)
+ident(
+  def x "src/unix/lwt_log.ml" 251 8952 8960 "src/unix/lwt_log.ml" 252 8985 9005
+)
+"src/unix/lwt_log.ml" 251 8952 8960 "src/unix/lwt_log.ml" 251 8952 8973
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option ref
+)
+ident(
+  int_ref syslog_socket "src/unix/lwt_log.ml" 245 8745 8751 "src/unix/lwt_log.ml" 245 8745 8764
+)
+"src/unix/lwt_log.ml" 251 8952 8974 "src/unix/lwt_log.ml" 251 8952 8976
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option ref ->
+  (syslog_connection_type * Lwt_unix.file_descr) option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_log.ml" 251 8952 8982 "src/unix/lwt_log.ml" 251 8952 8983
+type(
+  syslog_connection_type * Lwt_unix.file_descr
+)
+ident(
+  int_ref x "src/unix/lwt_log.ml" 250 8910 8947 "src/unix/lwt_log.ml" 250 8910 8948
+)
+"src/unix/lwt_log.ml" 251 8952 8977 "src/unix/lwt_log.ml" 251 8952 8983
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option
+)
+"src/unix/lwt_log.ml" 251 8952 8960 "src/unix/lwt_log.ml" 251 8952 8983
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 252 8985 8993 "src/unix/lwt_log.ml" 252 8985 9003
+type(
+  syslog_connection_type * Lwt_unix.file_descr ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/unix/lwt_log.ml" 252 8985 9004 "src/unix/lwt_log.ml" 252 8985 9005
+type(
+  syslog_connection_type * Lwt_unix.file_descr
+)
+ident(
+  int_ref x "src/unix/lwt_log.ml" 250 8910 8947 "src/unix/lwt_log.ml" 250 8910 8948
+)
+"src/unix/lwt_log.ml" 252 8985 8993 "src/unix/lwt_log.ml" 252 8985 9005
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 251 8952 8960 "src/unix/lwt_log.ml" 252 8985 9005
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 250 8910 8943 "src/unix/lwt_log.ml" 252 8985 9005
+type(
+  syslog_connection_type * Lwt_unix.file_descr ->
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 250 8910 8918 "src/unix/lwt_log.ml" 252 8985 9005
+call(
+  tail
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 246 8811 8833 "src/unix/lwt_log.ml" 252 8985 9005
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 254 9011 9013 "src/unix/lwt_log.ml" 254 9011 9017
+type(
+  output:(section -> level -> string list -> unit Lwt.t) ->
+  close:(unit -> unit Lwt.t) -> logger
+)
+ident(
+  ext_ref make
+)
+"src/unix/lwt_log.ml" 255 9018 9035 "src/unix/lwt_log.ml" 255 9018 9042
+type(
+  section
+)
+ident(
+  def section "src/unix/lwt_log.ml" 255 9018 9043 "src/unix/lwt_log.ml" 285 10616 10663
+)
+"src/unix/lwt_log.ml" 255 9018 9043 "src/unix/lwt_log.ml" 255 9018 9048
+type(
+  level
+)
+ident(
+  def level "src/unix/lwt_log.ml" 255 9018 9049 "src/unix/lwt_log.ml" 285 10616 10663
+)
+"src/unix/lwt_log.ml" 255 9018 9049 "src/unix/lwt_log.ml" 255 9018 9054
+type(
+  string list
+)
+ident(
+  def lines "src/unix/lwt_log.ml" 256 9058 9073 "src/unix/lwt_log.ml" 285 10616 10663
+)
+"src/unix/lwt_log.ml" 256 9058 9073 "src/unix/lwt_log.ml" 256 9058 9092
+type(
+  Lwt_mutex.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_mutex.with_lock
+)
+"src/unix/lwt_log.ml" 256 9058 9093 "src/unix/lwt_log.ml" 256 9058 9098
+type(
+  Lwt_mutex.t
+)
+ident(
+  int_ref mutex "src/unix/lwt_log.ml" 245 8745 8780 "src/unix/lwt_log.ml" 245 8745 8785
+)
+"src/unix/lwt_log.ml" 257 9099 9121 "src/unix/lwt_log.ml" 257 9099 9123
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 258 9127 9151 "src/unix/lwt_log.ml" 258 9127 9154
+type(
+  Buffer.t
+)
+ident(
+  def buf "src/unix/lwt_log.ml" 259 9177 9197 "src/unix/lwt_log.ml" 285 10616 10662
+)
+"src/unix/lwt_log.ml" 258 9127 9157 "src/unix/lwt_log.ml" 258 9127 9170
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"src/unix/lwt_log.ml" 258 9127 9171 "src/unix/lwt_log.ml" 258 9127 9173
+type(
+  int
+)
+"src/unix/lwt_log.ml" 258 9127 9157 "src/unix/lwt_log.ml" 258 9127 9173
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"src/unix/lwt_log.ml" 259 9177 9201 "src/unix/lwt_log.ml" 259 9177 9210
+type(
+  syslog_connection_type -> string -> string
+)
+ident(
+  def make_line "src/unix/lwt_log.ml" 266 9595 9615 "src/unix/lwt_log.ml" 285 10616 10662
+)
+"src/unix/lwt_log.ml" 259 9177 9211 "src/unix/lwt_log.ml" 259 9177 9222
+type(
+  syslog_connection_type
+)
+ident(
+  def socket_type "src/unix/lwt_log.ml" 259 9177 9223 "src/unix/lwt_log.ml" 264 9532 9571
+)
+"src/unix/lwt_log.ml" 259 9177 9223 "src/unix/lwt_log.ml" 259 9177 9226
+type(
+  string
+)
+ident(
+  def msg "src/unix/lwt_log.ml" 260 9229 9251 "src/unix/lwt_log.ml" 264 9532 9571
+)
+"src/unix/lwt_log.ml" 260 9229 9251 "src/unix/lwt_log.ml" 260 9229 9263
+type(
+  Buffer.t -> unit
+)
+ident(
+  ext_ref Buffer.clear
+)
+"src/unix/lwt_log.ml" 260 9229 9264 "src/unix/lwt_log.ml" 260 9229 9267
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_log.ml" 258 9127 9151 "src/unix/lwt_log.ml" 258 9127 9154
+)
+"src/unix/lwt_log.ml" 260 9229 9251 "src/unix/lwt_log.ml" 260 9229 9267
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 261 9269 9291 "src/unix/lwt_log.ml" 261 9269 9305
+type(
+  Buffer.t -> (int -> unit, Buffer.t, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"src/unix/lwt_log.ml" 261 9269 9306 "src/unix/lwt_log.ml" 261 9269 9309
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_log.ml" 258 9127 9151 "src/unix/lwt_log.ml" 258 9127 9154
+)
+"src/unix/lwt_log.ml" 261 9269 9310 "src/unix/lwt_log.ml" 261 9269 9316
+type(
+  (int -> unit, Buffer.t, unit) format
+)
+"src/unix/lwt_log.ml" 261 9269 9319 "src/unix/lwt_log.ml" 261 9269 9332
+type(
+  'a -> int
+)
+ident(
+  int_ref facility_code "src/unix/lwt_log.ml" 130 4874 4878 "src/unix/lwt_log.ml" 130 4874 4891
+)
+"src/unix/lwt_log.ml" 261 9269 9333 "src/unix/lwt_log.ml" 261 9269 9341
+type(
+  'a
+)
+ident(
+  int_ref facility "src/unix/lwt_log.ml" 244 8600 8731 "src/unix/lwt_log.ml" 244 8600 8739
+)
+"src/unix/lwt_log.ml" 261 9269 9319 "src/unix/lwt_log.ml" 261 9269 9341
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_log.ml" 261 9269 9342 "src/unix/lwt_log.ml" 261 9269 9345
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"src/unix/lwt_log.ml" 261 9269 9346 "src/unix/lwt_log.ml" 261 9269 9347
+type(
+  int
+)
+"src/unix/lwt_log.ml" 261 9269 9318 "src/unix/lwt_log.ml" 261 9269 9348
+type(
+  int
+)
+"src/unix/lwt_log.ml" 261 9269 9349 "src/unix/lwt_log.ml" 261 9269 9352
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"src/unix/lwt_log.ml" 261 9269 9353 "src/unix/lwt_log.ml" 261 9269 9363
+type(
+  level -> int
+)
+ident(
+  int_ref level_code "src/unix/lwt_log.ml" 117 4503 4507 "src/unix/lwt_log.ml" 117 4503 4517
+)
+"src/unix/lwt_log.ml" 261 9269 9364 "src/unix/lwt_log.ml" 261 9269 9369
+type(
+  level
+)
+ident(
+  int_ref level "src/unix/lwt_log.ml" 255 9018 9043 "src/unix/lwt_log.ml" 255 9018 9048
+)
+"src/unix/lwt_log.ml" 261 9269 9353 "src/unix/lwt_log.ml" 261 9269 9369
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_log.ml" 261 9269 9317 "src/unix/lwt_log.ml" 261 9269 9370
+type(
+  int
+)
+"src/unix/lwt_log.ml" 261 9269 9291 "src/unix/lwt_log.ml" 261 9269 9370
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 262 9372 9394 "src/unix/lwt_log.ml" 262 9372 9400
+type(
+  buffer:Buffer.t ->
+  template:string -> section:section -> level:level -> message:string -> unit
+)
+ident(
+  int_ref render "src/unix/lwt_log.ml" 60 2083 2087 "src/unix/lwt_log.ml" 60 2083 2093
+)
+"src/unix/lwt_log.ml" 262 9372 9409 "src/unix/lwt_log.ml" 262 9372 9412
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_log.ml" 258 9127 9151 "src/unix/lwt_log.ml" 258 9127 9154
+)
+"src/unix/lwt_log.ml" 262 9372 9414 "src/unix/lwt_log.ml" 262 9372 9422
+type(
+  string
+)
+ident(
+  int_ref template "src/unix/lwt_log.ml" 244 8600 8613 "src/unix/lwt_log.ml" 244 8600 8621
+)
+"src/unix/lwt_log.ml" 262 9372 9424 "src/unix/lwt_log.ml" 262 9372 9431
+type(
+  section
+)
+ident(
+  int_ref section "src/unix/lwt_log.ml" 255 9018 9035 "src/unix/lwt_log.ml" 255 9018 9042
+)
+"src/unix/lwt_log.ml" 262 9372 9433 "src/unix/lwt_log.ml" 262 9372 9438
+type(
+  level
+)
+ident(
+  int_ref level "src/unix/lwt_log.ml" 255 9018 9043 "src/unix/lwt_log.ml" 255 9018 9048
+)
+"src/unix/lwt_log.ml" 262 9372 9448 "src/unix/lwt_log.ml" 262 9372 9451
+type(
+  string
+)
+ident(
+  int_ref msg "src/unix/lwt_log.ml" 259 9177 9223 "src/unix/lwt_log.ml" 259 9177 9226
+)
+"src/unix/lwt_log.ml" 262 9372 9394 "src/unix/lwt_log.ml" 262 9372 9451
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 263 9453 9478 "src/unix/lwt_log.ml" 263 9453 9489
+type(
+  syslog_connection_type
+)
+ident(
+  int_ref socket_type "src/unix/lwt_log.ml" 259 9177 9211 "src/unix/lwt_log.ml" 259 9177 9222
+)
+"src/unix/lwt_log.ml" 263 9453 9490 "src/unix/lwt_log.ml" 263 9453 9491
+type(
+  syslog_connection_type -> syslog_connection_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/unix/lwt_log.ml" 263 9453 9492 "src/unix/lwt_log.ml" 263 9453 9498
+type(
+  syslog_connection_type
+)
+"src/unix/lwt_log.ml" 263 9453 9478 "src/unix/lwt_log.ml" 263 9453 9498
+type(
+  bool
+)
+"src/unix/lwt_log.ml" 263 9453 9504 "src/unix/lwt_log.ml" 263 9453 9519
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"src/unix/lwt_log.ml" 263 9453 9520 "src/unix/lwt_log.ml" 263 9453 9523
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_log.ml" 258 9127 9151 "src/unix/lwt_log.ml" 258 9127 9154
+)
+"src/unix/lwt_log.ml" 263 9453 9524 "src/unix/lwt_log.ml" 263 9453 9530
+type(
+  char
+)
+"src/unix/lwt_log.ml" 263 9453 9504 "src/unix/lwt_log.ml" 263 9453 9530
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 263 9453 9475 "src/unix/lwt_log.ml" 263 9453 9530
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 264 9532 9554 "src/unix/lwt_log.ml" 264 9532 9562
+type(
+  Buffer.t -> int -> string
+)
+ident(
+  int_ref truncate "src/unix/lwt_log.ml" 236 8373 8377 "src/unix/lwt_log.ml" 236 8373 8385
+)
+"src/unix/lwt_log.ml" 264 9532 9563 "src/unix/lwt_log.ml" 264 9532 9566
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "src/unix/lwt_log.ml" 258 9127 9151 "src/unix/lwt_log.ml" 258 9127 9154
+)
+"src/unix/lwt_log.ml" 264 9532 9567 "src/unix/lwt_log.ml" 264 9532 9571
+type(
+  int
+)
+"src/unix/lwt_log.ml" 264 9532 9554 "src/unix/lwt_log.ml" 264 9532 9571
+call(
+  tail
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 263 9453 9475 "src/unix/lwt_log.ml" 264 9532 9571
+type(
+  string
+)
+"src/unix/lwt_log.ml" 262 9372 9394 "src/unix/lwt_log.ml" 264 9532 9571
+type(
+  string
+)
+"src/unix/lwt_log.ml" 261 9269 9291 "src/unix/lwt_log.ml" 264 9532 9571
+type(
+  string
+)
+"src/unix/lwt_log.ml" 260 9229 9251 "src/unix/lwt_log.ml" 264 9532 9571
+type(
+  string
+)
+"src/unix/lwt_log.ml" 266 9595 9623 "src/unix/lwt_log.ml" 266 9595 9628
+type(
+  syslog_connection_type -> Lwt_unix.file_descr -> string list -> unit Lwt.t
+)
+ident(
+  def print "src/unix/lwt_log.ml" 266 9595 9615 "src/unix/lwt_log.ml" 285 10616 10662
+)
+"src/unix/lwt_log.ml" 266 9595 9629 "src/unix/lwt_log.ml" 266 9595 9640
+type(
+  syslog_connection_type
+)
+ident(
+  def socket_type "src/unix/lwt_log.ml" 266 9595 9641 "src/unix/lwt_log.ml" 282 10479 10529
+)
+"src/unix/lwt_log.ml" 266 9595 9641 "src/unix/lwt_log.ml" 266 9595 9643
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_log.ml" 266 9595 9646 "src/unix/lwt_log.ml" 282 10479 10529
+)
+"src/unix/lwt_log.ml" 267 9655 9679 "src/unix/lwt_log.ml" 267 9655 9681
+type(
+  string list
+)
+"src/unix/lwt_log.ml" 268 9685 9711 "src/unix/lwt_log.ml" 268 9685 9726
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/unix/lwt_log.ml" 269 9727 9751 "src/unix/lwt_log.ml" 269 9727 9755
+type(
+  string
+)
+ident(
+  def line "src/unix/lwt_log.ml" 270 9768 9794 "src/unix/lwt_log.ml" 282 10479 10529
+)
+"src/unix/lwt_log.ml" 269 9727 9759 "src/unix/lwt_log.ml" 269 9727 9764
+type(
+  string list
+)
+ident(
+  def lines "src/unix/lwt_log.ml" 270 9768 9794 "src/unix/lwt_log.ml" 282 10479 10529
+)
+"src/unix/lwt_log.ml" 269 9727 9751 "src/unix/lwt_log.ml" 269 9727 9764
+type(
+  string list
+)
+"src/unix/lwt_log.ml" 270 9768 9794 "src/unix/lwt_log.ml" 270 9768 9803
+type(
+  (unit -> unit Lwt.t) -> (exn -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.catch
+)
+"src/unix/lwt_log.ml" 271 9804 9837 "src/unix/lwt_log.ml" 271 9804 9839
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 272 9843 9873 "src/unix/lwt_log.ml" 272 9843 9885
+type(
+  Lwt_unix.file_descr -> string -> unit Lwt.t
+)
+ident(
+  int_ref write_string "src/unix/lwt_log.ml" 222 8055 8059 "src/unix/lwt_log.ml" 222 8055 8071
+)
+"src/unix/lwt_log.ml" 272 9843 9886 "src/unix/lwt_log.ml" 272 9843 9888
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 266 9595 9641 "src/unix/lwt_log.ml" 266 9595 9643
+)
+"src/unix/lwt_log.ml" 272 9843 9890 "src/unix/lwt_log.ml" 272 9843 9899
+type(
+  syslog_connection_type -> string -> string
+)
+ident(
+  int_ref make_line "src/unix/lwt_log.ml" 259 9177 9201 "src/unix/lwt_log.ml" 259 9177 9210
+)
+"src/unix/lwt_log.ml" 272 9843 9900 "src/unix/lwt_log.ml" 272 9843 9911
+type(
+  syslog_connection_type
+)
+ident(
+  int_ref socket_type "src/unix/lwt_log.ml" 266 9595 9629 "src/unix/lwt_log.ml" 266 9595 9640
+)
+"src/unix/lwt_log.ml" 272 9843 9912 "src/unix/lwt_log.ml" 272 9843 9916
+type(
+  string
+)
+ident(
+  int_ref line "src/unix/lwt_log.ml" 269 9727 9751 "src/unix/lwt_log.ml" 269 9727 9755
+)
+"src/unix/lwt_log.ml" 272 9843 9889 "src/unix/lwt_log.ml" 272 9843 9917
+call(
+  stack
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 272 9843 9873 "src/unix/lwt_log.ml" 272 9843 9917
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 272 9843 9918 "src/unix/lwt_log.ml" 272 9843 9921
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 272 9843 9926 "src/unix/lwt_log.ml" 272 9843 9928
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 273 9932 9962 "src/unix/lwt_log.ml" 273 9932 9967
+type(
+  syslog_connection_type -> Lwt_unix.file_descr -> string list -> unit Lwt.t
+)
+ident(
+  int_ref print "src/unix/lwt_log.ml" 266 9595 9623 "src/unix/lwt_log.ml" 266 9595 9628
+)
+"src/unix/lwt_log.ml" 273 9932 9968 "src/unix/lwt_log.ml" 273 9932 9979
+type(
+  syslog_connection_type
+)
+ident(
+  int_ref socket_type "src/unix/lwt_log.ml" 266 9595 9629 "src/unix/lwt_log.ml" 266 9595 9640
+)
+"src/unix/lwt_log.ml" 273 9932 9980 "src/unix/lwt_log.ml" 273 9932 9982
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 266 9595 9641 "src/unix/lwt_log.ml" 266 9595 9643
+)
+"src/unix/lwt_log.ml" 273 9932 9983 "src/unix/lwt_log.ml" 273 9932 9988
+type(
+  string list
+)
+ident(
+  int_ref lines "src/unix/lwt_log.ml" 269 9727 9759 "src/unix/lwt_log.ml" 269 9727 9764
+)
+"src/unix/lwt_log.ml" 273 9932 9962 "src/unix/lwt_log.ml" 273 9932 9988
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 272 9843 9922 "src/unix/lwt_log.ml" 273 9932 9988
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 272 9843 9873 "src/unix/lwt_log.ml" 273 9932 9988
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 271 9804 9832 "src/unix/lwt_log.ml" 273 9932 9989
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 275 10028 10074 "src/unix/lwt_log.ml" 275 10028 10075
+type(
+  Unix.error
+)
+"src/unix/lwt_log.ml" 275 10028 10077 "src/unix/lwt_log.ml" 275 10028 10078
+type(
+  string
+)
+"src/unix/lwt_log.ml" 275 10028 10080 "src/unix/lwt_log.ml" 275 10028 10081
+type(
+  string
+)
+"src/unix/lwt_log.ml" 275 10028 10058 "src/unix/lwt_log.ml" 275 10028 10082
+type(
+  exn
+)
+"src/unix/lwt_log.ml" 277 10141 10173 "src/unix/lwt_log.ml" 277 10141 10181
+type(
+  Lwt_unix.file_descr -> unit Lwt.t
+)
+ident(
+  int_ref shutdown "src/unix/lwt_log.ml" 157 5338 5342 "src/unix/lwt_log.ml" 157 5338 5350
+)
+"src/unix/lwt_log.ml" 277 10141 10182 "src/unix/lwt_log.ml" 277 10141 10184
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 266 9595 9641 "src/unix/lwt_log.ml" 266 9595 9643
+)
+"src/unix/lwt_log.ml" 277 10141 10173 "src/unix/lwt_log.ml" 277 10141 10184
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 277 10141 10185 "src/unix/lwt_log.ml" 277 10141 10188
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 277 10141 10193 "src/unix/lwt_log.ml" 277 10141 10195
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 278 10199 10231 "src/unix/lwt_log.ml" 278 10199 10244
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option ref
+)
+ident(
+  int_ref syslog_socket "src/unix/lwt_log.ml" 245 8745 8751 "src/unix/lwt_log.ml" 245 8745 8764
+)
+"src/unix/lwt_log.ml" 278 10199 10245 "src/unix/lwt_log.ml" 278 10199 10247
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option ref ->
+  (syslog_connection_type * Lwt_unix.file_descr) option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/unix/lwt_log.ml" 278 10199 10248 "src/unix/lwt_log.ml" 278 10199 10252
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option
+)
+"src/unix/lwt_log.ml" 278 10199 10231 "src/unix/lwt_log.ml" 278 10199 10252
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 279 10254 10286 "src/unix/lwt_log.ml" 279 10254 10296
+type(
+  unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  int_ref get_syslog "src/unix/lwt_log.ml" 246 8811 8817 "src/unix/lwt_log.ml" 246 8811 8827
+)
+"src/unix/lwt_log.ml" 279 10254 10297 "src/unix/lwt_log.ml" 279 10254 10299
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 279 10254 10286 "src/unix/lwt_log.ml" 279 10254 10299
+call(
+  stack
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 279 10254 10300 "src/unix/lwt_log.ml" 279 10254 10303
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t ->
+  (syslog_connection_type * Lwt_unix.file_descr -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 279 10254 10309 "src/unix/lwt_log.ml" 279 10254 10320
+type(
+  syslog_connection_type
+)
+ident(
+  def socket_type "src/unix/lwt_log.ml" 280 10329 10361 "src/unix/lwt_log.ml" 281 10420 10478
+)
+"src/unix/lwt_log.ml" 279 10254 10322 "src/unix/lwt_log.ml" 279 10254 10324
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_log.ml" 280 10329 10361 "src/unix/lwt_log.ml" 281 10420 10478
+)
+"src/unix/lwt_log.ml" 279 10254 10308 "src/unix/lwt_log.ml" 279 10254 10325
+type(
+  syslog_connection_type * Lwt_unix.file_descr
+)
+"src/unix/lwt_log.ml" 280 10329 10361 "src/unix/lwt_log.ml" 280 10329 10373
+type(
+  Lwt_unix.file_descr -> string -> unit Lwt.t
+)
+ident(
+  int_ref write_string "src/unix/lwt_log.ml" 222 8055 8059 "src/unix/lwt_log.ml" 222 8055 8071
+)
+"src/unix/lwt_log.ml" 280 10329 10374 "src/unix/lwt_log.ml" 280 10329 10376
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 279 10254 10322 "src/unix/lwt_log.ml" 279 10254 10324
+)
+"src/unix/lwt_log.ml" 280 10329 10378 "src/unix/lwt_log.ml" 280 10329 10387
+type(
+  syslog_connection_type -> string -> string
+)
+ident(
+  int_ref make_line "src/unix/lwt_log.ml" 259 9177 9201 "src/unix/lwt_log.ml" 259 9177 9210
+)
+"src/unix/lwt_log.ml" 280 10329 10388 "src/unix/lwt_log.ml" 280 10329 10399
+type(
+  syslog_connection_type
+)
+ident(
+  int_ref socket_type "src/unix/lwt_log.ml" 279 10254 10309 "src/unix/lwt_log.ml" 279 10254 10320
+)
+"src/unix/lwt_log.ml" 280 10329 10400 "src/unix/lwt_log.ml" 280 10329 10404
+type(
+  string
+)
+ident(
+  int_ref line "src/unix/lwt_log.ml" 269 9727 9751 "src/unix/lwt_log.ml" 269 9727 9755
+)
+"src/unix/lwt_log.ml" 280 10329 10377 "src/unix/lwt_log.ml" 280 10329 10405
+call(
+  stack
+)
+type(
+  string
+)
+"src/unix/lwt_log.ml" 280 10329 10361 "src/unix/lwt_log.ml" 280 10329 10405
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 280 10329 10406 "src/unix/lwt_log.ml" 280 10329 10409
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 280 10329 10414 "src/unix/lwt_log.ml" 280 10329 10416
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 281 10420 10452 "src/unix/lwt_log.ml" 281 10420 10457
+type(
+  syslog_connection_type -> Lwt_unix.file_descr -> string list -> unit Lwt.t
+)
+ident(
+  int_ref print "src/unix/lwt_log.ml" 266 9595 9623 "src/unix/lwt_log.ml" 266 9595 9628
+)
+"src/unix/lwt_log.ml" 281 10420 10458 "src/unix/lwt_log.ml" 281 10420 10469
+type(
+  syslog_connection_type
+)
+ident(
+  int_ref socket_type "src/unix/lwt_log.ml" 279 10254 10309 "src/unix/lwt_log.ml" 279 10254 10320
+)
+"src/unix/lwt_log.ml" 281 10420 10470 "src/unix/lwt_log.ml" 281 10420 10472
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 279 10254 10322 "src/unix/lwt_log.ml" 279 10254 10324
+)
+"src/unix/lwt_log.ml" 281 10420 10473 "src/unix/lwt_log.ml" 281 10420 10478
+type(
+  string list
+)
+ident(
+  int_ref lines "src/unix/lwt_log.ml" 269 9727 9759 "src/unix/lwt_log.ml" 269 9727 9764
+)
+"src/unix/lwt_log.ml" 281 10420 10452 "src/unix/lwt_log.ml" 281 10420 10478
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 280 10329 10410 "src/unix/lwt_log.ml" 281 10420 10478
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 280 10329 10361 "src/unix/lwt_log.ml" 281 10420 10478
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 279 10254 10304 "src/unix/lwt_log.ml" 281 10420 10478
+type(
+  syslog_connection_type * Lwt_unix.file_descr -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 279 10254 10286 "src/unix/lwt_log.ml" 281 10420 10478
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 278 10199 10231 "src/unix/lwt_log.ml" 281 10420 10478
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 277 10141 10189 "src/unix/lwt_log.ml" 281 10420 10478
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 277 10141 10173 "src/unix/lwt_log.ml" 281 10420 10478
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 282 10479 10509 "src/unix/lwt_log.ml" 282 10479 10512
+type(
+  exn
+)
+ident(
+  def exn "src/unix/lwt_log.ml" 282 10479 10516 "src/unix/lwt_log.ml" 282 10479 10528
+)
+"src/unix/lwt_log.ml" 282 10479 10516 "src/unix/lwt_log.ml" 282 10479 10524
+type(
+  exn -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.fail
+)
+"src/unix/lwt_log.ml" 282 10479 10525 "src/unix/lwt_log.ml" 282 10479 10528
+type(
+  exn
+)
+ident(
+  int_ref exn "src/unix/lwt_log.ml" 282 10479 10509 "src/unix/lwt_log.ml" 282 10479 10512
+)
+"src/unix/lwt_log.ml" 282 10479 10516 "src/unix/lwt_log.ml" 282 10479 10528
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 274 9990 10018 "src/unix/lwt_log.ml" 282 10479 10529
+type(
+  exn -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 270 9768 9794 "src/unix/lwt_log.ml" 282 10479 10529
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 266 9595 9646 "src/unix/lwt_log.ml" 282 10479 10529
+type(
+  string list -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 284 10553 10573 "src/unix/lwt_log.ml" 284 10553 10583
+type(
+  unit -> (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+ident(
+  int_ref get_syslog "src/unix/lwt_log.ml" 246 8811 8817 "src/unix/lwt_log.ml" 246 8811 8827
+)
+"src/unix/lwt_log.ml" 284 10553 10584 "src/unix/lwt_log.ml" 284 10553 10586
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 284 10553 10573 "src/unix/lwt_log.ml" 284 10553 10586
+call(
+  stack
+)
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t
+)
+"src/unix/lwt_log.ml" 284 10553 10587 "src/unix/lwt_log.ml" 284 10553 10590
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) Lwt.t ->
+  (syslog_connection_type * Lwt_unix.file_descr -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_log.ml" 284 10553 10596 "src/unix/lwt_log.ml" 284 10553 10607
+type(
+  syslog_connection_type
+)
+ident(
+  def socket_type "src/unix/lwt_log.ml" 285 10616 10636 "src/unix/lwt_log.ml" 285 10616 10662
+)
+"src/unix/lwt_log.ml" 284 10553 10609 "src/unix/lwt_log.ml" 284 10553 10611
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_log.ml" 285 10616 10636 "src/unix/lwt_log.ml" 285 10616 10662
+)
+"src/unix/lwt_log.ml" 284 10553 10595 "src/unix/lwt_log.ml" 284 10553 10612
+type(
+  syslog_connection_type * Lwt_unix.file_descr
+)
+"src/unix/lwt_log.ml" 285 10616 10636 "src/unix/lwt_log.ml" 285 10616 10641
+type(
+  syslog_connection_type -> Lwt_unix.file_descr -> string list -> unit Lwt.t
+)
+ident(
+  int_ref print "src/unix/lwt_log.ml" 266 9595 9623 "src/unix/lwt_log.ml" 266 9595 9628
+)
+"src/unix/lwt_log.ml" 285 10616 10642 "src/unix/lwt_log.ml" 285 10616 10653
+type(
+  syslog_connection_type
+)
+ident(
+  int_ref socket_type "src/unix/lwt_log.ml" 284 10553 10596 "src/unix/lwt_log.ml" 284 10553 10607
+)
+"src/unix/lwt_log.ml" 285 10616 10654 "src/unix/lwt_log.ml" 285 10616 10656
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 284 10553 10609 "src/unix/lwt_log.ml" 284 10553 10611
+)
+"src/unix/lwt_log.ml" 285 10616 10657 "src/unix/lwt_log.ml" 285 10616 10662
+type(
+  string list
+)
+ident(
+  int_ref lines "src/unix/lwt_log.ml" 255 9018 9049 "src/unix/lwt_log.ml" 255 9018 9054
+)
+"src/unix/lwt_log.ml" 285 10616 10636 "src/unix/lwt_log.ml" 285 10616 10662
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 284 10553 10591 "src/unix/lwt_log.ml" 285 10616 10662
+type(
+  syslog_connection_type * Lwt_unix.file_descr -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 284 10553 10573 "src/unix/lwt_log.ml" 285 10616 10662
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 266 9595 9615 "src/unix/lwt_log.ml" 285 10616 10662
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 259 9177 9197 "src/unix/lwt_log.ml" 285 10616 10662
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 258 9127 9147 "src/unix/lwt_log.ml" 285 10616 10662
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 257 9099 9116 "src/unix/lwt_log.ml" 285 10616 10663
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 256 9058 9073 "src/unix/lwt_log.ml" 285 10616 10663
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 255 9018 9030 "src/unix/lwt_log.ml" 285 10616 10664
+type(
+  section -> level -> string list -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 286 10665 10681 "src/unix/lwt_log.ml" 286 10665 10683
+type(
+  unit
+)
+"src/unix/lwt_log.ml" 287 10687 10707 "src/unix/lwt_log.ml" 287 10687 10708
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option ref ->
+  (syslog_connection_type * Lwt_unix.file_descr) option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/unix/lwt_log.ml" 287 10687 10708 "src/unix/lwt_log.ml" 287 10687 10721
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option ref
+)
+ident(
+  int_ref syslog_socket "src/unix/lwt_log.ml" 245 8745 8751 "src/unix/lwt_log.ml" 245 8745 8764
+)
+"src/unix/lwt_log.ml" 287 10687 10707 "src/unix/lwt_log.ml" 287 10687 10721
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option
+)
+"src/unix/lwt_log.ml" 288 10727 10745 "src/unix/lwt_log.ml" 288 10727 10749
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option
+)
+"src/unix/lwt_log.ml" 289 10753 10773 "src/unix/lwt_log.ml" 289 10753 10788
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/unix/lwt_log.ml" 290 10789 10812 "src/unix/lwt_log.ml" 290 10789 10823
+type(
+  syslog_connection_type
+)
+ident(
+  def socket_type "src/unix/lwt_log.ml" 291 10832 10852 "src/unix/lwt_log.ml" 291 10832 10863
+)
+"src/unix/lwt_log.ml" 290 10789 10825 "src/unix/lwt_log.ml" 290 10789 10827
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_log.ml" 291 10832 10852 "src/unix/lwt_log.ml" 291 10832 10863
+)
+"src/unix/lwt_log.ml" 290 10789 10811 "src/unix/lwt_log.ml" 290 10789 10828
+type(
+  syslog_connection_type * Lwt_unix.file_descr
+)
+"src/unix/lwt_log.ml" 290 10789 10807 "src/unix/lwt_log.ml" 290 10789 10828
+type(
+  (syslog_connection_type * Lwt_unix.file_descr) option
+)
+"src/unix/lwt_log.ml" 291 10832 10852 "src/unix/lwt_log.ml" 291 10832 10860
+type(
+  Lwt_unix.file_descr -> unit Lwt.t
+)
+ident(
+  int_ref shutdown "src/unix/lwt_log.ml" 157 5338 5342 "src/unix/lwt_log.ml" 157 5338 5350
+)
+"src/unix/lwt_log.ml" 291 10832 10861 "src/unix/lwt_log.ml" 291 10832 10863
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_log.ml" 290 10789 10825 "src/unix/lwt_log.ml" 290 10789 10827
+)
+"src/unix/lwt_log.ml" 291 10832 10852 "src/unix/lwt_log.ml" 291 10832 10863
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 287 10687 10701 "src/unix/lwt_log.ml" 291 10832 10863
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_log.ml" 286 10665 10676 "src/unix/lwt_log.ml" 291 10832 10864
+type(
+  unit -> unit Lwt.t
+)
+"src/unix/lwt_log.ml" 254 9011 9013 "src/unix/lwt_log.ml" 291 10832 10864
+call(
+  tail
+)
+type(
+  logger
+)
+"src/unix/lwt_log.ml" 246 8811 8813 "src/unix/lwt_log.ml" 291 10832 10864
+type(
+  logger
+)
+"src/unix/lwt_log.ml" 245 8745 8747 "src/unix/lwt_log.ml" 291 10832 10864
+type(
+  logger
+)

@@ -1,0 +1,894 @@
+"src/logger/lwt_log_rules.ml" 4 93 97 "src/logger/lwt_log_rules.ml" 4 93 115
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "src/logger/lwt_log_rules.ml" 419 28036 28036 "src/logger/lwt_log_rules.ml" 1 0 -1
+)
+"src/logger/lwt_log_rules.ml" 6 141 144 "src/logger/lwt_log_rules.ml" 8 281 294
+type(
+  string
+)
+"src/logger/lwt_log_rules.ml" 10 320 323 "src/logger/lwt_log_rules.ml" 12 460 473
+type(
+  string
+)
+"src/logger/lwt_log_rules.ml" 14 499 502 "src/logger/lwt_log_rules.ml" 16 639 652
+type(
+  string
+)
+"src/logger/lwt_log_rules.ml" 18 676 679 "src/logger/lwt_log_rules.ml" 145 9566 9595
+type(
+  string
+)
+"src/logger/lwt_log_rules.ml" 147 9619 9622 "src/logger/lwt_log_rules.ml" 274 18509 18538
+type(
+  string
+)
+"src/logger/lwt_log_rules.ml" 276 18566 18569 "src/logger/lwt_log_rules.ml" 278 18706 18719
+type(
+  string
+)
+"src/logger/lwt_log_rules.ml" 280 18750 18753 "src/logger/lwt_log_rules.ml" 282 18890 18903
+type(
+  string
+)
+"src/logger/lwt_log_rules.ml" 284 18934 18937 "src/logger/lwt_log_rules.ml" 286 19074 19087
+type(
+  string
+)
+"src/logger/lwt_log_rules.ml" 288 19116 19119 "src/logger/lwt_log_rules.ml" 349 23386 23447
+type(
+  string
+)
+"src/logger/lwt_log_rules.ml" 351 23476 23479 "src/logger/lwt_log_rules.ml" 412 27746 27807
+type(
+  string
+)
+"src/logger/lwt_log_rules.ml" 414 27830 27833 "src/logger/lwt_log_rules.ml" 416 27970 28031
+type(
+  string
+)
+"src/logger/lwt_log_rules.ml" 4 93 118 "src/logger/lwt_log_rules.ml" 417 28033 28034
+type(
+  Lexing.lex_tables
+)
+"src/logger/lwt_log_rules.ml" 419 28036 28044 "src/logger/lwt_log_rules.ml" 419 28036 28049
+type(
+  Lexing.lexbuf -> (string * string) list
+)
+ident(
+  def rules "src/logger/lwt_log_rules.ml" 419 28036 28036 "src/logger/lwt_log_rules.ml" 1 0 -1
+)
+"src/logger/lwt_log_rules.ml" 419 28036 28050 "src/logger/lwt_log_rules.ml" 419 28036 28056
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/logger/lwt_log_rules.ml" 420 28059 28061 "src/logger/lwt_log_rules.ml" 423 28259 28291
+)
+"src/logger/lwt_log_rules.ml" 420 28059 28061 "src/logger/lwt_log_rules.ml" 420 28059 28067
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 419 28036 28050 "src/logger/lwt_log_rules.ml" 419 28036 28056
+)
+"src/logger/lwt_log_rules.ml" 420 28059 28086 "src/logger/lwt_log_rules.ml" 420 28059 28096
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.make
+)
+"src/logger/lwt_log_rules.ml" 420 28059 28097 "src/logger/lwt_log_rules.ml" 420 28059 28098
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 420 28059 28099 "src/logger/lwt_log_rules.ml" 420 28059 28103
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 420 28059 28086 "src/logger/lwt_log_rules.ml" 420 28059 28103
+type(
+  int array
+)
+"src/logger/lwt_log_rules.ml" 420 28059 28061 "src/logger/lwt_log_rules.ml" 420 28059 28103
+type(
+  unit
+)
+"src/logger/lwt_log_rules.ml" 421 28139 28141 "src/logger/lwt_log_rules.ml" 421 28139 28147
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 419 28036 28050 "src/logger/lwt_log_rules.ml" 419 28036 28056
+)
+"src/logger/lwt_log_rules.ml" 421 28139 28141 "src/logger/lwt_log_rules.ml" 421 28139 28162
+type(
+  int array
+)
+"src/logger/lwt_log_rules.ml" 421 28139 28164 "src/logger/lwt_log_rules.ml" 421 28139 28165
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 421 28139 28170 "src/logger/lwt_log_rules.ml" 421 28139 28176
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 419 28036 28050 "src/logger/lwt_log_rules.ml" 419 28036 28056
+)
+"src/logger/lwt_log_rules.ml" 421 28139 28170 "src/logger/lwt_log_rules.ml" 421 28139 28196
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 421 28139 28141 "src/logger/lwt_log_rules.ml" 421 28139 28196
+type(
+  unit
+)
+"src/logger/lwt_log_rules.ml" 422 28199 28201 "src/logger/lwt_log_rules.ml" 422 28199 28207
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 419 28036 28050 "src/logger/lwt_log_rules.ml" 419 28036 28056
+)
+"src/logger/lwt_log_rules.ml" 422 28199 28201 "src/logger/lwt_log_rules.ml" 422 28199 28222
+type(
+  int array
+)
+"src/logger/lwt_log_rules.ml" 422 28199 28224 "src/logger/lwt_log_rules.ml" 422 28199 28225
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 422 28199 28230 "src/logger/lwt_log_rules.ml" 422 28199 28236
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 419 28036 28050 "src/logger/lwt_log_rules.ml" 419 28036 28056
+)
+"src/logger/lwt_log_rules.ml" 422 28199 28230 "src/logger/lwt_log_rules.ml" 422 28199 28256
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 422 28199 28201 "src/logger/lwt_log_rules.ml" 422 28199 28256
+type(
+  unit
+)
+"src/logger/lwt_log_rules.ml" 423 28259 28261 "src/logger/lwt_log_rules.ml" 423 28259 28282
+type(
+  Lexing.lexbuf -> int -> (string * string) list
+)
+ident(
+  int_ref __ocaml_lex_rules_rec "src/logger/lwt_log_rules.ml" 424 28292 28296 "src/logger/lwt_log_rules.ml" 424 28292 28317
+)
+"src/logger/lwt_log_rules.ml" 423 28259 28283 "src/logger/lwt_log_rules.ml" 423 28259 28289
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 419 28036 28050 "src/logger/lwt_log_rules.ml" 419 28036 28056
+)
+"src/logger/lwt_log_rules.ml" 423 28259 28290 "src/logger/lwt_log_rules.ml" 423 28259 28291
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 423 28259 28261 "src/logger/lwt_log_rules.ml" 423 28259 28291
+call(
+  tail
+)
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 422 28199 28201 "src/logger/lwt_log_rules.ml" 423 28259 28291
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 421 28139 28141 "src/logger/lwt_log_rules.ml" 423 28259 28291
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 420 28059 28061 "src/logger/lwt_log_rules.ml" 423 28259 28291
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 424 28292 28296 "src/logger/lwt_log_rules.ml" 424 28292 28317
+type(
+  Lexing.lexbuf -> int -> (string * string) list
+)
+ident(
+  def __ocaml_lex_rules_rec "src/logger/lwt_log_rules.ml" 419 28036 28036 "src/logger/lwt_log_rules.ml" 1 0 -1
+)
+"src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28325 "src/logger/lwt_log_rules.ml" 462 29559 29611
+)
+"src/logger/lwt_log_rules.ml" 424 28292 28325 "src/logger/lwt_log_rules.ml" 424 28292 28342
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/logger/lwt_log_rules.ml" 425 28345 28347 "src/logger/lwt_log_rules.ml" 462 29559 29611
+)
+"src/logger/lwt_log_rules.ml" 425 28345 28353 "src/logger/lwt_log_rules.ml" 425 28345 28370
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"src/logger/lwt_log_rules.ml" 425 28345 28371 "src/logger/lwt_log_rules.ml" 425 28345 28389
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/logger/lwt_log_rules.ml" 4 93 97 "src/logger/lwt_log_rules.ml" 4 93 115
+)
+"src/logger/lwt_log_rules.ml" 425 28345 28390 "src/logger/lwt_log_rules.ml" 425 28345 28407
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/logger/lwt_log_rules.ml" 424 28292 28325 "src/logger/lwt_log_rules.ml" 424 28292 28342
+)
+"src/logger/lwt_log_rules.ml" 425 28345 28408 "src/logger/lwt_log_rules.ml" 425 28345 28414
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.ml" 425 28345 28353 "src/logger/lwt_log_rules.ml" 425 28345 28414
+call(
+  stack
+)
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 426 28420 28428 "src/logger/lwt_log_rules.ml" 426 28420 28429
+type(
+  int
+)
+"src/logger/lwt_log_rules.mll" 29 28473 28496 "src/logger/lwt_log_rules.mll" 29 28473 28503
+type(
+  string
+)
+ident(
+  def pattern "src/logger/lwt_log_rules.mll" 30 28881 28886 "src/logger/lwt_log_rules.mll" 30 28881 28937
+)
+"src/logger/lwt_log_rules.ml" 431 28540 28542 "src/logger/lwt_log_rules.ml" 431 28540 28559
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/logger/lwt_log_rules.ml" 431 28540 28560 "src/logger/lwt_log_rules.ml" 431 28540 28566
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.ml" 431 28540 28567 "src/logger/lwt_log_rules.ml" 431 28540 28573
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.ml" 431 28540 28567 "src/logger/lwt_log_rules.ml" 431 28540 28588
+type(
+  int array
+)
+"src/logger/lwt_log_rules.ml" 431 28540 28590 "src/logger/lwt_log_rules.ml" 431 28540 28591
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 431 28540 28567 "src/logger/lwt_log_rules.ml" 431 28540 28592
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 431 28540 28593 "src/logger/lwt_log_rules.ml" 431 28540 28599
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.ml" 431 28540 28593 "src/logger/lwt_log_rules.ml" 431 28540 28614
+type(
+  int array
+)
+"src/logger/lwt_log_rules.ml" 431 28540 28616 "src/logger/lwt_log_rules.ml" 431 28540 28617
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 431 28540 28593 "src/logger/lwt_log_rules.ml" 431 28540 28618
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 431 28540 28542 "src/logger/lwt_log_rules.ml" 431 28540 28618
+call(
+  stack
+)
+type(
+  string
+)
+"src/logger/lwt_log_rules.mll" 29 28659 28720 "src/logger/lwt_log_rules.mll" 29 28659 28725
+type(
+  string
+)
+ident(
+  def level "src/logger/lwt_log_rules.mll" 30 28881 28886 "src/logger/lwt_log_rules.mll" 30 28881 28937
+)
+"src/logger/lwt_log_rules.ml" 436 28762 28764 "src/logger/lwt_log_rules.ml" 436 28762 28781
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/logger/lwt_log_rules.ml" 436 28762 28782 "src/logger/lwt_log_rules.ml" 436 28762 28788
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.ml" 436 28762 28789 "src/logger/lwt_log_rules.ml" 436 28762 28795
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.ml" 436 28762 28789 "src/logger/lwt_log_rules.ml" 436 28762 28810
+type(
+  int array
+)
+"src/logger/lwt_log_rules.ml" 436 28762 28812 "src/logger/lwt_log_rules.ml" 436 28762 28813
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 436 28762 28789 "src/logger/lwt_log_rules.ml" 436 28762 28814
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 436 28762 28815 "src/logger/lwt_log_rules.ml" 436 28762 28821
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.ml" 436 28762 28815 "src/logger/lwt_log_rules.ml" 436 28762 28841
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 436 28762 28764 "src/logger/lwt_log_rules.ml" 436 28762 28841
+call(
+  stack
+)
+type(
+  string
+)
+"src/logger/lwt_log_rules.mll" 30 28881 28889 "src/logger/lwt_log_rules.mll" 30 28881 28896
+type(
+  string
+)
+ident(
+  int_ref pattern "src/logger/lwt_log_rules.mll" 29 28473 28496 "src/logger/lwt_log_rules.mll" 29 28473 28503
+)
+"src/logger/lwt_log_rules.mll" 30 28881 28898 "src/logger/lwt_log_rules.mll" 30 28881 28903
+type(
+  string
+)
+ident(
+  int_ref level "src/logger/lwt_log_rules.mll" 29 28659 28720 "src/logger/lwt_log_rules.mll" 29 28659 28725
+)
+"src/logger/lwt_log_rules.mll" 30 28881 28888 "src/logger/lwt_log_rules.mll" 30 28881 28904
+type(
+  string * string
+)
+"src/logger/lwt_log_rules.mll" 30 28881 28908 "src/logger/lwt_log_rules.mll" 30 28881 28928
+type(
+  Lexing.lexbuf -> (string * string) list
+)
+ident(
+  int_ref semi_colon_and_rules "src/logger/lwt_log_rules.ml" 464 29613 29617 "src/logger/lwt_log_rules.ml" 464 29613 29637
+)
+"src/logger/lwt_log_rules.mll" 30 28881 28929 "src/logger/lwt_log_rules.mll" 30 28881 28935
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.mll" 30 28881 28908 "src/logger/lwt_log_rules.mll" 30 28881 28935
+call(
+  stack
+)
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.mll" 30 28881 28886 "src/logger/lwt_log_rules.mll" 30 28881 28937
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 427 28433 28433 "src/logger/lwt_log_rules.mll" 30 28881 28937
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 441 28975 28979 "src/logger/lwt_log_rules.ml" 441 28975 28980
+type(
+  int
+)
+"src/logger/lwt_log_rules.mll" 31 29024 29045 "src/logger/lwt_log_rules.mll" 31 29024 29050
+type(
+  string
+)
+ident(
+  def level "src/logger/lwt_log_rules.mll" 32 29206 29211 "src/logger/lwt_log_rules.mll" 32 29206 29258
+)
+"src/logger/lwt_log_rules.ml" 446 29087 29089 "src/logger/lwt_log_rules.ml" 446 29087 29106
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"src/logger/lwt_log_rules.ml" 446 29087 29107 "src/logger/lwt_log_rules.ml" 446 29087 29113
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.ml" 446 29087 29114 "src/logger/lwt_log_rules.ml" 446 29087 29120
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.ml" 446 29087 29114 "src/logger/lwt_log_rules.ml" 446 29087 29135
+type(
+  int array
+)
+"src/logger/lwt_log_rules.ml" 446 29087 29137 "src/logger/lwt_log_rules.ml" 446 29087 29138
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 446 29087 29114 "src/logger/lwt_log_rules.ml" 446 29087 29139
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 446 29087 29140 "src/logger/lwt_log_rules.ml" 446 29087 29146
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.ml" 446 29087 29140 "src/logger/lwt_log_rules.ml" 446 29087 29166
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 446 29087 29089 "src/logger/lwt_log_rules.ml" 446 29087 29166
+call(
+  stack
+)
+type(
+  string
+)
+"src/logger/lwt_log_rules.mll" 32 29206 29214 "src/logger/lwt_log_rules.mll" 32 29206 29217
+type(
+  string
+)
+"src/logger/lwt_log_rules.mll" 32 29206 29219 "src/logger/lwt_log_rules.mll" 32 29206 29224
+type(
+  string
+)
+ident(
+  int_ref level "src/logger/lwt_log_rules.mll" 31 29024 29045 "src/logger/lwt_log_rules.mll" 31 29024 29050
+)
+"src/logger/lwt_log_rules.mll" 32 29206 29213 "src/logger/lwt_log_rules.mll" 32 29206 29225
+type(
+  string * string
+)
+"src/logger/lwt_log_rules.mll" 32 29206 29229 "src/logger/lwt_log_rules.mll" 32 29206 29249
+type(
+  Lexing.lexbuf -> (string * string) list
+)
+ident(
+  int_ref semi_colon_and_rules "src/logger/lwt_log_rules.ml" 464 29613 29617 "src/logger/lwt_log_rules.ml" 464 29613 29637
+)
+"src/logger/lwt_log_rules.mll" 32 29206 29250 "src/logger/lwt_log_rules.mll" 32 29206 29256
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.mll" 32 29206 29229 "src/logger/lwt_log_rules.mll" 32 29206 29256
+call(
+  stack
+)
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.mll" 32 29206 29211 "src/logger/lwt_log_rules.mll" 32 29206 29258
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 442 28984 28984 "src/logger/lwt_log_rules.mll" 32 29206 29258
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 451 29296 29300 "src/logger/lwt_log_rules.ml" 451 29296 29301
+type(
+  int
+)
+"src/logger/lwt_log_rules.mll" 34 29341 29346 "src/logger/lwt_log_rules.mll" 34 29341 29352
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 456 29390 29394 "src/logger/lwt_log_rules.ml" 456 29390 29395
+type(
+  int
+)
+"src/logger/lwt_log_rules.mll" 36 29435 29442 "src/logger/lwt_log_rules.mll" 36 29435 29447
+type(
+  exn -> (string * string) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/logger/lwt_log_rules.mll" 36 29435 29448 "src/logger/lwt_log_rules.mll" 36 29435 29459
+type(
+  exn
+)
+"src/logger/lwt_log_rules.mll" 36 29435 29440 "src/logger/lwt_log_rules.mll" 36 29435 29461
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 461 29499 29503 "src/logger/lwt_log_rules.ml" 461 29499 29520
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/logger/lwt_log_rules.ml" 461 29499 29524 "src/logger/lwt_log_rules.ml" 462 29559 29611
+)
+"src/logger/lwt_log_rules.ml" 461 29499 29524 "src/logger/lwt_log_rules.ml" 461 29499 29530
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.ml" 461 29499 29524 "src/logger/lwt_log_rules.ml" 461 29499 29549
+type(
+  Lexing.lexbuf -> unit
+)
+"src/logger/lwt_log_rules.ml" 461 29499 29550 "src/logger/lwt_log_rules.ml" 461 29499 29556
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.ml" 461 29499 29524 "src/logger/lwt_log_rules.ml" 461 29499 29556
+call(
+  stack
+)
+type(
+  unit
+)
+"src/logger/lwt_log_rules.ml" 462 29559 29565 "src/logger/lwt_log_rules.ml" 462 29559 29586
+type(
+  Lexing.lexbuf -> int -> (string * string) list
+)
+ident(
+  int_ref __ocaml_lex_rules_rec "src/logger/lwt_log_rules.ml" 424 28292 28296 "src/logger/lwt_log_rules.ml" 424 28292 28317
+)
+"src/logger/lwt_log_rules.ml" 462 29559 29587 "src/logger/lwt_log_rules.ml" 462 29559 29593
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 424 28292 28318 "src/logger/lwt_log_rules.ml" 424 28292 28324
+)
+"src/logger/lwt_log_rules.ml" 462 29559 29594 "src/logger/lwt_log_rules.ml" 462 29559 29611
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/logger/lwt_log_rules.ml" 461 29499 29503 "src/logger/lwt_log_rules.ml" 461 29499 29520
+)
+"src/logger/lwt_log_rules.ml" 462 29559 29565 "src/logger/lwt_log_rules.ml" 462 29559 29611
+call(
+  tail
+)
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 461 29499 29524 "src/logger/lwt_log_rules.ml" 462 29559 29611
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 425 28345 28347 "src/logger/lwt_log_rules.ml" 462 29559 29611
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 464 29613 29617 "src/logger/lwt_log_rules.ml" 464 29613 29637
+type(
+  Lexing.lexbuf -> (string * string) list
+)
+ident(
+  def semi_colon_and_rules "src/logger/lwt_log_rules.ml" 419 28036 28036 "src/logger/lwt_log_rules.ml" 1 0 -1
+)
+"src/logger/lwt_log_rules.ml" 464 29613 29638 "src/logger/lwt_log_rules.ml" 464 29613 29644
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/logger/lwt_log_rules.ml" 465 29647 29651 "src/logger/lwt_log_rules.ml" 465 29647 29697
+)
+"src/logger/lwt_log_rules.ml" 465 29647 29651 "src/logger/lwt_log_rules.ml" 465 29647 29687
+type(
+  Lexing.lexbuf -> int -> (string * string) list
+)
+ident(
+  int_ref __ocaml_lex_semi_colon_and_rules_rec "src/logger/lwt_log_rules.ml" 466 29698 29702 "src/logger/lwt_log_rules.ml" 466 29698 29738
+)
+"src/logger/lwt_log_rules.ml" 465 29647 29688 "src/logger/lwt_log_rules.ml" 465 29647 29694
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 464 29613 29638 "src/logger/lwt_log_rules.ml" 464 29613 29644
+)
+"src/logger/lwt_log_rules.ml" 465 29647 29695 "src/logger/lwt_log_rules.ml" 465 29647 29697
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 465 29647 29651 "src/logger/lwt_log_rules.ml" 465 29647 29697
+call(
+  tail
+)
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 466 29698 29702 "src/logger/lwt_log_rules.ml" 466 29698 29738
+type(
+  Lexing.lexbuf -> int -> (string * string) list
+)
+ident(
+  def __ocaml_lex_semi_colon_and_rules_rec "src/logger/lwt_log_rules.ml" 419 28036 28036 "src/logger/lwt_log_rules.ml" 1 0 -1
+)
+"src/logger/lwt_log_rules.ml" 466 29698 29739 "src/logger/lwt_log_rules.ml" 466 29698 29745
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/logger/lwt_log_rules.ml" 466 29698 29746 "src/logger/lwt_log_rules.ml" 484 30208 30275
+)
+"src/logger/lwt_log_rules.ml" 466 29698 29746 "src/logger/lwt_log_rules.ml" 466 29698 29763
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/logger/lwt_log_rules.ml" 467 29766 29768 "src/logger/lwt_log_rules.ml" 484 30208 30275
+)
+"src/logger/lwt_log_rules.ml" 467 29766 29774 "src/logger/lwt_log_rules.ml" 467 29766 29787
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/logger/lwt_log_rules.ml" 467 29766 29788 "src/logger/lwt_log_rules.ml" 467 29766 29806
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/logger/lwt_log_rules.ml" 4 93 97 "src/logger/lwt_log_rules.ml" 4 93 115
+)
+"src/logger/lwt_log_rules.ml" 467 29766 29807 "src/logger/lwt_log_rules.ml" 467 29766 29824
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/logger/lwt_log_rules.ml" 466 29698 29746 "src/logger/lwt_log_rules.ml" 466 29698 29763
+)
+"src/logger/lwt_log_rules.ml" 467 29766 29825 "src/logger/lwt_log_rules.ml" 467 29766 29831
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 466 29698 29739 "src/logger/lwt_log_rules.ml" 466 29698 29745
+)
+"src/logger/lwt_log_rules.ml" 467 29766 29774 "src/logger/lwt_log_rules.ml" 467 29766 29831
+call(
+  stack
+)
+type(
+  int
+)
+"src/logger/lwt_log_rules.ml" 468 29837 29845 "src/logger/lwt_log_rules.ml" 468 29837 29846
+type(
+  int
+)
+"src/logger/lwt_log_rules.mll" 40 29886 29893 "src/logger/lwt_log_rules.mll" 40 29886 29898
+type(
+  Lexing.lexbuf -> (string * string) list
+)
+ident(
+  int_ref rules "src/logger/lwt_log_rules.ml" 419 28036 28044 "src/logger/lwt_log_rules.ml" 419 28036 28049
+)
+"src/logger/lwt_log_rules.mll" 40 29886 29899 "src/logger/lwt_log_rules.mll" 40 29886 29905
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 466 29698 29739 "src/logger/lwt_log_rules.ml" 466 29698 29745
+)
+"src/logger/lwt_log_rules.mll" 40 29886 29891 "src/logger/lwt_log_rules.mll" 40 29886 29907
+call(
+  tail
+)
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 473 29945 29949 "src/logger/lwt_log_rules.ml" 473 29945 29950
+type(
+  int
+)
+"src/logger/lwt_log_rules.mll" 42 29990 29995 "src/logger/lwt_log_rules.mll" 42 29990 30001
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 478 30039 30043 "src/logger/lwt_log_rules.ml" 478 30039 30044
+type(
+  int
+)
+"src/logger/lwt_log_rules.mll" 44 30084 30091 "src/logger/lwt_log_rules.mll" 44 30084 30096
+type(
+  exn -> (string * string) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/logger/lwt_log_rules.mll" 44 30084 30097 "src/logger/lwt_log_rules.mll" 44 30084 30108
+type(
+  exn
+)
+"src/logger/lwt_log_rules.mll" 44 30084 30089 "src/logger/lwt_log_rules.mll" 44 30084 30110
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 483 30148 30152 "src/logger/lwt_log_rules.ml" 483 30148 30169
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/logger/lwt_log_rules.ml" 483 30148 30173 "src/logger/lwt_log_rules.ml" 484 30208 30275
+)
+"src/logger/lwt_log_rules.ml" 483 30148 30173 "src/logger/lwt_log_rules.ml" 483 30148 30179
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 466 29698 29739 "src/logger/lwt_log_rules.ml" 466 29698 29745
+)
+"src/logger/lwt_log_rules.ml" 483 30148 30173 "src/logger/lwt_log_rules.ml" 483 30148 30198
+type(
+  Lexing.lexbuf -> unit
+)
+"src/logger/lwt_log_rules.ml" 483 30148 30199 "src/logger/lwt_log_rules.ml" 483 30148 30205
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 466 29698 29739 "src/logger/lwt_log_rules.ml" 466 29698 29745
+)
+"src/logger/lwt_log_rules.ml" 483 30148 30173 "src/logger/lwt_log_rules.ml" 483 30148 30205
+call(
+  stack
+)
+type(
+  unit
+)
+"src/logger/lwt_log_rules.ml" 484 30208 30214 "src/logger/lwt_log_rules.ml" 484 30208 30250
+type(
+  Lexing.lexbuf -> int -> (string * string) list
+)
+ident(
+  int_ref __ocaml_lex_semi_colon_and_rules_rec "src/logger/lwt_log_rules.ml" 466 29698 29702 "src/logger/lwt_log_rules.ml" 466 29698 29738
+)
+"src/logger/lwt_log_rules.ml" 484 30208 30251 "src/logger/lwt_log_rules.ml" 484 30208 30257
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/logger/lwt_log_rules.ml" 466 29698 29739 "src/logger/lwt_log_rules.ml" 466 29698 29745
+)
+"src/logger/lwt_log_rules.ml" 484 30208 30258 "src/logger/lwt_log_rules.ml" 484 30208 30275
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/logger/lwt_log_rules.ml" 483 30148 30152 "src/logger/lwt_log_rules.ml" 483 30148 30169
+)
+"src/logger/lwt_log_rules.ml" 484 30208 30214 "src/logger/lwt_log_rules.ml" 484 30208 30275
+call(
+  tail
+)
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 483 30148 30173 "src/logger/lwt_log_rules.ml" 484 30208 30275
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.ml" 467 29766 29768 "src/logger/lwt_log_rules.ml" 484 30208 30275
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.mll" 46 30317 30323 "src/logger/lwt_log_rules.mll" 46 30317 30328
+type(
+  Lexing.lexbuf -> (string * string) list option
+)
+ident(
+  def rules "src/logger/lwt_log_rules.mll" 49 30362 30388 "src/logger/lwt_log_rules.ml" 1 0 -1
+)
+"src/logger/lwt_log_rules.mll" 46 30317 30329 "src/logger/lwt_log_rules.mll" 46 30317 30332
+type(
+  Lexing.lexbuf
+)
+ident(
+  def buf "src/logger/lwt_log_rules.mll" 47 30335 30337 "src/logger/lwt_log_rules.mll" 49 30362 30388
+)
+"src/logger/lwt_log_rules.mll" 48 30341 30351 "src/logger/lwt_log_rules.mll" 48 30341 30356
+type(
+  Lexing.lexbuf -> (string * string) list
+)
+ident(
+  int_ref rules "src/logger/lwt_log_rules.ml" 419 28036 28044 "src/logger/lwt_log_rules.ml" 419 28036 28049
+)
+"src/logger/lwt_log_rules.mll" 48 30341 30357 "src/logger/lwt_log_rules.mll" 48 30341 30360
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref buf "src/logger/lwt_log_rules.mll" 46 30317 30329 "src/logger/lwt_log_rules.mll" 46 30317 30332
+)
+"src/logger/lwt_log_rules.mll" 48 30341 30350 "src/logger/lwt_log_rules.mll" 48 30341 30361
+call(
+  stack
+)
+type(
+  (string * string) list
+)
+"src/logger/lwt_log_rules.mll" 48 30341 30345 "src/logger/lwt_log_rules.mll" 48 30341 30361
+type(
+  (string * string) list option
+)
+"src/logger/lwt_log_rules.mll" 49 30362 30369 "src/logger/lwt_log_rules.mll" 49 30362 30380
+type(
+  exn
+)
+"src/logger/lwt_log_rules.mll" 49 30362 30384 "src/logger/lwt_log_rules.mll" 49 30362 30388
+type(
+  (string * string) list option
+)
+"src/logger/lwt_log_rules.mll" 47 30335 30337 "src/logger/lwt_log_rules.mll" 49 30362 30388
+type(
+  (string * string) list option
+)

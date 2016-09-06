@@ -1,0 +1,3668 @@
+"syntax/pa_lwt_log.ml" 25 957 961 "syntax/pa_lwt_log.ml" 25 957 967
+type(
+  string list
+)
+ident(
+  def levels "syntax/pa_lwt_log.ml" 34 1043 1043 "syntax/pa_lwt_log.ml" 1 0 -1
+)
+"syntax/pa_lwt_log.ml" 26 972 974 "syntax/pa_lwt_log.ml" 26 972 981
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 27 983 985 "syntax/pa_lwt_log.ml" 27 983 992
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 28 994 996 "syntax/pa_lwt_log.ml" 28 994 1005
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 29 1007 1009 "syntax/pa_lwt_log.ml" 29 1007 1017
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 30 1019 1021 "syntax/pa_lwt_log.ml" 30 1019 1027
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 31 1029 1031 "syntax/pa_lwt_log.ml" 31 1029 1038
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 31 1029 1031 "syntax/pa_lwt_log.ml" 31 1029 1039
+type(
+  string list
+)
+"syntax/pa_lwt_log.ml" 30 1019 1021 "syntax/pa_lwt_log.ml" 31 1029 1039
+type(
+  string list
+)
+"syntax/pa_lwt_log.ml" 29 1007 1009 "syntax/pa_lwt_log.ml" 31 1029 1039
+type(
+  string list
+)
+"syntax/pa_lwt_log.ml" 28 994 996 "syntax/pa_lwt_log.ml" 31 1029 1039
+type(
+  string list
+)
+"syntax/pa_lwt_log.ml" 27 983 985 "syntax/pa_lwt_log.ml" 31 1029 1039
+type(
+  string list
+)
+"syntax/pa_lwt_log.ml" 26 972 974 "syntax/pa_lwt_log.ml" 31 1029 1039
+type(
+  string list
+)
+"syntax/pa_lwt_log.ml" 25 957 970 "syntax/pa_lwt_log.ml" 32 1040 1041
+type(
+  string list
+)
+"syntax/pa_lwt_log.ml" 34 1043 1047 "syntax/pa_lwt_log.ml" 34 1043 1058
+type(
+  Camlp4.PreCast.Loc.t -> string
+)
+ident(
+  def module_name "syntax/pa_lwt_log.ml" 44 1395 1395 "syntax/pa_lwt_log.ml" 1 0 -1
+)
+"syntax/pa_lwt_log.ml" 34 1043 1059 "syntax/pa_lwt_log.ml" 34 1043 1063
+type(
+  Camlp4.PreCast.Loc.t
+)
+ident(
+  def _loc "syntax/pa_lwt_log.ml" 35 1066 1068 "syntax/pa_lwt_log.ml" 42 1338 1393
+)
+"syntax/pa_lwt_log.ml" 35 1066 1072 "syntax/pa_lwt_log.ml" 35 1066 1081
+type(
+  string
+)
+ident(
+  def file_name "syntax/pa_lwt_log.ml" 36 1106 1108 "syntax/pa_lwt_log.ml" 42 1338 1393
+)
+"syntax/pa_lwt_log.ml" 35 1066 1084 "syntax/pa_lwt_log.ml" 35 1066 1097
+type(
+  Camlp4.PreCast.Loc.t -> string
+)
+ident(
+  ext_ref Camlp4.PreCast.Loc.file_name
+)
+"syntax/pa_lwt_log.ml" 35 1066 1098 "syntax/pa_lwt_log.ml" 35 1066 1102
+type(
+  Camlp4.PreCast.Loc.t
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 34 1043 1059 "syntax/pa_lwt_log.ml" 34 1043 1063
+)
+"syntax/pa_lwt_log.ml" 35 1066 1084 "syntax/pa_lwt_log.ml" 35 1066 1102
+call(
+  stack
+)
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 36 1106 1111 "syntax/pa_lwt_log.ml" 36 1106 1120
+type(
+  string
+)
+ident(
+  int_ref file_name "syntax/pa_lwt_log.ml" 35 1066 1072 "syntax/pa_lwt_log.ml" 35 1066 1081
+)
+"syntax/pa_lwt_log.ml" 36 1106 1121 "syntax/pa_lwt_log.ml" 36 1106 1122
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"syntax/pa_lwt_log.ml" 36 1106 1123 "syntax/pa_lwt_log.ml" 36 1106 1125
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 36 1106 1111 "syntax/pa_lwt_log.ml" 36 1106 1125
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 37 1131 1135 "syntax/pa_lwt_log.ml" 37 1131 1137
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 39 1145 1149 "syntax/pa_lwt_log.ml" 39 1145 1166
+type(
+  string -> string
+)
+ident(
+  ext_ref String.capitalize
+)
+"syntax/pa_lwt_log.ml" 39 1145 1168 "syntax/pa_lwt_log.ml" 39 1145 1185
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.basename
+)
+"syntax/pa_lwt_log.ml" 40 1191 1235 "syntax/pa_lwt_log.ml" 40 1191 1258
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.chop_extension
+)
+"syntax/pa_lwt_log.ml" 40 1191 1259 "syntax/pa_lwt_log.ml" 40 1191 1268
+type(
+  string
+)
+ident(
+  int_ref file_name "syntax/pa_lwt_log.ml" 35 1066 1072 "syntax/pa_lwt_log.ml" 35 1066 1081
+)
+"syntax/pa_lwt_log.ml" 40 1191 1235 "syntax/pa_lwt_log.ml" 40 1191 1268
+call(
+  stack
+)
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 41 1269 1333 "syntax/pa_lwt_log.ml" 41 1269 1334
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 41 1269 1316 "syntax/pa_lwt_log.ml" 41 1269 1334
+type(
+  exn
+)
+"syntax/pa_lwt_log.ml" 42 1338 1382 "syntax/pa_lwt_log.ml" 42 1338 1391
+type(
+  string
+)
+ident(
+  int_ref file_name "syntax/pa_lwt_log.ml" 35 1066 1072 "syntax/pa_lwt_log.ml" 35 1066 1081
+)
+"syntax/pa_lwt_log.ml" 39 1145 1187 "syntax/pa_lwt_log.ml" 42 1338 1391
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 39 1145 1168 "syntax/pa_lwt_log.ml" 42 1338 1392
+call(
+  stack
+)
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 39 1145 1149 "syntax/pa_lwt_log.ml" 42 1338 1393
+call(
+  tail
+)
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 36 1106 1108 "syntax/pa_lwt_log.ml" 42 1338 1393
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 35 1066 1068 "syntax/pa_lwt_log.ml" 42 1338 1393
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 34 1043 1059 "syntax/pa_lwt_log.ml" 42 1338 1393
+type(
+  Camlp4.PreCast.Loc.t -> string
+)
+"syntax/pa_lwt_log.ml" 44 1395 1403 "syntax/pa_lwt_log.ml" 44 1395 1408
+type(
+  Camlp4.PreCast.Ast.expr ->
+  Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr
+)
+ident(
+  def apply "syntax/pa_lwt_log.ml" 44 1395 1395 "syntax/pa_lwt_log.ml" 1 0 -1
+)
+"syntax/pa_lwt_log.ml" 44 1395 1409 "syntax/pa_lwt_log.ml" 44 1395 1410
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  def e "syntax/pa_lwt_log.ml" 44 1395 1413 "syntax/pa_lwt_log.ml" 46 1434 1506
+)
+"syntax/pa_lwt_log.ml" 45 1422 1426 "syntax/pa_lwt_log.ml" 45 1422 1428
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+"syntax/pa_lwt_log.ml" 45 1422 1432 "syntax/pa_lwt_log.ml" 45 1422 1433
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref e "syntax/pa_lwt_log.ml" 44 1395 1409 "syntax/pa_lwt_log.ml" 44 1395 1410
+)
+"syntax/pa_lwt_log.ml" 46 1434 1438 "syntax/pa_lwt_log.ml" 46 1434 1439
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  def x "syntax/pa_lwt_log.ml" 46 1434 1448 "syntax/pa_lwt_log.ml" 46 1434 1506
+)
+"syntax/pa_lwt_log.ml" 46 1434 1443 "syntax/pa_lwt_log.ml" 46 1434 1444
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  def l "syntax/pa_lwt_log.ml" 46 1434 1448 "syntax/pa_lwt_log.ml" 46 1434 1506
+)
+"syntax/pa_lwt_log.ml" 46 1434 1438 "syntax/pa_lwt_log.ml" 46 1434 1444
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+"syntax/pa_lwt_log.ml" 46 1434 1452 "syntax/pa_lwt_log.ml" 46 1434 1456
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  def _loc "syntax/pa_lwt_log.ml" 46 1434 1480 "syntax/pa_lwt_log.ml" 46 1434 1506
+)
+"syntax/pa_lwt_log.ml" 46 1434 1459 "syntax/pa_lwt_log.ml" 46 1434 1474
+type(
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.loc
+)
+ident(
+  ext_ref Camlp4.PreCast.Ast.loc_of_expr
+)
+"syntax/pa_lwt_log.ml" 46 1434 1475 "syntax/pa_lwt_log.ml" 46 1434 1476
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref x "syntax/pa_lwt_log.ml" 46 1434 1438 "syntax/pa_lwt_log.ml" 46 1434 1439
+)
+"syntax/pa_lwt_log.ml" 46 1434 1459 "syntax/pa_lwt_log.ml" 46 1434 1476
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+"syntax/pa_lwt_log.ml" 46 1434 1480 "syntax/pa_lwt_log.ml" 46 1434 1485
+type(
+  Camlp4.PreCast.Ast.expr ->
+  Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref apply "syntax/pa_lwt_log.ml" 44 1395 1403 "syntax/pa_lwt_log.ml" 44 1395 1408
+)
+"syntax/pa_lwt_log.ml" 46 1434 1493 "syntax/pa_lwt_log.ml" 46 1434 1493
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 46 1434 1452 "syntax/pa_lwt_log.ml" 46 1434 1456
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 46 1434 1494 "syntax/pa_lwt_log.ml" 46 1434 1495
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref e "syntax/pa_lwt_log.ml" 44 1395 1409 "syntax/pa_lwt_log.ml" 44 1395 1410
+)
+"syntax/pa_lwt_log.ml" 46 1434 1498 "syntax/pa_lwt_log.ml" 46 1434 1499
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref x "syntax/pa_lwt_log.ml" 46 1434 1438 "syntax/pa_lwt_log.ml" 46 1434 1439
+)
+"syntax/pa_lwt_log.ml" 46 1434 1505 "syntax/pa_lwt_log.ml" 46 1434 1506
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  int_ref l "syntax/pa_lwt_log.ml" 46 1434 1443 "syntax/pa_lwt_log.ml" 46 1434 1444
+)
+"syntax/pa_lwt_log.ml" 46 1434 1480 "syntax/pa_lwt_log.ml" 46 1434 1506
+call(
+  tail
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 46 1434 1448 "syntax/pa_lwt_log.ml" 46 1434 1506
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 44 1395 1413 "syntax/pa_lwt_log.ml" 46 1434 1506
+type(
+  Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 44 1395 1409 "syntax/pa_lwt_log.ml" 46 1434 1506
+type(
+  Camlp4.PreCast.Ast.expr ->
+  Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 48 1508 1512 "syntax/pa_lwt_log.ml" 48 1508 1517
+type(
+  Camlp4.PreCast.Ast.expr ->
+  [> `Delete of bool
+   | `Log of
+       bool * string *
+       [> `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ] * string *
+       Camlp4.PreCast.Ast.expr list
+   | `Not_a_log ]
+)
+ident(
+  def split "syntax/pa_lwt_log.ml" 86 2789 2789 "syntax/pa_lwt_log.ml" 1 0 -1
+)
+"syntax/pa_lwt_log.ml" 48 1508 1518 "syntax/pa_lwt_log.ml" 48 1508 1519
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  def e "syntax/pa_lwt_log.ml" 49 1522 1524 "syntax/pa_lwt_log.ml" 84 2771 2787
+)
+"syntax/pa_lwt_log.ml" 49 1522 1532 "syntax/pa_lwt_log.ml" 49 1522 1535
+type(
+  ([> `Expr of Camlp4.PreCast.Ast.expr | `Label ] as 'a) ->
+  Camlp4.PreCast.Ast.expr list ->
+  Camlp4.PreCast.Ast.expr ->
+  [> `Delete of bool
+   | `Log of bool * string * 'a * string * Camlp4.PreCast.Ast.expr list
+   | `Not_a_log ]
+)
+ident(
+  def aux "syntax/pa_lwt_log.ml" 49 1522 1524 "syntax/pa_lwt_log.ml" 84 2771 2787
+)
+"syntax/pa_lwt_log.ml" 49 1522 1536 "syntax/pa_lwt_log.ml" 49 1522 1543
+type(
+  'a
+)
+ident(
+  def section "syntax/pa_lwt_log.ml" 49 1522 1544 "syntax/pa_lwt_log.ml" 82 2747 2765
+)
+"syntax/pa_lwt_log.ml" 49 1522 1544 "syntax/pa_lwt_log.ml" 49 1522 1547
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  def acc "syntax/pa_lwt_log.ml" 49 1522 1550 "syntax/pa_lwt_log.ml" 82 2747 2765
+)
+"syntax/pa_lwt_log.ml" 50 1559 1577 "syntax/pa_lwt_log.ml" 50 1559 1577
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  def _loc "syntax/pa_lwt_log.ml" 51 1603 1611 "syntax/pa_lwt_log.ml" 71 2385 2405
+)
+"syntax/pa_lwt_log.ml" 50 1559 1577 "syntax/pa_lwt_log.ml" 50 1559 1581
+type(
+  string
+)
+ident(
+  def func "syntax/pa_lwt_log.ml" 51 1603 1611 "syntax/pa_lwt_log.ml" 71 2385 2405
+)
+"syntax/pa_lwt_log.ml" 51 1603 1615 "syntax/pa_lwt_log.ml" 51 1603 1618
+type(
+  int
+)
+ident(
+  def len "syntax/pa_lwt_log.ml" 52 1643 1651 "syntax/pa_lwt_log.ml" 71 2385 2405
+)
+"syntax/pa_lwt_log.ml" 51 1603 1621 "syntax/pa_lwt_log.ml" 51 1603 1634
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"syntax/pa_lwt_log.ml" 51 1603 1635 "syntax/pa_lwt_log.ml" 51 1603 1639
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 50 1559 1577 "syntax/pa_lwt_log.ml" 50 1559 1581
+)
+"syntax/pa_lwt_log.ml" 51 1603 1621 "syntax/pa_lwt_log.ml" 51 1603 1639
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 52 1643 1655 "syntax/pa_lwt_log.ml" 52 1643 1658
+type(
+  bool
+)
+ident(
+  def fmt "syntax/pa_lwt_log.ml" 54 1820 1828 "syntax/pa_lwt_log.ml" 71 2385 2405
+)
+"syntax/pa_lwt_log.ml" 52 1643 1661 "syntax/pa_lwt_log.ml" 52 1643 1664
+type(
+  int
+)
+ident(
+  int_ref len "syntax/pa_lwt_log.ml" 51 1603 1615 "syntax/pa_lwt_log.ml" 51 1603 1618
+)
+"syntax/pa_lwt_log.ml" 52 1643 1665 "syntax/pa_lwt_log.ml" 52 1643 1667
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"syntax/pa_lwt_log.ml" 52 1643 1668 "syntax/pa_lwt_log.ml" 52 1643 1669
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 52 1643 1661 "syntax/pa_lwt_log.ml" 52 1643 1669
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 52 1643 1670 "syntax/pa_lwt_log.ml" 52 1643 1672
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"syntax/pa_lwt_log.ml" 52 1643 1673 "syntax/pa_lwt_log.ml" 52 1643 1677
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 50 1559 1577 "syntax/pa_lwt_log.ml" 50 1559 1581
+)
+"syntax/pa_lwt_log.ml" 52 1643 1679 "syntax/pa_lwt_log.ml" 52 1643 1682
+type(
+  int
+)
+ident(
+  int_ref len "syntax/pa_lwt_log.ml" 51 1603 1615 "syntax/pa_lwt_log.ml" 51 1603 1618
+)
+"syntax/pa_lwt_log.ml" 52 1643 1683 "syntax/pa_lwt_log.ml" 52 1643 1684
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"syntax/pa_lwt_log.ml" 52 1643 1685 "syntax/pa_lwt_log.ml" 52 1643 1686
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 52 1643 1679 "syntax/pa_lwt_log.ml" 52 1643 1686
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 52 1643 1673 "syntax/pa_lwt_log.ml" 52 1643 1687
+type(
+  char
+)
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"syntax/pa_lwt_log.ml" 52 1643 1688 "syntax/pa_lwt_log.ml" 52 1643 1689
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"syntax/pa_lwt_log.ml" 52 1643 1690 "syntax/pa_lwt_log.ml" 52 1643 1693
+type(
+  char
+)
+"syntax/pa_lwt_log.ml" 52 1643 1673 "syntax/pa_lwt_log.ml" 52 1643 1693
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 52 1643 1694 "syntax/pa_lwt_log.ml" 52 1643 1696
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"syntax/pa_lwt_log.ml" 52 1643 1697 "syntax/pa_lwt_log.ml" 52 1643 1701
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 50 1559 1577 "syntax/pa_lwt_log.ml" 50 1559 1581
+)
+"syntax/pa_lwt_log.ml" 52 1643 1703 "syntax/pa_lwt_log.ml" 52 1643 1706
+type(
+  int
+)
+ident(
+  int_ref len "syntax/pa_lwt_log.ml" 51 1603 1615 "syntax/pa_lwt_log.ml" 51 1603 1618
+)
+"syntax/pa_lwt_log.ml" 52 1643 1707 "syntax/pa_lwt_log.ml" 52 1643 1708
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"syntax/pa_lwt_log.ml" 52 1643 1709 "syntax/pa_lwt_log.ml" 52 1643 1710
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 52 1643 1703 "syntax/pa_lwt_log.ml" 52 1643 1710
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 52 1643 1697 "syntax/pa_lwt_log.ml" 52 1643 1711
+type(
+  char
+)
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"syntax/pa_lwt_log.ml" 52 1643 1712 "syntax/pa_lwt_log.ml" 52 1643 1713
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"syntax/pa_lwt_log.ml" 52 1643 1714 "syntax/pa_lwt_log.ml" 52 1643 1717
+type(
+  char
+)
+"syntax/pa_lwt_log.ml" 52 1643 1697 "syntax/pa_lwt_log.ml" 52 1643 1717
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 52 1643 1673 "syntax/pa_lwt_log.ml" 52 1643 1717
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 52 1643 1661 "syntax/pa_lwt_log.ml" 52 1643 1717
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 53 1718 1730 "syntax/pa_lwt_log.ml" 53 1718 1733
+type(
+  bool
+)
+ident(
+  def ign "syntax/pa_lwt_log.ml" 54 1820 1828 "syntax/pa_lwt_log.ml" 71 2385 2405
+)
+"syntax/pa_lwt_log.ml" 53 1718 1736 "syntax/pa_lwt_log.ml" 53 1718 1739
+type(
+  int
+)
+ident(
+  int_ref len "syntax/pa_lwt_log.ml" 51 1603 1615 "syntax/pa_lwt_log.ml" 51 1603 1618
+)
+"syntax/pa_lwt_log.ml" 53 1718 1740 "syntax/pa_lwt_log.ml" 53 1718 1742
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"syntax/pa_lwt_log.ml" 53 1718 1743 "syntax/pa_lwt_log.ml" 53 1718 1744
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 53 1718 1736 "syntax/pa_lwt_log.ml" 53 1718 1744
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 53 1718 1745 "syntax/pa_lwt_log.ml" 53 1718 1747
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"syntax/pa_lwt_log.ml" 53 1718 1748 "syntax/pa_lwt_log.ml" 53 1718 1752
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 50 1559 1577 "syntax/pa_lwt_log.ml" 50 1559 1581
+)
+"syntax/pa_lwt_log.ml" 53 1718 1754 "syntax/pa_lwt_log.ml" 53 1718 1755
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 53 1718 1748 "syntax/pa_lwt_log.ml" 53 1718 1756
+type(
+  char
+)
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"syntax/pa_lwt_log.ml" 53 1718 1757 "syntax/pa_lwt_log.ml" 53 1718 1758
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"syntax/pa_lwt_log.ml" 53 1718 1759 "syntax/pa_lwt_log.ml" 53 1718 1762
+type(
+  char
+)
+"syntax/pa_lwt_log.ml" 53 1718 1748 "syntax/pa_lwt_log.ml" 53 1718 1762
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 53 1718 1763 "syntax/pa_lwt_log.ml" 53 1718 1765
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"syntax/pa_lwt_log.ml" 53 1718 1766 "syntax/pa_lwt_log.ml" 53 1718 1770
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 50 1559 1577 "syntax/pa_lwt_log.ml" 50 1559 1581
+)
+"syntax/pa_lwt_log.ml" 53 1718 1772 "syntax/pa_lwt_log.ml" 53 1718 1773
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 53 1718 1766 "syntax/pa_lwt_log.ml" 53 1718 1774
+type(
+  char
+)
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"syntax/pa_lwt_log.ml" 53 1718 1775 "syntax/pa_lwt_log.ml" 53 1718 1776
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"syntax/pa_lwt_log.ml" 53 1718 1777 "syntax/pa_lwt_log.ml" 53 1718 1780
+type(
+  char
+)
+"syntax/pa_lwt_log.ml" 53 1718 1766 "syntax/pa_lwt_log.ml" 53 1718 1780
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 53 1718 1781 "syntax/pa_lwt_log.ml" 53 1718 1783
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"syntax/pa_lwt_log.ml" 53 1718 1784 "syntax/pa_lwt_log.ml" 53 1718 1788
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 50 1559 1577 "syntax/pa_lwt_log.ml" 50 1559 1581
+)
+"syntax/pa_lwt_log.ml" 53 1718 1790 "syntax/pa_lwt_log.ml" 53 1718 1791
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 53 1718 1784 "syntax/pa_lwt_log.ml" 53 1718 1792
+type(
+  char
+)
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"syntax/pa_lwt_log.ml" 53 1718 1793 "syntax/pa_lwt_log.ml" 53 1718 1794
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"syntax/pa_lwt_log.ml" 53 1718 1795 "syntax/pa_lwt_log.ml" 53 1718 1798
+type(
+  char
+)
+"syntax/pa_lwt_log.ml" 53 1718 1784 "syntax/pa_lwt_log.ml" 53 1718 1798
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 53 1718 1799 "syntax/pa_lwt_log.ml" 53 1718 1801
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"syntax/pa_lwt_log.ml" 53 1718 1802 "syntax/pa_lwt_log.ml" 53 1718 1806
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 50 1559 1577 "syntax/pa_lwt_log.ml" 50 1559 1581
+)
+"syntax/pa_lwt_log.ml" 53 1718 1808 "syntax/pa_lwt_log.ml" 53 1718 1809
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 53 1718 1802 "syntax/pa_lwt_log.ml" 53 1718 1810
+type(
+  char
+)
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"syntax/pa_lwt_log.ml" 53 1718 1811 "syntax/pa_lwt_log.ml" 53 1718 1812
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"syntax/pa_lwt_log.ml" 53 1718 1813 "syntax/pa_lwt_log.ml" 53 1718 1816
+type(
+  char
+)
+"syntax/pa_lwt_log.ml" 53 1718 1802 "syntax/pa_lwt_log.ml" 53 1718 1816
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 53 1718 1784 "syntax/pa_lwt_log.ml" 53 1718 1816
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 53 1718 1766 "syntax/pa_lwt_log.ml" 53 1718 1816
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 53 1718 1748 "syntax/pa_lwt_log.ml" 53 1718 1816
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 53 1718 1736 "syntax/pa_lwt_log.ml" 53 1718 1816
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 54 1820 1832 "syntax/pa_lwt_log.ml" 54 1820 1837
+type(
+  string
+)
+ident(
+  def level "syntax/pa_lwt_log.ml" 65 2150 2158 "syntax/pa_lwt_log.ml" 71 2385 2405
+)
+"syntax/pa_lwt_log.ml" 55 1840 1856 "syntax/pa_lwt_log.ml" 55 1840 1859
+type(
+  bool
+)
+ident(
+  int_ref fmt "syntax/pa_lwt_log.ml" 52 1643 1655 "syntax/pa_lwt_log.ml" 52 1643 1658
+)
+"syntax/pa_lwt_log.ml" 55 1840 1861 "syntax/pa_lwt_log.ml" 55 1840 1864
+type(
+  bool
+)
+ident(
+  int_ref ign "syntax/pa_lwt_log.ml" 53 1718 1730 "syntax/pa_lwt_log.ml" 53 1718 1733
+)
+"syntax/pa_lwt_log.ml" 55 1840 1856 "syntax/pa_lwt_log.ml" 55 1840 1864
+type(
+  bool * bool
+)
+"syntax/pa_lwt_log.ml" 56 1870 1884 "syntax/pa_lwt_log.ml" 56 1870 1889
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 56 1870 1891 "syntax/pa_lwt_log.ml" 56 1870 1896
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 56 1870 1884 "syntax/pa_lwt_log.ml" 56 1870 1896
+type(
+  bool * bool
+)
+"syntax/pa_lwt_log.ml" 57 1900 1916 "syntax/pa_lwt_log.ml" 57 1900 1920
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 50 1559 1577 "syntax/pa_lwt_log.ml" 50 1559 1581
+)
+"syntax/pa_lwt_log.ml" 58 1921 1935 "syntax/pa_lwt_log.ml" 58 1921 1939
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 58 1921 1941 "syntax/pa_lwt_log.ml" 58 1921 1946
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 58 1921 1935 "syntax/pa_lwt_log.ml" 58 1921 1946
+type(
+  bool * bool
+)
+"syntax/pa_lwt_log.ml" 59 1950 1966 "syntax/pa_lwt_log.ml" 59 1950 1976
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"syntax/pa_lwt_log.ml" 59 1950 1977 "syntax/pa_lwt_log.ml" 59 1950 1981
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 50 1559 1577 "syntax/pa_lwt_log.ml" 50 1559 1581
+)
+"syntax/pa_lwt_log.ml" 59 1950 1982 "syntax/pa_lwt_log.ml" 59 1950 1983
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 59 1950 1985 "syntax/pa_lwt_log.ml" 59 1950 1988
+type(
+  int
+)
+ident(
+  int_ref len "syntax/pa_lwt_log.ml" 51 1603 1615 "syntax/pa_lwt_log.ml" 51 1603 1618
+)
+"syntax/pa_lwt_log.ml" 59 1950 1989 "syntax/pa_lwt_log.ml" 59 1950 1990
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"syntax/pa_lwt_log.ml" 59 1950 1991 "syntax/pa_lwt_log.ml" 59 1950 1992
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 59 1950 1985 "syntax/pa_lwt_log.ml" 59 1950 1992
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 59 1950 1966 "syntax/pa_lwt_log.ml" 59 1950 1993
+call(
+  stack
+)
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 60 1994 2008 "syntax/pa_lwt_log.ml" 60 1994 2013
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 60 1994 2015 "syntax/pa_lwt_log.ml" 60 1994 2019
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 60 1994 2008 "syntax/pa_lwt_log.ml" 60 1994 2019
+type(
+  bool * bool
+)
+"syntax/pa_lwt_log.ml" 61 2023 2039 "syntax/pa_lwt_log.ml" 61 2023 2049
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"syntax/pa_lwt_log.ml" 61 2023 2050 "syntax/pa_lwt_log.ml" 61 2023 2054
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 50 1559 1577 "syntax/pa_lwt_log.ml" 50 1559 1581
+)
+"syntax/pa_lwt_log.ml" 61 2023 2055 "syntax/pa_lwt_log.ml" 61 2023 2056
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 61 2023 2058 "syntax/pa_lwt_log.ml" 61 2023 2061
+type(
+  int
+)
+ident(
+  int_ref len "syntax/pa_lwt_log.ml" 51 1603 1615 "syntax/pa_lwt_log.ml" 51 1603 1618
+)
+"syntax/pa_lwt_log.ml" 61 2023 2062 "syntax/pa_lwt_log.ml" 61 2023 2063
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"syntax/pa_lwt_log.ml" 61 2023 2064 "syntax/pa_lwt_log.ml" 61 2023 2065
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 61 2023 2058 "syntax/pa_lwt_log.ml" 61 2023 2065
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 61 2023 2039 "syntax/pa_lwt_log.ml" 61 2023 2066
+call(
+  stack
+)
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 62 2067 2081 "syntax/pa_lwt_log.ml" 62 2067 2085
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 62 2067 2087 "syntax/pa_lwt_log.ml" 62 2067 2091
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 62 2067 2081 "syntax/pa_lwt_log.ml" 62 2067 2091
+type(
+  bool * bool
+)
+"syntax/pa_lwt_log.ml" 63 2095 2111 "syntax/pa_lwt_log.ml" 63 2095 2121
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"syntax/pa_lwt_log.ml" 63 2095 2122 "syntax/pa_lwt_log.ml" 63 2095 2126
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 50 1559 1577 "syntax/pa_lwt_log.ml" 50 1559 1581
+)
+"syntax/pa_lwt_log.ml" 63 2095 2127 "syntax/pa_lwt_log.ml" 63 2095 2128
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 63 2095 2130 "syntax/pa_lwt_log.ml" 63 2095 2133
+type(
+  int
+)
+ident(
+  int_ref len "syntax/pa_lwt_log.ml" 51 1603 1615 "syntax/pa_lwt_log.ml" 51 1603 1618
+)
+"syntax/pa_lwt_log.ml" 63 2095 2134 "syntax/pa_lwt_log.ml" 63 2095 2135
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"syntax/pa_lwt_log.ml" 63 2095 2136 "syntax/pa_lwt_log.ml" 63 2095 2137
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 63 2095 2130 "syntax/pa_lwt_log.ml" 63 2095 2137
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 63 2095 2111 "syntax/pa_lwt_log.ml" 63 2095 2138
+call(
+  stack
+)
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 55 1840 1850 "syntax/pa_lwt_log.ml" 63 2095 2138
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 65 2150 2162 "syntax/pa_lwt_log.ml" 65 2150 2167
+type(
+  string
+)
+ident(
+  def level "syntax/pa_lwt_log.ml" 66 2197 2205 "syntax/pa_lwt_log.ml" 71 2385 2405
+)
+"syntax/pa_lwt_log.ml" 65 2150 2170 "syntax/pa_lwt_log.ml" 65 2150 2187
+type(
+  string -> string
+)
+ident(
+  ext_ref String.capitalize
+)
+"syntax/pa_lwt_log.ml" 65 2150 2188 "syntax/pa_lwt_log.ml" 65 2150 2193
+type(
+  string
+)
+ident(
+  int_ref level "syntax/pa_lwt_log.ml" 54 1820 1832 "syntax/pa_lwt_log.ml" 54 1820 1837
+)
+"syntax/pa_lwt_log.ml" 65 2150 2170 "syntax/pa_lwt_log.ml" 65 2150 2193
+call(
+  stack
+)
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 66 2197 2208 "syntax/pa_lwt_log.ml" 66 2197 2213
+type(
+  string
+)
+ident(
+  int_ref level "syntax/pa_lwt_log.ml" 65 2150 2162 "syntax/pa_lwt_log.ml" 65 2150 2167
+)
+"syntax/pa_lwt_log.ml" 66 2197 2214 "syntax/pa_lwt_log.ml" 66 2197 2215
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"syntax/pa_lwt_log.ml" 66 2197 2216 "syntax/pa_lwt_log.ml" 66 2197 2223
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 66 2197 2208 "syntax/pa_lwt_log.ml" 66 2197 2223
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 66 2197 2224 "syntax/pa_lwt_log.ml" 66 2197 2226
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"syntax/pa_lwt_log.ml" 66 2197 2228 "syntax/pa_lwt_log.ml" 66 2197 2231
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"syntax/pa_lwt_log.ml" 66 2197 2233 "syntax/pa_lwt_log.ml" 66 2197 2253
+type(
+  bool ref
+)
+ident(
+  ext_ref Pa_lwt_options.debug
+)
+"syntax/pa_lwt_log.ml" 66 2197 2232 "syntax/pa_lwt_log.ml" 66 2197 2253
+type(
+  bool
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"syntax/pa_lwt_log.ml" 66 2197 2228 "syntax/pa_lwt_log.ml" 66 2197 2253
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 66 2197 2208 "syntax/pa_lwt_log.ml" 66 2197 2254
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 67 2260 2278 "syntax/pa_lwt_log.ml" 67 2260 2281
+type(
+  bool
+)
+ident(
+  int_ref ign "syntax/pa_lwt_log.ml" 53 1718 1730 "syntax/pa_lwt_log.ml" 53 1718 1733
+)
+"syntax/pa_lwt_log.ml" 67 2260 2270 "syntax/pa_lwt_log.ml" 67 2260 2281
+type(
+  [> `Delete of bool
+   | `Log of bool * string * 'a * string * Camlp4.PreCast.Ast.expr list
+   | `Not_a_log ]
+  as 'b
+)
+"syntax/pa_lwt_log.ml" 68 2282 2298 "syntax/pa_lwt_log.ml" 68 2282 2306
+type(
+  string -> string list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"syntax/pa_lwt_log.ml" 68 2282 2307 "syntax/pa_lwt_log.ml" 68 2282 2312
+type(
+  string
+)
+ident(
+  int_ref level "syntax/pa_lwt_log.ml" 65 2150 2162 "syntax/pa_lwt_log.ml" 65 2150 2167
+)
+"syntax/pa_lwt_log.ml" 68 2282 2313 "syntax/pa_lwt_log.ml" 68 2282 2319
+type(
+  string list
+)
+ident(
+  int_ref levels "syntax/pa_lwt_log.ml" 25 957 961 "syntax/pa_lwt_log.ml" 25 957 967
+)
+"syntax/pa_lwt_log.ml" 68 2282 2298 "syntax/pa_lwt_log.ml" 68 2282 2319
+call(
+  stack
+)
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 69 2325 2340 "syntax/pa_lwt_log.ml" 69 2325 2343
+type(
+  bool
+)
+ident(
+  int_ref ign "syntax/pa_lwt_log.ml" 53 1718 1730 "syntax/pa_lwt_log.ml" 53 1718 1733
+)
+"syntax/pa_lwt_log.ml" 69 2325 2345 "syntax/pa_lwt_log.ml" 69 2325 2349
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 50 1559 1577 "syntax/pa_lwt_log.ml" 50 1559 1581
+)
+"syntax/pa_lwt_log.ml" 69 2325 2351 "syntax/pa_lwt_log.ml" 69 2325 2358
+type(
+  'a
+)
+ident(
+  int_ref section "syntax/pa_lwt_log.ml" 49 1522 1536 "syntax/pa_lwt_log.ml" 49 1522 1543
+)
+"syntax/pa_lwt_log.ml" 69 2325 2360 "syntax/pa_lwt_log.ml" 69 2325 2365
+type(
+  string
+)
+ident(
+  int_ref level "syntax/pa_lwt_log.ml" 65 2150 2162 "syntax/pa_lwt_log.ml" 65 2150 2167
+)
+"syntax/pa_lwt_log.ml" 69 2325 2367 "syntax/pa_lwt_log.ml" 69 2325 2370
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  int_ref acc "syntax/pa_lwt_log.ml" 49 1522 1544 "syntax/pa_lwt_log.ml" 49 1522 1547
+)
+"syntax/pa_lwt_log.ml" 69 2325 2335 "syntax/pa_lwt_log.ml" 69 2325 2371
+type(
+  'b
+)
+type(
+  bool * string * 'a * string * Camlp4.PreCast.Ast.expr list
+)
+"syntax/pa_lwt_log.ml" 71 2385 2395 "syntax/pa_lwt_log.ml" 71 2385 2405
+type(
+  'b
+)
+"syntax/pa_lwt_log.ml" 68 2282 2295 "syntax/pa_lwt_log.ml" 71 2385 2405
+type(
+  'b
+)
+"syntax/pa_lwt_log.ml" 66 2197 2205 "syntax/pa_lwt_log.ml" 71 2385 2405
+type(
+  'b
+)
+"syntax/pa_lwt_log.ml" 65 2150 2158 "syntax/pa_lwt_log.ml" 71 2385 2405
+type(
+  'b
+)
+"syntax/pa_lwt_log.ml" 54 1820 1828 "syntax/pa_lwt_log.ml" 71 2385 2405
+type(
+  'b
+)
+"syntax/pa_lwt_log.ml" 52 1643 1651 "syntax/pa_lwt_log.ml" 71 2385 2405
+type(
+  'b
+)
+"syntax/pa_lwt_log.ml" 51 1603 1611 "syntax/pa_lwt_log.ml" 71 2385 2405
+type(
+  'b
+)
+"syntax/pa_lwt_log.ml" 72 2406 2423 "syntax/pa_lwt_log.ml" 72 2406 2423
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  def loc "syntax/pa_lwt_log.ml" 73 2444 2452 "syntax/pa_lwt_log.ml" 79 2687 2725
+)
+"syntax/pa_lwt_log.ml" 72 2406 2424 "syntax/pa_lwt_log.ml" 72 2406 2425
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  def a "syntax/pa_lwt_log.ml" 73 2444 2452 "syntax/pa_lwt_log.ml" 79 2687 2725
+)
+"syntax/pa_lwt_log.ml" 72 2406 2428 "syntax/pa_lwt_log.ml" 72 2406 2429
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  def b "syntax/pa_lwt_log.ml" 73 2444 2452 "syntax/pa_lwt_log.ml" 79 2687 2725
+)
+"syntax/pa_lwt_log.ml" 73 2444 2458 "syntax/pa_lwt_log.ml" 73 2444 2459
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref b "syntax/pa_lwt_log.ml" 72 2406 2428 "syntax/pa_lwt_log.ml" 72 2406 2429
+)
+"syntax/pa_lwt_log.ml" 74 2465 2484 "syntax/pa_lwt_log.ml" 74 2465 2484
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+"syntax/pa_lwt_log.ml" 75 2500 2514 "syntax/pa_lwt_log.ml" 75 2500 2517
+type(
+  'a -> Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr -> 'b
+)
+ident(
+  int_ref aux "syntax/pa_lwt_log.ml" 49 1522 1532 "syntax/pa_lwt_log.ml" 49 1522 1535
+)
+"syntax/pa_lwt_log.ml" 75 2500 2518 "syntax/pa_lwt_log.ml" 75 2500 2524
+type(
+  'a
+)
+"syntax/pa_lwt_log.ml" 75 2500 2526 "syntax/pa_lwt_log.ml" 75 2500 2527
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref b "syntax/pa_lwt_log.ml" 72 2406 2428 "syntax/pa_lwt_log.ml" 72 2406 2429
+)
+"syntax/pa_lwt_log.ml" 75 2500 2531 "syntax/pa_lwt_log.ml" 75 2500 2534
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  int_ref acc "syntax/pa_lwt_log.ml" 49 1522 1544 "syntax/pa_lwt_log.ml" 49 1522 1547
+)
+"syntax/pa_lwt_log.ml" 75 2500 2526 "syntax/pa_lwt_log.ml" 75 2500 2534
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+"syntax/pa_lwt_log.ml" 75 2500 2536 "syntax/pa_lwt_log.ml" 75 2500 2537
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref a "syntax/pa_lwt_log.ml" 72 2406 2424 "syntax/pa_lwt_log.ml" 72 2406 2425
+)
+"syntax/pa_lwt_log.ml" 75 2500 2514 "syntax/pa_lwt_log.ml" 75 2500 2537
+call(
+  tail
+)
+type(
+  'b
+)
+"syntax/pa_lwt_log.ml" 76 2538 2562 "syntax/pa_lwt_log.ml" 76 2538 2562
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  def _loc "syntax/pa_lwt_log.ml" 77 2588 2602 "syntax/pa_lwt_log.ml" 77 2588 2669
+)
+"syntax/pa_lwt_log.ml" 76 2538 2572 "syntax/pa_lwt_log.ml" 76 2538 2579
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  def section "syntax/pa_lwt_log.ml" 77 2588 2602 "syntax/pa_lwt_log.ml" 77 2588 2669
+)
+"syntax/pa_lwt_log.ml" 77 2588 2602 "syntax/pa_lwt_log.ml" 77 2588 2605
+type(
+  'a -> Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr -> 'b
+)
+ident(
+  int_ref aux "syntax/pa_lwt_log.ml" 49 1522 1532 "syntax/pa_lwt_log.ml" 49 1522 1535
+)
+"syntax/pa_lwt_log.ml" 77 2588 2613 "syntax/pa_lwt_log.ml" 77 2588 2620
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref section "syntax/pa_lwt_log.ml" 76 2538 2572 "syntax/pa_lwt_log.ml" 76 2538 2579
+)
+"syntax/pa_lwt_log.ml" 77 2588 2607 "syntax/pa_lwt_log.ml" 77 2588 2620
+type(
+  'a
+)
+"syntax/pa_lwt_log.ml" 77 2588 2630 "syntax/pa_lwt_log.ml" 77 2588 2630
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 76 2538 2562 "syntax/pa_lwt_log.ml" 76 2538 2562
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 76 2538 2562 "syntax/pa_lwt_log.ml" 76 2538 2562
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 76 2538 2562 "syntax/pa_lwt_log.ml" 76 2538 2562
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 77 2588 2663 "syntax/pa_lwt_log.ml" 77 2588 2666
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  int_ref acc "syntax/pa_lwt_log.ml" 49 1522 1544 "syntax/pa_lwt_log.ml" 49 1522 1547
+)
+"syntax/pa_lwt_log.ml" 77 2588 2625 "syntax/pa_lwt_log.ml" 77 2588 2666
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+"syntax/pa_lwt_log.ml" 77 2588 2668 "syntax/pa_lwt_log.ml" 77 2588 2669
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref a "syntax/pa_lwt_log.ml" 72 2406 2424 "syntax/pa_lwt_log.ml" 72 2406 2425
+)
+"syntax/pa_lwt_log.ml" 77 2588 2602 "syntax/pa_lwt_log.ml" 77 2588 2669
+call(
+  tail
+)
+type(
+  'b
+)
+"syntax/pa_lwt_log.ml" 78 2670 2682 "syntax/pa_lwt_log.ml" 78 2670 2683
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  def b "syntax/pa_lwt_log.ml" 79 2687 2701 "syntax/pa_lwt_log.ml" 79 2687 2725
+)
+"syntax/pa_lwt_log.ml" 79 2687 2701 "syntax/pa_lwt_log.ml" 79 2687 2704
+type(
+  'a -> Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr -> 'b
+)
+ident(
+  int_ref aux "syntax/pa_lwt_log.ml" 49 1522 1532 "syntax/pa_lwt_log.ml" 49 1522 1535
+)
+"syntax/pa_lwt_log.ml" 79 2687 2705 "syntax/pa_lwt_log.ml" 79 2687 2712
+type(
+  'a
+)
+ident(
+  int_ref section "syntax/pa_lwt_log.ml" 49 1522 1536 "syntax/pa_lwt_log.ml" 49 1522 1543
+)
+"syntax/pa_lwt_log.ml" 79 2687 2714 "syntax/pa_lwt_log.ml" 79 2687 2715
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref b "syntax/pa_lwt_log.ml" 78 2670 2682 "syntax/pa_lwt_log.ml" 78 2670 2683
+)
+"syntax/pa_lwt_log.ml" 79 2687 2719 "syntax/pa_lwt_log.ml" 79 2687 2722
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  int_ref acc "syntax/pa_lwt_log.ml" 49 1522 1544 "syntax/pa_lwt_log.ml" 49 1522 1547
+)
+"syntax/pa_lwt_log.ml" 79 2687 2714 "syntax/pa_lwt_log.ml" 79 2687 2722
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+"syntax/pa_lwt_log.ml" 79 2687 2724 "syntax/pa_lwt_log.ml" 79 2687 2725
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref a "syntax/pa_lwt_log.ml" 72 2406 2424 "syntax/pa_lwt_log.ml" 72 2406 2425
+)
+"syntax/pa_lwt_log.ml" 79 2687 2701 "syntax/pa_lwt_log.ml" 79 2687 2725
+call(
+  tail
+)
+type(
+  'b
+)
+"syntax/pa_lwt_log.ml" 73 2444 2452 "syntax/pa_lwt_log.ml" 79 2687 2725
+type(
+  'b
+)
+"syntax/pa_lwt_log.ml" 81 2736 2742 "syntax/pa_lwt_log.ml" 81 2736 2743
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 82 2747 2755 "syntax/pa_lwt_log.ml" 82 2747 2765
+type(
+  'b
+)
+"syntax/pa_lwt_log.ml" 49 1522 1550 "syntax/pa_lwt_log.ml" 82 2747 2765
+type(
+  Camlp4.PreCast.Ast.expr -> 'b
+)
+"syntax/pa_lwt_log.ml" 49 1522 1544 "syntax/pa_lwt_log.ml" 82 2747 2765
+type(
+  Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr -> 'b
+)
+"syntax/pa_lwt_log.ml" 49 1522 1536 "syntax/pa_lwt_log.ml" 82 2747 2765
+type(
+  'a -> Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr -> 'b
+)
+"syntax/pa_lwt_log.ml" 84 2771 2773 "syntax/pa_lwt_log.ml" 84 2771 2776
+type(
+  ([> `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ] as 'c) ->
+  Camlp4.PreCast.Ast.expr list ->
+  Camlp4.PreCast.Ast.expr ->
+  ([> `Delete of bool
+    | `Log of bool * string * 'c * string * Camlp4.PreCast.Ast.expr list
+    | `Not_a_log ]
+   as 'd)
+)
+ident(
+  int_ref aux "syntax/pa_lwt_log.ml" 49 1522 1532 "syntax/pa_lwt_log.ml" 49 1522 1535
+)
+"syntax/pa_lwt_log.ml" 84 2771 2777 "syntax/pa_lwt_log.ml" 84 2771 2782
+type(
+  'c
+)
+"syntax/pa_lwt_log.ml" 84 2771 2783 "syntax/pa_lwt_log.ml" 84 2771 2785
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+"syntax/pa_lwt_log.ml" 84 2771 2786 "syntax/pa_lwt_log.ml" 84 2771 2787
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref e "syntax/pa_lwt_log.ml" 48 1508 1518 "syntax/pa_lwt_log.ml" 48 1508 1519
+)
+"syntax/pa_lwt_log.ml" 84 2771 2773 "syntax/pa_lwt_log.ml" 84 2771 2787
+call(
+  tail
+)
+type(
+  'd
+)
+"syntax/pa_lwt_log.ml" 49 1522 1524 "syntax/pa_lwt_log.ml" 84 2771 2787
+type(
+  'd
+)
+"syntax/pa_lwt_log.ml" 48 1508 1518 "syntax/pa_lwt_log.ml" 84 2771 2787
+type(
+  Camlp4.PreCast.Ast.expr -> 'd
+)
+"syntax/pa_lwt_log.ml" 86 2789 2793 "syntax/pa_lwt_log.ml" 86 2789 2801
+type(
+  Camlp4.PreCast.Ast.loc -> Camlp4.PreCast.Ast.expr
+)
+ident(
+  def make_loc "syntax/pa_lwt_log.ml" 93 2972 2972 "syntax/pa_lwt_log.ml" 1 0 -1
+)
+"syntax/pa_lwt_log.ml" 86 2789 2802 "syntax/pa_lwt_log.ml" 86 2789 2806
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  def _loc "syntax/pa_lwt_log.ml" 87 2809 2818 "syntax/pa_lwt_log.ml" 87 2809 2818
+)
+"syntax/pa_lwt_log.ml" 87 2809 2818 "syntax/pa_lwt_log.ml" 87 2809 2818
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 86 2789 2802 "syntax/pa_lwt_log.ml" 86 2789 2806
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 86 2789 2802 "syntax/pa_lwt_log.ml" 86 2789 2806
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 86 2789 2802 "syntax/pa_lwt_log.ml" 86 2789 2806
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 86 2789 2802 "syntax/pa_lwt_log.ml" 86 2789 2806
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 86 2789 2802 "syntax/pa_lwt_log.ml" 86 2789 2806
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 86 2789 2802 "syntax/pa_lwt_log.ml" 86 2789 2806
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 87 2809 2818 "syntax/pa_lwt_log.ml" 87 2809 2831
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+type(
+  Camlp4.PreCast.Ast.loc -> string
+)
+ident(
+  ext_ref Camlp4.PreCast.Loc.file_name
+)
+"syntax/pa_lwt_log.ml" 87 2809 2832 "syntax/pa_lwt_log.ml" 87 2809 2836
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 86 2789 2802 "syntax/pa_lwt_log.ml" 86 2789 2806
+)
+"syntax/pa_lwt_log.ml" 87 2809 2818 "syntax/pa_lwt_log.ml" 87 2809 2836
+call(
+  stack
+)
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 87 2809 2833 "syntax/pa_lwt_log.ml" 87 2809 2846
+type(
+  Camlp4.PreCast.Ast.loc -> int
+)
+ident(
+  ext_ref Camlp4.PreCast.Loc.start_off
+)
+"syntax/pa_lwt_log.ml" 87 2809 2833 "syntax/pa_lwt_log.ml" 87 2809 2847
+type(
+  Camlp4.PreCast.Ast.loc -> int
+)
+ident(
+  ext_ref Camlp4.PreCast.Loc.start_line
+)
+"syntax/pa_lwt_log.ml" 87 2809 2847 "syntax/pa_lwt_log.ml" 87 2809 2851
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 86 2789 2802 "syntax/pa_lwt_log.ml" 86 2789 2806
+)
+"syntax/pa_lwt_log.ml" 87 2809 2833 "syntax/pa_lwt_log.ml" 87 2809 2851
+call(
+  stack
+)
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 87 2809 2848 "syntax/pa_lwt_log.ml" 87 2809 2852
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 86 2789 2802 "syntax/pa_lwt_log.ml" 86 2789 2806
+)
+"syntax/pa_lwt_log.ml" 87 2809 2833 "syntax/pa_lwt_log.ml" 87 2809 2852
+call(
+  stack
+)
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 87 2809 2852 "syntax/pa_lwt_log.ml" 87 2809 2853
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"syntax/pa_lwt_log.ml" 87 2809 2818 "syntax/pa_lwt_log.ml" 87 2809 2853
+call(
+  stack
+)
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 87 2809 2854 "syntax/pa_lwt_log.ml" 87 2809 2867
+type(
+  Camlp4.PreCast.Ast.loc -> int
+)
+ident(
+  ext_ref Camlp4.PreCast.Loc.start_bol
+)
+"syntax/pa_lwt_log.ml" 87 2809 2868 "syntax/pa_lwt_log.ml" 87 2809 2872
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 86 2789 2802 "syntax/pa_lwt_log.ml" 86 2789 2806
+)
+"syntax/pa_lwt_log.ml" 87 2809 2854 "syntax/pa_lwt_log.ml" 87 2809 2872
+call(
+  stack
+)
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 87 2809 2833 "syntax/pa_lwt_log.ml" 87 2809 2872
+type(
+  int
+)
+"syntax/pa_lwt_log.ml" 87 2809 2818 "syntax/pa_lwt_log.ml" 87 2809 2873
+call(
+  stack
+)
+type(
+  string
+)
+"syntax/pa_lwt_log.ml" 86 2789 2802 "syntax/pa_lwt_log.ml" 91 2966 2970
+type(
+  Camlp4.PreCast.Ast.loc -> Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 93 2972 2976 "syntax/pa_lwt_log.ml" 93 2972 2979
+type(
+  Camlp4.PreCast.Ast.map
+)
+ident(
+  def map "syntax/pa_lwt_log.ml" 133 4447 4447 "syntax/pa_lwt_log.ml" 1 0 -1
+)
+"syntax/pa_lwt_log.ml" 97 3017 3031 "syntax/pa_lwt_log.ml" 97 3017 3032
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  def e "syntax/pa_lwt_log.ml" 98 3035 3039 "syntax/pa_lwt_log.ml" 130 4419 4441
+)
+"syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  def _loc "syntax/pa_lwt_log.ml" 99 3071 3075 "syntax/pa_lwt_log.ml" 130 4419 4441
+)
+"syntax/pa_lwt_log.ml" 98 3035 3050 "syntax/pa_lwt_log.ml" 98 3035 3065
+type(
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.loc
+)
+ident(
+  ext_ref Camlp4.PreCast.Ast.loc_of_expr
+)
+"syntax/pa_lwt_log.ml" 98 3035 3066 "syntax/pa_lwt_log.ml" 98 3035 3067
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref e "syntax/pa_lwt_log.ml" 97 3017 3031 "syntax/pa_lwt_log.ml" 97 3017 3032
+)
+"syntax/pa_lwt_log.ml" 98 3035 3050 "syntax/pa_lwt_log.ml" 98 3035 3067
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+"syntax/pa_lwt_log.ml" 99 3071 3081 "syntax/pa_lwt_log.ml" 99 3071 3086
+type(
+  Camlp4.PreCast.Ast.expr ->
+  [> `Delete of bool
+   | `Log of
+       bool * string *
+       [> `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ] * string *
+       Camlp4.PreCast.Ast.expr list
+   | `Not_a_log ]
+)
+ident(
+  int_ref split "syntax/pa_lwt_log.ml" 48 1508 1512 "syntax/pa_lwt_log.ml" 48 1508 1517
+)
+"syntax/pa_lwt_log.ml" 99 3071 3087 "syntax/pa_lwt_log.ml" 99 3071 3088
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref e "syntax/pa_lwt_log.ml" 97 3017 3031 "syntax/pa_lwt_log.ml" 97 3017 3032
+)
+"syntax/pa_lwt_log.ml" 99 3071 3081 "syntax/pa_lwt_log.ml" 99 3071 3088
+call(
+  stack
+)
+type(
+  [> `Delete of bool
+   | `Log of
+       bool * string *
+       [> `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ] * string *
+       Camlp4.PreCast.Ast.expr list
+   | `Not_a_log ]
+  as 'a
+)
+"syntax/pa_lwt_log.ml" 100 3094 3110 "syntax/pa_lwt_log.ml" 100 3094 3115
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 100 3094 3102 "syntax/pa_lwt_log.ml" 100 3094 3115
+type(
+  [ `Delete of bool
+  | `Log of
+      bool * string * [ `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ] *
+      string * Camlp4.PreCast.Ast.expr list
+  | `Not_a_log ]
+)
+"syntax/pa_lwt_log.ml" 101 3119 3136 "syntax/pa_lwt_log.ml" 101 3119 3136
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 102 3154 3170 "syntax/pa_lwt_log.ml" 102 3154 3174
+type(
+  bool
+)
+"syntax/pa_lwt_log.ml" 102 3154 3162 "syntax/pa_lwt_log.ml" 102 3154 3174
+type(
+  [ `Delete of bool
+  | `Log of
+      bool * string * [ `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ] *
+      string * Camlp4.PreCast.Ast.expr list
+  | `Not_a_log ]
+)
+"syntax/pa_lwt_log.ml" 103 3178 3195 "syntax/pa_lwt_log.ml" 103 3178 3195
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 104 3202 3215 "syntax/pa_lwt_log.ml" 104 3202 3218
+type(
+  bool
+)
+ident(
+  def ign "syntax/pa_lwt_log.ml" 105 3249 3259 "syntax/pa_lwt_log.ml" 111 3574 3586
+)
+"syntax/pa_lwt_log.ml" 104 3202 3220 "syntax/pa_lwt_log.ml" 104 3202 3224
+type(
+  string
+)
+ident(
+  def func "syntax/pa_lwt_log.ml" 105 3249 3259 "syntax/pa_lwt_log.ml" 111 3574 3586
+)
+"syntax/pa_lwt_log.ml" 104 3202 3226 "syntax/pa_lwt_log.ml" 104 3202 3231
+type(
+  [ `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ]
+)
+"syntax/pa_lwt_log.ml" 104 3202 3233 "syntax/pa_lwt_log.ml" 104 3202 3238
+type(
+  string
+)
+ident(
+  def level "syntax/pa_lwt_log.ml" 105 3249 3259 "syntax/pa_lwt_log.ml" 111 3574 3586
+)
+"syntax/pa_lwt_log.ml" 104 3202 3240 "syntax/pa_lwt_log.ml" 104 3202 3244
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  def args "syntax/pa_lwt_log.ml" 105 3249 3259 "syntax/pa_lwt_log.ml" 111 3574 3586
+)
+"syntax/pa_lwt_log.ml" 104 3202 3210 "syntax/pa_lwt_log.ml" 104 3202 3245
+type(
+  [ `Delete of bool
+  | `Log of
+      bool * string * [ `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ] *
+      string * Camlp4.PreCast.Ast.expr list
+  | `Not_a_log ]
+)
+type(
+  bool * string * [ `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ] *
+  string * Camlp4.PreCast.Ast.expr list
+)
+"syntax/pa_lwt_log.ml" 105 3249 3263 "syntax/pa_lwt_log.ml" 105 3249 3267
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  def args "syntax/pa_lwt_log.ml" 106 3298 3315 "syntax/pa_lwt_log.ml" 106 3298 3315
+)
+"syntax/pa_lwt_log.ml" 105 3249 3270 "syntax/pa_lwt_log.ml" 105 3249 3278
+type(
+  (Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr) ->
+  Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr list
+)
+ident(
+  ext_ref List.map
+)
+"syntax/pa_lwt_log.ml" 105 3249 3279 "syntax/pa_lwt_log.ml" 105 3249 3284
+type(
+  Camlp4.PreCast.Ast.map
+)
+ident(
+  int_ref super "syntax/pa_lwt_log.ml" 95 2989 2999 "syntax/pa_lwt_log.ml" 95 2989 3006
+)
+"syntax/pa_lwt_log.ml" 105 3249 3279 "syntax/pa_lwt_log.ml" 105 3249 3289
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 105 3249 3290 "syntax/pa_lwt_log.ml" 105 3249 3294
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  int_ref args "syntax/pa_lwt_log.ml" 104 3202 3240 "syntax/pa_lwt_log.ml" 104 3202 3244
+)
+"syntax/pa_lwt_log.ml" 105 3249 3270 "syntax/pa_lwt_log.ml" 105 3249 3294
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+"syntax/pa_lwt_log.ml" 106 3298 3315 "syntax/pa_lwt_log.ml" 106 3298 3315
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 106 3298 3315 "syntax/pa_lwt_log.ml" 106 3298 3320
+type(
+  string
+)
+ident(
+  int_ref level "syntax/pa_lwt_log.ml" 104 3202 3233 "syntax/pa_lwt_log.ml" 104 3202 3238
+)
+"syntax/pa_lwt_log.ml" 108 3402 3416 "syntax/pa_lwt_log.ml" 108 3402 3421
+type(
+  Camlp4.PreCast.Ast.expr ->
+  Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref apply "syntax/pa_lwt_log.ml" 44 1395 1403 "syntax/pa_lwt_log.ml" 44 1395 1408
+)
+"syntax/pa_lwt_log.ml" 108 3402 3429 "syntax/pa_lwt_log.ml" 108 3402 3429
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 108 3402 3429 "syntax/pa_lwt_log.ml" 108 3402 3433
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 104 3202 3220 "syntax/pa_lwt_log.ml" 104 3202 3224
+)
+"syntax/pa_lwt_log.ml" 108 3402 3459 "syntax/pa_lwt_log.ml" 108 3402 3467
+type(
+  Camlp4.PreCast.Ast.loc -> Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref make_loc "syntax/pa_lwt_log.ml" 86 2789 2793 "syntax/pa_lwt_log.ml" 86 2789 2801
+)
+"syntax/pa_lwt_log.ml" 108 3402 3468 "syntax/pa_lwt_log.ml" 108 3402 3472
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+"syntax/pa_lwt_log.ml" 108 3402 3459 "syntax/pa_lwt_log.ml" 108 3402 3472
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 108 3402 3478 "syntax/pa_lwt_log.ml" 108 3402 3482
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  int_ref args "syntax/pa_lwt_log.ml" 105 3249 3263 "syntax/pa_lwt_log.ml" 105 3249 3267
+)
+"syntax/pa_lwt_log.ml" 108 3402 3416 "syntax/pa_lwt_log.ml" 108 3402 3482
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 110 3502 3519 "syntax/pa_lwt_log.ml" 110 3502 3522
+type(
+  bool
+)
+ident(
+  int_ref ign "syntax/pa_lwt_log.ml" 104 3202 3215 "syntax/pa_lwt_log.ml" 104 3202 3218
+)
+"syntax/pa_lwt_log.ml" 110 3502 3535 "syntax/pa_lwt_log.ml" 110 3502 3535
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 110 3502 3554 "syntax/pa_lwt_log.ml" 110 3502 3554
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 110 3502 3516 "syntax/pa_lwt_log.ml" 110 3502 3571
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 105 3249 3259 "syntax/pa_lwt_log.ml" 111 3574 3586
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 112 3587 3600 "syntax/pa_lwt_log.ml" 112 3587 3603
+type(
+  bool
+)
+ident(
+  def ign "syntax/pa_lwt_log.ml" 113 3635 3645 "syntax/pa_lwt_log.ml" 119 3947 3959
+)
+"syntax/pa_lwt_log.ml" 112 3587 3605 "syntax/pa_lwt_log.ml" 112 3587 3609
+type(
+  string
+)
+ident(
+  def func "syntax/pa_lwt_log.ml" 113 3635 3645 "syntax/pa_lwt_log.ml" 119 3947 3959
+)
+"syntax/pa_lwt_log.ml" 112 3587 3611 "syntax/pa_lwt_log.ml" 112 3587 3617
+type(
+  [ `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ]
+)
+"syntax/pa_lwt_log.ml" 112 3587 3619 "syntax/pa_lwt_log.ml" 112 3587 3624
+type(
+  string
+)
+ident(
+  def level "syntax/pa_lwt_log.ml" 113 3635 3645 "syntax/pa_lwt_log.ml" 119 3947 3959
+)
+"syntax/pa_lwt_log.ml" 112 3587 3626 "syntax/pa_lwt_log.ml" 112 3587 3630
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  def args "syntax/pa_lwt_log.ml" 113 3635 3645 "syntax/pa_lwt_log.ml" 119 3947 3959
+)
+"syntax/pa_lwt_log.ml" 112 3587 3595 "syntax/pa_lwt_log.ml" 112 3587 3631
+type(
+  [ `Delete of bool
+  | `Log of
+      bool * string * [ `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ] *
+      string * Camlp4.PreCast.Ast.expr list
+  | `Not_a_log ]
+)
+type(
+  bool * string * [ `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ] *
+  string * Camlp4.PreCast.Ast.expr list
+)
+"syntax/pa_lwt_log.ml" 113 3635 3649 "syntax/pa_lwt_log.ml" 113 3635 3653
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  def args "syntax/pa_lwt_log.ml" 114 3684 3701 "syntax/pa_lwt_log.ml" 114 3684 3701
+)
+"syntax/pa_lwt_log.ml" 113 3635 3656 "syntax/pa_lwt_log.ml" 113 3635 3664
+type(
+  (Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr) ->
+  Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr list
+)
+ident(
+  ext_ref List.map
+)
+"syntax/pa_lwt_log.ml" 113 3635 3665 "syntax/pa_lwt_log.ml" 113 3635 3670
+type(
+  Camlp4.PreCast.Ast.map
+)
+ident(
+  int_ref super "syntax/pa_lwt_log.ml" 95 2989 2999 "syntax/pa_lwt_log.ml" 95 2989 3006
+)
+"syntax/pa_lwt_log.ml" 113 3635 3665 "syntax/pa_lwt_log.ml" 113 3635 3675
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 113 3635 3676 "syntax/pa_lwt_log.ml" 113 3635 3680
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  int_ref args "syntax/pa_lwt_log.ml" 112 3587 3626 "syntax/pa_lwt_log.ml" 112 3587 3630
+)
+"syntax/pa_lwt_log.ml" 113 3635 3656 "syntax/pa_lwt_log.ml" 113 3635 3680
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+"syntax/pa_lwt_log.ml" 114 3684 3701 "syntax/pa_lwt_log.ml" 114 3684 3701
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 114 3684 3701 "syntax/pa_lwt_log.ml" 114 3684 3706
+type(
+  string
+)
+ident(
+  int_ref level "syntax/pa_lwt_log.ml" 112 3587 3619 "syntax/pa_lwt_log.ml" 112 3587 3624
+)
+"syntax/pa_lwt_log.ml" 116 3775 3789 "syntax/pa_lwt_log.ml" 116 3775 3794
+type(
+  Camlp4.PreCast.Ast.expr ->
+  Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref apply "syntax/pa_lwt_log.ml" 44 1395 1403 "syntax/pa_lwt_log.ml" 44 1395 1408
+)
+"syntax/pa_lwt_log.ml" 116 3775 3802 "syntax/pa_lwt_log.ml" 116 3775 3802
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 116 3775 3802 "syntax/pa_lwt_log.ml" 116 3775 3806
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 112 3587 3605 "syntax/pa_lwt_log.ml" 112 3587 3609
+)
+"syntax/pa_lwt_log.ml" 116 3775 3832 "syntax/pa_lwt_log.ml" 116 3775 3840
+type(
+  Camlp4.PreCast.Ast.loc -> Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref make_loc "syntax/pa_lwt_log.ml" 86 2789 2793 "syntax/pa_lwt_log.ml" 86 2789 2801
+)
+"syntax/pa_lwt_log.ml" 116 3775 3841 "syntax/pa_lwt_log.ml" 116 3775 3845
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+"syntax/pa_lwt_log.ml" 116 3775 3832 "syntax/pa_lwt_log.ml" 116 3775 3845
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 116 3775 3851 "syntax/pa_lwt_log.ml" 116 3775 3855
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  int_ref args "syntax/pa_lwt_log.ml" 113 3635 3649 "syntax/pa_lwt_log.ml" 113 3635 3653
+)
+"syntax/pa_lwt_log.ml" 116 3775 3789 "syntax/pa_lwt_log.ml" 116 3775 3855
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 118 3875 3892 "syntax/pa_lwt_log.ml" 118 3875 3895
+type(
+  bool
+)
+ident(
+  int_ref ign "syntax/pa_lwt_log.ml" 112 3587 3600 "syntax/pa_lwt_log.ml" 112 3587 3603
+)
+"syntax/pa_lwt_log.ml" 118 3875 3908 "syntax/pa_lwt_log.ml" 118 3875 3908
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 118 3875 3927 "syntax/pa_lwt_log.ml" 118 3875 3927
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 118 3875 3889 "syntax/pa_lwt_log.ml" 118 3875 3944
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 113 3635 3645 "syntax/pa_lwt_log.ml" 119 3947 3959
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 120 3960 3973 "syntax/pa_lwt_log.ml" 120 3960 3976
+type(
+  bool
+)
+ident(
+  def ign "syntax/pa_lwt_log.ml" 121 4015 4025 "syntax/pa_lwt_log.ml" 128 4384 4396
+)
+"syntax/pa_lwt_log.ml" 120 3960 3978 "syntax/pa_lwt_log.ml" 120 3960 3982
+type(
+  string
+)
+ident(
+  def func "syntax/pa_lwt_log.ml" 121 4015 4025 "syntax/pa_lwt_log.ml" 128 4384 4396
+)
+"syntax/pa_lwt_log.ml" 120 3960 3990 "syntax/pa_lwt_log.ml" 120 3960 3997
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  def section "syntax/pa_lwt_log.ml" 121 4015 4025 "syntax/pa_lwt_log.ml" 128 4384 4396
+)
+"syntax/pa_lwt_log.ml" 120 3960 3984 "syntax/pa_lwt_log.ml" 120 3960 3997
+type(
+  [ `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ]
+)
+"syntax/pa_lwt_log.ml" 120 3960 3999 "syntax/pa_lwt_log.ml" 120 3960 4004
+type(
+  string
+)
+ident(
+  def level "syntax/pa_lwt_log.ml" 121 4015 4025 "syntax/pa_lwt_log.ml" 128 4384 4396
+)
+"syntax/pa_lwt_log.ml" 120 3960 4006 "syntax/pa_lwt_log.ml" 120 3960 4010
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  def args "syntax/pa_lwt_log.ml" 121 4015 4025 "syntax/pa_lwt_log.ml" 128 4384 4396
+)
+"syntax/pa_lwt_log.ml" 120 3960 3968 "syntax/pa_lwt_log.ml" 120 3960 4011
+type(
+  [ `Delete of bool
+  | `Log of
+      bool * string * [ `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ] *
+      string * Camlp4.PreCast.Ast.expr list
+  | `Not_a_log ]
+)
+type(
+  bool * string * [ `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ] *
+  string * Camlp4.PreCast.Ast.expr list
+)
+"syntax/pa_lwt_log.ml" 121 4015 4029 "syntax/pa_lwt_log.ml" 121 4015 4033
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  def args "syntax/pa_lwt_log.ml" 122 4064 4081 "syntax/pa_lwt_log.ml" 122 4064 4081
+)
+"syntax/pa_lwt_log.ml" 121 4015 4036 "syntax/pa_lwt_log.ml" 121 4015 4044
+type(
+  (Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr) ->
+  Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr list
+)
+ident(
+  ext_ref List.map
+)
+"syntax/pa_lwt_log.ml" 121 4015 4045 "syntax/pa_lwt_log.ml" 121 4015 4050
+type(
+  Camlp4.PreCast.Ast.map
+)
+ident(
+  int_ref super "syntax/pa_lwt_log.ml" 95 2989 2999 "syntax/pa_lwt_log.ml" 95 2989 3006
+)
+"syntax/pa_lwt_log.ml" 121 4015 4045 "syntax/pa_lwt_log.ml" 121 4015 4055
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 121 4015 4056 "syntax/pa_lwt_log.ml" 121 4015 4060
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  int_ref args "syntax/pa_lwt_log.ml" 120 3960 4006 "syntax/pa_lwt_log.ml" 120 3960 4010
+)
+"syntax/pa_lwt_log.ml" 121 4015 4036 "syntax/pa_lwt_log.ml" 121 4015 4060
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+"syntax/pa_lwt_log.ml" 122 4064 4081 "syntax/pa_lwt_log.ml" 122 4064 4081
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.patt
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.binding
+)
+type(
+  Camlp4.PreCast.Ast.rec_flag
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 122 4064 4081 "syntax/pa_lwt_log.ml" 122 4064 4086
+type(
+  string
+)
+ident(
+  int_ref level "syntax/pa_lwt_log.ml" 120 3960 3999 "syntax/pa_lwt_log.ml" 120 3960 4004
+)
+"syntax/pa_lwt_log.ml" 123 4082 4117 "syntax/pa_lwt_log.ml" 123 4082 4124
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref section "syntax/pa_lwt_log.ml" 120 3960 3990 "syntax/pa_lwt_log.ml" 120 3960 3997
+)
+"syntax/pa_lwt_log.ml" 125 4212 4226 "syntax/pa_lwt_log.ml" 125 4212 4231
+type(
+  Camlp4.PreCast.Ast.expr ->
+  Camlp4.PreCast.Ast.expr list -> Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref apply "syntax/pa_lwt_log.ml" 44 1395 1403 "syntax/pa_lwt_log.ml" 44 1395 1408
+)
+"syntax/pa_lwt_log.ml" 125 4212 4239 "syntax/pa_lwt_log.ml" 125 4212 4239
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 125 4212 4239 "syntax/pa_lwt_log.ml" 125 4212 4243
+type(
+  string
+)
+ident(
+  int_ref func "syntax/pa_lwt_log.ml" 120 3960 3978 "syntax/pa_lwt_log.ml" 120 3960 3982
+)
+"syntax/pa_lwt_log.ml" 125 4212 4269 "syntax/pa_lwt_log.ml" 125 4212 4277
+type(
+  Camlp4.PreCast.Ast.loc -> Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref make_loc "syntax/pa_lwt_log.ml" 86 2789 2793 "syntax/pa_lwt_log.ml" 86 2789 2801
+)
+"syntax/pa_lwt_log.ml" 125 4212 4278 "syntax/pa_lwt_log.ml" 125 4212 4282
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+"syntax/pa_lwt_log.ml" 125 4212 4269 "syntax/pa_lwt_log.ml" 125 4212 4282
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 125 4212 4288 "syntax/pa_lwt_log.ml" 125 4212 4292
+type(
+  Camlp4.PreCast.Ast.expr list
+)
+ident(
+  int_ref args "syntax/pa_lwt_log.ml" 121 4015 4029 "syntax/pa_lwt_log.ml" 121 4015 4033
+)
+"syntax/pa_lwt_log.ml" 125 4212 4226 "syntax/pa_lwt_log.ml" 125 4212 4292
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 127 4312 4329 "syntax/pa_lwt_log.ml" 127 4312 4332
+type(
+  bool
+)
+ident(
+  int_ref ign "syntax/pa_lwt_log.ml" 120 3960 3973 "syntax/pa_lwt_log.ml" 120 3960 3976
+)
+"syntax/pa_lwt_log.ml" 127 4312 4345 "syntax/pa_lwt_log.ml" 127 4312 4345
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 127 4312 4364 "syntax/pa_lwt_log.ml" 127 4312 4364
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  string
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.ident
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.loc
+)
+ident(
+  int_ref _loc "syntax/pa_lwt_log.ml" 98 3035 3043 "syntax/pa_lwt_log.ml" 98 3035 3047
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 127 4312 4326 "syntax/pa_lwt_log.ml" 127 4312 4381
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 121 4015 4025 "syntax/pa_lwt_log.ml" 128 4384 4396
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 129 4397 4405 "syntax/pa_lwt_log.ml" 129 4397 4415
+type(
+  [ `Delete of bool
+  | `Log of
+      bool * string * [ `Expr of Camlp4.PreCast.Ast.expr | `Label | `None ] *
+      string * Camlp4.PreCast.Ast.expr list
+  | `Not_a_log ]
+)
+"syntax/pa_lwt_log.ml" 130 4419 4429 "syntax/pa_lwt_log.ml" 130 4419 4434
+type(
+  Camlp4.PreCast.Ast.map
+)
+ident(
+  int_ref super "syntax/pa_lwt_log.ml" 95 2989 2999 "syntax/pa_lwt_log.ml" 95 2989 3006
+)
+"syntax/pa_lwt_log.ml" 130 4419 4429 "syntax/pa_lwt_log.ml" 130 4419 4439
+type(
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 130 4419 4440 "syntax/pa_lwt_log.ml" 130 4419 4441
+type(
+  Camlp4.PreCast.Ast.expr
+)
+ident(
+  int_ref e "syntax/pa_lwt_log.ml" 97 3017 3031 "syntax/pa_lwt_log.ml" 97 3017 3032
+)
+"syntax/pa_lwt_log.ml" 130 4419 4429 "syntax/pa_lwt_log.ml" 130 4419 4441
+call(
+  tail
+)
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 99 3071 3075 "syntax/pa_lwt_log.ml" 130 4419 4441
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 98 3035 3039 "syntax/pa_lwt_log.ml" 130 4419 4441
+type(
+  Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 97 3017 3031 "syntax/pa_lwt_log.ml" 130 4419 4441
+type(
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr
+)
+type(
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 97 3017 3019 "syntax/pa_lwt_log.ml" 130 4419 4441
+type(
+  Camlp4.PreCast.Ast.map ->
+  Camlp4.PreCast.Ast.expr -> Camlp4.PreCast.Ast.expr
+)
+"syntax/pa_lwt_log.ml" 94 2982 2982 "syntax/pa_lwt_log.ml" 131 4442 4445
+type(
+  Camlp4.PreCast.Ast.map
+)
+type(
+  Camlp4.PreCast.Ast.map
+)
+"syntax/pa_lwt_log.ml" 133 4447 4451 "syntax/pa_lwt_log.ml" 133 4447 4453
+type(
+  unit
+)
+"syntax/pa_lwt_log.ml" 134 4456 4458 "syntax/pa_lwt_log.ml" 134 4456 4493
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item Camlp4.PreCast.AstFilters.filter ->
+  unit
+)
+ident(
+  ext_ref Camlp4.PreCast.AstFilters.register_str_item_filter
+)
+"syntax/pa_lwt_log.ml" 134 4456 4494 "syntax/pa_lwt_log.ml" 134 4456 4497
+type(
+  Camlp4.PreCast.Ast.map
+)
+ident(
+  int_ref map "syntax/pa_lwt_log.ml" 93 2972 2976 "syntax/pa_lwt_log.ml" 93 2972 2979
+)
+"syntax/pa_lwt_log.ml" 134 4456 4494 "syntax/pa_lwt_log.ml" 134 4456 4506
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item Camlp4.PreCast.AstFilters.filter
+)
+"syntax/pa_lwt_log.ml" 134 4456 4458 "syntax/pa_lwt_log.ml" 134 4456 4506
+call(
+  stack
+)
+type(
+  unit
+)
+"syntax/pa_lwt_log.ml" 135 4508 4510 "syntax/pa_lwt_log.ml" 135 4508 4546
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item Camlp4.PreCast.AstFilters.filter ->
+  unit
+)
+ident(
+  ext_ref Camlp4.PreCast.AstFilters.register_topphrase_filter
+)
+"syntax/pa_lwt_log.ml" 135 4508 4547 "syntax/pa_lwt_log.ml" 135 4508 4550
+type(
+  Camlp4.PreCast.Ast.map
+)
+ident(
+  int_ref map "syntax/pa_lwt_log.ml" 93 2972 2976 "syntax/pa_lwt_log.ml" 93 2972 2979
+)
+"syntax/pa_lwt_log.ml" 135 4508 4547 "syntax/pa_lwt_log.ml" 135 4508 4559
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item Camlp4.PreCast.AstFilters.filter
+)
+"syntax/pa_lwt_log.ml" 135 4508 4510 "syntax/pa_lwt_log.ml" 135 4508 4559
+call(
+  stack
+)
+type(
+  unit
+)
+"syntax/pa_lwt_log.ml" 134 4456 4458 "syntax/pa_lwt_log.ml" 135 4508 4559
+type(
+  unit
+)

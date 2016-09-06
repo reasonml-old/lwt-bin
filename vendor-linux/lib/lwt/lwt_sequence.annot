@@ -1,0 +1,3492 @@
+"src/core/lwt_sequence.ml" 44 1474 1478 "src/core/lwt_sequence.ml" 44 1474 1481
+type(
+  'a node -> 'a
+)
+ident(
+  def get "src/core/lwt_sequence.ml" 47 1507 1507 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 44 1474 1482 "src/core/lwt_sequence.ml" 44 1474 1486
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 45 1489 1491 "src/core/lwt_sequence.ml" 45 1489 1505
+)
+"src/core/lwt_sequence.ml" 45 1489 1491 "src/core/lwt_sequence.ml" 45 1489 1495
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 44 1474 1482 "src/core/lwt_sequence.ml" 44 1474 1486
+)
+"src/core/lwt_sequence.ml" 45 1489 1491 "src/core/lwt_sequence.ml" 45 1489 1505
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 47 1507 1511 "src/core/lwt_sequence.ml" 47 1507 1514
+type(
+  'a node -> 'a -> unit
+)
+ident(
+  def set "src/core/lwt_sequence.ml" 50 1553 1553 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 47 1507 1515 "src/core/lwt_sequence.ml" 47 1507 1519
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 47 1507 1520 "src/core/lwt_sequence.ml" 48 1527 1551
+)
+"src/core/lwt_sequence.ml" 47 1507 1520 "src/core/lwt_sequence.ml" 47 1507 1524
+type(
+  'a
+)
+ident(
+  def data "src/core/lwt_sequence.ml" 48 1527 1529 "src/core/lwt_sequence.ml" 48 1527 1551
+)
+"src/core/lwt_sequence.ml" 48 1527 1529 "src/core/lwt_sequence.ml" 48 1527 1533
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 47 1507 1515 "src/core/lwt_sequence.ml" 47 1507 1519
+)
+"src/core/lwt_sequence.ml" 48 1527 1547 "src/core/lwt_sequence.ml" 48 1527 1551
+type(
+  'a
+)
+ident(
+  int_ref data "src/core/lwt_sequence.ml" 47 1507 1520 "src/core/lwt_sequence.ml" 47 1507 1524
+)
+"src/core/lwt_sequence.ml" 48 1527 1529 "src/core/lwt_sequence.ml" 48 1527 1551
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 50 1553 1557 "src/core/lwt_sequence.ml" 50 1553 1563
+type(
+  'a node -> unit
+)
+ident(
+  def remove "src/core/lwt_sequence.ml" 62 1954 1954 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 50 1553 1564 "src/core/lwt_sequence.ml" 50 1553 1568
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 51 1571 1573 "src/core/lwt_sequence.ml" 56 1730 1735
+)
+"src/core/lwt_sequence.ml" 51 1571 1576 "src/core/lwt_sequence.ml" 51 1571 1580
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 50 1553 1564 "src/core/lwt_sequence.ml" 50 1553 1568
+)
+"src/core/lwt_sequence.ml" 51 1571 1576 "src/core/lwt_sequence.ml" 51 1571 1592
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 52 1604 1608 "src/core/lwt_sequence.ml" 52 1604 1612
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 50 1553 1564 "src/core/lwt_sequence.ml" 50 1553 1568
+)
+"src/core/lwt_sequence.ml" 52 1604 1628 "src/core/lwt_sequence.ml" 52 1604 1633
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 52 1604 1608 "src/core/lwt_sequence.ml" 52 1604 1633
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 53 1635 1643 "src/core/lwt_sequence.ml" 53 1635 1646
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 54 1669 1673 "src/core/lwt_sequence.ml" 55 1700 1729
+)
+"src/core/lwt_sequence.ml" 53 1635 1649 "src/core/lwt_sequence.ml" 53 1635 1660
+type(
+  'a node -> 'a t
+)
+ident(
+  int_ref seq_of_node "src/core/lwt_sequence.ml" 37 1150 1150 "src/core/lwt_sequence.ml" 37 1150 1202
+)
+"src/core/lwt_sequence.ml" 53 1635 1661 "src/core/lwt_sequence.ml" 53 1635 1665
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 50 1553 1564 "src/core/lwt_sequence.ml" 50 1553 1568
+)
+"src/core/lwt_sequence.ml" 53 1635 1649 "src/core/lwt_sequence.ml" 53 1635 1665
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 54 1669 1673 "src/core/lwt_sequence.ml" 54 1669 1676
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 53 1635 1643 "src/core/lwt_sequence.ml" 53 1635 1646
+)
+"src/core/lwt_sequence.ml" 54 1669 1673 "src/core/lwt_sequence.ml" 54 1669 1681
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 54 1669 1690 "src/core/lwt_sequence.ml" 54 1669 1693
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 53 1635 1643 "src/core/lwt_sequence.ml" 53 1635 1646
+)
+"src/core/lwt_sequence.ml" 54 1669 1690 "src/core/lwt_sequence.ml" 54 1669 1698
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 54 1669 1673 "src/core/lwt_sequence.ml" 54 1669 1698
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 55 1700 1704 "src/core/lwt_sequence.ml" 55 1700 1707
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 53 1635 1643 "src/core/lwt_sequence.ml" 53 1635 1646
+)
+"src/core/lwt_sequence.ml" 55 1700 1704 "src/core/lwt_sequence.ml" 55 1700 1712
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 55 1700 1721 "src/core/lwt_sequence.ml" 55 1700 1724
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 53 1635 1643 "src/core/lwt_sequence.ml" 53 1635 1646
+)
+"src/core/lwt_sequence.ml" 55 1700 1721 "src/core/lwt_sequence.ml" 55 1700 1729
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 55 1700 1704 "src/core/lwt_sequence.ml" 55 1700 1729
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 54 1669 1673 "src/core/lwt_sequence.ml" 55 1700 1729
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 53 1635 1639 "src/core/lwt_sequence.ml" 55 1700 1729
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 51 1571 1598 "src/core/lwt_sequence.ml" 56 1730 1735
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 51 1571 1573 "src/core/lwt_sequence.ml" 56 1730 1735
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 62 1954 1958 "src/core/lwt_sequence.ml" 62 1954 1964
+type(
+  unit -> 'a t
+)
+ident(
+  def create "src/core/lwt_sequence.ml" 66 2023 2023 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 62 1954 1965 "src/core/lwt_sequence.ml" 62 1954 1967
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 63 1970 1980 "src/core/lwt_sequence.ml" 63 1970 1983
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 63 1970 1972 "src/core/lwt_sequence.ml" 64 2016 2021
+)
+"src/core/lwt_sequence.ml" 63 1970 1995 "src/core/lwt_sequence.ml" 63 1970 1998
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 63 1970 1980 "src/core/lwt_sequence.ml" 63 1970 1983
+)
+"src/core/lwt_sequence.ml" 63 1970 2007 "src/core/lwt_sequence.ml" 63 1970 2010
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 63 1970 1980 "src/core/lwt_sequence.ml" 63 1970 1983
+)
+"src/core/lwt_sequence.ml" 63 1970 1986 "src/core/lwt_sequence.ml" 63 1970 2012
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 64 2016 2018 "src/core/lwt_sequence.ml" 64 2016 2021
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 63 1970 1980 "src/core/lwt_sequence.ml" 63 1970 1983
+)
+"src/core/lwt_sequence.ml" 63 1970 1972 "src/core/lwt_sequence.ml" 64 2016 2021
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 66 2023 2027 "src/core/lwt_sequence.ml" 66 2023 2035
+type(
+  'a t -> bool
+)
+ident(
+  def is_empty "src/core/lwt_sequence.ml" 68 2059 2059 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 66 2023 2036 "src/core/lwt_sequence.ml" 66 2023 2039
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 66 2023 2042 "src/core/lwt_sequence.ml" 66 2023 2057
+)
+"src/core/lwt_sequence.ml" 66 2023 2042 "src/core/lwt_sequence.ml" 66 2023 2045
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 66 2023 2036 "src/core/lwt_sequence.ml" 66 2023 2039
+)
+"src/core/lwt_sequence.ml" 66 2023 2042 "src/core/lwt_sequence.ml" 66 2023 2050
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 66 2023 2051 "src/core/lwt_sequence.ml" 66 2023 2053
+type(
+  'a t -> 'a t -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/core/lwt_sequence.ml" 66 2023 2054 "src/core/lwt_sequence.ml" 66 2023 2057
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 66 2023 2036 "src/core/lwt_sequence.ml" 66 2023 2039
+)
+"src/core/lwt_sequence.ml" 66 2023 2042 "src/core/lwt_sequence.ml" 66 2023 2057
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 68 2059 2063 "src/core/lwt_sequence.ml" 68 2059 2069
+type(
+  'a t -> int
+)
+ident(
+  def length "src/core/lwt_sequence.ml" 81 2318 2318 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 68 2059 2070 "src/core/lwt_sequence.ml" 68 2059 2073
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 69 2076 2078 "src/core/lwt_sequence.ml" 79 2299 2316
+)
+"src/core/lwt_sequence.ml" 69 2076 2086 "src/core/lwt_sequence.ml" 69 2076 2090
+type(
+  'a t -> int -> int
+)
+ident(
+  def loop "src/core/lwt_sequence.ml" 69 2076 2078 "src/core/lwt_sequence.ml" 79 2299 2316
+)
+"src/core/lwt_sequence.ml" 69 2076 2091 "src/core/lwt_sequence.ml" 69 2076 2095
+type(
+  'a t
+)
+ident(
+  def curr "src/core/lwt_sequence.ml" 69 2076 2096 "src/core/lwt_sequence.ml" 77 2262 2293
+)
+"src/core/lwt_sequence.ml" 69 2076 2096 "src/core/lwt_sequence.ml" 69 2076 2099
+type(
+  int
+)
+ident(
+  def len "src/core/lwt_sequence.ml" 70 2102 2106 "src/core/lwt_sequence.ml" 77 2262 2293
+)
+"src/core/lwt_sequence.ml" 70 2102 2109 "src/core/lwt_sequence.ml" 70 2102 2113
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 69 2076 2091 "src/core/lwt_sequence.ml" 69 2076 2095
+)
+"src/core/lwt_sequence.ml" 70 2102 2114 "src/core/lwt_sequence.ml" 70 2102 2116
+type(
+  'a t -> 'a t -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/core/lwt_sequence.ml" 70 2102 2117 "src/core/lwt_sequence.ml" 70 2102 2120
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 68 2059 2070 "src/core/lwt_sequence.ml" 68 2059 2073
+)
+"src/core/lwt_sequence.ml" 70 2102 2109 "src/core/lwt_sequence.ml" 70 2102 2120
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 71 2126 2132 "src/core/lwt_sequence.ml" 71 2126 2135
+type(
+  int
+)
+ident(
+  int_ref len "src/core/lwt_sequence.ml" 69 2076 2096 "src/core/lwt_sequence.ml" 69 2076 2099
+)
+"src/core/lwt_sequence.ml" 73 2145 2155 "src/core/lwt_sequence.ml" 73 2145 2159
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 74 2182 2188 "src/core/lwt_sequence.ml" 77 2262 2293
+)
+"src/core/lwt_sequence.ml" 73 2145 2162 "src/core/lwt_sequence.ml" 73 2145 2173
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref node_of_seq "src/core/lwt_sequence.ml" 38 1203 1203 "src/core/lwt_sequence.ml" 38 1203 1255
+)
+"src/core/lwt_sequence.ml" 73 2145 2174 "src/core/lwt_sequence.ml" 73 2145 2178
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 69 2076 2091 "src/core/lwt_sequence.ml" 69 2076 2095
+)
+"src/core/lwt_sequence.ml" 73 2145 2162 "src/core/lwt_sequence.ml" 73 2145 2178
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 74 2182 2191 "src/core/lwt_sequence.ml" 74 2182 2195
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 73 2145 2155 "src/core/lwt_sequence.ml" 73 2145 2159
+)
+"src/core/lwt_sequence.ml" 74 2182 2191 "src/core/lwt_sequence.ml" 74 2182 2207
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 75 2213 2221 "src/core/lwt_sequence.ml" 75 2213 2225
+type(
+  'a t -> int -> int
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 69 2076 2086 "src/core/lwt_sequence.ml" 69 2076 2090
+)
+"src/core/lwt_sequence.ml" 75 2213 2226 "src/core/lwt_sequence.ml" 75 2213 2230
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 73 2145 2155 "src/core/lwt_sequence.ml" 73 2145 2159
+)
+"src/core/lwt_sequence.ml" 75 2213 2226 "src/core/lwt_sequence.ml" 75 2213 2240
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 75 2213 2242 "src/core/lwt_sequence.ml" 75 2213 2245
+type(
+  int
+)
+ident(
+  int_ref len "src/core/lwt_sequence.ml" 69 2076 2096 "src/core/lwt_sequence.ml" 69 2076 2099
+)
+"src/core/lwt_sequence.ml" 75 2213 2246 "src/core/lwt_sequence.ml" 75 2213 2247
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/core/lwt_sequence.ml" 75 2213 2248 "src/core/lwt_sequence.ml" 75 2213 2249
+type(
+  int
+)
+"src/core/lwt_sequence.ml" 75 2213 2241 "src/core/lwt_sequence.ml" 75 2213 2250
+type(
+  int
+)
+"src/core/lwt_sequence.ml" 75 2213 2221 "src/core/lwt_sequence.ml" 75 2213 2250
+call(
+  tail
+)
+type(
+  int
+)
+"src/core/lwt_sequence.ml" 77 2262 2270 "src/core/lwt_sequence.ml" 77 2262 2274
+type(
+  'a t -> int -> int
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 69 2076 2086 "src/core/lwt_sequence.ml" 69 2076 2090
+)
+"src/core/lwt_sequence.ml" 77 2262 2275 "src/core/lwt_sequence.ml" 77 2262 2279
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 73 2145 2155 "src/core/lwt_sequence.ml" 73 2145 2159
+)
+"src/core/lwt_sequence.ml" 77 2262 2275 "src/core/lwt_sequence.ml" 77 2262 2289
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 77 2262 2290 "src/core/lwt_sequence.ml" 77 2262 2293
+type(
+  int
+)
+ident(
+  int_ref len "src/core/lwt_sequence.ml" 69 2076 2096 "src/core/lwt_sequence.ml" 69 2076 2099
+)
+"src/core/lwt_sequence.ml" 77 2262 2270 "src/core/lwt_sequence.ml" 77 2262 2293
+call(
+  tail
+)
+type(
+  int
+)
+"src/core/lwt_sequence.ml" 74 2182 2188 "src/core/lwt_sequence.ml" 77 2262 2293
+type(
+  int
+)
+"src/core/lwt_sequence.ml" 73 2145 2151 "src/core/lwt_sequence.ml" 77 2262 2293
+type(
+  int
+)
+"src/core/lwt_sequence.ml" 70 2102 2106 "src/core/lwt_sequence.ml" 77 2262 2293
+type(
+  int
+)
+"src/core/lwt_sequence.ml" 79 2299 2301 "src/core/lwt_sequence.ml" 79 2299 2305
+type(
+  'a t -> int -> int
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 69 2076 2086 "src/core/lwt_sequence.ml" 69 2076 2090
+)
+"src/core/lwt_sequence.ml" 79 2299 2306 "src/core/lwt_sequence.ml" 79 2299 2309
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 68 2059 2070 "src/core/lwt_sequence.ml" 68 2059 2073
+)
+"src/core/lwt_sequence.ml" 79 2299 2306 "src/core/lwt_sequence.ml" 79 2299 2314
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 79 2299 2315 "src/core/lwt_sequence.ml" 79 2299 2316
+type(
+  int
+)
+"src/core/lwt_sequence.ml" 79 2299 2301 "src/core/lwt_sequence.ml" 79 2299 2316
+call(
+  tail
+)
+type(
+  int
+)
+"src/core/lwt_sequence.ml" 69 2076 2078 "src/core/lwt_sequence.ml" 79 2299 2316
+type(
+  int
+)
+"src/core/lwt_sequence.ml" 81 2318 2322 "src/core/lwt_sequence.ml" 81 2318 2327
+type(
+  'a -> 'a t -> 'a node
+)
+ident(
+  def add_l "src/core/lwt_sequence.ml" 87 2512 2512 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 81 2318 2328 "src/core/lwt_sequence.ml" 81 2318 2332
+type(
+  'a
+)
+ident(
+  def data "src/core/lwt_sequence.ml" 81 2318 2333 "src/core/lwt_sequence.ml" 85 2504 2510
+)
+"src/core/lwt_sequence.ml" 81 2318 2333 "src/core/lwt_sequence.ml" 81 2318 2336
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 82 2339 2341 "src/core/lwt_sequence.ml" 85 2504 2510
+)
+"src/core/lwt_sequence.ml" 82 2339 2345 "src/core/lwt_sequence.ml" 82 2339 2349
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 83 2435 2437 "src/core/lwt_sequence.ml" 85 2504 2510
+)
+"src/core/lwt_sequence.ml" 82 2339 2366 "src/core/lwt_sequence.ml" 82 2339 2369
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 81 2318 2333 "src/core/lwt_sequence.ml" 81 2318 2336
+)
+"src/core/lwt_sequence.ml" 82 2339 2383 "src/core/lwt_sequence.ml" 82 2339 2386
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 81 2318 2333 "src/core/lwt_sequence.ml" 81 2318 2336
+)
+"src/core/lwt_sequence.ml" 82 2339 2383 "src/core/lwt_sequence.ml" 82 2339 2391
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 82 2339 2405 "src/core/lwt_sequence.ml" 82 2339 2409
+type(
+  'a
+)
+ident(
+  int_ref data "src/core/lwt_sequence.ml" 81 2318 2328 "src/core/lwt_sequence.ml" 81 2318 2332
+)
+"src/core/lwt_sequence.ml" 82 2339 2425 "src/core/lwt_sequence.ml" 82 2339 2429
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 82 2339 2352 "src/core/lwt_sequence.ml" 82 2339 2431
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 83 2435 2437 "src/core/lwt_sequence.ml" 83 2435 2440
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 81 2318 2333 "src/core/lwt_sequence.ml" 81 2318 2336
+)
+"src/core/lwt_sequence.ml" 83 2435 2437 "src/core/lwt_sequence.ml" 83 2435 2445
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 83 2435 2454 "src/core/lwt_sequence.ml" 83 2435 2465
+type(
+  'a node -> 'a t
+)
+ident(
+  int_ref seq_of_node "src/core/lwt_sequence.ml" 37 1150 1150 "src/core/lwt_sequence.ml" 37 1150 1202
+)
+"src/core/lwt_sequence.ml" 83 2435 2466 "src/core/lwt_sequence.ml" 83 2435 2470
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 82 2339 2345 "src/core/lwt_sequence.ml" 82 2339 2349
+)
+"src/core/lwt_sequence.ml" 83 2435 2454 "src/core/lwt_sequence.ml" 83 2435 2470
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 83 2435 2437 "src/core/lwt_sequence.ml" 83 2435 2470
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 84 2472 2474 "src/core/lwt_sequence.ml" 84 2472 2477
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 81 2318 2333 "src/core/lwt_sequence.ml" 81 2318 2336
+)
+"src/core/lwt_sequence.ml" 84 2472 2486 "src/core/lwt_sequence.ml" 84 2472 2497
+type(
+  'a node -> 'a t
+)
+ident(
+  int_ref seq_of_node "src/core/lwt_sequence.ml" 37 1150 1150 "src/core/lwt_sequence.ml" 37 1150 1202
+)
+"src/core/lwt_sequence.ml" 84 2472 2498 "src/core/lwt_sequence.ml" 84 2472 2502
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 82 2339 2345 "src/core/lwt_sequence.ml" 82 2339 2349
+)
+"src/core/lwt_sequence.ml" 84 2472 2486 "src/core/lwt_sequence.ml" 84 2472 2502
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 84 2472 2474 "src/core/lwt_sequence.ml" 84 2472 2502
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 85 2504 2506 "src/core/lwt_sequence.ml" 85 2504 2510
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 82 2339 2345 "src/core/lwt_sequence.ml" 82 2339 2349
+)
+"src/core/lwt_sequence.ml" 84 2472 2474 "src/core/lwt_sequence.ml" 85 2504 2510
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 83 2435 2437 "src/core/lwt_sequence.ml" 85 2504 2510
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 82 2339 2341 "src/core/lwt_sequence.ml" 85 2504 2510
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 87 2512 2516 "src/core/lwt_sequence.ml" 87 2512 2521
+type(
+  'a -> 'a t -> 'a node
+)
+ident(
+  def add_r "src/core/lwt_sequence.ml" 93 2706 2706 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 87 2512 2522 "src/core/lwt_sequence.ml" 87 2512 2526
+type(
+  'a
+)
+ident(
+  def data "src/core/lwt_sequence.ml" 87 2512 2527 "src/core/lwt_sequence.ml" 91 2698 2704
+)
+"src/core/lwt_sequence.ml" 87 2512 2527 "src/core/lwt_sequence.ml" 87 2512 2530
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 88 2533 2535 "src/core/lwt_sequence.ml" 91 2698 2704
+)
+"src/core/lwt_sequence.ml" 88 2533 2539 "src/core/lwt_sequence.ml" 88 2533 2543
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 89 2629 2631 "src/core/lwt_sequence.ml" 91 2698 2704
+)
+"src/core/lwt_sequence.ml" 88 2533 2560 "src/core/lwt_sequence.ml" 88 2533 2563
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 87 2512 2527 "src/core/lwt_sequence.ml" 87 2512 2530
+)
+"src/core/lwt_sequence.ml" 88 2533 2560 "src/core/lwt_sequence.ml" 88 2533 2568
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 88 2533 2582 "src/core/lwt_sequence.ml" 88 2533 2585
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 87 2512 2527 "src/core/lwt_sequence.ml" 87 2512 2530
+)
+"src/core/lwt_sequence.ml" 88 2533 2599 "src/core/lwt_sequence.ml" 88 2533 2603
+type(
+  'a
+)
+ident(
+  int_ref data "src/core/lwt_sequence.ml" 87 2512 2522 "src/core/lwt_sequence.ml" 87 2512 2526
+)
+"src/core/lwt_sequence.ml" 88 2533 2619 "src/core/lwt_sequence.ml" 88 2533 2623
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 88 2533 2546 "src/core/lwt_sequence.ml" 88 2533 2625
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 89 2629 2631 "src/core/lwt_sequence.ml" 89 2629 2634
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 87 2512 2527 "src/core/lwt_sequence.ml" 87 2512 2530
+)
+"src/core/lwt_sequence.ml" 89 2629 2631 "src/core/lwt_sequence.ml" 89 2629 2639
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 89 2629 2648 "src/core/lwt_sequence.ml" 89 2629 2659
+type(
+  'a node -> 'a t
+)
+ident(
+  int_ref seq_of_node "src/core/lwt_sequence.ml" 37 1150 1150 "src/core/lwt_sequence.ml" 37 1150 1202
+)
+"src/core/lwt_sequence.ml" 89 2629 2660 "src/core/lwt_sequence.ml" 89 2629 2664
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 88 2533 2539 "src/core/lwt_sequence.ml" 88 2533 2543
+)
+"src/core/lwt_sequence.ml" 89 2629 2648 "src/core/lwt_sequence.ml" 89 2629 2664
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 89 2629 2631 "src/core/lwt_sequence.ml" 89 2629 2664
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 90 2666 2668 "src/core/lwt_sequence.ml" 90 2666 2671
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 87 2512 2527 "src/core/lwt_sequence.ml" 87 2512 2530
+)
+"src/core/lwt_sequence.ml" 90 2666 2680 "src/core/lwt_sequence.ml" 90 2666 2691
+type(
+  'a node -> 'a t
+)
+ident(
+  int_ref seq_of_node "src/core/lwt_sequence.ml" 37 1150 1150 "src/core/lwt_sequence.ml" 37 1150 1202
+)
+"src/core/lwt_sequence.ml" 90 2666 2692 "src/core/lwt_sequence.ml" 90 2666 2696
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 88 2533 2539 "src/core/lwt_sequence.ml" 88 2533 2543
+)
+"src/core/lwt_sequence.ml" 90 2666 2680 "src/core/lwt_sequence.ml" 90 2666 2696
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 90 2666 2668 "src/core/lwt_sequence.ml" 90 2666 2696
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 91 2698 2700 "src/core/lwt_sequence.ml" 91 2698 2704
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 88 2533 2539 "src/core/lwt_sequence.ml" 88 2533 2543
+)
+"src/core/lwt_sequence.ml" 90 2666 2668 "src/core/lwt_sequence.ml" 91 2698 2704
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 89 2629 2631 "src/core/lwt_sequence.ml" 91 2698 2704
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 88 2533 2535 "src/core/lwt_sequence.ml" 91 2698 2704
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 93 2706 2710 "src/core/lwt_sequence.ml" 93 2706 2716
+type(
+  'a t -> 'a
+)
+ident(
+  def take_l "src/core/lwt_sequence.ml" 102 2857 2857 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 93 2706 2717 "src/core/lwt_sequence.ml" 93 2706 2720
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 94 2723 2725 "src/core/lwt_sequence.ml" 100 2850 2855
+)
+"src/core/lwt_sequence.ml" 94 2723 2728 "src/core/lwt_sequence.ml" 94 2723 2736
+type(
+  'a t -> bool
+)
+ident(
+  int_ref is_empty "src/core/lwt_sequence.ml" 66 2023 2027 "src/core/lwt_sequence.ml" 66 2023 2035
+)
+"src/core/lwt_sequence.ml" 94 2723 2737 "src/core/lwt_sequence.ml" 94 2723 2740
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 93 2706 2717 "src/core/lwt_sequence.ml" 93 2706 2720
+)
+"src/core/lwt_sequence.ml" 94 2723 2728 "src/core/lwt_sequence.ml" 94 2723 2740
+call(
+  stack
+)
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 95 2746 2750 "src/core/lwt_sequence.ml" 95 2746 2755
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/core/lwt_sequence.ml" 95 2746 2756 "src/core/lwt_sequence.ml" 95 2746 2761
+type(
+  exn
+)
+"src/core/lwt_sequence.ml" 95 2746 2750 "src/core/lwt_sequence.ml" 95 2746 2761
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 97 2775 2783 "src/core/lwt_sequence.ml" 97 2775 2787
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 98 2814 2818 "src/core/lwt_sequence.ml" 99 2831 2849
+)
+"src/core/lwt_sequence.ml" 97 2775 2790 "src/core/lwt_sequence.ml" 97 2775 2801
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref node_of_seq "src/core/lwt_sequence.ml" 38 1203 1203 "src/core/lwt_sequence.ml" 38 1203 1255
+)
+"src/core/lwt_sequence.ml" 97 2775 2802 "src/core/lwt_sequence.ml" 97 2775 2805
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 93 2706 2717 "src/core/lwt_sequence.ml" 93 2706 2720
+)
+"src/core/lwt_sequence.ml" 97 2775 2802 "src/core/lwt_sequence.ml" 97 2775 2810
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 97 2775 2790 "src/core/lwt_sequence.ml" 97 2775 2810
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 98 2814 2818 "src/core/lwt_sequence.ml" 98 2814 2824
+type(
+  'a node -> unit
+)
+ident(
+  int_ref remove "src/core/lwt_sequence.ml" 50 1553 1557 "src/core/lwt_sequence.ml" 50 1553 1563
+)
+"src/core/lwt_sequence.ml" 98 2814 2825 "src/core/lwt_sequence.ml" 98 2814 2829
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 97 2775 2783 "src/core/lwt_sequence.ml" 97 2775 2787
+)
+"src/core/lwt_sequence.ml" 98 2814 2818 "src/core/lwt_sequence.ml" 98 2814 2829
+call(
+  stack
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 99 2831 2835 "src/core/lwt_sequence.ml" 99 2831 2839
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 97 2775 2783 "src/core/lwt_sequence.ml" 97 2775 2787
+)
+"src/core/lwt_sequence.ml" 99 2831 2835 "src/core/lwt_sequence.ml" 99 2831 2849
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 98 2814 2818 "src/core/lwt_sequence.ml" 99 2831 2849
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 96 2762 2769 "src/core/lwt_sequence.ml" 100 2850 2855
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 94 2723 2725 "src/core/lwt_sequence.ml" 100 2850 2855
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 102 2857 2861 "src/core/lwt_sequence.ml" 102 2857 2867
+type(
+  'a t -> 'a
+)
+ident(
+  def take_r "src/core/lwt_sequence.ml" 111 3008 3008 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 102 2857 2868 "src/core/lwt_sequence.ml" 102 2857 2871
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 103 2874 2876 "src/core/lwt_sequence.ml" 109 3001 3006
+)
+"src/core/lwt_sequence.ml" 103 2874 2879 "src/core/lwt_sequence.ml" 103 2874 2887
+type(
+  'a t -> bool
+)
+ident(
+  int_ref is_empty "src/core/lwt_sequence.ml" 66 2023 2027 "src/core/lwt_sequence.ml" 66 2023 2035
+)
+"src/core/lwt_sequence.ml" 103 2874 2888 "src/core/lwt_sequence.ml" 103 2874 2891
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 102 2857 2868 "src/core/lwt_sequence.ml" 102 2857 2871
+)
+"src/core/lwt_sequence.ml" 103 2874 2879 "src/core/lwt_sequence.ml" 103 2874 2891
+call(
+  stack
+)
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 104 2897 2901 "src/core/lwt_sequence.ml" 104 2897 2906
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/core/lwt_sequence.ml" 104 2897 2907 "src/core/lwt_sequence.ml" 104 2897 2912
+type(
+  exn
+)
+"src/core/lwt_sequence.ml" 104 2897 2901 "src/core/lwt_sequence.ml" 104 2897 2912
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 106 2926 2934 "src/core/lwt_sequence.ml" 106 2926 2938
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 107 2965 2969 "src/core/lwt_sequence.ml" 108 2982 3000
+)
+"src/core/lwt_sequence.ml" 106 2926 2941 "src/core/lwt_sequence.ml" 106 2926 2952
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref node_of_seq "src/core/lwt_sequence.ml" 38 1203 1203 "src/core/lwt_sequence.ml" 38 1203 1255
+)
+"src/core/lwt_sequence.ml" 106 2926 2953 "src/core/lwt_sequence.ml" 106 2926 2956
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 102 2857 2868 "src/core/lwt_sequence.ml" 102 2857 2871
+)
+"src/core/lwt_sequence.ml" 106 2926 2953 "src/core/lwt_sequence.ml" 106 2926 2961
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 106 2926 2941 "src/core/lwt_sequence.ml" 106 2926 2961
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 107 2965 2969 "src/core/lwt_sequence.ml" 107 2965 2975
+type(
+  'a node -> unit
+)
+ident(
+  int_ref remove "src/core/lwt_sequence.ml" 50 1553 1557 "src/core/lwt_sequence.ml" 50 1553 1563
+)
+"src/core/lwt_sequence.ml" 107 2965 2976 "src/core/lwt_sequence.ml" 107 2965 2980
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 106 2926 2934 "src/core/lwt_sequence.ml" 106 2926 2938
+)
+"src/core/lwt_sequence.ml" 107 2965 2969 "src/core/lwt_sequence.ml" 107 2965 2980
+call(
+  stack
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 108 2982 2986 "src/core/lwt_sequence.ml" 108 2982 2990
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 106 2926 2934 "src/core/lwt_sequence.ml" 106 2926 2938
+)
+"src/core/lwt_sequence.ml" 108 2982 2986 "src/core/lwt_sequence.ml" 108 2982 3000
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 107 2965 2969 "src/core/lwt_sequence.ml" 108 2982 3000
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 105 2913 2920 "src/core/lwt_sequence.ml" 109 3001 3006
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 103 2874 2876 "src/core/lwt_sequence.ml" 109 3001 3006
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 111 3008 3012 "src/core/lwt_sequence.ml" 111 3008 3022
+type(
+  'a t -> 'a option
+)
+ident(
+  def take_opt_l "src/core/lwt_sequence.ml" 120 3161 3161 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 111 3008 3023 "src/core/lwt_sequence.ml" 111 3008 3026
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 112 3029 3031 "src/core/lwt_sequence.ml" 118 3154 3159
+)
+"src/core/lwt_sequence.ml" 112 3029 3034 "src/core/lwt_sequence.ml" 112 3029 3042
+type(
+  'a t -> bool
+)
+ident(
+  int_ref is_empty "src/core/lwt_sequence.ml" 66 2023 2027 "src/core/lwt_sequence.ml" 66 2023 2035
+)
+"src/core/lwt_sequence.ml" 112 3029 3043 "src/core/lwt_sequence.ml" 112 3029 3046
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 111 3008 3023 "src/core/lwt_sequence.ml" 111 3008 3026
+)
+"src/core/lwt_sequence.ml" 112 3029 3034 "src/core/lwt_sequence.ml" 112 3029 3046
+call(
+  stack
+)
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 113 3052 3056 "src/core/lwt_sequence.ml" 113 3052 3060
+type(
+  'a option
+)
+"src/core/lwt_sequence.ml" 115 3074 3082 "src/core/lwt_sequence.ml" 115 3074 3086
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 116 3113 3117 "src/core/lwt_sequence.ml" 117 3130 3153
+)
+"src/core/lwt_sequence.ml" 115 3074 3089 "src/core/lwt_sequence.ml" 115 3074 3100
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref node_of_seq "src/core/lwt_sequence.ml" 38 1203 1203 "src/core/lwt_sequence.ml" 38 1203 1255
+)
+"src/core/lwt_sequence.ml" 115 3074 3101 "src/core/lwt_sequence.ml" 115 3074 3104
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 111 3008 3023 "src/core/lwt_sequence.ml" 111 3008 3026
+)
+"src/core/lwt_sequence.ml" 115 3074 3101 "src/core/lwt_sequence.ml" 115 3074 3109
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 115 3074 3089 "src/core/lwt_sequence.ml" 115 3074 3109
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 116 3113 3117 "src/core/lwt_sequence.ml" 116 3113 3123
+type(
+  'a node -> unit
+)
+ident(
+  int_ref remove "src/core/lwt_sequence.ml" 50 1553 1557 "src/core/lwt_sequence.ml" 50 1553 1563
+)
+"src/core/lwt_sequence.ml" 116 3113 3124 "src/core/lwt_sequence.ml" 116 3113 3128
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 115 3074 3082 "src/core/lwt_sequence.ml" 115 3074 3086
+)
+"src/core/lwt_sequence.ml" 116 3113 3117 "src/core/lwt_sequence.ml" 116 3113 3128
+call(
+  stack
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 117 3130 3139 "src/core/lwt_sequence.ml" 117 3130 3143
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 115 3074 3082 "src/core/lwt_sequence.ml" 115 3074 3086
+)
+"src/core/lwt_sequence.ml" 117 3130 3139 "src/core/lwt_sequence.ml" 117 3130 3153
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 117 3130 3134 "src/core/lwt_sequence.ml" 117 3130 3153
+type(
+  'a option
+)
+"src/core/lwt_sequence.ml" 116 3113 3117 "src/core/lwt_sequence.ml" 117 3130 3153
+type(
+  'a option
+)
+"src/core/lwt_sequence.ml" 114 3061 3068 "src/core/lwt_sequence.ml" 118 3154 3159
+type(
+  'a option
+)
+"src/core/lwt_sequence.ml" 112 3029 3031 "src/core/lwt_sequence.ml" 118 3154 3159
+type(
+  'a option
+)
+"src/core/lwt_sequence.ml" 120 3161 3165 "src/core/lwt_sequence.ml" 120 3161 3175
+type(
+  'a t -> 'a option
+)
+ident(
+  def take_opt_r "src/core/lwt_sequence.ml" 129 3314 3314 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 120 3161 3176 "src/core/lwt_sequence.ml" 120 3161 3179
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 121 3182 3184 "src/core/lwt_sequence.ml" 127 3307 3312
+)
+"src/core/lwt_sequence.ml" 121 3182 3187 "src/core/lwt_sequence.ml" 121 3182 3195
+type(
+  'a t -> bool
+)
+ident(
+  int_ref is_empty "src/core/lwt_sequence.ml" 66 2023 2027 "src/core/lwt_sequence.ml" 66 2023 2035
+)
+"src/core/lwt_sequence.ml" 121 3182 3196 "src/core/lwt_sequence.ml" 121 3182 3199
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 120 3161 3176 "src/core/lwt_sequence.ml" 120 3161 3179
+)
+"src/core/lwt_sequence.ml" 121 3182 3187 "src/core/lwt_sequence.ml" 121 3182 3199
+call(
+  stack
+)
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 122 3205 3209 "src/core/lwt_sequence.ml" 122 3205 3213
+type(
+  'a option
+)
+"src/core/lwt_sequence.ml" 124 3227 3235 "src/core/lwt_sequence.ml" 124 3227 3239
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 125 3266 3270 "src/core/lwt_sequence.ml" 126 3283 3306
+)
+"src/core/lwt_sequence.ml" 124 3227 3242 "src/core/lwt_sequence.ml" 124 3227 3253
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref node_of_seq "src/core/lwt_sequence.ml" 38 1203 1203 "src/core/lwt_sequence.ml" 38 1203 1255
+)
+"src/core/lwt_sequence.ml" 124 3227 3254 "src/core/lwt_sequence.ml" 124 3227 3257
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 120 3161 3176 "src/core/lwt_sequence.ml" 120 3161 3179
+)
+"src/core/lwt_sequence.ml" 124 3227 3254 "src/core/lwt_sequence.ml" 124 3227 3262
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 124 3227 3242 "src/core/lwt_sequence.ml" 124 3227 3262
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 125 3266 3270 "src/core/lwt_sequence.ml" 125 3266 3276
+type(
+  'a node -> unit
+)
+ident(
+  int_ref remove "src/core/lwt_sequence.ml" 50 1553 1557 "src/core/lwt_sequence.ml" 50 1553 1563
+)
+"src/core/lwt_sequence.ml" 125 3266 3277 "src/core/lwt_sequence.ml" 125 3266 3281
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 124 3227 3235 "src/core/lwt_sequence.ml" 124 3227 3239
+)
+"src/core/lwt_sequence.ml" 125 3266 3270 "src/core/lwt_sequence.ml" 125 3266 3281
+call(
+  stack
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 126 3283 3292 "src/core/lwt_sequence.ml" 126 3283 3296
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 124 3227 3235 "src/core/lwt_sequence.ml" 124 3227 3239
+)
+"src/core/lwt_sequence.ml" 126 3283 3292 "src/core/lwt_sequence.ml" 126 3283 3306
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 126 3283 3287 "src/core/lwt_sequence.ml" 126 3283 3306
+type(
+  'a option
+)
+"src/core/lwt_sequence.ml" 125 3266 3270 "src/core/lwt_sequence.ml" 126 3283 3306
+type(
+  'a option
+)
+"src/core/lwt_sequence.ml" 123 3214 3221 "src/core/lwt_sequence.ml" 127 3307 3312
+type(
+  'a option
+)
+"src/core/lwt_sequence.ml" 121 3182 3184 "src/core/lwt_sequence.ml" 127 3307 3312
+type(
+  'a option
+)
+"src/core/lwt_sequence.ml" 129 3314 3318 "src/core/lwt_sequence.ml" 129 3314 3328
+type(
+  'a t -> 'a t -> unit
+)
+ident(
+  def transfer_l "src/core/lwt_sequence.ml" 137 3469 3469 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 129 3314 3329 "src/core/lwt_sequence.ml" 129 3314 3331
+type(
+  'a t
+)
+ident(
+  def s1 "src/core/lwt_sequence.ml" 129 3314 3332 "src/core/lwt_sequence.ml" 135 3452 3467
+)
+"src/core/lwt_sequence.ml" 129 3314 3332 "src/core/lwt_sequence.ml" 129 3314 3334
+type(
+  'a t
+)
+ident(
+  def s2 "src/core/lwt_sequence.ml" 130 3337 3339 "src/core/lwt_sequence.ml" 135 3452 3467
+)
+"src/core/lwt_sequence.ml" 130 3337 3339 "src/core/lwt_sequence.ml" 130 3337 3341
+type(
+  'a t
+)
+ident(
+  int_ref s2 "src/core/lwt_sequence.ml" 129 3314 3332 "src/core/lwt_sequence.ml" 129 3314 3334
+)
+"src/core/lwt_sequence.ml" 130 3337 3339 "src/core/lwt_sequence.ml" 130 3337 3346
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 130 3337 3355 "src/core/lwt_sequence.ml" 130 3337 3357
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 129 3314 3329 "src/core/lwt_sequence.ml" 129 3314 3331
+)
+"src/core/lwt_sequence.ml" 130 3337 3355 "src/core/lwt_sequence.ml" 130 3337 3362
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 130 3337 3339 "src/core/lwt_sequence.ml" 130 3337 3362
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 131 3364 3366 "src/core/lwt_sequence.ml" 131 3364 3368
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 129 3314 3329 "src/core/lwt_sequence.ml" 129 3314 3331
+)
+"src/core/lwt_sequence.ml" 131 3364 3366 "src/core/lwt_sequence.ml" 131 3364 3373
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 131 3364 3382 "src/core/lwt_sequence.ml" 131 3364 3384
+type(
+  'a t
+)
+ident(
+  int_ref s2 "src/core/lwt_sequence.ml" 129 3314 3332 "src/core/lwt_sequence.ml" 129 3314 3334
+)
+"src/core/lwt_sequence.ml" 131 3364 3382 "src/core/lwt_sequence.ml" 131 3364 3389
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 131 3364 3366 "src/core/lwt_sequence.ml" 131 3364 3389
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 132 3391 3393 "src/core/lwt_sequence.ml" 132 3391 3395
+type(
+  'a t
+)
+ident(
+  int_ref s2 "src/core/lwt_sequence.ml" 129 3314 3332 "src/core/lwt_sequence.ml" 129 3314 3334
+)
+"src/core/lwt_sequence.ml" 132 3391 3404 "src/core/lwt_sequence.ml" 132 3391 3406
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 129 3314 3329 "src/core/lwt_sequence.ml" 129 3314 3331
+)
+"src/core/lwt_sequence.ml" 132 3391 3404 "src/core/lwt_sequence.ml" 132 3391 3411
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 132 3391 3393 "src/core/lwt_sequence.ml" 132 3391 3411
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 133 3413 3415 "src/core/lwt_sequence.ml" 133 3413 3417
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 129 3314 3329 "src/core/lwt_sequence.ml" 129 3314 3331
+)
+"src/core/lwt_sequence.ml" 133 3413 3415 "src/core/lwt_sequence.ml" 133 3413 3422
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 133 3413 3431 "src/core/lwt_sequence.ml" 133 3413 3433
+type(
+  'a t
+)
+ident(
+  int_ref s2 "src/core/lwt_sequence.ml" 129 3314 3332 "src/core/lwt_sequence.ml" 129 3314 3334
+)
+"src/core/lwt_sequence.ml" 133 3413 3415 "src/core/lwt_sequence.ml" 133 3413 3433
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 134 3435 3437 "src/core/lwt_sequence.ml" 134 3435 3439
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 129 3314 3329 "src/core/lwt_sequence.ml" 129 3314 3331
+)
+"src/core/lwt_sequence.ml" 134 3435 3448 "src/core/lwt_sequence.ml" 134 3435 3450
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 129 3314 3329 "src/core/lwt_sequence.ml" 129 3314 3331
+)
+"src/core/lwt_sequence.ml" 134 3435 3437 "src/core/lwt_sequence.ml" 134 3435 3450
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 135 3452 3454 "src/core/lwt_sequence.ml" 135 3452 3456
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 129 3314 3329 "src/core/lwt_sequence.ml" 129 3314 3331
+)
+"src/core/lwt_sequence.ml" 135 3452 3465 "src/core/lwt_sequence.ml" 135 3452 3467
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 129 3314 3329 "src/core/lwt_sequence.ml" 129 3314 3331
+)
+"src/core/lwt_sequence.ml" 135 3452 3454 "src/core/lwt_sequence.ml" 135 3452 3467
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 134 3435 3437 "src/core/lwt_sequence.ml" 135 3452 3467
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 133 3413 3415 "src/core/lwt_sequence.ml" 135 3452 3467
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 132 3391 3393 "src/core/lwt_sequence.ml" 135 3452 3467
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 131 3364 3366 "src/core/lwt_sequence.ml" 135 3452 3467
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 130 3337 3339 "src/core/lwt_sequence.ml" 135 3452 3467
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 137 3469 3473 "src/core/lwt_sequence.ml" 137 3469 3483
+type(
+  'a t -> 'a t -> unit
+)
+ident(
+  def transfer_r "src/core/lwt_sequence.ml" 145 3624 3624 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 137 3469 3484 "src/core/lwt_sequence.ml" 137 3469 3486
+type(
+  'a t
+)
+ident(
+  def s1 "src/core/lwt_sequence.ml" 137 3469 3487 "src/core/lwt_sequence.ml" 143 3607 3622
+)
+"src/core/lwt_sequence.ml" 137 3469 3487 "src/core/lwt_sequence.ml" 137 3469 3489
+type(
+  'a t
+)
+ident(
+  def s2 "src/core/lwt_sequence.ml" 138 3492 3494 "src/core/lwt_sequence.ml" 143 3607 3622
+)
+"src/core/lwt_sequence.ml" 138 3492 3494 "src/core/lwt_sequence.ml" 138 3492 3496
+type(
+  'a t
+)
+ident(
+  int_ref s2 "src/core/lwt_sequence.ml" 137 3469 3487 "src/core/lwt_sequence.ml" 137 3469 3489
+)
+"src/core/lwt_sequence.ml" 138 3492 3494 "src/core/lwt_sequence.ml" 138 3492 3501
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 138 3492 3510 "src/core/lwt_sequence.ml" 138 3492 3512
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 137 3469 3484 "src/core/lwt_sequence.ml" 137 3469 3486
+)
+"src/core/lwt_sequence.ml" 138 3492 3510 "src/core/lwt_sequence.ml" 138 3492 3517
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 138 3492 3494 "src/core/lwt_sequence.ml" 138 3492 3517
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 139 3519 3521 "src/core/lwt_sequence.ml" 139 3519 3523
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 137 3469 3484 "src/core/lwt_sequence.ml" 137 3469 3486
+)
+"src/core/lwt_sequence.ml" 139 3519 3521 "src/core/lwt_sequence.ml" 139 3519 3528
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 139 3519 3537 "src/core/lwt_sequence.ml" 139 3519 3539
+type(
+  'a t
+)
+ident(
+  int_ref s2 "src/core/lwt_sequence.ml" 137 3469 3487 "src/core/lwt_sequence.ml" 137 3469 3489
+)
+"src/core/lwt_sequence.ml" 139 3519 3537 "src/core/lwt_sequence.ml" 139 3519 3544
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 139 3519 3521 "src/core/lwt_sequence.ml" 139 3519 3544
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 140 3546 3548 "src/core/lwt_sequence.ml" 140 3546 3550
+type(
+  'a t
+)
+ident(
+  int_ref s2 "src/core/lwt_sequence.ml" 137 3469 3487 "src/core/lwt_sequence.ml" 137 3469 3489
+)
+"src/core/lwt_sequence.ml" 140 3546 3559 "src/core/lwt_sequence.ml" 140 3546 3561
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 137 3469 3484 "src/core/lwt_sequence.ml" 137 3469 3486
+)
+"src/core/lwt_sequence.ml" 140 3546 3559 "src/core/lwt_sequence.ml" 140 3546 3566
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 140 3546 3548 "src/core/lwt_sequence.ml" 140 3546 3566
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 141 3568 3570 "src/core/lwt_sequence.ml" 141 3568 3572
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 137 3469 3484 "src/core/lwt_sequence.ml" 137 3469 3486
+)
+"src/core/lwt_sequence.ml" 141 3568 3570 "src/core/lwt_sequence.ml" 141 3568 3577
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 141 3568 3586 "src/core/lwt_sequence.ml" 141 3568 3588
+type(
+  'a t
+)
+ident(
+  int_ref s2 "src/core/lwt_sequence.ml" 137 3469 3487 "src/core/lwt_sequence.ml" 137 3469 3489
+)
+"src/core/lwt_sequence.ml" 141 3568 3570 "src/core/lwt_sequence.ml" 141 3568 3588
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 142 3590 3592 "src/core/lwt_sequence.ml" 142 3590 3594
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 137 3469 3484 "src/core/lwt_sequence.ml" 137 3469 3486
+)
+"src/core/lwt_sequence.ml" 142 3590 3603 "src/core/lwt_sequence.ml" 142 3590 3605
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 137 3469 3484 "src/core/lwt_sequence.ml" 137 3469 3486
+)
+"src/core/lwt_sequence.ml" 142 3590 3592 "src/core/lwt_sequence.ml" 142 3590 3605
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 143 3607 3609 "src/core/lwt_sequence.ml" 143 3607 3611
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 137 3469 3484 "src/core/lwt_sequence.ml" 137 3469 3486
+)
+"src/core/lwt_sequence.ml" 143 3607 3620 "src/core/lwt_sequence.ml" 143 3607 3622
+type(
+  'a t
+)
+ident(
+  int_ref s1 "src/core/lwt_sequence.ml" 137 3469 3484 "src/core/lwt_sequence.ml" 137 3469 3486
+)
+"src/core/lwt_sequence.ml" 143 3607 3609 "src/core/lwt_sequence.ml" 143 3607 3622
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 142 3590 3592 "src/core/lwt_sequence.ml" 143 3607 3622
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 141 3568 3570 "src/core/lwt_sequence.ml" 143 3607 3622
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 140 3546 3548 "src/core/lwt_sequence.ml" 143 3607 3622
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 139 3519 3521 "src/core/lwt_sequence.ml" 143 3607 3622
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 138 3492 3494 "src/core/lwt_sequence.ml" 143 3607 3622
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 145 3624 3628 "src/core/lwt_sequence.ml" 145 3624 3634
+type(
+  ('a -> unit) -> 'a t -> unit
+)
+ident(
+  def iter_l "src/core/lwt_sequence.ml" 155 3837 3837 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 145 3624 3635 "src/core/lwt_sequence.ml" 145 3624 3636
+type(
+  'a -> unit
+)
+ident(
+  def f "src/core/lwt_sequence.ml" 145 3624 3637 "src/core/lwt_sequence.ml" 153 3820 3835
+)
+"src/core/lwt_sequence.ml" 145 3624 3637 "src/core/lwt_sequence.ml" 145 3624 3640
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 146 3643 3645 "src/core/lwt_sequence.ml" 153 3820 3835
+)
+"src/core/lwt_sequence.ml" 146 3643 3653 "src/core/lwt_sequence.ml" 146 3643 3657
+type(
+  'a t -> unit
+)
+ident(
+  def loop "src/core/lwt_sequence.ml" 146 3643 3645 "src/core/lwt_sequence.ml" 153 3820 3835
+)
+"src/core/lwt_sequence.ml" 146 3643 3658 "src/core/lwt_sequence.ml" 146 3643 3662
+type(
+  'a t
+)
+ident(
+  def curr "src/core/lwt_sequence.ml" 147 3665 3669 "src/core/lwt_sequence.ml" 151 3807 3814
+)
+"src/core/lwt_sequence.ml" 147 3665 3672 "src/core/lwt_sequence.ml" 147 3665 3676
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 146 3643 3658 "src/core/lwt_sequence.ml" 146 3643 3662
+)
+"src/core/lwt_sequence.ml" 147 3665 3677 "src/core/lwt_sequence.ml" 147 3665 3679
+type(
+  'a t -> 'a t -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/core/lwt_sequence.ml" 147 3665 3680 "src/core/lwt_sequence.ml" 147 3665 3683
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 145 3624 3637 "src/core/lwt_sequence.ml" 145 3624 3640
+)
+"src/core/lwt_sequence.ml" 147 3665 3672 "src/core/lwt_sequence.ml" 147 3665 3683
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 148 3695 3705 "src/core/lwt_sequence.ml" 148 3695 3709
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 149 3732 3738 "src/core/lwt_sequence.ml" 150 3781 3806
+)
+"src/core/lwt_sequence.ml" 148 3695 3712 "src/core/lwt_sequence.ml" 148 3695 3723
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref node_of_seq "src/core/lwt_sequence.ml" 38 1203 1203 "src/core/lwt_sequence.ml" 38 1203 1255
+)
+"src/core/lwt_sequence.ml" 148 3695 3724 "src/core/lwt_sequence.ml" 148 3695 3728
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 146 3643 3658 "src/core/lwt_sequence.ml" 146 3643 3662
+)
+"src/core/lwt_sequence.ml" 148 3695 3712 "src/core/lwt_sequence.ml" 148 3695 3728
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 149 3732 3741 "src/core/lwt_sequence.ml" 149 3732 3745
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 148 3695 3705 "src/core/lwt_sequence.ml" 148 3695 3709
+)
+"src/core/lwt_sequence.ml" 149 3732 3741 "src/core/lwt_sequence.ml" 149 3732 3757
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 149 3732 3763 "src/core/lwt_sequence.ml" 149 3732 3764
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "src/core/lwt_sequence.ml" 145 3624 3635 "src/core/lwt_sequence.ml" 145 3624 3636
+)
+"src/core/lwt_sequence.ml" 149 3732 3765 "src/core/lwt_sequence.ml" 149 3732 3769
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 148 3695 3705 "src/core/lwt_sequence.ml" 148 3695 3709
+)
+"src/core/lwt_sequence.ml" 149 3732 3765 "src/core/lwt_sequence.ml" 149 3732 3779
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 149 3732 3763 "src/core/lwt_sequence.ml" 149 3732 3779
+call(
+  stack
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 149 3732 3738 "src/core/lwt_sequence.ml" 149 3732 3779
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 150 3781 3787 "src/core/lwt_sequence.ml" 150 3781 3791
+type(
+  'a t -> unit
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 146 3643 3653 "src/core/lwt_sequence.ml" 146 3643 3657
+)
+"src/core/lwt_sequence.ml" 150 3781 3792 "src/core/lwt_sequence.ml" 150 3781 3796
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 148 3695 3705 "src/core/lwt_sequence.ml" 148 3695 3709
+)
+"src/core/lwt_sequence.ml" 150 3781 3792 "src/core/lwt_sequence.ml" 150 3781 3806
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 150 3781 3787 "src/core/lwt_sequence.ml" 150 3781 3806
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 149 3732 3738 "src/core/lwt_sequence.ml" 150 3781 3806
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 147 3665 3689 "src/core/lwt_sequence.ml" 151 3807 3814
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 147 3665 3669 "src/core/lwt_sequence.ml" 151 3807 3814
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 153 3820 3822 "src/core/lwt_sequence.ml" 153 3820 3826
+type(
+  'a t -> unit
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 146 3643 3653 "src/core/lwt_sequence.ml" 146 3643 3657
+)
+"src/core/lwt_sequence.ml" 153 3820 3827 "src/core/lwt_sequence.ml" 153 3820 3830
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 145 3624 3637 "src/core/lwt_sequence.ml" 145 3624 3640
+)
+"src/core/lwt_sequence.ml" 153 3820 3827 "src/core/lwt_sequence.ml" 153 3820 3835
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 153 3820 3822 "src/core/lwt_sequence.ml" 153 3820 3835
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 146 3643 3645 "src/core/lwt_sequence.ml" 153 3820 3835
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 155 3837 3841 "src/core/lwt_sequence.ml" 155 3837 3847
+type(
+  ('a -> unit) -> 'a t -> unit
+)
+ident(
+  def iter_r "src/core/lwt_sequence.ml" 165 4050 4050 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 155 3837 3848 "src/core/lwt_sequence.ml" 155 3837 3849
+type(
+  'a -> unit
+)
+ident(
+  def f "src/core/lwt_sequence.ml" 155 3837 3850 "src/core/lwt_sequence.ml" 163 4033 4048
+)
+"src/core/lwt_sequence.ml" 155 3837 3850 "src/core/lwt_sequence.ml" 155 3837 3853
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 156 3856 3858 "src/core/lwt_sequence.ml" 163 4033 4048
+)
+"src/core/lwt_sequence.ml" 156 3856 3866 "src/core/lwt_sequence.ml" 156 3856 3870
+type(
+  'a t -> unit
+)
+ident(
+  def loop "src/core/lwt_sequence.ml" 156 3856 3858 "src/core/lwt_sequence.ml" 163 4033 4048
+)
+"src/core/lwt_sequence.ml" 156 3856 3871 "src/core/lwt_sequence.ml" 156 3856 3875
+type(
+  'a t
+)
+ident(
+  def curr "src/core/lwt_sequence.ml" 157 3878 3882 "src/core/lwt_sequence.ml" 161 4020 4027
+)
+"src/core/lwt_sequence.ml" 157 3878 3885 "src/core/lwt_sequence.ml" 157 3878 3889
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 156 3856 3871 "src/core/lwt_sequence.ml" 156 3856 3875
+)
+"src/core/lwt_sequence.ml" 157 3878 3890 "src/core/lwt_sequence.ml" 157 3878 3892
+type(
+  'a t -> 'a t -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/core/lwt_sequence.ml" 157 3878 3893 "src/core/lwt_sequence.ml" 157 3878 3896
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 155 3837 3850 "src/core/lwt_sequence.ml" 155 3837 3853
+)
+"src/core/lwt_sequence.ml" 157 3878 3885 "src/core/lwt_sequence.ml" 157 3878 3896
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 158 3908 3918 "src/core/lwt_sequence.ml" 158 3908 3922
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 159 3945 3951 "src/core/lwt_sequence.ml" 160 3994 4019
+)
+"src/core/lwt_sequence.ml" 158 3908 3925 "src/core/lwt_sequence.ml" 158 3908 3936
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref node_of_seq "src/core/lwt_sequence.ml" 38 1203 1203 "src/core/lwt_sequence.ml" 38 1203 1255
+)
+"src/core/lwt_sequence.ml" 158 3908 3937 "src/core/lwt_sequence.ml" 158 3908 3941
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 156 3856 3871 "src/core/lwt_sequence.ml" 156 3856 3875
+)
+"src/core/lwt_sequence.ml" 158 3908 3925 "src/core/lwt_sequence.ml" 158 3908 3941
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 159 3945 3954 "src/core/lwt_sequence.ml" 159 3945 3958
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 158 3908 3918 "src/core/lwt_sequence.ml" 158 3908 3922
+)
+"src/core/lwt_sequence.ml" 159 3945 3954 "src/core/lwt_sequence.ml" 159 3945 3970
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 159 3945 3976 "src/core/lwt_sequence.ml" 159 3945 3977
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "src/core/lwt_sequence.ml" 155 3837 3848 "src/core/lwt_sequence.ml" 155 3837 3849
+)
+"src/core/lwt_sequence.ml" 159 3945 3978 "src/core/lwt_sequence.ml" 159 3945 3982
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 158 3908 3918 "src/core/lwt_sequence.ml" 158 3908 3922
+)
+"src/core/lwt_sequence.ml" 159 3945 3978 "src/core/lwt_sequence.ml" 159 3945 3992
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 159 3945 3976 "src/core/lwt_sequence.ml" 159 3945 3992
+call(
+  stack
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 159 3945 3951 "src/core/lwt_sequence.ml" 159 3945 3992
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 160 3994 4000 "src/core/lwt_sequence.ml" 160 3994 4004
+type(
+  'a t -> unit
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 156 3856 3866 "src/core/lwt_sequence.ml" 156 3856 3870
+)
+"src/core/lwt_sequence.ml" 160 3994 4005 "src/core/lwt_sequence.ml" 160 3994 4009
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 158 3908 3918 "src/core/lwt_sequence.ml" 158 3908 3922
+)
+"src/core/lwt_sequence.ml" 160 3994 4005 "src/core/lwt_sequence.ml" 160 3994 4019
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 160 3994 4000 "src/core/lwt_sequence.ml" 160 3994 4019
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 159 3945 3951 "src/core/lwt_sequence.ml" 160 3994 4019
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 157 3878 3902 "src/core/lwt_sequence.ml" 161 4020 4027
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 157 3878 3882 "src/core/lwt_sequence.ml" 161 4020 4027
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 163 4033 4035 "src/core/lwt_sequence.ml" 163 4033 4039
+type(
+  'a t -> unit
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 156 3856 3866 "src/core/lwt_sequence.ml" 156 3856 3870
+)
+"src/core/lwt_sequence.ml" 163 4033 4040 "src/core/lwt_sequence.ml" 163 4033 4043
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 155 3837 3850 "src/core/lwt_sequence.ml" 155 3837 3853
+)
+"src/core/lwt_sequence.ml" 163 4033 4040 "src/core/lwt_sequence.ml" 163 4033 4048
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 163 4033 4035 "src/core/lwt_sequence.ml" 163 4033 4048
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 156 3856 3858 "src/core/lwt_sequence.ml" 163 4033 4048
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 165 4050 4054 "src/core/lwt_sequence.ml" 165 4050 4065
+type(
+  ('a node -> unit) -> 'a t -> unit
+)
+ident(
+  def iter_node_l "src/core/lwt_sequence.ml" 175 4258 4258 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 165 4050 4066 "src/core/lwt_sequence.ml" 165 4050 4067
+type(
+  'a node -> unit
+)
+ident(
+  def f "src/core/lwt_sequence.ml" 165 4050 4068 "src/core/lwt_sequence.ml" 173 4241 4256
+)
+"src/core/lwt_sequence.ml" 165 4050 4068 "src/core/lwt_sequence.ml" 165 4050 4071
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 166 4074 4076 "src/core/lwt_sequence.ml" 173 4241 4256
+)
+"src/core/lwt_sequence.ml" 166 4074 4084 "src/core/lwt_sequence.ml" 166 4074 4088
+type(
+  'a t -> unit
+)
+ident(
+  def loop "src/core/lwt_sequence.ml" 166 4074 4076 "src/core/lwt_sequence.ml" 173 4241 4256
+)
+"src/core/lwt_sequence.ml" 166 4074 4089 "src/core/lwt_sequence.ml" 166 4074 4093
+type(
+  'a t
+)
+ident(
+  def curr "src/core/lwt_sequence.ml" 167 4096 4100 "src/core/lwt_sequence.ml" 171 4228 4235
+)
+"src/core/lwt_sequence.ml" 167 4096 4103 "src/core/lwt_sequence.ml" 167 4096 4107
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 166 4074 4089 "src/core/lwt_sequence.ml" 166 4074 4093
+)
+"src/core/lwt_sequence.ml" 167 4096 4108 "src/core/lwt_sequence.ml" 167 4096 4110
+type(
+  'a t -> 'a t -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/core/lwt_sequence.ml" 167 4096 4111 "src/core/lwt_sequence.ml" 167 4096 4114
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 165 4050 4068 "src/core/lwt_sequence.ml" 165 4050 4071
+)
+"src/core/lwt_sequence.ml" 167 4096 4103 "src/core/lwt_sequence.ml" 167 4096 4114
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 168 4126 4136 "src/core/lwt_sequence.ml" 168 4126 4140
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 169 4163 4169 "src/core/lwt_sequence.ml" 170 4202 4227
+)
+"src/core/lwt_sequence.ml" 168 4126 4143 "src/core/lwt_sequence.ml" 168 4126 4154
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref node_of_seq "src/core/lwt_sequence.ml" 38 1203 1203 "src/core/lwt_sequence.ml" 38 1203 1255
+)
+"src/core/lwt_sequence.ml" 168 4126 4155 "src/core/lwt_sequence.ml" 168 4126 4159
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 166 4074 4089 "src/core/lwt_sequence.ml" 166 4074 4093
+)
+"src/core/lwt_sequence.ml" 168 4126 4143 "src/core/lwt_sequence.ml" 168 4126 4159
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 169 4163 4172 "src/core/lwt_sequence.ml" 169 4163 4176
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 168 4126 4136 "src/core/lwt_sequence.ml" 168 4126 4140
+)
+"src/core/lwt_sequence.ml" 169 4163 4172 "src/core/lwt_sequence.ml" 169 4163 4188
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 169 4163 4194 "src/core/lwt_sequence.ml" 169 4163 4195
+type(
+  'a node -> unit
+)
+ident(
+  int_ref f "src/core/lwt_sequence.ml" 165 4050 4066 "src/core/lwt_sequence.ml" 165 4050 4067
+)
+"src/core/lwt_sequence.ml" 169 4163 4196 "src/core/lwt_sequence.ml" 169 4163 4200
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 168 4126 4136 "src/core/lwt_sequence.ml" 168 4126 4140
+)
+"src/core/lwt_sequence.ml" 169 4163 4194 "src/core/lwt_sequence.ml" 169 4163 4200
+call(
+  stack
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 169 4163 4169 "src/core/lwt_sequence.ml" 169 4163 4200
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 170 4202 4208 "src/core/lwt_sequence.ml" 170 4202 4212
+type(
+  'a t -> unit
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 166 4074 4084 "src/core/lwt_sequence.ml" 166 4074 4088
+)
+"src/core/lwt_sequence.ml" 170 4202 4213 "src/core/lwt_sequence.ml" 170 4202 4217
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 168 4126 4136 "src/core/lwt_sequence.ml" 168 4126 4140
+)
+"src/core/lwt_sequence.ml" 170 4202 4213 "src/core/lwt_sequence.ml" 170 4202 4227
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 170 4202 4208 "src/core/lwt_sequence.ml" 170 4202 4227
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 169 4163 4169 "src/core/lwt_sequence.ml" 170 4202 4227
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 167 4096 4120 "src/core/lwt_sequence.ml" 171 4228 4235
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 167 4096 4100 "src/core/lwt_sequence.ml" 171 4228 4235
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 173 4241 4243 "src/core/lwt_sequence.ml" 173 4241 4247
+type(
+  'a t -> unit
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 166 4074 4084 "src/core/lwt_sequence.ml" 166 4074 4088
+)
+"src/core/lwt_sequence.ml" 173 4241 4248 "src/core/lwt_sequence.ml" 173 4241 4251
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 165 4050 4068 "src/core/lwt_sequence.ml" 165 4050 4071
+)
+"src/core/lwt_sequence.ml" 173 4241 4248 "src/core/lwt_sequence.ml" 173 4241 4256
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 173 4241 4243 "src/core/lwt_sequence.ml" 173 4241 4256
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 166 4074 4076 "src/core/lwt_sequence.ml" 173 4241 4256
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 175 4258 4262 "src/core/lwt_sequence.ml" 175 4258 4273
+type(
+  ('a node -> unit) -> 'a t -> unit
+)
+ident(
+  def iter_node_r "src/core/lwt_sequence.ml" 185 4466 4466 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 175 4258 4274 "src/core/lwt_sequence.ml" 175 4258 4275
+type(
+  'a node -> unit
+)
+ident(
+  def f "src/core/lwt_sequence.ml" 175 4258 4276 "src/core/lwt_sequence.ml" 183 4449 4464
+)
+"src/core/lwt_sequence.ml" 175 4258 4276 "src/core/lwt_sequence.ml" 175 4258 4279
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 176 4282 4284 "src/core/lwt_sequence.ml" 183 4449 4464
+)
+"src/core/lwt_sequence.ml" 176 4282 4292 "src/core/lwt_sequence.ml" 176 4282 4296
+type(
+  'a t -> unit
+)
+ident(
+  def loop "src/core/lwt_sequence.ml" 176 4282 4284 "src/core/lwt_sequence.ml" 183 4449 4464
+)
+"src/core/lwt_sequence.ml" 176 4282 4297 "src/core/lwt_sequence.ml" 176 4282 4301
+type(
+  'a t
+)
+ident(
+  def curr "src/core/lwt_sequence.ml" 177 4304 4308 "src/core/lwt_sequence.ml" 181 4436 4443
+)
+"src/core/lwt_sequence.ml" 177 4304 4311 "src/core/lwt_sequence.ml" 177 4304 4315
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 176 4282 4297 "src/core/lwt_sequence.ml" 176 4282 4301
+)
+"src/core/lwt_sequence.ml" 177 4304 4316 "src/core/lwt_sequence.ml" 177 4304 4318
+type(
+  'a t -> 'a t -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/core/lwt_sequence.ml" 177 4304 4319 "src/core/lwt_sequence.ml" 177 4304 4322
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 175 4258 4276 "src/core/lwt_sequence.ml" 175 4258 4279
+)
+"src/core/lwt_sequence.ml" 177 4304 4311 "src/core/lwt_sequence.ml" 177 4304 4322
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 178 4334 4344 "src/core/lwt_sequence.ml" 178 4334 4348
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 179 4371 4377 "src/core/lwt_sequence.ml" 180 4410 4435
+)
+"src/core/lwt_sequence.ml" 178 4334 4351 "src/core/lwt_sequence.ml" 178 4334 4362
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref node_of_seq "src/core/lwt_sequence.ml" 38 1203 1203 "src/core/lwt_sequence.ml" 38 1203 1255
+)
+"src/core/lwt_sequence.ml" 178 4334 4363 "src/core/lwt_sequence.ml" 178 4334 4367
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 176 4282 4297 "src/core/lwt_sequence.ml" 176 4282 4301
+)
+"src/core/lwt_sequence.ml" 178 4334 4351 "src/core/lwt_sequence.ml" 178 4334 4367
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 179 4371 4380 "src/core/lwt_sequence.ml" 179 4371 4384
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 178 4334 4344 "src/core/lwt_sequence.ml" 178 4334 4348
+)
+"src/core/lwt_sequence.ml" 179 4371 4380 "src/core/lwt_sequence.ml" 179 4371 4396
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 179 4371 4402 "src/core/lwt_sequence.ml" 179 4371 4403
+type(
+  'a node -> unit
+)
+ident(
+  int_ref f "src/core/lwt_sequence.ml" 175 4258 4274 "src/core/lwt_sequence.ml" 175 4258 4275
+)
+"src/core/lwt_sequence.ml" 179 4371 4404 "src/core/lwt_sequence.ml" 179 4371 4408
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 178 4334 4344 "src/core/lwt_sequence.ml" 178 4334 4348
+)
+"src/core/lwt_sequence.ml" 179 4371 4402 "src/core/lwt_sequence.ml" 179 4371 4408
+call(
+  stack
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 179 4371 4377 "src/core/lwt_sequence.ml" 179 4371 4408
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 180 4410 4416 "src/core/lwt_sequence.ml" 180 4410 4420
+type(
+  'a t -> unit
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 176 4282 4292 "src/core/lwt_sequence.ml" 176 4282 4296
+)
+"src/core/lwt_sequence.ml" 180 4410 4421 "src/core/lwt_sequence.ml" 180 4410 4425
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 178 4334 4344 "src/core/lwt_sequence.ml" 178 4334 4348
+)
+"src/core/lwt_sequence.ml" 180 4410 4421 "src/core/lwt_sequence.ml" 180 4410 4435
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 180 4410 4416 "src/core/lwt_sequence.ml" 180 4410 4435
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 179 4371 4377 "src/core/lwt_sequence.ml" 180 4410 4435
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 177 4304 4328 "src/core/lwt_sequence.ml" 181 4436 4443
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 177 4304 4308 "src/core/lwt_sequence.ml" 181 4436 4443
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 183 4449 4451 "src/core/lwt_sequence.ml" 183 4449 4455
+type(
+  'a t -> unit
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 176 4282 4292 "src/core/lwt_sequence.ml" 176 4282 4296
+)
+"src/core/lwt_sequence.ml" 183 4449 4456 "src/core/lwt_sequence.ml" 183 4449 4459
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 175 4258 4276 "src/core/lwt_sequence.ml" 175 4258 4279
+)
+"src/core/lwt_sequence.ml" 183 4449 4456 "src/core/lwt_sequence.ml" 183 4449 4464
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 183 4449 4451 "src/core/lwt_sequence.ml" 183 4449 4464
+call(
+  tail
+)
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 176 4282 4284 "src/core/lwt_sequence.ml" 183 4449 4464
+type(
+  unit
+)
+"src/core/lwt_sequence.ml" 185 4466 4470 "src/core/lwt_sequence.ml" 185 4466 4476
+type(
+  ('a -> 'b -> 'b) -> 'a t -> 'b -> 'b
+)
+ident(
+  def fold_l "src/core/lwt_sequence.ml" 198 4746 4746 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 185 4466 4477 "src/core/lwt_sequence.ml" 185 4466 4478
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  def f "src/core/lwt_sequence.ml" 185 4466 4479 "src/core/lwt_sequence.ml" 196 4725 4744
+)
+"src/core/lwt_sequence.ml" 185 4466 4479 "src/core/lwt_sequence.ml" 185 4466 4482
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 185 4466 4483 "src/core/lwt_sequence.ml" 196 4725 4744
+)
+"src/core/lwt_sequence.ml" 185 4466 4483 "src/core/lwt_sequence.ml" 185 4466 4486
+type(
+  'b
+)
+ident(
+  def acc "src/core/lwt_sequence.ml" 186 4489 4491 "src/core/lwt_sequence.ml" 196 4725 4744
+)
+"src/core/lwt_sequence.ml" 186 4489 4499 "src/core/lwt_sequence.ml" 186 4489 4503
+type(
+  'a t -> 'b -> 'b
+)
+ident(
+  def loop "src/core/lwt_sequence.ml" 186 4489 4491 "src/core/lwt_sequence.ml" 196 4725 4744
+)
+"src/core/lwt_sequence.ml" 186 4489 4504 "src/core/lwt_sequence.ml" 186 4489 4508
+type(
+  'a t
+)
+ident(
+  def curr "src/core/lwt_sequence.ml" 186 4489 4509 "src/core/lwt_sequence.ml" 194 4688 4719
+)
+"src/core/lwt_sequence.ml" 186 4489 4509 "src/core/lwt_sequence.ml" 186 4489 4512
+type(
+  'b
+)
+ident(
+  def acc "src/core/lwt_sequence.ml" 187 4515 4519 "src/core/lwt_sequence.ml" 194 4688 4719
+)
+"src/core/lwt_sequence.ml" 187 4515 4522 "src/core/lwt_sequence.ml" 187 4515 4526
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 186 4489 4504 "src/core/lwt_sequence.ml" 186 4489 4508
+)
+"src/core/lwt_sequence.ml" 187 4515 4527 "src/core/lwt_sequence.ml" 187 4515 4529
+type(
+  'a t -> 'a t -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/core/lwt_sequence.ml" 187 4515 4530 "src/core/lwt_sequence.ml" 187 4515 4533
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 185 4466 4479 "src/core/lwt_sequence.ml" 185 4466 4482
+)
+"src/core/lwt_sequence.ml" 187 4515 4522 "src/core/lwt_sequence.ml" 187 4515 4533
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 188 4539 4545 "src/core/lwt_sequence.ml" 188 4539 4548
+type(
+  'b
+)
+ident(
+  int_ref acc "src/core/lwt_sequence.ml" 186 4489 4509 "src/core/lwt_sequence.ml" 186 4489 4512
+)
+"src/core/lwt_sequence.ml" 190 4558 4568 "src/core/lwt_sequence.ml" 190 4558 4572
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 191 4595 4601 "src/core/lwt_sequence.ml" 194 4688 4719
+)
+"src/core/lwt_sequence.ml" 190 4558 4575 "src/core/lwt_sequence.ml" 190 4558 4586
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref node_of_seq "src/core/lwt_sequence.ml" 38 1203 1203 "src/core/lwt_sequence.ml" 38 1203 1255
+)
+"src/core/lwt_sequence.ml" 190 4558 4587 "src/core/lwt_sequence.ml" 190 4558 4591
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 186 4489 4504 "src/core/lwt_sequence.ml" 186 4489 4508
+)
+"src/core/lwt_sequence.ml" 190 4558 4575 "src/core/lwt_sequence.ml" 190 4558 4591
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 191 4595 4604 "src/core/lwt_sequence.ml" 191 4595 4608
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 190 4558 4568 "src/core/lwt_sequence.ml" 190 4558 4572
+)
+"src/core/lwt_sequence.ml" 191 4595 4604 "src/core/lwt_sequence.ml" 191 4595 4620
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 192 4626 4634 "src/core/lwt_sequence.ml" 192 4626 4638
+type(
+  'a t -> 'b -> 'b
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 186 4489 4499 "src/core/lwt_sequence.ml" 186 4489 4503
+)
+"src/core/lwt_sequence.ml" 192 4626 4639 "src/core/lwt_sequence.ml" 192 4626 4643
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 190 4558 4568 "src/core/lwt_sequence.ml" 190 4558 4572
+)
+"src/core/lwt_sequence.ml" 192 4626 4639 "src/core/lwt_sequence.ml" 192 4626 4653
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 192 4626 4655 "src/core/lwt_sequence.ml" 192 4626 4656
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref f "src/core/lwt_sequence.ml" 185 4466 4477 "src/core/lwt_sequence.ml" 185 4466 4478
+)
+"src/core/lwt_sequence.ml" 192 4626 4657 "src/core/lwt_sequence.ml" 192 4626 4661
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 190 4558 4568 "src/core/lwt_sequence.ml" 190 4558 4572
+)
+"src/core/lwt_sequence.ml" 192 4626 4657 "src/core/lwt_sequence.ml" 192 4626 4671
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 192 4626 4672 "src/core/lwt_sequence.ml" 192 4626 4675
+type(
+  'b
+)
+ident(
+  int_ref acc "src/core/lwt_sequence.ml" 186 4489 4509 "src/core/lwt_sequence.ml" 186 4489 4512
+)
+"src/core/lwt_sequence.ml" 192 4626 4654 "src/core/lwt_sequence.ml" 192 4626 4676
+call(
+  stack
+)
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 192 4626 4634 "src/core/lwt_sequence.ml" 192 4626 4676
+call(
+  tail
+)
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 194 4688 4696 "src/core/lwt_sequence.ml" 194 4688 4700
+type(
+  'a t -> 'b -> 'b
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 186 4489 4499 "src/core/lwt_sequence.ml" 186 4489 4503
+)
+"src/core/lwt_sequence.ml" 194 4688 4701 "src/core/lwt_sequence.ml" 194 4688 4705
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 190 4558 4568 "src/core/lwt_sequence.ml" 190 4558 4572
+)
+"src/core/lwt_sequence.ml" 194 4688 4701 "src/core/lwt_sequence.ml" 194 4688 4715
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 194 4688 4716 "src/core/lwt_sequence.ml" 194 4688 4719
+type(
+  'b
+)
+ident(
+  int_ref acc "src/core/lwt_sequence.ml" 186 4489 4509 "src/core/lwt_sequence.ml" 186 4489 4512
+)
+"src/core/lwt_sequence.ml" 194 4688 4696 "src/core/lwt_sequence.ml" 194 4688 4719
+call(
+  tail
+)
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 191 4595 4601 "src/core/lwt_sequence.ml" 194 4688 4719
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 190 4558 4564 "src/core/lwt_sequence.ml" 194 4688 4719
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 187 4515 4519 "src/core/lwt_sequence.ml" 194 4688 4719
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 196 4725 4727 "src/core/lwt_sequence.ml" 196 4725 4731
+type(
+  'a t -> 'b -> 'b
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 186 4489 4499 "src/core/lwt_sequence.ml" 186 4489 4503
+)
+"src/core/lwt_sequence.ml" 196 4725 4732 "src/core/lwt_sequence.ml" 196 4725 4735
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 185 4466 4479 "src/core/lwt_sequence.ml" 185 4466 4482
+)
+"src/core/lwt_sequence.ml" 196 4725 4732 "src/core/lwt_sequence.ml" 196 4725 4740
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 196 4725 4741 "src/core/lwt_sequence.ml" 196 4725 4744
+type(
+  'b
+)
+ident(
+  int_ref acc "src/core/lwt_sequence.ml" 185 4466 4483 "src/core/lwt_sequence.ml" 185 4466 4486
+)
+"src/core/lwt_sequence.ml" 196 4725 4727 "src/core/lwt_sequence.ml" 196 4725 4744
+call(
+  tail
+)
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 186 4489 4491 "src/core/lwt_sequence.ml" 196 4725 4744
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 198 4746 4750 "src/core/lwt_sequence.ml" 198 4746 4756
+type(
+  ('a -> 'b -> 'b) -> 'a t -> 'b -> 'b
+)
+ident(
+  def fold_r "src/core/lwt_sequence.ml" 211 5026 5026 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 198 4746 4757 "src/core/lwt_sequence.ml" 198 4746 4758
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  def f "src/core/lwt_sequence.ml" 198 4746 4759 "src/core/lwt_sequence.ml" 209 5005 5024
+)
+"src/core/lwt_sequence.ml" 198 4746 4759 "src/core/lwt_sequence.ml" 198 4746 4762
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 198 4746 4763 "src/core/lwt_sequence.ml" 209 5005 5024
+)
+"src/core/lwt_sequence.ml" 198 4746 4763 "src/core/lwt_sequence.ml" 198 4746 4766
+type(
+  'b
+)
+ident(
+  def acc "src/core/lwt_sequence.ml" 199 4769 4771 "src/core/lwt_sequence.ml" 209 5005 5024
+)
+"src/core/lwt_sequence.ml" 199 4769 4779 "src/core/lwt_sequence.ml" 199 4769 4783
+type(
+  'a t -> 'b -> 'b
+)
+ident(
+  def loop "src/core/lwt_sequence.ml" 199 4769 4771 "src/core/lwt_sequence.ml" 209 5005 5024
+)
+"src/core/lwt_sequence.ml" 199 4769 4784 "src/core/lwt_sequence.ml" 199 4769 4788
+type(
+  'a t
+)
+ident(
+  def curr "src/core/lwt_sequence.ml" 199 4769 4789 "src/core/lwt_sequence.ml" 207 4968 4999
+)
+"src/core/lwt_sequence.ml" 199 4769 4789 "src/core/lwt_sequence.ml" 199 4769 4792
+type(
+  'b
+)
+ident(
+  def acc "src/core/lwt_sequence.ml" 200 4795 4799 "src/core/lwt_sequence.ml" 207 4968 4999
+)
+"src/core/lwt_sequence.ml" 200 4795 4802 "src/core/lwt_sequence.ml" 200 4795 4806
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 199 4769 4784 "src/core/lwt_sequence.ml" 199 4769 4788
+)
+"src/core/lwt_sequence.ml" 200 4795 4807 "src/core/lwt_sequence.ml" 200 4795 4809
+type(
+  'a t -> 'a t -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/core/lwt_sequence.ml" 200 4795 4810 "src/core/lwt_sequence.ml" 200 4795 4813
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 198 4746 4759 "src/core/lwt_sequence.ml" 198 4746 4762
+)
+"src/core/lwt_sequence.ml" 200 4795 4802 "src/core/lwt_sequence.ml" 200 4795 4813
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 201 4819 4825 "src/core/lwt_sequence.ml" 201 4819 4828
+type(
+  'b
+)
+ident(
+  int_ref acc "src/core/lwt_sequence.ml" 199 4769 4789 "src/core/lwt_sequence.ml" 199 4769 4792
+)
+"src/core/lwt_sequence.ml" 203 4838 4848 "src/core/lwt_sequence.ml" 203 4838 4852
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 204 4875 4881 "src/core/lwt_sequence.ml" 207 4968 4999
+)
+"src/core/lwt_sequence.ml" 203 4838 4855 "src/core/lwt_sequence.ml" 203 4838 4866
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref node_of_seq "src/core/lwt_sequence.ml" 38 1203 1203 "src/core/lwt_sequence.ml" 38 1203 1255
+)
+"src/core/lwt_sequence.ml" 203 4838 4867 "src/core/lwt_sequence.ml" 203 4838 4871
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 199 4769 4784 "src/core/lwt_sequence.ml" 199 4769 4788
+)
+"src/core/lwt_sequence.ml" 203 4838 4855 "src/core/lwt_sequence.ml" 203 4838 4871
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 204 4875 4884 "src/core/lwt_sequence.ml" 204 4875 4888
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 203 4838 4848 "src/core/lwt_sequence.ml" 203 4838 4852
+)
+"src/core/lwt_sequence.ml" 204 4875 4884 "src/core/lwt_sequence.ml" 204 4875 4900
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 205 4906 4914 "src/core/lwt_sequence.ml" 205 4906 4918
+type(
+  'a t -> 'b -> 'b
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 199 4769 4779 "src/core/lwt_sequence.ml" 199 4769 4783
+)
+"src/core/lwt_sequence.ml" 205 4906 4919 "src/core/lwt_sequence.ml" 205 4906 4923
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 203 4838 4848 "src/core/lwt_sequence.ml" 203 4838 4852
+)
+"src/core/lwt_sequence.ml" 205 4906 4919 "src/core/lwt_sequence.ml" 205 4906 4933
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 205 4906 4935 "src/core/lwt_sequence.ml" 205 4906 4936
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  int_ref f "src/core/lwt_sequence.ml" 198 4746 4757 "src/core/lwt_sequence.ml" 198 4746 4758
+)
+"src/core/lwt_sequence.ml" 205 4906 4937 "src/core/lwt_sequence.ml" 205 4906 4941
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 203 4838 4848 "src/core/lwt_sequence.ml" 203 4838 4852
+)
+"src/core/lwt_sequence.ml" 205 4906 4937 "src/core/lwt_sequence.ml" 205 4906 4951
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 205 4906 4952 "src/core/lwt_sequence.ml" 205 4906 4955
+type(
+  'b
+)
+ident(
+  int_ref acc "src/core/lwt_sequence.ml" 199 4769 4789 "src/core/lwt_sequence.ml" 199 4769 4792
+)
+"src/core/lwt_sequence.ml" 205 4906 4934 "src/core/lwt_sequence.ml" 205 4906 4956
+call(
+  stack
+)
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 205 4906 4914 "src/core/lwt_sequence.ml" 205 4906 4956
+call(
+  tail
+)
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 207 4968 4976 "src/core/lwt_sequence.ml" 207 4968 4980
+type(
+  'a t -> 'b -> 'b
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 199 4769 4779 "src/core/lwt_sequence.ml" 199 4769 4783
+)
+"src/core/lwt_sequence.ml" 207 4968 4981 "src/core/lwt_sequence.ml" 207 4968 4985
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 203 4838 4848 "src/core/lwt_sequence.ml" 203 4838 4852
+)
+"src/core/lwt_sequence.ml" 207 4968 4981 "src/core/lwt_sequence.ml" 207 4968 4995
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 207 4968 4996 "src/core/lwt_sequence.ml" 207 4968 4999
+type(
+  'b
+)
+ident(
+  int_ref acc "src/core/lwt_sequence.ml" 199 4769 4789 "src/core/lwt_sequence.ml" 199 4769 4792
+)
+"src/core/lwt_sequence.ml" 207 4968 4976 "src/core/lwt_sequence.ml" 207 4968 4999
+call(
+  tail
+)
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 204 4875 4881 "src/core/lwt_sequence.ml" 207 4968 4999
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 203 4838 4844 "src/core/lwt_sequence.ml" 207 4968 4999
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 200 4795 4799 "src/core/lwt_sequence.ml" 207 4968 4999
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 209 5005 5007 "src/core/lwt_sequence.ml" 209 5005 5011
+type(
+  'a t -> 'b -> 'b
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 199 4769 4779 "src/core/lwt_sequence.ml" 199 4769 4783
+)
+"src/core/lwt_sequence.ml" 209 5005 5012 "src/core/lwt_sequence.ml" 209 5005 5015
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 198 4746 4759 "src/core/lwt_sequence.ml" 198 4746 4762
+)
+"src/core/lwt_sequence.ml" 209 5005 5012 "src/core/lwt_sequence.ml" 209 5005 5020
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 209 5005 5021 "src/core/lwt_sequence.ml" 209 5005 5024
+type(
+  'b
+)
+ident(
+  int_ref acc "src/core/lwt_sequence.ml" 198 4746 4763 "src/core/lwt_sequence.ml" 198 4746 4766
+)
+"src/core/lwt_sequence.ml" 209 5005 5007 "src/core/lwt_sequence.ml" 209 5005 5024
+call(
+  tail
+)
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 199 4769 4771 "src/core/lwt_sequence.ml" 209 5005 5024
+type(
+  'b
+)
+"src/core/lwt_sequence.ml" 211 5026 5030 "src/core/lwt_sequence.ml" 211 5026 5041
+type(
+  ('a -> bool) -> 'a t -> 'a node
+)
+ident(
+  def find_node_l "src/core/lwt_sequence.ml" 227 5347 5347 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 211 5026 5042 "src/core/lwt_sequence.ml" 211 5026 5043
+type(
+  'a -> bool
+)
+ident(
+  def f "src/core/lwt_sequence.ml" 211 5026 5044 "src/core/lwt_sequence.ml" 225 5330 5345
+)
+"src/core/lwt_sequence.ml" 211 5026 5044 "src/core/lwt_sequence.ml" 211 5026 5047
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 212 5050 5052 "src/core/lwt_sequence.ml" 225 5330 5345
+)
+"src/core/lwt_sequence.ml" 212 5050 5060 "src/core/lwt_sequence.ml" 212 5050 5064
+type(
+  'a t -> 'a node
+)
+ident(
+  def loop "src/core/lwt_sequence.ml" 212 5050 5052 "src/core/lwt_sequence.ml" 225 5330 5345
+)
+"src/core/lwt_sequence.ml" 212 5050 5065 "src/core/lwt_sequence.ml" 212 5050 5069
+type(
+  'a t
+)
+ident(
+  def curr "src/core/lwt_sequence.ml" 213 5072 5076 "src/core/lwt_sequence.ml" 223 5303 5324
+)
+"src/core/lwt_sequence.ml" 213 5072 5079 "src/core/lwt_sequence.ml" 213 5072 5083
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 212 5050 5065 "src/core/lwt_sequence.ml" 212 5050 5069
+)
+"src/core/lwt_sequence.ml" 213 5072 5084 "src/core/lwt_sequence.ml" 213 5072 5086
+type(
+  'a t -> 'a t -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/core/lwt_sequence.ml" 213 5072 5087 "src/core/lwt_sequence.ml" 213 5072 5090
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 211 5026 5044 "src/core/lwt_sequence.ml" 211 5026 5047
+)
+"src/core/lwt_sequence.ml" 213 5072 5079 "src/core/lwt_sequence.ml" 213 5072 5090
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 214 5096 5106 "src/core/lwt_sequence.ml" 214 5096 5110
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 215 5133 5139 "src/core/lwt_sequence.ml" 221 5266 5293
+)
+"src/core/lwt_sequence.ml" 214 5096 5113 "src/core/lwt_sequence.ml" 214 5096 5124
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref node_of_seq "src/core/lwt_sequence.ml" 38 1203 1203 "src/core/lwt_sequence.ml" 38 1203 1255
+)
+"src/core/lwt_sequence.ml" 214 5096 5125 "src/core/lwt_sequence.ml" 214 5096 5129
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 212 5050 5065 "src/core/lwt_sequence.ml" 212 5050 5069
+)
+"src/core/lwt_sequence.ml" 214 5096 5113 "src/core/lwt_sequence.ml" 214 5096 5129
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 215 5133 5142 "src/core/lwt_sequence.ml" 215 5133 5146
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 214 5096 5106 "src/core/lwt_sequence.ml" 214 5096 5110
+)
+"src/core/lwt_sequence.ml" 215 5133 5142 "src/core/lwt_sequence.ml" 215 5133 5158
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 216 5164 5175 "src/core/lwt_sequence.ml" 216 5164 5176
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "src/core/lwt_sequence.ml" 211 5026 5042 "src/core/lwt_sequence.ml" 211 5026 5043
+)
+"src/core/lwt_sequence.ml" 216 5164 5177 "src/core/lwt_sequence.ml" 216 5164 5181
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 214 5096 5106 "src/core/lwt_sequence.ml" 214 5096 5110
+)
+"src/core/lwt_sequence.ml" 216 5164 5177 "src/core/lwt_sequence.ml" 216 5164 5191
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 216 5164 5175 "src/core/lwt_sequence.ml" 216 5164 5191
+call(
+  stack
+)
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 217 5197 5207 "src/core/lwt_sequence.ml" 217 5197 5211
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 214 5096 5106 "src/core/lwt_sequence.ml" 214 5096 5110
+)
+"src/core/lwt_sequence.ml" 219 5225 5235 "src/core/lwt_sequence.ml" 219 5225 5239
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 212 5050 5060 "src/core/lwt_sequence.ml" 212 5050 5064
+)
+"src/core/lwt_sequence.ml" 219 5225 5240 "src/core/lwt_sequence.ml" 219 5225 5244
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 214 5096 5106 "src/core/lwt_sequence.ml" 214 5096 5110
+)
+"src/core/lwt_sequence.ml" 219 5225 5240 "src/core/lwt_sequence.ml" 219 5225 5254
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 219 5225 5235 "src/core/lwt_sequence.ml" 219 5225 5254
+call(
+  tail
+)
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 216 5164 5172 "src/core/lwt_sequence.ml" 219 5225 5254
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 221 5266 5274 "src/core/lwt_sequence.ml" 221 5266 5278
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 212 5050 5060 "src/core/lwt_sequence.ml" 212 5050 5064
+)
+"src/core/lwt_sequence.ml" 221 5266 5279 "src/core/lwt_sequence.ml" 221 5266 5283
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 214 5096 5106 "src/core/lwt_sequence.ml" 214 5096 5110
+)
+"src/core/lwt_sequence.ml" 221 5266 5279 "src/core/lwt_sequence.ml" 221 5266 5293
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 221 5266 5274 "src/core/lwt_sequence.ml" 221 5266 5293
+call(
+  tail
+)
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 215 5133 5139 "src/core/lwt_sequence.ml" 221 5266 5293
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 214 5096 5102 "src/core/lwt_sequence.ml" 221 5266 5293
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 223 5303 5309 "src/core/lwt_sequence.ml" 223 5303 5314
+type(
+  exn -> 'a node
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/core/lwt_sequence.ml" 223 5303 5315 "src/core/lwt_sequence.ml" 223 5303 5324
+type(
+  exn
+)
+"src/core/lwt_sequence.ml" 223 5303 5309 "src/core/lwt_sequence.ml" 223 5303 5324
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 213 5072 5076 "src/core/lwt_sequence.ml" 223 5303 5324
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 225 5330 5332 "src/core/lwt_sequence.ml" 225 5330 5336
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 212 5050 5060 "src/core/lwt_sequence.ml" 212 5050 5064
+)
+"src/core/lwt_sequence.ml" 225 5330 5337 "src/core/lwt_sequence.ml" 225 5330 5340
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 211 5026 5044 "src/core/lwt_sequence.ml" 211 5026 5047
+)
+"src/core/lwt_sequence.ml" 225 5330 5337 "src/core/lwt_sequence.ml" 225 5330 5345
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 225 5330 5332 "src/core/lwt_sequence.ml" 225 5330 5345
+call(
+  tail
+)
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 212 5050 5052 "src/core/lwt_sequence.ml" 225 5330 5345
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 227 5347 5351 "src/core/lwt_sequence.ml" 227 5347 5362
+type(
+  ('a -> bool) -> 'a t -> 'a node
+)
+ident(
+  def find_node_r "src/core/lwt_sequence.ml" 243 5668 5668 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 227 5347 5363 "src/core/lwt_sequence.ml" 227 5347 5364
+type(
+  'a -> bool
+)
+ident(
+  def f "src/core/lwt_sequence.ml" 227 5347 5365 "src/core/lwt_sequence.ml" 241 5651 5666
+)
+"src/core/lwt_sequence.ml" 227 5347 5365 "src/core/lwt_sequence.ml" 227 5347 5368
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 228 5371 5373 "src/core/lwt_sequence.ml" 241 5651 5666
+)
+"src/core/lwt_sequence.ml" 228 5371 5381 "src/core/lwt_sequence.ml" 228 5371 5385
+type(
+  'a t -> 'a node
+)
+ident(
+  def loop "src/core/lwt_sequence.ml" 228 5371 5373 "src/core/lwt_sequence.ml" 241 5651 5666
+)
+"src/core/lwt_sequence.ml" 228 5371 5386 "src/core/lwt_sequence.ml" 228 5371 5390
+type(
+  'a t
+)
+ident(
+  def curr "src/core/lwt_sequence.ml" 229 5393 5397 "src/core/lwt_sequence.ml" 239 5624 5645
+)
+"src/core/lwt_sequence.ml" 229 5393 5400 "src/core/lwt_sequence.ml" 229 5393 5404
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 228 5371 5386 "src/core/lwt_sequence.ml" 228 5371 5390
+)
+"src/core/lwt_sequence.ml" 229 5393 5405 "src/core/lwt_sequence.ml" 229 5393 5407
+type(
+  'a t -> 'a t -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/core/lwt_sequence.ml" 229 5393 5408 "src/core/lwt_sequence.ml" 229 5393 5411
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 227 5347 5365 "src/core/lwt_sequence.ml" 227 5347 5368
+)
+"src/core/lwt_sequence.ml" 229 5393 5400 "src/core/lwt_sequence.ml" 229 5393 5411
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 230 5417 5427 "src/core/lwt_sequence.ml" 230 5417 5431
+type(
+  'a node
+)
+ident(
+  def node "src/core/lwt_sequence.ml" 231 5454 5460 "src/core/lwt_sequence.ml" 237 5587 5614
+)
+"src/core/lwt_sequence.ml" 230 5417 5434 "src/core/lwt_sequence.ml" 230 5417 5445
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref node_of_seq "src/core/lwt_sequence.ml" 38 1203 1203 "src/core/lwt_sequence.ml" 38 1203 1255
+)
+"src/core/lwt_sequence.ml" 230 5417 5446 "src/core/lwt_sequence.ml" 230 5417 5450
+type(
+  'a t
+)
+ident(
+  int_ref curr "src/core/lwt_sequence.ml" 228 5371 5386 "src/core/lwt_sequence.ml" 228 5371 5390
+)
+"src/core/lwt_sequence.ml" 230 5417 5434 "src/core/lwt_sequence.ml" 230 5417 5450
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 231 5454 5463 "src/core/lwt_sequence.ml" 231 5454 5467
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 230 5417 5427 "src/core/lwt_sequence.ml" 230 5417 5431
+)
+"src/core/lwt_sequence.ml" 231 5454 5463 "src/core/lwt_sequence.ml" 231 5454 5479
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 232 5485 5496 "src/core/lwt_sequence.ml" 232 5485 5497
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "src/core/lwt_sequence.ml" 227 5347 5363 "src/core/lwt_sequence.ml" 227 5347 5364
+)
+"src/core/lwt_sequence.ml" 232 5485 5498 "src/core/lwt_sequence.ml" 232 5485 5502
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 230 5417 5427 "src/core/lwt_sequence.ml" 230 5417 5431
+)
+"src/core/lwt_sequence.ml" 232 5485 5498 "src/core/lwt_sequence.ml" 232 5485 5512
+type(
+  'a
+)
+"src/core/lwt_sequence.ml" 232 5485 5496 "src/core/lwt_sequence.ml" 232 5485 5512
+call(
+  stack
+)
+type(
+  bool
+)
+"src/core/lwt_sequence.ml" 233 5518 5528 "src/core/lwt_sequence.ml" 233 5518 5532
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 230 5417 5427 "src/core/lwt_sequence.ml" 230 5417 5431
+)
+"src/core/lwt_sequence.ml" 235 5546 5556 "src/core/lwt_sequence.ml" 235 5546 5560
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 228 5371 5381 "src/core/lwt_sequence.ml" 228 5371 5385
+)
+"src/core/lwt_sequence.ml" 235 5546 5561 "src/core/lwt_sequence.ml" 235 5546 5565
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 230 5417 5427 "src/core/lwt_sequence.ml" 230 5417 5431
+)
+"src/core/lwt_sequence.ml" 235 5546 5561 "src/core/lwt_sequence.ml" 235 5546 5575
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 235 5546 5556 "src/core/lwt_sequence.ml" 235 5546 5575
+call(
+  tail
+)
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 232 5485 5493 "src/core/lwt_sequence.ml" 235 5546 5575
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 237 5587 5595 "src/core/lwt_sequence.ml" 237 5587 5599
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 228 5371 5381 "src/core/lwt_sequence.ml" 228 5371 5385
+)
+"src/core/lwt_sequence.ml" 237 5587 5600 "src/core/lwt_sequence.ml" 237 5587 5604
+type(
+  'a node
+)
+ident(
+  int_ref node "src/core/lwt_sequence.ml" 230 5417 5427 "src/core/lwt_sequence.ml" 230 5417 5431
+)
+"src/core/lwt_sequence.ml" 237 5587 5600 "src/core/lwt_sequence.ml" 237 5587 5614
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 237 5587 5595 "src/core/lwt_sequence.ml" 237 5587 5614
+call(
+  tail
+)
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 231 5454 5460 "src/core/lwt_sequence.ml" 237 5587 5614
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 230 5417 5423 "src/core/lwt_sequence.ml" 237 5587 5614
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 239 5624 5630 "src/core/lwt_sequence.ml" 239 5624 5635
+type(
+  exn -> 'a node
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/core/lwt_sequence.ml" 239 5624 5636 "src/core/lwt_sequence.ml" 239 5624 5645
+type(
+  exn
+)
+"src/core/lwt_sequence.ml" 239 5624 5630 "src/core/lwt_sequence.ml" 239 5624 5645
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 229 5393 5397 "src/core/lwt_sequence.ml" 239 5624 5645
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 241 5651 5653 "src/core/lwt_sequence.ml" 241 5651 5657
+type(
+  'a t -> 'a node
+)
+ident(
+  int_ref loop "src/core/lwt_sequence.ml" 228 5371 5381 "src/core/lwt_sequence.ml" 228 5371 5385
+)
+"src/core/lwt_sequence.ml" 241 5651 5658 "src/core/lwt_sequence.ml" 241 5651 5661
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 227 5347 5365 "src/core/lwt_sequence.ml" 227 5347 5368
+)
+"src/core/lwt_sequence.ml" 241 5651 5658 "src/core/lwt_sequence.ml" 241 5651 5666
+type(
+  'a t
+)
+"src/core/lwt_sequence.ml" 241 5651 5653 "src/core/lwt_sequence.ml" 241 5651 5666
+call(
+  tail
+)
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 228 5371 5373 "src/core/lwt_sequence.ml" 241 5651 5666
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 243 5668 5672 "src/core/lwt_sequence.ml" 243 5668 5687
+type(
+  ('a -> bool) -> 'a t -> 'a node option
+)
+ident(
+  def find_node_opt_l "src/core/lwt_sequence.ml" 246 5751 5751 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 243 5668 5688 "src/core/lwt_sequence.ml" 243 5668 5689
+type(
+  'a -> bool
+)
+ident(
+  def f "src/core/lwt_sequence.ml" 243 5668 5690 "src/core/lwt_sequence.ml" 244 5696 5749
+)
+"src/core/lwt_sequence.ml" 243 5668 5690 "src/core/lwt_sequence.ml" 243 5668 5693
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 244 5696 5698 "src/core/lwt_sequence.ml" 244 5696 5749
+)
+"src/core/lwt_sequence.ml" 244 5696 5708 "src/core/lwt_sequence.ml" 244 5696 5719
+type(
+  ('a -> bool) -> 'a t -> 'a node
+)
+ident(
+  int_ref find_node_l "src/core/lwt_sequence.ml" 211 5026 5030 "src/core/lwt_sequence.ml" 211 5026 5041
+)
+"src/core/lwt_sequence.ml" 244 5696 5720 "src/core/lwt_sequence.ml" 244 5696 5721
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "src/core/lwt_sequence.ml" 243 5668 5688 "src/core/lwt_sequence.ml" 243 5668 5689
+)
+"src/core/lwt_sequence.ml" 244 5696 5722 "src/core/lwt_sequence.ml" 244 5696 5725
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 243 5668 5690 "src/core/lwt_sequence.ml" 243 5668 5693
+)
+"src/core/lwt_sequence.ml" 244 5696 5707 "src/core/lwt_sequence.ml" 244 5696 5726
+call(
+  stack
+)
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 244 5696 5702 "src/core/lwt_sequence.ml" 244 5696 5726
+type(
+  'a node option
+)
+"src/core/lwt_sequence.ml" 244 5696 5732 "src/core/lwt_sequence.ml" 244 5696 5741
+type(
+  exn
+)
+"src/core/lwt_sequence.ml" 244 5696 5745 "src/core/lwt_sequence.ml" 244 5696 5749
+type(
+  'a node option
+)
+"src/core/lwt_sequence.ml" 244 5696 5698 "src/core/lwt_sequence.ml" 244 5696 5749
+type(
+  'a node option
+)
+"src/core/lwt_sequence.ml" 246 5751 5755 "src/core/lwt_sequence.ml" 246 5751 5770
+type(
+  ('a -> bool) -> 'a t -> 'a node option
+)
+ident(
+  def find_node_opt_r "src/core/lwt_sequence.ml" 247 5779 5832 "src/core/lwt_sequence.ml" 1 0 -1
+)
+"src/core/lwt_sequence.ml" 246 5751 5771 "src/core/lwt_sequence.ml" 246 5751 5772
+type(
+  'a -> bool
+)
+ident(
+  def f "src/core/lwt_sequence.ml" 246 5751 5773 "src/core/lwt_sequence.ml" 247 5779 5832
+)
+"src/core/lwt_sequence.ml" 246 5751 5773 "src/core/lwt_sequence.ml" 246 5751 5776
+type(
+  'a t
+)
+ident(
+  def seq "src/core/lwt_sequence.ml" 247 5779 5781 "src/core/lwt_sequence.ml" 247 5779 5832
+)
+"src/core/lwt_sequence.ml" 247 5779 5791 "src/core/lwt_sequence.ml" 247 5779 5802
+type(
+  ('a -> bool) -> 'a t -> 'a node
+)
+ident(
+  int_ref find_node_r "src/core/lwt_sequence.ml" 227 5347 5351 "src/core/lwt_sequence.ml" 227 5347 5362
+)
+"src/core/lwt_sequence.ml" 247 5779 5803 "src/core/lwt_sequence.ml" 247 5779 5804
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "src/core/lwt_sequence.ml" 246 5751 5771 "src/core/lwt_sequence.ml" 246 5751 5772
+)
+"src/core/lwt_sequence.ml" 247 5779 5805 "src/core/lwt_sequence.ml" 247 5779 5808
+type(
+  'a t
+)
+ident(
+  int_ref seq "src/core/lwt_sequence.ml" 246 5751 5773 "src/core/lwt_sequence.ml" 246 5751 5776
+)
+"src/core/lwt_sequence.ml" 247 5779 5790 "src/core/lwt_sequence.ml" 247 5779 5809
+call(
+  stack
+)
+type(
+  'a node
+)
+"src/core/lwt_sequence.ml" 247 5779 5785 "src/core/lwt_sequence.ml" 247 5779 5809
+type(
+  'a node option
+)
+"src/core/lwt_sequence.ml" 247 5779 5815 "src/core/lwt_sequence.ml" 247 5779 5824
+type(
+  exn
+)
+"src/core/lwt_sequence.ml" 247 5779 5828 "src/core/lwt_sequence.ml" 247 5779 5832
+type(
+  'a node option
+)
+"src/core/lwt_sequence.ml" 247 5779 5781 "src/core/lwt_sequence.ml" 247 5779 5832
+type(
+  'a node option
+)

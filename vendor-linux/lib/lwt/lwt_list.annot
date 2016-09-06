@@ -1,0 +1,4850 @@
+"src/core/lwt_list.ml" 25 950 958 "src/core/lwt_list.ml" 25 950 964
+type(
+  ('a -> unit Lwt.t) -> 'a list -> unit Lwt.t
+)
+ident(
+  def iter_s "src/core/lwt_list.ml" 25 950 950 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 25 950 965 "src/core/lwt_list.ml" 25 950 966
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 25 950 967 "src/core/lwt_list.ml" 31 1064 1082
+)
+"src/core/lwt_list.ml" 25 950 967 "src/core/lwt_list.ml" 25 950 968
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 26 971 973 "src/core/lwt_list.ml" 31 1064 1082
+)
+"src/core/lwt_list.ml" 26 971 979 "src/core/lwt_list.ml" 26 971 980
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 25 950 967 "src/core/lwt_list.ml" 25 950 968
+)
+"src/core/lwt_list.ml" 27 986 992 "src/core/lwt_list.ml" 27 986 994
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 28 998 1006 "src/core/lwt_list.ml" 28 998 1021
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/core/lwt_list.ml" 29 1022 1028 "src/core/lwt_list.ml" 29 1022 1029
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 30 1038 1046 "src/core/lwt_list.ml" 31 1064 1082
+)
+"src/core/lwt_list.ml" 29 1022 1033 "src/core/lwt_list.ml" 29 1022 1034
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 30 1038 1046 "src/core/lwt_list.ml" 31 1064 1082
+)
+"src/core/lwt_list.ml" 29 1022 1028 "src/core/lwt_list.ml" 29 1022 1034
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 30 1038 1046 "src/core/lwt_list.ml" 30 1038 1047
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 25 950 965 "src/core/lwt_list.ml" 25 950 966
+)
+"src/core/lwt_list.ml" 30 1038 1048 "src/core/lwt_list.ml" 30 1038 1049
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 29 1022 1028 "src/core/lwt_list.ml" 29 1022 1029
+)
+"src/core/lwt_list.ml" 30 1038 1046 "src/core/lwt_list.ml" 30 1038 1049
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 30 1038 1050 "src/core/lwt_list.ml" 30 1038 1053
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 30 1038 1058 "src/core/lwt_list.ml" 30 1038 1060
+type(
+  unit
+)
+"src/core/lwt_list.ml" 31 1064 1072 "src/core/lwt_list.ml" 31 1064 1078
+type(
+  ('a -> unit Lwt.t) -> 'a list -> unit Lwt.t
+)
+ident(
+  int_ref iter_s "src/core/lwt_list.ml" 25 950 958 "src/core/lwt_list.ml" 25 950 964
+)
+"src/core/lwt_list.ml" 31 1064 1079 "src/core/lwt_list.ml" 31 1064 1080
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 25 950 965 "src/core/lwt_list.ml" 25 950 966
+)
+"src/core/lwt_list.ml" 31 1064 1081 "src/core/lwt_list.ml" 31 1064 1082
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 29 1022 1033 "src/core/lwt_list.ml" 29 1022 1034
+)
+"src/core/lwt_list.ml" 31 1064 1072 "src/core/lwt_list.ml" 31 1064 1082
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 30 1038 1054 "src/core/lwt_list.ml" 31 1064 1082
+type(
+  unit -> unit Lwt.t
+)
+"src/core/lwt_list.ml" 30 1038 1046 "src/core/lwt_list.ml" 31 1064 1082
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 26 971 973 "src/core/lwt_list.ml" 31 1064 1082
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 33 1084 1092 "src/core/lwt_list.ml" 33 1084 1098
+type(
+  ('a -> unit Lwt.t) -> 'a list -> unit Lwt.t
+)
+ident(
+  def iter_p "src/core/lwt_list.ml" 33 1084 1084 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 33 1084 1099 "src/core/lwt_list.ml" 33 1084 1100
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 33 1084 1101 "src/core/lwt_list.ml" 39 1216 1243
+)
+"src/core/lwt_list.ml" 33 1084 1101 "src/core/lwt_list.ml" 33 1084 1102
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 34 1105 1107 "src/core/lwt_list.ml" 39 1216 1243
+)
+"src/core/lwt_list.ml" 34 1105 1113 "src/core/lwt_list.ml" 34 1105 1114
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 33 1084 1101 "src/core/lwt_list.ml" 33 1084 1102
+)
+"src/core/lwt_list.ml" 35 1120 1126 "src/core/lwt_list.ml" 35 1120 1128
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 36 1132 1140 "src/core/lwt_list.ml" 36 1132 1155
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/core/lwt_list.ml" 37 1156 1162 "src/core/lwt_list.ml" 37 1156 1163
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 38 1172 1180 "src/core/lwt_list.ml" 39 1216 1243
+)
+"src/core/lwt_list.ml" 37 1156 1167 "src/core/lwt_list.ml" 37 1156 1168
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 38 1172 1180 "src/core/lwt_list.ml" 39 1216 1243
+)
+"src/core/lwt_list.ml" 37 1156 1162 "src/core/lwt_list.ml" 37 1156 1168
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 38 1172 1184 "src/core/lwt_list.ml" 38 1172 1186
+type(
+  unit Lwt.t
+)
+ident(
+  def tx "src/core/lwt_list.ml" 39 1216 1224 "src/core/lwt_list.ml" 39 1216 1243
+)
+"src/core/lwt_list.ml" 38 1172 1189 "src/core/lwt_list.ml" 38 1172 1190
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 33 1084 1099 "src/core/lwt_list.ml" 33 1084 1100
+)
+"src/core/lwt_list.ml" 38 1172 1191 "src/core/lwt_list.ml" 38 1172 1192
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 37 1156 1162 "src/core/lwt_list.ml" 37 1156 1163
+)
+"src/core/lwt_list.ml" 38 1172 1189 "src/core/lwt_list.ml" 38 1172 1192
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 38 1172 1197 "src/core/lwt_list.ml" 38 1172 1199
+type(
+  unit Lwt.t
+)
+ident(
+  def tl "src/core/lwt_list.ml" 39 1216 1224 "src/core/lwt_list.ml" 39 1216 1243
+)
+"src/core/lwt_list.ml" 38 1172 1202 "src/core/lwt_list.ml" 38 1172 1208
+type(
+  ('a -> unit Lwt.t) -> 'a list -> unit Lwt.t
+)
+ident(
+  int_ref iter_p "src/core/lwt_list.ml" 33 1084 1092 "src/core/lwt_list.ml" 33 1084 1098
+)
+"src/core/lwt_list.ml" 38 1172 1209 "src/core/lwt_list.ml" 38 1172 1210
+type(
+  'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 33 1084 1099 "src/core/lwt_list.ml" 33 1084 1100
+)
+"src/core/lwt_list.ml" 38 1172 1211 "src/core/lwt_list.ml" 38 1172 1212
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 37 1156 1167 "src/core/lwt_list.ml" 37 1156 1168
+)
+"src/core/lwt_list.ml" 38 1172 1202 "src/core/lwt_list.ml" 38 1172 1212
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 39 1216 1224 "src/core/lwt_list.ml" 39 1216 1226
+type(
+  unit Lwt.t
+)
+ident(
+  int_ref tx "src/core/lwt_list.ml" 38 1172 1184 "src/core/lwt_list.ml" 38 1172 1186
+)
+"src/core/lwt_list.ml" 39 1216 1227 "src/core/lwt_list.ml" 39 1216 1230
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 39 1216 1235 "src/core/lwt_list.ml" 39 1216 1237
+type(
+  unit
+)
+"src/core/lwt_list.ml" 39 1216 1241 "src/core/lwt_list.ml" 39 1216 1243
+type(
+  unit Lwt.t
+)
+ident(
+  int_ref tl "src/core/lwt_list.ml" 38 1172 1197 "src/core/lwt_list.ml" 38 1172 1199
+)
+"src/core/lwt_list.ml" 39 1216 1231 "src/core/lwt_list.ml" 39 1216 1243
+type(
+  unit -> unit Lwt.t
+)
+"src/core/lwt_list.ml" 39 1216 1224 "src/core/lwt_list.ml" 39 1216 1243
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 38 1172 1180 "src/core/lwt_list.ml" 39 1216 1243
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 34 1105 1107 "src/core/lwt_list.ml" 39 1216 1243
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 41 1245 1253 "src/core/lwt_list.ml" 41 1245 1260
+type(
+  int -> (int -> 'a -> unit Lwt.t) -> 'a list -> unit Lwt.t
+)
+ident(
+  def iteri_s "src/core/lwt_list.ml" 41 1245 1245 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 41 1245 1261 "src/core/lwt_list.ml" 41 1245 1262
+type(
+  int
+)
+ident(
+  def i "src/core/lwt_list.ml" 41 1245 1263 "src/core/lwt_list.ml" 47 1364 1391
+)
+"src/core/lwt_list.ml" 41 1245 1263 "src/core/lwt_list.ml" 41 1245 1264
+type(
+  int -> 'a -> unit Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 41 1245 1265 "src/core/lwt_list.ml" 47 1364 1391
+)
+"src/core/lwt_list.ml" 41 1245 1265 "src/core/lwt_list.ml" 41 1245 1266
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 42 1269 1271 "src/core/lwt_list.ml" 47 1364 1391
+)
+"src/core/lwt_list.ml" 42 1269 1277 "src/core/lwt_list.ml" 42 1269 1278
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 41 1245 1265 "src/core/lwt_list.ml" 41 1245 1266
+)
+"src/core/lwt_list.ml" 43 1284 1290 "src/core/lwt_list.ml" 43 1284 1292
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 44 1296 1304 "src/core/lwt_list.ml" 44 1296 1319
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/core/lwt_list.ml" 45 1320 1326 "src/core/lwt_list.ml" 45 1320 1327
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 46 1336 1344 "src/core/lwt_list.ml" 47 1364 1391
+)
+"src/core/lwt_list.ml" 45 1320 1331 "src/core/lwt_list.ml" 45 1320 1332
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 46 1336 1344 "src/core/lwt_list.ml" 47 1364 1391
+)
+"src/core/lwt_list.ml" 45 1320 1326 "src/core/lwt_list.ml" 45 1320 1332
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 46 1336 1344 "src/core/lwt_list.ml" 46 1336 1345
+type(
+  int -> 'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 41 1245 1263 "src/core/lwt_list.ml" 41 1245 1264
+)
+"src/core/lwt_list.ml" 46 1336 1346 "src/core/lwt_list.ml" 46 1336 1347
+type(
+  int
+)
+ident(
+  int_ref i "src/core/lwt_list.ml" 41 1245 1261 "src/core/lwt_list.ml" 41 1245 1262
+)
+"src/core/lwt_list.ml" 46 1336 1348 "src/core/lwt_list.ml" 46 1336 1349
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 45 1320 1326 "src/core/lwt_list.ml" 45 1320 1327
+)
+"src/core/lwt_list.ml" 46 1336 1344 "src/core/lwt_list.ml" 46 1336 1349
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 46 1336 1350 "src/core/lwt_list.ml" 46 1336 1353
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 46 1336 1358 "src/core/lwt_list.ml" 46 1336 1360
+type(
+  unit
+)
+"src/core/lwt_list.ml" 47 1364 1372 "src/core/lwt_list.ml" 47 1364 1379
+type(
+  int -> (int -> 'a -> unit Lwt.t) -> 'a list -> unit Lwt.t
+)
+ident(
+  int_ref iteri_s "src/core/lwt_list.ml" 41 1245 1253 "src/core/lwt_list.ml" 41 1245 1260
+)
+"src/core/lwt_list.ml" 47 1364 1381 "src/core/lwt_list.ml" 47 1364 1382
+type(
+  int
+)
+ident(
+  int_ref i "src/core/lwt_list.ml" 41 1245 1261 "src/core/lwt_list.ml" 41 1245 1262
+)
+"src/core/lwt_list.ml" 47 1364 1383 "src/core/lwt_list.ml" 47 1364 1384
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/core/lwt_list.ml" 47 1364 1385 "src/core/lwt_list.ml" 47 1364 1386
+type(
+  int
+)
+"src/core/lwt_list.ml" 47 1364 1380 "src/core/lwt_list.ml" 47 1364 1387
+type(
+  int
+)
+"src/core/lwt_list.ml" 47 1364 1388 "src/core/lwt_list.ml" 47 1364 1389
+type(
+  int -> 'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 41 1245 1263 "src/core/lwt_list.ml" 41 1245 1264
+)
+"src/core/lwt_list.ml" 47 1364 1390 "src/core/lwt_list.ml" 47 1364 1391
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 45 1320 1331 "src/core/lwt_list.ml" 45 1320 1332
+)
+"src/core/lwt_list.ml" 47 1364 1372 "src/core/lwt_list.ml" 47 1364 1391
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 46 1336 1354 "src/core/lwt_list.ml" 47 1364 1391
+type(
+  unit -> unit Lwt.t
+)
+"src/core/lwt_list.ml" 46 1336 1344 "src/core/lwt_list.ml" 47 1364 1391
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 42 1269 1271 "src/core/lwt_list.ml" 47 1364 1391
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 49 1393 1397 "src/core/lwt_list.ml" 49 1393 1404
+type(
+  (int -> 'a -> unit Lwt.t) -> 'a list -> unit Lwt.t
+)
+ident(
+  def iteri_s "src/core/lwt_list.ml" 51 1426 1426 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 49 1393 1405 "src/core/lwt_list.ml" 49 1393 1406
+type(
+  int -> 'a -> unit Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 49 1393 1407 "src/core/lwt_list.ml" 49 1393 1424
+)
+"src/core/lwt_list.ml" 49 1393 1407 "src/core/lwt_list.ml" 49 1393 1408
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 49 1393 1411 "src/core/lwt_list.ml" 49 1393 1424
+)
+"src/core/lwt_list.ml" 49 1393 1411 "src/core/lwt_list.ml" 49 1393 1418
+type(
+  int -> (int -> 'a -> unit Lwt.t) -> 'a list -> unit Lwt.t
+)
+ident(
+  int_ref iteri_s "src/core/lwt_list.ml" 41 1245 1253 "src/core/lwt_list.ml" 41 1245 1260
+)
+"src/core/lwt_list.ml" 49 1393 1419 "src/core/lwt_list.ml" 49 1393 1420
+type(
+  int
+)
+"src/core/lwt_list.ml" 49 1393 1421 "src/core/lwt_list.ml" 49 1393 1422
+type(
+  int -> 'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 49 1393 1405 "src/core/lwt_list.ml" 49 1393 1406
+)
+"src/core/lwt_list.ml" 49 1393 1423 "src/core/lwt_list.ml" 49 1393 1424
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 49 1393 1407 "src/core/lwt_list.ml" 49 1393 1408
+)
+"src/core/lwt_list.ml" 49 1393 1411 "src/core/lwt_list.ml" 49 1393 1424
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 51 1426 1434 "src/core/lwt_list.ml" 51 1426 1441
+type(
+  int -> (int -> 'a -> unit Lwt.t) -> 'a list -> unit Lwt.t
+)
+ident(
+  def iteri_p "src/core/lwt_list.ml" 51 1426 1426 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 51 1426 1442 "src/core/lwt_list.ml" 51 1426 1443
+type(
+  int
+)
+ident(
+  def i "src/core/lwt_list.ml" 51 1426 1444 "src/core/lwt_list.ml" 57 1572 1599
+)
+"src/core/lwt_list.ml" 51 1426 1444 "src/core/lwt_list.ml" 51 1426 1445
+type(
+  int -> 'a -> unit Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 51 1426 1446 "src/core/lwt_list.ml" 57 1572 1599
+)
+"src/core/lwt_list.ml" 51 1426 1446 "src/core/lwt_list.ml" 51 1426 1447
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 52 1450 1452 "src/core/lwt_list.ml" 57 1572 1599
+)
+"src/core/lwt_list.ml" 52 1450 1458 "src/core/lwt_list.ml" 52 1450 1459
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 51 1426 1446 "src/core/lwt_list.ml" 51 1426 1447
+)
+"src/core/lwt_list.ml" 53 1465 1471 "src/core/lwt_list.ml" 53 1465 1473
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 54 1477 1485 "src/core/lwt_list.ml" 54 1477 1500
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/core/lwt_list.ml" 55 1501 1507 "src/core/lwt_list.ml" 55 1501 1508
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 56 1517 1525 "src/core/lwt_list.ml" 57 1572 1599
+)
+"src/core/lwt_list.ml" 55 1501 1512 "src/core/lwt_list.ml" 55 1501 1513
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 56 1517 1525 "src/core/lwt_list.ml" 57 1572 1599
+)
+"src/core/lwt_list.ml" 55 1501 1507 "src/core/lwt_list.ml" 55 1501 1513
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 56 1517 1529 "src/core/lwt_list.ml" 56 1517 1531
+type(
+  unit Lwt.t
+)
+ident(
+  def tx "src/core/lwt_list.ml" 57 1572 1580 "src/core/lwt_list.ml" 57 1572 1599
+)
+"src/core/lwt_list.ml" 56 1517 1534 "src/core/lwt_list.ml" 56 1517 1535
+type(
+  int -> 'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 51 1426 1444 "src/core/lwt_list.ml" 51 1426 1445
+)
+"src/core/lwt_list.ml" 56 1517 1536 "src/core/lwt_list.ml" 56 1517 1537
+type(
+  int
+)
+ident(
+  int_ref i "src/core/lwt_list.ml" 51 1426 1442 "src/core/lwt_list.ml" 51 1426 1443
+)
+"src/core/lwt_list.ml" 56 1517 1538 "src/core/lwt_list.ml" 56 1517 1539
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 55 1501 1507 "src/core/lwt_list.ml" 55 1501 1508
+)
+"src/core/lwt_list.ml" 56 1517 1534 "src/core/lwt_list.ml" 56 1517 1539
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 56 1517 1544 "src/core/lwt_list.ml" 56 1517 1546
+type(
+  unit Lwt.t
+)
+ident(
+  def tl "src/core/lwt_list.ml" 57 1572 1580 "src/core/lwt_list.ml" 57 1572 1599
+)
+"src/core/lwt_list.ml" 56 1517 1549 "src/core/lwt_list.ml" 56 1517 1556
+type(
+  int -> (int -> 'a -> unit Lwt.t) -> 'a list -> unit Lwt.t
+)
+ident(
+  int_ref iteri_p "src/core/lwt_list.ml" 51 1426 1434 "src/core/lwt_list.ml" 51 1426 1441
+)
+"src/core/lwt_list.ml" 56 1517 1558 "src/core/lwt_list.ml" 56 1517 1559
+type(
+  int
+)
+ident(
+  int_ref i "src/core/lwt_list.ml" 51 1426 1442 "src/core/lwt_list.ml" 51 1426 1443
+)
+"src/core/lwt_list.ml" 56 1517 1560 "src/core/lwt_list.ml" 56 1517 1561
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/core/lwt_list.ml" 56 1517 1562 "src/core/lwt_list.ml" 56 1517 1563
+type(
+  int
+)
+"src/core/lwt_list.ml" 56 1517 1557 "src/core/lwt_list.ml" 56 1517 1564
+type(
+  int
+)
+"src/core/lwt_list.ml" 56 1517 1565 "src/core/lwt_list.ml" 56 1517 1566
+type(
+  int -> 'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 51 1426 1444 "src/core/lwt_list.ml" 51 1426 1445
+)
+"src/core/lwt_list.ml" 56 1517 1567 "src/core/lwt_list.ml" 56 1517 1568
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 55 1501 1512 "src/core/lwt_list.ml" 55 1501 1513
+)
+"src/core/lwt_list.ml" 56 1517 1549 "src/core/lwt_list.ml" 56 1517 1568
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 57 1572 1580 "src/core/lwt_list.ml" 57 1572 1582
+type(
+  unit Lwt.t
+)
+ident(
+  int_ref tx "src/core/lwt_list.ml" 56 1517 1529 "src/core/lwt_list.ml" 56 1517 1531
+)
+"src/core/lwt_list.ml" 57 1572 1583 "src/core/lwt_list.ml" 57 1572 1586
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 57 1572 1591 "src/core/lwt_list.ml" 57 1572 1593
+type(
+  unit
+)
+"src/core/lwt_list.ml" 57 1572 1597 "src/core/lwt_list.ml" 57 1572 1599
+type(
+  unit Lwt.t
+)
+ident(
+  int_ref tl "src/core/lwt_list.ml" 56 1517 1544 "src/core/lwt_list.ml" 56 1517 1546
+)
+"src/core/lwt_list.ml" 57 1572 1587 "src/core/lwt_list.ml" 57 1572 1599
+type(
+  unit -> unit Lwt.t
+)
+"src/core/lwt_list.ml" 57 1572 1580 "src/core/lwt_list.ml" 57 1572 1599
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 56 1517 1525 "src/core/lwt_list.ml" 57 1572 1599
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 52 1450 1452 "src/core/lwt_list.ml" 57 1572 1599
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 59 1601 1605 "src/core/lwt_list.ml" 59 1601 1612
+type(
+  (int -> 'a -> unit Lwt.t) -> 'a list -> unit Lwt.t
+)
+ident(
+  def iteri_p "src/core/lwt_list.ml" 61 1634 1634 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 59 1601 1613 "src/core/lwt_list.ml" 59 1601 1614
+type(
+  int -> 'a -> unit Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 59 1601 1615 "src/core/lwt_list.ml" 59 1601 1632
+)
+"src/core/lwt_list.ml" 59 1601 1615 "src/core/lwt_list.ml" 59 1601 1616
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 59 1601 1619 "src/core/lwt_list.ml" 59 1601 1632
+)
+"src/core/lwt_list.ml" 59 1601 1619 "src/core/lwt_list.ml" 59 1601 1626
+type(
+  int -> (int -> 'a -> unit Lwt.t) -> 'a list -> unit Lwt.t
+)
+ident(
+  int_ref iteri_p "src/core/lwt_list.ml" 51 1426 1434 "src/core/lwt_list.ml" 51 1426 1441
+)
+"src/core/lwt_list.ml" 59 1601 1627 "src/core/lwt_list.ml" 59 1601 1628
+type(
+  int
+)
+"src/core/lwt_list.ml" 59 1601 1629 "src/core/lwt_list.ml" 59 1601 1630
+type(
+  int -> 'a -> unit Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 59 1601 1613 "src/core/lwt_list.ml" 59 1601 1614
+)
+"src/core/lwt_list.ml" 59 1601 1631 "src/core/lwt_list.ml" 59 1601 1632
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 59 1601 1615 "src/core/lwt_list.ml" 59 1601 1616
+)
+"src/core/lwt_list.ml" 59 1601 1619 "src/core/lwt_list.ml" 59 1601 1632
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/core/lwt_list.ml" 61 1634 1642 "src/core/lwt_list.ml" 61 1634 1647
+type(
+  ('a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  def map_s "src/core/lwt_list.ml" 61 1634 1634 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 61 1634 1648 "src/core/lwt_list.ml" 61 1634 1649
+type(
+  'a -> 'b Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 61 1634 1650 "src/core/lwt_list.ml" 68 1776 1790
+)
+"src/core/lwt_list.ml" 61 1634 1650 "src/core/lwt_list.ml" 61 1634 1651
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 62 1654 1656 "src/core/lwt_list.ml" 68 1776 1790
+)
+"src/core/lwt_list.ml" 62 1654 1662 "src/core/lwt_list.ml" 62 1654 1663
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 61 1634 1650 "src/core/lwt_list.ml" 61 1634 1651
+)
+"src/core/lwt_list.ml" 63 1669 1675 "src/core/lwt_list.ml" 63 1669 1677
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 64 1681 1689 "src/core/lwt_list.ml" 64 1681 1703
+type(
+  'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.return_nil
+)
+"src/core/lwt_list.ml" 65 1704 1710 "src/core/lwt_list.ml" 65 1704 1711
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 66 1720 1728 "src/core/lwt_list.ml" 68 1776 1790
+)
+"src/core/lwt_list.ml" 65 1704 1715 "src/core/lwt_list.ml" 65 1704 1716
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 66 1720 1728 "src/core/lwt_list.ml" 68 1776 1790
+)
+"src/core/lwt_list.ml" 65 1704 1710 "src/core/lwt_list.ml" 65 1704 1716
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 66 1720 1728 "src/core/lwt_list.ml" 66 1720 1729
+type(
+  'a -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 61 1634 1648 "src/core/lwt_list.ml" 61 1634 1649
+)
+"src/core/lwt_list.ml" 66 1720 1730 "src/core/lwt_list.ml" 66 1720 1731
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 65 1704 1710 "src/core/lwt_list.ml" 65 1704 1711
+)
+"src/core/lwt_list.ml" 66 1720 1728 "src/core/lwt_list.ml" 66 1720 1731
+call(
+  stack
+)
+type(
+  'b Lwt.t
+)
+"src/core/lwt_list.ml" 66 1720 1732 "src/core/lwt_list.ml" 66 1720 1735
+type(
+  'b Lwt.t -> ('b -> 'b list Lwt.t) -> 'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 66 1720 1740 "src/core/lwt_list.ml" 66 1720 1741
+type(
+  'b
+)
+ident(
+  def x "src/core/lwt_list.ml" 67 1745 1753 "src/core/lwt_list.ml" 68 1776 1790
+)
+"src/core/lwt_list.ml" 67 1745 1753 "src/core/lwt_list.ml" 67 1745 1758
+type(
+  ('a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  int_ref map_s "src/core/lwt_list.ml" 61 1634 1642 "src/core/lwt_list.ml" 61 1634 1647
+)
+"src/core/lwt_list.ml" 67 1745 1759 "src/core/lwt_list.ml" 67 1745 1760
+type(
+  'a -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 61 1634 1648 "src/core/lwt_list.ml" 61 1634 1649
+)
+"src/core/lwt_list.ml" 67 1745 1761 "src/core/lwt_list.ml" 67 1745 1762
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 65 1704 1715 "src/core/lwt_list.ml" 65 1704 1716
+)
+"src/core/lwt_list.ml" 67 1745 1753 "src/core/lwt_list.ml" 67 1745 1762
+call(
+  stack
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 67 1745 1763 "src/core/lwt_list.ml" 67 1745 1766
+type(
+  'b list Lwt.t -> ('b list -> 'b list) -> 'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >|= )
+)
+"src/core/lwt_list.ml" 67 1745 1771 "src/core/lwt_list.ml" 67 1745 1772
+type(
+  'b list
+)
+ident(
+  def l "src/core/lwt_list.ml" 68 1776 1784 "src/core/lwt_list.ml" 68 1776 1790
+)
+"src/core/lwt_list.ml" 68 1776 1784 "src/core/lwt_list.ml" 68 1776 1785
+type(
+  'b
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 66 1720 1740 "src/core/lwt_list.ml" 66 1720 1741
+)
+"src/core/lwt_list.ml" 68 1776 1789 "src/core/lwt_list.ml" 68 1776 1790
+type(
+  'b list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 67 1745 1771 "src/core/lwt_list.ml" 67 1745 1772
+)
+"src/core/lwt_list.ml" 68 1776 1784 "src/core/lwt_list.ml" 68 1776 1790
+type(
+  'b list
+)
+"src/core/lwt_list.ml" 67 1745 1767 "src/core/lwt_list.ml" 68 1776 1790
+type(
+  'b list -> 'b list
+)
+"src/core/lwt_list.ml" 67 1745 1753 "src/core/lwt_list.ml" 68 1776 1790
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 66 1720 1736 "src/core/lwt_list.ml" 68 1776 1790
+type(
+  'b -> 'b list Lwt.t
+)
+"src/core/lwt_list.ml" 66 1720 1728 "src/core/lwt_list.ml" 68 1776 1790
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 62 1654 1656 "src/core/lwt_list.ml" 68 1776 1790
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 70 1792 1800 "src/core/lwt_list.ml" 70 1792 1805
+type(
+  ('a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  def map_p "src/core/lwt_list.ml" 70 1792 1792 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 70 1792 1806 "src/core/lwt_list.ml" 70 1792 1807
+type(
+  'a -> 'b Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 70 1792 1808 "src/core/lwt_list.ml" 78 1969 1983
+)
+"src/core/lwt_list.ml" 70 1792 1808 "src/core/lwt_list.ml" 70 1792 1809
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 71 1812 1814 "src/core/lwt_list.ml" 78 1969 1983
+)
+"src/core/lwt_list.ml" 71 1812 1820 "src/core/lwt_list.ml" 71 1812 1821
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 70 1792 1808 "src/core/lwt_list.ml" 70 1792 1809
+)
+"src/core/lwt_list.ml" 72 1827 1833 "src/core/lwt_list.ml" 72 1827 1835
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 73 1839 1847 "src/core/lwt_list.ml" 73 1839 1861
+type(
+  'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.return_nil
+)
+"src/core/lwt_list.ml" 74 1862 1868 "src/core/lwt_list.ml" 74 1862 1869
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 75 1878 1886 "src/core/lwt_list.ml" 78 1969 1983
+)
+"src/core/lwt_list.ml" 74 1862 1873 "src/core/lwt_list.ml" 74 1862 1874
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 75 1878 1886 "src/core/lwt_list.ml" 78 1969 1983
+)
+"src/core/lwt_list.ml" 74 1862 1868 "src/core/lwt_list.ml" 74 1862 1874
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 75 1878 1890 "src/core/lwt_list.ml" 75 1878 1892
+type(
+  'b Lwt.t
+)
+ident(
+  def tx "src/core/lwt_list.ml" 76 1921 1929 "src/core/lwt_list.ml" 78 1969 1983
+)
+"src/core/lwt_list.ml" 75 1878 1895 "src/core/lwt_list.ml" 75 1878 1896
+type(
+  'a -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 70 1792 1806 "src/core/lwt_list.ml" 70 1792 1807
+)
+"src/core/lwt_list.ml" 75 1878 1897 "src/core/lwt_list.ml" 75 1878 1898
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 74 1862 1868 "src/core/lwt_list.ml" 74 1862 1869
+)
+"src/core/lwt_list.ml" 75 1878 1895 "src/core/lwt_list.ml" 75 1878 1898
+call(
+  stack
+)
+type(
+  'b Lwt.t
+)
+"src/core/lwt_list.ml" 75 1878 1903 "src/core/lwt_list.ml" 75 1878 1905
+type(
+  'b list Lwt.t
+)
+ident(
+  def tl "src/core/lwt_list.ml" 76 1921 1929 "src/core/lwt_list.ml" 78 1969 1983
+)
+"src/core/lwt_list.ml" 75 1878 1908 "src/core/lwt_list.ml" 75 1878 1913
+type(
+  ('a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  int_ref map_p "src/core/lwt_list.ml" 70 1792 1800 "src/core/lwt_list.ml" 70 1792 1805
+)
+"src/core/lwt_list.ml" 75 1878 1914 "src/core/lwt_list.ml" 75 1878 1915
+type(
+  'a -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 70 1792 1806 "src/core/lwt_list.ml" 70 1792 1807
+)
+"src/core/lwt_list.ml" 75 1878 1916 "src/core/lwt_list.ml" 75 1878 1917
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 74 1862 1873 "src/core/lwt_list.ml" 74 1862 1874
+)
+"src/core/lwt_list.ml" 75 1878 1908 "src/core/lwt_list.ml" 75 1878 1917
+call(
+  stack
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 76 1921 1929 "src/core/lwt_list.ml" 76 1921 1931
+type(
+  'b Lwt.t
+)
+ident(
+  int_ref tx "src/core/lwt_list.ml" 75 1878 1890 "src/core/lwt_list.ml" 75 1878 1892
+)
+"src/core/lwt_list.ml" 76 1921 1932 "src/core/lwt_list.ml" 76 1921 1935
+type(
+  'b Lwt.t -> ('b -> 'b list Lwt.t) -> 'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 76 1921 1940 "src/core/lwt_list.ml" 76 1921 1941
+type(
+  'b
+)
+ident(
+  def x "src/core/lwt_list.ml" 77 1945 1953 "src/core/lwt_list.ml" 78 1969 1983
+)
+"src/core/lwt_list.ml" 77 1945 1953 "src/core/lwt_list.ml" 77 1945 1955
+type(
+  'b list Lwt.t
+)
+ident(
+  int_ref tl "src/core/lwt_list.ml" 75 1878 1903 "src/core/lwt_list.ml" 75 1878 1905
+)
+"src/core/lwt_list.ml" 77 1945 1956 "src/core/lwt_list.ml" 77 1945 1959
+type(
+  'b list Lwt.t -> ('b list -> 'b list) -> 'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >|= )
+)
+"src/core/lwt_list.ml" 77 1945 1964 "src/core/lwt_list.ml" 77 1945 1965
+type(
+  'b list
+)
+ident(
+  def l "src/core/lwt_list.ml" 78 1969 1977 "src/core/lwt_list.ml" 78 1969 1983
+)
+"src/core/lwt_list.ml" 78 1969 1977 "src/core/lwt_list.ml" 78 1969 1978
+type(
+  'b
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 76 1921 1940 "src/core/lwt_list.ml" 76 1921 1941
+)
+"src/core/lwt_list.ml" 78 1969 1982 "src/core/lwt_list.ml" 78 1969 1983
+type(
+  'b list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 77 1945 1964 "src/core/lwt_list.ml" 77 1945 1965
+)
+"src/core/lwt_list.ml" 78 1969 1977 "src/core/lwt_list.ml" 78 1969 1983
+type(
+  'b list
+)
+"src/core/lwt_list.ml" 77 1945 1960 "src/core/lwt_list.ml" 78 1969 1983
+type(
+  'b list -> 'b list
+)
+"src/core/lwt_list.ml" 77 1945 1953 "src/core/lwt_list.ml" 78 1969 1983
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 76 1921 1936 "src/core/lwt_list.ml" 78 1969 1983
+type(
+  'b -> 'b list Lwt.t
+)
+"src/core/lwt_list.ml" 76 1921 1929 "src/core/lwt_list.ml" 78 1969 1983
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 75 1878 1886 "src/core/lwt_list.ml" 78 1969 1983
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 71 1812 1814 "src/core/lwt_list.ml" 78 1969 1983
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 80 1985 1993 "src/core/lwt_list.ml" 80 1985 2005
+type(
+  ('a -> 'b option Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  def filter_map_s "src/core/lwt_list.ml" 80 1985 1985 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 80 1985 2006 "src/core/lwt_list.ml" 80 1985 2007
+type(
+  'a -> 'b option Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 80 1985 2008 "src/core/lwt_list.ml" 90 2170 2192
+)
+"src/core/lwt_list.ml" 80 1985 2008 "src/core/lwt_list.ml" 80 1985 2009
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 81 2012 2014 "src/core/lwt_list.ml" 90 2170 2192
+)
+"src/core/lwt_list.ml" 81 2012 2020 "src/core/lwt_list.ml" 81 2012 2021
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 80 1985 2008 "src/core/lwt_list.ml" 80 1985 2009
+)
+"src/core/lwt_list.ml" 82 2027 2031 "src/core/lwt_list.ml" 82 2027 2033
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 83 2037 2041 "src/core/lwt_list.ml" 83 2037 2055
+type(
+  'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.return_nil
+)
+"src/core/lwt_list.ml" 84 2056 2060 "src/core/lwt_list.ml" 84 2056 2061
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 85 2070 2074 "src/core/lwt_list.ml" 90 2170 2192
+)
+"src/core/lwt_list.ml" 84 2056 2065 "src/core/lwt_list.ml" 84 2056 2066
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 85 2070 2074 "src/core/lwt_list.ml" 90 2170 2192
+)
+"src/core/lwt_list.ml" 84 2056 2060 "src/core/lwt_list.ml" 84 2056 2066
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 85 2070 2074 "src/core/lwt_list.ml" 85 2070 2075
+type(
+  'a -> 'b option Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 80 1985 2006 "src/core/lwt_list.ml" 80 1985 2007
+)
+"src/core/lwt_list.ml" 85 2070 2076 "src/core/lwt_list.ml" 85 2070 2077
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 84 2056 2060 "src/core/lwt_list.ml" 84 2056 2061
+)
+"src/core/lwt_list.ml" 85 2070 2074 "src/core/lwt_list.ml" 85 2070 2077
+call(
+  stack
+)
+type(
+  'b option Lwt.t
+)
+"src/core/lwt_list.ml" 85 2070 2078 "src/core/lwt_list.ml" 85 2070 2081
+type(
+  'b option Lwt.t -> ('b option -> 'b list Lwt.t) -> 'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 86 2091 2102 "src/core/lwt_list.ml" 86 2091 2103
+type(
+  'b
+)
+ident(
+  def x "src/core/lwt_list.ml" 87 2107 2113 "src/core/lwt_list.ml" 88 2143 2155
+)
+"src/core/lwt_list.ml" 86 2091 2097 "src/core/lwt_list.ml" 86 2091 2103
+type(
+  'b option
+)
+"src/core/lwt_list.ml" 87 2107 2113 "src/core/lwt_list.ml" 87 2107 2125
+type(
+  ('a -> 'b option Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  int_ref filter_map_s "src/core/lwt_list.ml" 80 1985 1993 "src/core/lwt_list.ml" 80 1985 2005
+)
+"src/core/lwt_list.ml" 87 2107 2126 "src/core/lwt_list.ml" 87 2107 2127
+type(
+  'a -> 'b option Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 80 1985 2006 "src/core/lwt_list.ml" 80 1985 2007
+)
+"src/core/lwt_list.ml" 87 2107 2128 "src/core/lwt_list.ml" 87 2107 2129
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 84 2056 2065 "src/core/lwt_list.ml" 84 2056 2066
+)
+"src/core/lwt_list.ml" 87 2107 2113 "src/core/lwt_list.ml" 87 2107 2129
+call(
+  stack
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 87 2107 2130 "src/core/lwt_list.ml" 87 2107 2133
+type(
+  'b list Lwt.t -> ('b list -> 'b list) -> 'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >|= )
+)
+"src/core/lwt_list.ml" 87 2107 2138 "src/core/lwt_list.ml" 87 2107 2139
+type(
+  'b list
+)
+ident(
+  def l "src/core/lwt_list.ml" 88 2143 2149 "src/core/lwt_list.ml" 88 2143 2155
+)
+"src/core/lwt_list.ml" 88 2143 2149 "src/core/lwt_list.ml" 88 2143 2150
+type(
+  'b
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 86 2091 2102 "src/core/lwt_list.ml" 86 2091 2103
+)
+"src/core/lwt_list.ml" 88 2143 2154 "src/core/lwt_list.ml" 88 2143 2155
+type(
+  'b list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 87 2107 2138 "src/core/lwt_list.ml" 87 2107 2139
+)
+"src/core/lwt_list.ml" 88 2143 2149 "src/core/lwt_list.ml" 88 2143 2155
+type(
+  'b list
+)
+"src/core/lwt_list.ml" 87 2107 2134 "src/core/lwt_list.ml" 88 2143 2155
+type(
+  'b list -> 'b list
+)
+"src/core/lwt_list.ml" 87 2107 2113 "src/core/lwt_list.ml" 88 2143 2155
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 89 2156 2162 "src/core/lwt_list.ml" 89 2156 2166
+type(
+  'b option
+)
+"src/core/lwt_list.ml" 90 2170 2176 "src/core/lwt_list.ml" 90 2170 2188
+type(
+  ('a -> 'b option Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  int_ref filter_map_s "src/core/lwt_list.ml" 80 1985 1993 "src/core/lwt_list.ml" 80 1985 2005
+)
+"src/core/lwt_list.ml" 90 2170 2189 "src/core/lwt_list.ml" 90 2170 2190
+type(
+  'a -> 'b option Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 80 1985 2006 "src/core/lwt_list.ml" 80 1985 2007
+)
+"src/core/lwt_list.ml" 90 2170 2191 "src/core/lwt_list.ml" 90 2170 2192
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 84 2056 2065 "src/core/lwt_list.ml" 84 2056 2066
+)
+"src/core/lwt_list.ml" 90 2170 2176 "src/core/lwt_list.ml" 90 2170 2192
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 85 2070 2082 "src/core/lwt_list.ml" 90 2170 2192
+type(
+  'b option -> 'b list Lwt.t
+)
+"src/core/lwt_list.ml" 85 2070 2074 "src/core/lwt_list.ml" 90 2170 2192
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 81 2012 2014 "src/core/lwt_list.ml" 90 2170 2192
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 92 2194 2202 "src/core/lwt_list.ml" 92 2194 2214
+type(
+  ('a -> 'b option Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  def filter_map_p "src/core/lwt_list.ml" 92 2194 2194 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 92 2194 2215 "src/core/lwt_list.ml" 92 2194 2216
+type(
+  'a -> 'b option Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 92 2194 2217 "src/core/lwt_list.ml" 100 2384 2400
+)
+"src/core/lwt_list.ml" 92 2194 2217 "src/core/lwt_list.ml" 92 2194 2218
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 93 2221 2223 "src/core/lwt_list.ml" 100 2384 2400
+)
+"src/core/lwt_list.ml" 93 2221 2229 "src/core/lwt_list.ml" 93 2221 2230
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 92 2194 2217 "src/core/lwt_list.ml" 92 2194 2218
+)
+"src/core/lwt_list.ml" 94 2236 2240 "src/core/lwt_list.ml" 94 2236 2242
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 95 2246 2250 "src/core/lwt_list.ml" 95 2246 2264
+type(
+  'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.return_nil
+)
+"src/core/lwt_list.ml" 96 2265 2269 "src/core/lwt_list.ml" 96 2265 2270
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 97 2279 2283 "src/core/lwt_list.ml" 100 2384 2400
+)
+"src/core/lwt_list.ml" 96 2265 2274 "src/core/lwt_list.ml" 96 2265 2275
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 97 2279 2283 "src/core/lwt_list.ml" 100 2384 2400
+)
+"src/core/lwt_list.ml" 96 2265 2269 "src/core/lwt_list.ml" 96 2265 2275
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 97 2279 2287 "src/core/lwt_list.ml" 97 2279 2289
+type(
+  'b option Lwt.t
+)
+ident(
+  def tx "src/core/lwt_list.ml" 98 2325 2329 "src/core/lwt_list.ml" 100 2384 2400
+)
+"src/core/lwt_list.ml" 97 2279 2292 "src/core/lwt_list.ml" 97 2279 2293
+type(
+  'a -> 'b option Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 92 2194 2215 "src/core/lwt_list.ml" 92 2194 2216
+)
+"src/core/lwt_list.ml" 97 2279 2294 "src/core/lwt_list.ml" 97 2279 2295
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 96 2265 2269 "src/core/lwt_list.ml" 96 2265 2270
+)
+"src/core/lwt_list.ml" 97 2279 2292 "src/core/lwt_list.ml" 97 2279 2295
+call(
+  stack
+)
+type(
+  'b option Lwt.t
+)
+"src/core/lwt_list.ml" 97 2279 2300 "src/core/lwt_list.ml" 97 2279 2302
+type(
+  'b list Lwt.t
+)
+ident(
+  def tl "src/core/lwt_list.ml" 98 2325 2329 "src/core/lwt_list.ml" 100 2384 2400
+)
+"src/core/lwt_list.ml" 97 2279 2305 "src/core/lwt_list.ml" 97 2279 2317
+type(
+  ('a -> 'b option Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  int_ref filter_map_p "src/core/lwt_list.ml" 92 2194 2202 "src/core/lwt_list.ml" 92 2194 2214
+)
+"src/core/lwt_list.ml" 97 2279 2318 "src/core/lwt_list.ml" 97 2279 2319
+type(
+  'a -> 'b option Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 92 2194 2215 "src/core/lwt_list.ml" 92 2194 2216
+)
+"src/core/lwt_list.ml" 97 2279 2320 "src/core/lwt_list.ml" 97 2279 2321
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 96 2265 2274 "src/core/lwt_list.ml" 96 2265 2275
+)
+"src/core/lwt_list.ml" 97 2279 2305 "src/core/lwt_list.ml" 97 2279 2321
+call(
+  stack
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 98 2325 2329 "src/core/lwt_list.ml" 98 2325 2331
+type(
+  'b option Lwt.t
+)
+ident(
+  int_ref tx "src/core/lwt_list.ml" 97 2279 2287 "src/core/lwt_list.ml" 97 2279 2289
+)
+"src/core/lwt_list.ml" 98 2325 2332 "src/core/lwt_list.ml" 98 2325 2335
+type(
+  'b option Lwt.t -> ('b option -> 'b list Lwt.t) -> 'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 99 2345 2356 "src/core/lwt_list.ml" 99 2345 2357
+type(
+  'b
+)
+ident(
+  def x "src/core/lwt_list.ml" 99 2345 2361 "src/core/lwt_list.ml" 99 2345 2383
+)
+"src/core/lwt_list.ml" 99 2345 2351 "src/core/lwt_list.ml" 99 2345 2357
+type(
+  'b option
+)
+"src/core/lwt_list.ml" 99 2345 2361 "src/core/lwt_list.ml" 99 2345 2363
+type(
+  'b list Lwt.t
+)
+ident(
+  int_ref tl "src/core/lwt_list.ml" 97 2279 2300 "src/core/lwt_list.ml" 97 2279 2302
+)
+"src/core/lwt_list.ml" 99 2345 2364 "src/core/lwt_list.ml" 99 2345 2367
+type(
+  'b list Lwt.t -> ('b list -> 'b list) -> 'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >|= )
+)
+"src/core/lwt_list.ml" 99 2345 2372 "src/core/lwt_list.ml" 99 2345 2373
+type(
+  'b list
+)
+ident(
+  def l "src/core/lwt_list.ml" 99 2345 2377 "src/core/lwt_list.ml" 99 2345 2383
+)
+"src/core/lwt_list.ml" 99 2345 2377 "src/core/lwt_list.ml" 99 2345 2378
+type(
+  'b
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 99 2345 2356 "src/core/lwt_list.ml" 99 2345 2357
+)
+"src/core/lwt_list.ml" 99 2345 2382 "src/core/lwt_list.ml" 99 2345 2383
+type(
+  'b list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 99 2345 2372 "src/core/lwt_list.ml" 99 2345 2373
+)
+"src/core/lwt_list.ml" 99 2345 2377 "src/core/lwt_list.ml" 99 2345 2383
+type(
+  'b list
+)
+"src/core/lwt_list.ml" 99 2345 2368 "src/core/lwt_list.ml" 99 2345 2383
+type(
+  'b list -> 'b list
+)
+"src/core/lwt_list.ml" 99 2345 2361 "src/core/lwt_list.ml" 99 2345 2383
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 100 2384 2390 "src/core/lwt_list.ml" 100 2384 2394
+type(
+  'b option
+)
+"src/core/lwt_list.ml" 100 2384 2398 "src/core/lwt_list.ml" 100 2384 2400
+type(
+  'b list Lwt.t
+)
+ident(
+  int_ref tl "src/core/lwt_list.ml" 97 2279 2300 "src/core/lwt_list.ml" 97 2279 2302
+)
+"src/core/lwt_list.ml" 98 2325 2336 "src/core/lwt_list.ml" 100 2384 2400
+type(
+  'b option -> 'b list Lwt.t
+)
+"src/core/lwt_list.ml" 98 2325 2329 "src/core/lwt_list.ml" 100 2384 2400
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 97 2279 2283 "src/core/lwt_list.ml" 100 2384 2400
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 93 2221 2223 "src/core/lwt_list.ml" 100 2384 2400
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 102 2402 2410 "src/core/lwt_list.ml" 102 2402 2416
+type(
+  int -> (int -> 'a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  def mapi_s "src/core/lwt_list.ml" 102 2402 2402 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 102 2402 2417 "src/core/lwt_list.ml" 102 2402 2418
+type(
+  int
+)
+ident(
+  def i "src/core/lwt_list.ml" 102 2402 2419 "src/core/lwt_list.ml" 109 2558 2572
+)
+"src/core/lwt_list.ml" 102 2402 2419 "src/core/lwt_list.ml" 102 2402 2420
+type(
+  int -> 'a -> 'b Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 102 2402 2421 "src/core/lwt_list.ml" 109 2558 2572
+)
+"src/core/lwt_list.ml" 102 2402 2421 "src/core/lwt_list.ml" 102 2402 2422
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 103 2425 2427 "src/core/lwt_list.ml" 109 2558 2572
+)
+"src/core/lwt_list.ml" 103 2425 2433 "src/core/lwt_list.ml" 103 2425 2434
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 102 2402 2421 "src/core/lwt_list.ml" 102 2402 2422
+)
+"src/core/lwt_list.ml" 104 2440 2446 "src/core/lwt_list.ml" 104 2440 2448
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 105 2452 2460 "src/core/lwt_list.ml" 105 2452 2474
+type(
+  'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.return_nil
+)
+"src/core/lwt_list.ml" 106 2475 2481 "src/core/lwt_list.ml" 106 2475 2482
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 107 2491 2499 "src/core/lwt_list.ml" 109 2558 2572
+)
+"src/core/lwt_list.ml" 106 2475 2486 "src/core/lwt_list.ml" 106 2475 2487
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 107 2491 2499 "src/core/lwt_list.ml" 109 2558 2572
+)
+"src/core/lwt_list.ml" 106 2475 2481 "src/core/lwt_list.ml" 106 2475 2487
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 107 2491 2499 "src/core/lwt_list.ml" 107 2491 2500
+type(
+  int -> 'a -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 102 2402 2419 "src/core/lwt_list.ml" 102 2402 2420
+)
+"src/core/lwt_list.ml" 107 2491 2501 "src/core/lwt_list.ml" 107 2491 2502
+type(
+  int
+)
+ident(
+  int_ref i "src/core/lwt_list.ml" 102 2402 2417 "src/core/lwt_list.ml" 102 2402 2418
+)
+"src/core/lwt_list.ml" 107 2491 2503 "src/core/lwt_list.ml" 107 2491 2504
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 106 2475 2481 "src/core/lwt_list.ml" 106 2475 2482
+)
+"src/core/lwt_list.ml" 107 2491 2499 "src/core/lwt_list.ml" 107 2491 2504
+call(
+  stack
+)
+type(
+  'b Lwt.t
+)
+"src/core/lwt_list.ml" 107 2491 2505 "src/core/lwt_list.ml" 107 2491 2508
+type(
+  'b Lwt.t -> ('b -> 'b list Lwt.t) -> 'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 107 2491 2513 "src/core/lwt_list.ml" 107 2491 2514
+type(
+  'b
+)
+ident(
+  def x "src/core/lwt_list.ml" 108 2518 2526 "src/core/lwt_list.ml" 109 2558 2572
+)
+"src/core/lwt_list.ml" 108 2518 2526 "src/core/lwt_list.ml" 108 2518 2532
+type(
+  int -> (int -> 'a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  int_ref mapi_s "src/core/lwt_list.ml" 102 2402 2410 "src/core/lwt_list.ml" 102 2402 2416
+)
+"src/core/lwt_list.ml" 108 2518 2534 "src/core/lwt_list.ml" 108 2518 2535
+type(
+  int
+)
+ident(
+  int_ref i "src/core/lwt_list.ml" 102 2402 2417 "src/core/lwt_list.ml" 102 2402 2418
+)
+"src/core/lwt_list.ml" 108 2518 2536 "src/core/lwt_list.ml" 108 2518 2537
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/core/lwt_list.ml" 108 2518 2538 "src/core/lwt_list.ml" 108 2518 2539
+type(
+  int
+)
+"src/core/lwt_list.ml" 108 2518 2533 "src/core/lwt_list.ml" 108 2518 2540
+type(
+  int
+)
+"src/core/lwt_list.ml" 108 2518 2541 "src/core/lwt_list.ml" 108 2518 2542
+type(
+  int -> 'a -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 102 2402 2419 "src/core/lwt_list.ml" 102 2402 2420
+)
+"src/core/lwt_list.ml" 108 2518 2543 "src/core/lwt_list.ml" 108 2518 2544
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 106 2475 2486 "src/core/lwt_list.ml" 106 2475 2487
+)
+"src/core/lwt_list.ml" 108 2518 2526 "src/core/lwt_list.ml" 108 2518 2544
+call(
+  stack
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 108 2518 2545 "src/core/lwt_list.ml" 108 2518 2548
+type(
+  'b list Lwt.t -> ('b list -> 'b list) -> 'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >|= )
+)
+"src/core/lwt_list.ml" 108 2518 2553 "src/core/lwt_list.ml" 108 2518 2554
+type(
+  'b list
+)
+ident(
+  def l "src/core/lwt_list.ml" 109 2558 2566 "src/core/lwt_list.ml" 109 2558 2572
+)
+"src/core/lwt_list.ml" 109 2558 2566 "src/core/lwt_list.ml" 109 2558 2567
+type(
+  'b
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 107 2491 2513 "src/core/lwt_list.ml" 107 2491 2514
+)
+"src/core/lwt_list.ml" 109 2558 2571 "src/core/lwt_list.ml" 109 2558 2572
+type(
+  'b list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 108 2518 2553 "src/core/lwt_list.ml" 108 2518 2554
+)
+"src/core/lwt_list.ml" 109 2558 2566 "src/core/lwt_list.ml" 109 2558 2572
+type(
+  'b list
+)
+"src/core/lwt_list.ml" 108 2518 2549 "src/core/lwt_list.ml" 109 2558 2572
+type(
+  'b list -> 'b list
+)
+"src/core/lwt_list.ml" 108 2518 2526 "src/core/lwt_list.ml" 109 2558 2572
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 107 2491 2509 "src/core/lwt_list.ml" 109 2558 2572
+type(
+  'b -> 'b list Lwt.t
+)
+"src/core/lwt_list.ml" 107 2491 2499 "src/core/lwt_list.ml" 109 2558 2572
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 103 2425 2427 "src/core/lwt_list.ml" 109 2558 2572
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 111 2574 2578 "src/core/lwt_list.ml" 111 2574 2584
+type(
+  (int -> 'a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  def mapi_s "src/core/lwt_list.ml" 113 2605 2605 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 111 2574 2585 "src/core/lwt_list.ml" 111 2574 2586
+type(
+  int -> 'a -> 'b Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 111 2574 2587 "src/core/lwt_list.ml" 111 2574 2603
+)
+"src/core/lwt_list.ml" 111 2574 2587 "src/core/lwt_list.ml" 111 2574 2588
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 111 2574 2591 "src/core/lwt_list.ml" 111 2574 2603
+)
+"src/core/lwt_list.ml" 111 2574 2591 "src/core/lwt_list.ml" 111 2574 2597
+type(
+  int -> (int -> 'a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  int_ref mapi_s "src/core/lwt_list.ml" 102 2402 2410 "src/core/lwt_list.ml" 102 2402 2416
+)
+"src/core/lwt_list.ml" 111 2574 2598 "src/core/lwt_list.ml" 111 2574 2599
+type(
+  int
+)
+"src/core/lwt_list.ml" 111 2574 2600 "src/core/lwt_list.ml" 111 2574 2601
+type(
+  int -> 'a -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 111 2574 2585 "src/core/lwt_list.ml" 111 2574 2586
+)
+"src/core/lwt_list.ml" 111 2574 2602 "src/core/lwt_list.ml" 111 2574 2603
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 111 2574 2587 "src/core/lwt_list.ml" 111 2574 2588
+)
+"src/core/lwt_list.ml" 111 2574 2591 "src/core/lwt_list.ml" 111 2574 2603
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 113 2605 2613 "src/core/lwt_list.ml" 113 2605 2619
+type(
+  int -> (int -> 'a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  def mapi_p "src/core/lwt_list.ml" 113 2605 2605 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 113 2605 2620 "src/core/lwt_list.ml" 113 2605 2621
+type(
+  int
+)
+ident(
+  def i "src/core/lwt_list.ml" 113 2605 2622 "src/core/lwt_list.ml" 121 2796 2810
+)
+"src/core/lwt_list.ml" 113 2605 2622 "src/core/lwt_list.ml" 113 2605 2623
+type(
+  int -> 'a -> 'b Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 113 2605 2624 "src/core/lwt_list.ml" 121 2796 2810
+)
+"src/core/lwt_list.ml" 113 2605 2624 "src/core/lwt_list.ml" 113 2605 2625
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 114 2628 2630 "src/core/lwt_list.ml" 121 2796 2810
+)
+"src/core/lwt_list.ml" 114 2628 2636 "src/core/lwt_list.ml" 114 2628 2637
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 113 2605 2624 "src/core/lwt_list.ml" 113 2605 2625
+)
+"src/core/lwt_list.ml" 115 2643 2649 "src/core/lwt_list.ml" 115 2643 2651
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 116 2655 2663 "src/core/lwt_list.ml" 116 2655 2677
+type(
+  'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.return_nil
+)
+"src/core/lwt_list.ml" 117 2678 2684 "src/core/lwt_list.ml" 117 2678 2685
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 118 2694 2702 "src/core/lwt_list.ml" 121 2796 2810
+)
+"src/core/lwt_list.ml" 117 2678 2689 "src/core/lwt_list.ml" 117 2678 2690
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 118 2694 2702 "src/core/lwt_list.ml" 121 2796 2810
+)
+"src/core/lwt_list.ml" 117 2678 2684 "src/core/lwt_list.ml" 117 2678 2690
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 118 2694 2706 "src/core/lwt_list.ml" 118 2694 2708
+type(
+  'b Lwt.t
+)
+ident(
+  def tx "src/core/lwt_list.ml" 119 2748 2756 "src/core/lwt_list.ml" 121 2796 2810
+)
+"src/core/lwt_list.ml" 118 2694 2711 "src/core/lwt_list.ml" 118 2694 2712
+type(
+  int -> 'a -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 113 2605 2622 "src/core/lwt_list.ml" 113 2605 2623
+)
+"src/core/lwt_list.ml" 118 2694 2713 "src/core/lwt_list.ml" 118 2694 2714
+type(
+  int
+)
+ident(
+  int_ref i "src/core/lwt_list.ml" 113 2605 2620 "src/core/lwt_list.ml" 113 2605 2621
+)
+"src/core/lwt_list.ml" 118 2694 2715 "src/core/lwt_list.ml" 118 2694 2716
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 117 2678 2684 "src/core/lwt_list.ml" 117 2678 2685
+)
+"src/core/lwt_list.ml" 118 2694 2711 "src/core/lwt_list.ml" 118 2694 2716
+call(
+  stack
+)
+type(
+  'b Lwt.t
+)
+"src/core/lwt_list.ml" 118 2694 2721 "src/core/lwt_list.ml" 118 2694 2723
+type(
+  'b list Lwt.t
+)
+ident(
+  def tl "src/core/lwt_list.ml" 119 2748 2756 "src/core/lwt_list.ml" 121 2796 2810
+)
+"src/core/lwt_list.ml" 118 2694 2726 "src/core/lwt_list.ml" 118 2694 2732
+type(
+  int -> (int -> 'a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  int_ref mapi_p "src/core/lwt_list.ml" 113 2605 2613 "src/core/lwt_list.ml" 113 2605 2619
+)
+"src/core/lwt_list.ml" 118 2694 2734 "src/core/lwt_list.ml" 118 2694 2735
+type(
+  int
+)
+ident(
+  int_ref i "src/core/lwt_list.ml" 113 2605 2620 "src/core/lwt_list.ml" 113 2605 2621
+)
+"src/core/lwt_list.ml" 118 2694 2736 "src/core/lwt_list.ml" 118 2694 2737
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/core/lwt_list.ml" 118 2694 2738 "src/core/lwt_list.ml" 118 2694 2739
+type(
+  int
+)
+"src/core/lwt_list.ml" 118 2694 2733 "src/core/lwt_list.ml" 118 2694 2740
+type(
+  int
+)
+"src/core/lwt_list.ml" 118 2694 2741 "src/core/lwt_list.ml" 118 2694 2742
+type(
+  int -> 'a -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 113 2605 2622 "src/core/lwt_list.ml" 113 2605 2623
+)
+"src/core/lwt_list.ml" 118 2694 2743 "src/core/lwt_list.ml" 118 2694 2744
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 117 2678 2689 "src/core/lwt_list.ml" 117 2678 2690
+)
+"src/core/lwt_list.ml" 118 2694 2726 "src/core/lwt_list.ml" 118 2694 2744
+call(
+  stack
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 119 2748 2756 "src/core/lwt_list.ml" 119 2748 2758
+type(
+  'b Lwt.t
+)
+ident(
+  int_ref tx "src/core/lwt_list.ml" 118 2694 2706 "src/core/lwt_list.ml" 118 2694 2708
+)
+"src/core/lwt_list.ml" 119 2748 2759 "src/core/lwt_list.ml" 119 2748 2762
+type(
+  'b Lwt.t -> ('b -> 'b list Lwt.t) -> 'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 119 2748 2767 "src/core/lwt_list.ml" 119 2748 2768
+type(
+  'b
+)
+ident(
+  def x "src/core/lwt_list.ml" 120 2772 2780 "src/core/lwt_list.ml" 121 2796 2810
+)
+"src/core/lwt_list.ml" 120 2772 2780 "src/core/lwt_list.ml" 120 2772 2782
+type(
+  'b list Lwt.t
+)
+ident(
+  int_ref tl "src/core/lwt_list.ml" 118 2694 2721 "src/core/lwt_list.ml" 118 2694 2723
+)
+"src/core/lwt_list.ml" 120 2772 2783 "src/core/lwt_list.ml" 120 2772 2786
+type(
+  'b list Lwt.t -> ('b list -> 'b list) -> 'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >|= )
+)
+"src/core/lwt_list.ml" 120 2772 2791 "src/core/lwt_list.ml" 120 2772 2792
+type(
+  'b list
+)
+ident(
+  def l "src/core/lwt_list.ml" 121 2796 2804 "src/core/lwt_list.ml" 121 2796 2810
+)
+"src/core/lwt_list.ml" 121 2796 2804 "src/core/lwt_list.ml" 121 2796 2805
+type(
+  'b
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 119 2748 2767 "src/core/lwt_list.ml" 119 2748 2768
+)
+"src/core/lwt_list.ml" 121 2796 2809 "src/core/lwt_list.ml" 121 2796 2810
+type(
+  'b list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 120 2772 2791 "src/core/lwt_list.ml" 120 2772 2792
+)
+"src/core/lwt_list.ml" 121 2796 2804 "src/core/lwt_list.ml" 121 2796 2810
+type(
+  'b list
+)
+"src/core/lwt_list.ml" 120 2772 2787 "src/core/lwt_list.ml" 121 2796 2810
+type(
+  'b list -> 'b list
+)
+"src/core/lwt_list.ml" 120 2772 2780 "src/core/lwt_list.ml" 121 2796 2810
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 119 2748 2763 "src/core/lwt_list.ml" 121 2796 2810
+type(
+  'b -> 'b list Lwt.t
+)
+"src/core/lwt_list.ml" 119 2748 2756 "src/core/lwt_list.ml" 121 2796 2810
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 118 2694 2702 "src/core/lwt_list.ml" 121 2796 2810
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 114 2628 2630 "src/core/lwt_list.ml" 121 2796 2810
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 123 2812 2816 "src/core/lwt_list.ml" 123 2812 2822
+type(
+  (int -> 'a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  def mapi_p "src/core/lwt_list.ml" 125 2843 2843 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 123 2812 2823 "src/core/lwt_list.ml" 123 2812 2824
+type(
+  int -> 'a -> 'b Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 123 2812 2825 "src/core/lwt_list.ml" 123 2812 2841
+)
+"src/core/lwt_list.ml" 123 2812 2825 "src/core/lwt_list.ml" 123 2812 2826
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 123 2812 2829 "src/core/lwt_list.ml" 123 2812 2841
+)
+"src/core/lwt_list.ml" 123 2812 2829 "src/core/lwt_list.ml" 123 2812 2835
+type(
+  int -> (int -> 'a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  int_ref mapi_p "src/core/lwt_list.ml" 113 2605 2613 "src/core/lwt_list.ml" 113 2605 2619
+)
+"src/core/lwt_list.ml" 123 2812 2836 "src/core/lwt_list.ml" 123 2812 2837
+type(
+  int
+)
+"src/core/lwt_list.ml" 123 2812 2838 "src/core/lwt_list.ml" 123 2812 2839
+type(
+  int -> 'a -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 123 2812 2823 "src/core/lwt_list.ml" 123 2812 2824
+)
+"src/core/lwt_list.ml" 123 2812 2840 "src/core/lwt_list.ml" 123 2812 2841
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 123 2812 2825 "src/core/lwt_list.ml" 123 2812 2826
+)
+"src/core/lwt_list.ml" 123 2812 2829 "src/core/lwt_list.ml" 123 2812 2841
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 125 2843 2851 "src/core/lwt_list.ml" 125 2843 2867
+type(
+  'a list -> ('b -> 'a Lwt.t) -> 'b list -> 'a list Lwt.t
+)
+ident(
+  def rev_map_append_s "src/core/lwt_list.ml" 125 2843 2843 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 125 2843 2868 "src/core/lwt_list.ml" 125 2843 2871
+type(
+  'a list
+)
+ident(
+  def acc "src/core/lwt_list.ml" 125 2843 2872 "src/core/lwt_list.ml" 131 2969 3008
+)
+"src/core/lwt_list.ml" 125 2843 2872 "src/core/lwt_list.ml" 125 2843 2873
+type(
+  'b -> 'a Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 125 2843 2874 "src/core/lwt_list.ml" 131 2969 3008
+)
+"src/core/lwt_list.ml" 125 2843 2874 "src/core/lwt_list.ml" 125 2843 2875
+type(
+  'b list
+)
+ident(
+  def l "src/core/lwt_list.ml" 126 2878 2880 "src/core/lwt_list.ml" 131 2969 3008
+)
+"src/core/lwt_list.ml" 126 2878 2886 "src/core/lwt_list.ml" 126 2878 2887
+type(
+  'b list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 125 2843 2874 "src/core/lwt_list.ml" 125 2843 2875
+)
+"src/core/lwt_list.ml" 127 2893 2899 "src/core/lwt_list.ml" 127 2893 2901
+type(
+  'b list
+)
+"src/core/lwt_list.ml" 128 2905 2913 "src/core/lwt_list.ml" 128 2905 2923
+type(
+  'a list -> 'a list Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/core/lwt_list.ml" 128 2905 2924 "src/core/lwt_list.ml" 128 2905 2927
+type(
+  'a list
+)
+ident(
+  int_ref acc "src/core/lwt_list.ml" 125 2843 2868 "src/core/lwt_list.ml" 125 2843 2871
+)
+"src/core/lwt_list.ml" 128 2905 2913 "src/core/lwt_list.ml" 128 2905 2927
+call(
+  tail
+)
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 129 2928 2934 "src/core/lwt_list.ml" 129 2928 2935
+type(
+  'b
+)
+ident(
+  def x "src/core/lwt_list.ml" 130 2944 2952 "src/core/lwt_list.ml" 131 2969 3008
+)
+"src/core/lwt_list.ml" 129 2928 2939 "src/core/lwt_list.ml" 129 2928 2940
+type(
+  'b list
+)
+ident(
+  def l "src/core/lwt_list.ml" 130 2944 2952 "src/core/lwt_list.ml" 131 2969 3008
+)
+"src/core/lwt_list.ml" 129 2928 2934 "src/core/lwt_list.ml" 129 2928 2940
+type(
+  'b list
+)
+"src/core/lwt_list.ml" 130 2944 2952 "src/core/lwt_list.ml" 130 2944 2953
+type(
+  'b -> 'a Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 125 2843 2872 "src/core/lwt_list.ml" 125 2843 2873
+)
+"src/core/lwt_list.ml" 130 2944 2954 "src/core/lwt_list.ml" 130 2944 2955
+type(
+  'b
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 129 2928 2934 "src/core/lwt_list.ml" 129 2928 2935
+)
+"src/core/lwt_list.ml" 130 2944 2952 "src/core/lwt_list.ml" 130 2944 2955
+call(
+  stack
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_list.ml" 130 2944 2956 "src/core/lwt_list.ml" 130 2944 2959
+type(
+  'a Lwt.t -> ('a -> 'a list Lwt.t) -> 'a list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 130 2944 2964 "src/core/lwt_list.ml" 130 2944 2965
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 131 2969 2977 "src/core/lwt_list.ml" 131 2969 3008
+)
+"src/core/lwt_list.ml" 131 2969 2977 "src/core/lwt_list.ml" 131 2969 2993
+type(
+  'a list -> ('b -> 'a Lwt.t) -> 'b list -> 'a list Lwt.t
+)
+ident(
+  int_ref rev_map_append_s "src/core/lwt_list.ml" 125 2843 2851 "src/core/lwt_list.ml" 125 2843 2867
+)
+"src/core/lwt_list.ml" 131 2969 2995 "src/core/lwt_list.ml" 131 2969 2996
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 130 2944 2964 "src/core/lwt_list.ml" 130 2944 2965
+)
+"src/core/lwt_list.ml" 131 2969 3000 "src/core/lwt_list.ml" 131 2969 3003
+type(
+  'a list
+)
+ident(
+  int_ref acc "src/core/lwt_list.ml" 125 2843 2868 "src/core/lwt_list.ml" 125 2843 2871
+)
+"src/core/lwt_list.ml" 131 2969 2994 "src/core/lwt_list.ml" 131 2969 3004
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 131 2969 3005 "src/core/lwt_list.ml" 131 2969 3006
+type(
+  'b -> 'a Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 125 2843 2872 "src/core/lwt_list.ml" 125 2843 2873
+)
+"src/core/lwt_list.ml" 131 2969 3007 "src/core/lwt_list.ml" 131 2969 3008
+type(
+  'b list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 129 2928 2939 "src/core/lwt_list.ml" 129 2928 2940
+)
+"src/core/lwt_list.ml" 131 2969 2977 "src/core/lwt_list.ml" 131 2969 3008
+call(
+  tail
+)
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 130 2944 2960 "src/core/lwt_list.ml" 131 2969 3008
+type(
+  'a -> 'a list Lwt.t
+)
+"src/core/lwt_list.ml" 130 2944 2952 "src/core/lwt_list.ml" 131 2969 3008
+call(
+  tail
+)
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 126 2878 2880 "src/core/lwt_list.ml" 131 2969 3008
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 133 3010 3014 "src/core/lwt_list.ml" 133 3010 3023
+type(
+  ('a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  def rev_map_s "src/core/lwt_list.ml" 136 3057 3057 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 133 3010 3024 "src/core/lwt_list.ml" 133 3010 3025
+type(
+  'a -> 'b Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 133 3010 3026 "src/core/lwt_list.ml" 134 3030 3055
+)
+"src/core/lwt_list.ml" 133 3010 3026 "src/core/lwt_list.ml" 133 3010 3027
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 134 3030 3032 "src/core/lwt_list.ml" 134 3030 3055
+)
+"src/core/lwt_list.ml" 134 3030 3032 "src/core/lwt_list.ml" 134 3030 3048
+type(
+  'b list -> ('a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  int_ref rev_map_append_s "src/core/lwt_list.ml" 125 2843 2851 "src/core/lwt_list.ml" 125 2843 2867
+)
+"src/core/lwt_list.ml" 134 3030 3049 "src/core/lwt_list.ml" 134 3030 3051
+type(
+  'b list
+)
+"src/core/lwt_list.ml" 134 3030 3052 "src/core/lwt_list.ml" 134 3030 3053
+type(
+  'a -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 133 3010 3024 "src/core/lwt_list.ml" 133 3010 3025
+)
+"src/core/lwt_list.ml" 134 3030 3054 "src/core/lwt_list.ml" 134 3030 3055
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 133 3010 3026 "src/core/lwt_list.ml" 133 3010 3027
+)
+"src/core/lwt_list.ml" 134 3030 3032 "src/core/lwt_list.ml" 134 3030 3055
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 136 3057 3065 "src/core/lwt_list.ml" 136 3057 3081
+type(
+  'a list Lwt.t -> ('b -> 'a Lwt.t) -> 'b list -> 'a list Lwt.t
+)
+ident(
+  def rev_map_append_p "src/core/lwt_list.ml" 136 3057 3057 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 136 3057 3082 "src/core/lwt_list.ml" 136 3057 3085
+type(
+  'a list Lwt.t
+)
+ident(
+  def acc "src/core/lwt_list.ml" 136 3057 3086 "src/core/lwt_list.ml" 144 3228 3250
+)
+"src/core/lwt_list.ml" 136 3057 3086 "src/core/lwt_list.ml" 136 3057 3087
+type(
+  'b -> 'a Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 136 3057 3088 "src/core/lwt_list.ml" 144 3228 3250
+)
+"src/core/lwt_list.ml" 136 3057 3088 "src/core/lwt_list.ml" 136 3057 3089
+type(
+  'b list
+)
+ident(
+  def l "src/core/lwt_list.ml" 137 3092 3094 "src/core/lwt_list.ml" 144 3228 3250
+)
+"src/core/lwt_list.ml" 137 3092 3100 "src/core/lwt_list.ml" 137 3092 3101
+type(
+  'b list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 136 3057 3088 "src/core/lwt_list.ml" 136 3057 3089
+)
+"src/core/lwt_list.ml" 138 3107 3113 "src/core/lwt_list.ml" 138 3107 3115
+type(
+  'b list
+)
+"src/core/lwt_list.ml" 139 3119 3127 "src/core/lwt_list.ml" 139 3119 3130
+type(
+  'a list Lwt.t
+)
+ident(
+  int_ref acc "src/core/lwt_list.ml" 136 3057 3082 "src/core/lwt_list.ml" 136 3057 3085
+)
+"src/core/lwt_list.ml" 140 3131 3137 "src/core/lwt_list.ml" 140 3131 3138
+type(
+  'b
+)
+ident(
+  def x "src/core/lwt_list.ml" 141 3147 3155 "src/core/lwt_list.ml" 144 3228 3250
+)
+"src/core/lwt_list.ml" 140 3131 3142 "src/core/lwt_list.ml" 140 3131 3143
+type(
+  'b list
+)
+ident(
+  def l "src/core/lwt_list.ml" 141 3147 3155 "src/core/lwt_list.ml" 144 3228 3250
+)
+"src/core/lwt_list.ml" 140 3131 3137 "src/core/lwt_list.ml" 140 3131 3143
+type(
+  'b list
+)
+"src/core/lwt_list.ml" 141 3147 3155 "src/core/lwt_list.ml" 141 3147 3171
+type(
+  'a list Lwt.t -> ('b -> 'a Lwt.t) -> 'b list -> 'a list Lwt.t
+)
+ident(
+  int_ref rev_map_append_p "src/core/lwt_list.ml" 136 3057 3065 "src/core/lwt_list.ml" 136 3057 3081
+)
+"src/core/lwt_list.ml" 142 3172 3183 "src/core/lwt_list.ml" 142 3172 3184
+type(
+  'b -> 'a Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 136 3057 3086 "src/core/lwt_list.ml" 136 3057 3087
+)
+"src/core/lwt_list.ml" 142 3172 3185 "src/core/lwt_list.ml" 142 3172 3186
+type(
+  'b
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 140 3131 3137 "src/core/lwt_list.ml" 140 3131 3138
+)
+"src/core/lwt_list.ml" 142 3172 3183 "src/core/lwt_list.ml" 142 3172 3186
+call(
+  stack
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_list.ml" 142 3172 3187 "src/core/lwt_list.ml" 142 3172 3190
+type(
+  'a Lwt.t -> ('a -> 'a list Lwt.t) -> 'a list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 142 3172 3195 "src/core/lwt_list.ml" 142 3172 3196
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 143 3200 3211 "src/core/lwt_list.ml" 144 3228 3245
+)
+"src/core/lwt_list.ml" 143 3200 3211 "src/core/lwt_list.ml" 143 3200 3214
+type(
+  'a list Lwt.t
+)
+ident(
+  int_ref acc "src/core/lwt_list.ml" 136 3057 3082 "src/core/lwt_list.ml" 136 3057 3085
+)
+"src/core/lwt_list.ml" 143 3200 3215 "src/core/lwt_list.ml" 143 3200 3218
+type(
+  'a list Lwt.t -> ('a list -> 'a list) -> 'a list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >|= )
+)
+"src/core/lwt_list.ml" 143 3200 3223 "src/core/lwt_list.ml" 143 3200 3224
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 144 3228 3239 "src/core/lwt_list.ml" 144 3228 3245
+)
+"src/core/lwt_list.ml" 144 3228 3239 "src/core/lwt_list.ml" 144 3228 3240
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 142 3172 3195 "src/core/lwt_list.ml" 142 3172 3196
+)
+"src/core/lwt_list.ml" 144 3228 3244 "src/core/lwt_list.ml" 144 3228 3245
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 143 3200 3223 "src/core/lwt_list.ml" 143 3200 3224
+)
+"src/core/lwt_list.ml" 144 3228 3239 "src/core/lwt_list.ml" 144 3228 3245
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 143 3200 3219 "src/core/lwt_list.ml" 144 3228 3245
+type(
+  'a list -> 'a list
+)
+"src/core/lwt_list.ml" 143 3200 3211 "src/core/lwt_list.ml" 144 3228 3245
+call(
+  tail
+)
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 142 3172 3191 "src/core/lwt_list.ml" 144 3228 3245
+type(
+  'a -> 'a list Lwt.t
+)
+"src/core/lwt_list.ml" 142 3172 3182 "src/core/lwt_list.ml" 144 3228 3246
+call(
+  stack
+)
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 144 3228 3247 "src/core/lwt_list.ml" 144 3228 3248
+type(
+  'b -> 'a Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 136 3057 3086 "src/core/lwt_list.ml" 136 3057 3087
+)
+"src/core/lwt_list.ml" 144 3228 3249 "src/core/lwt_list.ml" 144 3228 3250
+type(
+  'b list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 140 3131 3142 "src/core/lwt_list.ml" 140 3131 3143
+)
+"src/core/lwt_list.ml" 141 3147 3155 "src/core/lwt_list.ml" 144 3228 3250
+call(
+  tail
+)
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 137 3092 3094 "src/core/lwt_list.ml" 144 3228 3250
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 146 3252 3256 "src/core/lwt_list.ml" 146 3252 3265
+type(
+  ('a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  def rev_map_p "src/core/lwt_list.ml" 149 3311 3311 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 146 3252 3266 "src/core/lwt_list.ml" 146 3252 3267
+type(
+  'a -> 'b Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 146 3252 3268 "src/core/lwt_list.ml" 147 3272 3309
+)
+"src/core/lwt_list.ml" 146 3252 3268 "src/core/lwt_list.ml" 146 3252 3269
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 147 3272 3274 "src/core/lwt_list.ml" 147 3272 3309
+)
+"src/core/lwt_list.ml" 147 3272 3274 "src/core/lwt_list.ml" 147 3272 3290
+type(
+  'b list Lwt.t -> ('a -> 'b Lwt.t) -> 'a list -> 'b list Lwt.t
+)
+ident(
+  int_ref rev_map_append_p "src/core/lwt_list.ml" 136 3057 3065 "src/core/lwt_list.ml" 136 3057 3081
+)
+"src/core/lwt_list.ml" 147 3272 3291 "src/core/lwt_list.ml" 147 3272 3305
+type(
+  'b list Lwt.t
+)
+ident(
+  ext_ref Lwt.return_nil
+)
+"src/core/lwt_list.ml" 147 3272 3306 "src/core/lwt_list.ml" 147 3272 3307
+type(
+  'a -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 146 3252 3266 "src/core/lwt_list.ml" 146 3252 3267
+)
+"src/core/lwt_list.ml" 147 3272 3308 "src/core/lwt_list.ml" 147 3272 3309
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 146 3252 3268 "src/core/lwt_list.ml" 146 3252 3269
+)
+"src/core/lwt_list.ml" 147 3272 3274 "src/core/lwt_list.ml" 147 3272 3309
+call(
+  tail
+)
+type(
+  'b list Lwt.t
+)
+"src/core/lwt_list.ml" 149 3311 3319 "src/core/lwt_list.ml" 149 3311 3330
+type(
+  ('a -> 'b -> 'a Lwt.t) -> 'a -> 'b list -> 'a Lwt.t
+)
+ident(
+  def fold_left_s "src/core/lwt_list.ml" 149 3311 3311 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 149 3311 3331 "src/core/lwt_list.ml" 149 3311 3332
+type(
+  'a -> 'b -> 'a Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 149 3311 3333 "src/core/lwt_list.ml" 155 3438 3465
+)
+"src/core/lwt_list.ml" 149 3311 3333 "src/core/lwt_list.ml" 149 3311 3336
+type(
+  'a
+)
+ident(
+  def acc "src/core/lwt_list.ml" 149 3311 3337 "src/core/lwt_list.ml" 155 3438 3465
+)
+"src/core/lwt_list.ml" 149 3311 3337 "src/core/lwt_list.ml" 149 3311 3338
+type(
+  'b list
+)
+ident(
+  def l "src/core/lwt_list.ml" 150 3341 3343 "src/core/lwt_list.ml" 155 3438 3465
+)
+"src/core/lwt_list.ml" 150 3341 3349 "src/core/lwt_list.ml" 150 3341 3350
+type(
+  'b list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 149 3311 3337 "src/core/lwt_list.ml" 149 3311 3338
+)
+"src/core/lwt_list.ml" 151 3356 3362 "src/core/lwt_list.ml" 151 3356 3364
+type(
+  'b list
+)
+"src/core/lwt_list.ml" 152 3368 3376 "src/core/lwt_list.ml" 152 3368 3386
+type(
+  'a -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/core/lwt_list.ml" 152 3368 3387 "src/core/lwt_list.ml" 152 3368 3390
+type(
+  'a
+)
+ident(
+  int_ref acc "src/core/lwt_list.ml" 149 3311 3333 "src/core/lwt_list.ml" 149 3311 3336
+)
+"src/core/lwt_list.ml" 152 3368 3376 "src/core/lwt_list.ml" 152 3368 3390
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_list.ml" 153 3391 3397 "src/core/lwt_list.ml" 153 3391 3398
+type(
+  'b
+)
+ident(
+  def x "src/core/lwt_list.ml" 154 3407 3415 "src/core/lwt_list.ml" 155 3438 3465
+)
+"src/core/lwt_list.ml" 153 3391 3402 "src/core/lwt_list.ml" 153 3391 3403
+type(
+  'b list
+)
+ident(
+  def l "src/core/lwt_list.ml" 154 3407 3415 "src/core/lwt_list.ml" 155 3438 3465
+)
+"src/core/lwt_list.ml" 153 3391 3397 "src/core/lwt_list.ml" 153 3391 3403
+type(
+  'b list
+)
+"src/core/lwt_list.ml" 154 3407 3415 "src/core/lwt_list.ml" 154 3407 3416
+type(
+  'a -> 'b -> 'a Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 149 3311 3331 "src/core/lwt_list.ml" 149 3311 3332
+)
+"src/core/lwt_list.ml" 154 3407 3417 "src/core/lwt_list.ml" 154 3407 3420
+type(
+  'a
+)
+ident(
+  int_ref acc "src/core/lwt_list.ml" 149 3311 3333 "src/core/lwt_list.ml" 149 3311 3336
+)
+"src/core/lwt_list.ml" 154 3407 3421 "src/core/lwt_list.ml" 154 3407 3422
+type(
+  'b
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 153 3391 3397 "src/core/lwt_list.ml" 153 3391 3398
+)
+"src/core/lwt_list.ml" 154 3407 3415 "src/core/lwt_list.ml" 154 3407 3422
+call(
+  stack
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_list.ml" 154 3407 3423 "src/core/lwt_list.ml" 154 3407 3426
+type(
+  'a Lwt.t -> ('a -> 'a Lwt.t) -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 154 3407 3431 "src/core/lwt_list.ml" 154 3407 3434
+type(
+  'a
+)
+ident(
+  def acc "src/core/lwt_list.ml" 155 3438 3446 "src/core/lwt_list.ml" 155 3438 3465
+)
+"src/core/lwt_list.ml" 155 3438 3446 "src/core/lwt_list.ml" 155 3438 3457
+type(
+  ('a -> 'b -> 'a Lwt.t) -> 'a -> 'b list -> 'a Lwt.t
+)
+ident(
+  int_ref fold_left_s "src/core/lwt_list.ml" 149 3311 3319 "src/core/lwt_list.ml" 149 3311 3330
+)
+"src/core/lwt_list.ml" 155 3438 3458 "src/core/lwt_list.ml" 155 3438 3459
+type(
+  'a -> 'b -> 'a Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 149 3311 3331 "src/core/lwt_list.ml" 149 3311 3332
+)
+"src/core/lwt_list.ml" 155 3438 3460 "src/core/lwt_list.ml" 155 3438 3463
+type(
+  'a
+)
+ident(
+  int_ref acc "src/core/lwt_list.ml" 154 3407 3431 "src/core/lwt_list.ml" 154 3407 3434
+)
+"src/core/lwt_list.ml" 155 3438 3464 "src/core/lwt_list.ml" 155 3438 3465
+type(
+  'b list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 153 3391 3402 "src/core/lwt_list.ml" 153 3391 3403
+)
+"src/core/lwt_list.ml" 155 3438 3446 "src/core/lwt_list.ml" 155 3438 3465
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_list.ml" 154 3407 3427 "src/core/lwt_list.ml" 155 3438 3465
+type(
+  'a -> 'a Lwt.t
+)
+"src/core/lwt_list.ml" 154 3407 3415 "src/core/lwt_list.ml" 155 3438 3465
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_list.ml" 150 3341 3343 "src/core/lwt_list.ml" 155 3438 3465
+type(
+  'a Lwt.t
+)
+"src/core/lwt_list.ml" 157 3467 3475 "src/core/lwt_list.ml" 157 3467 3487
+type(
+  ('a -> 'b -> 'b Lwt.t) -> 'a list -> 'b -> 'b Lwt.t
+)
+ident(
+  def fold_right_s "src/core/lwt_list.ml" 157 3467 3467 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 157 3467 3488 "src/core/lwt_list.ml" 157 3467 3489
+type(
+  'a -> 'b -> 'b Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 157 3467 3490 "src/core/lwt_list.ml" 163 3608 3623
+)
+"src/core/lwt_list.ml" 157 3467 3490 "src/core/lwt_list.ml" 157 3467 3491
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 157 3467 3492 "src/core/lwt_list.ml" 163 3608 3623
+)
+"src/core/lwt_list.ml" 157 3467 3492 "src/core/lwt_list.ml" 157 3467 3495
+type(
+  'b
+)
+ident(
+  def acc "src/core/lwt_list.ml" 158 3498 3500 "src/core/lwt_list.ml" 163 3608 3623
+)
+"src/core/lwt_list.ml" 158 3498 3506 "src/core/lwt_list.ml" 158 3498 3507
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 157 3467 3490 "src/core/lwt_list.ml" 157 3467 3491
+)
+"src/core/lwt_list.ml" 159 3513 3519 "src/core/lwt_list.ml" 159 3513 3521
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 160 3525 3533 "src/core/lwt_list.ml" 160 3525 3543
+type(
+  'b -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/core/lwt_list.ml" 160 3525 3544 "src/core/lwt_list.ml" 160 3525 3547
+type(
+  'b
+)
+ident(
+  int_ref acc "src/core/lwt_list.ml" 157 3467 3492 "src/core/lwt_list.ml" 157 3467 3495
+)
+"src/core/lwt_list.ml" 160 3525 3533 "src/core/lwt_list.ml" 160 3525 3547
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"src/core/lwt_list.ml" 161 3548 3554 "src/core/lwt_list.ml" 161 3548 3555
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 162 3564 3572 "src/core/lwt_list.ml" 163 3608 3623
+)
+"src/core/lwt_list.ml" 161 3548 3559 "src/core/lwt_list.ml" 161 3548 3560
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 162 3564 3572 "src/core/lwt_list.ml" 163 3608 3623
+)
+"src/core/lwt_list.ml" 161 3548 3554 "src/core/lwt_list.ml" 161 3548 3560
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 162 3564 3572 "src/core/lwt_list.ml" 162 3564 3584
+type(
+  ('a -> 'b -> 'b Lwt.t) -> 'a list -> 'b -> 'b Lwt.t
+)
+ident(
+  int_ref fold_right_s "src/core/lwt_list.ml" 157 3467 3475 "src/core/lwt_list.ml" 157 3467 3487
+)
+"src/core/lwt_list.ml" 162 3564 3585 "src/core/lwt_list.ml" 162 3564 3586
+type(
+  'a -> 'b -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 157 3467 3488 "src/core/lwt_list.ml" 157 3467 3489
+)
+"src/core/lwt_list.ml" 162 3564 3587 "src/core/lwt_list.ml" 162 3564 3588
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 161 3548 3559 "src/core/lwt_list.ml" 161 3548 3560
+)
+"src/core/lwt_list.ml" 162 3564 3589 "src/core/lwt_list.ml" 162 3564 3592
+type(
+  'b
+)
+ident(
+  int_ref acc "src/core/lwt_list.ml" 157 3467 3492 "src/core/lwt_list.ml" 157 3467 3495
+)
+"src/core/lwt_list.ml" 162 3564 3572 "src/core/lwt_list.ml" 162 3564 3592
+call(
+  stack
+)
+type(
+  'b Lwt.t
+)
+"src/core/lwt_list.ml" 162 3564 3593 "src/core/lwt_list.ml" 162 3564 3596
+type(
+  'b Lwt.t -> ('b -> 'b Lwt.t) -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 162 3564 3601 "src/core/lwt_list.ml" 162 3564 3604
+type(
+  'b
+)
+ident(
+  def acc "src/core/lwt_list.ml" 163 3608 3616 "src/core/lwt_list.ml" 163 3608 3623
+)
+"src/core/lwt_list.ml" 163 3608 3616 "src/core/lwt_list.ml" 163 3608 3617
+type(
+  'a -> 'b -> 'b Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 157 3467 3488 "src/core/lwt_list.ml" 157 3467 3489
+)
+"src/core/lwt_list.ml" 163 3608 3618 "src/core/lwt_list.ml" 163 3608 3619
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 161 3548 3554 "src/core/lwt_list.ml" 161 3548 3555
+)
+"src/core/lwt_list.ml" 163 3608 3620 "src/core/lwt_list.ml" 163 3608 3623
+type(
+  'b
+)
+ident(
+  int_ref acc "src/core/lwt_list.ml" 162 3564 3601 "src/core/lwt_list.ml" 162 3564 3604
+)
+"src/core/lwt_list.ml" 163 3608 3616 "src/core/lwt_list.ml" 163 3608 3623
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"src/core/lwt_list.ml" 162 3564 3597 "src/core/lwt_list.ml" 163 3608 3623
+type(
+  'b -> 'b Lwt.t
+)
+"src/core/lwt_list.ml" 162 3564 3572 "src/core/lwt_list.ml" 163 3608 3623
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"src/core/lwt_list.ml" 158 3498 3500 "src/core/lwt_list.ml" 163 3608 3623
+type(
+  'b Lwt.t
+)
+"src/core/lwt_list.ml" 165 3625 3633 "src/core/lwt_list.ml" 165 3625 3642
+type(
+  ('a -> bool Lwt.t) -> 'a list -> bool Lwt.t
+)
+ident(
+  def for_all_s "src/core/lwt_list.ml" 165 3625 3625 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 165 3625 3643 "src/core/lwt_list.ml" 165 3625 3644
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 165 3625 3645 "src/core/lwt_list.ml" 174 3810 3840
+)
+"src/core/lwt_list.ml" 165 3625 3645 "src/core/lwt_list.ml" 165 3625 3646
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 166 3649 3651 "src/core/lwt_list.ml" 174 3810 3840
+)
+"src/core/lwt_list.ml" 166 3649 3657 "src/core/lwt_list.ml" 166 3649 3658
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 165 3625 3645 "src/core/lwt_list.ml" 165 3625 3646
+)
+"src/core/lwt_list.ml" 167 3664 3670 "src/core/lwt_list.ml" 167 3664 3672
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 168 3676 3684 "src/core/lwt_list.ml" 168 3676 3699
+type(
+  bool Lwt.t
+)
+ident(
+  ext_ref Lwt.return_true
+)
+"src/core/lwt_list.ml" 169 3700 3706 "src/core/lwt_list.ml" 169 3700 3707
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 170 3716 3724 "src/core/lwt_list.ml" 174 3810 3840
+)
+"src/core/lwt_list.ml" 169 3700 3711 "src/core/lwt_list.ml" 169 3700 3712
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 170 3716 3724 "src/core/lwt_list.ml" 174 3810 3840
+)
+"src/core/lwt_list.ml" 169 3700 3706 "src/core/lwt_list.ml" 169 3700 3712
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 170 3716 3724 "src/core/lwt_list.ml" 170 3716 3725
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 165 3625 3643 "src/core/lwt_list.ml" 165 3625 3644
+)
+"src/core/lwt_list.ml" 170 3716 3726 "src/core/lwt_list.ml" 170 3716 3727
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 169 3700 3706 "src/core/lwt_list.ml" 169 3700 3707
+)
+"src/core/lwt_list.ml" 170 3716 3724 "src/core/lwt_list.ml" 170 3716 3727
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 170 3716 3728 "src/core/lwt_list.ml" 170 3716 3731
+type(
+  bool Lwt.t -> (bool -> bool Lwt.t) -> bool Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 171 3741 3753 "src/core/lwt_list.ml" 171 3741 3757
+type(
+  bool
+)
+"src/core/lwt_list.ml" 172 3761 3775 "src/core/lwt_list.ml" 172 3761 3784
+type(
+  ('a -> bool Lwt.t) -> 'a list -> bool Lwt.t
+)
+ident(
+  int_ref for_all_s "src/core/lwt_list.ml" 165 3625 3633 "src/core/lwt_list.ml" 165 3625 3642
+)
+"src/core/lwt_list.ml" 172 3761 3785 "src/core/lwt_list.ml" 172 3761 3786
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 165 3625 3643 "src/core/lwt_list.ml" 165 3625 3644
+)
+"src/core/lwt_list.ml" 172 3761 3787 "src/core/lwt_list.ml" 172 3761 3788
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 169 3700 3711 "src/core/lwt_list.ml" 169 3700 3712
+)
+"src/core/lwt_list.ml" 172 3761 3775 "src/core/lwt_list.ml" 172 3761 3788
+call(
+  tail
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 173 3789 3801 "src/core/lwt_list.ml" 173 3789 3806
+type(
+  bool
+)
+"src/core/lwt_list.ml" 174 3810 3824 "src/core/lwt_list.ml" 174 3810 3840
+type(
+  bool Lwt.t
+)
+ident(
+  ext_ref Lwt.return_false
+)
+"src/core/lwt_list.ml" 170 3716 3732 "src/core/lwt_list.ml" 174 3810 3840
+type(
+  bool -> bool Lwt.t
+)
+"src/core/lwt_list.ml" 170 3716 3724 "src/core/lwt_list.ml" 174 3810 3840
+call(
+  tail
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 166 3649 3651 "src/core/lwt_list.ml" 174 3810 3840
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 176 3842 3850 "src/core/lwt_list.ml" 176 3842 3859
+type(
+  ('a -> bool Lwt.t) -> 'a list -> bool Lwt.t
+)
+ident(
+  def for_all_p "src/core/lwt_list.ml" 176 3842 3842 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 176 3842 3860 "src/core/lwt_list.ml" 176 3842 3861
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 176 3842 3862 "src/core/lwt_list.ml" 184 4030 4046
+)
+"src/core/lwt_list.ml" 176 3842 3862 "src/core/lwt_list.ml" 176 3842 3863
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 177 3866 3868 "src/core/lwt_list.ml" 184 4030 4046
+)
+"src/core/lwt_list.ml" 177 3866 3874 "src/core/lwt_list.ml" 177 3866 3875
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 176 3842 3862 "src/core/lwt_list.ml" 176 3842 3863
+)
+"src/core/lwt_list.ml" 178 3881 3887 "src/core/lwt_list.ml" 178 3881 3889
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 179 3893 3901 "src/core/lwt_list.ml" 179 3893 3916
+type(
+  bool Lwt.t
+)
+ident(
+  ext_ref Lwt.return_true
+)
+"src/core/lwt_list.ml" 180 3917 3923 "src/core/lwt_list.ml" 180 3917 3924
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 181 3933 3941 "src/core/lwt_list.ml" 184 4030 4046
+)
+"src/core/lwt_list.ml" 180 3917 3928 "src/core/lwt_list.ml" 180 3917 3929
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 181 3933 3941 "src/core/lwt_list.ml" 184 4030 4046
+)
+"src/core/lwt_list.ml" 180 3917 3923 "src/core/lwt_list.ml" 180 3917 3929
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 181 3933 3945 "src/core/lwt_list.ml" 181 3933 3947
+type(
+  bool Lwt.t
+)
+ident(
+  def tx "src/core/lwt_list.ml" 182 3980 3988 "src/core/lwt_list.ml" 184 4030 4046
+)
+"src/core/lwt_list.ml" 181 3933 3950 "src/core/lwt_list.ml" 181 3933 3951
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 176 3842 3860 "src/core/lwt_list.ml" 176 3842 3861
+)
+"src/core/lwt_list.ml" 181 3933 3952 "src/core/lwt_list.ml" 181 3933 3953
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 180 3917 3923 "src/core/lwt_list.ml" 180 3917 3924
+)
+"src/core/lwt_list.ml" 181 3933 3950 "src/core/lwt_list.ml" 181 3933 3953
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 181 3933 3958 "src/core/lwt_list.ml" 181 3933 3960
+type(
+  bool Lwt.t
+)
+ident(
+  def tl "src/core/lwt_list.ml" 182 3980 3988 "src/core/lwt_list.ml" 184 4030 4046
+)
+"src/core/lwt_list.ml" 181 3933 3963 "src/core/lwt_list.ml" 181 3933 3972
+type(
+  ('a -> bool Lwt.t) -> 'a list -> bool Lwt.t
+)
+ident(
+  int_ref for_all_p "src/core/lwt_list.ml" 176 3842 3850 "src/core/lwt_list.ml" 176 3842 3859
+)
+"src/core/lwt_list.ml" 181 3933 3973 "src/core/lwt_list.ml" 181 3933 3974
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 176 3842 3860 "src/core/lwt_list.ml" 176 3842 3861
+)
+"src/core/lwt_list.ml" 181 3933 3975 "src/core/lwt_list.ml" 181 3933 3976
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 180 3917 3928 "src/core/lwt_list.ml" 180 3917 3929
+)
+"src/core/lwt_list.ml" 181 3933 3963 "src/core/lwt_list.ml" 181 3933 3976
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 182 3980 3988 "src/core/lwt_list.ml" 182 3980 3990
+type(
+  bool Lwt.t
+)
+ident(
+  int_ref tx "src/core/lwt_list.ml" 181 3933 3945 "src/core/lwt_list.ml" 181 3933 3947
+)
+"src/core/lwt_list.ml" 182 3980 3991 "src/core/lwt_list.ml" 182 3980 3994
+type(
+  bool Lwt.t -> (bool -> bool Lwt.t) -> bool Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 182 3980 3999 "src/core/lwt_list.ml" 182 3980 4001
+type(
+  bool
+)
+ident(
+  def bx "src/core/lwt_list.ml" 183 4005 4013 "src/core/lwt_list.ml" 184 4030 4046
+)
+"src/core/lwt_list.ml" 183 4005 4013 "src/core/lwt_list.ml" 183 4005 4015
+type(
+  bool Lwt.t
+)
+ident(
+  int_ref tl "src/core/lwt_list.ml" 181 3933 3958 "src/core/lwt_list.ml" 181 3933 3960
+)
+"src/core/lwt_list.ml" 183 4005 4016 "src/core/lwt_list.ml" 183 4005 4019
+type(
+  bool Lwt.t -> (bool -> bool) -> bool Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >|= )
+)
+"src/core/lwt_list.ml" 183 4005 4024 "src/core/lwt_list.ml" 183 4005 4026
+type(
+  bool
+)
+ident(
+  def bl "src/core/lwt_list.ml" 184 4030 4038 "src/core/lwt_list.ml" 184 4030 4046
+)
+"src/core/lwt_list.ml" 184 4030 4038 "src/core/lwt_list.ml" 184 4030 4040
+type(
+  bool
+)
+ident(
+  int_ref bx "src/core/lwt_list.ml" 182 3980 3999 "src/core/lwt_list.ml" 182 3980 4001
+)
+"src/core/lwt_list.ml" 184 4030 4041 "src/core/lwt_list.ml" 184 4030 4043
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/core/lwt_list.ml" 184 4030 4044 "src/core/lwt_list.ml" 184 4030 4046
+type(
+  bool
+)
+ident(
+  int_ref bl "src/core/lwt_list.ml" 183 4005 4024 "src/core/lwt_list.ml" 183 4005 4026
+)
+"src/core/lwt_list.ml" 184 4030 4038 "src/core/lwt_list.ml" 184 4030 4046
+type(
+  bool
+)
+"src/core/lwt_list.ml" 183 4005 4020 "src/core/lwt_list.ml" 184 4030 4046
+type(
+  bool -> bool
+)
+"src/core/lwt_list.ml" 183 4005 4013 "src/core/lwt_list.ml" 184 4030 4046
+call(
+  tail
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 182 3980 3995 "src/core/lwt_list.ml" 184 4030 4046
+type(
+  bool -> bool Lwt.t
+)
+"src/core/lwt_list.ml" 182 3980 3988 "src/core/lwt_list.ml" 184 4030 4046
+call(
+  tail
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 181 3933 3941 "src/core/lwt_list.ml" 184 4030 4046
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 177 3866 3868 "src/core/lwt_list.ml" 184 4030 4046
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 186 4048 4056 "src/core/lwt_list.ml" 186 4048 4064
+type(
+  ('a -> bool Lwt.t) -> 'a list -> bool Lwt.t
+)
+ident(
+  def exists_s "src/core/lwt_list.ml" 186 4048 4048 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 186 4048 4065 "src/core/lwt_list.ml" 186 4048 4066
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 186 4048 4067 "src/core/lwt_list.ml" 195 4235 4261
+)
+"src/core/lwt_list.ml" 186 4048 4067 "src/core/lwt_list.ml" 186 4048 4068
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 187 4071 4073 "src/core/lwt_list.ml" 195 4235 4261
+)
+"src/core/lwt_list.ml" 187 4071 4079 "src/core/lwt_list.ml" 187 4071 4080
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 186 4048 4067 "src/core/lwt_list.ml" 186 4048 4068
+)
+"src/core/lwt_list.ml" 188 4086 4092 "src/core/lwt_list.ml" 188 4086 4094
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 189 4098 4106 "src/core/lwt_list.ml" 189 4098 4122
+type(
+  bool Lwt.t
+)
+ident(
+  ext_ref Lwt.return_false
+)
+"src/core/lwt_list.ml" 190 4123 4129 "src/core/lwt_list.ml" 190 4123 4130
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 191 4139 4147 "src/core/lwt_list.ml" 195 4235 4261
+)
+"src/core/lwt_list.ml" 190 4123 4134 "src/core/lwt_list.ml" 190 4123 4135
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 191 4139 4147 "src/core/lwt_list.ml" 195 4235 4261
+)
+"src/core/lwt_list.ml" 190 4123 4129 "src/core/lwt_list.ml" 190 4123 4135
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 191 4139 4147 "src/core/lwt_list.ml" 191 4139 4148
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 186 4048 4065 "src/core/lwt_list.ml" 186 4048 4066
+)
+"src/core/lwt_list.ml" 191 4139 4149 "src/core/lwt_list.ml" 191 4139 4150
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 190 4123 4129 "src/core/lwt_list.ml" 190 4123 4130
+)
+"src/core/lwt_list.ml" 191 4139 4147 "src/core/lwt_list.ml" 191 4139 4150
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 191 4139 4151 "src/core/lwt_list.ml" 191 4139 4154
+type(
+  bool Lwt.t -> (bool -> bool Lwt.t) -> bool Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 192 4164 4176 "src/core/lwt_list.ml" 192 4164 4180
+type(
+  bool
+)
+"src/core/lwt_list.ml" 193 4184 4198 "src/core/lwt_list.ml" 193 4184 4213
+type(
+  bool Lwt.t
+)
+ident(
+  ext_ref Lwt.return_true
+)
+"src/core/lwt_list.ml" 194 4214 4226 "src/core/lwt_list.ml" 194 4214 4231
+type(
+  bool
+)
+"src/core/lwt_list.ml" 195 4235 4249 "src/core/lwt_list.ml" 195 4235 4257
+type(
+  ('a -> bool Lwt.t) -> 'a list -> bool Lwt.t
+)
+ident(
+  int_ref exists_s "src/core/lwt_list.ml" 186 4048 4056 "src/core/lwt_list.ml" 186 4048 4064
+)
+"src/core/lwt_list.ml" 195 4235 4258 "src/core/lwt_list.ml" 195 4235 4259
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 186 4048 4065 "src/core/lwt_list.ml" 186 4048 4066
+)
+"src/core/lwt_list.ml" 195 4235 4260 "src/core/lwt_list.ml" 195 4235 4261
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 190 4123 4134 "src/core/lwt_list.ml" 190 4123 4135
+)
+"src/core/lwt_list.ml" 195 4235 4249 "src/core/lwt_list.ml" 195 4235 4261
+call(
+  tail
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 191 4139 4155 "src/core/lwt_list.ml" 195 4235 4261
+type(
+  bool -> bool Lwt.t
+)
+"src/core/lwt_list.ml" 191 4139 4147 "src/core/lwt_list.ml" 195 4235 4261
+call(
+  tail
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 187 4071 4073 "src/core/lwt_list.ml" 195 4235 4261
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 197 4263 4271 "src/core/lwt_list.ml" 197 4263 4279
+type(
+  ('a -> bool Lwt.t) -> 'a list -> bool Lwt.t
+)
+ident(
+  def exists_p "src/core/lwt_list.ml" 197 4263 4263 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 197 4263 4280 "src/core/lwt_list.ml" 197 4263 4281
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 197 4263 4282 "src/core/lwt_list.ml" 205 4450 4466
+)
+"src/core/lwt_list.ml" 197 4263 4282 "src/core/lwt_list.ml" 197 4263 4283
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 198 4286 4288 "src/core/lwt_list.ml" 205 4450 4466
+)
+"src/core/lwt_list.ml" 198 4286 4294 "src/core/lwt_list.ml" 198 4286 4295
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 197 4263 4282 "src/core/lwt_list.ml" 197 4263 4283
+)
+"src/core/lwt_list.ml" 199 4301 4307 "src/core/lwt_list.ml" 199 4301 4309
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 200 4313 4321 "src/core/lwt_list.ml" 200 4313 4337
+type(
+  bool Lwt.t
+)
+ident(
+  ext_ref Lwt.return_false
+)
+"src/core/lwt_list.ml" 201 4338 4344 "src/core/lwt_list.ml" 201 4338 4345
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 202 4354 4362 "src/core/lwt_list.ml" 205 4450 4466
+)
+"src/core/lwt_list.ml" 201 4338 4349 "src/core/lwt_list.ml" 201 4338 4350
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 202 4354 4362 "src/core/lwt_list.ml" 205 4450 4466
+)
+"src/core/lwt_list.ml" 201 4338 4344 "src/core/lwt_list.ml" 201 4338 4350
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 202 4354 4366 "src/core/lwt_list.ml" 202 4354 4368
+type(
+  bool Lwt.t
+)
+ident(
+  def tx "src/core/lwt_list.ml" 203 4400 4408 "src/core/lwt_list.ml" 205 4450 4466
+)
+"src/core/lwt_list.ml" 202 4354 4371 "src/core/lwt_list.ml" 202 4354 4372
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 197 4263 4280 "src/core/lwt_list.ml" 197 4263 4281
+)
+"src/core/lwt_list.ml" 202 4354 4373 "src/core/lwt_list.ml" 202 4354 4374
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 201 4338 4344 "src/core/lwt_list.ml" 201 4338 4345
+)
+"src/core/lwt_list.ml" 202 4354 4371 "src/core/lwt_list.ml" 202 4354 4374
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 202 4354 4379 "src/core/lwt_list.ml" 202 4354 4381
+type(
+  bool Lwt.t
+)
+ident(
+  def tl "src/core/lwt_list.ml" 203 4400 4408 "src/core/lwt_list.ml" 205 4450 4466
+)
+"src/core/lwt_list.ml" 202 4354 4384 "src/core/lwt_list.ml" 202 4354 4392
+type(
+  ('a -> bool Lwt.t) -> 'a list -> bool Lwt.t
+)
+ident(
+  int_ref exists_p "src/core/lwt_list.ml" 197 4263 4271 "src/core/lwt_list.ml" 197 4263 4279
+)
+"src/core/lwt_list.ml" 202 4354 4393 "src/core/lwt_list.ml" 202 4354 4394
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 197 4263 4280 "src/core/lwt_list.ml" 197 4263 4281
+)
+"src/core/lwt_list.ml" 202 4354 4395 "src/core/lwt_list.ml" 202 4354 4396
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 201 4338 4349 "src/core/lwt_list.ml" 201 4338 4350
+)
+"src/core/lwt_list.ml" 202 4354 4384 "src/core/lwt_list.ml" 202 4354 4396
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 203 4400 4408 "src/core/lwt_list.ml" 203 4400 4410
+type(
+  bool Lwt.t
+)
+ident(
+  int_ref tx "src/core/lwt_list.ml" 202 4354 4366 "src/core/lwt_list.ml" 202 4354 4368
+)
+"src/core/lwt_list.ml" 203 4400 4411 "src/core/lwt_list.ml" 203 4400 4414
+type(
+  bool Lwt.t -> (bool -> bool Lwt.t) -> bool Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 203 4400 4419 "src/core/lwt_list.ml" 203 4400 4421
+type(
+  bool
+)
+ident(
+  def bx "src/core/lwt_list.ml" 204 4425 4433 "src/core/lwt_list.ml" 205 4450 4466
+)
+"src/core/lwt_list.ml" 204 4425 4433 "src/core/lwt_list.ml" 204 4425 4435
+type(
+  bool Lwt.t
+)
+ident(
+  int_ref tl "src/core/lwt_list.ml" 202 4354 4379 "src/core/lwt_list.ml" 202 4354 4381
+)
+"src/core/lwt_list.ml" 204 4425 4436 "src/core/lwt_list.ml" 204 4425 4439
+type(
+  bool Lwt.t -> (bool -> bool) -> bool Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >|= )
+)
+"src/core/lwt_list.ml" 204 4425 4444 "src/core/lwt_list.ml" 204 4425 4446
+type(
+  bool
+)
+ident(
+  def bl "src/core/lwt_list.ml" 205 4450 4458 "src/core/lwt_list.ml" 205 4450 4466
+)
+"src/core/lwt_list.ml" 205 4450 4458 "src/core/lwt_list.ml" 205 4450 4460
+type(
+  bool
+)
+ident(
+  int_ref bx "src/core/lwt_list.ml" 203 4400 4419 "src/core/lwt_list.ml" 203 4400 4421
+)
+"src/core/lwt_list.ml" 205 4450 4461 "src/core/lwt_list.ml" 205 4450 4463
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/core/lwt_list.ml" 205 4450 4464 "src/core/lwt_list.ml" 205 4450 4466
+type(
+  bool
+)
+ident(
+  int_ref bl "src/core/lwt_list.ml" 204 4425 4444 "src/core/lwt_list.ml" 204 4425 4446
+)
+"src/core/lwt_list.ml" 205 4450 4458 "src/core/lwt_list.ml" 205 4450 4466
+type(
+  bool
+)
+"src/core/lwt_list.ml" 204 4425 4440 "src/core/lwt_list.ml" 205 4450 4466
+type(
+  bool -> bool
+)
+"src/core/lwt_list.ml" 204 4425 4433 "src/core/lwt_list.ml" 205 4450 4466
+call(
+  tail
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 203 4400 4415 "src/core/lwt_list.ml" 205 4450 4466
+type(
+  bool -> bool Lwt.t
+)
+"src/core/lwt_list.ml" 203 4400 4408 "src/core/lwt_list.ml" 205 4450 4466
+call(
+  tail
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 202 4354 4362 "src/core/lwt_list.ml" 205 4450 4466
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 198 4286 4288 "src/core/lwt_list.ml" 205 4450 4466
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 207 4468 4476 "src/core/lwt_list.ml" 207 4468 4482
+type(
+  ('a -> bool Lwt.t) -> 'a list -> 'a Lwt.t
+)
+ident(
+  def find_s "src/core/lwt_list.ml" 207 4468 4468 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 207 4468 4483 "src/core/lwt_list.ml" 207 4468 4484
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 207 4468 4485 "src/core/lwt_list.ml" 216 4652 4676
+)
+"src/core/lwt_list.ml" 207 4468 4485 "src/core/lwt_list.ml" 207 4468 4486
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 208 4489 4491 "src/core/lwt_list.ml" 216 4652 4676
+)
+"src/core/lwt_list.ml" 208 4489 4497 "src/core/lwt_list.ml" 208 4489 4498
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 207 4468 4485 "src/core/lwt_list.ml" 207 4468 4486
+)
+"src/core/lwt_list.ml" 209 4504 4510 "src/core/lwt_list.ml" 209 4504 4512
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 210 4516 4524 "src/core/lwt_list.ml" 210 4516 4532
+type(
+  exn -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.fail
+)
+"src/core/lwt_list.ml" 210 4516 4533 "src/core/lwt_list.ml" 210 4516 4542
+type(
+  exn
+)
+"src/core/lwt_list.ml" 210 4516 4524 "src/core/lwt_list.ml" 210 4516 4542
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_list.ml" 211 4543 4549 "src/core/lwt_list.ml" 211 4543 4550
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 212 4559 4567 "src/core/lwt_list.ml" 216 4652 4676
+)
+"src/core/lwt_list.ml" 211 4543 4554 "src/core/lwt_list.ml" 211 4543 4555
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 212 4559 4567 "src/core/lwt_list.ml" 216 4652 4676
+)
+"src/core/lwt_list.ml" 211 4543 4549 "src/core/lwt_list.ml" 211 4543 4555
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 212 4559 4567 "src/core/lwt_list.ml" 212 4559 4568
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 207 4468 4483 "src/core/lwt_list.ml" 207 4468 4484
+)
+"src/core/lwt_list.ml" 212 4559 4569 "src/core/lwt_list.ml" 212 4559 4570
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 211 4543 4549 "src/core/lwt_list.ml" 211 4543 4550
+)
+"src/core/lwt_list.ml" 212 4559 4567 "src/core/lwt_list.ml" 212 4559 4570
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 212 4559 4571 "src/core/lwt_list.ml" 212 4559 4574
+type(
+  bool Lwt.t -> (bool -> 'a Lwt.t) -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 213 4584 4596 "src/core/lwt_list.ml" 213 4584 4600
+type(
+  bool
+)
+"src/core/lwt_list.ml" 214 4604 4618 "src/core/lwt_list.ml" 214 4604 4628
+type(
+  'a -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/core/lwt_list.ml" 214 4604 4629 "src/core/lwt_list.ml" 214 4604 4630
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 211 4543 4549 "src/core/lwt_list.ml" 211 4543 4550
+)
+"src/core/lwt_list.ml" 214 4604 4618 "src/core/lwt_list.ml" 214 4604 4630
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_list.ml" 215 4631 4643 "src/core/lwt_list.ml" 215 4631 4648
+type(
+  bool
+)
+"src/core/lwt_list.ml" 216 4652 4666 "src/core/lwt_list.ml" 216 4652 4672
+type(
+  ('a -> bool Lwt.t) -> 'a list -> 'a Lwt.t
+)
+ident(
+  int_ref find_s "src/core/lwt_list.ml" 207 4468 4476 "src/core/lwt_list.ml" 207 4468 4482
+)
+"src/core/lwt_list.ml" 216 4652 4673 "src/core/lwt_list.ml" 216 4652 4674
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 207 4468 4483 "src/core/lwt_list.ml" 207 4468 4484
+)
+"src/core/lwt_list.ml" 216 4652 4675 "src/core/lwt_list.ml" 216 4652 4676
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 211 4543 4554 "src/core/lwt_list.ml" 211 4543 4555
+)
+"src/core/lwt_list.ml" 216 4652 4666 "src/core/lwt_list.ml" 216 4652 4676
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_list.ml" 212 4559 4575 "src/core/lwt_list.ml" 216 4652 4676
+type(
+  bool -> 'a Lwt.t
+)
+"src/core/lwt_list.ml" 212 4559 4567 "src/core/lwt_list.ml" 216 4652 4676
+call(
+  tail
+)
+type(
+  'a Lwt.t
+)
+"src/core/lwt_list.ml" 208 4489 4491 "src/core/lwt_list.ml" 216 4652 4676
+type(
+  'a Lwt.t
+)
+"src/core/lwt_list.ml" 218 4678 4686 "src/core/lwt_list.ml" 218 4678 4694
+type(
+  ('a -> bool Lwt.t) -> 'a list -> 'a list Lwt.t
+)
+ident(
+  def filter_s "src/core/lwt_list.ml" 218 4678 4678 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 218 4678 4695 "src/core/lwt_list.ml" 218 4678 4696
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 218 4678 4697 "src/core/lwt_list.ml" 228 4894 4920
+)
+"src/core/lwt_list.ml" 218 4678 4697 "src/core/lwt_list.ml" 218 4678 4698
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 219 4701 4703 "src/core/lwt_list.ml" 228 4894 4920
+)
+"src/core/lwt_list.ml" 219 4701 4709 "src/core/lwt_list.ml" 219 4701 4710
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 218 4678 4697 "src/core/lwt_list.ml" 218 4678 4698
+)
+"src/core/lwt_list.ml" 220 4716 4722 "src/core/lwt_list.ml" 220 4716 4724
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 221 4728 4736 "src/core/lwt_list.ml" 221 4728 4750
+type(
+  'a list Lwt.t
+)
+ident(
+  ext_ref Lwt.return_nil
+)
+"src/core/lwt_list.ml" 222 4751 4757 "src/core/lwt_list.ml" 222 4751 4758
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 223 4767 4775 "src/core/lwt_list.ml" 228 4894 4920
+)
+"src/core/lwt_list.ml" 222 4751 4762 "src/core/lwt_list.ml" 222 4751 4763
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 223 4767 4775 "src/core/lwt_list.ml" 228 4894 4920
+)
+"src/core/lwt_list.ml" 222 4751 4757 "src/core/lwt_list.ml" 222 4751 4763
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 223 4767 4775 "src/core/lwt_list.ml" 223 4767 4776
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 218 4678 4695 "src/core/lwt_list.ml" 218 4678 4696
+)
+"src/core/lwt_list.ml" 223 4767 4777 "src/core/lwt_list.ml" 223 4767 4778
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 222 4751 4757 "src/core/lwt_list.ml" 222 4751 4758
+)
+"src/core/lwt_list.ml" 223 4767 4775 "src/core/lwt_list.ml" 223 4767 4778
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 223 4767 4779 "src/core/lwt_list.ml" 223 4767 4782
+type(
+  bool Lwt.t -> (bool -> 'a list Lwt.t) -> 'a list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 224 4792 4804 "src/core/lwt_list.ml" 224 4792 4808
+type(
+  bool
+)
+"src/core/lwt_list.ml" 225 4812 4826 "src/core/lwt_list.ml" 225 4812 4834
+type(
+  ('a -> bool Lwt.t) -> 'a list -> 'a list Lwt.t
+)
+ident(
+  int_ref filter_s "src/core/lwt_list.ml" 218 4678 4686 "src/core/lwt_list.ml" 218 4678 4694
+)
+"src/core/lwt_list.ml" 225 4812 4835 "src/core/lwt_list.ml" 225 4812 4836
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 218 4678 4695 "src/core/lwt_list.ml" 218 4678 4696
+)
+"src/core/lwt_list.ml" 225 4812 4837 "src/core/lwt_list.ml" 225 4812 4838
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 222 4751 4762 "src/core/lwt_list.ml" 222 4751 4763
+)
+"src/core/lwt_list.ml" 225 4812 4826 "src/core/lwt_list.ml" 225 4812 4838
+call(
+  stack
+)
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 225 4812 4839 "src/core/lwt_list.ml" 225 4812 4842
+type(
+  'a list Lwt.t -> ('a list -> 'a list) -> 'a list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >|= )
+)
+"src/core/lwt_list.ml" 225 4812 4847 "src/core/lwt_list.ml" 225 4812 4848
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 226 4852 4866 "src/core/lwt_list.ml" 226 4852 4872
+)
+"src/core/lwt_list.ml" 226 4852 4866 "src/core/lwt_list.ml" 226 4852 4867
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 222 4751 4757 "src/core/lwt_list.ml" 222 4751 4758
+)
+"src/core/lwt_list.ml" 226 4852 4871 "src/core/lwt_list.ml" 226 4852 4872
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 225 4812 4847 "src/core/lwt_list.ml" 225 4812 4848
+)
+"src/core/lwt_list.ml" 226 4852 4866 "src/core/lwt_list.ml" 226 4852 4872
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 225 4812 4843 "src/core/lwt_list.ml" 226 4852 4872
+type(
+  'a list -> 'a list
+)
+"src/core/lwt_list.ml" 225 4812 4826 "src/core/lwt_list.ml" 226 4852 4872
+call(
+  tail
+)
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 227 4873 4885 "src/core/lwt_list.ml" 227 4873 4890
+type(
+  bool
+)
+"src/core/lwt_list.ml" 228 4894 4908 "src/core/lwt_list.ml" 228 4894 4916
+type(
+  ('a -> bool Lwt.t) -> 'a list -> 'a list Lwt.t
+)
+ident(
+  int_ref filter_s "src/core/lwt_list.ml" 218 4678 4686 "src/core/lwt_list.ml" 218 4678 4694
+)
+"src/core/lwt_list.ml" 228 4894 4917 "src/core/lwt_list.ml" 228 4894 4918
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 218 4678 4695 "src/core/lwt_list.ml" 218 4678 4696
+)
+"src/core/lwt_list.ml" 228 4894 4919 "src/core/lwt_list.ml" 228 4894 4920
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 222 4751 4762 "src/core/lwt_list.ml" 222 4751 4763
+)
+"src/core/lwt_list.ml" 228 4894 4908 "src/core/lwt_list.ml" 228 4894 4920
+call(
+  tail
+)
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 223 4767 4783 "src/core/lwt_list.ml" 228 4894 4920
+type(
+  bool -> 'a list Lwt.t
+)
+"src/core/lwt_list.ml" 223 4767 4775 "src/core/lwt_list.ml" 228 4894 4920
+call(
+  tail
+)
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 219 4701 4703 "src/core/lwt_list.ml" 228 4894 4920
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 230 4922 4930 "src/core/lwt_list.ml" 230 4922 4938
+type(
+  ('a -> bool Lwt.t) -> 'a list -> 'a list Lwt.t
+)
+ident(
+  def filter_p "src/core/lwt_list.ml" 230 4922 4922 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 230 4922 4939 "src/core/lwt_list.ml" 230 4922 4940
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 230 4922 4941 "src/core/lwt_list.ml" 241 5155 5166
+)
+"src/core/lwt_list.ml" 230 4922 4941 "src/core/lwt_list.ml" 230 4922 4942
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 231 4945 4947 "src/core/lwt_list.ml" 241 5155 5166
+)
+"src/core/lwt_list.ml" 231 4945 4953 "src/core/lwt_list.ml" 231 4945 4954
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 230 4922 4941 "src/core/lwt_list.ml" 230 4922 4942
+)
+"src/core/lwt_list.ml" 232 4960 4966 "src/core/lwt_list.ml" 232 4960 4968
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 233 4972 4980 "src/core/lwt_list.ml" 233 4972 4994
+type(
+  'a list Lwt.t
+)
+ident(
+  ext_ref Lwt.return_nil
+)
+"src/core/lwt_list.ml" 234 4995 5001 "src/core/lwt_list.ml" 234 4995 5002
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 235 5011 5019 "src/core/lwt_list.ml" 241 5155 5166
+)
+"src/core/lwt_list.ml" 234 4995 5006 "src/core/lwt_list.ml" 234 4995 5007
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 235 5011 5019 "src/core/lwt_list.ml" 241 5155 5166
+)
+"src/core/lwt_list.ml" 234 4995 5001 "src/core/lwt_list.ml" 234 4995 5007
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 235 5011 5023 "src/core/lwt_list.ml" 235 5011 5025
+type(
+  bool Lwt.t
+)
+ident(
+  def tx "src/core/lwt_list.ml" 236 5057 5065 "src/core/lwt_list.ml" 241 5155 5166
+)
+"src/core/lwt_list.ml" 235 5011 5028 "src/core/lwt_list.ml" 235 5011 5029
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 230 4922 4939 "src/core/lwt_list.ml" 230 4922 4940
+)
+"src/core/lwt_list.ml" 235 5011 5030 "src/core/lwt_list.ml" 235 5011 5031
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 234 4995 5001 "src/core/lwt_list.ml" 234 4995 5002
+)
+"src/core/lwt_list.ml" 235 5011 5028 "src/core/lwt_list.ml" 235 5011 5031
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 235 5011 5036 "src/core/lwt_list.ml" 235 5011 5038
+type(
+  'a list Lwt.t
+)
+ident(
+  def tl "src/core/lwt_list.ml" 236 5057 5065 "src/core/lwt_list.ml" 241 5155 5166
+)
+"src/core/lwt_list.ml" 235 5011 5041 "src/core/lwt_list.ml" 235 5011 5049
+type(
+  ('a -> bool Lwt.t) -> 'a list -> 'a list Lwt.t
+)
+ident(
+  int_ref filter_p "src/core/lwt_list.ml" 230 4922 4930 "src/core/lwt_list.ml" 230 4922 4938
+)
+"src/core/lwt_list.ml" 235 5011 5050 "src/core/lwt_list.ml" 235 5011 5051
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 230 4922 4939 "src/core/lwt_list.ml" 230 4922 4940
+)
+"src/core/lwt_list.ml" 235 5011 5052 "src/core/lwt_list.ml" 235 5011 5053
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 234 4995 5006 "src/core/lwt_list.ml" 234 4995 5007
+)
+"src/core/lwt_list.ml" 235 5011 5041 "src/core/lwt_list.ml" 235 5011 5053
+call(
+  stack
+)
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 236 5057 5065 "src/core/lwt_list.ml" 236 5057 5067
+type(
+  bool Lwt.t
+)
+ident(
+  int_ref tx "src/core/lwt_list.ml" 235 5011 5023 "src/core/lwt_list.ml" 235 5011 5025
+)
+"src/core/lwt_list.ml" 236 5057 5068 "src/core/lwt_list.ml" 236 5057 5071
+type(
+  bool Lwt.t -> (bool -> 'a list Lwt.t) -> 'a list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 236 5057 5076 "src/core/lwt_list.ml" 236 5057 5078
+type(
+  bool
+)
+ident(
+  def bx "src/core/lwt_list.ml" 237 5082 5090 "src/core/lwt_list.ml" 241 5155 5166
+)
+"src/core/lwt_list.ml" 237 5082 5090 "src/core/lwt_list.ml" 237 5082 5092
+type(
+  'a list Lwt.t
+)
+ident(
+  int_ref tl "src/core/lwt_list.ml" 235 5011 5036 "src/core/lwt_list.ml" 235 5011 5038
+)
+"src/core/lwt_list.ml" 237 5082 5093 "src/core/lwt_list.ml" 237 5082 5096
+type(
+  'a list Lwt.t -> ('a list -> 'a list) -> 'a list Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >|= )
+)
+"src/core/lwt_list.ml" 237 5082 5101 "src/core/lwt_list.ml" 237 5082 5102
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 238 5106 5114 "src/core/lwt_list.ml" 241 5155 5166
+)
+"src/core/lwt_list.ml" 238 5106 5117 "src/core/lwt_list.ml" 238 5106 5119
+type(
+  bool
+)
+ident(
+  int_ref bx "src/core/lwt_list.ml" 236 5057 5076 "src/core/lwt_list.ml" 236 5057 5078
+)
+"src/core/lwt_list.ml" 239 5125 5135 "src/core/lwt_list.ml" 239 5125 5136
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 234 4995 5001 "src/core/lwt_list.ml" 234 4995 5002
+)
+"src/core/lwt_list.ml" 239 5125 5140 "src/core/lwt_list.ml" 239 5125 5141
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 237 5082 5101 "src/core/lwt_list.ml" 237 5082 5102
+)
+"src/core/lwt_list.ml" 239 5125 5135 "src/core/lwt_list.ml" 239 5125 5141
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 241 5155 5165 "src/core/lwt_list.ml" 241 5155 5166
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 237 5082 5101 "src/core/lwt_list.ml" 237 5082 5102
+)
+"src/core/lwt_list.ml" 238 5106 5114 "src/core/lwt_list.ml" 241 5155 5166
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 237 5082 5097 "src/core/lwt_list.ml" 241 5155 5166
+type(
+  'a list -> 'a list
+)
+"src/core/lwt_list.ml" 237 5082 5090 "src/core/lwt_list.ml" 241 5155 5166
+call(
+  tail
+)
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 236 5057 5072 "src/core/lwt_list.ml" 241 5155 5166
+type(
+  bool -> 'a list Lwt.t
+)
+"src/core/lwt_list.ml" 236 5057 5065 "src/core/lwt_list.ml" 241 5155 5166
+call(
+  tail
+)
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 235 5011 5019 "src/core/lwt_list.ml" 241 5155 5166
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 231 4945 4947 "src/core/lwt_list.ml" 241 5155 5166
+type(
+  'a list Lwt.t
+)
+"src/core/lwt_list.ml" 243 5168 5172 "src/core/lwt_list.ml" 243 5168 5186
+type(
+  ('a list * 'b list) Lwt.t
+)
+ident(
+  def return_nil_nil "src/core/lwt_list.ml" 245 5210 5210 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 243 5168 5189 "src/core/lwt_list.ml" 243 5168 5199
+type(
+  'a list * 'b list -> ('a list * 'b list) Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"src/core/lwt_list.ml" 243 5168 5201 "src/core/lwt_list.ml" 243 5168 5203
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 243 5168 5205 "src/core/lwt_list.ml" 243 5168 5207
+type(
+  'b list
+)
+"src/core/lwt_list.ml" 243 5168 5200 "src/core/lwt_list.ml" 243 5168 5208
+type(
+  'a list * 'b list
+)
+"src/core/lwt_list.ml" 243 5168 5189 "src/core/lwt_list.ml" 243 5168 5208
+call(
+  stack
+)
+type(
+  ('a list * 'b list) Lwt.t
+)
+"src/core/lwt_list.ml" 245 5210 5218 "src/core/lwt_list.ml" 245 5210 5229
+type(
+  ('a -> bool Lwt.t) -> 'a list -> ('a list * 'a list) Lwt.t
+)
+ident(
+  def partition_s "src/core/lwt_list.ml" 245 5210 5210 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 245 5210 5230 "src/core/lwt_list.ml" 245 5210 5231
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 245 5210 5232 "src/core/lwt_list.ml" 255 5432 5457
+)
+"src/core/lwt_list.ml" 245 5210 5232 "src/core/lwt_list.ml" 245 5210 5233
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 246 5236 5238 "src/core/lwt_list.ml" 255 5432 5457
+)
+"src/core/lwt_list.ml" 246 5236 5244 "src/core/lwt_list.ml" 246 5236 5245
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 245 5210 5232 "src/core/lwt_list.ml" 245 5210 5233
+)
+"src/core/lwt_list.ml" 247 5251 5257 "src/core/lwt_list.ml" 247 5251 5259
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 248 5263 5271 "src/core/lwt_list.ml" 248 5263 5285
+type(
+  ('a list * 'a list) Lwt.t
+)
+ident(
+  int_ref return_nil_nil "src/core/lwt_list.ml" 243 5168 5172 "src/core/lwt_list.ml" 243 5168 5186
+)
+"src/core/lwt_list.ml" 249 5286 5292 "src/core/lwt_list.ml" 249 5286 5293
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 250 5302 5310 "src/core/lwt_list.ml" 255 5432 5457
+)
+"src/core/lwt_list.ml" 249 5286 5297 "src/core/lwt_list.ml" 249 5286 5298
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 250 5302 5310 "src/core/lwt_list.ml" 255 5432 5457
+)
+"src/core/lwt_list.ml" 249 5286 5292 "src/core/lwt_list.ml" 249 5286 5298
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 250 5302 5310 "src/core/lwt_list.ml" 250 5302 5311
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 245 5210 5230 "src/core/lwt_list.ml" 245 5210 5231
+)
+"src/core/lwt_list.ml" 250 5302 5312 "src/core/lwt_list.ml" 250 5302 5313
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 249 5286 5292 "src/core/lwt_list.ml" 249 5286 5293
+)
+"src/core/lwt_list.ml" 250 5302 5310 "src/core/lwt_list.ml" 250 5302 5313
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 250 5302 5314 "src/core/lwt_list.ml" 250 5302 5317
+type(
+  bool Lwt.t ->
+  (bool -> ('a list * 'a list) Lwt.t) -> ('a list * 'a list) Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 250 5302 5322 "src/core/lwt_list.ml" 250 5302 5324
+type(
+  bool
+)
+ident(
+  def bx "src/core/lwt_list.ml" 251 5328 5336 "src/core/lwt_list.ml" 255 5432 5457
+)
+"src/core/lwt_list.ml" 251 5328 5336 "src/core/lwt_list.ml" 251 5328 5347
+type(
+  ('a -> bool Lwt.t) -> 'a list -> ('a list * 'a list) Lwt.t
+)
+ident(
+  int_ref partition_s "src/core/lwt_list.ml" 245 5210 5218 "src/core/lwt_list.ml" 245 5210 5229
+)
+"src/core/lwt_list.ml" 251 5328 5348 "src/core/lwt_list.ml" 251 5328 5349
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 245 5210 5230 "src/core/lwt_list.ml" 245 5210 5231
+)
+"src/core/lwt_list.ml" 251 5328 5350 "src/core/lwt_list.ml" 251 5328 5351
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 249 5286 5297 "src/core/lwt_list.ml" 249 5286 5298
+)
+"src/core/lwt_list.ml" 251 5328 5336 "src/core/lwt_list.ml" 251 5328 5351
+call(
+  stack
+)
+type(
+  ('a list * 'a list) Lwt.t
+)
+"src/core/lwt_list.ml" 251 5328 5352 "src/core/lwt_list.ml" 251 5328 5355
+type(
+  ('a list * 'a list) Lwt.t ->
+  ('a list * 'a list -> 'a list * 'a list) -> ('a list * 'a list) Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >|= )
+)
+"src/core/lwt_list.ml" 251 5328 5361 "src/core/lwt_list.ml" 251 5328 5364
+type(
+  'a list
+)
+ident(
+  def l_l "src/core/lwt_list.ml" 252 5374 5382 "src/core/lwt_list.ml" 255 5432 5457
+)
+"src/core/lwt_list.ml" 251 5328 5366 "src/core/lwt_list.ml" 251 5328 5369
+type(
+  'a list
+)
+ident(
+  def l_r "src/core/lwt_list.ml" 252 5374 5382 "src/core/lwt_list.ml" 255 5432 5457
+)
+"src/core/lwt_list.ml" 251 5328 5360 "src/core/lwt_list.ml" 251 5328 5370
+type(
+  'a list * 'a list
+)
+"src/core/lwt_list.ml" 252 5374 5385 "src/core/lwt_list.ml" 252 5374 5387
+type(
+  bool
+)
+ident(
+  int_ref bx "src/core/lwt_list.ml" 250 5302 5322 "src/core/lwt_list.ml" 250 5302 5324
+)
+"src/core/lwt_list.ml" 253 5393 5404 "src/core/lwt_list.ml" 253 5393 5405
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 249 5286 5292 "src/core/lwt_list.ml" 249 5286 5293
+)
+"src/core/lwt_list.ml" 253 5393 5409 "src/core/lwt_list.ml" 253 5393 5412
+type(
+  'a list
+)
+ident(
+  int_ref l_l "src/core/lwt_list.ml" 251 5328 5361 "src/core/lwt_list.ml" 251 5328 5364
+)
+"src/core/lwt_list.ml" 253 5393 5404 "src/core/lwt_list.ml" 253 5393 5412
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 253 5393 5414 "src/core/lwt_list.ml" 253 5393 5417
+type(
+  'a list
+)
+ident(
+  int_ref l_r "src/core/lwt_list.ml" 251 5328 5366 "src/core/lwt_list.ml" 251 5328 5369
+)
+"src/core/lwt_list.ml" 253 5393 5403 "src/core/lwt_list.ml" 253 5393 5418
+type(
+  'a list * 'a list
+)
+"src/core/lwt_list.ml" 255 5432 5443 "src/core/lwt_list.ml" 255 5432 5446
+type(
+  'a list
+)
+ident(
+  int_ref l_l "src/core/lwt_list.ml" 251 5328 5361 "src/core/lwt_list.ml" 251 5328 5364
+)
+"src/core/lwt_list.ml" 255 5432 5448 "src/core/lwt_list.ml" 255 5432 5449
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 249 5286 5292 "src/core/lwt_list.ml" 249 5286 5293
+)
+"src/core/lwt_list.ml" 255 5432 5453 "src/core/lwt_list.ml" 255 5432 5456
+type(
+  'a list
+)
+ident(
+  int_ref l_r "src/core/lwt_list.ml" 251 5328 5366 "src/core/lwt_list.ml" 251 5328 5369
+)
+"src/core/lwt_list.ml" 255 5432 5448 "src/core/lwt_list.ml" 255 5432 5456
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 255 5432 5442 "src/core/lwt_list.ml" 255 5432 5457
+type(
+  'a list * 'a list
+)
+"src/core/lwt_list.ml" 252 5374 5382 "src/core/lwt_list.ml" 255 5432 5457
+type(
+  'a list * 'a list
+)
+"src/core/lwt_list.ml" 251 5328 5356 "src/core/lwt_list.ml" 255 5432 5457
+type(
+  'a list * 'a list -> 'a list * 'a list
+)
+"src/core/lwt_list.ml" 251 5328 5336 "src/core/lwt_list.ml" 255 5432 5457
+call(
+  tail
+)
+type(
+  ('a list * 'a list) Lwt.t
+)
+"src/core/lwt_list.ml" 250 5302 5318 "src/core/lwt_list.ml" 255 5432 5457
+type(
+  bool -> ('a list * 'a list) Lwt.t
+)
+"src/core/lwt_list.ml" 250 5302 5310 "src/core/lwt_list.ml" 255 5432 5457
+call(
+  tail
+)
+type(
+  ('a list * 'a list) Lwt.t
+)
+"src/core/lwt_list.ml" 246 5236 5238 "src/core/lwt_list.ml" 255 5432 5457
+type(
+  ('a list * 'a list) Lwt.t
+)
+"src/core/lwt_list.ml" 257 5459 5467 "src/core/lwt_list.ml" 257 5459 5478
+type(
+  ('a -> bool Lwt.t) -> 'a list -> ('a list * 'a list) Lwt.t
+)
+ident(
+  def partition_p "src/core/lwt_list.ml" 257 5459 5459 "src/core/lwt_list.ml" 1 0 -1
+)
+"src/core/lwt_list.ml" 257 5459 5479 "src/core/lwt_list.ml" 257 5459 5480
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  def f "src/core/lwt_list.ml" 257 5459 5481 "src/core/lwt_list.ml" 268 5716 5741
+)
+"src/core/lwt_list.ml" 257 5459 5481 "src/core/lwt_list.ml" 257 5459 5482
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 258 5485 5487 "src/core/lwt_list.ml" 268 5716 5741
+)
+"src/core/lwt_list.ml" 258 5485 5493 "src/core/lwt_list.ml" 258 5485 5494
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 257 5459 5481 "src/core/lwt_list.ml" 257 5459 5482
+)
+"src/core/lwt_list.ml" 259 5500 5506 "src/core/lwt_list.ml" 259 5500 5508
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 260 5512 5520 "src/core/lwt_list.ml" 260 5512 5534
+type(
+  ('a list * 'a list) Lwt.t
+)
+ident(
+  int_ref return_nil_nil "src/core/lwt_list.ml" 243 5168 5172 "src/core/lwt_list.ml" 243 5168 5186
+)
+"src/core/lwt_list.ml" 261 5535 5541 "src/core/lwt_list.ml" 261 5535 5542
+type(
+  'a
+)
+ident(
+  def x "src/core/lwt_list.ml" 262 5551 5559 "src/core/lwt_list.ml" 268 5716 5741
+)
+"src/core/lwt_list.ml" 261 5535 5546 "src/core/lwt_list.ml" 261 5535 5547
+type(
+  'a list
+)
+ident(
+  def l "src/core/lwt_list.ml" 262 5551 5559 "src/core/lwt_list.ml" 268 5716 5741
+)
+"src/core/lwt_list.ml" 261 5535 5541 "src/core/lwt_list.ml" 261 5535 5547
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 262 5551 5563 "src/core/lwt_list.ml" 262 5551 5565
+type(
+  bool Lwt.t
+)
+ident(
+  def tx "src/core/lwt_list.ml" 263 5600 5608 "src/core/lwt_list.ml" 268 5716 5741
+)
+"src/core/lwt_list.ml" 262 5551 5568 "src/core/lwt_list.ml" 262 5551 5569
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 257 5459 5479 "src/core/lwt_list.ml" 257 5459 5480
+)
+"src/core/lwt_list.ml" 262 5551 5570 "src/core/lwt_list.ml" 262 5551 5571
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 261 5535 5541 "src/core/lwt_list.ml" 261 5535 5542
+)
+"src/core/lwt_list.ml" 262 5551 5568 "src/core/lwt_list.ml" 262 5551 5571
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"src/core/lwt_list.ml" 262 5551 5576 "src/core/lwt_list.ml" 262 5551 5578
+type(
+  ('a list * 'a list) Lwt.t
+)
+ident(
+  def tl "src/core/lwt_list.ml" 263 5600 5608 "src/core/lwt_list.ml" 268 5716 5741
+)
+"src/core/lwt_list.ml" 262 5551 5581 "src/core/lwt_list.ml" 262 5551 5592
+type(
+  ('a -> bool Lwt.t) -> 'a list -> ('a list * 'a list) Lwt.t
+)
+ident(
+  int_ref partition_p "src/core/lwt_list.ml" 257 5459 5467 "src/core/lwt_list.ml" 257 5459 5478
+)
+"src/core/lwt_list.ml" 262 5551 5593 "src/core/lwt_list.ml" 262 5551 5594
+type(
+  'a -> bool Lwt.t
+)
+ident(
+  int_ref f "src/core/lwt_list.ml" 257 5459 5479 "src/core/lwt_list.ml" 257 5459 5480
+)
+"src/core/lwt_list.ml" 262 5551 5595 "src/core/lwt_list.ml" 262 5551 5596
+type(
+  'a list
+)
+ident(
+  int_ref l "src/core/lwt_list.ml" 261 5535 5546 "src/core/lwt_list.ml" 261 5535 5547
+)
+"src/core/lwt_list.ml" 262 5551 5581 "src/core/lwt_list.ml" 262 5551 5596
+call(
+  stack
+)
+type(
+  ('a list * 'a list) Lwt.t
+)
+"src/core/lwt_list.ml" 263 5600 5608 "src/core/lwt_list.ml" 263 5600 5610
+type(
+  bool Lwt.t
+)
+ident(
+  int_ref tx "src/core/lwt_list.ml" 262 5551 5563 "src/core/lwt_list.ml" 262 5551 5565
+)
+"src/core/lwt_list.ml" 263 5600 5611 "src/core/lwt_list.ml" 263 5600 5614
+type(
+  bool Lwt.t ->
+  (bool -> ('a list * 'a list) Lwt.t) -> ('a list * 'a list) Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/core/lwt_list.ml" 263 5600 5619 "src/core/lwt_list.ml" 263 5600 5621
+type(
+  bool
+)
+ident(
+  def bx "src/core/lwt_list.ml" 264 5625 5633 "src/core/lwt_list.ml" 268 5716 5741
+)
+"src/core/lwt_list.ml" 264 5625 5633 "src/core/lwt_list.ml" 264 5625 5635
+type(
+  ('a list * 'a list) Lwt.t
+)
+ident(
+  int_ref tl "src/core/lwt_list.ml" 262 5551 5576 "src/core/lwt_list.ml" 262 5551 5578
+)
+"src/core/lwt_list.ml" 264 5625 5636 "src/core/lwt_list.ml" 264 5625 5639
+type(
+  ('a list * 'a list) Lwt.t ->
+  ('a list * 'a list -> 'a list * 'a list) -> ('a list * 'a list) Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >|= )
+)
+"src/core/lwt_list.ml" 264 5625 5645 "src/core/lwt_list.ml" 264 5625 5648
+type(
+  'a list
+)
+ident(
+  def l_l "src/core/lwt_list.ml" 265 5658 5666 "src/core/lwt_list.ml" 268 5716 5741
+)
+"src/core/lwt_list.ml" 264 5625 5650 "src/core/lwt_list.ml" 264 5625 5653
+type(
+  'a list
+)
+ident(
+  def l_r "src/core/lwt_list.ml" 265 5658 5666 "src/core/lwt_list.ml" 268 5716 5741
+)
+"src/core/lwt_list.ml" 264 5625 5644 "src/core/lwt_list.ml" 264 5625 5654
+type(
+  'a list * 'a list
+)
+"src/core/lwt_list.ml" 265 5658 5669 "src/core/lwt_list.ml" 265 5658 5671
+type(
+  bool
+)
+ident(
+  int_ref bx "src/core/lwt_list.ml" 263 5600 5619 "src/core/lwt_list.ml" 263 5600 5621
+)
+"src/core/lwt_list.ml" 266 5677 5688 "src/core/lwt_list.ml" 266 5677 5689
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 261 5535 5541 "src/core/lwt_list.ml" 261 5535 5542
+)
+"src/core/lwt_list.ml" 266 5677 5693 "src/core/lwt_list.ml" 266 5677 5696
+type(
+  'a list
+)
+ident(
+  int_ref l_l "src/core/lwt_list.ml" 264 5625 5645 "src/core/lwt_list.ml" 264 5625 5648
+)
+"src/core/lwt_list.ml" 266 5677 5688 "src/core/lwt_list.ml" 266 5677 5696
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 266 5677 5698 "src/core/lwt_list.ml" 266 5677 5701
+type(
+  'a list
+)
+ident(
+  int_ref l_r "src/core/lwt_list.ml" 264 5625 5650 "src/core/lwt_list.ml" 264 5625 5653
+)
+"src/core/lwt_list.ml" 266 5677 5687 "src/core/lwt_list.ml" 266 5677 5702
+type(
+  'a list * 'a list
+)
+"src/core/lwt_list.ml" 268 5716 5727 "src/core/lwt_list.ml" 268 5716 5730
+type(
+  'a list
+)
+ident(
+  int_ref l_l "src/core/lwt_list.ml" 264 5625 5645 "src/core/lwt_list.ml" 264 5625 5648
+)
+"src/core/lwt_list.ml" 268 5716 5732 "src/core/lwt_list.ml" 268 5716 5733
+type(
+  'a
+)
+ident(
+  int_ref x "src/core/lwt_list.ml" 261 5535 5541 "src/core/lwt_list.ml" 261 5535 5542
+)
+"src/core/lwt_list.ml" 268 5716 5737 "src/core/lwt_list.ml" 268 5716 5740
+type(
+  'a list
+)
+ident(
+  int_ref l_r "src/core/lwt_list.ml" 264 5625 5650 "src/core/lwt_list.ml" 264 5625 5653
+)
+"src/core/lwt_list.ml" 268 5716 5732 "src/core/lwt_list.ml" 268 5716 5740
+type(
+  'a list
+)
+"src/core/lwt_list.ml" 268 5716 5726 "src/core/lwt_list.ml" 268 5716 5741
+type(
+  'a list * 'a list
+)
+"src/core/lwt_list.ml" 265 5658 5666 "src/core/lwt_list.ml" 268 5716 5741
+type(
+  'a list * 'a list
+)
+"src/core/lwt_list.ml" 264 5625 5640 "src/core/lwt_list.ml" 268 5716 5741
+type(
+  'a list * 'a list -> 'a list * 'a list
+)
+"src/core/lwt_list.ml" 264 5625 5633 "src/core/lwt_list.ml" 268 5716 5741
+call(
+  tail
+)
+type(
+  ('a list * 'a list) Lwt.t
+)
+"src/core/lwt_list.ml" 263 5600 5615 "src/core/lwt_list.ml" 268 5716 5741
+type(
+  bool -> ('a list * 'a list) Lwt.t
+)
+"src/core/lwt_list.ml" 263 5600 5608 "src/core/lwt_list.ml" 268 5716 5741
+call(
+  tail
+)
+type(
+  ('a list * 'a list) Lwt.t
+)
+"src/core/lwt_list.ml" 262 5551 5559 "src/core/lwt_list.ml" 268 5716 5741
+type(
+  ('a list * 'a list) Lwt.t
+)
+"src/core/lwt_list.ml" 258 5485 5487 "src/core/lwt_list.ml" 268 5716 5741
+type(
+  ('a list * 'a list) Lwt.t
+)

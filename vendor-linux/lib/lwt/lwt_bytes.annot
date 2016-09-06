@@ -1,0 +1,5632 @@
+"src/unix/lwt_bytes.ml" 30 1058 1062 "src/unix/lwt_bytes.ml" 30 1058 1068
+type(
+  int ->
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  def create "src/unix/lwt_bytes.ml" 31 1109 1109 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 30 1058 1069 "src/unix/lwt_bytes.ml" 30 1058 1073
+type(
+  int
+)
+ident(
+  def size "src/unix/lwt_bytes.ml" 30 1058 1076 "src/unix/lwt_bytes.ml" 30 1058 1108
+)
+"src/unix/lwt_bytes.ml" 30 1058 1076 "src/unix/lwt_bytes.ml" 30 1058 1089
+type(
+  (char, Bigarray.int8_unsigned_elt) Bigarray.kind ->
+  Bigarray.c_layout Bigarray.layout ->
+  int ->
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  ext_ref Bigarray.Array1.create
+)
+"src/unix/lwt_bytes.ml" 30 1058 1090 "src/unix/lwt_bytes.ml" 30 1058 1094
+type(
+  (char, Bigarray.int8_unsigned_elt) Bigarray.kind
+)
+ident(
+  ext_ref Bigarray.char
+)
+"src/unix/lwt_bytes.ml" 30 1058 1095 "src/unix/lwt_bytes.ml" 30 1058 1103
+type(
+  Bigarray.c_layout Bigarray.layout
+)
+ident(
+  ext_ref Bigarray.c_layout
+)
+"src/unix/lwt_bytes.ml" 30 1058 1104 "src/unix/lwt_bytes.ml" 30 1058 1108
+type(
+  int
+)
+ident(
+  int_ref size "src/unix/lwt_bytes.ml" 30 1058 1069 "src/unix/lwt_bytes.ml" 30 1058 1073
+)
+"src/unix/lwt_bytes.ml" 30 1058 1076 "src/unix/lwt_bytes.ml" 30 1058 1108
+call(
+  tail
+)
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+type(
+  ('a, 'b, 'c) Bigarray.Array1.t -> int
+)
+ident(
+  def length "src/unix/lwt_bytes.ml" 33 1146 1146 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 31 1109 1120 "src/unix/lwt_bytes.ml" 31 1109 1125
+type(
+  ('a, 'b, 'c) Bigarray.Array1.t
+)
+ident(
+  def bytes "src/unix/lwt_bytes.ml" 31 1109 1128 "src/unix/lwt_bytes.ml" 31 1109 1144
+)
+"src/unix/lwt_bytes.ml" 31 1109 1128 "src/unix/lwt_bytes.ml" 31 1109 1138
+type(
+  ('a, 'b, 'c) Bigarray.Array1.t -> int
+)
+ident(
+  ext_ref Bigarray.Array1.dim
+)
+"src/unix/lwt_bytes.ml" 31 1109 1139 "src/unix/lwt_bytes.ml" 31 1109 1144
+type(
+  ('a, 'b, 'c) Bigarray.Array1.t
+)
+ident(
+  int_ref bytes "src/unix/lwt_bytes.ml" 31 1109 1120 "src/unix/lwt_bytes.ml" 31 1109 1125
+)
+"src/unix/lwt_bytes.ml" 31 1109 1128 "src/unix/lwt_bytes.ml" 31 1109 1144
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 41 1486 1490 "src/unix/lwt_bytes.ml" 41 1486 1494
+type(
+  t -> int -> int -> char -> unit
+)
+ident(
+  def fill "src/unix/lwt_bytes.ml" 51 1862 1862 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 41 1486 1495 "src/unix/lwt_bytes.ml" 41 1486 1500
+type(
+  t
+)
+ident(
+  def bytes "src/unix/lwt_bytes.ml" 41 1486 1501 "src/unix/lwt_bytes.ml" 45 1611 1643
+)
+"src/unix/lwt_bytes.ml" 41 1486 1501 "src/unix/lwt_bytes.ml" 41 1486 1504
+type(
+  int
+)
+ident(
+  def ofs "src/unix/lwt_bytes.ml" 41 1486 1505 "src/unix/lwt_bytes.ml" 45 1611 1643
+)
+"src/unix/lwt_bytes.ml" 41 1486 1505 "src/unix/lwt_bytes.ml" 41 1486 1508
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 41 1486 1509 "src/unix/lwt_bytes.ml" 45 1611 1643
+)
+"src/unix/lwt_bytes.ml" 41 1486 1509 "src/unix/lwt_bytes.ml" 41 1486 1511
+type(
+  char
+)
+ident(
+  def ch "src/unix/lwt_bytes.ml" 42 1514 1516 "src/unix/lwt_bytes.ml" 45 1611 1643
+)
+"src/unix/lwt_bytes.ml" 42 1514 1519 "src/unix/lwt_bytes.ml" 42 1514 1522
+type(
+  int
+)
+ident(
+  int_ref ofs "src/unix/lwt_bytes.ml" 41 1486 1501 "src/unix/lwt_bytes.ml" 41 1486 1504
+)
+"src/unix/lwt_bytes.ml" 42 1514 1523 "src/unix/lwt_bytes.ml" 42 1514 1524
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 42 1514 1525 "src/unix/lwt_bytes.ml" 42 1514 1526
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 42 1514 1519 "src/unix/lwt_bytes.ml" 42 1514 1526
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 42 1514 1527 "src/unix/lwt_bytes.ml" 42 1514 1529
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 42 1514 1530 "src/unix/lwt_bytes.ml" 42 1514 1533
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 41 1486 1505 "src/unix/lwt_bytes.ml" 41 1486 1508
+)
+"src/unix/lwt_bytes.ml" 42 1514 1534 "src/unix/lwt_bytes.ml" 42 1514 1535
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 42 1514 1536 "src/unix/lwt_bytes.ml" 42 1514 1537
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 42 1514 1530 "src/unix/lwt_bytes.ml" 42 1514 1537
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 42 1514 1538 "src/unix/lwt_bytes.ml" 42 1514 1540
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 42 1514 1541 "src/unix/lwt_bytes.ml" 42 1514 1544
+type(
+  int
+)
+ident(
+  int_ref ofs "src/unix/lwt_bytes.ml" 41 1486 1501 "src/unix/lwt_bytes.ml" 41 1486 1504
+)
+"src/unix/lwt_bytes.ml" 42 1514 1545 "src/unix/lwt_bytes.ml" 42 1514 1546
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 42 1514 1547 "src/unix/lwt_bytes.ml" 42 1514 1553
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 42 1514 1554 "src/unix/lwt_bytes.ml" 42 1514 1559
+type(
+  t
+)
+ident(
+  int_ref bytes "src/unix/lwt_bytes.ml" 41 1486 1495 "src/unix/lwt_bytes.ml" 41 1486 1500
+)
+"src/unix/lwt_bytes.ml" 42 1514 1547 "src/unix/lwt_bytes.ml" 42 1514 1559
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 42 1514 1560 "src/unix/lwt_bytes.ml" 42 1514 1561
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 42 1514 1562 "src/unix/lwt_bytes.ml" 42 1514 1565
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 41 1486 1505 "src/unix/lwt_bytes.ml" 41 1486 1508
+)
+"src/unix/lwt_bytes.ml" 42 1514 1547 "src/unix/lwt_bytes.ml" 42 1514 1565
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 42 1514 1541 "src/unix/lwt_bytes.ml" 42 1514 1565
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 42 1514 1530 "src/unix/lwt_bytes.ml" 42 1514 1565
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 42 1514 1519 "src/unix/lwt_bytes.ml" 42 1514 1565
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 43 1571 1575 "src/unix/lwt_bytes.ml" 43 1571 1586
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 43 1571 1587 "src/unix/lwt_bytes.ml" 43 1571 1603
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 43 1571 1575 "src/unix/lwt_bytes.ml" 43 1571 1603
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 45 1611 1615 "src/unix/lwt_bytes.ml" 45 1611 1626
+type(
+  t -> int -> int -> char -> unit
+)
+ident(
+  int_ref unsafe_fill "src/unix/lwt_bytes.ml" 39 1396 1396 "src/unix/lwt_bytes.ml" 39 1396 1484
+)
+"src/unix/lwt_bytes.ml" 45 1611 1627 "src/unix/lwt_bytes.ml" 45 1611 1632
+type(
+  t
+)
+ident(
+  int_ref bytes "src/unix/lwt_bytes.ml" 41 1486 1495 "src/unix/lwt_bytes.ml" 41 1486 1500
+)
+"src/unix/lwt_bytes.ml" 45 1611 1633 "src/unix/lwt_bytes.ml" 45 1611 1636
+type(
+  int
+)
+ident(
+  int_ref ofs "src/unix/lwt_bytes.ml" 41 1486 1501 "src/unix/lwt_bytes.ml" 41 1486 1504
+)
+"src/unix/lwt_bytes.ml" 45 1611 1637 "src/unix/lwt_bytes.ml" 45 1611 1640
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 41 1486 1505 "src/unix/lwt_bytes.ml" 41 1486 1508
+)
+"src/unix/lwt_bytes.ml" 45 1611 1641 "src/unix/lwt_bytes.ml" 45 1611 1643
+type(
+  char
+)
+ident(
+  int_ref ch "src/unix/lwt_bytes.ml" 41 1486 1509 "src/unix/lwt_bytes.ml" 41 1486 1511
+)
+"src/unix/lwt_bytes.ml" 45 1611 1615 "src/unix/lwt_bytes.ml" 45 1611 1643
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 42 1514 1516 "src/unix/lwt_bytes.ml" 45 1611 1643
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 55 2176 2180 "src/unix/lwt_bytes.ml" 55 2176 2195
+type(
+  Bytes.t -> int -> t -> int -> int -> unit
+)
+ident(
+  def blit_from_bytes "src/unix/lwt_bytes.ml" 63 2471 2471 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 55 2176 2196 "src/unix/lwt_bytes.ml" 55 2176 2203
+type(
+  Bytes.t
+)
+ident(
+  def src_buf "src/unix/lwt_bytes.ml" 55 2176 2204 "src/unix/lwt_bytes.ml" 61 2407 2469
+)
+"src/unix/lwt_bytes.ml" 55 2176 2204 "src/unix/lwt_bytes.ml" 55 2176 2211
+type(
+  int
+)
+ident(
+  def src_ofs "src/unix/lwt_bytes.ml" 55 2176 2212 "src/unix/lwt_bytes.ml" 61 2407 2469
+)
+"src/unix/lwt_bytes.ml" 55 2176 2212 "src/unix/lwt_bytes.ml" 55 2176 2219
+type(
+  t
+)
+ident(
+  def dst_buf "src/unix/lwt_bytes.ml" 55 2176 2220 "src/unix/lwt_bytes.ml" 61 2407 2469
+)
+"src/unix/lwt_bytes.ml" 55 2176 2220 "src/unix/lwt_bytes.ml" 55 2176 2227
+type(
+  int
+)
+ident(
+  def dst_ofs "src/unix/lwt_bytes.ml" 55 2176 2228 "src/unix/lwt_bytes.ml" 61 2407 2469
+)
+"src/unix/lwt_bytes.ml" 55 2176 2228 "src/unix/lwt_bytes.ml" 55 2176 2231
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 56 2234 2236 "src/unix/lwt_bytes.ml" 61 2407 2469
+)
+"src/unix/lwt_bytes.ml" 56 2234 2240 "src/unix/lwt_bytes.ml" 56 2234 2243
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 55 2176 2228 "src/unix/lwt_bytes.ml" 55 2176 2231
+)
+"src/unix/lwt_bytes.ml" 56 2234 2244 "src/unix/lwt_bytes.ml" 56 2234 2245
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 56 2234 2246 "src/unix/lwt_bytes.ml" 56 2234 2247
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 56 2234 2240 "src/unix/lwt_bytes.ml" 56 2234 2247
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 57 2248 2254 "src/unix/lwt_bytes.ml" 57 2248 2256
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 57 2248 2257 "src/unix/lwt_bytes.ml" 57 2248 2264
+type(
+  int
+)
+ident(
+  int_ref src_ofs "src/unix/lwt_bytes.ml" 55 2176 2204 "src/unix/lwt_bytes.ml" 55 2176 2211
+)
+"src/unix/lwt_bytes.ml" 57 2248 2265 "src/unix/lwt_bytes.ml" 57 2248 2266
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 57 2248 2267 "src/unix/lwt_bytes.ml" 57 2248 2268
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 57 2248 2257 "src/unix/lwt_bytes.ml" 57 2248 2268
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 57 2248 2269 "src/unix/lwt_bytes.ml" 57 2248 2271
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 57 2248 2272 "src/unix/lwt_bytes.ml" 57 2248 2279
+type(
+  int
+)
+ident(
+  int_ref src_ofs "src/unix/lwt_bytes.ml" 55 2176 2204 "src/unix/lwt_bytes.ml" 55 2176 2211
+)
+"src/unix/lwt_bytes.ml" 57 2248 2280 "src/unix/lwt_bytes.ml" 57 2248 2281
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 57 2248 2282 "src/unix/lwt_bytes.ml" 57 2248 2294
+type(
+  Bytes.t -> int
+)
+ident(
+  ext_ref Bytes.length
+)
+"src/unix/lwt_bytes.ml" 57 2248 2295 "src/unix/lwt_bytes.ml" 57 2248 2302
+type(
+  Bytes.t
+)
+ident(
+  int_ref src_buf "src/unix/lwt_bytes.ml" 55 2176 2196 "src/unix/lwt_bytes.ml" 55 2176 2203
+)
+"src/unix/lwt_bytes.ml" 57 2248 2282 "src/unix/lwt_bytes.ml" 57 2248 2302
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 57 2248 2303 "src/unix/lwt_bytes.ml" 57 2248 2304
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 57 2248 2305 "src/unix/lwt_bytes.ml" 57 2248 2308
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 55 2176 2228 "src/unix/lwt_bytes.ml" 55 2176 2231
+)
+"src/unix/lwt_bytes.ml" 57 2248 2282 "src/unix/lwt_bytes.ml" 57 2248 2308
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 57 2248 2272 "src/unix/lwt_bytes.ml" 57 2248 2308
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 58 2309 2315 "src/unix/lwt_bytes.ml" 58 2309 2317
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 58 2309 2318 "src/unix/lwt_bytes.ml" 58 2309 2325
+type(
+  int
+)
+ident(
+  int_ref dst_ofs "src/unix/lwt_bytes.ml" 55 2176 2220 "src/unix/lwt_bytes.ml" 55 2176 2227
+)
+"src/unix/lwt_bytes.ml" 58 2309 2326 "src/unix/lwt_bytes.ml" 58 2309 2327
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 58 2309 2328 "src/unix/lwt_bytes.ml" 58 2309 2329
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 58 2309 2318 "src/unix/lwt_bytes.ml" 58 2309 2329
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 58 2309 2330 "src/unix/lwt_bytes.ml" 58 2309 2332
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 58 2309 2333 "src/unix/lwt_bytes.ml" 58 2309 2340
+type(
+  int
+)
+ident(
+  int_ref dst_ofs "src/unix/lwt_bytes.ml" 55 2176 2220 "src/unix/lwt_bytes.ml" 55 2176 2227
+)
+"src/unix/lwt_bytes.ml" 58 2309 2341 "src/unix/lwt_bytes.ml" 58 2309 2342
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 58 2309 2343 "src/unix/lwt_bytes.ml" 58 2309 2349
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 58 2309 2350 "src/unix/lwt_bytes.ml" 58 2309 2357
+type(
+  t
+)
+ident(
+  int_ref dst_buf "src/unix/lwt_bytes.ml" 55 2176 2212 "src/unix/lwt_bytes.ml" 55 2176 2219
+)
+"src/unix/lwt_bytes.ml" 58 2309 2343 "src/unix/lwt_bytes.ml" 58 2309 2357
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 58 2309 2358 "src/unix/lwt_bytes.ml" 58 2309 2359
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 58 2309 2360 "src/unix/lwt_bytes.ml" 58 2309 2363
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 55 2176 2228 "src/unix/lwt_bytes.ml" 55 2176 2231
+)
+"src/unix/lwt_bytes.ml" 58 2309 2343 "src/unix/lwt_bytes.ml" 58 2309 2363
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 58 2309 2333 "src/unix/lwt_bytes.ml" 58 2309 2363
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 58 2309 2318 "src/unix/lwt_bytes.ml" 58 2309 2363
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 57 2248 2272 "src/unix/lwt_bytes.ml" 58 2309 2363
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 57 2248 2257 "src/unix/lwt_bytes.ml" 58 2309 2363
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 56 2234 2239 "src/unix/lwt_bytes.ml" 58 2309 2364
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 59 2370 2374 "src/unix/lwt_bytes.ml" 59 2370 2385
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 59 2370 2386 "src/unix/lwt_bytes.ml" 59 2370 2399
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 59 2370 2374 "src/unix/lwt_bytes.ml" 59 2370 2399
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 61 2407 2411 "src/unix/lwt_bytes.ml" 61 2407 2433
+type(
+  Bytes.t -> int -> t -> int -> int -> unit
+)
+ident(
+  int_ref unsafe_blit_from_bytes "src/unix/lwt_bytes.ml" 51 1862 1862 "src/unix/lwt_bytes.ml" 51 1862 1976
+)
+"src/unix/lwt_bytes.ml" 61 2407 2434 "src/unix/lwt_bytes.ml" 61 2407 2441
+type(
+  Bytes.t
+)
+ident(
+  int_ref src_buf "src/unix/lwt_bytes.ml" 55 2176 2196 "src/unix/lwt_bytes.ml" 55 2176 2203
+)
+"src/unix/lwt_bytes.ml" 61 2407 2442 "src/unix/lwt_bytes.ml" 61 2407 2449
+type(
+  int
+)
+ident(
+  int_ref src_ofs "src/unix/lwt_bytes.ml" 55 2176 2204 "src/unix/lwt_bytes.ml" 55 2176 2211
+)
+"src/unix/lwt_bytes.ml" 61 2407 2450 "src/unix/lwt_bytes.ml" 61 2407 2457
+type(
+  t
+)
+ident(
+  int_ref dst_buf "src/unix/lwt_bytes.ml" 55 2176 2212 "src/unix/lwt_bytes.ml" 55 2176 2219
+)
+"src/unix/lwt_bytes.ml" 61 2407 2458 "src/unix/lwt_bytes.ml" 61 2407 2465
+type(
+  int
+)
+ident(
+  int_ref dst_ofs "src/unix/lwt_bytes.ml" 55 2176 2220 "src/unix/lwt_bytes.ml" 55 2176 2227
+)
+"src/unix/lwt_bytes.ml" 61 2407 2466 "src/unix/lwt_bytes.ml" 61 2407 2469
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 55 2176 2228 "src/unix/lwt_bytes.ml" 55 2176 2231
+)
+"src/unix/lwt_bytes.ml" 61 2407 2411 "src/unix/lwt_bytes.ml" 61 2407 2469
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 56 2234 2236 "src/unix/lwt_bytes.ml" 61 2407 2469
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 63 2471 2475 "src/unix/lwt_bytes.ml" 63 2471 2488
+type(
+  t -> int -> Bytes.t -> int -> int -> unit
+)
+ident(
+  def blit_to_bytes "src/unix/lwt_bytes.ml" 71 2762 2762 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 63 2471 2489 "src/unix/lwt_bytes.ml" 63 2471 2496
+type(
+  t
+)
+ident(
+  def src_buf "src/unix/lwt_bytes.ml" 63 2471 2497 "src/unix/lwt_bytes.ml" 69 2700 2760
+)
+"src/unix/lwt_bytes.ml" 63 2471 2497 "src/unix/lwt_bytes.ml" 63 2471 2504
+type(
+  int
+)
+ident(
+  def src_ofs "src/unix/lwt_bytes.ml" 63 2471 2505 "src/unix/lwt_bytes.ml" 69 2700 2760
+)
+"src/unix/lwt_bytes.ml" 63 2471 2505 "src/unix/lwt_bytes.ml" 63 2471 2512
+type(
+  Bytes.t
+)
+ident(
+  def dst_buf "src/unix/lwt_bytes.ml" 63 2471 2513 "src/unix/lwt_bytes.ml" 69 2700 2760
+)
+"src/unix/lwt_bytes.ml" 63 2471 2513 "src/unix/lwt_bytes.ml" 63 2471 2520
+type(
+  int
+)
+ident(
+  def dst_ofs "src/unix/lwt_bytes.ml" 63 2471 2521 "src/unix/lwt_bytes.ml" 69 2700 2760
+)
+"src/unix/lwt_bytes.ml" 63 2471 2521 "src/unix/lwt_bytes.ml" 63 2471 2524
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 64 2527 2529 "src/unix/lwt_bytes.ml" 69 2700 2760
+)
+"src/unix/lwt_bytes.ml" 64 2527 2533 "src/unix/lwt_bytes.ml" 64 2527 2536
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 63 2471 2521 "src/unix/lwt_bytes.ml" 63 2471 2524
+)
+"src/unix/lwt_bytes.ml" 64 2527 2537 "src/unix/lwt_bytes.ml" 64 2527 2538
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 64 2527 2539 "src/unix/lwt_bytes.ml" 64 2527 2540
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 64 2527 2533 "src/unix/lwt_bytes.ml" 64 2527 2540
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 65 2541 2547 "src/unix/lwt_bytes.ml" 65 2541 2549
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 65 2541 2550 "src/unix/lwt_bytes.ml" 65 2541 2557
+type(
+  int
+)
+ident(
+  int_ref src_ofs "src/unix/lwt_bytes.ml" 63 2471 2497 "src/unix/lwt_bytes.ml" 63 2471 2504
+)
+"src/unix/lwt_bytes.ml" 65 2541 2558 "src/unix/lwt_bytes.ml" 65 2541 2559
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 65 2541 2560 "src/unix/lwt_bytes.ml" 65 2541 2561
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 65 2541 2550 "src/unix/lwt_bytes.ml" 65 2541 2561
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 65 2541 2562 "src/unix/lwt_bytes.ml" 65 2541 2564
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 65 2541 2565 "src/unix/lwt_bytes.ml" 65 2541 2572
+type(
+  int
+)
+ident(
+  int_ref src_ofs "src/unix/lwt_bytes.ml" 63 2471 2497 "src/unix/lwt_bytes.ml" 63 2471 2504
+)
+"src/unix/lwt_bytes.ml" 65 2541 2573 "src/unix/lwt_bytes.ml" 65 2541 2574
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 65 2541 2575 "src/unix/lwt_bytes.ml" 65 2541 2581
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 65 2541 2582 "src/unix/lwt_bytes.ml" 65 2541 2589
+type(
+  t
+)
+ident(
+  int_ref src_buf "src/unix/lwt_bytes.ml" 63 2471 2489 "src/unix/lwt_bytes.ml" 63 2471 2496
+)
+"src/unix/lwt_bytes.ml" 65 2541 2575 "src/unix/lwt_bytes.ml" 65 2541 2589
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 65 2541 2590 "src/unix/lwt_bytes.ml" 65 2541 2591
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 65 2541 2592 "src/unix/lwt_bytes.ml" 65 2541 2595
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 63 2471 2521 "src/unix/lwt_bytes.ml" 63 2471 2524
+)
+"src/unix/lwt_bytes.ml" 65 2541 2575 "src/unix/lwt_bytes.ml" 65 2541 2595
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 65 2541 2565 "src/unix/lwt_bytes.ml" 65 2541 2595
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 66 2596 2602 "src/unix/lwt_bytes.ml" 66 2596 2604
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 66 2596 2605 "src/unix/lwt_bytes.ml" 66 2596 2612
+type(
+  int
+)
+ident(
+  int_ref dst_ofs "src/unix/lwt_bytes.ml" 63 2471 2513 "src/unix/lwt_bytes.ml" 63 2471 2520
+)
+"src/unix/lwt_bytes.ml" 66 2596 2613 "src/unix/lwt_bytes.ml" 66 2596 2614
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 66 2596 2615 "src/unix/lwt_bytes.ml" 66 2596 2616
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 66 2596 2605 "src/unix/lwt_bytes.ml" 66 2596 2616
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 66 2596 2617 "src/unix/lwt_bytes.ml" 66 2596 2619
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 66 2596 2620 "src/unix/lwt_bytes.ml" 66 2596 2627
+type(
+  int
+)
+ident(
+  int_ref dst_ofs "src/unix/lwt_bytes.ml" 63 2471 2513 "src/unix/lwt_bytes.ml" 63 2471 2520
+)
+"src/unix/lwt_bytes.ml" 66 2596 2628 "src/unix/lwt_bytes.ml" 66 2596 2629
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 66 2596 2630 "src/unix/lwt_bytes.ml" 66 2596 2642
+type(
+  Bytes.t -> int
+)
+ident(
+  ext_ref Bytes.length
+)
+"src/unix/lwt_bytes.ml" 66 2596 2643 "src/unix/lwt_bytes.ml" 66 2596 2650
+type(
+  Bytes.t
+)
+ident(
+  int_ref dst_buf "src/unix/lwt_bytes.ml" 63 2471 2505 "src/unix/lwt_bytes.ml" 63 2471 2512
+)
+"src/unix/lwt_bytes.ml" 66 2596 2630 "src/unix/lwt_bytes.ml" 66 2596 2650
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 66 2596 2651 "src/unix/lwt_bytes.ml" 66 2596 2652
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 66 2596 2653 "src/unix/lwt_bytes.ml" 66 2596 2656
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 63 2471 2521 "src/unix/lwt_bytes.ml" 63 2471 2524
+)
+"src/unix/lwt_bytes.ml" 66 2596 2630 "src/unix/lwt_bytes.ml" 66 2596 2656
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 66 2596 2620 "src/unix/lwt_bytes.ml" 66 2596 2656
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 66 2596 2605 "src/unix/lwt_bytes.ml" 66 2596 2656
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 65 2541 2565 "src/unix/lwt_bytes.ml" 66 2596 2656
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 65 2541 2550 "src/unix/lwt_bytes.ml" 66 2596 2656
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 64 2527 2532 "src/unix/lwt_bytes.ml" 66 2596 2657
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 67 2663 2667 "src/unix/lwt_bytes.ml" 67 2663 2678
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 67 2663 2679 "src/unix/lwt_bytes.ml" 67 2663 2692
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 67 2663 2667 "src/unix/lwt_bytes.ml" 67 2663 2692
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 69 2700 2704 "src/unix/lwt_bytes.ml" 69 2700 2724
+type(
+  t -> int -> Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref unsafe_blit_to_bytes "src/unix/lwt_bytes.ml" 52 1977 1977 "src/unix/lwt_bytes.ml" 52 1977 2087
+)
+"src/unix/lwt_bytes.ml" 69 2700 2725 "src/unix/lwt_bytes.ml" 69 2700 2732
+type(
+  t
+)
+ident(
+  int_ref src_buf "src/unix/lwt_bytes.ml" 63 2471 2489 "src/unix/lwt_bytes.ml" 63 2471 2496
+)
+"src/unix/lwt_bytes.ml" 69 2700 2733 "src/unix/lwt_bytes.ml" 69 2700 2740
+type(
+  int
+)
+ident(
+  int_ref src_ofs "src/unix/lwt_bytes.ml" 63 2471 2497 "src/unix/lwt_bytes.ml" 63 2471 2504
+)
+"src/unix/lwt_bytes.ml" 69 2700 2741 "src/unix/lwt_bytes.ml" 69 2700 2748
+type(
+  Bytes.t
+)
+ident(
+  int_ref dst_buf "src/unix/lwt_bytes.ml" 63 2471 2505 "src/unix/lwt_bytes.ml" 63 2471 2512
+)
+"src/unix/lwt_bytes.ml" 69 2700 2749 "src/unix/lwt_bytes.ml" 69 2700 2756
+type(
+  int
+)
+ident(
+  int_ref dst_ofs "src/unix/lwt_bytes.ml" 63 2471 2513 "src/unix/lwt_bytes.ml" 63 2471 2520
+)
+"src/unix/lwt_bytes.ml" 69 2700 2757 "src/unix/lwt_bytes.ml" 69 2700 2760
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 63 2471 2521 "src/unix/lwt_bytes.ml" 63 2471 2524
+)
+"src/unix/lwt_bytes.ml" 69 2700 2704 "src/unix/lwt_bytes.ml" 69 2700 2760
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 64 2527 2529 "src/unix/lwt_bytes.ml" 69 2700 2760
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 71 2762 2766 "src/unix/lwt_bytes.ml" 71 2762 2770
+type(
+  t -> int -> t -> int -> int -> unit
+)
+ident(
+  def blit "src/unix/lwt_bytes.ml" 79 3029 3029 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 71 2762 2771 "src/unix/lwt_bytes.ml" 71 2762 2778
+type(
+  t
+)
+ident(
+  def src_buf "src/unix/lwt_bytes.ml" 71 2762 2779 "src/unix/lwt_bytes.ml" 77 2976 3027
+)
+"src/unix/lwt_bytes.ml" 71 2762 2779 "src/unix/lwt_bytes.ml" 71 2762 2786
+type(
+  int
+)
+ident(
+  def src_ofs "src/unix/lwt_bytes.ml" 71 2762 2787 "src/unix/lwt_bytes.ml" 77 2976 3027
+)
+"src/unix/lwt_bytes.ml" 71 2762 2787 "src/unix/lwt_bytes.ml" 71 2762 2794
+type(
+  t
+)
+ident(
+  def dst_buf "src/unix/lwt_bytes.ml" 71 2762 2795 "src/unix/lwt_bytes.ml" 77 2976 3027
+)
+"src/unix/lwt_bytes.ml" 71 2762 2795 "src/unix/lwt_bytes.ml" 71 2762 2802
+type(
+  int
+)
+ident(
+  def dst_ofs "src/unix/lwt_bytes.ml" 71 2762 2803 "src/unix/lwt_bytes.ml" 77 2976 3027
+)
+"src/unix/lwt_bytes.ml" 71 2762 2803 "src/unix/lwt_bytes.ml" 71 2762 2806
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 72 2809 2811 "src/unix/lwt_bytes.ml" 77 2976 3027
+)
+"src/unix/lwt_bytes.ml" 72 2809 2815 "src/unix/lwt_bytes.ml" 72 2809 2818
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 71 2762 2803 "src/unix/lwt_bytes.ml" 71 2762 2806
+)
+"src/unix/lwt_bytes.ml" 72 2809 2819 "src/unix/lwt_bytes.ml" 72 2809 2820
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 72 2809 2821 "src/unix/lwt_bytes.ml" 72 2809 2822
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 72 2809 2815 "src/unix/lwt_bytes.ml" 72 2809 2822
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 73 2823 2829 "src/unix/lwt_bytes.ml" 73 2823 2831
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 73 2823 2832 "src/unix/lwt_bytes.ml" 73 2823 2839
+type(
+  int
+)
+ident(
+  int_ref src_ofs "src/unix/lwt_bytes.ml" 71 2762 2779 "src/unix/lwt_bytes.ml" 71 2762 2786
+)
+"src/unix/lwt_bytes.ml" 73 2823 2840 "src/unix/lwt_bytes.ml" 73 2823 2841
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 73 2823 2842 "src/unix/lwt_bytes.ml" 73 2823 2843
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 73 2823 2832 "src/unix/lwt_bytes.ml" 73 2823 2843
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 73 2823 2844 "src/unix/lwt_bytes.ml" 73 2823 2846
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 73 2823 2847 "src/unix/lwt_bytes.ml" 73 2823 2854
+type(
+  int
+)
+ident(
+  int_ref src_ofs "src/unix/lwt_bytes.ml" 71 2762 2779 "src/unix/lwt_bytes.ml" 71 2762 2786
+)
+"src/unix/lwt_bytes.ml" 73 2823 2855 "src/unix/lwt_bytes.ml" 73 2823 2856
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 73 2823 2857 "src/unix/lwt_bytes.ml" 73 2823 2863
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 73 2823 2864 "src/unix/lwt_bytes.ml" 73 2823 2871
+type(
+  t
+)
+ident(
+  int_ref src_buf "src/unix/lwt_bytes.ml" 71 2762 2771 "src/unix/lwt_bytes.ml" 71 2762 2778
+)
+"src/unix/lwt_bytes.ml" 73 2823 2857 "src/unix/lwt_bytes.ml" 73 2823 2871
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 73 2823 2872 "src/unix/lwt_bytes.ml" 73 2823 2873
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 73 2823 2874 "src/unix/lwt_bytes.ml" 73 2823 2877
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 71 2762 2803 "src/unix/lwt_bytes.ml" 71 2762 2806
+)
+"src/unix/lwt_bytes.ml" 73 2823 2857 "src/unix/lwt_bytes.ml" 73 2823 2877
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 73 2823 2847 "src/unix/lwt_bytes.ml" 73 2823 2877
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 74 2878 2884 "src/unix/lwt_bytes.ml" 74 2878 2886
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 74 2878 2887 "src/unix/lwt_bytes.ml" 74 2878 2894
+type(
+  int
+)
+ident(
+  int_ref dst_ofs "src/unix/lwt_bytes.ml" 71 2762 2795 "src/unix/lwt_bytes.ml" 71 2762 2802
+)
+"src/unix/lwt_bytes.ml" 74 2878 2895 "src/unix/lwt_bytes.ml" 74 2878 2896
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 74 2878 2897 "src/unix/lwt_bytes.ml" 74 2878 2898
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 74 2878 2887 "src/unix/lwt_bytes.ml" 74 2878 2898
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 74 2878 2899 "src/unix/lwt_bytes.ml" 74 2878 2901
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 74 2878 2902 "src/unix/lwt_bytes.ml" 74 2878 2909
+type(
+  int
+)
+ident(
+  int_ref dst_ofs "src/unix/lwt_bytes.ml" 71 2762 2795 "src/unix/lwt_bytes.ml" 71 2762 2802
+)
+"src/unix/lwt_bytes.ml" 74 2878 2910 "src/unix/lwt_bytes.ml" 74 2878 2911
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 74 2878 2912 "src/unix/lwt_bytes.ml" 74 2878 2918
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 74 2878 2919 "src/unix/lwt_bytes.ml" 74 2878 2926
+type(
+  t
+)
+ident(
+  int_ref dst_buf "src/unix/lwt_bytes.ml" 71 2762 2787 "src/unix/lwt_bytes.ml" 71 2762 2794
+)
+"src/unix/lwt_bytes.ml" 74 2878 2912 "src/unix/lwt_bytes.ml" 74 2878 2926
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 74 2878 2927 "src/unix/lwt_bytes.ml" 74 2878 2928
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 74 2878 2929 "src/unix/lwt_bytes.ml" 74 2878 2932
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 71 2762 2803 "src/unix/lwt_bytes.ml" 71 2762 2806
+)
+"src/unix/lwt_bytes.ml" 74 2878 2912 "src/unix/lwt_bytes.ml" 74 2878 2932
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 74 2878 2902 "src/unix/lwt_bytes.ml" 74 2878 2932
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 74 2878 2887 "src/unix/lwt_bytes.ml" 74 2878 2932
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 73 2823 2847 "src/unix/lwt_bytes.ml" 74 2878 2932
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 73 2823 2832 "src/unix/lwt_bytes.ml" 74 2878 2932
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 72 2809 2814 "src/unix/lwt_bytes.ml" 74 2878 2933
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 75 2939 2943 "src/unix/lwt_bytes.ml" 75 2939 2954
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 75 2939 2955 "src/unix/lwt_bytes.ml" 75 2939 2968
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 75 2939 2943 "src/unix/lwt_bytes.ml" 75 2939 2968
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 77 2976 2980 "src/unix/lwt_bytes.ml" 77 2976 2991
+type(
+  t -> int -> t -> int -> int -> unit
+)
+ident(
+  int_ref unsafe_blit "src/unix/lwt_bytes.ml" 53 2088 2088 "src/unix/lwt_bytes.ml" 53 2088 2174
+)
+"src/unix/lwt_bytes.ml" 77 2976 2992 "src/unix/lwt_bytes.ml" 77 2976 2999
+type(
+  t
+)
+ident(
+  int_ref src_buf "src/unix/lwt_bytes.ml" 71 2762 2771 "src/unix/lwt_bytes.ml" 71 2762 2778
+)
+"src/unix/lwt_bytes.ml" 77 2976 3000 "src/unix/lwt_bytes.ml" 77 2976 3007
+type(
+  int
+)
+ident(
+  int_ref src_ofs "src/unix/lwt_bytes.ml" 71 2762 2779 "src/unix/lwt_bytes.ml" 71 2762 2786
+)
+"src/unix/lwt_bytes.ml" 77 2976 3008 "src/unix/lwt_bytes.ml" 77 2976 3015
+type(
+  t
+)
+ident(
+  int_ref dst_buf "src/unix/lwt_bytes.ml" 71 2762 2787 "src/unix/lwt_bytes.ml" 71 2762 2794
+)
+"src/unix/lwt_bytes.ml" 77 2976 3016 "src/unix/lwt_bytes.ml" 77 2976 3023
+type(
+  int
+)
+ident(
+  int_ref dst_ofs "src/unix/lwt_bytes.ml" 71 2762 2795 "src/unix/lwt_bytes.ml" 71 2762 2802
+)
+"src/unix/lwt_bytes.ml" 77 2976 3024 "src/unix/lwt_bytes.ml" 77 2976 3027
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 71 2762 2803 "src/unix/lwt_bytes.ml" 71 2762 2806
+)
+"src/unix/lwt_bytes.ml" 77 2976 2980 "src/unix/lwt_bytes.ml" 77 2976 3027
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 72 2809 2811 "src/unix/lwt_bytes.ml" 77 2976 3027
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 79 3029 3033 "src/unix/lwt_bytes.ml" 79 3029 3041
+type(
+  Bytes.t ->
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  def of_bytes "src/unix/lwt_bytes.ml" 85 3161 3161 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 79 3029 3042 "src/unix/lwt_bytes.ml" 79 3029 3045
+type(
+  Bytes.t
+)
+ident(
+  def buf "src/unix/lwt_bytes.ml" 80 3048 3050 "src/unix/lwt_bytes.ml" 83 3152 3159
+)
+"src/unix/lwt_bytes.ml" 80 3048 3054 "src/unix/lwt_bytes.ml" 80 3048 3057
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 81 3080 3082 "src/unix/lwt_bytes.ml" 83 3152 3159
+)
+"src/unix/lwt_bytes.ml" 80 3048 3060 "src/unix/lwt_bytes.ml" 80 3048 3072
+type(
+  Bytes.t -> int
+)
+ident(
+  ext_ref Bytes.length
+)
+"src/unix/lwt_bytes.ml" 80 3048 3073 "src/unix/lwt_bytes.ml" 80 3048 3076
+type(
+  Bytes.t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 79 3029 3042 "src/unix/lwt_bytes.ml" 79 3029 3045
+)
+"src/unix/lwt_bytes.ml" 80 3048 3060 "src/unix/lwt_bytes.ml" 80 3048 3076
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 81 3080 3086 "src/unix/lwt_bytes.ml" 81 3080 3091
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  def bytes "src/unix/lwt_bytes.ml" 82 3108 3110 "src/unix/lwt_bytes.ml" 83 3152 3159
+)
+"src/unix/lwt_bytes.ml" 81 3080 3094 "src/unix/lwt_bytes.ml" 81 3080 3100
+type(
+  int ->
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  int_ref create "src/unix/lwt_bytes.ml" 30 1058 1062 "src/unix/lwt_bytes.ml" 30 1058 1068
+)
+"src/unix/lwt_bytes.ml" 81 3080 3101 "src/unix/lwt_bytes.ml" 81 3080 3104
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 80 3048 3054 "src/unix/lwt_bytes.ml" 80 3048 3057
+)
+"src/unix/lwt_bytes.ml" 81 3080 3094 "src/unix/lwt_bytes.ml" 81 3080 3104
+call(
+  stack
+)
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 82 3108 3110 "src/unix/lwt_bytes.ml" 82 3108 3132
+type(
+  Bytes.t -> int -> t -> int -> int -> unit
+)
+ident(
+  int_ref unsafe_blit_from_bytes "src/unix/lwt_bytes.ml" 51 1862 1862 "src/unix/lwt_bytes.ml" 51 1862 1976
+)
+"src/unix/lwt_bytes.ml" 82 3108 3133 "src/unix/lwt_bytes.ml" 82 3108 3136
+type(
+  Bytes.t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 79 3029 3042 "src/unix/lwt_bytes.ml" 79 3029 3045
+)
+"src/unix/lwt_bytes.ml" 82 3108 3137 "src/unix/lwt_bytes.ml" 82 3108 3138
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 82 3108 3139 "src/unix/lwt_bytes.ml" 82 3108 3144
+type(
+  t
+)
+ident(
+  int_ref bytes "src/unix/lwt_bytes.ml" 81 3080 3086 "src/unix/lwt_bytes.ml" 81 3080 3091
+)
+"src/unix/lwt_bytes.ml" 82 3108 3145 "src/unix/lwt_bytes.ml" 82 3108 3146
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 82 3108 3147 "src/unix/lwt_bytes.ml" 82 3108 3150
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 80 3048 3054 "src/unix/lwt_bytes.ml" 80 3048 3057
+)
+"src/unix/lwt_bytes.ml" 82 3108 3110 "src/unix/lwt_bytes.ml" 82 3108 3150
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 83 3152 3154 "src/unix/lwt_bytes.ml" 83 3152 3159
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  int_ref bytes "src/unix/lwt_bytes.ml" 81 3080 3086 "src/unix/lwt_bytes.ml" 81 3080 3091
+)
+"src/unix/lwt_bytes.ml" 82 3108 3110 "src/unix/lwt_bytes.ml" 83 3152 3159
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 81 3080 3082 "src/unix/lwt_bytes.ml" 83 3152 3159
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 80 3048 3050 "src/unix/lwt_bytes.ml" 83 3152 3159
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 85 3161 3165 "src/unix/lwt_bytes.ml" 85 3161 3174
+type(
+  string ->
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  def of_string "src/unix/lwt_bytes.ml" 87 3220 3220 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 85 3161 3175 "src/unix/lwt_bytes.ml" 85 3161 3178
+type(
+  string
+)
+ident(
+  def str "src/unix/lwt_bytes.ml" 85 3161 3181 "src/unix/lwt_bytes.ml" 85 3161 3218
+)
+"src/unix/lwt_bytes.ml" 85 3161 3181 "src/unix/lwt_bytes.ml" 85 3161 3189
+type(
+  Bytes.t ->
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  int_ref of_bytes "src/unix/lwt_bytes.ml" 79 3029 3033 "src/unix/lwt_bytes.ml" 79 3029 3041
+)
+"src/unix/lwt_bytes.ml" 85 3161 3191 "src/unix/lwt_bytes.ml" 85 3161 3213
+type(
+  string -> Bytes.t
+)
+ident(
+  ext_ref Bytes.unsafe_of_string
+)
+"src/unix/lwt_bytes.ml" 85 3161 3214 "src/unix/lwt_bytes.ml" 85 3161 3217
+type(
+  string
+)
+ident(
+  int_ref str "src/unix/lwt_bytes.ml" 85 3161 3175 "src/unix/lwt_bytes.ml" 85 3161 3178
+)
+"src/unix/lwt_bytes.ml" 85 3161 3190 "src/unix/lwt_bytes.ml" 85 3161 3218
+call(
+  stack
+)
+type(
+  Bytes.t
+)
+"src/unix/lwt_bytes.ml" 85 3161 3181 "src/unix/lwt_bytes.ml" 85 3161 3218
+call(
+  tail
+)
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 87 3220 3224 "src/unix/lwt_bytes.ml" 87 3220 3232
+type(
+  t -> bytes
+)
+ident(
+  def to_bytes "src/unix/lwt_bytes.ml" 93 3350 3350 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 87 3220 3233 "src/unix/lwt_bytes.ml" 87 3220 3238
+type(
+  t
+)
+ident(
+  def bytes "src/unix/lwt_bytes.ml" 88 3241 3243 "src/unix/lwt_bytes.ml" 91 3343 3348
+)
+"src/unix/lwt_bytes.ml" 88 3241 3247 "src/unix/lwt_bytes.ml" 88 3241 3250
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 89 3269 3271 "src/unix/lwt_bytes.ml" 91 3343 3348
+)
+"src/unix/lwt_bytes.ml" 88 3241 3253 "src/unix/lwt_bytes.ml" 88 3241 3259
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 88 3241 3260 "src/unix/lwt_bytes.ml" 88 3241 3265
+type(
+  t
+)
+ident(
+  int_ref bytes "src/unix/lwt_bytes.ml" 87 3220 3233 "src/unix/lwt_bytes.ml" 87 3220 3238
+)
+"src/unix/lwt_bytes.ml" 88 3241 3253 "src/unix/lwt_bytes.ml" 88 3241 3265
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 89 3269 3275 "src/unix/lwt_bytes.ml" 89 3269 3278
+type(
+  bytes
+)
+ident(
+  def str "src/unix/lwt_bytes.ml" 90 3301 3303 "src/unix/lwt_bytes.ml" 91 3343 3348
+)
+"src/unix/lwt_bytes.ml" 89 3269 3281 "src/unix/lwt_bytes.ml" 89 3269 3293
+type(
+  int -> bytes
+)
+ident(
+  ext_ref Bytes.create
+)
+"src/unix/lwt_bytes.ml" 89 3269 3294 "src/unix/lwt_bytes.ml" 89 3269 3297
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 88 3241 3247 "src/unix/lwt_bytes.ml" 88 3241 3250
+)
+"src/unix/lwt_bytes.ml" 89 3269 3281 "src/unix/lwt_bytes.ml" 89 3269 3297
+type(
+  bytes
+)
+"src/unix/lwt_bytes.ml" 90 3301 3303 "src/unix/lwt_bytes.ml" 90 3301 3323
+type(
+  t -> int -> Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref unsafe_blit_to_bytes "src/unix/lwt_bytes.ml" 52 1977 1977 "src/unix/lwt_bytes.ml" 52 1977 2087
+)
+"src/unix/lwt_bytes.ml" 90 3301 3324 "src/unix/lwt_bytes.ml" 90 3301 3329
+type(
+  t
+)
+ident(
+  int_ref bytes "src/unix/lwt_bytes.ml" 87 3220 3233 "src/unix/lwt_bytes.ml" 87 3220 3238
+)
+"src/unix/lwt_bytes.ml" 90 3301 3330 "src/unix/lwt_bytes.ml" 90 3301 3331
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 90 3301 3332 "src/unix/lwt_bytes.ml" 90 3301 3335
+type(
+  Bytes.t
+)
+ident(
+  int_ref str "src/unix/lwt_bytes.ml" 89 3269 3275 "src/unix/lwt_bytes.ml" 89 3269 3278
+)
+"src/unix/lwt_bytes.ml" 90 3301 3336 "src/unix/lwt_bytes.ml" 90 3301 3337
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 90 3301 3338 "src/unix/lwt_bytes.ml" 90 3301 3341
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 88 3241 3247 "src/unix/lwt_bytes.ml" 88 3241 3250
+)
+"src/unix/lwt_bytes.ml" 90 3301 3303 "src/unix/lwt_bytes.ml" 90 3301 3341
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 91 3343 3345 "src/unix/lwt_bytes.ml" 91 3343 3348
+type(
+  bytes
+)
+ident(
+  int_ref str "src/unix/lwt_bytes.ml" 89 3269 3275 "src/unix/lwt_bytes.ml" 89 3269 3278
+)
+"src/unix/lwt_bytes.ml" 90 3301 3303 "src/unix/lwt_bytes.ml" 91 3343 3348
+type(
+  bytes
+)
+"src/unix/lwt_bytes.ml" 89 3269 3271 "src/unix/lwt_bytes.ml" 91 3343 3348
+type(
+  bytes
+)
+"src/unix/lwt_bytes.ml" 88 3241 3243 "src/unix/lwt_bytes.ml" 91 3343 3348
+type(
+  bytes
+)
+"src/unix/lwt_bytes.ml" 93 3350 3354 "src/unix/lwt_bytes.ml" 93 3350 3363
+type(
+  t -> string
+)
+ident(
+  def to_string "src/unix/lwt_bytes.ml" 95 3413 3413 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 93 3350 3364 "src/unix/lwt_bytes.ml" 93 3350 3369
+type(
+  t
+)
+ident(
+  def bytes "src/unix/lwt_bytes.ml" 93 3350 3372 "src/unix/lwt_bytes.ml" 93 3350 3411
+)
+"src/unix/lwt_bytes.ml" 93 3350 3372 "src/unix/lwt_bytes.ml" 93 3350 3394
+type(
+  bytes -> string
+)
+ident(
+  ext_ref Bytes.unsafe_to_string
+)
+"src/unix/lwt_bytes.ml" 93 3350 3396 "src/unix/lwt_bytes.ml" 93 3350 3404
+type(
+  t -> bytes
+)
+ident(
+  int_ref to_bytes "src/unix/lwt_bytes.ml" 87 3220 3224 "src/unix/lwt_bytes.ml" 87 3220 3232
+)
+"src/unix/lwt_bytes.ml" 93 3350 3405 "src/unix/lwt_bytes.ml" 93 3350 3410
+type(
+  t
+)
+ident(
+  int_ref bytes "src/unix/lwt_bytes.ml" 93 3350 3364 "src/unix/lwt_bytes.ml" 93 3350 3369
+)
+"src/unix/lwt_bytes.ml" 93 3350 3395 "src/unix/lwt_bytes.ml" 93 3350 3411
+call(
+  stack
+)
+type(
+  bytes
+)
+"src/unix/lwt_bytes.ml" 93 3350 3372 "src/unix/lwt_bytes.ml" 93 3350 3411
+call(
+  tail
+)
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 95 3413 3417 "src/unix/lwt_bytes.ml" 95 3413 3422
+type(
+  ('a, 'b, 'c) Bigarray.Array1.t ->
+  int -> int -> ('a, 'b, 'c) Bigarray.Array1.t
+)
+ident(
+  def proxy "src/unix/lwt_bytes.ml" 97 3437 3437 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 95 3413 3425 "src/unix/lwt_bytes.ml" 95 3413 3435
+type(
+  ('a, 'b, 'c) Bigarray.Array1.t ->
+  int -> int -> ('a, 'b, 'c) Bigarray.Array1.t
+)
+ident(
+  ext_ref Bigarray.Array1.sub
+)
+"src/unix/lwt_bytes.ml" 97 3437 3441 "src/unix/lwt_bytes.ml" 97 3437 3448
+type(
+  t ->
+  int ->
+  int ->
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  def extract "src/unix/lwt_bytes.ml" 106 3641 3641 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 97 3437 3449 "src/unix/lwt_bytes.ml" 97 3437 3452
+type(
+  t
+)
+ident(
+  def buf "src/unix/lwt_bytes.ml" 97 3437 3453 "src/unix/lwt_bytes.ml" 104 3634 3639
+)
+"src/unix/lwt_bytes.ml" 97 3437 3453 "src/unix/lwt_bytes.ml" 97 3437 3456
+type(
+  int
+)
+ident(
+  def ofs "src/unix/lwt_bytes.ml" 97 3437 3457 "src/unix/lwt_bytes.ml" 104 3634 3639
+)
+"src/unix/lwt_bytes.ml" 97 3437 3457 "src/unix/lwt_bytes.ml" 97 3437 3460
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 98 3463 3465 "src/unix/lwt_bytes.ml" 104 3634 3639
+)
+"src/unix/lwt_bytes.ml" 98 3463 3468 "src/unix/lwt_bytes.ml" 98 3463 3471
+type(
+  int
+)
+ident(
+  int_ref ofs "src/unix/lwt_bytes.ml" 97 3437 3453 "src/unix/lwt_bytes.ml" 97 3437 3456
+)
+"src/unix/lwt_bytes.ml" 98 3463 3472 "src/unix/lwt_bytes.ml" 98 3463 3473
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 98 3463 3474 "src/unix/lwt_bytes.ml" 98 3463 3475
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 98 3463 3468 "src/unix/lwt_bytes.ml" 98 3463 3475
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 98 3463 3476 "src/unix/lwt_bytes.ml" 98 3463 3478
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 98 3463 3479 "src/unix/lwt_bytes.ml" 98 3463 3482
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 97 3437 3457 "src/unix/lwt_bytes.ml" 97 3437 3460
+)
+"src/unix/lwt_bytes.ml" 98 3463 3483 "src/unix/lwt_bytes.ml" 98 3463 3484
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 98 3463 3485 "src/unix/lwt_bytes.ml" 98 3463 3486
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 98 3463 3479 "src/unix/lwt_bytes.ml" 98 3463 3486
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 98 3463 3487 "src/unix/lwt_bytes.ml" 98 3463 3489
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 98 3463 3490 "src/unix/lwt_bytes.ml" 98 3463 3493
+type(
+  int
+)
+ident(
+  int_ref ofs "src/unix/lwt_bytes.ml" 97 3437 3453 "src/unix/lwt_bytes.ml" 97 3437 3456
+)
+"src/unix/lwt_bytes.ml" 98 3463 3494 "src/unix/lwt_bytes.ml" 98 3463 3495
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 98 3463 3496 "src/unix/lwt_bytes.ml" 98 3463 3502
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 98 3463 3503 "src/unix/lwt_bytes.ml" 98 3463 3506
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 97 3437 3449 "src/unix/lwt_bytes.ml" 97 3437 3452
+)
+"src/unix/lwt_bytes.ml" 98 3463 3496 "src/unix/lwt_bytes.ml" 98 3463 3506
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 98 3463 3507 "src/unix/lwt_bytes.ml" 98 3463 3508
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 98 3463 3509 "src/unix/lwt_bytes.ml" 98 3463 3512
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 97 3437 3457 "src/unix/lwt_bytes.ml" 97 3437 3460
+)
+"src/unix/lwt_bytes.ml" 98 3463 3496 "src/unix/lwt_bytes.ml" 98 3463 3512
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 98 3463 3490 "src/unix/lwt_bytes.ml" 98 3463 3512
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 98 3463 3479 "src/unix/lwt_bytes.ml" 98 3463 3512
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 98 3463 3468 "src/unix/lwt_bytes.ml" 98 3463 3512
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 99 3518 3522 "src/unix/lwt_bytes.ml" 99 3518 3533
+type(
+  string ->
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 99 3518 3534 "src/unix/lwt_bytes.ml" 99 3518 3553
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 99 3518 3522 "src/unix/lwt_bytes.ml" 99 3518 3553
+call(
+  tail
+)
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 101 3567 3575 "src/unix/lwt_bytes.ml" 101 3567 3579
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  def buf' "src/unix/lwt_bytes.ml" 102 3596 3600 "src/unix/lwt_bytes.ml" 103 3625 3633
+)
+"src/unix/lwt_bytes.ml" 101 3567 3582 "src/unix/lwt_bytes.ml" 101 3567 3588
+type(
+  int ->
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  int_ref create "src/unix/lwt_bytes.ml" 30 1058 1062 "src/unix/lwt_bytes.ml" 30 1058 1068
+)
+"src/unix/lwt_bytes.ml" 101 3567 3589 "src/unix/lwt_bytes.ml" 101 3567 3592
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 97 3437 3457 "src/unix/lwt_bytes.ml" 97 3437 3460
+)
+"src/unix/lwt_bytes.ml" 101 3567 3582 "src/unix/lwt_bytes.ml" 101 3567 3592
+call(
+  stack
+)
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 102 3596 3600 "src/unix/lwt_bytes.ml" 102 3596 3604
+type(
+  t -> int -> t -> int -> int -> unit
+)
+ident(
+  int_ref blit "src/unix/lwt_bytes.ml" 71 2762 2766 "src/unix/lwt_bytes.ml" 71 2762 2770
+)
+"src/unix/lwt_bytes.ml" 102 3596 3605 "src/unix/lwt_bytes.ml" 102 3596 3608
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 97 3437 3449 "src/unix/lwt_bytes.ml" 97 3437 3452
+)
+"src/unix/lwt_bytes.ml" 102 3596 3609 "src/unix/lwt_bytes.ml" 102 3596 3612
+type(
+  int
+)
+ident(
+  int_ref ofs "src/unix/lwt_bytes.ml" 97 3437 3453 "src/unix/lwt_bytes.ml" 97 3437 3456
+)
+"src/unix/lwt_bytes.ml" 102 3596 3613 "src/unix/lwt_bytes.ml" 102 3596 3617
+type(
+  t
+)
+ident(
+  int_ref buf' "src/unix/lwt_bytes.ml" 101 3567 3575 "src/unix/lwt_bytes.ml" 101 3567 3579
+)
+"src/unix/lwt_bytes.ml" 102 3596 3618 "src/unix/lwt_bytes.ml" 102 3596 3619
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 102 3596 3620 "src/unix/lwt_bytes.ml" 102 3596 3623
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 97 3437 3457 "src/unix/lwt_bytes.ml" 97 3437 3460
+)
+"src/unix/lwt_bytes.ml" 102 3596 3600 "src/unix/lwt_bytes.ml" 102 3596 3623
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 103 3625 3629 "src/unix/lwt_bytes.ml" 103 3625 3633
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  int_ref buf' "src/unix/lwt_bytes.ml" 101 3567 3575 "src/unix/lwt_bytes.ml" 101 3567 3579
+)
+"src/unix/lwt_bytes.ml" 102 3596 3600 "src/unix/lwt_bytes.ml" 103 3625 3633
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 100 3554 3561 "src/unix/lwt_bytes.ml" 104 3634 3639
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 98 3463 3465 "src/unix/lwt_bytes.ml" 104 3634 3639
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 106 3641 3645 "src/unix/lwt_bytes.ml" 106 3641 3649
+type(
+  t ->
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  def copy "src/unix/lwt_bytes.ml" 116 3959 3959 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 106 3641 3650 "src/unix/lwt_bytes.ml" 106 3641 3653
+type(
+  t
+)
+ident(
+  def buf "src/unix/lwt_bytes.ml" 107 3656 3658 "src/unix/lwt_bytes.ml" 110 3734 3740
+)
+"src/unix/lwt_bytes.ml" 107 3656 3662 "src/unix/lwt_bytes.ml" 107 3656 3665
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 108 3682 3684 "src/unix/lwt_bytes.ml" 110 3734 3740
+)
+"src/unix/lwt_bytes.ml" 107 3656 3668 "src/unix/lwt_bytes.ml" 107 3656 3674
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 107 3656 3675 "src/unix/lwt_bytes.ml" 107 3656 3678
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 106 3641 3650 "src/unix/lwt_bytes.ml" 106 3641 3653
+)
+"src/unix/lwt_bytes.ml" 107 3656 3668 "src/unix/lwt_bytes.ml" 107 3656 3678
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 108 3682 3688 "src/unix/lwt_bytes.ml" 108 3682 3692
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  def buf' "src/unix/lwt_bytes.ml" 109 3709 3711 "src/unix/lwt_bytes.ml" 110 3734 3740
+)
+"src/unix/lwt_bytes.ml" 108 3682 3695 "src/unix/lwt_bytes.ml" 108 3682 3701
+type(
+  int ->
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  int_ref create "src/unix/lwt_bytes.ml" 30 1058 1062 "src/unix/lwt_bytes.ml" 30 1058 1068
+)
+"src/unix/lwt_bytes.ml" 108 3682 3702 "src/unix/lwt_bytes.ml" 108 3682 3705
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 107 3656 3662 "src/unix/lwt_bytes.ml" 107 3656 3665
+)
+"src/unix/lwt_bytes.ml" 108 3682 3695 "src/unix/lwt_bytes.ml" 108 3682 3705
+call(
+  stack
+)
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 109 3709 3711 "src/unix/lwt_bytes.ml" 109 3709 3715
+type(
+  t -> int -> t -> int -> int -> unit
+)
+ident(
+  int_ref blit "src/unix/lwt_bytes.ml" 71 2762 2766 "src/unix/lwt_bytes.ml" 71 2762 2770
+)
+"src/unix/lwt_bytes.ml" 109 3709 3716 "src/unix/lwt_bytes.ml" 109 3709 3719
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 106 3641 3650 "src/unix/lwt_bytes.ml" 106 3641 3653
+)
+"src/unix/lwt_bytes.ml" 109 3709 3720 "src/unix/lwt_bytes.ml" 109 3709 3721
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 109 3709 3722 "src/unix/lwt_bytes.ml" 109 3709 3726
+type(
+  t
+)
+ident(
+  int_ref buf' "src/unix/lwt_bytes.ml" 108 3682 3688 "src/unix/lwt_bytes.ml" 108 3682 3692
+)
+"src/unix/lwt_bytes.ml" 109 3709 3727 "src/unix/lwt_bytes.ml" 109 3709 3728
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 109 3709 3729 "src/unix/lwt_bytes.ml" 109 3709 3732
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 107 3656 3662 "src/unix/lwt_bytes.ml" 107 3656 3665
+)
+"src/unix/lwt_bytes.ml" 109 3709 3711 "src/unix/lwt_bytes.ml" 109 3709 3732
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 110 3734 3736 "src/unix/lwt_bytes.ml" 110 3734 3740
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  int_ref buf' "src/unix/lwt_bytes.ml" 108 3682 3688 "src/unix/lwt_bytes.ml" 108 3682 3692
+)
+"src/unix/lwt_bytes.ml" 109 3709 3711 "src/unix/lwt_bytes.ml" 110 3734 3740
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 108 3682 3684 "src/unix/lwt_bytes.ml" 110 3734 3740
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 107 3656 3658 "src/unix/lwt_bytes.ml" 110 3734 3740
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 121 4156 4160 "src/unix/lwt_bytes.ml" 121 4156 4164
+type(
+  Lwt_unix.file_descr -> t -> int -> int -> int Lwt.t
+)
+ident(
+  def read "src/unix/lwt_bytes.ml" 132 4525 4525 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 121 4156 4165 "src/unix/lwt_bytes.ml" 121 4156 4167
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_bytes.ml" 121 4156 4168 "src/unix/lwt_bytes.ml" 130 4438 4523
+)
+"src/unix/lwt_bytes.ml" 121 4156 4168 "src/unix/lwt_bytes.ml" 121 4156 4171
+type(
+  t
+)
+ident(
+  def buf "src/unix/lwt_bytes.ml" 121 4156 4172 "src/unix/lwt_bytes.ml" 130 4438 4523
+)
+"src/unix/lwt_bytes.ml" 121 4156 4172 "src/unix/lwt_bytes.ml" 121 4156 4175
+type(
+  int
+)
+ident(
+  def pos "src/unix/lwt_bytes.ml" 121 4156 4176 "src/unix/lwt_bytes.ml" 130 4438 4523
+)
+"src/unix/lwt_bytes.ml" 121 4156 4176 "src/unix/lwt_bytes.ml" 121 4156 4179
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 122 4182 4184 "src/unix/lwt_bytes.ml" 130 4438 4523
+)
+"src/unix/lwt_bytes.ml" 122 4182 4187 "src/unix/lwt_bytes.ml" 122 4182 4190
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 121 4156 4172 "src/unix/lwt_bytes.ml" 121 4156 4175
+)
+"src/unix/lwt_bytes.ml" 122 4182 4191 "src/unix/lwt_bytes.ml" 122 4182 4192
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 122 4182 4193 "src/unix/lwt_bytes.ml" 122 4182 4194
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 122 4182 4187 "src/unix/lwt_bytes.ml" 122 4182 4194
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 122 4182 4195 "src/unix/lwt_bytes.ml" 122 4182 4197
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 122 4182 4198 "src/unix/lwt_bytes.ml" 122 4182 4201
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 121 4156 4176 "src/unix/lwt_bytes.ml" 121 4156 4179
+)
+"src/unix/lwt_bytes.ml" 122 4182 4202 "src/unix/lwt_bytes.ml" 122 4182 4203
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 122 4182 4204 "src/unix/lwt_bytes.ml" 122 4182 4205
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 122 4182 4198 "src/unix/lwt_bytes.ml" 122 4182 4205
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 122 4182 4206 "src/unix/lwt_bytes.ml" 122 4182 4208
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 122 4182 4209 "src/unix/lwt_bytes.ml" 122 4182 4212
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 121 4156 4172 "src/unix/lwt_bytes.ml" 121 4156 4175
+)
+"src/unix/lwt_bytes.ml" 122 4182 4213 "src/unix/lwt_bytes.ml" 122 4182 4214
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 122 4182 4215 "src/unix/lwt_bytes.ml" 122 4182 4221
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 122 4182 4222 "src/unix/lwt_bytes.ml" 122 4182 4225
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 121 4156 4168 "src/unix/lwt_bytes.ml" 121 4156 4171
+)
+"src/unix/lwt_bytes.ml" 122 4182 4215 "src/unix/lwt_bytes.ml" 122 4182 4225
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 122 4182 4226 "src/unix/lwt_bytes.ml" 122 4182 4227
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 122 4182 4228 "src/unix/lwt_bytes.ml" 122 4182 4231
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 121 4156 4176 "src/unix/lwt_bytes.ml" 121 4156 4179
+)
+"src/unix/lwt_bytes.ml" 122 4182 4215 "src/unix/lwt_bytes.ml" 122 4182 4231
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 122 4182 4209 "src/unix/lwt_bytes.ml" 122 4182 4231
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 122 4182 4198 "src/unix/lwt_bytes.ml" 122 4182 4231
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 122 4182 4187 "src/unix/lwt_bytes.ml" 122 4182 4231
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 123 4237 4241 "src/unix/lwt_bytes.ml" 123 4237 4252
+type(
+  string -> int Lwt.t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 123 4237 4253 "src/unix/lwt_bytes.ml" 123 4237 4269
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 123 4237 4241 "src/unix/lwt_bytes.ml" 123 4237 4269
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 125 4277 4281 "src/unix/lwt_bytes.ml" 125 4277 4289
+type(
+  Lwt_unix.file_descr -> bool Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.blocking
+)
+"src/unix/lwt_bytes.ml" 125 4277 4290 "src/unix/lwt_bytes.ml" 125 4277 4292
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 121 4156 4165 "src/unix/lwt_bytes.ml" 121 4156 4167
+)
+"src/unix/lwt_bytes.ml" 125 4277 4281 "src/unix/lwt_bytes.ml" 125 4277 4292
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"src/unix/lwt_bytes.ml" 125 4277 4293 "src/unix/lwt_bytes.ml" 125 4277 4296
+type(
+  bool Lwt.t -> (bool -> int Lwt.t) -> int Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_bytes.ml" 126 4306 4314 "src/unix/lwt_bytes.ml" 126 4306 4318
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 127 4322 4332 "src/unix/lwt_bytes.ml" 127 4322 4341
+type(
+  Lwt_unix.file_descr -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.wait_read
+)
+"src/unix/lwt_bytes.ml" 127 4322 4342 "src/unix/lwt_bytes.ml" 127 4322 4344
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 121 4156 4165 "src/unix/lwt_bytes.ml" 121 4156 4167
+)
+"src/unix/lwt_bytes.ml" 127 4322 4332 "src/unix/lwt_bytes.ml" 127 4322 4344
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_bytes.ml" 127 4322 4345 "src/unix/lwt_bytes.ml" 127 4322 4348
+type(
+  unit Lwt.t -> (unit -> int Lwt.t) -> int Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_bytes.ml" 127 4322 4353 "src/unix/lwt_bytes.ml" 127 4322 4355
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 128 4359 4369 "src/unix/lwt_bytes.ml" 128 4359 4376
+type(
+  ?async_method:Lwt_unix.async_method -> int Lwt_unix.job -> int Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.run_job
+)
+"src/unix/lwt_bytes.ml" 128 4359 4378 "src/unix/lwt_bytes.ml" 128 4359 4386
+type(
+  Unix.file_descr -> t -> int -> int -> int Lwt_unix.job
+)
+ident(
+  int_ref read_job "src/unix/lwt_bytes.ml" 119 4061 4061 "src/unix/lwt_bytes.ml" 119 4061 4154
+)
+"src/unix/lwt_bytes.ml" 128 4359 4388 "src/unix/lwt_bytes.ml" 128 4359 4403
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/unix/lwt_bytes.ml" 128 4359 4404 "src/unix/lwt_bytes.ml" 128 4359 4406
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 121 4156 4165 "src/unix/lwt_bytes.ml" 121 4156 4167
+)
+"src/unix/lwt_bytes.ml" 128 4359 4387 "src/unix/lwt_bytes.ml" 128 4359 4407
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/unix/lwt_bytes.ml" 128 4359 4408 "src/unix/lwt_bytes.ml" 128 4359 4411
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 121 4156 4168 "src/unix/lwt_bytes.ml" 121 4156 4171
+)
+"src/unix/lwt_bytes.ml" 128 4359 4412 "src/unix/lwt_bytes.ml" 128 4359 4415
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 121 4156 4172 "src/unix/lwt_bytes.ml" 121 4156 4175
+)
+"src/unix/lwt_bytes.ml" 128 4359 4416 "src/unix/lwt_bytes.ml" 128 4359 4419
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 121 4156 4176 "src/unix/lwt_bytes.ml" 121 4156 4179
+)
+"src/unix/lwt_bytes.ml" 128 4359 4377 "src/unix/lwt_bytes.ml" 128 4359 4420
+type(
+  int Lwt_unix.job
+)
+"src/unix/lwt_bytes.ml" 128 4359 4369 "src/unix/lwt_bytes.ml" 128 4359 4420
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 127 4322 4349 "src/unix/lwt_bytes.ml" 128 4359 4420
+type(
+  unit -> int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 127 4322 4332 "src/unix/lwt_bytes.ml" 128 4359 4420
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 129 4421 4429 "src/unix/lwt_bytes.ml" 129 4421 4434
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 130 4438 4448 "src/unix/lwt_bytes.ml" 130 4438 4460
+type(
+  Lwt_unix.io_event -> Lwt_unix.file_descr -> (unit -> int) -> int Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.wrap_syscall
+)
+"src/unix/lwt_bytes.ml" 130 4438 4461 "src/unix/lwt_bytes.ml" 130 4438 4465
+type(
+  Lwt_unix.io_event
+)
+"src/unix/lwt_bytes.ml" 130 4438 4466 "src/unix/lwt_bytes.ml" 130 4438 4468
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 121 4156 4165 "src/unix/lwt_bytes.ml" 121 4156 4167
+)
+"src/unix/lwt_bytes.ml" 130 4438 4474 "src/unix/lwt_bytes.ml" 130 4438 4476
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 130 4438 4480 "src/unix/lwt_bytes.ml" 130 4438 4489
+type(
+  Unix.file_descr -> t -> int -> int -> int
+)
+ident(
+  int_ref stub_read "src/unix/lwt_bytes.ml" 118 3974 3974 "src/unix/lwt_bytes.ml" 118 3974 4060
+)
+"src/unix/lwt_bytes.ml" 130 4438 4491 "src/unix/lwt_bytes.ml" 130 4438 4506
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/unix/lwt_bytes.ml" 130 4438 4507 "src/unix/lwt_bytes.ml" 130 4438 4509
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 121 4156 4165 "src/unix/lwt_bytes.ml" 121 4156 4167
+)
+"src/unix/lwt_bytes.ml" 130 4438 4490 "src/unix/lwt_bytes.ml" 130 4438 4510
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/unix/lwt_bytes.ml" 130 4438 4511 "src/unix/lwt_bytes.ml" 130 4438 4514
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 121 4156 4168 "src/unix/lwt_bytes.ml" 121 4156 4171
+)
+"src/unix/lwt_bytes.ml" 130 4438 4515 "src/unix/lwt_bytes.ml" 130 4438 4518
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 121 4156 4172 "src/unix/lwt_bytes.ml" 121 4156 4175
+)
+"src/unix/lwt_bytes.ml" 130 4438 4519 "src/unix/lwt_bytes.ml" 130 4438 4522
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 121 4156 4176 "src/unix/lwt_bytes.ml" 121 4156 4179
+)
+"src/unix/lwt_bytes.ml" 130 4438 4480 "src/unix/lwt_bytes.ml" 130 4438 4522
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 130 4438 4469 "src/unix/lwt_bytes.ml" 130 4438 4523
+type(
+  unit -> int
+)
+"src/unix/lwt_bytes.ml" 130 4438 4448 "src/unix/lwt_bytes.ml" 130 4438 4523
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 125 4277 4297 "src/unix/lwt_bytes.ml" 130 4438 4523
+type(
+  bool -> int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 125 4277 4281 "src/unix/lwt_bytes.ml" 130 4438 4523
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 122 4182 4184 "src/unix/lwt_bytes.ml" 130 4438 4523
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 135 4711 4715 "src/unix/lwt_bytes.ml" 135 4711 4720
+type(
+  Lwt_unix.file_descr -> t -> int -> int -> int Lwt.t
+)
+ident(
+  def write "src/unix/lwt_bytes.ml" 146 5086 5086 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 135 4711 4721 "src/unix/lwt_bytes.ml" 135 4711 4723
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_bytes.ml" 135 4711 4724 "src/unix/lwt_bytes.ml" 144 4997 5084
+)
+"src/unix/lwt_bytes.ml" 135 4711 4724 "src/unix/lwt_bytes.ml" 135 4711 4727
+type(
+  t
+)
+ident(
+  def buf "src/unix/lwt_bytes.ml" 135 4711 4728 "src/unix/lwt_bytes.ml" 144 4997 5084
+)
+"src/unix/lwt_bytes.ml" 135 4711 4728 "src/unix/lwt_bytes.ml" 135 4711 4731
+type(
+  int
+)
+ident(
+  def pos "src/unix/lwt_bytes.ml" 135 4711 4732 "src/unix/lwt_bytes.ml" 144 4997 5084
+)
+"src/unix/lwt_bytes.ml" 135 4711 4732 "src/unix/lwt_bytes.ml" 135 4711 4735
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 136 4738 4740 "src/unix/lwt_bytes.ml" 144 4997 5084
+)
+"src/unix/lwt_bytes.ml" 136 4738 4743 "src/unix/lwt_bytes.ml" 136 4738 4746
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 135 4711 4728 "src/unix/lwt_bytes.ml" 135 4711 4731
+)
+"src/unix/lwt_bytes.ml" 136 4738 4747 "src/unix/lwt_bytes.ml" 136 4738 4748
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 136 4738 4749 "src/unix/lwt_bytes.ml" 136 4738 4750
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 136 4738 4743 "src/unix/lwt_bytes.ml" 136 4738 4750
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 136 4738 4751 "src/unix/lwt_bytes.ml" 136 4738 4753
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 136 4738 4754 "src/unix/lwt_bytes.ml" 136 4738 4757
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 135 4711 4732 "src/unix/lwt_bytes.ml" 135 4711 4735
+)
+"src/unix/lwt_bytes.ml" 136 4738 4758 "src/unix/lwt_bytes.ml" 136 4738 4759
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 136 4738 4760 "src/unix/lwt_bytes.ml" 136 4738 4761
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 136 4738 4754 "src/unix/lwt_bytes.ml" 136 4738 4761
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 136 4738 4762 "src/unix/lwt_bytes.ml" 136 4738 4764
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 136 4738 4765 "src/unix/lwt_bytes.ml" 136 4738 4768
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 135 4711 4728 "src/unix/lwt_bytes.ml" 135 4711 4731
+)
+"src/unix/lwt_bytes.ml" 136 4738 4769 "src/unix/lwt_bytes.ml" 136 4738 4770
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 136 4738 4771 "src/unix/lwt_bytes.ml" 136 4738 4777
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 136 4738 4778 "src/unix/lwt_bytes.ml" 136 4738 4781
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 135 4711 4724 "src/unix/lwt_bytes.ml" 135 4711 4727
+)
+"src/unix/lwt_bytes.ml" 136 4738 4771 "src/unix/lwt_bytes.ml" 136 4738 4781
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 136 4738 4782 "src/unix/lwt_bytes.ml" 136 4738 4783
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 136 4738 4784 "src/unix/lwt_bytes.ml" 136 4738 4787
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 135 4711 4732 "src/unix/lwt_bytes.ml" 135 4711 4735
+)
+"src/unix/lwt_bytes.ml" 136 4738 4771 "src/unix/lwt_bytes.ml" 136 4738 4787
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 136 4738 4765 "src/unix/lwt_bytes.ml" 136 4738 4787
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 136 4738 4754 "src/unix/lwt_bytes.ml" 136 4738 4787
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 136 4738 4743 "src/unix/lwt_bytes.ml" 136 4738 4787
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 137 4793 4797 "src/unix/lwt_bytes.ml" 137 4793 4808
+type(
+  string -> int Lwt.t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 137 4793 4809 "src/unix/lwt_bytes.ml" 137 4793 4826
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 137 4793 4797 "src/unix/lwt_bytes.ml" 137 4793 4826
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 139 4834 4838 "src/unix/lwt_bytes.ml" 139 4834 4846
+type(
+  Lwt_unix.file_descr -> bool Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.blocking
+)
+"src/unix/lwt_bytes.ml" 139 4834 4847 "src/unix/lwt_bytes.ml" 139 4834 4849
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 135 4711 4721 "src/unix/lwt_bytes.ml" 135 4711 4723
+)
+"src/unix/lwt_bytes.ml" 139 4834 4838 "src/unix/lwt_bytes.ml" 139 4834 4849
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"src/unix/lwt_bytes.ml" 139 4834 4850 "src/unix/lwt_bytes.ml" 139 4834 4853
+type(
+  bool Lwt.t -> (bool -> int Lwt.t) -> int Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_bytes.ml" 140 4863 4871 "src/unix/lwt_bytes.ml" 140 4863 4875
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 141 4879 4889 "src/unix/lwt_bytes.ml" 141 4879 4899
+type(
+  Lwt_unix.file_descr -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.wait_write
+)
+"src/unix/lwt_bytes.ml" 141 4879 4900 "src/unix/lwt_bytes.ml" 141 4879 4902
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 135 4711 4721 "src/unix/lwt_bytes.ml" 135 4711 4723
+)
+"src/unix/lwt_bytes.ml" 141 4879 4889 "src/unix/lwt_bytes.ml" 141 4879 4902
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_bytes.ml" 141 4879 4903 "src/unix/lwt_bytes.ml" 141 4879 4906
+type(
+  unit Lwt.t -> (unit -> int Lwt.t) -> int Lwt.t
+)
+ident(
+  ext_ref Lwt.Infix.( >>= )
+)
+"src/unix/lwt_bytes.ml" 141 4879 4911 "src/unix/lwt_bytes.ml" 141 4879 4913
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 142 4917 4927 "src/unix/lwt_bytes.ml" 142 4917 4934
+type(
+  ?async_method:Lwt_unix.async_method -> int Lwt_unix.job -> int Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.run_job
+)
+"src/unix/lwt_bytes.ml" 142 4917 4936 "src/unix/lwt_bytes.ml" 142 4917 4945
+type(
+  Unix.file_descr -> t -> int -> int -> int Lwt_unix.job
+)
+ident(
+  int_ref write_job "src/unix/lwt_bytes.ml" 133 4614 4614 "src/unix/lwt_bytes.ml" 133 4614 4709
+)
+"src/unix/lwt_bytes.ml" 142 4917 4947 "src/unix/lwt_bytes.ml" 142 4917 4962
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/unix/lwt_bytes.ml" 142 4917 4963 "src/unix/lwt_bytes.ml" 142 4917 4965
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 135 4711 4721 "src/unix/lwt_bytes.ml" 135 4711 4723
+)
+"src/unix/lwt_bytes.ml" 142 4917 4946 "src/unix/lwt_bytes.ml" 142 4917 4966
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/unix/lwt_bytes.ml" 142 4917 4967 "src/unix/lwt_bytes.ml" 142 4917 4970
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 135 4711 4724 "src/unix/lwt_bytes.ml" 135 4711 4727
+)
+"src/unix/lwt_bytes.ml" 142 4917 4971 "src/unix/lwt_bytes.ml" 142 4917 4974
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 135 4711 4728 "src/unix/lwt_bytes.ml" 135 4711 4731
+)
+"src/unix/lwt_bytes.ml" 142 4917 4975 "src/unix/lwt_bytes.ml" 142 4917 4978
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 135 4711 4732 "src/unix/lwt_bytes.ml" 135 4711 4735
+)
+"src/unix/lwt_bytes.ml" 142 4917 4935 "src/unix/lwt_bytes.ml" 142 4917 4979
+type(
+  int Lwt_unix.job
+)
+"src/unix/lwt_bytes.ml" 142 4917 4927 "src/unix/lwt_bytes.ml" 142 4917 4979
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 141 4879 4907 "src/unix/lwt_bytes.ml" 142 4917 4979
+type(
+  unit -> int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 141 4879 4889 "src/unix/lwt_bytes.ml" 142 4917 4979
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 143 4980 4988 "src/unix/lwt_bytes.ml" 143 4980 4993
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 144 4997 5007 "src/unix/lwt_bytes.ml" 144 4997 5019
+type(
+  Lwt_unix.io_event -> Lwt_unix.file_descr -> (unit -> int) -> int Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.wrap_syscall
+)
+"src/unix/lwt_bytes.ml" 144 4997 5020 "src/unix/lwt_bytes.ml" 144 4997 5025
+type(
+  Lwt_unix.io_event
+)
+"src/unix/lwt_bytes.ml" 144 4997 5026 "src/unix/lwt_bytes.ml" 144 4997 5028
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 135 4711 4721 "src/unix/lwt_bytes.ml" 135 4711 4723
+)
+"src/unix/lwt_bytes.ml" 144 4997 5034 "src/unix/lwt_bytes.ml" 144 4997 5036
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 144 4997 5040 "src/unix/lwt_bytes.ml" 144 4997 5050
+type(
+  Unix.file_descr -> t -> int -> int -> int
+)
+ident(
+  int_ref stub_write "src/unix/lwt_bytes.ml" 132 4525 4525 "src/unix/lwt_bytes.ml" 132 4525 4613
+)
+"src/unix/lwt_bytes.ml" 144 4997 5052 "src/unix/lwt_bytes.ml" 144 4997 5067
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/unix/lwt_bytes.ml" 144 4997 5068 "src/unix/lwt_bytes.ml" 144 4997 5070
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 135 4711 4721 "src/unix/lwt_bytes.ml" 135 4711 4723
+)
+"src/unix/lwt_bytes.ml" 144 4997 5051 "src/unix/lwt_bytes.ml" 144 4997 5071
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/unix/lwt_bytes.ml" 144 4997 5072 "src/unix/lwt_bytes.ml" 144 4997 5075
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 135 4711 4724 "src/unix/lwt_bytes.ml" 135 4711 4727
+)
+"src/unix/lwt_bytes.ml" 144 4997 5076 "src/unix/lwt_bytes.ml" 144 4997 5079
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 135 4711 4728 "src/unix/lwt_bytes.ml" 135 4711 4731
+)
+"src/unix/lwt_bytes.ml" 144 4997 5080 "src/unix/lwt_bytes.ml" 144 4997 5083
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 135 4711 4732 "src/unix/lwt_bytes.ml" 135 4711 4735
+)
+"src/unix/lwt_bytes.ml" 144 4997 5040 "src/unix/lwt_bytes.ml" 144 4997 5083
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 144 4997 5029 "src/unix/lwt_bytes.ml" 144 4997 5084
+type(
+  unit -> int
+)
+"src/unix/lwt_bytes.ml" 144 4997 5007 "src/unix/lwt_bytes.ml" 144 4997 5084
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 139 4834 4854 "src/unix/lwt_bytes.ml" 144 4997 5084
+type(
+  bool -> int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 139 4834 4838 "src/unix/lwt_bytes.ml" 144 4997 5084
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 136 4738 4740 "src/unix/lwt_bytes.ml" 144 4997 5084
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 148 5196 5200 "src/unix/lwt_bytes.ml" 148 5196 5204
+type(
+  Lwt_unix.file_descr -> t -> int -> int -> Unix.msg_flag list -> int Lwt.t
+)
+ident(
+  def recv "src/unix/lwt_bytes.ml" 154 5400 5400 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 148 5196 5205 "src/unix/lwt_bytes.ml" 148 5196 5207
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_bytes.ml" 148 5196 5208 "src/unix/lwt_bytes.ml" 152 5313 5398
+)
+"src/unix/lwt_bytes.ml" 148 5196 5208 "src/unix/lwt_bytes.ml" 148 5196 5211
+type(
+  t
+)
+ident(
+  def buf "src/unix/lwt_bytes.ml" 148 5196 5212 "src/unix/lwt_bytes.ml" 152 5313 5398
+)
+"src/unix/lwt_bytes.ml" 148 5196 5212 "src/unix/lwt_bytes.ml" 148 5196 5215
+type(
+  int
+)
+ident(
+  def pos "src/unix/lwt_bytes.ml" 148 5196 5216 "src/unix/lwt_bytes.ml" 152 5313 5398
+)
+"src/unix/lwt_bytes.ml" 148 5196 5216 "src/unix/lwt_bytes.ml" 148 5196 5219
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 148 5196 5220 "src/unix/lwt_bytes.ml" 152 5313 5398
+)
+"src/unix/lwt_bytes.ml" 148 5196 5220 "src/unix/lwt_bytes.ml" 148 5196 5225
+type(
+  Unix.msg_flag list
+)
+ident(
+  def flags "src/unix/lwt_bytes.ml" 149 5228 5230 "src/unix/lwt_bytes.ml" 152 5313 5398
+)
+"src/unix/lwt_bytes.ml" 149 5228 5233 "src/unix/lwt_bytes.ml" 149 5228 5236
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 148 5196 5212 "src/unix/lwt_bytes.ml" 148 5196 5215
+)
+"src/unix/lwt_bytes.ml" 149 5228 5237 "src/unix/lwt_bytes.ml" 149 5228 5238
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 149 5228 5239 "src/unix/lwt_bytes.ml" 149 5228 5240
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 149 5228 5233 "src/unix/lwt_bytes.ml" 149 5228 5240
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 149 5228 5241 "src/unix/lwt_bytes.ml" 149 5228 5243
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 149 5228 5244 "src/unix/lwt_bytes.ml" 149 5228 5247
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 148 5196 5216 "src/unix/lwt_bytes.ml" 148 5196 5219
+)
+"src/unix/lwt_bytes.ml" 149 5228 5248 "src/unix/lwt_bytes.ml" 149 5228 5249
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 149 5228 5250 "src/unix/lwt_bytes.ml" 149 5228 5251
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 149 5228 5244 "src/unix/lwt_bytes.ml" 149 5228 5251
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 149 5228 5252 "src/unix/lwt_bytes.ml" 149 5228 5254
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 149 5228 5255 "src/unix/lwt_bytes.ml" 149 5228 5258
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 148 5196 5212 "src/unix/lwt_bytes.ml" 148 5196 5215
+)
+"src/unix/lwt_bytes.ml" 149 5228 5259 "src/unix/lwt_bytes.ml" 149 5228 5260
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 149 5228 5261 "src/unix/lwt_bytes.ml" 149 5228 5267
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 149 5228 5268 "src/unix/lwt_bytes.ml" 149 5228 5271
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 148 5196 5208 "src/unix/lwt_bytes.ml" 148 5196 5211
+)
+"src/unix/lwt_bytes.ml" 149 5228 5261 "src/unix/lwt_bytes.ml" 149 5228 5271
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 149 5228 5272 "src/unix/lwt_bytes.ml" 149 5228 5273
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 149 5228 5274 "src/unix/lwt_bytes.ml" 149 5228 5277
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 148 5196 5216 "src/unix/lwt_bytes.ml" 148 5196 5219
+)
+"src/unix/lwt_bytes.ml" 149 5228 5261 "src/unix/lwt_bytes.ml" 149 5228 5277
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 149 5228 5255 "src/unix/lwt_bytes.ml" 149 5228 5277
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 149 5228 5244 "src/unix/lwt_bytes.ml" 149 5228 5277
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 149 5228 5233 "src/unix/lwt_bytes.ml" 149 5228 5277
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 150 5283 5287 "src/unix/lwt_bytes.ml" 150 5283 5298
+type(
+  string -> int Lwt.t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 150 5283 5299 "src/unix/lwt_bytes.ml" 150 5283 5305
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 150 5283 5287 "src/unix/lwt_bytes.ml" 150 5283 5305
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 152 5313 5317 "src/unix/lwt_bytes.ml" 152 5313 5329
+type(
+  Lwt_unix.io_event -> Lwt_unix.file_descr -> (unit -> int) -> int Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.wrap_syscall
+)
+"src/unix/lwt_bytes.ml" 152 5313 5330 "src/unix/lwt_bytes.ml" 152 5313 5334
+type(
+  Lwt_unix.io_event
+)
+"src/unix/lwt_bytes.ml" 152 5313 5335 "src/unix/lwt_bytes.ml" 152 5313 5337
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 148 5196 5205 "src/unix/lwt_bytes.ml" 148 5196 5207
+)
+"src/unix/lwt_bytes.ml" 152 5313 5343 "src/unix/lwt_bytes.ml" 152 5313 5345
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 152 5313 5349 "src/unix/lwt_bytes.ml" 152 5313 5358
+type(
+  Unix.file_descr -> t -> int -> int -> Unix.msg_flag list -> int
+)
+ident(
+  int_ref stub_recv "src/unix/lwt_bytes.ml" 146 5086 5086 "src/unix/lwt_bytes.ml" 146 5086 5194
+)
+"src/unix/lwt_bytes.ml" 152 5313 5360 "src/unix/lwt_bytes.ml" 152 5313 5375
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/unix/lwt_bytes.ml" 152 5313 5376 "src/unix/lwt_bytes.ml" 152 5313 5378
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 148 5196 5205 "src/unix/lwt_bytes.ml" 148 5196 5207
+)
+"src/unix/lwt_bytes.ml" 152 5313 5359 "src/unix/lwt_bytes.ml" 152 5313 5379
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/unix/lwt_bytes.ml" 152 5313 5380 "src/unix/lwt_bytes.ml" 152 5313 5383
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 148 5196 5208 "src/unix/lwt_bytes.ml" 148 5196 5211
+)
+"src/unix/lwt_bytes.ml" 152 5313 5384 "src/unix/lwt_bytes.ml" 152 5313 5387
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 148 5196 5212 "src/unix/lwt_bytes.ml" 148 5196 5215
+)
+"src/unix/lwt_bytes.ml" 152 5313 5388 "src/unix/lwt_bytes.ml" 152 5313 5391
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 148 5196 5216 "src/unix/lwt_bytes.ml" 148 5196 5219
+)
+"src/unix/lwt_bytes.ml" 152 5313 5392 "src/unix/lwt_bytes.ml" 152 5313 5397
+type(
+  Unix.msg_flag list
+)
+ident(
+  int_ref flags "src/unix/lwt_bytes.ml" 148 5196 5220 "src/unix/lwt_bytes.ml" 148 5196 5225
+)
+"src/unix/lwt_bytes.ml" 152 5313 5349 "src/unix/lwt_bytes.ml" 152 5313 5397
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 152 5313 5338 "src/unix/lwt_bytes.ml" 152 5313 5398
+type(
+  unit -> int
+)
+"src/unix/lwt_bytes.ml" 152 5313 5317 "src/unix/lwt_bytes.ml" 152 5313 5398
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 149 5228 5230 "src/unix/lwt_bytes.ml" 152 5313 5398
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 156 5510 5514 "src/unix/lwt_bytes.ml" 156 5510 5518
+type(
+  Lwt_unix.file_descr -> t -> int -> int -> Unix.msg_flag list -> int Lwt.t
+)
+ident(
+  def send "src/unix/lwt_bytes.ml" 162 5715 5715 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 156 5510 5519 "src/unix/lwt_bytes.ml" 156 5510 5521
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_bytes.ml" 156 5510 5522 "src/unix/lwt_bytes.ml" 160 5627 5713
+)
+"src/unix/lwt_bytes.ml" 156 5510 5522 "src/unix/lwt_bytes.ml" 156 5510 5525
+type(
+  t
+)
+ident(
+  def buf "src/unix/lwt_bytes.ml" 156 5510 5526 "src/unix/lwt_bytes.ml" 160 5627 5713
+)
+"src/unix/lwt_bytes.ml" 156 5510 5526 "src/unix/lwt_bytes.ml" 156 5510 5529
+type(
+  int
+)
+ident(
+  def pos "src/unix/lwt_bytes.ml" 156 5510 5530 "src/unix/lwt_bytes.ml" 160 5627 5713
+)
+"src/unix/lwt_bytes.ml" 156 5510 5530 "src/unix/lwt_bytes.ml" 156 5510 5533
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 156 5510 5534 "src/unix/lwt_bytes.ml" 160 5627 5713
+)
+"src/unix/lwt_bytes.ml" 156 5510 5534 "src/unix/lwt_bytes.ml" 156 5510 5539
+type(
+  Unix.msg_flag list
+)
+ident(
+  def flags "src/unix/lwt_bytes.ml" 157 5542 5544 "src/unix/lwt_bytes.ml" 160 5627 5713
+)
+"src/unix/lwt_bytes.ml" 157 5542 5547 "src/unix/lwt_bytes.ml" 157 5542 5550
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 156 5510 5526 "src/unix/lwt_bytes.ml" 156 5510 5529
+)
+"src/unix/lwt_bytes.ml" 157 5542 5551 "src/unix/lwt_bytes.ml" 157 5542 5552
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 157 5542 5553 "src/unix/lwt_bytes.ml" 157 5542 5554
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 157 5542 5547 "src/unix/lwt_bytes.ml" 157 5542 5554
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 157 5542 5555 "src/unix/lwt_bytes.ml" 157 5542 5557
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 157 5542 5558 "src/unix/lwt_bytes.ml" 157 5542 5561
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 156 5510 5530 "src/unix/lwt_bytes.ml" 156 5510 5533
+)
+"src/unix/lwt_bytes.ml" 157 5542 5562 "src/unix/lwt_bytes.ml" 157 5542 5563
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 157 5542 5564 "src/unix/lwt_bytes.ml" 157 5542 5565
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 157 5542 5558 "src/unix/lwt_bytes.ml" 157 5542 5565
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 157 5542 5566 "src/unix/lwt_bytes.ml" 157 5542 5568
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 157 5542 5569 "src/unix/lwt_bytes.ml" 157 5542 5572
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 156 5510 5526 "src/unix/lwt_bytes.ml" 156 5510 5529
+)
+"src/unix/lwt_bytes.ml" 157 5542 5573 "src/unix/lwt_bytes.ml" 157 5542 5574
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 157 5542 5575 "src/unix/lwt_bytes.ml" 157 5542 5581
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 157 5542 5582 "src/unix/lwt_bytes.ml" 157 5542 5585
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 156 5510 5522 "src/unix/lwt_bytes.ml" 156 5510 5525
+)
+"src/unix/lwt_bytes.ml" 157 5542 5575 "src/unix/lwt_bytes.ml" 157 5542 5585
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 157 5542 5586 "src/unix/lwt_bytes.ml" 157 5542 5587
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 157 5542 5588 "src/unix/lwt_bytes.ml" 157 5542 5591
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 156 5510 5530 "src/unix/lwt_bytes.ml" 156 5510 5533
+)
+"src/unix/lwt_bytes.ml" 157 5542 5575 "src/unix/lwt_bytes.ml" 157 5542 5591
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 157 5542 5569 "src/unix/lwt_bytes.ml" 157 5542 5591
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 157 5542 5558 "src/unix/lwt_bytes.ml" 157 5542 5591
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 157 5542 5547 "src/unix/lwt_bytes.ml" 157 5542 5591
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 158 5597 5601 "src/unix/lwt_bytes.ml" 158 5597 5612
+type(
+  string -> int Lwt.t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 158 5597 5613 "src/unix/lwt_bytes.ml" 158 5597 5619
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 158 5597 5601 "src/unix/lwt_bytes.ml" 158 5597 5619
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 160 5627 5631 "src/unix/lwt_bytes.ml" 160 5627 5643
+type(
+  Lwt_unix.io_event -> Lwt_unix.file_descr -> (unit -> int) -> int Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.wrap_syscall
+)
+"src/unix/lwt_bytes.ml" 160 5627 5644 "src/unix/lwt_bytes.ml" 160 5627 5649
+type(
+  Lwt_unix.io_event
+)
+"src/unix/lwt_bytes.ml" 160 5627 5650 "src/unix/lwt_bytes.ml" 160 5627 5652
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 156 5510 5519 "src/unix/lwt_bytes.ml" 156 5510 5521
+)
+"src/unix/lwt_bytes.ml" 160 5627 5658 "src/unix/lwt_bytes.ml" 160 5627 5660
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 160 5627 5664 "src/unix/lwt_bytes.ml" 160 5627 5673
+type(
+  Unix.file_descr -> t -> int -> int -> Unix.msg_flag list -> int
+)
+ident(
+  int_ref stub_send "src/unix/lwt_bytes.ml" 154 5400 5400 "src/unix/lwt_bytes.ml" 154 5400 5508
+)
+"src/unix/lwt_bytes.ml" 160 5627 5675 "src/unix/lwt_bytes.ml" 160 5627 5690
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/unix/lwt_bytes.ml" 160 5627 5691 "src/unix/lwt_bytes.ml" 160 5627 5693
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 156 5510 5519 "src/unix/lwt_bytes.ml" 156 5510 5521
+)
+"src/unix/lwt_bytes.ml" 160 5627 5674 "src/unix/lwt_bytes.ml" 160 5627 5694
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/unix/lwt_bytes.ml" 160 5627 5695 "src/unix/lwt_bytes.ml" 160 5627 5698
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 156 5510 5522 "src/unix/lwt_bytes.ml" 156 5510 5525
+)
+"src/unix/lwt_bytes.ml" 160 5627 5699 "src/unix/lwt_bytes.ml" 160 5627 5702
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 156 5510 5526 "src/unix/lwt_bytes.ml" 156 5510 5529
+)
+"src/unix/lwt_bytes.ml" 160 5627 5703 "src/unix/lwt_bytes.ml" 160 5627 5706
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 156 5510 5530 "src/unix/lwt_bytes.ml" 156 5510 5533
+)
+"src/unix/lwt_bytes.ml" 160 5627 5707 "src/unix/lwt_bytes.ml" 160 5627 5712
+type(
+  Unix.msg_flag list
+)
+ident(
+  int_ref flags "src/unix/lwt_bytes.ml" 156 5510 5534 "src/unix/lwt_bytes.ml" 156 5510 5539
+)
+"src/unix/lwt_bytes.ml" 160 5627 5664 "src/unix/lwt_bytes.ml" 160 5627 5712
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 160 5627 5653 "src/unix/lwt_bytes.ml" 160 5627 5713
+type(
+  unit -> int
+)
+"src/unix/lwt_bytes.ml" 160 5627 5631 "src/unix/lwt_bytes.ml" 160 5627 5713
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 157 5542 5544 "src/unix/lwt_bytes.ml" 160 5627 5713
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 168 5795 5799 "src/unix/lwt_bytes.ml" 168 5795 5808
+type(
+  buffer:t -> offset:int -> length:int -> io_vector
+)
+ident(
+  def io_vector "src/unix/lwt_bytes.ml" 174 5909 5909 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 168 5795 5810 "src/unix/lwt_bytes.ml" 168 5795 5816
+type(
+  t
+)
+ident(
+  def buffer "src/unix/lwt_bytes.ml" 168 5795 5817 "src/unix/lwt_bytes.ml" 172 5906 5907
+)
+"src/unix/lwt_bytes.ml" 168 5795 5818 "src/unix/lwt_bytes.ml" 168 5795 5824
+type(
+  int
+)
+ident(
+  def offset "src/unix/lwt_bytes.ml" 168 5795 5825 "src/unix/lwt_bytes.ml" 172 5906 5907
+)
+"src/unix/lwt_bytes.ml" 168 5795 5826 "src/unix/lwt_bytes.ml" 168 5795 5832
+type(
+  int
+)
+ident(
+  def length "src/unix/lwt_bytes.ml" 168 5795 5835 "src/unix/lwt_bytes.ml" 172 5906 5907
+)
+"src/unix/lwt_bytes.ml" 169 5837 5852 "src/unix/lwt_bytes.ml" 169 5837 5858
+type(
+  t
+)
+ident(
+  int_ref buffer "src/unix/lwt_bytes.ml" 168 5795 5810 "src/unix/lwt_bytes.ml" 168 5795 5816
+)
+"src/unix/lwt_bytes.ml" 170 5860 5875 "src/unix/lwt_bytes.ml" 170 5860 5881
+type(
+  int
+)
+ident(
+  int_ref offset "src/unix/lwt_bytes.ml" 168 5795 5818 "src/unix/lwt_bytes.ml" 168 5795 5824
+)
+"src/unix/lwt_bytes.ml" 171 5883 5898 "src/unix/lwt_bytes.ml" 171 5883 5904
+type(
+  int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 168 5795 5826 "src/unix/lwt_bytes.ml" 168 5795 5832
+)
+"src/unix/lwt_bytes.ml" 168 5795 5835 "src/unix/lwt_bytes.ml" 172 5906 5907
+type(
+  io_vector
+)
+"src/unix/lwt_bytes.ml" 174 5909 5913 "src/unix/lwt_bytes.ml" 174 5909 5929
+type(
+  string -> io_vector list -> unit
+)
+ident(
+  def check_io_vectors "src/unix/lwt_bytes.ml" 183 6152 6152 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 174 5909 5930 "src/unix/lwt_bytes.ml" 174 5909 5939
+type(
+  string
+)
+ident(
+  def func_name "src/unix/lwt_bytes.ml" 174 5909 5940 "src/unix/lwt_bytes.ml" 181 6142 6150
+)
+"src/unix/lwt_bytes.ml" 174 5909 5940 "src/unix/lwt_bytes.ml" 174 5909 5944
+type(
+  io_vector list
+)
+ident(
+  def iovs "src/unix/lwt_bytes.ml" 175 5947 5949 "src/unix/lwt_bytes.ml" 181 6142 6150
+)
+"src/unix/lwt_bytes.ml" 175 5947 5949 "src/unix/lwt_bytes.ml" 175 5947 5958
+type(
+  (io_vector -> unit) -> io_vector list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/unix/lwt_bytes.ml" 176 5959 5968 "src/unix/lwt_bytes.ml" 176 5959 5971
+type(
+  io_vector
+)
+ident(
+  def iov "src/unix/lwt_bytes.ml" 177 5975 5982 "src/unix/lwt_bytes.ml" 180 6108 6140
+)
+"src/unix/lwt_bytes.ml" 177 5975 5985 "src/unix/lwt_bytes.ml" 177 5975 5988
+type(
+  io_vector
+)
+ident(
+  int_ref iov "src/unix/lwt_bytes.ml" 176 5959 5968 "src/unix/lwt_bytes.ml" 176 5959 5971
+)
+"src/unix/lwt_bytes.ml" 177 5975 5985 "src/unix/lwt_bytes.ml" 177 5975 5999
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 177 5975 6000 "src/unix/lwt_bytes.ml" 177 5975 6001
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 177 5975 6002 "src/unix/lwt_bytes.ml" 177 5975 6003
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 177 5975 5985 "src/unix/lwt_bytes.ml" 177 5975 6003
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 178 6004 6013 "src/unix/lwt_bytes.ml" 178 6004 6015
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 178 6004 6016 "src/unix/lwt_bytes.ml" 178 6004 6019
+type(
+  io_vector
+)
+ident(
+  int_ref iov "src/unix/lwt_bytes.ml" 176 5959 5968 "src/unix/lwt_bytes.ml" 176 5959 5971
+)
+"src/unix/lwt_bytes.ml" 178 6004 6016 "src/unix/lwt_bytes.ml" 178 6004 6030
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 178 6004 6031 "src/unix/lwt_bytes.ml" 178 6004 6032
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 178 6004 6033 "src/unix/lwt_bytes.ml" 178 6004 6034
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 178 6004 6016 "src/unix/lwt_bytes.ml" 178 6004 6034
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 179 6035 6044 "src/unix/lwt_bytes.ml" 179 6035 6046
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 179 6035 6047 "src/unix/lwt_bytes.ml" 179 6035 6050
+type(
+  io_vector
+)
+ident(
+  int_ref iov "src/unix/lwt_bytes.ml" 176 5959 5968 "src/unix/lwt_bytes.ml" 176 5959 5971
+)
+"src/unix/lwt_bytes.ml" 179 6035 6047 "src/unix/lwt_bytes.ml" 179 6035 6061
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 179 6035 6062 "src/unix/lwt_bytes.ml" 179 6035 6063
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 179 6035 6064 "src/unix/lwt_bytes.ml" 179 6035 6070
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 179 6035 6071 "src/unix/lwt_bytes.ml" 179 6035 6074
+type(
+  io_vector
+)
+ident(
+  int_ref iov "src/unix/lwt_bytes.ml" 176 5959 5968 "src/unix/lwt_bytes.ml" 176 5959 5971
+)
+"src/unix/lwt_bytes.ml" 179 6035 6071 "src/unix/lwt_bytes.ml" 179 6035 6085
+type(
+  t
+)
+"src/unix/lwt_bytes.ml" 179 6035 6064 "src/unix/lwt_bytes.ml" 179 6035 6085
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 179 6035 6086 "src/unix/lwt_bytes.ml" 179 6035 6087
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 179 6035 6088 "src/unix/lwt_bytes.ml" 179 6035 6091
+type(
+  io_vector
+)
+ident(
+  int_ref iov "src/unix/lwt_bytes.ml" 176 5959 5968 "src/unix/lwt_bytes.ml" 176 5959 5971
+)
+"src/unix/lwt_bytes.ml" 179 6035 6088 "src/unix/lwt_bytes.ml" 179 6035 6102
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 179 6035 6064 "src/unix/lwt_bytes.ml" 179 6035 6102
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 179 6035 6047 "src/unix/lwt_bytes.ml" 179 6035 6102
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 178 6004 6016 "src/unix/lwt_bytes.ml" 179 6035 6102
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 177 5975 5985 "src/unix/lwt_bytes.ml" 179 6035 6102
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 180 6108 6119 "src/unix/lwt_bytes.ml" 180 6108 6130
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 180 6108 6131 "src/unix/lwt_bytes.ml" 180 6108 6140
+type(
+  string
+)
+ident(
+  int_ref func_name "src/unix/lwt_bytes.ml" 174 5909 5930 "src/unix/lwt_bytes.ml" 174 5909 5939
+)
+"src/unix/lwt_bytes.ml" 180 6108 6119 "src/unix/lwt_bytes.ml" 180 6108 6140
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 177 5975 5982 "src/unix/lwt_bytes.ml" 180 6108 6140
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 176 5959 5963 "src/unix/lwt_bytes.ml" 180 6108 6141
+type(
+  io_vector -> unit
+)
+"src/unix/lwt_bytes.ml" 181 6142 6146 "src/unix/lwt_bytes.ml" 181 6142 6150
+type(
+  io_vector list
+)
+ident(
+  int_ref iovs "src/unix/lwt_bytes.ml" 174 5909 5940 "src/unix/lwt_bytes.ml" 174 5909 5944
+)
+"src/unix/lwt_bytes.ml" 175 5947 5949 "src/unix/lwt_bytes.ml" 181 6142 6150
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 185 6277 6281 "src/unix/lwt_bytes.ml" 185 6277 6289
+type(
+  socket:Lwt_unix.file_descr ->
+  io_vectors:io_vector list -> (int * Unix.file_descr list) Lwt.t
+)
+ident(
+  def recv_msg "src/unix/lwt_bytes.ml" 192 6503 6503 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 185 6277 6291 "src/unix/lwt_bytes.ml" 185 6277 6297
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def socket "src/unix/lwt_bytes.ml" 185 6277 6298 "src/unix/lwt_bytes.ml" 190 6437 6501
+)
+"src/unix/lwt_bytes.ml" 185 6277 6299 "src/unix/lwt_bytes.ml" 185 6277 6309
+type(
+  io_vector list
+)
+ident(
+  def io_vectors "src/unix/lwt_bytes.ml" 186 6312 6314 "src/unix/lwt_bytes.ml" 190 6437 6501
+)
+"src/unix/lwt_bytes.ml" 186 6312 6314 "src/unix/lwt_bytes.ml" 186 6312 6330
+type(
+  string -> io_vector list -> unit
+)
+ident(
+  int_ref check_io_vectors "src/unix/lwt_bytes.ml" 174 5909 5913 "src/unix/lwt_bytes.ml" 174 5909 5929
+)
+"src/unix/lwt_bytes.ml" 186 6312 6331 "src/unix/lwt_bytes.ml" 186 6312 6341
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 186 6312 6342 "src/unix/lwt_bytes.ml" 186 6312 6352
+type(
+  io_vector list
+)
+ident(
+  int_ref io_vectors "src/unix/lwt_bytes.ml" 185 6277 6299 "src/unix/lwt_bytes.ml" 185 6277 6309
+)
+"src/unix/lwt_bytes.ml" 186 6312 6314 "src/unix/lwt_bytes.ml" 186 6312 6352
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 187 6354 6360 "src/unix/lwt_bytes.ml" 187 6354 6366
+type(
+  int
+)
+ident(
+  def n_iovs "src/unix/lwt_bytes.ml" 188 6395 6397 "src/unix/lwt_bytes.ml" 190 6437 6501
+)
+"src/unix/lwt_bytes.ml" 187 6354 6369 "src/unix/lwt_bytes.ml" 187 6354 6380
+type(
+  io_vector list -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/unix/lwt_bytes.ml" 187 6354 6381 "src/unix/lwt_bytes.ml" 187 6354 6391
+type(
+  io_vector list
+)
+ident(
+  int_ref io_vectors "src/unix/lwt_bytes.ml" 185 6277 6299 "src/unix/lwt_bytes.ml" 185 6277 6309
+)
+"src/unix/lwt_bytes.ml" 187 6354 6369 "src/unix/lwt_bytes.ml" 187 6354 6391
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 188 6395 6397 "src/unix/lwt_bytes.ml" 188 6395 6409
+type(
+  Lwt_unix.io_event ->
+  Lwt_unix.file_descr ->
+  (unit -> int * Unix.file_descr list) -> (int * Unix.file_descr list) Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.wrap_syscall
+)
+"src/unix/lwt_bytes.ml" 188 6395 6410 "src/unix/lwt_bytes.ml" 188 6395 6414
+type(
+  Lwt_unix.io_event
+)
+"src/unix/lwt_bytes.ml" 188 6395 6415 "src/unix/lwt_bytes.ml" 188 6395 6421
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref socket "src/unix/lwt_bytes.ml" 185 6277 6291 "src/unix/lwt_bytes.ml" 185 6277 6297
+)
+"src/unix/lwt_bytes.ml" 189 6422 6431 "src/unix/lwt_bytes.ml" 189 6422 6433
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 190 6437 6444 "src/unix/lwt_bytes.ml" 190 6437 6457
+type(
+  Unix.file_descr -> int -> io_vector list -> int * Unix.file_descr list
+)
+ident(
+  int_ref stub_recv_msg "src/unix/lwt_bytes.ml" 183 6152 6152 "src/unix/lwt_bytes.ml" 183 6152 6275
+)
+"src/unix/lwt_bytes.ml" 190 6437 6459 "src/unix/lwt_bytes.ml" 190 6437 6474
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/unix/lwt_bytes.ml" 190 6437 6475 "src/unix/lwt_bytes.ml" 190 6437 6481
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref socket "src/unix/lwt_bytes.ml" 185 6277 6291 "src/unix/lwt_bytes.ml" 185 6277 6297
+)
+"src/unix/lwt_bytes.ml" 190 6437 6458 "src/unix/lwt_bytes.ml" 190 6437 6482
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/unix/lwt_bytes.ml" 190 6437 6483 "src/unix/lwt_bytes.ml" 190 6437 6489
+type(
+  int
+)
+ident(
+  int_ref n_iovs "src/unix/lwt_bytes.ml" 187 6354 6360 "src/unix/lwt_bytes.ml" 187 6354 6366
+)
+"src/unix/lwt_bytes.ml" 190 6437 6490 "src/unix/lwt_bytes.ml" 190 6437 6500
+type(
+  io_vector list
+)
+ident(
+  int_ref io_vectors "src/unix/lwt_bytes.ml" 185 6277 6299 "src/unix/lwt_bytes.ml" 185 6277 6309
+)
+"src/unix/lwt_bytes.ml" 190 6437 6444 "src/unix/lwt_bytes.ml" 190 6437 6500
+type(
+  int * Unix.file_descr list
+)
+"src/unix/lwt_bytes.ml" 189 6422 6426 "src/unix/lwt_bytes.ml" 190 6437 6501
+type(
+  unit -> int * Unix.file_descr list
+)
+"src/unix/lwt_bytes.ml" 188 6395 6397 "src/unix/lwt_bytes.ml" 190 6437 6501
+call(
+  tail
+)
+type(
+  (int * Unix.file_descr list) Lwt.t
+)
+"src/unix/lwt_bytes.ml" 187 6354 6356 "src/unix/lwt_bytes.ml" 190 6437 6501
+type(
+  (int * Unix.file_descr list) Lwt.t
+)
+"src/unix/lwt_bytes.ml" 186 6312 6314 "src/unix/lwt_bytes.ml" 190 6437 6501
+type(
+  (int * Unix.file_descr list) Lwt.t
+)
+"src/unix/lwt_bytes.ml" 194 6636 6640 "src/unix/lwt_bytes.ml" 194 6636 6648
+type(
+  socket:Lwt_unix.file_descr ->
+  io_vectors:io_vector list -> fds:Unix.file_descr list -> int Lwt.t
+)
+ident(
+  def send_msg "src/unix/lwt_bytes.ml" 201 6906 6906 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 194 6636 6650 "src/unix/lwt_bytes.ml" 194 6636 6656
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def socket "src/unix/lwt_bytes.ml" 194 6636 6657 "src/unix/lwt_bytes.ml" 199 6830 6904
+)
+"src/unix/lwt_bytes.ml" 194 6636 6658 "src/unix/lwt_bytes.ml" 194 6636 6668
+type(
+  io_vector list
+)
+ident(
+  def io_vectors "src/unix/lwt_bytes.ml" 194 6636 6669 "src/unix/lwt_bytes.ml" 199 6830 6904
+)
+"src/unix/lwt_bytes.ml" 194 6636 6670 "src/unix/lwt_bytes.ml" 194 6636 6673
+type(
+  Unix.file_descr list
+)
+ident(
+  def fds "src/unix/lwt_bytes.ml" 195 6676 6678 "src/unix/lwt_bytes.ml" 199 6830 6904
+)
+"src/unix/lwt_bytes.ml" 195 6676 6678 "src/unix/lwt_bytes.ml" 195 6676 6694
+type(
+  string -> io_vector list -> unit
+)
+ident(
+  int_ref check_io_vectors "src/unix/lwt_bytes.ml" 174 5909 5913 "src/unix/lwt_bytes.ml" 174 5909 5929
+)
+"src/unix/lwt_bytes.ml" 195 6676 6695 "src/unix/lwt_bytes.ml" 195 6676 6705
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 195 6676 6706 "src/unix/lwt_bytes.ml" 195 6676 6716
+type(
+  io_vector list
+)
+ident(
+  int_ref io_vectors "src/unix/lwt_bytes.ml" 194 6636 6658 "src/unix/lwt_bytes.ml" 194 6636 6668
+)
+"src/unix/lwt_bytes.ml" 195 6676 6678 "src/unix/lwt_bytes.ml" 195 6676 6716
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 196 6718 6724 "src/unix/lwt_bytes.ml" 196 6718 6730
+type(
+  int
+)
+ident(
+  def n_iovs "src/unix/lwt_bytes.ml" 197 6787 6789 "src/unix/lwt_bytes.ml" 199 6830 6904
+)
+"src/unix/lwt_bytes.ml" 196 6718 6733 "src/unix/lwt_bytes.ml" 196 6718 6744
+type(
+  io_vector list -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/unix/lwt_bytes.ml" 196 6718 6745 "src/unix/lwt_bytes.ml" 196 6718 6755
+type(
+  io_vector list
+)
+ident(
+  int_ref io_vectors "src/unix/lwt_bytes.ml" 194 6636 6658 "src/unix/lwt_bytes.ml" 194 6636 6668
+)
+"src/unix/lwt_bytes.ml" 196 6718 6733 "src/unix/lwt_bytes.ml" 196 6718 6755
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 196 6718 6760 "src/unix/lwt_bytes.ml" 196 6718 6765
+type(
+  int
+)
+ident(
+  def n_fds "src/unix/lwt_bytes.ml" 197 6787 6789 "src/unix/lwt_bytes.ml" 199 6830 6904
+)
+"src/unix/lwt_bytes.ml" 196 6718 6768 "src/unix/lwt_bytes.ml" 196 6718 6779
+type(
+  Unix.file_descr list -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/unix/lwt_bytes.ml" 196 6718 6780 "src/unix/lwt_bytes.ml" 196 6718 6783
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref fds "src/unix/lwt_bytes.ml" 194 6636 6670 "src/unix/lwt_bytes.ml" 194 6636 6673
+)
+"src/unix/lwt_bytes.ml" 196 6718 6768 "src/unix/lwt_bytes.ml" 196 6718 6783
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 197 6787 6789 "src/unix/lwt_bytes.ml" 197 6787 6801
+type(
+  Lwt_unix.io_event -> Lwt_unix.file_descr -> (unit -> int) -> int Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.wrap_syscall
+)
+"src/unix/lwt_bytes.ml" 197 6787 6802 "src/unix/lwt_bytes.ml" 197 6787 6807
+type(
+  Lwt_unix.io_event
+)
+"src/unix/lwt_bytes.ml" 197 6787 6808 "src/unix/lwt_bytes.ml" 197 6787 6814
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref socket "src/unix/lwt_bytes.ml" 194 6636 6650 "src/unix/lwt_bytes.ml" 194 6636 6656
+)
+"src/unix/lwt_bytes.ml" 198 6815 6824 "src/unix/lwt_bytes.ml" 198 6815 6826
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 199 6830 6837 "src/unix/lwt_bytes.ml" 199 6830 6850
+type(
+  Unix.file_descr ->
+  int -> io_vector list -> int -> Unix.file_descr list -> int
+)
+ident(
+  int_ref stub_send_msg "src/unix/lwt_bytes.ml" 192 6503 6503 "src/unix/lwt_bytes.ml" 192 6503 6634
+)
+"src/unix/lwt_bytes.ml" 199 6830 6852 "src/unix/lwt_bytes.ml" 199 6830 6867
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/unix/lwt_bytes.ml" 199 6830 6868 "src/unix/lwt_bytes.ml" 199 6830 6874
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref socket "src/unix/lwt_bytes.ml" 194 6636 6650 "src/unix/lwt_bytes.ml" 194 6636 6656
+)
+"src/unix/lwt_bytes.ml" 199 6830 6851 "src/unix/lwt_bytes.ml" 199 6830 6875
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/unix/lwt_bytes.ml" 199 6830 6876 "src/unix/lwt_bytes.ml" 199 6830 6882
+type(
+  int
+)
+ident(
+  int_ref n_iovs "src/unix/lwt_bytes.ml" 196 6718 6724 "src/unix/lwt_bytes.ml" 196 6718 6730
+)
+"src/unix/lwt_bytes.ml" 199 6830 6883 "src/unix/lwt_bytes.ml" 199 6830 6893
+type(
+  io_vector list
+)
+ident(
+  int_ref io_vectors "src/unix/lwt_bytes.ml" 194 6636 6658 "src/unix/lwt_bytes.ml" 194 6636 6668
+)
+"src/unix/lwt_bytes.ml" 199 6830 6894 "src/unix/lwt_bytes.ml" 199 6830 6899
+type(
+  int
+)
+ident(
+  int_ref n_fds "src/unix/lwt_bytes.ml" 196 6718 6760 "src/unix/lwt_bytes.ml" 196 6718 6765
+)
+"src/unix/lwt_bytes.ml" 199 6830 6900 "src/unix/lwt_bytes.ml" 199 6830 6903
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref fds "src/unix/lwt_bytes.ml" 194 6636 6670 "src/unix/lwt_bytes.ml" 194 6636 6673
+)
+"src/unix/lwt_bytes.ml" 199 6830 6837 "src/unix/lwt_bytes.ml" 199 6830 6903
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 198 6815 6819 "src/unix/lwt_bytes.ml" 199 6830 6904
+type(
+  unit -> int
+)
+"src/unix/lwt_bytes.ml" 197 6787 6789 "src/unix/lwt_bytes.ml" 199 6830 6904
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 196 6718 6720 "src/unix/lwt_bytes.ml" 199 6830 6904
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 195 6676 6678 "src/unix/lwt_bytes.ml" 199 6830 6904
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 203 7040 7044 "src/unix/lwt_bytes.ml" 203 7040 7052
+type(
+  Lwt_unix.file_descr ->
+  t -> int -> int -> Unix.msg_flag list -> (int * Unix.sockaddr) Lwt.t
+)
+ident(
+  def recvfrom "src/unix/lwt_bytes.ml" 209 7266 7266 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 203 7040 7053 "src/unix/lwt_bytes.ml" 203 7040 7055
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_bytes.ml" 203 7040 7056 "src/unix/lwt_bytes.ml" 207 7175 7264
+)
+"src/unix/lwt_bytes.ml" 203 7040 7056 "src/unix/lwt_bytes.ml" 203 7040 7059
+type(
+  t
+)
+ident(
+  def buf "src/unix/lwt_bytes.ml" 203 7040 7060 "src/unix/lwt_bytes.ml" 207 7175 7264
+)
+"src/unix/lwt_bytes.ml" 203 7040 7060 "src/unix/lwt_bytes.ml" 203 7040 7063
+type(
+  int
+)
+ident(
+  def pos "src/unix/lwt_bytes.ml" 203 7040 7064 "src/unix/lwt_bytes.ml" 207 7175 7264
+)
+"src/unix/lwt_bytes.ml" 203 7040 7064 "src/unix/lwt_bytes.ml" 203 7040 7067
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 203 7040 7068 "src/unix/lwt_bytes.ml" 207 7175 7264
+)
+"src/unix/lwt_bytes.ml" 203 7040 7068 "src/unix/lwt_bytes.ml" 203 7040 7073
+type(
+  Unix.msg_flag list
+)
+ident(
+  def flags "src/unix/lwt_bytes.ml" 204 7076 7078 "src/unix/lwt_bytes.ml" 207 7175 7264
+)
+"src/unix/lwt_bytes.ml" 204 7076 7081 "src/unix/lwt_bytes.ml" 204 7076 7084
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 203 7040 7060 "src/unix/lwt_bytes.ml" 203 7040 7063
+)
+"src/unix/lwt_bytes.ml" 204 7076 7085 "src/unix/lwt_bytes.ml" 204 7076 7086
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 204 7076 7087 "src/unix/lwt_bytes.ml" 204 7076 7088
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 204 7076 7081 "src/unix/lwt_bytes.ml" 204 7076 7088
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 204 7076 7089 "src/unix/lwt_bytes.ml" 204 7076 7091
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 204 7076 7092 "src/unix/lwt_bytes.ml" 204 7076 7095
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 203 7040 7064 "src/unix/lwt_bytes.ml" 203 7040 7067
+)
+"src/unix/lwt_bytes.ml" 204 7076 7096 "src/unix/lwt_bytes.ml" 204 7076 7097
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 204 7076 7098 "src/unix/lwt_bytes.ml" 204 7076 7099
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 204 7076 7092 "src/unix/lwt_bytes.ml" 204 7076 7099
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 204 7076 7100 "src/unix/lwt_bytes.ml" 204 7076 7102
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 204 7076 7103 "src/unix/lwt_bytes.ml" 204 7076 7106
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 203 7040 7060 "src/unix/lwt_bytes.ml" 203 7040 7063
+)
+"src/unix/lwt_bytes.ml" 204 7076 7107 "src/unix/lwt_bytes.ml" 204 7076 7108
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 204 7076 7109 "src/unix/lwt_bytes.ml" 204 7076 7115
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 204 7076 7116 "src/unix/lwt_bytes.ml" 204 7076 7119
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 203 7040 7056 "src/unix/lwt_bytes.ml" 203 7040 7059
+)
+"src/unix/lwt_bytes.ml" 204 7076 7109 "src/unix/lwt_bytes.ml" 204 7076 7119
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 204 7076 7120 "src/unix/lwt_bytes.ml" 204 7076 7121
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 204 7076 7122 "src/unix/lwt_bytes.ml" 204 7076 7125
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 203 7040 7064 "src/unix/lwt_bytes.ml" 203 7040 7067
+)
+"src/unix/lwt_bytes.ml" 204 7076 7109 "src/unix/lwt_bytes.ml" 204 7076 7125
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 204 7076 7103 "src/unix/lwt_bytes.ml" 204 7076 7125
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 204 7076 7092 "src/unix/lwt_bytes.ml" 204 7076 7125
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 204 7076 7081 "src/unix/lwt_bytes.ml" 204 7076 7125
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 205 7131 7135 "src/unix/lwt_bytes.ml" 205 7131 7146
+type(
+  string -> (int * Unix.sockaddr) Lwt.t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 205 7131 7147 "src/unix/lwt_bytes.ml" 205 7131 7167
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 205 7131 7135 "src/unix/lwt_bytes.ml" 205 7131 7167
+call(
+  tail
+)
+type(
+  (int * Unix.sockaddr) Lwt.t
+)
+"src/unix/lwt_bytes.ml" 207 7175 7179 "src/unix/lwt_bytes.ml" 207 7175 7191
+type(
+  Lwt_unix.io_event ->
+  Lwt_unix.file_descr ->
+  (unit -> int * Unix.sockaddr) -> (int * Unix.sockaddr) Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.wrap_syscall
+)
+"src/unix/lwt_bytes.ml" 207 7175 7192 "src/unix/lwt_bytes.ml" 207 7175 7196
+type(
+  Lwt_unix.io_event
+)
+"src/unix/lwt_bytes.ml" 207 7175 7197 "src/unix/lwt_bytes.ml" 207 7175 7199
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 203 7040 7053 "src/unix/lwt_bytes.ml" 203 7040 7055
+)
+"src/unix/lwt_bytes.ml" 207 7175 7205 "src/unix/lwt_bytes.ml" 207 7175 7207
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 207 7175 7211 "src/unix/lwt_bytes.ml" 207 7175 7224
+type(
+  Unix.file_descr ->
+  t -> int -> int -> Unix.msg_flag list -> int * Unix.sockaddr
+)
+ident(
+  int_ref stub_recvfrom "src/unix/lwt_bytes.ml" 201 6906 6906 "src/unix/lwt_bytes.ml" 201 6906 7038
+)
+"src/unix/lwt_bytes.ml" 207 7175 7226 "src/unix/lwt_bytes.ml" 207 7175 7241
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/unix/lwt_bytes.ml" 207 7175 7242 "src/unix/lwt_bytes.ml" 207 7175 7244
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 203 7040 7053 "src/unix/lwt_bytes.ml" 203 7040 7055
+)
+"src/unix/lwt_bytes.ml" 207 7175 7225 "src/unix/lwt_bytes.ml" 207 7175 7245
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/unix/lwt_bytes.ml" 207 7175 7246 "src/unix/lwt_bytes.ml" 207 7175 7249
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 203 7040 7056 "src/unix/lwt_bytes.ml" 203 7040 7059
+)
+"src/unix/lwt_bytes.ml" 207 7175 7250 "src/unix/lwt_bytes.ml" 207 7175 7253
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 203 7040 7060 "src/unix/lwt_bytes.ml" 203 7040 7063
+)
+"src/unix/lwt_bytes.ml" 207 7175 7254 "src/unix/lwt_bytes.ml" 207 7175 7257
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 203 7040 7064 "src/unix/lwt_bytes.ml" 203 7040 7067
+)
+"src/unix/lwt_bytes.ml" 207 7175 7258 "src/unix/lwt_bytes.ml" 207 7175 7263
+type(
+  Unix.msg_flag list
+)
+ident(
+  int_ref flags "src/unix/lwt_bytes.ml" 203 7040 7068 "src/unix/lwt_bytes.ml" 203 7040 7073
+)
+"src/unix/lwt_bytes.ml" 207 7175 7211 "src/unix/lwt_bytes.ml" 207 7175 7263
+type(
+  int * Unix.sockaddr
+)
+"src/unix/lwt_bytes.ml" 207 7175 7200 "src/unix/lwt_bytes.ml" 207 7175 7264
+type(
+  unit -> int * Unix.sockaddr
+)
+"src/unix/lwt_bytes.ml" 207 7175 7179 "src/unix/lwt_bytes.ml" 207 7175 7264
+call(
+  tail
+)
+type(
+  (int * Unix.sockaddr) Lwt.t
+)
+"src/unix/lwt_bytes.ml" 204 7076 7078 "src/unix/lwt_bytes.ml" 207 7175 7264
+type(
+  (int * Unix.sockaddr) Lwt.t
+)
+"src/unix/lwt_bytes.ml" 211 7426 7430 "src/unix/lwt_bytes.ml" 211 7426 7436
+type(
+  Lwt_unix.file_descr ->
+  t -> int -> int -> Unix.msg_flag list -> Unix.sockaddr -> int Lwt.t
+)
+ident(
+  def sendto "src/unix/lwt_bytes.ml" 221 7874 7874 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 211 7426 7437 "src/unix/lwt_bytes.ml" 211 7426 7439
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_bytes.ml" 211 7426 7440 "src/unix/lwt_bytes.ml" 215 7562 7655
+)
+"src/unix/lwt_bytes.ml" 211 7426 7440 "src/unix/lwt_bytes.ml" 211 7426 7443
+type(
+  t
+)
+ident(
+  def buf "src/unix/lwt_bytes.ml" 211 7426 7444 "src/unix/lwt_bytes.ml" 215 7562 7655
+)
+"src/unix/lwt_bytes.ml" 211 7426 7444 "src/unix/lwt_bytes.ml" 211 7426 7447
+type(
+  int
+)
+ident(
+  def pos "src/unix/lwt_bytes.ml" 211 7426 7448 "src/unix/lwt_bytes.ml" 215 7562 7655
+)
+"src/unix/lwt_bytes.ml" 211 7426 7448 "src/unix/lwt_bytes.ml" 211 7426 7451
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 211 7426 7452 "src/unix/lwt_bytes.ml" 215 7562 7655
+)
+"src/unix/lwt_bytes.ml" 211 7426 7452 "src/unix/lwt_bytes.ml" 211 7426 7457
+type(
+  Unix.msg_flag list
+)
+ident(
+  def flags "src/unix/lwt_bytes.ml" 211 7426 7458 "src/unix/lwt_bytes.ml" 215 7562 7655
+)
+"src/unix/lwt_bytes.ml" 211 7426 7458 "src/unix/lwt_bytes.ml" 211 7426 7462
+type(
+  Unix.sockaddr
+)
+ident(
+  def addr "src/unix/lwt_bytes.ml" 212 7465 7467 "src/unix/lwt_bytes.ml" 215 7562 7655
+)
+"src/unix/lwt_bytes.ml" 212 7465 7470 "src/unix/lwt_bytes.ml" 212 7465 7473
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 211 7426 7444 "src/unix/lwt_bytes.ml" 211 7426 7447
+)
+"src/unix/lwt_bytes.ml" 212 7465 7474 "src/unix/lwt_bytes.ml" 212 7465 7475
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 212 7465 7476 "src/unix/lwt_bytes.ml" 212 7465 7477
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 212 7465 7470 "src/unix/lwt_bytes.ml" 212 7465 7477
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 212 7465 7478 "src/unix/lwt_bytes.ml" 212 7465 7480
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 212 7465 7481 "src/unix/lwt_bytes.ml" 212 7465 7484
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 211 7426 7448 "src/unix/lwt_bytes.ml" 211 7426 7451
+)
+"src/unix/lwt_bytes.ml" 212 7465 7485 "src/unix/lwt_bytes.ml" 212 7465 7486
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 212 7465 7487 "src/unix/lwt_bytes.ml" 212 7465 7488
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 212 7465 7481 "src/unix/lwt_bytes.ml" 212 7465 7488
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 212 7465 7489 "src/unix/lwt_bytes.ml" 212 7465 7491
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 212 7465 7492 "src/unix/lwt_bytes.ml" 212 7465 7495
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 211 7426 7444 "src/unix/lwt_bytes.ml" 211 7426 7447
+)
+"src/unix/lwt_bytes.ml" 212 7465 7496 "src/unix/lwt_bytes.ml" 212 7465 7497
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 212 7465 7498 "src/unix/lwt_bytes.ml" 212 7465 7504
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 212 7465 7505 "src/unix/lwt_bytes.ml" 212 7465 7508
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 211 7426 7440 "src/unix/lwt_bytes.ml" 211 7426 7443
+)
+"src/unix/lwt_bytes.ml" 212 7465 7498 "src/unix/lwt_bytes.ml" 212 7465 7508
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 212 7465 7509 "src/unix/lwt_bytes.ml" 212 7465 7510
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 212 7465 7511 "src/unix/lwt_bytes.ml" 212 7465 7514
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 211 7426 7448 "src/unix/lwt_bytes.ml" 211 7426 7451
+)
+"src/unix/lwt_bytes.ml" 212 7465 7498 "src/unix/lwt_bytes.ml" 212 7465 7514
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 212 7465 7492 "src/unix/lwt_bytes.ml" 212 7465 7514
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 212 7465 7481 "src/unix/lwt_bytes.ml" 212 7465 7514
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 212 7465 7470 "src/unix/lwt_bytes.ml" 212 7465 7514
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 213 7520 7524 "src/unix/lwt_bytes.ml" 213 7520 7535
+type(
+  string -> int Lwt.t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 213 7520 7536 "src/unix/lwt_bytes.ml" 213 7520 7554
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 213 7520 7524 "src/unix/lwt_bytes.ml" 213 7520 7554
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 215 7562 7566 "src/unix/lwt_bytes.ml" 215 7562 7578
+type(
+  Lwt_unix.io_event -> Lwt_unix.file_descr -> (unit -> int) -> int Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.wrap_syscall
+)
+"src/unix/lwt_bytes.ml" 215 7562 7579 "src/unix/lwt_bytes.ml" 215 7562 7584
+type(
+  Lwt_unix.io_event
+)
+"src/unix/lwt_bytes.ml" 215 7562 7585 "src/unix/lwt_bytes.ml" 215 7562 7587
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 211 7426 7437 "src/unix/lwt_bytes.ml" 211 7426 7439
+)
+"src/unix/lwt_bytes.ml" 215 7562 7593 "src/unix/lwt_bytes.ml" 215 7562 7595
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 215 7562 7599 "src/unix/lwt_bytes.ml" 215 7562 7610
+type(
+  Unix.file_descr ->
+  t -> int -> int -> Unix.msg_flag list -> Unix.sockaddr -> int
+)
+ident(
+  int_ref stub_sendto "src/unix/lwt_bytes.ml" 209 7266 7266 "src/unix/lwt_bytes.ml" 209 7266 7424
+)
+"src/unix/lwt_bytes.ml" 215 7562 7612 "src/unix/lwt_bytes.ml" 215 7562 7627
+type(
+  Lwt_unix.file_descr -> Unix.file_descr
+)
+ident(
+  ext_ref Lwt_unix.unix_file_descr
+)
+"src/unix/lwt_bytes.ml" 215 7562 7628 "src/unix/lwt_bytes.ml" 215 7562 7630
+type(
+  Lwt_unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 211 7426 7437 "src/unix/lwt_bytes.ml" 211 7426 7439
+)
+"src/unix/lwt_bytes.ml" 215 7562 7611 "src/unix/lwt_bytes.ml" 215 7562 7631
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"src/unix/lwt_bytes.ml" 215 7562 7632 "src/unix/lwt_bytes.ml" 215 7562 7635
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 211 7426 7440 "src/unix/lwt_bytes.ml" 211 7426 7443
+)
+"src/unix/lwt_bytes.ml" 215 7562 7636 "src/unix/lwt_bytes.ml" 215 7562 7639
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 211 7426 7444 "src/unix/lwt_bytes.ml" 211 7426 7447
+)
+"src/unix/lwt_bytes.ml" 215 7562 7640 "src/unix/lwt_bytes.ml" 215 7562 7643
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 211 7426 7448 "src/unix/lwt_bytes.ml" 211 7426 7451
+)
+"src/unix/lwt_bytes.ml" 215 7562 7644 "src/unix/lwt_bytes.ml" 215 7562 7649
+type(
+  Unix.msg_flag list
+)
+ident(
+  int_ref flags "src/unix/lwt_bytes.ml" 211 7426 7452 "src/unix/lwt_bytes.ml" 211 7426 7457
+)
+"src/unix/lwt_bytes.ml" 215 7562 7650 "src/unix/lwt_bytes.ml" 215 7562 7654
+type(
+  Unix.sockaddr
+)
+ident(
+  int_ref addr "src/unix/lwt_bytes.ml" 211 7426 7458 "src/unix/lwt_bytes.ml" 211 7426 7462
+)
+"src/unix/lwt_bytes.ml" 215 7562 7599 "src/unix/lwt_bytes.ml" 215 7562 7654
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 215 7562 7588 "src/unix/lwt_bytes.ml" 215 7562 7655
+type(
+  unit -> int
+)
+"src/unix/lwt_bytes.ml" 215 7562 7566 "src/unix/lwt_bytes.ml" 215 7562 7655
+call(
+  tail
+)
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 212 7465 7467 "src/unix/lwt_bytes.ml" 215 7562 7655
+type(
+  int Lwt.t
+)
+"src/unix/lwt_bytes.ml" 221 7874 7878 "src/unix/lwt_bytes.ml" 221 7874 7886
+type(
+  fd:Unix.file_descr ->
+  ?pos:int64 ->
+  shared:bool ->
+  ?size:int ->
+  unit ->
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  def map_file "src/unix/lwt_bytes.ml" 224 7975 7975 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 221 7874 7888 "src/unix/lwt_bytes.ml" 221 7874 7890
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "src/unix/lwt_bytes.ml" 221 7874 7891 "src/unix/lwt_bytes.ml" 222 7922 7973
+)
+"src/unix/lwt_bytes.ml" 221 7874 7892 "src/unix/lwt_bytes.ml" 221 7874 7895
+type(
+  int64 option
+)
+ident(
+  def pos "src/unix/lwt_bytes.ml" 221 7874 7896 "src/unix/lwt_bytes.ml" 222 7922 7973
+)
+"src/unix/lwt_bytes.ml" 221 7874 7897 "src/unix/lwt_bytes.ml" 221 7874 7903
+type(
+  bool
+)
+ident(
+  def shared "src/unix/lwt_bytes.ml" 221 7874 7904 "src/unix/lwt_bytes.ml" 222 7922 7973
+)
+"src/unix/lwt_bytes.ml" 221 7874 7906 "src/unix/lwt_bytes.ml" 221 7874 7910
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 221 7874 7911 "src/unix/lwt_bytes.ml" 221 7874 7915
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "src/unix/lwt_bytes.ml" 221 7874 7911 "src/unix/lwt_bytes.ml" 221 7874 7915
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 221 7874 7917 "src/unix/lwt_bytes.ml" 221 7874 7919
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 222 7922 7924 "src/unix/lwt_bytes.ml" 222 7922 7939
+type(
+  Unix.file_descr ->
+  ?pos:int64 ->
+  (char, Bigarray.int8_unsigned_elt) Bigarray.kind ->
+  Bigarray.c_layout Bigarray.layout ->
+  bool ->
+  int ->
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+ident(
+  ext_ref Bigarray.Array1.map_file
+)
+"src/unix/lwt_bytes.ml" 222 7922 7940 "src/unix/lwt_bytes.ml" 222 7922 7942
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "src/unix/lwt_bytes.ml" 221 7874 7888 "src/unix/lwt_bytes.ml" 221 7874 7890
+)
+"src/unix/lwt_bytes.ml" 222 7922 7944 "src/unix/lwt_bytes.ml" 222 7922 7947
+type(
+  int64 option
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 221 7874 7892 "src/unix/lwt_bytes.ml" 221 7874 7895
+)
+"src/unix/lwt_bytes.ml" 222 7922 7948 "src/unix/lwt_bytes.ml" 222 7922 7952
+type(
+  (char, Bigarray.int8_unsigned_elt) Bigarray.kind
+)
+ident(
+  ext_ref Bigarray.char
+)
+"src/unix/lwt_bytes.ml" 222 7922 7953 "src/unix/lwt_bytes.ml" 222 7922 7961
+type(
+  Bigarray.c_layout Bigarray.layout
+)
+ident(
+  ext_ref Bigarray.c_layout
+)
+"src/unix/lwt_bytes.ml" 222 7922 7962 "src/unix/lwt_bytes.ml" 222 7922 7968
+type(
+  bool
+)
+ident(
+  int_ref shared "src/unix/lwt_bytes.ml" 221 7874 7897 "src/unix/lwt_bytes.ml" 221 7874 7903
+)
+"src/unix/lwt_bytes.ml" 222 7922 7969 "src/unix/lwt_bytes.ml" 222 7922 7973
+type(
+  int
+)
+ident(
+  int_ref size "src/unix/lwt_bytes.ml" 221 7874 7906 "src/unix/lwt_bytes.ml" 221 7874 7910
+)
+"src/unix/lwt_bytes.ml" 222 7922 7924 "src/unix/lwt_bytes.ml" 222 7922 7973
+call(
+  tail
+)
+type(
+  (char, Bigarray.int8_unsigned_elt, Bigarray.c_layout) Bigarray.Array1.t
+)
+"src/unix/lwt_bytes.ml" 235 8217 8221 "src/unix/lwt_bytes.ml" 235 8217 8228
+type(
+  t -> int -> int -> advice -> unit
+)
+ident(
+  def madvise "src/unix/lwt_bytes.ml" 241 8385 8385 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 235 8217 8229 "src/unix/lwt_bytes.ml" 235 8217 8232
+type(
+  t
+)
+ident(
+  def buf "src/unix/lwt_bytes.ml" 235 8217 8233 "src/unix/lwt_bytes.ml" 239 8348 8383
+)
+"src/unix/lwt_bytes.ml" 235 8217 8233 "src/unix/lwt_bytes.ml" 235 8217 8236
+type(
+  int
+)
+ident(
+  def pos "src/unix/lwt_bytes.ml" 235 8217 8237 "src/unix/lwt_bytes.ml" 239 8348 8383
+)
+"src/unix/lwt_bytes.ml" 235 8217 8237 "src/unix/lwt_bytes.ml" 235 8217 8240
+type(
+  int
+)
+ident(
+  def len "src/unix/lwt_bytes.ml" 235 8217 8241 "src/unix/lwt_bytes.ml" 239 8348 8383
+)
+"src/unix/lwt_bytes.ml" 235 8217 8241 "src/unix/lwt_bytes.ml" 235 8217 8247
+type(
+  advice
+)
+ident(
+  def advice "src/unix/lwt_bytes.ml" 236 8250 8252 "src/unix/lwt_bytes.ml" 239 8348 8383
+)
+"src/unix/lwt_bytes.ml" 236 8250 8255 "src/unix/lwt_bytes.ml" 236 8250 8258
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 235 8217 8233 "src/unix/lwt_bytes.ml" 235 8217 8236
+)
+"src/unix/lwt_bytes.ml" 236 8250 8259 "src/unix/lwt_bytes.ml" 236 8250 8260
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 236 8250 8261 "src/unix/lwt_bytes.ml" 236 8250 8262
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 236 8250 8255 "src/unix/lwt_bytes.ml" 236 8250 8262
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 236 8250 8263 "src/unix/lwt_bytes.ml" 236 8250 8265
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 236 8250 8266 "src/unix/lwt_bytes.ml" 236 8250 8269
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 235 8217 8237 "src/unix/lwt_bytes.ml" 235 8217 8240
+)
+"src/unix/lwt_bytes.ml" 236 8250 8270 "src/unix/lwt_bytes.ml" 236 8250 8271
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 236 8250 8272 "src/unix/lwt_bytes.ml" 236 8250 8273
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 236 8250 8266 "src/unix/lwt_bytes.ml" 236 8250 8273
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 236 8250 8274 "src/unix/lwt_bytes.ml" 236 8250 8276
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 236 8250 8277 "src/unix/lwt_bytes.ml" 236 8250 8280
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 235 8217 8233 "src/unix/lwt_bytes.ml" 235 8217 8236
+)
+"src/unix/lwt_bytes.ml" 236 8250 8281 "src/unix/lwt_bytes.ml" 236 8250 8282
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 236 8250 8283 "src/unix/lwt_bytes.ml" 236 8250 8289
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 236 8250 8290 "src/unix/lwt_bytes.ml" 236 8250 8293
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 235 8217 8229 "src/unix/lwt_bytes.ml" 235 8217 8232
+)
+"src/unix/lwt_bytes.ml" 236 8250 8283 "src/unix/lwt_bytes.ml" 236 8250 8293
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 236 8250 8294 "src/unix/lwt_bytes.ml" 236 8250 8295
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 236 8250 8296 "src/unix/lwt_bytes.ml" 236 8250 8299
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 235 8217 8237 "src/unix/lwt_bytes.ml" 235 8217 8240
+)
+"src/unix/lwt_bytes.ml" 236 8250 8283 "src/unix/lwt_bytes.ml" 236 8250 8299
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 236 8250 8277 "src/unix/lwt_bytes.ml" 236 8250 8299
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 236 8250 8266 "src/unix/lwt_bytes.ml" 236 8250 8299
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 236 8250 8255 "src/unix/lwt_bytes.ml" 236 8250 8299
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 237 8305 8309 "src/unix/lwt_bytes.ml" 237 8305 8320
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 237 8305 8321 "src/unix/lwt_bytes.ml" 237 8305 8340
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 237 8305 8309 "src/unix/lwt_bytes.ml" 237 8305 8340
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 239 8348 8352 "src/unix/lwt_bytes.ml" 239 8348 8364
+type(
+  t -> int -> int -> advice -> unit
+)
+ident(
+  int_ref stub_madvise "src/unix/lwt_bytes.ml" 233 8137 8137 "src/unix/lwt_bytes.ml" 233 8137 8215
+)
+"src/unix/lwt_bytes.ml" 239 8348 8365 "src/unix/lwt_bytes.ml" 239 8348 8368
+type(
+  t
+)
+ident(
+  int_ref buf "src/unix/lwt_bytes.ml" 235 8217 8229 "src/unix/lwt_bytes.ml" 235 8217 8232
+)
+"src/unix/lwt_bytes.ml" 239 8348 8369 "src/unix/lwt_bytes.ml" 239 8348 8372
+type(
+  int
+)
+ident(
+  int_ref pos "src/unix/lwt_bytes.ml" 235 8217 8233 "src/unix/lwt_bytes.ml" 235 8217 8236
+)
+"src/unix/lwt_bytes.ml" 239 8348 8373 "src/unix/lwt_bytes.ml" 239 8348 8376
+type(
+  int
+)
+ident(
+  int_ref len "src/unix/lwt_bytes.ml" 235 8217 8237 "src/unix/lwt_bytes.ml" 235 8217 8240
+)
+"src/unix/lwt_bytes.ml" 239 8348 8377 "src/unix/lwt_bytes.ml" 239 8348 8383
+type(
+  advice
+)
+ident(
+  int_ref advice "src/unix/lwt_bytes.ml" 235 8217 8241 "src/unix/lwt_bytes.ml" 235 8217 8247
+)
+"src/unix/lwt_bytes.ml" 239 8348 8352 "src/unix/lwt_bytes.ml" 239 8348 8383
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 236 8250 8252 "src/unix/lwt_bytes.ml" 239 8348 8383
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 243 8450 8454 "src/unix/lwt_bytes.ml" 243 8450 8463
+type(
+  int
+)
+ident(
+  def page_size "src/unix/lwt_bytes.ml" 245 8484 8484 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 243 8450 8466 "src/unix/lwt_bytes.ml" 243 8450 8479
+type(
+  unit -> int
+)
+ident(
+  int_ref get_page_size "src/unix/lwt_bytes.ml" 241 8385 8385 "src/unix/lwt_bytes.ml" 241 8385 8448
+)
+"src/unix/lwt_bytes.ml" 243 8450 8480 "src/unix/lwt_bytes.ml" 243 8450 8482
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 243 8450 8466 "src/unix/lwt_bytes.ml" 243 8450 8482
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 247 8568 8572 "src/unix/lwt_bytes.ml" 247 8568 8579
+type(
+  t -> int -> bool array -> unit
+)
+ident(
+  def mincore "src/unix/lwt_bytes.ml" 255 8845 8845 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 247 8568 8580 "src/unix/lwt_bytes.ml" 247 8568 8586
+type(
+  t
+)
+ident(
+  def buffer "src/unix/lwt_bytes.ml" 247 8568 8587 "src/unix/lwt_bytes.ml" 253 8772 8843
+)
+"src/unix/lwt_bytes.ml" 247 8568 8587 "src/unix/lwt_bytes.ml" 247 8568 8593
+type(
+  int
+)
+ident(
+  def offset "src/unix/lwt_bytes.ml" 247 8568 8594 "src/unix/lwt_bytes.ml" 253 8772 8843
+)
+"src/unix/lwt_bytes.ml" 247 8568 8594 "src/unix/lwt_bytes.ml" 247 8568 8600
+type(
+  bool array
+)
+ident(
+  def states "src/unix/lwt_bytes.ml" 248 8603 8605 "src/unix/lwt_bytes.ml" 253 8772 8843
+)
+"src/unix/lwt_bytes.ml" 248 8603 8609 "src/unix/lwt_bytes.ml" 248 8603 8615
+type(
+  int
+)
+ident(
+  int_ref offset "src/unix/lwt_bytes.ml" 247 8568 8587 "src/unix/lwt_bytes.ml" 247 8568 8593
+)
+"src/unix/lwt_bytes.ml" 248 8603 8616 "src/unix/lwt_bytes.ml" 248 8603 8619
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/unix/lwt_bytes.ml" 248 8603 8620 "src/unix/lwt_bytes.ml" 248 8603 8629
+type(
+  int
+)
+ident(
+  int_ref page_size "src/unix/lwt_bytes.ml" 243 8450 8454 "src/unix/lwt_bytes.ml" 243 8450 8463
+)
+"src/unix/lwt_bytes.ml" 248 8603 8609 "src/unix/lwt_bytes.ml" 248 8603 8629
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 248 8603 8630 "src/unix/lwt_bytes.ml" 248 8603 8632
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/unix/lwt_bytes.ml" 248 8603 8633 "src/unix/lwt_bytes.ml" 248 8603 8634
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 248 8603 8609 "src/unix/lwt_bytes.ml" 248 8603 8634
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 249 8635 8641 "src/unix/lwt_bytes.ml" 249 8635 8643
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 249 8635 8644 "src/unix/lwt_bytes.ml" 249 8635 8650
+type(
+  int
+)
+ident(
+  int_ref offset "src/unix/lwt_bytes.ml" 247 8568 8587 "src/unix/lwt_bytes.ml" 247 8568 8593
+)
+"src/unix/lwt_bytes.ml" 249 8635 8651 "src/unix/lwt_bytes.ml" 249 8635 8652
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 249 8635 8653 "src/unix/lwt_bytes.ml" 249 8635 8654
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 249 8635 8644 "src/unix/lwt_bytes.ml" 249 8635 8654
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 250 8655 8661 "src/unix/lwt_bytes.ml" 250 8655 8663
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 250 8655 8664 "src/unix/lwt_bytes.ml" 250 8655 8670
+type(
+  int
+)
+ident(
+  int_ref offset "src/unix/lwt_bytes.ml" 247 8568 8587 "src/unix/lwt_bytes.ml" 247 8568 8593
+)
+"src/unix/lwt_bytes.ml" 250 8655 8671 "src/unix/lwt_bytes.ml" 250 8655 8672
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/unix/lwt_bytes.ml" 250 8655 8673 "src/unix/lwt_bytes.ml" 250 8655 8679
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 250 8655 8680 "src/unix/lwt_bytes.ml" 250 8655 8686
+type(
+  t
+)
+ident(
+  int_ref buffer "src/unix/lwt_bytes.ml" 247 8568 8580 "src/unix/lwt_bytes.ml" 247 8568 8586
+)
+"src/unix/lwt_bytes.ml" 250 8655 8673 "src/unix/lwt_bytes.ml" 250 8655 8686
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 250 8655 8687 "src/unix/lwt_bytes.ml" 250 8655 8688
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 250 8655 8690 "src/unix/lwt_bytes.ml" 250 8655 8702
+type(
+  bool array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/unix/lwt_bytes.ml" 250 8655 8703 "src/unix/lwt_bytes.ml" 250 8655 8709
+type(
+  bool array
+)
+ident(
+  int_ref states "src/unix/lwt_bytes.ml" 247 8568 8594 "src/unix/lwt_bytes.ml" 247 8568 8600
+)
+"src/unix/lwt_bytes.ml" 250 8655 8690 "src/unix/lwt_bytes.ml" 250 8655 8709
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 250 8655 8710 "src/unix/lwt_bytes.ml" 250 8655 8711
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/unix/lwt_bytes.ml" 250 8655 8712 "src/unix/lwt_bytes.ml" 250 8655 8721
+type(
+  int
+)
+ident(
+  int_ref page_size "src/unix/lwt_bytes.ml" 243 8450 8454 "src/unix/lwt_bytes.ml" 243 8450 8463
+)
+"src/unix/lwt_bytes.ml" 250 8655 8689 "src/unix/lwt_bytes.ml" 250 8655 8722
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 250 8655 8673 "src/unix/lwt_bytes.ml" 250 8655 8722
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 250 8655 8664 "src/unix/lwt_bytes.ml" 250 8655 8722
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 249 8635 8644 "src/unix/lwt_bytes.ml" 250 8655 8722
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 248 8603 8608 "src/unix/lwt_bytes.ml" 250 8655 8723
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 251 8729 8733 "src/unix/lwt_bytes.ml" 251 8729 8744
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 251 8729 8745 "src/unix/lwt_bytes.ml" 251 8729 8764
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 251 8729 8733 "src/unix/lwt_bytes.ml" 251 8729 8764
+call(
+  tail
+)
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 253 8772 8776 "src/unix/lwt_bytes.ml" 253 8772 8788
+type(
+  t -> int -> int -> bool array -> unit
+)
+ident(
+  int_ref stub_mincore "src/unix/lwt_bytes.ml" 245 8484 8484 "src/unix/lwt_bytes.ml" 245 8484 8566
+)
+"src/unix/lwt_bytes.ml" 253 8772 8789 "src/unix/lwt_bytes.ml" 253 8772 8795
+type(
+  t
+)
+ident(
+  int_ref buffer "src/unix/lwt_bytes.ml" 247 8568 8580 "src/unix/lwt_bytes.ml" 247 8568 8586
+)
+"src/unix/lwt_bytes.ml" 253 8772 8796 "src/unix/lwt_bytes.ml" 253 8772 8802
+type(
+  int
+)
+ident(
+  int_ref offset "src/unix/lwt_bytes.ml" 247 8568 8587 "src/unix/lwt_bytes.ml" 247 8568 8593
+)
+"src/unix/lwt_bytes.ml" 253 8772 8804 "src/unix/lwt_bytes.ml" 253 8772 8816
+type(
+  bool array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/unix/lwt_bytes.ml" 253 8772 8817 "src/unix/lwt_bytes.ml" 253 8772 8823
+type(
+  bool array
+)
+ident(
+  int_ref states "src/unix/lwt_bytes.ml" 247 8568 8594 "src/unix/lwt_bytes.ml" 247 8568 8600
+)
+"src/unix/lwt_bytes.ml" 253 8772 8804 "src/unix/lwt_bytes.ml" 253 8772 8823
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 253 8772 8824 "src/unix/lwt_bytes.ml" 253 8772 8825
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/unix/lwt_bytes.ml" 253 8772 8826 "src/unix/lwt_bytes.ml" 253 8772 8835
+type(
+  int
+)
+ident(
+  int_ref page_size "src/unix/lwt_bytes.ml" 243 8450 8454 "src/unix/lwt_bytes.ml" 243 8450 8463
+)
+"src/unix/lwt_bytes.ml" 253 8772 8803 "src/unix/lwt_bytes.ml" 253 8772 8836
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 253 8772 8837 "src/unix/lwt_bytes.ml" 253 8772 8843
+type(
+  bool array
+)
+ident(
+  int_ref states "src/unix/lwt_bytes.ml" 247 8568 8594 "src/unix/lwt_bytes.ml" 247 8568 8600
+)
+"src/unix/lwt_bytes.ml" 253 8772 8776 "src/unix/lwt_bytes.ml" 253 8772 8843
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 248 8603 8605 "src/unix/lwt_bytes.ml" 253 8772 8843
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 257 8925 8929 "src/unix/lwt_bytes.ml" 257 8925 8941
+type(
+  t -> int -> unit Lwt.t
+)
+ident(
+  def wait_mincore "src/unix/lwt_bytes.ml" 267 9249 9254 "src/unix/lwt_bytes.ml" 1 0 -1
+)
+"src/unix/lwt_bytes.ml" 257 8925 8942 "src/unix/lwt_bytes.ml" 257 8925 8948
+type(
+  t
+)
+ident(
+  def buffer "src/unix/lwt_bytes.ml" 257 8925 8949 "src/unix/lwt_bytes.ml" 267 9249 9254
+)
+"src/unix/lwt_bytes.ml" 257 8925 8949 "src/unix/lwt_bytes.ml" 257 8925 8955
+type(
+  int
+)
+ident(
+  def offset "src/unix/lwt_bytes.ml" 258 8958 8960 "src/unix/lwt_bytes.ml" 267 9249 9254
+)
+"src/unix/lwt_bytes.ml" 258 8958 8963 "src/unix/lwt_bytes.ml" 258 8958 8969
+type(
+  int
+)
+ident(
+  int_ref offset "src/unix/lwt_bytes.ml" 257 8925 8949 "src/unix/lwt_bytes.ml" 257 8925 8955
+)
+"src/unix/lwt_bytes.ml" 258 8958 8970 "src/unix/lwt_bytes.ml" 258 8958 8971
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/unix/lwt_bytes.ml" 258 8958 8972 "src/unix/lwt_bytes.ml" 258 8958 8973
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 258 8958 8963 "src/unix/lwt_bytes.ml" 258 8958 8973
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 258 8958 8974 "src/unix/lwt_bytes.ml" 258 8958 8976
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/unix/lwt_bytes.ml" 258 8958 8977 "src/unix/lwt_bytes.ml" 258 8958 8983
+type(
+  int
+)
+ident(
+  int_ref offset "src/unix/lwt_bytes.ml" 257 8925 8949 "src/unix/lwt_bytes.ml" 257 8925 8955
+)
+"src/unix/lwt_bytes.ml" 258 8958 8984 "src/unix/lwt_bytes.ml" 258 8958 8986
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/unix/lwt_bytes.ml" 258 8958 8987 "src/unix/lwt_bytes.ml" 258 8958 8993
+type(
+  t -> int
+)
+ident(
+  int_ref length "src/unix/lwt_bytes.ml" 31 1109 1113 "src/unix/lwt_bytes.ml" 31 1109 1119
+)
+"src/unix/lwt_bytes.ml" 258 8958 8994 "src/unix/lwt_bytes.ml" 258 8958 9000
+type(
+  t
+)
+ident(
+  int_ref buffer "src/unix/lwt_bytes.ml" 257 8925 8942 "src/unix/lwt_bytes.ml" 257 8925 8948
+)
+"src/unix/lwt_bytes.ml" 258 8958 8987 "src/unix/lwt_bytes.ml" 258 8958 9000
+call(
+  stack
+)
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 258 8958 8977 "src/unix/lwt_bytes.ml" 258 8958 9000
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 258 8958 8963 "src/unix/lwt_bytes.ml" 258 8958 9000
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 259 9006 9010 "src/unix/lwt_bytes.ml" 259 9006 9021
+type(
+  string -> unit Lwt.t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/unix/lwt_bytes.ml" 259 9006 9022 "src/unix/lwt_bytes.ml" 259 9006 9046
+type(
+  string
+)
+"src/unix/lwt_bytes.ml" 259 9006 9010 "src/unix/lwt_bytes.ml" 259 9006 9046
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_bytes.ml" 261 9060 9068 "src/unix/lwt_bytes.ml" 261 9060 9073
+type(
+  bool array
+)
+ident(
+  def state "src/unix/lwt_bytes.ml" 262 9089 9093 "src/unix/lwt_bytes.ml" 266 9202 9248
+)
+"src/unix/lwt_bytes.ml" 261 9060 9078 "src/unix/lwt_bytes.ml" 261 9060 9083
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 261 9060 9076 "src/unix/lwt_bytes.ml" 261 9060 9085
+type(
+  bool array
+)
+"src/unix/lwt_bytes.ml" 262 9089 9093 "src/unix/lwt_bytes.ml" 262 9089 9100
+type(
+  t -> int -> bool array -> unit
+)
+ident(
+  int_ref mincore "src/unix/lwt_bytes.ml" 247 8568 8572 "src/unix/lwt_bytes.ml" 247 8568 8579
+)
+"src/unix/lwt_bytes.ml" 262 9089 9101 "src/unix/lwt_bytes.ml" 262 9089 9107
+type(
+  t
+)
+ident(
+  int_ref buffer "src/unix/lwt_bytes.ml" 257 8925 8942 "src/unix/lwt_bytes.ml" 257 8925 8948
+)
+"src/unix/lwt_bytes.ml" 262 9089 9109 "src/unix/lwt_bytes.ml" 262 9089 9115
+type(
+  int
+)
+ident(
+  int_ref offset "src/unix/lwt_bytes.ml" 257 8925 8949 "src/unix/lwt_bytes.ml" 257 8925 8955
+)
+"src/unix/lwt_bytes.ml" 262 9089 9116 "src/unix/lwt_bytes.ml" 262 9089 9117
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/unix/lwt_bytes.ml" 262 9089 9119 "src/unix/lwt_bytes.ml" 262 9089 9125
+type(
+  int
+)
+ident(
+  int_ref offset "src/unix/lwt_bytes.ml" 257 8925 8949 "src/unix/lwt_bytes.ml" 257 8925 8955
+)
+"src/unix/lwt_bytes.ml" 262 9089 9126 "src/unix/lwt_bytes.ml" 262 9089 9129
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/unix/lwt_bytes.ml" 262 9089 9130 "src/unix/lwt_bytes.ml" 262 9089 9139
+type(
+  int
+)
+ident(
+  int_ref page_size "src/unix/lwt_bytes.ml" 243 8450 8454 "src/unix/lwt_bytes.ml" 243 8450 8463
+)
+"src/unix/lwt_bytes.ml" 262 9089 9118 "src/unix/lwt_bytes.ml" 262 9089 9140
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 262 9089 9108 "src/unix/lwt_bytes.ml" 262 9089 9141
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 262 9089 9142 "src/unix/lwt_bytes.ml" 262 9089 9147
+type(
+  bool array
+)
+ident(
+  int_ref state "src/unix/lwt_bytes.ml" 261 9060 9068 "src/unix/lwt_bytes.ml" 261 9060 9073
+)
+"src/unix/lwt_bytes.ml" 262 9089 9093 "src/unix/lwt_bytes.ml" 262 9089 9147
+call(
+  stack
+)
+type(
+  unit
+)
+"src/unix/lwt_bytes.ml" 263 9149 9156 "src/unix/lwt_bytes.ml" 263 9149 9161
+type(
+  bool array
+)
+ident(
+  int_ref state "src/unix/lwt_bytes.ml" 261 9060 9068 "src/unix/lwt_bytes.ml" 261 9060 9073
+)
+"src/unix/lwt_bytes.ml" 263 9149 9163 "src/unix/lwt_bytes.ml" 263 9149 9164
+type(
+  int
+)
+"src/unix/lwt_bytes.ml" 263 9149 9156 "src/unix/lwt_bytes.ml" 263 9149 9165
+type(
+  bool
+)
+"src/unix/lwt_bytes.ml" 264 9171 9177 "src/unix/lwt_bytes.ml" 264 9171 9192
+type(
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return_unit
+)
+"src/unix/lwt_bytes.ml" 266 9202 9208 "src/unix/lwt_bytes.ml" 266 9202 9215
+type(
+  ?async_method:Lwt_unix.async_method -> unit Lwt_unix.job -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_unix.run_job
+)
+"src/unix/lwt_bytes.ml" 266 9202 9217 "src/unix/lwt_bytes.ml" 266 9202 9233
+type(
+  t -> int -> unit Lwt_unix.job
+)
+ident(
+  int_ref wait_mincore_job "src/unix/lwt_bytes.ml" 255 8845 8845 "src/unix/lwt_bytes.ml" 255 8845 8923
+)
+"src/unix/lwt_bytes.ml" 266 9202 9234 "src/unix/lwt_bytes.ml" 266 9202 9240
+type(
+  t
+)
+ident(
+  int_ref buffer "src/unix/lwt_bytes.ml" 257 8925 8942 "src/unix/lwt_bytes.ml" 257 8925 8948
+)
+"src/unix/lwt_bytes.ml" 266 9202 9241 "src/unix/lwt_bytes.ml" 266 9202 9247
+type(
+  int
+)
+ident(
+  int_ref offset "src/unix/lwt_bytes.ml" 257 8925 8949 "src/unix/lwt_bytes.ml" 257 8925 8955
+)
+"src/unix/lwt_bytes.ml" 266 9202 9216 "src/unix/lwt_bytes.ml" 266 9202 9248
+type(
+  unit Lwt_unix.job
+)
+"src/unix/lwt_bytes.ml" 266 9202 9208 "src/unix/lwt_bytes.ml" 266 9202 9248
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_bytes.ml" 263 9149 9153 "src/unix/lwt_bytes.ml" 266 9202 9248
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_bytes.ml" 262 9089 9093 "src/unix/lwt_bytes.ml" 266 9202 9248
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_bytes.ml" 260 9047 9054 "src/unix/lwt_bytes.ml" 267 9249 9254
+type(
+  unit Lwt.t
+)
+"src/unix/lwt_bytes.ml" 258 8958 8960 "src/unix/lwt_bytes.ml" 267 9249 9254
+type(
+  unit Lwt.t
+)
